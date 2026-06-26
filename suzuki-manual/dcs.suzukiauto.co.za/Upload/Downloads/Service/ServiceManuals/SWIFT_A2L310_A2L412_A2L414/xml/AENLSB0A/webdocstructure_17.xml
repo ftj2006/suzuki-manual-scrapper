@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <b t="Fuel System">
-<c i="1" t="K14C">
+<c i="1" t="">
 <t s="0" t="Precautions">
 <s i="AENLSB0A1710001" t="Precautions for Fuel System Service">
 </s>
@@ -108,106 +108,5 @@
 </s>
 </t>
 </c>
-<c i="2" t="K14D">
-<t s="0" t="Precautions">
-<s i="AENLSB0A1720001" t="Precautions for Fuel System Service">
-</s>
-</t>
-<t s="1" t="General Description">
-<s i="AENLSB0A1721001" t="Fuel System Description">
-</s>
-<s i="AENLSB0A1721002" t="Fuel Pump Description">
-</s>
-<s i="AENLSB0A1721004" t="High Pressure Fuel Pump Description">
-</s>
-</t>
-<t s="2" t="Schematic and Routing Diagram">
-<s i="AENLSB0A1722001" t="Fuel Delivery System Diagram">
-</s>
-<s i="AENLSB0A1722002" t="Fuel Injector Control System Circuit Diagram">
-</s>
-<s i="AENLSB0A1722003" t="Fuel Pump Control System Circuit Diagram">
-</s>
-</t>
-<t s="4" t="Diagnostic Information and Procedures">
-<s i="AENLSB0A1724001" t="Fuel System Inspection">
-</s>
-<s i="AENLSB0A1724002" t="Power Balance Test">
-</s>
-<s i="AENLSB0A1724003" t="Fuel Injector Circuit Check">
-</s>
-<s i="AENLSB0A1724004" t="Fuel Pump and Its Circuit Check">
-</s>
-<s i="AENLSB0A1724005" t="High Pressure Fuel Pump and Its Circuit Check">
-</s>
-<s i="AENLSB0A1724006" t="Fuel Pressure Sensor and Its Circuit Check">
-</s>
-<s i="AENLSB0A1724007" t="Low-Pressure Fuel Supply Circuit Check">
-</s>
-<s i="AENLSB0A1724008" t="High-Pressure Fuel Supply Circuit Check">
-</s>
-<s i="AENLSB0A1724009" t="Fuel Low-Pressure Basic Check">
-</s>
-<s i="AENLSB0A1724010" t="Fuel High-Pressure Basic Check">
-</s>
-</t>
-<t s="6" t="Repair Instructions">
-<s i="AENLSB0A1726001" t="Fuel System Components">
-</s>
-<s i="AENLSB0A1726002" t="Fuel Hose Disconnection and Reconnection">
-</s>
-<s i="AENLSB0A1726003" t="Fuel Pressure Relief Procedure">
-</s>
-<s i="AENLSB0A1726004" t="Fuel Leakage Check Procedure">
-</s>
-<s i="AENLSB0A1726005" t="Fuel Line On-Vehicle Inspection">
-</s>
-<s i="AENLSB0A1726006" t="Fuel Pipe Removal and Installation">
-</s>
-<s i="AENLSB0A1726007" t="Fuel Pressure Sensor On-Vehicle Inspection">
-</s>
-<s i="AENLSB0A1726008" t="High Pressure Pipe Removal and Installation">
-</s>
-<s i="AENLSB0A1726009" t="High Pressure Fuel Pump On-Vehicle Inspection">
-</s>
-<s i="AENLSB0A1726010" t="High Pressure Fuel Pump Removal and Installation">
-</s>
-<s i="AENLSB0A1726011" t="High Pressure Fuel Pump Inspection">
-</s>
-<s i="AENLSB0A1726012" t="Fuel Injector On-Vehicle Inspection">
-</s>
-<s i="AENLSB0A1726013" t="Fuel Injector Removal and Installation">
-</s>
-<s i="AENLSB0A1726014" t="Fuel Injector Inspection">
-</s>
-<s i="AENLSB0A1726017" t="Fuel Filler Cap Inspection">
-</s>
-<s i="AENLSB0A1726018" t="Fuel Tank Removal and Installation">
-</s>
-<s i="AENLSB0A1726019" t="Fuel Tank Inspection">
-</s>
-<s i="AENLSB0A1726020" t="Fuel Tank Flushing Procedure">
-</s>
-<s i="AENLSB0A1726021" t="Fuel Pump On-Vehicle Inspection">
-</s>
-<s i="AENLSB0A1726022" t="Fuel Pump Assembly Removal and Installation">
-</s>
-<s i="AENLSB0A1726023" t="Fuel Pump Inspection">
-</s>
-<s i="AENLSB0A1726024" t="Fuel Level Sensor Removal and Installation">
-</s>
-<s i="AENLSB0A1726025" t="Fuel Level Sensor Inspection">
-</s>
-</t>
-<t s="7" t="Specifications">
-<s i="AENLSB0A1727001" t="Tightening Torque Specifications">
-</s>
-</t>
-<t s="8" t="Special Tools and Equipment">
-<s i="AENLSB0A1728001" t="Recommended Service Material">
-</s>
-<s i="AENLSB0A1728002" t="Special Tool">
-</s>
-</t>
-</c>
+
 </b>

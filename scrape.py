@@ -172,6 +172,269 @@ def extract_symbol_references(text: str) -> List[str]:
     return symbols
 
 
+def is_k14_variant_label(text: str, variant: str) -> bool:
+    normalized = re.sub(r"\s+", " ", text or "").strip().upper()
+    return normalized == variant.upper() or normalized == f"{variant.upper()} MODEL"
+
+
+def strip_k14_variant_suffix(text: str) -> str:
+    cleaned = re.sub(r"\s*[\(:-]?\s*K14[CD](?:\s+MODEL)?\s*[\):]?\s*$", "", text or "", flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def normalize_k14_foreword_page(soup: BeautifulSoup) -> None:
+    for topic in list(soup.select("div.topic")):
+        topic_text = re.sub(r"\s+", " ", topic.get_text(" ", strip=True)).upper()
+        if "K14D" in topic_text and "K14C" not in topic_text:
+            topic.decompose()
+            continue
+
+        for row in list(topic.find_all("tr")):
+            row_text = re.sub(r"\s+", " ", row.get_text(" ", strip=True)).upper()
+            if "K14D" in row_text and "K14C" not in row_text:
+                row.decompose()
+
+
+def normalize_k14_navigation_page(page_path: Path) -> None:
+    if page_path.name.lower() not in {"navi.html", "foreword03.htm"} or not page_path.exists():
+        return
+
+    try:
+        soup = BeautifulSoup(page_path.read_text(encoding="utf-8", errors="ignore"), "html.parser")
+    except Exception:
+        return
+
+    if page_path.name.lower() == "foreword03.htm":
+        normalize_k14_foreword_page(soup)
+
+    for block in soup.select('div[id^="blk"]'):
+        keep_block = False
+        skip_block = False
+
+        for child in list(block.children):
+            if not getattr(child, "name", None):
+                if skip_block:
+                    child.extract()
+                continue
+
+            classes = set(child.get("class", []))
+            text = strip_k14_variant_suffix(child.get_text(" ", strip=True))
+
+            if child.name == "div" and "sc" in classes and is_k14_variant_label(text, "K14D"):
+                skip_block = True
+                keep_block = False
+                child.decompose()
+                continue
+
+            if child.name == "div" and "sc" in classes and is_k14_variant_label(text, "K14C"):
+                skip_block = False
+                keep_block = True
+                child.decompose()
+                continue
+
+            if skip_block:
+                child.decompose()
+                continue
+
+            for node in child.find_all(string=True):
+                stripped = strip_k14_variant_suffix(str(node))
+                if stripped != str(node):
+                    node.replace_with(stripped)
+
+        if not keep_block:
+            for node in block.find_all(string=True):
+                stripped = strip_k14_variant_suffix(str(node))
+                if stripped != str(node):
+                    node.replace_with(stripped)
+
+    for tag in list(soup.find_all(True)):
+        if not getattr(tag, "attrs", None):
+            continue
+        combined_text = " ".join(
+            part for part in [tag.get("title", ""), tag.get_text(" ", strip=True)] if part
+        )
+        normalized_text = re.sub(r"\s+", " ", combined_text).strip().upper()
+        if not normalized_text:
+            continue
+        if "K14D" in normalized_text:
+            tag.decompose()
+            continue
+        if "K14C" in normalized_text:
+            if tag.has_attr("title"):
+                tag["title"] = strip_k14_variant_suffix(tag["title"])
+            for node in tag.find_all(string=True):
+                stripped = strip_k14_variant_suffix(str(node))
+                if stripped != str(node):
+                    node.replace_with(stripped)
+
+    for node in soup.find_all(string=True):
+        stripped = strip_k14_variant_suffix(str(node))
+        if stripped != str(node):
+            node.replace_with(stripped)
+
+    page_path.write_text(str(soup), encoding="utf-8")
+
+
+def normalize_k14_navigation_pages(output_dir: Path) -> None:
+    for page_path in list(output_dir.rglob("navi.html")) + list(output_dir.rglob("Foreword03.htm")):
+        normalize_k14_navigation_page(page_path)
+
+
+def normalize_k14_webdocstructure_file(file_path: Path) -> None:
+    text = file_path.read_text(encoding="utf-8", errors="ignore")
+
+    if file_path.name.lower().endswith("vars2.xml"):
+        parts = text.split("::")
+        filtered_parts: List[str] = []
+        for part in parts:
+            if "K14D" in part.upper():
+                continue
+            filtered_parts.append(strip_k14_variant_suffix(part))
+        file_path.write_text("::".join(filtered_parts), encoding="utf-8")
+        return
+
+    # Remove K14D configuration branches that generate the dynamic K14D tree.
+    text = re.sub(
+        r"<c\b[^>]*\bt\s*=\s*\"[^\"]*K14D[^\"]*\"[^>]*>.*?</c>",
+        "",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = re.sub(
+        r"<configtype\b[^>]*\btitle\s*=\s*\"[^\"]*K14D[^\"]*\"[^>]*>.*?</configtype>",
+        "",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+    # Remove remaining single entries that are specific to K14D.
+    text = re.sub(r"^.*K14D.*\n?", "", text, flags=re.IGNORECASE | re.MULTILINE)
+
+    # Normalize K14C labels that remain after flattening.
+    text = re.sub(r"\s*\(K14C(?:\s+MODEL)?\)", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bK14C(?:\s+MODEL)?\b", "", text, flags=re.IGNORECASE)
+
+    file_path.write_text(text, encoding="utf-8")
+
+
+def normalize_k14_webdocstructure_files(output_dir: Path) -> None:
+    for file_path in output_dir.rglob("webdocstructure*.xml"):
+        normalize_k14_webdocstructure_file(file_path)
+
+
+def remove_k14d_only_resources(output_dir: Path) -> None:
+    removable_extensions = {".xml", ".htm", ".html"}
+    candidates: List[Path] = []
+
+    for resource_path in output_dir.rglob("*"):
+        if resource_path.is_dir():
+            continue
+        if resource_path.suffix.lower() not in removable_extensions:
+            continue
+        try:
+            text = resource_path.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            continue
+        if "K14D" in text and "K14C" not in text:
+            candidates.append(resource_path)
+
+    for resource_path in candidates:
+        try:
+            resource_path.unlink()
+        except FileNotFoundError:
+            continue
+
+    for directory_path in sorted((path for path in output_dir.rglob("*") if path.is_dir()), reverse=True):
+        try:
+            next(directory_path.iterdir())
+        except StopIteration:
+            try:
+                directory_path.rmdir()
+            except OSError:
+                continue
+
+
+def remove_k14d_related_only_image_assets(output_dir: Path) -> None:
+    page_extensions = {".xml", ".htm", ".html"}
+    asset_extensions = {".svg", ".png", ".gif", ".jpg", ".jpeg"}
+
+    def is_page(path: Path) -> bool:
+        if path.suffix.lower() not in page_extensions:
+            return False
+        normalized = path.as_posix().lower()
+        return "/image/" not in normalized and "/icon/" not in normalized and "/symbol/" not in normalized
+
+    pages = [path for path in output_dir.rglob("*") if path.is_file() and is_page(path)]
+    assets = [path for path in output_dir.rglob("*") if path.is_file() and path.suffix.lower() in asset_extensions]
+
+    assets_by_name: Dict[str, set[Path]] = {}
+    assets_by_image_suffix: Dict[str, set[Path]] = {}
+    for asset_path in assets:
+        normalized = asset_path.as_posix().lower()
+        assets_by_name.setdefault(asset_path.name.lower(), set()).add(asset_path)
+        marker = normalized.find("/image/")
+        if marker != -1:
+            suffix = normalized[marker + 1 :]
+            assets_by_image_suffix.setdefault(suffix, set()).add(asset_path)
+
+    src_href_pattern = re.compile(
+        r'(?:src|href)\s*=\s*["\']([^"\']+\.(?:svg|png|gif|jpe?g)(?:\?[^"\']*)?)["\']',
+        re.IGNORECASE,
+    )
+    css_url_pattern = re.compile(r"url\(([^)]+\.(?:svg|png|gif|jpe?g)(?:\?[^)]+)?)\)", re.IGNORECASE)
+    graphic_pattern = re.compile(r'graphicname\s*=\s*"([^"]+)"', re.IGNORECASE)
+
+    k14d_pages: set[Path] = set()
+    non_k14d_pages: set[Path] = set()
+    references: Dict[Path, set[Path]] = {}
+
+    for page_path in pages:
+        text = page_path.read_text(encoding="utf-8", errors="ignore")
+        if "K14D" in text.upper():
+            k14d_pages.add(page_path)
+        else:
+            non_k14d_pages.add(page_path)
+
+        candidates = src_href_pattern.findall(text)
+        candidates.extend(css_url_pattern.findall(text))
+
+        for graphic_name in graphic_pattern.findall(text):
+            candidate = graphic_name.strip()
+            if not candidate:
+                continue
+            if "." not in candidate:
+                candidate = f"{candidate}.jpg"
+            if Path(candidate).suffix.lower() in asset_extensions:
+                candidates.append(candidate)
+
+        for raw in candidates:
+            parsed = urlparse(raw.strip().strip('"\''))
+            lookup_path = (parsed.path or raw).lower()
+            matched: set[Path] = set()
+
+            marker = lookup_path.find("/image/")
+            if marker != -1:
+                matched |= assets_by_image_suffix.get(lookup_path[marker + 1 :], set())
+
+            marker = lookup_path.find("image/")
+            if marker != -1:
+                matched |= assets_by_image_suffix.get(lookup_path[marker:], set())
+
+            file_name = Path(lookup_path).name
+            if file_name:
+                matched |= assets_by_name.get(file_name, set())
+
+            for matched_asset in matched:
+                references.setdefault(matched_asset, set()).add(page_path)
+
+    for asset_path, referenced_by in references.items():
+        if any(page in k14d_pages for page in referenced_by) and not any(page in non_k14d_pages for page in referenced_by):
+            try:
+                asset_path.unlink()
+            except FileNotFoundError:
+                continue
+
+
 def build_graphic_urls(remote_base_url: str, graphic_folder: str, graphic_base: str, graphic_extension: str) -> List[str]:
     candidates: List[str] = []
 
@@ -1393,6 +1656,10 @@ def scrape_manual(start_url: str, output_dir: Path) -> Path:
     ensure_required_static_assets(start_url, output_dir, origin)
     ensure_foreword_html_assets(start_url, output_dir, origin, url_map)
     ensure_symbol_assets(start_url, output_dir, origin, url_map)
+    normalize_k14_webdocstructure_files(output_dir)
+    normalize_k14_navigation_pages(output_dir)
+    remove_k14d_only_resources(output_dir)
+    remove_k14d_related_only_image_assets(output_dir)
     hydrate_placeholder_images(start_url, output_dir, origin)
 
     return shell_path
