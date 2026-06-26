@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1B">
+<servcat sctnbr = "01" scnbr = "02">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1226009" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "1">
+<title>
+Fuel Cut Valve Inspection
+</title>
+<s1>
+<ptxt>
+Remove EVAP canister. 
+<intxreftitleoff1 refid = "AENLSB0A1226003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check fuel cut valve for operation as follows.
+</ptxt>
+<s2>
+<ptxt>
+Connect special tool (vacuum pump gauge) to fuel EVAP hose (1).
+</ptxt>
+<attention3>
+<ptxt>
+Before using vacuum pump gauge, read its Operator’s Manual to know how to use it.
+</ptxt>
+</attention3>
+<servicetool>
+<servicetoolitem id = "L1B211">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09917-47020">
+09917–47020
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s2>
+<s2>
+<ptxt>
+Check that air can be sucked when negative pressure is applied to fuel cut valve.
+</ptxt>
+<ptxt>
+Using “VACUUM” mode of the special tool, check that air can be sucked when negative pressure is applied to fuel cut valve.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Check that air flows into tank when pressure is applied to fuel cut valve.
+</ptxt>
+<ptxt>
+Using “PRESSURE” mode of the special tool, check that air flows into tank when pressure is applied to fuel cut valve.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A121004.jpg" width = "88.000mm" height = "107.458mm" ver = "01" gw = "209" gh = "288"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+If faulty condition is found, replace fuel tank. 
+<intxreftitleoff1 refid = "AENLSB0A1726022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

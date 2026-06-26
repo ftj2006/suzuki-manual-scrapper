@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "3A">
+<servcat sctnbr = "03" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A3126002" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rear Wheel Bearing Check
+</title>
+<s1>
+<ptxt>
+Hoist vehicle and remove rear wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear brake disc. 
+<intxreftitleoff1 refid = "AENLSB0A4306005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check thrust play of rear wheel bearing as follows.
+</ptxt>
+<ptxt>
+If measured value exceeds the limit, replace rear wheel hub assembly.
+</ptxt>
+<s2>
+<ptxt>
+Apply measuring tip of dial gauge to flat-surface of rear wheel hub assembly.
+</ptxt>
+<attention3>
+<ptxt>
+Apply measuring tip of dial gauge perpendicular to flat-surface of rear wheel hub assembly as much as possible.
+</ptxt>
+</attention3>
+</s2>
+<s2>
+<ptxt>
+Gripping hub, apply push pull force to the rear wheel hub assembly.
+</ptxt>
+<spec-sdm>
+<sdm-title>
+Rear wheel bearing thrust play
+</sdm-title>
+<sdm1>
+<sdm-condition>
+Limit
+</sdm-condition>
+<sdm-value>
+0.05 mm (0.002 in.)
+</sdm-value>
+</sdm1>
+</spec-sdm>
+<figure>
+<graphic graphicname = "ILSB0A312005.swf" width = "88.000mm" height = "59.652mm" ver = "01" gw = "191" gh = "153"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install rear brake disc. 
+<intxreftitleoff1 refid = "AENLSB0A4306005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install rear wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check wheel bearing for rattle by shaking wheel in axial direction, and for noise and smooth rotation by turning wheel.
+</ptxt>
+<ptxt>
+If check result is not OK, replace rear wheel hub assembly. 
+<intxreftitleoff1 refid = "AENLSB0A3126003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A311009.swf" width = "88.000mm" height = "53.244mm" ver = "01" gw = "163" gh = "134"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AA121005" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Speed Limiter System Construction
+</title>
+<ptxt>
+Speed limiter system is a system to control the vehicle speed not to exceed maximum speed which is set by the driver within the vehicle speed of 30 to 240 km/h (20 to 150 mile/h).
+</ptxt>
+<ptxt>
+The system mainly consists of electric throttle body assembly, APP sensor, ECM, cruise control switches (LIMIT switch, SET/– switch, RES/+ switch and CANCEL switch), etc.
+</ptxt>
+<servinfosub id = "AENLSB0AA121005001">
+<title>
+Speed Limiter Function
+</title>
+<ptxt>
+While speed limiter system is functioning, the maximum speed is indicated in the information display and, when accelerator pedal is depressed, the system controls vehicle speed not to exceed the preset maximum speed by electric throttle valve opening.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA121005002">
+<title>
+Warning Function
+</title>
+<ptxt>
+If vehicle speed exceeds the preset maximum speed at downhill driving etc., the maximum speed indication in the information display blinks and warning buzzer sounds intermittently.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA121005003">
+<title>
+Temporary Canceling Function
+</title>
+<ptxt>
+If accelerator pedal is depressed quickly and deeply, the system intermits the speed control and vehicle speed changes depending on accelerator pedal operation even above the preset maximum speed, and the maximum speed indication in the information display blinks and warning buzzer sounds once.
+</ptxt>
+<ptxt>
+The system keeps the intermittent speed control until the vehicle speed becomes lower than the preset maximum speed.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

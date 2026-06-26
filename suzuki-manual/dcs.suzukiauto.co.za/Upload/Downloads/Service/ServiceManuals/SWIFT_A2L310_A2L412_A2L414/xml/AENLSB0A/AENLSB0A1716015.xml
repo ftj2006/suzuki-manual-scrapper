@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1716015" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Injector Carbon Deposit Inspection
+</title>
+<attention3>
+<ptxt>
+If injector cleaning is not performed periodically as specified in “Scheduled Maintenance”, fuel injectors could become inoperative affected by carbon deposits.
+</ptxt>
+</attention3>
+<ptxt>
+Before performing the injector inspection, observe 
+<intxref refid = "AENLSB0A1710001">Precautions for Fuel System Service:K14C</intxref>
+.
+</ptxt>
+<s1>
+<ptxt>
+Set ignition “OFF” and connect SUZUKI scan tool to DLC (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G114">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A171004.swf" width = "88.000mm" height = "87.737mm" ver = "01" gw = "205" gh = "232"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Start engine and warm it up to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Data List” mode on SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+While idling, check “Long Term Fuel Trim” under “Data List”.
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+“Long Term Fuel Trim” standard: less than 23%
+</emph>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If “Long Term Fuel Trim” exceeds the limit, perform “Fuel Injector Cleaning”. 
+<intxreftitleoff1 refid = "AENLSB0A1716016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+After performing “Fuel Injector Cleaning”, check “Long Term Fuel Trim” again and, if the measured value still exceeds the limit, replace all fuel injectors. 
+<intxreftitleoff1 refid = "AENLSB0A1716013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

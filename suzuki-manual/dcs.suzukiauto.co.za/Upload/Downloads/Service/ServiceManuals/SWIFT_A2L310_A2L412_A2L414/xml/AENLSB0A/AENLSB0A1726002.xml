@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1726002" svcinfotypenbr = "08" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Fuel Hose Disconnection and Reconnection
+</title>
+<ptxt>
+Before performing the following procedure, observe 
+<intxref refid = "AENLSB0A1720001">Precautions for Fuel System Service:K14D</intxref>
+.
+</ptxt>
+<servinfosub id = "AENLSB0A1726002001" page = "1">
+<title>
+Non-Quick Joint Connections
+</title>
+<attention3>
+<ptxt>
+Install hose in the raised part of pipe securely.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "ILSB0A172007.jpg" width = "183.000mm" height = "132.001mm" ver = "01" gw = "467" gh = "358"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+3 – 7 mm (0.12 – 0.27 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“f”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+45&#176;
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Clamp
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“b”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+2 – 6 mm (0.07 – 0.23 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“g”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+22.5&#176;
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Vehicle leftward
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“c”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+0 – 8 mm (0 – 0.31 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“h”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+0&#176;
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Vehicle rightward
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“d”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+5 – 12 mm (0.20 – 0.47 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Pipe
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Vehicle forward
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“e”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+1 mm (0.04 in.) or less
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Hose
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A1726002002" page = "2">
+<title>
+Fuel Tank Filler Hose
+</title>
+<topic id = "AENLSB0A1726002003">
+<title>
+Disconnection
+</title>
+<s1>
+<ptxt>
+Remove fuel filler cap.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Insert hose of hand operated pump into fuel tank through fuel filler neck.
+</ptxt>
+<attention4>
+<ptxt>
+The hose of the hand operated pump could damage the fuel tank inlet valve if excessive force is applied when inserting or removing it to or from the fuel tank.
+</ptxt>
+<ptxt>
+Do not apply excessive force when inserting or removing the hose of the hand operated pump.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Pump out fuel in space “a” shown in figure.
+</ptxt>
+<attention1>
+<ptxt>
+There is a risk of fire or explosion due to static electricity if the drained fuel is stored in an open container or plastic container.
+</ptxt>
+<ptxt>
+Store the fuel in a sealed metal container.
+</ptxt>
+</attention1>
+<figure>
+<graphic graphicname = "IBP70A170006.swf" width = "88.000mm" height = "26.327mm" ver = "01" gw = "164" gh = "58"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Fuel tank filler hose
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove hose of hand operated pump from fuel filler neck.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Move position of fuel tank filler hose clamps (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove fuel tank filler hose (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171009.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "199" gh = "141"/>
+</figure>
+</s1>
+</topic>
+<topic id = "AENLSB0A1726002004" page = "2">
+<title>
+Reconnection
+</title>
+<s1>
+<ptxt>
+Install fuel tank filler hose (1) to fuel tank (2).
+</ptxt>
+<attention3>
+<ptxt>
+Install the fuel tank filler hose with identification marks on the hose end facing up (approximately).
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Position fuel tank filler hose clamp (3) as specified.
+</ptxt>
+<spec>
+<title>
+Clearance between fuel tank and fuel tank filler hose clamp
+</title>
+<ptxt>
+“a”: 2 – 6 mm (0.07 – 0.23 in.)
+</ptxt>
+</spec>
+<spec>
+<title>
+Clearance between fuel tank and fuel tank filler hose
+</title>
+<ptxt>
+“b”: 1 mm (0.04 in.) or less
+</ptxt>
+</spec>
+<spec>
+<title>
+Position of clamp mid-point within range
+</title>
+<ptxt>
+“c”: 0&#176;
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A172008.jpg" width = "88.000mm" height = "67.728mm" ver = "01" gw = "213" gh = "175"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Rotate plastic clamp (1) in arrow direction.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171011.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "199" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Apply fuel to all around the outer circumference of fuel tank filler hose attachment section of the fuel filler neck.
+</ptxt>
+<attention4>
+<ptxt>
+Remaining lint from cloth may cause fuel leakage.
+</ptxt>
+<ptxt>
+Use lint-free cloth to apply fuel.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+Apply fuel to insert fuel tank filler hose into proper position.
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Insert fuel tank filler hose (1) to fuel filler neck.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Position fuel tank filler hose clamp (2) as specified.
+</ptxt>
+<spec>
+<title>
+Clearance between spool and fuel filler hose end
+</title>
+<ptxt>
+“a”: 0 – 8 mm (0 – 0.31 in.)
+</ptxt>
+</spec>
+<spec>
+<title>
+Clearance between fuel tank filler hose clamp and fuel filler hose end
+</title>
+<ptxt>
+“b”: 5 – 12 mm (0.20 – 0.47 in.)
+</ptxt>
+</spec>
+<spec>
+<title>
+Position of clamp mid-point within range
+</title>
+<ptxt>
+“c”: 22.5&#176;
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "IGSB0A171012.jpg" width = "88.000mm" height = "57.248mm" ver = "02" gw = "230" gh = "146"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Visually check bulge on fuel tank filler hose. Repeat Step 4) – 6) if check result is not as specified.
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Fuel tank filler hose bulge is in good shape
+</emph>
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Bulge “A” = “B”: In uniform contact with pipe 
+</emph>
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171013.swf" width = "88.000mm" height = "59.671mm" ver = "01" gw = "218" gh = "153"/>
+</figure>
+<ptxt>
+<emph etype = "bold">
+Fuel tank filler hose bulge is not in good shape
+</emph>
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Bulge “C”: In excess contact with pipe
+</emph>
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Bulge “D”: In poor contact with pipe
+</emph>
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171014.swf" width = "88.000mm" height = "59.890mm" ver = "01" gw = "227" gh = "153"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Turn the plastic clamp, and clamp the hoses.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Lower vehicle.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If fuel is drained, return fuel to fuel tank.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install fuel filler cap.
+</ptxt>
+</s1>
+</topic>
+<topic id = "AENLSB0A1726002005" page = "2">
+<title>
+Clamp other than around fuel tank
+</title>
+<figure>
+<graphic graphicname = "I7V20A171005.swf" width = "88.000mm" height = "71.786mm" ver = "01" gw = "170" gh = "186"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.772in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.984in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+With short pipe, fit hose as far as it reaches the end of pipe joint as shown.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+Pipe
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+With the above type pipe, fit hose as far as it reaches bulge on fuel pipe.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Hose
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+3 – 7 mm (0.12 – 0.28 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Clamp
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A1726002006" page = "2">
+<title>
+Quick Joint Connections
+</title>
+<topic id = "AENLSB0A1726002007">
+<title>
+Type A (Lock button type)
+</title>
+<subtopic id = "AENLSB0A1726002008">
+<title>
+Disconnection
+</title>
+<s1>
+<ptxt>
+Remove mud, dust and/or foreign material between pipe (1) and quick joint (2) using compressed air.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect quick joint from fuel pipe while pushing lock button (3) on joint.
+</ptxt>
+<figure>
+<graphic graphicname = "I8T401171011.swf" width = "88.000mm" height = "35.340mm" ver = "01" gw = "138" gh = "84"/>
+</figure>
+</s1>
+</subtopic>
+<subtopic id = "AENLSB0A1726002009">
+<title>
+Reconnection
+</title>
+<ptxt>
+Insert quick joint to fuel pipe until they lock securely (a click is heard), and check that quick joint is not disconnected by hand.
+</ptxt>
+</subtopic>
+</topic>
+<topic id = "AENLSB0A1726002010">
+<title>
+Type B (Special tool inserting type)
+</title>
+<subtopic id = "AENLSB0A1726002011">
+<title>
+Disconnection
+</title>
+<s1>
+<ptxt>
+Remove mud, dust and/or foreign material between pipe (1) and quick joint (2) by blowing compressed air.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Unlock joint lock by inserting special tool between pipe and quick joint.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G224">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09919-47020">
+09919–47020
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s1>
+<s1>
+<ptxt>
+Disconnect quick joint from pipe.
+</ptxt>
+<figure>
+<graphic graphicname = "I4RS0A170019.swf" width = "88.000mm" height = "35.194mm" ver = "01" gw = "137" gh = "84"/>
+</figure>
+</s1>
+</subtopic>
+<subtopic id = "AENLSB0A1726002012">
+<title>
+Reconnection
+</title>
+<ptxt>
+Insert quick joint to fuel pipe until they lock securely (a click is heard), and check that quick joint is not disconnected by hand.
+</ptxt>
+</subtopic>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

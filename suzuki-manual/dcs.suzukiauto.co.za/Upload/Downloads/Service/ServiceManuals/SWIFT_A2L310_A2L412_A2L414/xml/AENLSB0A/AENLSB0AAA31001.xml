@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AAA31001" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Parking Sensor System Description
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Parking sensor system functions to warn the driver sounding buzzer when detecting obstacles behind like wall on condition that the vehicle is stopping or moving backward with gear shift lever in reverse (M/T model) or select lever in “R” (A/T model). 4 parking sensors installed in rear bumper detect obstacles and sound buzzer changing the sounding pattern depending on distances to the obstacle.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The parking sensor system consists of a sonar control module, parking sensors, parking sensor OFF switch, parking sensor buzzer, TCM (A/T model), ESP<sup>&#174;</sup> control module, lighting and turn signal switch and combination meter.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

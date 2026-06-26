@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10I">
+<servcat sctnbr = "10" scnbr = "09">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA904009" svcinfotypenbr = "06" svcinfoqualnbr = "03" supplyoff = "1" modify = "0">
+<title>
+ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)
+</title>
+<servinfosub id = "AENLSB0AA904009001">
+<title>
+Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA904009002">
+<testgroup id = "AENLSB0AA904009003">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check for DTC related to CAN communication.
+</ptxt>
+</test1>
+<question>
+Is there any CAN related DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904009004">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check for DTC related to combination meter.
+</ptxt>
+</test1>
+<question>
+Is there any combination meter related DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ECM and recheck for DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

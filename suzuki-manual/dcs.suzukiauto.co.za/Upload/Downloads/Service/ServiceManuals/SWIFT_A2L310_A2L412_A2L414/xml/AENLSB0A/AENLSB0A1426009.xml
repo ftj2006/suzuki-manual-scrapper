@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426009" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Vacuum Pump Inspection
+</title>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Stop engine after warming up.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect vacuum hose (1) from brake booster.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect special tool to vacuum hose.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1D248">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09915-67311">
+09915–67311
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "ILSB0A142013.jpg" width = "88.000mm" height = "70.612mm" ver = "02" gw = "190" gh = "184"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check negative pressure with engine idling. If negative pressure is not as specified, replace vacuum pump.
+</ptxt>
+<spec>
+<title>
+Negative pressure specification at idle speed
+</title>
+<ptxt>
+–50 kPa (–0.5 kgf/cm<sup>2</sup>, –7.25 psi, –0.5 bar) within 7 seconds
+</ptxt>
+<ptxt>
+–85 kPa (–0.9 kgf/cm<sup>2</sup>, –12.3 psi, –0.85 bar) within 28 seconds
+</ptxt>
+</spec>
+</s1>
+<s1>
+<ptxt>
+Disconnect special tool and connect brake vacuum pump hose to brake booster.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

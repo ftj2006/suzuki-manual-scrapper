@@ -1,0 +1,2193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA824003" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "1">
+<title>
+Troubleshooting for Lost Communication
+</title>
+<servinfosub id = "AENLSB0AA824003001">
+<title>
+Circuit Diagram
+</title>
+<figure>
+<graphic graphicname = "ILSB0AA82002.swf" width = "183.000mm" height = "237.220mm" ver = "01" gw = "510" gh = "656"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0AA82003.swf" width = "183.000mm" height = "155.738mm" ver = "01" gw = "505" gh = "425"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.472in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.520in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.594in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.949in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a] to [v]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+CAN communication line (linked with diagnosis flows [a] to [v] of “Diagnosis Flow Selection Table”)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+P/S control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+17.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+DC/DC converter
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[w]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Connector view
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Combination meter
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+18.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+CAN driver
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+SDM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+19.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ISG
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+DLC
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+20.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (G307)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Blind spot monitor control module (main) (blind spot monitor model)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Sonar control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+21.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (L349 / L350)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Central gateway control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+BCM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+22.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (E346 / E347)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Dual sensor brake support control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+23.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (E348 / E349)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+TPMS control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+24.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (L347 / L348)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+16.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ECM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824003002">
+<title>
+Diagnosis Procedure
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA824001">CAN Communication Check:CAN (K14D Model)</intxref>
+ before performing this flow.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Occurrence of multiple troubles is not included in the scope of this trouble diagnosis.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<ptxt>
+When “Lost Communication” is detected in any control module, perform diagnosis according to the following procedure.
+</ptxt>
+<s1>
+<ptxt>
+Connect SUZUKI scan tool to DLC.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool and check for communication-disabled control module / sensor.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Based on above check results, select applicable diagnosis flow ([a] to [v]) from 
+<intxref refid = "AENLSB0AA824003003">Diagnosis Flow Selection Table</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform troubleshooting according to selected diagnosis flow.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824003003">
+<title>
+Diagnosis Flow Selection Table
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The following control modules are not compatible with “Communication Bus Check” function. However, if system names are indicated on startup screen of “Vehicle Health” on SUZUKI scan tool and the status is indicated “Found”, communication circuit is judged normal. Check related CAN-DTC in each system if necessary.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Central gateway control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sonar control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Even if CAN communication circuit [v] of 
+<intxref refid = "AENLSB0AA824003001">Circuit Diagram</intxref>
+ is defective, it is possible to communicate with all control modules and sensors in “Communication Bus Check” function. In such a case, check CAN-DTC in ECM, ISG, auxiliary power module (lithium-ion battery) and DC/DC converter.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If an individual control module or sensor fails to communicate, check whether power supply circuit or ground circuit of control module or sensor is in good condition, referring to system circuit diagram, etc. before diagnosing trouble with flow chart.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If it is not possible to select suitable diagnosis flow from “Diagnosis Flow Selection Table” or “two or more diagnosis flows are selectable”, perform 
+<intxref refid = "AENLSB0AA824004">Troubleshooting for Communication Bus Off:CAN (K14D Model)</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Diagnosis flows [a] to [v] link with CAN communication lines [a] to [v] of 
+<intxref refid = "AENLSB0AA824003001">Circuit Diagram</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "4.843in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.362in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Communication-disabled control module / sensor
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Diagnosis flow
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+All control modules communicating by CAN
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[a] 
+<intxreftitleoff1 refid = "AENLSB0AA824003005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Dual sensor brake support control module (DSBS model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+TPMS control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+P/S control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sonar control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[b] 
+<intxreftitleoff1 refid = "AENLSB0AA824003009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+P/S control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[c] 
+<intxreftitleoff1 refid = "AENLSB0AA824003012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[d] 
+<intxreftitleoff1 refid = "AENLSB0AA824003015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Sonar control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[e] 
+<intxreftitleoff1 refid = "AENLSB0AA824003019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[f] 
+<intxreftitleoff1 refid = "AENLSB0AA824003022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[g] 
+<intxreftitleoff1 refid = "AENLSB0AA824003025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[h] 
+<intxreftitleoff1 refid = "AENLSB0AA824003028"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ECM
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[i] 
+<intxreftitleoff1 refid = "AENLSB0AA824003033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Blind spot monitor control module (main) (blind spot monitor model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[j] 
+<intxreftitleoff1 refid = "AENLSB0AA824003037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Dual sensor brake support control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[k] 
+<intxreftitleoff1 refid = "AENLSB0AA824003041"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TPMS control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[l] 
+<intxreftitleoff1 refid = "AENLSB0AA824003031"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[m] 
+<intxreftitleoff1 refid = "AENLSB0AA824003069"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+SDM
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[n] 
+<intxreftitleoff1 refid = "AENLSB0AA824003045"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[o] 
+<intxreftitleoff1 refid = "AENLSB0AA824003049"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Sonar control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[p] 
+<intxreftitleoff1 refid = "AENLSB0AA824003053"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[q] 
+<intxreftitleoff1 refid = "AENLSB0AA824003056"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+DC/DC converter
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ISG
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[r] 
+<intxreftitleoff1 refid = "AENLSB0AA824003059"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+DC/DC converter
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[s] 
+<intxreftitleoff1 refid = "AENLSB0AA824003062"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[t] 
+<intxreftitleoff1 refid = "AENLSB0AA824003066"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ISG
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[u] 
+<intxreftitleoff1 refid = "AENLSB0AA824003065"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+All control modules and sensors can communicate
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+[v] 
+<intxreftitleoff1 refid = "AENLSB0AA824003074"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824003004">
+<title>
+Troubleshooting
+</title>
+<topic id = "AENLSB0AA824003005">
+<title>
+Diagnosis flow: [a]
+</title>
+<diag type = "test" id = "AENLSB0AA824003006">
+<testgroup id = "AENLSB0AA824003007">
+<title>
+CAN communication check between SUZUKI scan tool and central gateway control module
+</title>
+<test1>
+<ptxt>
+Perform the following checks.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check if SUZUKI scan tool is communicable by connecting to another vehicle.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check for proper connection to central gateway control module connector.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AA834020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003008">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to DLC and central gateway control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [a] between DLC and central gateway control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003009">
+<title>
+Diagnosis flow: [b]
+</title>
+<diag type = "test" id = "AENLSB0AA824003010">
+<testgroup id = "AENLSB0AA824003011">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and P/S control module connector “G10”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and P/S control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [b] between central gateway control module connector and P/S control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003012">
+<title>
+Diagnosis flow: [c]
+</title>
+<diag type = "test" id = "AENLSB0AA824003013">
+<testgroup id = "AENLSB0AA824003014">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and P/S control module connector “G10”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and P/S control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [c] between central gateway control module connector and P/S control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace P/S control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A6206009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003015">
+<title>
+Diagnosis flow: [d]
+</title>
+<diag type = "test" id = "AENLSB0AA824003016">
+<testgroup id = "AENLSB0AA824003017">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect P/S control module connector “G10” and combination meter connector “G241”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to P/S control module connector and combination meter connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [d] between P/S control module connector and combination meter connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003018">
+<title>
+CAN communication circuit resistance check
+</title>
+<test1>
+<ptxt>
+Connect P/S control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G241-7” and “G241-27” terminals of combination meter connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace P/S control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A6206009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003019">
+<title>
+Diagnosis flow: [e]
+</title>
+<diag type = "test" id = "AENLSB0AA824003020">
+<testgroup id = "AENLSB0AA824003021">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and BCM connector “L01”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and BCM connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [e] between central gateway control module connector and BCM connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Check for intermittent trouble. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003022">
+<title>
+Diagnosis flow: [f]
+</title>
+<diag type = "test" id = "AENLSB0AA824003023">
+<testgroup id = "AENLSB0AA824003024">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and BCM connector “L01”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and BCM connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [f] between central gateway control module connector and BCM connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace BCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003025">
+<title>
+Diagnosis flow: [g]
+</title>
+<diag type = "test" id = "AENLSB0AA824003026">
+<testgroup id = "AENLSB0AA824003027">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect BCM connector “E04” and ESP<sup>&#174;</sup> control module connector “E09”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to BCM connector and ESP<sup>&#174;</sup> control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [g] between BCM connector and ESP<sup>&#174;</sup> control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace BCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003028">
+<title>
+Diagnosis flow: [h]
+</title>
+<diag type = "test" id = "AENLSB0AA824003029">
+<testgroup id = "AENLSB0AA824003030">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect BCM connector “E04” and ESP<sup>&#174;</sup> control module connector “E09”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to BCM connector and ESP<sup>&#174;</sup> control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [h] between BCM connector and ESP<sup>&#174;</sup> control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ESP<sup>&#174;</sup> control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003033">
+<title>
+Diagnosis flow: [i]
+</title>
+<diag type = "test" id = "AENLSB0AA824003034">
+<testgroup id = "AENLSB0AA824003035">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect ECM connector “E01” and ESP<sup>&#174;</sup> control module connector “E09”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to ECM connector and ESP<sup>&#174;</sup> control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [i] between ECM connector and ESP<sup>&#174;</sup> control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003036">
+<title>
+CAN communication circuit resistance check
+</title>
+<test1>
+<ptxt>
+Connect ESP<sup>&#174;</sup> control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “E01-59” and “E01-83” terminals of ECM connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ESP<sup>&#174;</sup> control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003037">
+<title>
+Diagnosis flow: [j]
+</title>
+<diag type = "test" id = "AENLSB0AA824003038">
+<testgroup id = "AENLSB0AA824003039">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect blind spot monitor control module (main) connector “L531” and central gateway control module connector “G60”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to blind spot monitor control module (main) connector and central gateway control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [j] between blind spot monitor control module (main) connector and central gateway control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003040">
+<title>
+Central gateway control module terminating resistance check
+</title>
+<test1>
+<ptxt>
+Connect central gateway control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “L531-3” and “L531-7” terminals of blind spot monitor control module (main) connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace blind spot monitor control module (main) and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA26001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003041">
+<title>
+Diagnosis flow: [k]
+</title>
+<diag type = "test" id = "AENLSB0AA824003042">
+<testgroup id = "AENLSB0AA824003043">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and dual sensor brake support control module connector “K04”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and dual sensor brake support control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [k] between central gateway control module connector and dual sensor brake support control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace dual sensor brake support control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA16001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003031">
+<title>
+Diagnosis flow: [l]
+</title>
+<diag type = "test" id = "AENLSB0AA824003032">
+<testgroup id = "AENLSB0AA824003044">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and TPMS control module connector “G452”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and TPMS control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [l] between central gateway control module connector and TPMS control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace TPMS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA406003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003069">
+<title>
+Diagnosis flow: [m]
+</title>
+<diag type = "test" id = "AENLSB0AA824003070">
+<testgroup id = "AENLSB0AA824003071">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and headlight auto leveling control module connector “G14”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and headlight auto leveling control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [m] between central gateway control module connector and headlight auto leveling control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace headlight auto leveling control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9206015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003045">
+<title>
+Diagnosis flow: [n]
+</title>
+<diag type = "test" id = "AENLSB0AA824003046">
+<testgroup id = "AENLSB0AA824003047">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect combination meter connector “G241” and SDM connector “G12”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to combination meter connector and SDM connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [n] between combination meter connector and SDM connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003048">
+<title>
+CAN communication circuit resistance check
+</title>
+<test1>
+<ptxt>
+Connect combination meter connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect P/S control module connector “G10”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G12-8” and “G12-9” terminals of SDM connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace SDM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A8206004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003049">
+<title>
+Diagnosis flow: [o]
+</title>
+<diag type = "test" id = "AENLSB0AA824003050">
+<testgroup id = "AENLSB0AA824003051">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect combination meter connector “G241” and lighting and turn signal switch connector “G144”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to combination meter connector and lighting and turn signal switch connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [o] between combination meter connector and lighting and turn signal switch connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824003052">
+<title>
+CAN communication circuit resistance check
+</title>
+<test1>
+<ptxt>
+Connect combination meter connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect P/S control module connector “G10”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G144-4” and “G144-5” terminals of lighting and turn signal switch connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace lighting and turn signal switch and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003053">
+<title>
+Diagnosis flow: [p]
+</title>
+<diag type = "test" id = "AENLSB0AA824003054">
+<testgroup id = "AENLSB0AA824003055">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and sonar control module connector “L29”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and sonar control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [p] between central gateway control module connector and sonar control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace sonar control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA36002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003056">
+<title>
+Diagnosis flow: [q]
+</title>
+<diag type = "test" id = "AENLSB0AA824003057">
+<testgroup id = "AENLSB0AA824003058">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect BCM connector “E04” and RBS control module connector “E490”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to BCM connector and RBS control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [q] between BCM connector and RBS control module connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace RBS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003059">
+<title>
+Diagnosis flow: [r]
+</title>
+<diag type = "test" id = "AENLSB0AA824003060">
+<testgroup id = "AENLSB0AA824003061">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and DC/DC converter connector “L191”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and DC/DC converter connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [r] between central gateway control module connector and DC/DC converter connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003062">
+<title>
+Diagnosis flow: [s]
+</title>
+<diag type = "test" id = "AENLSB0AA824003063">
+<testgroup id = "AENLSB0AA824003064">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and DC/DC converter connector “L191”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and DC/DC converter connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [s] between central gateway control module connector and DC/DC converter connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace DC/DC converter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003066">
+<title>
+Diagnosis flow: [t]
+</title>
+<diag type = "test" id = "AENLSB0AA824003067">
+<testgroup id = "AENLSB0AA824003068">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and auxiliary power module (lithium-ion battery) connector “L196”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and auxiliary power module (lithium-ion battery) connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [t] between central gateway control module connector and auxiliary power module (lithium-ion battery) connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace auxiliary power module (lithium-ion battery) and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAB06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003065">
+<title>
+Diagnosis flow: [u]
+</title>
+<diag type = "test" id = "AENLSB0AA824003072">
+<testgroup id = "AENLSB0AA824003073">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and ISG connector “C75”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and ISG connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [u] between central gateway control module connector and ISG connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ISG and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1A26005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+<topic id = "AENLSB0AA824003074">
+<title>
+Diagnosis flow: [v]
+</title>
+<diag type = "test" id = "AENLSB0AA824003075">
+<testgroup id = "AENLSB0AA824003076">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect central gateway control module connector “G60” and ECM connector “E01”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to central gateway control module connector and ECM connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check CAN communication circuit [v] between central gateway control module connector and ECM connector for open circuit.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

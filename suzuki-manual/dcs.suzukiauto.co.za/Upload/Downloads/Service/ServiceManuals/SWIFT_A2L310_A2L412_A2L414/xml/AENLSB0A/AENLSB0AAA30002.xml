@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0AAA30002" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Precautions for Servicing Parking Sensor System
+</title>
+<ptxt>
+Without taking the following precautions, parking sensor system may not work properly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Do not modify, disassemble and paint parking sensor.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not damage parking sensor and keep it clean.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not replace parking sensor with other than genuine part.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not give impact to peripheral part of parking sensor.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not cover parking sensor with sticker or accessory.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not modify suspension.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not use tires other than specified size.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not use worn tires or mix tires of different wear.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Adjust tire pressure as specified.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When washing vehicle with high pressure washing machine, do not splash water on parking sensor directly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When washing vehicle with steam cleaner, do not blow steam on parking sensor at close range.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

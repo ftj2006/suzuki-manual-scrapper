@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1H">
+<servcat sctnbr = "01" scnbr = "08">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1824002" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Ignition Spark Test
+</title>
+<attention1>
+<ptxt>
+If this test is performed when the injectors are activated, a spark from a plug may ignite fuel vapor coming out of the spark plug holes during the test, causing a fire or explosion.
+</ptxt>
+<ptxt>
+Inactivated the injectors before performing this test.
+</ptxt>
+</attention1>
+<s1>
+<ptxt>
+Relieve fuel pressure referring to 
+<intxref refid = "AENLSB0A1726003">Fuel Pressure Relief Procedure:K14D</intxref>
+ and leave the fuel pump relay removed.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove spark plugs. 
+<intxreftitleoff1 refid = "AENLSB0A1826001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check spark plugs. 
+<intxreftitleoff1 refid = "AENLSB0A1826002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect ignition coil connector to ignition coil assembly (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect spark plug (2) to ignition coil assembly, and ground spark plug.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A182004.swf" width = "88.000mm" height = "54.831mm" ver = "01" gw = "195" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Crank engine and check if each spark plug sparks.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If no spark is emitted, check the related parts. 
+<intxreftitleoff1 refid = "AENLSB0A1824001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install spark plugs. 
+<intxreftitleoff1 refid = "AENLSB0A1826001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install fuel pump relay.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install individual circuit fuse box No.1 cover.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

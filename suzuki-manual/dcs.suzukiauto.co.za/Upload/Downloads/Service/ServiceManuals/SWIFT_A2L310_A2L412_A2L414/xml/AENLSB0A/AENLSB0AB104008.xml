@@ -1,0 +1,1232 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AB104008" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Scan Tool Data
+</title>
+<attention3>
+<ptxt>
+If communication between SUZUKI scan tool and ECM, ISG, DC/DC converter or auxiliary power module (lithium-ion battery) is not possible, perform the following checks:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check communication condition between PC and VCI using SUZUKI scan tool function.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication circuit and connectors between DLC and central gateway control module. (Refer to “Diagnosis flow: [a]” in “Troubleshooting” of “Troubleshooting for Lost Communication”.) 
+<intxreftitleoff1 refid = "AENLSB0AA824003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.) 
+<intxreftitleoff1 refid = "AENLSB0AA824004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AA834020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ECM power circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0A1124089"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ISG power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AB104023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DC/DC converter power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AB104024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check auxiliary power module (lithium-ion battery) and its circuits. 
+<intxreftitleoff1 refid = "AENLSB0AAB04019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<scantool>
+<scantool-title>
+ISG
+</scantool-title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "2.362in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.811in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.020in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Scan tool data
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Normal condition / Reference value
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Mileage Information 
+<intxreftitleoff1 refid = "AENLSB0AB104008002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Total mileage is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Mileage Information Validity 
+<intxreftitleoff1 refid = "AENLSB0AB104008003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Valid
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Received total mileage data: Correct
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Invalid
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Received total mileage data: Incorrect
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pb Battery On Accumulated Day 
+<intxreftitleoff1 refid = "AENLSB0AB104008004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Total operating days of lead-acid battery is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pb Battery On Accumulated Time 
+<intxreftitleoff1 refid = "AENLSB0AB104008005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Total operating time of lead-acid battery is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+B-terminal Voltage Target Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Target voltage value of “48V+” terminal is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ISG Torque Target Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Target torque value of ISG is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Field Current Target Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Target field current of ISG is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+B-terminal Current Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Actual current value of “48V+” terminal is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+B-terminal Voltage Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Battery voltage is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+24 to 54 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ISG Field Current Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Actual field current value of ISG is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ISG Torque Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Actual torque value of ISG is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+12V Supply Voltage Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+10 to 14 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+IMGU Rotation Speed Actual Value 
+<intxreftitleoff1 refid = "AENLSB0AB104008014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Approx. 1,600 to 2,000 rpm
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Power MOSFET Temperature 
+<intxreftitleoff1 refid = "AENLSB0AB104008015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+–39 to 180 &#176;C (–38.2 &#176;F to 356 &#176;F)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Control Board Temperature 
+<intxreftitleoff1 refid = "AENLSB0AB104008016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+–39 to 140 &#176;C (–38.2 &#176;F to 284 &#176;F)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<servinfosub id = "AENLSB0AB104008001" page = "2">
+<title>
+Scan Tool Data Definitions
+</title>
+<topic id = "AENLSB0AB104008002">
+<title>
+Mileage Information (km)
+</title>
+<ptxt>
+This parameter indicates total mileage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008003">
+<title>
+Mileage Information Validity (Valid / Invalid)
+</title>
+<ptxt>
+This parameter indicates the state of total mileage sent from meter.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008004">
+<title>
+Pb Battery On Accumulated Day (days)
+</title>
+<ptxt>
+This parameter indicates total operating days of lead-acid battery.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008005">
+<title>
+Pb Battery On Accumulated Time (sec)
+</title>
+<ptxt>
+This parameter indicates total operating time of lead-acid battery.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008006">
+<title>
+B-terminal Voltage Target Value (V)
+</title>
+<ptxt>
+This parameter indicates target voltage of “48V+” terminal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008007">
+<title>
+ISG Torque Target Value (Nm) (V)
+</title>
+<ptxt>
+This parameter indicates target torque value of ISG.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008008">
+<title>
+Field Current Target Value (A)
+</title>
+<ptxt>
+This parameter indicates target field current value of ISG.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008009">
+<title>
+B-terminal Current Actual Value (A)
+</title>
+<ptxt>
+This parameter indicates actual current value of “48V+” terminal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008010">
+<title>
+B-terminal Voltage Actual Value (V)
+</title>
+<ptxt>
+This parameter indicates actual voltage of “48V+” terminal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008011">
+<title>
+ISG Field Current Actual Value (A)
+</title>
+<ptxt>
+This parameter indicates actual field current value of ISG.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008012">
+<title>
+ISG Torque Actual Value (Nm)
+</title>
+<ptxt>
+This parameter indicates actual torque value of ISG.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008013">
+<title>
+12V Supply Voltage Actual Value (V)
+</title>
+<ptxt>
+This parameter indicates actual 12 V supply voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008014">
+<title>
+MGU Rotation Speed Actual Value (rpm)
+</title>
+<ptxt>
+This parameter indicates actual rotation speed of ISG.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008015">
+<title>
+Power MOSFET Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates temperature of power MOSFET.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008016">
+<title>
+Control Board Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates temperature of control board.
+</ptxt>
+</topic>
+</servinfosub>
+</scantool>
+<scantool>
+<scantool-title>
+DC/DC Converter
+</scantool-title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "2.087in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.654in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.453in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Scan tool data
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Normal condition / Reference value
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by temperature 
+<intxreftitleoff1 refid = "AENLSB0AB104008018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by power 
+<intxreftitleoff1 refid = "AENLSB0AB104008019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by HV voltage 
+<intxreftitleoff1 refid = "AENLSB0AB104008020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by minimum HV voltage 
+<intxreftitleoff1 refid = "AENLSB0AB104008021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by HV current limit 
+<intxreftitleoff1 refid = "AENLSB0AB104008022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV derating by LV current limit 
+<intxreftitleoff1 refid = "AENLSB0AB104008023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+False
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than conditions below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+True
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Stepped down current: limited
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Internal Temperature 
+<intxreftitleoff1 refid = "AENLSB0AB104008024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+DC/DC converter internal temperature is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Voltage 
+<intxreftitleoff1 refid = "AENLSB0AB104008025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+24 to 54 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Voltage 
+<intxreftitleoff1 refid = "AENLSB0AB104008026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+10 to 14 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Current 
+<intxreftitleoff1 refid = "AENLSB0AB104008027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 44 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Current 
+<intxreftitleoff1 refid = "AENLSB0AB104008028"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 110 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Voltage Maximum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 54 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Voltage Minimum Value from Buck mode start 
+<intxreftitleoff1 refid = "AENLSB0AB104008030"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Higher than 24 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Voltage Maximum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008031"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 16 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Voltage Minimum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008032"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Higher than 6 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Current Maximum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 44 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HV Current Minimum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Minimum current value of 48 V circuit is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Current Maximum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008035"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Lower than 110 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+LV Current Minimum Value from MRL ON 
+<intxreftitleoff1 refid = "AENLSB0AB104008036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Minimum current value of 12 V circuit is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<servinfosub id = "AENLSB0AB104008017" page = "2">
+<title>
+Scan Tool Data Definitions
+</title>
+<topic id = "AENLSB0AB104008018">
+<title>
+LV derating by temperature (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by temperature conditions.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008019">
+<title>
+LV derating by power (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by output conditions.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008020">
+<title>
+LV derating by HV voltage (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by 48 V circuit voltage conditions.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008021">
+<title>
+LV derating by minimum HV voltage (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by detection of voltage drop of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008022">
+<title>
+LV derating by HV current limit (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by current condition of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008023">
+<title>
+LV derating by LV current limit (False / True)
+</title>
+<ptxt>
+This parameter indicates the state of current limiting of DC/DC converter due to voltage drop of the converter caused by current condition of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008024">
+<title>
+Internal Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates internal temperature of DC/DC converter.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008025">
+<title>
+HV Voltage (V)
+</title>
+<ptxt>
+This parameter indicates voltage of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008026">
+<title>
+LV Voltage (V)
+</title>
+<ptxt>
+This parameter indicates voltage of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008027">
+<title>
+HV Current (A)
+</title>
+<ptxt>
+This parameter indicates current value of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008028">
+<title>
+LV Current (A)
+</title>
+<ptxt>
+This parameter indicates current value of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008029">
+<title>
+HV Voltage Maximum Value from MRL ON (V)
+</title>
+<ptxt>
+This parameter indicates the maximum voltage of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008030">
+<title>
+HV Voltage Minimum Value from Buck mode start (V)
+</title>
+<ptxt>
+This parameter indicates the minimum voltage of 48 V circuit after start of voltage drop mode.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008031">
+<title>
+LV Voltage Maximum Value from MRL ON (V)
+</title>
+<ptxt>
+This parameter indicates the maximum voltage of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008032">
+<title>
+LV Voltage Minimum Value from MRL ON (V)
+</title>
+<ptxt>
+This parameter indicates the minimum voltage of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008033">
+<title>
+HV Current Maximum Value from MRL ON (A)
+</title>
+<ptxt>
+This parameter indicates the maximum current value of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008034">
+<title>
+HV Current Minimum Value from MRL ON (A)
+</title>
+<ptxt>
+This parameter indicates the minimum current value of 48 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008035">
+<title>
+LV Current Maximum Value from MRL ON (A)
+</title>
+<ptxt>
+This parameter indicates the maximum current value of 12 V circuit.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB104008036">
+<title>
+LV Current Minimum Value from MRL ON (A)
+</title>
+<ptxt>
+This parameter indicates the minimum current value of 12 V circuit.
+</ptxt>
+</topic>
+</servinfosub>
+</scantool>
+<scantool>
+<scantool-title>
+ECM
+</scantool-title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A1124007">Scan Tool Data:K14D</intxref>
+.
+</ptxt>
+</scantool>
+<scantool>
+<scantool-title>
+Auxiliary Power Module (Lithium-Ion Battery)
+</scantool-title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AAB04007">Scan Tool Data</intxref>
+.
+</ptxt>
+</scantool>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

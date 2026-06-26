@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9F">
+<servcat sctnbr = "09" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9606014" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rearend Door Opener Switch Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9606013">Rearend Door Opener Switch On-Vehicle Inspection</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A9606014001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove rearend door trim. 
+<intxreftitleoff1 refid = "AENLSB0A9606010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Detach rearend door opener switch harness clamps (1) from rearend door (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect rearend door opener switch connector (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A960037.jpg" width = "88.000mm" height = "67.637mm" ver = "01" gw = "214" gh = "175"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rearend door switch holder (1) in arrow direction “2” while holding claws (2) pressed in arrow direction “1” and then remove rearend door switch holder.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A960036.jpg" width = "88.000mm" height = "67.638mm" ver = "01" gw = "214" gh = "175"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove screws, and then remove rearend door opener switch (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A960026.swf" width = "88.000mm" height = "57.012mm" ver = "01" gw = "173" gh = "145"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9606014002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

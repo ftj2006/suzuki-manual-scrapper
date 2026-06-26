@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Ignition System">
+<c i="1" t="K14C">
+<t s="1" t="General Description">
+<s i="AENLSB0A1811001" t="Ignition System Construction">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0A1812001" t="Ignition System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0A1813001" t="Ignition System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1814001" t="Ignition System Check">
+</s>
+<s i="AENLSB0A1814002" t="Ignition Spark Test">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1816001" t="Spark Plug Removal and Installation">
+</s>
+<s i="AENLSB0A1816002" t="Spark Plug Inspection">
+</s>
+<s i="AENLSB0A1816003" t="Ignition Coil Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1816004" t="Ignition Coil Assembly Inspection">
+</s>
+<s i="AENLSB0A1816005" t="Ignition Timing Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1817001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1818001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K14D">
+<t s="1" t="General Description">
+<s i="AENLSB0A1821001" t="Ignition System Construction">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0A1822001" t="Ignition System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0A1823001" t="Ignition System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1824001" t="Ignition System Check">
+</s>
+<s i="AENLSB0A1824002" t="Ignition Spark Test">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1826001" t="Spark Plug Removal and Installation">
+</s>
+<s i="AENLSB0A1826002" t="Spark Plug Inspection">
+</s>
+<s i="AENLSB0A1826003" t="Ignition Coil Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1826004" t="Ignition Coil Assembly Inspection">
+</s>
+<s i="AENLSB0A1826005" t="Ignition Timing Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1827001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1828001" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9D">
+<servcat sctnbr = "09" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9406006" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rear Wiper Motor Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9406005">Rear Wiper Removal and Installation</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Make marks (1) as shown in figure with wiper motor (2) stopped.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A940023.jpg" width = "88.000mm" height = "43.169mm" ver = "01" gw = "142" gh = "106"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect battery positive (+) and negative (–) terminals to wiper motor connector terminals as shown to operate motor at low speed. If wiper motor does not operate, replace wiper motor.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A940024.jpg" width = "88.000mm" height = "75.474mm" ver = "01" gw = "142" gh = "197"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect battery positive (+) terminal to wiper motor connector terminal “3” and negative (–) terminal to wiper motor connector terminal “1” as shown to operate motor.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect terminal “1” from battery negative (–) terminal to stop wiper motor when marks (1) are not aligned.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect terminal “2” to battery negative (–) terminal.
+</ptxt>
+<ptxt>
+Observe the wiper motor (2) turns once again and then stops at a specified position as shown.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A940025.jpg" width = "88.000mm" height = "75.474mm" ver = "01" gw = "142" gh = "197"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Repeat Step 3) – 5) several times and check that the wiper motor stops at the specified position every time.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace wiper motor.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

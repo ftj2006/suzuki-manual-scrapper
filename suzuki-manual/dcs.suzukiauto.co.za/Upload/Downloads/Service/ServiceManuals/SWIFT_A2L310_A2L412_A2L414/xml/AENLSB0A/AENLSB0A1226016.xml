@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1B">
+<servcat sctnbr = "01" scnbr = "02">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1226016" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+EGR Cooler Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1226013">EGR System Components:K14D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1226016001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1626004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove air cleaner assembly. 
+<intxreftitleoff1 refid = "AENLSB0A1426004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove EGR pipe (1) and EGR pipe gaskets (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A122008.jpg" width = "88.000mm" height = "54.260mm" ver = "01" gw = "185" gh = "137"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect EGR cooler inlet hose (1) and outlet hose (2) from EGR cooler (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove EGR valve bolts (4).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove EGR cooler bracket nuts (5) and then remove EGR cooler with EGR cooler gasket (6).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A122009.jpg" width = "88.000mm" height = "51.043mm" ver = "01" gw = "185" gh = "128"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove EGR cooler bracket (1) as follows, if necessary.
+</ptxt>
+<s2>
+<ptxt>
+Disconnect engine harness (2) from EGR cooler bracket.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Remove EVAP canister purge valve (3) with bracket from intake manifold.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Remove EGR cooler bracket from intake manifold.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A122010.jpg" width = "88.000mm" height = "51.551mm" ver = "01" gw = "185" gh = "130"/>
+</figure>
+</s2>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1226016002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Remove EGR valve. 
+<intxreftitleoff1 refid = "AENLSB0A1226014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Fit new EGR cooler gasket (2) and EGR cooler inlet gasket (3) to EGR cooler.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install EGR valve and EGR pipe to EGR cooler (1) and tighten EGR cooler bolts (4) temporary.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A122011.jpg" width = "88.000mm" height = "44.100mm" ver = "01" gw = "191" gh = "108"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install EGR cooler bracket, if removed.
+</ptxt>
+<torque>
+<torqueitem id = "T1B203">
+<t-part>
+EGR cooler bracket bolt
+</t-part>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Fit new EGR pipe gasket.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install EGR cooler (1) together with EGR valve and EGR pipe as follows.
+</ptxt>
+<s2>
+<ptxt>
+Tighten EGR valve bolts (2) temporary.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR cooler bracket nuts (3) temporary.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR pipe bolts (4) temporary.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR valve bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1B204">
+<t-part>
+EGR valve bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR cooler bracket nuts securely.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR pipe bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1B205">
+<t-part>
+EGR pipe bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>
+Tighten EGR cooler bolts (5) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1B206">
+<t-part>
+EGR cooler bolt
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A122012.jpg" width = "88.000mm" height = "52.990mm" ver = "03" gw = "185" gh = "134"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Connect EGR cooler inlet hose (1) and outlet hose (2) aligning matchmark (3) end of each hose with matchmark (4) end on corresponding EGR pipe respectively.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A122013.jpg" width = "88.000mm" height = "51.635mm" ver = "01" gw = "185" gh = "130"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install air cleaner assembly. 
+<intxreftitleoff1 refid = "AENLSB0A1426004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Refill cooling system. 
+<intxreftitleoff1 refid = "AENLSB0A1626005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check cooling system for leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1626003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Run engine and check for exhaust gas leakage.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

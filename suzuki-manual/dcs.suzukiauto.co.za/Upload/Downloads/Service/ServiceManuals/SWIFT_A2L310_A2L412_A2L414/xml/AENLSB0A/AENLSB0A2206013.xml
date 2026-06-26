@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "2B">
+<servcat sctnbr = "02" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A2206013" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Suspension Frame, Stabilizer Bar and Bushing Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A2206012">Front Suspension Frame and Stabilizer Bar Components</intxrefpoff>
+</ptxt>
+<attention2>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If the front suspension frame is not stably supported on a transmission jack or other supporting equipment during its removal and installation, the frame could drop and cause personal injury.
+</ptxt>
+<ptxt>
+Check that the weight of the front suspension frame is supported at the frame’s center and that the frame is well balanced on the support.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Touching a hot exhaust system component will cause a burn.
+</ptxt>
+<ptxt>
+Do not perform any service work on the exhaust system until the exhaust system is cool.
+</ptxt>
+</item>
+</list1>
+</attention2>
+<attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The front suspension frame bolt (long one) and steering gear case bolt are pre-coated with friction stabilizer. If these bolts are reused, they may work loose.
+</ptxt>
+<ptxt>
+Never reuse the front suspension frame bolt (long one) and steering gear case bolt.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If steering gear cover is reused, it will lose the sealing performance and water may enter the gearbox.
+</ptxt>
+<ptxt>
+Do not reuse the steering gear cover.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<servinfosub id = "AENLSB0A2206013001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect steering lower shaft from pinion shaft. 
+<intxreftitleoff1 refid = "AENLSB0A6206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove front wheels. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine undercover and engine under side covers.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect muffler mounting No.1 from front suspension frame. 
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1B16001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1B26001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Disconnect stabilizer joint from stabilizer bar. 
+<intxreftitleoff1 refid = "AENLSB0A2206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect tie-rod end from steering knuckle. 
+<intxreftitleoff1 refid = "AENLSB0A6206022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove suspension arm. 
+<intxreftitleoff1 refid = "AENLSB0A2206008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine rear torque rod bolt from bracket.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1416024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1426024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Support front suspension frame (2) using transmission jack (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A220020.jpg" width = "88.000mm" height = "58.151mm" ver = "01" gw = "199" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove front suspension frame bolts (1) and front suspension frame rear bolts (2), and then lower transmission jack to remove suspension frame (3) together with stabilizer bar, torque rod, torque rod cover and steering gear case from vehicle body.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A220021.jpg" width = "88.000mm" height = "58.151mm" ver = "01" gw = "199" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove steering gear case assembly from front suspension frame. 
+<intxreftitleoff1 refid = "AENLSB0A6206024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove torque rod cover from front suspension frame. 
+<intxreftitleoff1 refid = "AENLSB0A2206012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine rear torque rod from front suspension frame.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1416024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1426024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Remove stabilizer mounting bracket (1), stabilizer bar bushing (2) and stabilizer bar (3) from front suspension frame (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A220022.jpg" width = "88.000mm" height = "48.841mm" ver = "01" gw = "199" gh = "122"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A2206013002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A2206014">Front Suspension Frame Check</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A2206015">Front Stabilizer Bar, Bushing and Joint Check</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install front stabilizer bar (1), bushings (2) and mounting brackets (3) to front suspension frame as follows.
+</ptxt>
+<s2>
+<ptxt>
+Position stabilizer bar with identification painting (5) facing up at right side.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Position stabilizer bar bushing with its slit (6) facing forward and its end closely fit against ring (4) of stabilizer bar.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten stabilizer bar mounting bracket bolts (7) temporarily, and then tighten them to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T2B009">
+<t-part>
+Stabilizer bar mounting bracket bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+30
+</t-value1>
+<t-value2>
+3.1
+</t-value2>
+<t-value3>
+22.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A220023.jpg" width = "88.000mm" height = "84.566mm" ver = "02" gw = "216" gh = "223"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Forward
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[i]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle inside
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install engine rear torque rod to front suspension frame.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1416024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1426024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install torque rod cover (1) to front suspension frame (2) as shown in figure.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A220025.jpg" width = "88.000mm" height = "75.203mm" ver = "01" gw = "199" gh = "197"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Forward
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install steering gear case assembly to front suspension frame. 
+<intxreftitleoff1 refid = "AENLSB0A6206024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install suspension arm to front suspension frame, and then tighten new suspension arm front bushing bolts temporarily by hand. 
+<intxreftitleoff1 refid = "AENLSB0A2206008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Put front suspension frame (2) on transmission jack (1) and raise jack.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A220024.jpg" width = "88.000mm" height = "59.915mm" ver = "01" gw = "199" gh = "153"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Fix front suspension frame with bolts as follows.
+</ptxt>
+<s2>
+<ptxt>
+Tighten new front suspension frame bolt (1) temporarily.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten new front suspension frame bolt (2) to specified torque.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten front suspension frame bolts (1), (3) and front suspension frame rear bolts (4) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T2B010">
+<t-part>
+Front suspension frame bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+95
+</t-value1>
+<t-value2>
+9.7
+</t-value2>
+<t-value3>
+70.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T2B011">
+<t-part>
+Front suspension frame rear bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A220026.jpg" width = "88.000mm" height = "60.620mm" ver = "01" gw = "199" gh = "155"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Lower transmission jack.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine rear torque rod bolt and tighten it to specified torque. 
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1416024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1426024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Connect suspension arm joint to steering knuckle. 
+<intxreftitleoff1 refid = "AENLSB0A2206008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect tie-rod end to steering knuckle. 
+<intxreftitleoff1 refid = "AENLSB0A6206022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect stabilizer joint to stabilizer bar. 
+<intxreftitleoff1 refid = "AENLSB0A2206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install muffler mounting No.1 to front suspension frame.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1B16001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1B26001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install front wheels and tighten wheel nuts to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect steering lower shaft to pinion shaft. 
+<intxreftitleoff1 refid = "AENLSB0A6206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Lower hoist and bounce vehicle up and down several times to stabilize suspension. And then, tighten suspension arm front bushing bolts to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A2206008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine undercover and engine under side covers.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check front wheel alignment. 
+<intxreftitleoff1 refid = "AENLSB0A2206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1326004" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Electric Throttle Control System Calibration
+</title>
+<s1>
+<ptxt>
+After performing any one of the following services, it is necessary to calibrate electric throttle control system.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Replacement of ECM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Clearance of DTC related to ECM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Removal and installation of electric throttle body assembly (cleaning or replacement)
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Check that the following conditions are satisfied when performing this calibration procedure.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+DTC is not detected in ECM.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle is stationary.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine is stopped.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine coolant temperature between 6 &#176;C (43 &#176;F) and 100 &#176;C (212 &#176;F).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Intake air temperature is higher than 6 &#176;C (43 &#176;F).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Accelerator pedal is released.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Battery voltage is higher than 10 V.
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Perform this calibration procedure as follows.
+</ptxt>
+<s2>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<attention3>
+<ptxt>
+Perform “DTC clear” although DTC is not detected.
+</ptxt>
+</attention3>
+</s2>
+<s2>
+<ptxt>
+Set ignition “ON” and leave it for 40 sec. or more.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Set ignition “OFF” and leave it for 10 sec. or more.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A1326005">ECM Learning Procedure of Engine Torque:K14D</intxref>
+.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1F">
+<servcat sctnbr = "01" scnbr = "06">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1616007" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Thermostat Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A1616007001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1616004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector from boost pressure sensor with IAT sensor-2 (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intercooler outlet pipe No.2 (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A164008.jpg" width = "88.000mm" height = "54.514mm" ver = "01" gw = "199" gh = "138"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove thermostat cap (1) together with intercooler outlet pipe No.2 bracket (2) from thermostat case (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A164009.jpg" width = "88.000mm" height = "55.361mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove thermostat (1) from thermostat case (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A164010.jpg" width = "88.000mm" height = "55.361mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1616007002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1616008">Thermostat Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install thermostat (1) to thermostat case (2) facing air bleed valve (3) of thermostat upward.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A164011.jpg" width = "88.000mm" height = "55.361mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten thermostat cap bolt (1) and nut (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1F102">
+<t-part>
+Thermostat cap bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1F103">
+<t-part>
+Thermostat cap nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IHSB0A164012.jpg" width = "88.000mm" height = "55.361mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten intercooler outlet pipe No.2 clamps to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A1416005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Refill cooling system with coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1616005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check cooling system for leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1616003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

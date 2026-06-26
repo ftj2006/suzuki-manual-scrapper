@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4D">
+<servcat sctnbr = "04" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4406003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Parking Brake Adjustment
+</title>
+<s1>
+<ptxt>
+Place gear shift lever in “1st” (M/T model) or selector lever in “P” range (A/T model), and block drive wheels.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove floor console box. 
+<intxreftitleoff1 refid = "AENLSB0A9806020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release parking brake.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen parking brake adjusting nut (1) until parking brake cable becomes free of tension.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A440003.jpg" width = "88.000mm" height = "68.294mm" ver = "01" gw = "199" gh = "177"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Start engine and depress brake pedal more than 3 times with about 150 N (15.3 kgf, 33.7 lbf).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Stop engine and check that lever of caliper (1) contacts the pin (2). If the caliper does not contact the pin, repeat Step 3) – 4) again.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B440003.swf" width = "88.000mm" height = "61.153mm" ver = "02" gw = "213" gh = "157"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tighten parking brake adjusting nut (1) so that parking brake drags when parking brake is pulled by one notch.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that parking brake lever stroke is between 4 and 9 notches when the parking brake lever is pulled with 200 N (20.4 kgf, 45.0 lbf).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check equalizer (2) inclination angle. If angle is not as specified, check parking brake cable, rear brake caliper and rear brake pads.
+</ptxt>
+<spec>
+<title>
+Equalizer inclination angle
+</title>
+<ptxt>
+“a”: within 15 degrees
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "IGSB0A440009.jpg" width = "88.000mm" height = "68.823mm" ver = "01" gw = "201" gh = "179"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+After completion of adjustment, release parking brake and check that parking brake is not dragging.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426036" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Camshaft Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1426035">Camshaft Components:K14D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1426036001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove timing chain. 
+<intxreftitleoff1 refid = "AENLSB0A1426033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove vacuum pump. 
+<intxreftitleoff1 refid = "AENLSB0A1426008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intercooler outlet pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1426019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove thermostat heater. 
+<intxreftitleoff1 refid = "AENLSB0A1626007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector from ECT sensor.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intercooler outlet pipe bracket (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect EGR cooler inlet hose (2) and heater inlet hose (3) from thermostat case.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142084.jpg" width = "88.000mm" height = "59.328mm" ver = "01" gw = "185" gh = "152"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove intake CMP sensor, if necessary. 
+<intxreftitleoff1 refid = "AENLSB0A1326022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove high pressure fuel pump. 
+<intxreftitleoff1 refid = "AENLSB0A1726010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove thermostat case (1) and O-rings (2) from cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142085.jpg" width = "88.000mm" height = "51.466mm" ver = "01" gw = "188" gh = "129"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+With hexagonal section of intake camshaft held stationary with spanner or adjustable wrench (1), remove intake VVT actuator (sprocket part) bolt (2) and remove intake VVT actuator (sprocket part) (3).
+</ptxt>
+<ptxt>
+Apply the same procedure to remove exhaust VVT actuator (4).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142086.jpg" width = "88.000mm" height = "55.022mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove dowel pins (1) from intake camshaft and exhaust camshaft.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142087.jpg" width = "88.000mm" height = "48.672mm" ver = "01" gw = "185" gh = "121"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Loosen camshaft housing bolts No.1, No.2 and camshaft intake rear housing bolts in numerical order (“1” – “23”) evenly and gradually.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142088.jpg" width = "88.000mm" height = "52.633mm" ver = "01" gw = "198" gh = "133"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove camshaft front upper housing (1), camshaft housings (2) and camshaft intake rear housing (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intake camshaft (4) and exhaust camshaft (5).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove camshaft front lower housing (6).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142089.jpg" width = "88.000mm" height = "59.294mm" ver = "01" gw = "199" gh = "152"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1426036002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1426037">Camshaft and VVT Actuator Inspection:K14D</intxrefpoff>
+</ptxt>
+<attention3>
+<ptxt>
+Before installing camshafts to the cylinder head, turn crankshaft counterclockwise and position the key (1) within an angle of 30&#176; – 90&#176; from TDC as shown in figure and keep the valves from coming in contact with the piston.
+</ptxt>
+<figure>
+<graphic graphicname = "I7V20A141058.swf" width = "88.000mm" height = "37.283mm" ver = "01" gw = "129" gh = "89"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+30&#176;
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“b”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+90&#176;
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</attention3>
+<s1>
+<ptxt>
+Check that all dowel pins are installed to cylinder head and camshaft front lower housing.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Fit camshaft front lower housing (1) into cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply engine oil to bearing portions of camshaft front lower housing and cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set intake camshaft (2) and exhaust camshaft (3) on cylinder head, and apply engine oil to sliding surfaces.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142090.jpg" width = "88.000mm" height = "60.695mm" ver = "01" gw = "185" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Set camshaft housings No.2 – 5 (1) to specified places as indicated by alphabet (2), number (3) and arrow mark (4) on each camshaft housing.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142091.swf" width = "88.000mm" height = "35.961mm" ver = "01" gw = "66" gh = "85"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+I: Intake camshaft housing
+</ptxt>
+<ptxt>
+E: Exhaust camshaft housing
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Position from timing chain side
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Point arrow to timing chain side
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Clean mating surface of camshaft intake rear housing and cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply sealant to mating surface of camshaft intake rear housing as shown in figure.
+</ptxt>
+<materials>
+<materialitem name = "SUZUKI Bond No.1217G" id = "M1D207" uid = "-491504098">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Sealant
+</m-desc>
+<m-number>
+99000–31260
+</m-number>
+<m-name>
+SUZUKI Bond No.1217G
+</m-name>
+</materialitem>
+</materials>
+<spec>
+<title>
+Sealant bead size for camshaft intake rear housing
+</title>
+<ptxt>
+Width “a”: 3 mm (0.12 in.)
+</ptxt>
+<ptxt>
+Height “b”: 2 mm (0.08 in.)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A142092.jpg" width = "88.000mm" height = "50.958mm" ver = "01" gw = "147" gh = "128"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Fit camshaft intake rear housing (1) on cylinder head and tighten the housing bolts until the housing is positioned by dowel pins.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Fit camshaft front upper housing (2) to cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142093.jpg" width = "88.000mm" height = "55.494mm" ver = "01" gw = "185" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tighten camshaft housing bolts according to the following procedure.
+</ptxt>
+<s2>
+<ptxt>
+Tighten camshaft housing bolts No.1, No.2 and camshaft intake rear housing bolts to 5.0 N&#183;m (0.51 kgf-m, 4.0 lbf-ft) in numerical order (“1” – “23”) evenly and gradually.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+In the same manner as in Step a), tighten them to 8.0 N&#183;m (0.82 kgf-m, 6.0 lbf-ft).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+In the same manner as in Step b), tighten them to 11 N&#183;m (1.1 kgf-m, 8.5 lbf-ft).
+</ptxt>
+<torque>
+<torqueitem id = "T1D261">
+<t-part>
+Camshaft housing bolt No.1*
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-note>
+5.0 N&#183;m &#8594; 8.0 N&#183;m &#8594; 11 N&#183;m (0.51 kgf-m &#8594; 0.82 kgf-m &#8594; 1.1 kgf-m, 4.0 lbf-ft &#8594; 6.0 lbf-ft &#8594; 8.5 lbf-ft)
+</t-note>
+</torqueitem>
+<torqueitem id = "T1D262">
+<t-part>
+Camshaft housing bolt No.2*
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-note>
+5.0 N&#183;m &#8594; 8.0 N&#183;m &#8594; 11 N&#183;m (0.51 kgf-m &#8594; 0.82 kgf-m &#8594; 1.1 kgf-m, 4.0 lbf-ft &#8594; 6.0 lbf-ft &#8594; 8.5 lbf-ft)
+</t-note>
+</torqueitem>
+<torqueitem id = "T1D263">
+<t-part>
+Camshaft intake rear housing bolt*
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-note>
+5.0 N&#183;m &#8594; 8.0 N&#183;m &#8594; 11 N&#183;m (0.51 kgf-m &#8594; 0.82 kgf-m &#8594; 1.1 kgf-m, 4.0 lbf-ft &#8594; 6.0 lbf-ft &#8594; 8.5 lbf-ft)
+</t-note>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A142094.jpg" width = "88.000mm" height = "58.274mm" ver = "01" gw = "211" gh = "149"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Wipe off excessive sealant squeezed out of camshaft intake rear housing at the rear end and clean mating surface for thermostat case.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install dowel pins (1) to intake camshaft and exhaust camshaft.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142087.jpg" width = "88.000mm" height = "48.672mm" ver = "01" gw = "185" gh = "121"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+With hexagonal section of intake camshaft held stationary with spanner or adjustable wrench (1), tighten intake VVT actuator (sprocket part) bolt (2) to specified torque.
+</ptxt>
+<ptxt>
+Apply the same procedure to install exhaust VVT actuator (3).
+</ptxt>
+<torque>
+<torqueitem id = "T1D264">
+<t-part>
+Intake VVT actuator (sprocket part) bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+90
+</t-value1>
+<t-value2>
+9.2
+</t-value2>
+<t-value3>
+66.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1D265">
+<t-part>
+Exhaust VVT actuator bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+60
+</t-value1>
+<t-value2>
+6.1
+</t-value2>
+<t-value3>
+44.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A142095.jpg" width = "88.000mm" height = "55.116mm" ver = "01" gw = "185" gh = "140"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check stud bolts and dowel pins for thermostat case are installed to cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply sealant to the mating surface as shown.
+</ptxt>
+<materials>
+<materialitem name = "SUZUKI Bond No.1217G" id = "M1D208" uid = "-491504098">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Sealant
+</m-desc>
+<m-number>
+99000–31260
+</m-number>
+<m-name>
+SUZUKI Bond No.1217G
+</m-name>
+</materialitem>
+</materials>
+<figure>
+<graphic graphicname = "ILSB0A142096.jpg" width = "88.000mm" height = "53.159mm" ver = "01" gw = "185" gh = "134"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Clean mating surface of thermostat case (1), fit new O-rings (2) to thermostat case and install it to cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten thermostat case nuts (3) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1D266">
+<t-part>
+Thermostat case nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A142097.jpg" width = "88.000mm" height = "51.466mm" ver = "01" gw = "207" gh = "129"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install high pressure fuel pump. 
+<intxreftitleoff1 refid = "AENLSB0A1726010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install intake CMP sensor, if removed. 
+<intxreftitleoff1 refid = "AENLSB0A1326022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install intercooler outlet pipe bracket (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect EGR cooler inlet hose (2) and heater inlet hose (3) to thermostat case.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142084.jpg" width = "88.000mm" height = "59.328mm" ver = "01" gw = "185" gh = "152"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect connector to ECT sensor.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install thermostat heater. 
+<intxreftitleoff1 refid = "AENLSB0A1626007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install intercooler outlet pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1426019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install vacuum pump. 
+<intxreftitleoff1 refid = "AENLSB0A1426008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install timing chain. 
+<intxreftitleoff1 refid = "AENLSB0A1426033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

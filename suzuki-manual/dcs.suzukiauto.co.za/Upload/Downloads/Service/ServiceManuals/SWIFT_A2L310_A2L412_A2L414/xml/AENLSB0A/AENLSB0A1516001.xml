@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1E">
+<servcat sctnbr = "01" scnbr = "05">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1516001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Engine Oil and Filter Change
+</title>
+<attention2>
+<ptxt>
+There is an increased risk of severe personal injury or health problems if the procedure described below is performed without taking proper precautions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Engine oil has an adverse health effect. Read and understand the instructions in 
+<intxref refid = "AENLSB0A0000001">General Precautions</intxref>
+ and follow all the instructions.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that the engine is not running when performing Step 1) – 12) of the procedure.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Adequately ventilate the working area when starting the engine in Step 13).
+</ptxt>
+</item>
+</list1>
+</attention2>
+<attention4>
+<ptxt>
+Engine cover is made of urethane and may spoil the appearance by discoloration if it is left soiled with oil, etc.
+</ptxt>
+<ptxt>
+Maintain the appearance noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Clean oils and fats, if adhered, with neutral detergent.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not apply cleaning solvent.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<ptxt>
+Before draining engine oil, check engine for oil leakage.
+</ptxt>
+<ptxt>
+If any evidence of leakage is found, correct defective part before proceeding to the following procedure.
+</ptxt>
+<s1>
+<ptxt>
+Remove oil filler cap and oil level gauge from engine.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove engine undercover.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Drain engine oil by removing drain plug (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Wipe drain plug and its mounting surface. 
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Replace gasket with new one.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Reinstall drain plug and tighten it to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1E101">
+<t-part>
+Engine oil drain plug
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+35
+</t-value1>
+<t-value2>
+3.6
+</t-value2>
+<t-value3>
+26.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure page = "2">
+<graphic graphicname = "IFAE0A150029.swf" width = "88.000mm" height = "56.607mm" ver = "01" gw = "204" gh = "144"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Loosen oil filter using special tool and remove oil filter.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1E103">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09915-47341">
+09915–47341
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure page = "2">
+<graphic graphicname = "IFAE0A150030.swf" width = "88.000mm" height = "56.607mm" ver = "01" gw = "204" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Wipe oil filter mounting surface of oil pan clean.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply engine oil to new oil filter gasket.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IYSQ01020009.swf" width = "88.000mm" height = "49.307mm" ver = "01" gw = "125" gh = "123"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install the oil filter according to the following procedure.
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Using a torque wrench:
+</emph>
+</ptxt>
+<s2>
+<ptxt>
+Fit the oil filter (1) to the oil pan, and then tighten it to specified torque using the special tool.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1E104">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09915-47341">
+09915–47341
+</s-number>
+</servicetoolitem>
+</servicetool>
+<torque>
+<torqueitem id = "T1E102">
+<t-part>
+Oil filter
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+14
+</t-value1>
+<t-value2>
+1.4
+</t-value2>
+<t-value3>
+10.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFAE0A150031.swf" width = "88.000mm" height = "56.607mm" ver = "01" gw = "204" gh = "144"/>
+</figure>
+</s2>
+<ptxt>
+<emph etype = "bold">
+Not using a torque wrench:
+</emph>
+</ptxt>
+<s2>
+<ptxt>
+Tighten the oil filter (1) by hand until its gasket touches the oil pan.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Using the special tool, rotate the oil filter a three-quarter turn (2) to tighten it.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1E105">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09915-47341">
+09915–47341
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure page = "2">
+<graphic graphicname = "IFAE0A150032.swf" width = "88.000mm" height = "56.607mm" ver = "01" gw = "204" gh = "144"/>
+</figure>
+</s2>
+</s1>
+<s1 page = "2">
+<ptxt>
+Add oil until oil level is brought to FULL level mark (hole) on oil level gauge (oil pan and oil filter capacity). It is recommended to use engine oil of SL, SM or SN grade. Select appropriate oil viscosity according to engine oil viscosity chart [A].
+</ptxt>
+<ptxt>
+SAE 5W-30 oil is the best choice for good fuel economy and good starting in cold weather.
+</ptxt>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Note that actual amount of oil required during oil change may somewhat differ from that indicated below depending on such factors as temperature, viscosity, etc.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine oil specification and viscosity chart [A] indicated in this manual are typical ones.
+</ptxt>
+<ptxt>
+For the specific information on the engine oil and proper engine oil viscosity, refer to “Engine Oil and Filter” section of the Owner&apos;s Manual.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<spec-sdm>
+<sdm-title>
+Engine oil specification
+</sdm-title>
+<sdm1>
+<sdm-condition>
+Oil pan capacity
+</sdm-condition>
+<sdm-value>
+About 3.1 liters (6.55 / 5.46 US / Imp pt.)
+</sdm-value>
+</sdm1>
+<sdm1>
+<sdm-condition>
+Oil filter capacity
+</sdm-condition>
+<sdm-value>
+About 0.2 liter (0.42 / 0.35 US / Imp pt.)
+</sdm-value>
+</sdm1>
+<sdm1>
+<sdm-condition>
+Others
+</sdm-condition>
+<sdm-value>
+About 0.6 liter (1.27 / 1.06 US / Imp pt.)
+</sdm-value>
+</sdm1>
+<sdm1>
+<sdm-condition>
+Total
+</sdm-condition>
+<sdm-value>
+About 3.9 liters (8.24 / 6.86 US / Imp pt.)
+</sdm-value>
+</sdm1>
+</spec-sdm>
+<figure page = "2">
+<graphic graphicname = "IFRA0B151024.swf" width = "88.000mm" height = "26.448mm" ver = "02" gw = "163" gh = "58"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install oil filler cap and oil level gauge to engine.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Start engine and run it for 5 minutes. Stop it and wait for 5 minutes before checking oil level. Add oil, if necessary, to bring oil level to FULL level mark (hole) (1) on oil level gauge.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IYSQ01020012.swf" width = "88.000mm" height = "45.200mm" ver = "01" gw = "160" gh = "111"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+LOW level mark (hole)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check oil filter and drain plug for oil leakage.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For market code P02 and P22, reset cumulative distance and oil change request light. 
+<intxreftitleoff1 refid = "AENLSB0A9306006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

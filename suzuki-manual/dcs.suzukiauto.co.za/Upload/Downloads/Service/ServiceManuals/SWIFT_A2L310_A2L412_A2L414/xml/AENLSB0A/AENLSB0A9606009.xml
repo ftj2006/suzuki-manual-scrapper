@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9F">
+<servcat sctnbr = "09" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9606009" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Power Door Lock Switch Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9506008">Front Door Window Glass Components</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Check continuity between terminals at each switch position.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace switch.
+</ptxt>
+<figure>
+<title>
+Power door lock switch continuity
+</title>
+<graphic graphicname = "IDL10A960013.swf" width = "88.000mm" height = "62.365mm" ver = "02" gw = "176" gh = "160"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A960006.swf" width = "88.000mm" height = "24.752mm" ver = "01" gw = "145" gh = "54"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

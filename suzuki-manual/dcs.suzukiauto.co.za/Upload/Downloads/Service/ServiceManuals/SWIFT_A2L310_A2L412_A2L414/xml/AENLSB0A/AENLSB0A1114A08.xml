@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1114A08" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Poor fuel mileage
+</title>
+<ptxt>
+Perform troubleshooting referring to the following points when ECM has detected no DTC and no abnormality has been found in 
+<intxref refid = "AENLSB0A1114008">Visual Inspection:K14C</intxref>
+ and 
+<intxref refid = "AENLSB0A1114009">Engine Basic Inspection:K14C</intxref>
+.
+</ptxt>
+<diag type = "condition">
+<condition>
+<ptxt>
+Poor fuel mileage
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty spark plug (improper gap, heavy deposits and burned electrodes, etc.)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1816002">Spark Plug Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+High idle speed
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Condition “Improper engine idling or engine fails to idle”
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Poor performance of ECT sensor, MAP sensor or MAF sensor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316016">ECT Sensor Inspection:K14C</intxref>
+, 
+<intxref refid = "AENLSB0A1316010">MAP Sensor Inspection:K14C</intxref>
+ or 
+<intxref refid = "AENLSB0A1316027">MAF Sensor with IAT Sensor-1 Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty electric throttle body assembly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316003">Electric Throttle Body Assembly On-Vehicle Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty APP sensor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316008">APP Sensor Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty fuel injector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1714003">Fuel Injector Circuit Check:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1114082">Inspection of ECM and Its Circuits:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Low compression
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1414001">Compression Check:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Poor valve seating
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1416042">Valve and Valve Guide Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Dragging brakes
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Condition “Dragging brakes” in 
+<intxref refid = "AENLSB0A4104001">Brake Symptom Diagnosis</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Slipping clutch (M/T model)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Condition “Slipping” in 
+<intxref refid = "AENLSB0A5304001">Clutch System Symptom Diagnosis</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Thermostat out of order
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1616008">Thermostat Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Improper tire pressure
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A2401001">Tire Description</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+VVT system out of order
+</ptxt>
+</ps>
+<action>
+<list1 type = "unordered">
+<item>
+<ptxt>
+VVT actuator: 
+<intxref refid = "AENLSB0A1416037">Camshaft and VVT Actuator Inspection:K14C</intxref>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Valve timing: 
+<intxref refid = "AENLSB0A1416034">Timing Chain and Chain Tensioner Inspection:K14C</intxref>
+</ptxt>
+</item>
+<item>
+<ptxt>
+OCV oil circuit: 
+<intxref refid = "AENLSB0A1416028">Timing Chain Cover Inspection:K14C</intxref>
+</ptxt>
+</item>
+</list1>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

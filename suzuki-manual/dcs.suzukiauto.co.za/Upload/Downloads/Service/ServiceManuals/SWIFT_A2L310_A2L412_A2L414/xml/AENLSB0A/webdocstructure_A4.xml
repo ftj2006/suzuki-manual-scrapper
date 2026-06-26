@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Tire Pressure Monitoring System">
+<c i="0" t="configtype none title">
+<t s="0" t="Precautions">
+<s i="AENLSB0AA400001" t="Precautions for Diagnosing Trouble">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0AA401001" t="Tire Pressure Monitoring System Description">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0AA402001" t="TPMS Input / Output Diagram">
+</s>
+<s i="AENLSB0AA402002" t="TPMS Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0AA403001" t="TPMS Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0AA404001" t="TPMS Check">
+</s>
+<s i="AENLSB0AA404002" t="TPMS Self-Diagnosis Function">
+</s>
+<s i="AENLSB0AA404003" t="DTC Check">
+</s>
+<s i="AENLSB0AA404004" t="DTC Clearance">
+</s>
+<s i="AENLSB0AA404005" t="DTC Table">
+</s>
+<s i="AENLSB0AA404006" t="Scan Tool Data">
+</s>
+<s i="AENLSB0AA404007" t="DTC B1A00">
+</s>
+<s i="AENLSB0AA404008" t="DTC B1A01">
+</s>
+<s i="AENLSB0AA404009" t="DTC B1A02">
+</s>
+<s i="AENLSB0AA404010" t="DTC B1A03">
+</s>
+<s i="AENLSB0AA404011" t="DTC B1A10">
+</s>
+<s i="AENLSB0AA404012" t="DTC B1A11">
+</s>
+<s i="AENLSB0AA404013" t="DTC B1A20 / B1A21 / B1A22 / B1A23">
+</s>
+<s i="AENLSB0AA404014" t="DTC B1A24 / B1A25 / B1A26 / B1A27">
+</s>
+<s i="AENLSB0AA404015" t="DTC B1A28 / B1A29 / B1A2A / B1A2B">
+</s>
+<s i="AENLSB0AA404016" t="DTC B1A2C / B1A2D / B1A2E / B1A2F">
+</s>
+<s i="AENLSB0AA404017" t="DTC B1A30 / B1A31 / B1A32 / B1A33">
+</s>
+<s i="AENLSB0AA404018" t="DTC B1A40">
+</s>
+<s i="AENLSB0AA404019" t="DTC B1A41">
+</s>
+<s i="AENLSB0AA404020" t="DTC B1A42">
+</s>
+<s i="AENLSB0AA404021" t="DTC B1A48">
+</s>
+<s i="AENLSB0AA404022" t="DTC B1A49">
+</s>
+<s i="AENLSB0AA404023" t="DTC U0073">
+</s>
+<s i="AENLSB0AA404024" t="DTC U0100">
+</s>
+<s i="AENLSB0AA404025" t="DTC U0121">
+</s>
+<s i="AENLSB0AA404026" t="DTC U0140">
+</s>
+<s i="AENLSB0AA404027" t="DTC U0155">
+</s>
+<s i="AENLSB0AA404028" t="Inspection of TPMS Control Module and Its Circuits">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0AA406001" t="Tire Pressure Sensor Removal and Installation">
+</s>
+<s i="AENLSB0AA406002" t="Tire Pressure Sensor Inspection">
+</s>
+<s i="AENLSB0AA406003" t="TPMS Control Module Removal and Installation">
+</s>
+<s i="AENLSB0AA406004" t="Registration Procedure for Tire Pressure Sensor ID Code">
+</s>
+<s i="AENLSB0AA406005" t="TPMS Setting Procedure">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0AA407001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0AA408001" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Engine Auto Stop Start System">
+<c i="0" t="configtype none title">
+<t s="0" t="Precautions">
+<s i="AENLSB0AA900001" t="Precautions for Diagnosing Trouble">
+</s>
+<s i="AENLSB0AA900002" t="Precautions for Replacing ECM">
+</s>
+<s i="AENLSB0AA900005" t="Precautions for Replacing ISG">
+</s>
+<s i="AENLSB0AA900003" t="Precautions for Replacing Battery">
+</s>
+<s i="AENLSB0AA900004" t="Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery)">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0AA901001" t="Description of ENG A-STOP System">
+</s>
+<s i="AENLSB0AA901005" t="Description of SHVS System Control">
+</s>
+<s i="AENLSB0AA901002" t="Description of ENG A-STOP System Components">
+</s>
+<s i="AENLSB0AA901003" t="Description of ENG A-STOP System Alarm Function">
+</s>
+<s i="AENLSB0AA901004" t="Description of CAN Communication System">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0AA902001" t="ENG A-STOP System Input / Output Diagram">
+</s>
+<s i="AENLSB0AA902002" t="ENG A-STOP System Electric Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0AA903001" t="ENG A-STOP System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0AA904001" t="ENG A-STOP System Check">
+</s>
+<s i="AENLSB0AA904002" t="ENG A-STOP System Self-Diagnosis Function">
+</s>
+<s i="AENLSB0AA904003" t="DTC Check">
+</s>
+<s i="AENLSB0AA904004" t="DTC Clearance">
+</s>
+<s i="AENLSB0AA904005" t="DTC Table">
+</s>
+<s i="AENLSB0AA904006" t="Fail-Safe Table">
+</s>
+<s i="AENLSB0AA904007" t="Scan Tool Data">
+</s>
+<s i="AENLSB0AA904008" t="ENG A-STOP System Symptom Diagnosis">
+</s>
+<s i="AENLSB0AA904009" t="ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)">
+</s>
+<s i="AENLSB0AA904010" t="ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON”">
+</s>
+<s i="AENLSB0AA904012" t="DTC P081D">
+</s>
+<s i="AENLSB0AA904013" t="DTC P083F">
+</s>
+<s i="AENLSB0AA904014" t="DTC P1320 / P1321 / P1322">
+</s>
+<s i="AENLSB0AA904016" t="DTC P1326 / P1327">
+</s>
+<s i="AENLSB0AA904019" t="DTC P13A0">
+</s>
+<s i="AENLSB0AA904020" t="DTC P254F">
+</s>
+<s i="AENLSB0AA904021" t="Inspection of ECM and Its Circuits">
+</s>
+<s i="AENLSB0AA904022" t="ECM Power Supply and Ground Circuit Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0AA906001" t="ECM Removal and Installation">
+</s>
+<s i="AENLSB0AA906002" t="Sensor Calibration for ENG A-STOP System">
+</s>
+<s i="AENLSB0AA906003" t="Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation">
+</s>
+<s i="AENLSB0AA906004" t="Auxiliary Power Module (Lithium-Ion Battery) Inspection">
+</s>
+<s i="AENLSB0AA906019" t="DC/DC Converter Removal and Installation">
+</s>
+<s i="AENLSB0AA906020" t="DC/DC Converter Inspection">
+</s>
+<s i="AENLSB0AA906005" t="ISG Removal and Installation">
+</s>
+<s i="AENLSB0AA906006" t="ISG Inspection">
+</s>
+<s i="AENLSB0AA906007" t="Neutral Position Switch Removal and Installation">
+</s>
+<s i="AENLSB0AA906008" t="Neutral Position Switch Inspection">
+</s>
+<s i="AENLSB0AA906009" t="CPP No.1 Switch Removal and Installation">
+</s>
+<s i="AENLSB0AA906010" t="CPP No.1 Switch Inspection">
+</s>
+<s i="AENLSB0AA906011" t="CPP No.2 Switch Removal and Installation">
+</s>
+<s i="AENLSB0AA906012" t="CPP No.2 Switch Inspection">
+</s>
+<s i="AENLSB0AA906013" t="Brake Booster Pressure Sensor Inspection">
+</s>
+<s i="AENLSB0AA906014" t="Hood Latch Switch Removal and Installation">
+</s>
+<s i="AENLSB0AA906015" t="Hood Latch Switch Inspection">
+</s>
+<s i="AENLSB0AA906016" t="Electric Load Current Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0AA906017" t="ENG A-STOP OFF Switch Removal and Installation">
+</s>
+<s i="AENLSB0AA906018" t="ENG A-STOP OFF Switch Inspection">
+</s>
+</t>
+</c>
+</b>

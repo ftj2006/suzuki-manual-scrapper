@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106026" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+ATF Cooler Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A5106026001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1616004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drain ATF. 
+<intxreftitleoff1 refid = "AENLSB0A5106005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect ATF cooler hoses (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ATF cooler (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B510030.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106026002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If there is matchmark on each of hose and pipe, install the hose aligning matchmark on hose with matchmark on pipe and then install each clamp in proper position.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use new O-ring and then apply ATF.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten ATF cooler bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A013">
+<t-part>
+ATF cooler bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+21
+</t-value1>
+<t-value2>
+2.1
+</t-value2>
+<t-value3>
+15.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0B510031.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Refill cooling system with coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1616005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ATF level. 
+<intxreftitleoff1 refid = "AENLSB0A5106004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check for ATF leakage after warming up A/T.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

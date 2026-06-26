@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "6B">
+<servcat sctnbr = "06" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A6206030" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Pinion Shaft Rotation Torque Adjustment
+</title>
+<s1>
+<ptxt>
+Remove steering gear case assembly. 
+<intxreftitleoff1 refid = "AENLSB0A6206024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove steering rack boots. 
+<intxreftitleoff1 refid = "AENLSB0A6206027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set steering rack position in center of steering rack stroke.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen rack damper screw lock nut (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A620025.swf" width = "88.000mm" height = "42.072mm" ver = "01" gw = "185" gh = "103"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rack damper screw (1) using special tool.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L6B008">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09944-28321">
+09944–28321
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s1>
+<s1>
+<ptxt>
+Apply sealant “A” to rack damper screw and tighten rack damper screw using special tool as follows.
+</ptxt>
+<materials>
+<materialitem name = "SUZUKI Bond No.1215" id = "M6B003" uid = "27">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Sealant
+</m-desc>
+<m-number>
+99000–31110
+</m-number>
+<m-name>
+SUZUKI Bond No.1215
+</m-name>
+</materialitem>
+</materials>
+<servicetool>
+<servicetoolitem id = "L6B009">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09944-28321">
+09944–28321
+</s-number>
+</servicetoolitem>
+</servicetool>
+<s2>
+<ptxt>
+Tighten rack damper screw to 8.0 N&#183;m (0.82 kgf-m, 6.0 lbf-ft)
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Turn rack damper screw to back 9&#176;.
+</ptxt>
+<torque>
+<torqueitem id = "T6B010">
+<t-part>
+Rack damper screw*
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-note>
+8.0 N&#183;m (0.82 kgf-m, 6.0 lbf-ft) &#8594; –9&#176;
+</t-note>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IKSB0A620001.swf" width = "88.000mm" height = "57.973mm" ver = "01" gw = "202" gh = "148"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Check pinion shaft rotation torque and adjust it if necessary tightening or loosening rack damper screw. 
+<intxreftitleoff1 refid = "AENLSB0A6206029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install rack damper screw lock nut (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Apply sealant “A” to rack damper screw lock nut at gear box side (4) and thread (3).
+</ptxt>
+<materials>
+<materialitem name = "SUZUKI Bond No.1215" id = "M6B004" uid = "27">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Sealant
+</m-desc>
+<m-number>
+99000–31110
+</m-number>
+<m-name>
+SUZUKI Bond No.1215
+</m-name>
+</materialitem>
+</materials>
+</s2>
+<s2>
+<ptxt>
+Hold rack damper screw (1) in that position with special tool and tighten rack damper screw lock nut to specified torque.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L6B010">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09944-28321">
+09944–28321
+</s-number>
+</servicetoolitem>
+</servicetool>
+<torque>
+<torqueitem id = "T6B011">
+<t-part>
+Rack damper screw lock nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A620024.swf" width = "88.000mm" height = "79.460mm" ver = "01" gw = "185" gh = "209"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Recheck pinion shaft rotation torque is as specified. 
+<intxreftitleoff1 refid = "AENLSB0A6206029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install steering rack boots. 
+<intxreftitleoff1 refid = "AENLSB0A6206027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install steering gear case assembly. 
+<intxreftitleoff1 refid = "AENLSB0A6206024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

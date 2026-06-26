@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A5104042" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P2715
+</title>
+<servinfosub id = "AENLSB0A5104042001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.602in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.602in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P2715: Pressure Control Solenoid “D” Stuck On
+</emph>
+</ptxt>
+<ptxt>
+TCM detects abnormal gear shift.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Line pressure control solenoid valve
+</ptxt>
+</item>
+<item>
+<ptxt>
+Pressure control solenoid valve “D”
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104042002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that the following condition is met in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+DTC U0073 or U0100 is not detected.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Troubleshoot first unexpected DTCs previously detected in “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle at approx. 50 km/h (31 mile/h) or more in D range for 1 minute 5 times.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104042003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A5104042004">
+<testgroup id = "AENLSB0A5104042005">
+<question>
+Was “A/T Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0A5104001">A/T Control System Check</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104042006">
+<title>
+ATF check
+</title>
+<test1>
+<ptxt>
+Check ATF for level and deterioration. 
+<intxreftitleoff1 refid = "AENLSB0A5106004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Add or change ATF. 
+<intxreftitleoff1 refid = "AENLSB0A5106005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104042007">
+<title>
+Solenoid valve check
+</title>
+<test1>
+<ptxt>
+Remove valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check line pressure control solenoid valve and pressure control solenoid valve “D” for proper operation. 
+<intxreftitleoff1 refid = "AENLSB0A5106019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104042008">
+<title>
+Valve body check
+</title>
+<test1>
+<ptxt>
+Check that each fluid passage is not clogged in valve body assembly. 
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Substitute a known-good TCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A5106020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Clean or replace valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA34A03" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Parking sensor system cannot be switched ON or OFF
+</title>
+<attention3>
+<ptxt>
+Parking sensor system is controlled by sonar control module communicating with the following control modules through CAN communication. Before performing symptom diagnosis, check that no DTC is indicated in these control modules.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM (A/T model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Parking sensor system cannot be switched ON or OFF
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty parking sensor OFF switch circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AAA36005">Parking Sensor OFF Switch Inspection:Parking Sensor</intxref>
+.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>
