@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA24001" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Blind Spot Monitor System Check
+</title>
+<diag type = "test" id = "AENLSB0AAA24001001">
+<testgroup id = "AENLSB0AAA24001002">
+<title>
+Customer complaint analysis
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24001013">Step 1: Customer Complaint Analysis</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Was customer complaint analysis performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Perform customer complaint analysis.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001003">
+<title>
+DTC check, record and clearance
+</title>
+<test1>
+<ptxt>
+Check for DTC (current and history). 
+<intxreftitleoff1 refid = "AENLSB0AAA24001014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Print DTC or write it down and clear it referring to 
+<intxref refid = "AENLSB0AAA24004">DTC Clearance:Blind Spot Monitor</intxref>
+. Then go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001004">
+<title>
+Visual inspection
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24001015">Steps 3 and 4: Visual Inspection</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001005">
+<title>
+Visual inspection
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24001015">Steps 3 and 4: Visual Inspection</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001006">
+<title>
+Trouble symptom confirmation
+</title>
+<test1>
+<ptxt>
+Check trouble symptom. 
+<intxreftitleoff1 refid = "AENLSB0AAA24001016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is trouble symptom identified?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001007">
+<title>
+Rechecking and recording DTC
+</title>
+<test1>
+<ptxt>
+Recheck for current DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA24001017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001008">
+<title>
+Rechecking and recording DTC
+</title>
+<test1>
+<ptxt>
+Recheck for current DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA24001017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001009">
+<title>
+Blind spot monitor system symptom diagnosis
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24001018">Step 8: Blind Spot Monitor System Symptom Diagnosis</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part(s), and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001010">
+<title>
+Troubleshooting for DTC
+</title>
+<test1>
+<ptxt>
+Perform troubleshooting for applicable DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA24001019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Are check and repair completed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check and repair defective part(s), and then go to Step 11.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001011">
+<title>
+Intermittent problem check
+</title>
+<test1>
+<ptxt>
+Check for intermittent problems. 
+<intxreftitleoff1 refid = "AENLSB0AAA24001020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part(s), and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA24001012">
+<title>
+Final confirmation test
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24001023">Step 11: Final Confirmation Test</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any problem symptom, DTC or abnormal condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+<servinfosub id = "AENLSB0AAA24001013">
+<title>
+Step 1: Customer Complaint Analysis
+</title>
+<ptxt>
+Record details of the problem (failure, complaint) and how it occurred as described by the customer.
+</ptxt>
+<ptxt>
+For this purpose, such a questionnaire form shown below will facilitate collecting information for proper analysis and diagnosis.
+</ptxt>
+<attention3>
+<ptxt>
+The form is a standard sample. It should be modified according to characteristics of each market.
+</ptxt>
+</attention3>
+<figure>
+<title>
+Customer questionnaire form (Example)
+</title>
+<graphic graphicname = "ILSB0AAA2028.swf" width = "183.000mm" height = "200.764mm" ver = "01" gw = "498" gh = "553"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001014">
+<title>
+Step 2: DTC Check, Record and Clearance
+</title>
+<ptxt>
+First, check for DTC (current and history). 
+<intxreftitleoff1 refid = "AENLSB0AAA24003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+If DTCs are indicated, print the DTCs or write them down and then clear them. 
+<intxreftitleoff1 refid = "AENLSB0AAA24004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<title>
+DTC checklist (Example)
+</title>
+<graphic graphicname = "ILSB0AAA2029.swf" width = "183.000mm" height = "103.323mm" ver = "01" gw = "498" gh = "276"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001015" page = "2">
+<title>
+Steps 3 and 4: Visual Inspection
+</title>
+<ptxt>
+As a preliminary step, perform visual check of the items that support proper function of the blind spot monitor system for their installation or connector connection. 
+<intxreftitleoff1 refid = "AENLSB0AAA24008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001016" page = "2">
+<title>
+Step 5: Trouble Symptom Confirmation
+</title>
+<ptxt>
+Based on information obtained in 
+<intxref refid = "AENLSB0AAA24001013">Step 1: Customer Complaint Analysis</intxref>
+ and 
+<intxref refid = "AENLSB0AAA24001014">Step 2: DTC Check, Record and Clearance</intxref>
+, check trouble symptoms.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001017" page = "2">
+<title>
+Steps 6 and 7: Rechecking and Recording DTC
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AAA24003">DTC Check:Blind Spot Monitor</intxref>
+ for checking procedure.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001018" page = "2">
+<title>
+Step 8: Blind Spot Monitor System Symptom Diagnosis
+</title>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AAA24009">Blind Spot Monitor System Symptom Diagnosis:Blind Spot Monitor</intxref>
+ based on symptom found in vehicle, checking the following items.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Customer complaint analysis
+</ptxt>
+</item>
+<item>
+<ptxt>
+Trouble symptom confirmation
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001019" page = "2">
+<title>
+Step 9: Troubleshooting for DTC
+</title>
+<ptxt>
+Perform troubleshooting for applicable DTC and repair or replace faulty parts.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001020" page = "2">
+<title>
+Step 10: Intermittent Problem Check
+</title>
+<topic id = "AENLSB0AAA24001021">
+<title>
+If there is no DTC in Step 2:
+</title>
+<ptxt>
+Check for intermittent problem. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA24001022">
+<title>
+If there is any DTC in Step 2:
+</title>
+<ptxt>
+Check parts related to detected DTC (e.g. wire harness, connector, etc.).
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA24001023" page = "2">
+<title>
+Step 11: Final Confirmation Test
+</title>
+<ptxt>
+Check that the problem symptom does not recur and the vehicle is free from any abnormal conditions. If what has been repaired is related to DTC, clear DTC once, perform DTC confirmation procedure and check that no DTC is indicated.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

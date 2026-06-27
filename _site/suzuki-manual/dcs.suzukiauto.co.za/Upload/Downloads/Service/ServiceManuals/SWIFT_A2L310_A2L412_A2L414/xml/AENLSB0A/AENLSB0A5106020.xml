@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106020" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+TCM Removal and Installation
+</title>
+<attention4>
+<ptxt>
+As the TCM consists of precision parts, the TCM will be damaged if it is exposed to an excessively large impact.
+</ptxt>
+<ptxt>
+Handle the TCM carefully so as not to impact it.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+When TCM is removed or replaced, perform 
+<intxref refid = "AENLSB0A5106001">TCM Learning Value Clearance</intxref>
+, 
+<intxref refid = "AENLSB0A5106003">Neutral Position Calibration</intxref>
+ and 
+<intxref refid = "AENLSB0A5106002">TCM Learning Value Initialization</intxref>
+.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0A5106020001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+With select lever in P range, apply parking brake and block wheels.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove battery and battery tray. 
+<intxreftitleoff1 refid = "AENLSB0A1A16002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove select cable clip and disconnect select cable from manual select lever. 
+<intxreftitleoff1 refid = "AENLSB0A5106014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Move manual select lever (1) to “N” position (2), and then remove manual select lever.
+</ptxt>
+<attention4>
+<ptxt>
+If torque is applied to the manual shaft when loosening the manual select lever nut, internal part of the A/T may be damaged.
+</ptxt>
+<ptxt>
+Fix the manual select lever in place before loosening the manual select lever nut.
+</ptxt>
+</attention4>
+<figure>
+<graphic graphicname = "IEL10C510090.swf" width = "88.000mm" height = "59.215mm" ver = "01" gw = "207" gh = "151"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector (1) from TCM (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove TCM bolts, and then pull TCM straight up to remove it.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510091.swf" width = "88.000mm" height = "58.300mm" ver = "01" gw = "185" gh = "149"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106020002">
+<title>
+Installation 
+</title>
+<s1>
+<ptxt>
+Install solenoid harness connector (1) to transaxle case correctly.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510327.swf" width = "88.000mm" height = "48.967mm" ver = "02" gw = "199" gh = "122"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install TCM by pushing it straight into transaxle case, and then tighten TCM bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A011">
+<t-part>
+TCM bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IEL10C510093.swf" width = "88.000mm" height = "63.945mm" ver = "01" gw = "185" gh = "165"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check that “N” mark (1) is aligned with matchmark (2).
+</ptxt>
+<ptxt>
+If not aligned, remove TCM, set manual shaft in “N” position, and then repeat this Step 2) – 3).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510328.swf" width = "88.000mm" height = "45.838mm" ver = "02" gw = "124" gh = "113"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect connector to TCM.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install manual select lever and tighten manual select lever nut (1) to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+If torque is applied to the manual shaft when tightening the manual select lever nut, internal part of the A/T may be damaged.
+</ptxt>
+<ptxt>
+Fix the manual select lever in place before tightening the manual select lever nut.
+</ptxt>
+</attention4>
+<torque>
+<torqueitem id = "T5A012">
+<t-part>
+Manual select lever nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+12
+</t-value1>
+<t-value2>
+1.2
+</t-value2>
+<t-value3>
+9.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IEL10C510095.swf" width = "88.000mm" height = "61.658mm" ver = "01" gw = "185" gh = "158"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Apply grease to pin and cable joint. 
+<intxreftitleoff1 refid = "AENLSB0A5106014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install select cable to manual select lever. 
+<intxreftitleoff1 refid = "AENLSB0A5106016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install clip (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510096.swf" width = "88.000mm" height = "59.376mm" ver = "01" gw = "185" gh = "152"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Shift select lever to P range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install battery tray and battery. 
+<intxreftitleoff1 refid = "AENLSB0A1A16002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+After replacing TCM with new one, program TCM with calibration data. Refer to Operator’s Manual of SUZUKI ECU Programming System.
+</ptxt>
+<attention3>
+<ptxt>
+Supplied TCM may not be programed depending on the shipping time. When a blank TCM is shipped with a memo indicating that “This ECU does not function without the calibration data.”, programing of the TCM with the calibration data is necessary for the activation.
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106001">TCM Learning Value Clearance</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106003">Neutral Position Calibration</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106002">TCM Learning Value Initialization</intxref>
+.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

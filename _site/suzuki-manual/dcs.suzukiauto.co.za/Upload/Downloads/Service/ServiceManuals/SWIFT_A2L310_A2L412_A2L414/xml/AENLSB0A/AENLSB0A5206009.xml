@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5B">
+<servcat sctnbr = "05" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5206009" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Neutral Position Switch Removal and Installation (If Equipped)
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206010">Neutral Position Switch On-Vehicle Inspection (If Equipped)</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A5206009001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove left front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect neutral position switch connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove neutral position switch connector from engine harness MT bracket (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove neutral position switch (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A523006.swf" width = "88.000mm" height = "62.974mm" ver = "01" gw = "219" gh = "162"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5206009002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install new neutral position switch.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten neutral position switch to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5B005">
+<t-part>
+Neutral position switch
+</t-part>
+<t-value1>
+23
+</t-value1>
+<t-value2>
+2.3
+</t-value2>
+<t-value3>
+17.0
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Install left front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

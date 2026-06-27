@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Automatic Transmission/Transaxle">
+<c i="0" t="configtype none title">
+<t s="0" t="Precautions">
+<s i="AENLSB0A5100001" t="Precautions for Diagnosing Trouble">
+</s>
+<s i="AENLSB0A5100002" t="Precautions for Disassembly and Reassembly">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0A5101001" t="A/T Description">
+</s>
+<s i="AENLSB0A5101002" t="A/T Diagnosis General Description">
+</s>
+<s i="AENLSB0A5101003" t="OBD System Description">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0A5102001" t="Electronic Shift Control System Input / Output Diagram">
+</s>
+<s i="AENLSB0A5102002" t="Electronic Shift Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0A5103001" t="Electronic Shift Control System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A5104001" t="A/T Control System Check">
+</s>
+<s i="AENLSB0A5104003" t="Transmission Warning Light Check">
+</s>
+<s i="AENLSB0A5104004" t="DTC Check">
+</s>
+<s i="AENLSB0A5104005" t="DTC Clearance">
+</s>
+<s i="AENLSB0A5104006" t="DTC Table">
+</s>
+<s i="AENLSB0A5104007" t="Fail-Safe Table">
+</s>
+<s i="AENLSB0A5104008" t="Scan Tool Data">
+</s>
+<s i="AENLSB0A5104009" t="Visual Inspection">
+</s>
+<s i="AENLSB0A5104010" t="A/T Basic Check">
+</s>
+<s i="AENLSB0A5104011" t="Road Test">
+</s>
+<s i="AENLSB0A5104012" t="Engine Brake Test">
+</s>
+<s i="AENLSB0A5104013" t="Stall Test">
+</s>
+<s i="AENLSB0A5104014" t="Time-Lag Test">
+</s>
+<s i="AENLSB0A5104015" t="Line Pressure Test">
+</s>
+<s i="AENLSB0A5104016" t="P Range Test">
+</s>
+<s i="AENLSB0A5104017" t="A/T Symptom Diagnosis">
+</s>
+<s i="AENLSB0A5104020" t="Transmission Warning Light Does Not Come ON with Ignition ON">
+</s>
+<s i="AENLSB0A5104021" t="Transmission Warning Light Remains ON with Ignition ON">
+</s>
+<s i="AENLSB0A5104022" t="DTC P0562 / P0563">
+</s>
+<s i="AENLSB0A5104023" t="DTC P0602">
+</s>
+<s i="AENLSB0A5104024" t="DTC P0604 / P062F / P1702 / P184C">
+</s>
+<s i="AENLSB0A5104025" t="DTC P0706 / P0707 / P0708">
+</s>
+<s i="AENLSB0A5104026" t="DTC P0711 / P0712 / P0713">
+</s>
+<s i="AENLSB0A5104027" t="DTC P0717 / P1738 / P1739">
+</s>
+<s i="AENLSB0A5104028" t="DTC P0722 / P1736 / P1737">
+</s>
+<s i="AENLSB0A5104029" t="DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E">
+</s>
+<s i="AENLSB0A5104030" t="DTC P072A / P073E / P073F">
+</s>
+<s i="AENLSB0A5104031" t="DTC P0741">
+</s>
+<s i="AENLSB0A5104032" t="DTC P0742">
+</s>
+<s i="AENLSB0A5104033" t="DTC P0747 / P0777 / P0797">
+</s>
+<s i="AENLSB0A5104034" t="DTC P0961 / P0962 / P0963">
+</s>
+<s i="AENLSB0A5104035" t="DTC P0965 / P0966 / P0967">
+</s>
+<s i="AENLSB0A5104036" t="DTC P0969 / P0970 / P0971">
+</s>
+<s i="AENLSB0A5104037" t="DTC P0973 / P0974">
+</s>
+<s i="AENLSB0A5104038" t="DTC P0976 / P0977">
+</s>
+<s i="AENLSB0A5104039" t="DTC P1706">
+</s>
+<s i="AENLSB0A5104040" t="DTC P1718 / P1719">
+</s>
+<s i="AENLSB0A5104041" t="DTC P1727 / P1728">
+</s>
+<s i="AENLSB0A5104042" t="DTC P2715">
+</s>
+<s i="AENLSB0A5104043" t="DTC P2719 / P2720 / P2721">
+</s>
+<s i="AENLSB0A5104044" t="DTC P2728 / P2729 / P2730">
+</s>
+<s i="AENLSB0A5104045" t="DTC P2762 / P2763 / P2764">
+</s>
+<s i="AENLSB0A5104046" t="DTC P2806">
+</s>
+<s i="AENLSB0A5104047" t="DTC U0073">
+</s>
+<s i="AENLSB0A5104048" t="DTC U0100">
+</s>
+<s i="AENLSB0A5104049" t="DTC U0121">
+</s>
+<s i="AENLSB0A5104050" t="Inspection of TCM and Its Circuits">
+</s>
+<s i="AENLSB0A5104051" t="TCM Power and Ground Circuit Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A5106001" t="TCM Learning Value Clearance">
+</s>
+<s i="AENLSB0A5106002" t="TCM Learning Value Initialization">
+</s>
+<s i="AENLSB0A5106003" t="Neutral Position Calibration">
+</s>
+<s i="AENLSB0A5106004" t="ATF Level Check">
+</s>
+<s i="AENLSB0A5106005" t="ATF Change">
+</s>
+<s i="AENLSB0A5106006" t="Shift Paddle Switch Inspection">
+</s>
+<s i="AENLSB0A5106007" t="Select Lever Assembly Components">
+</s>
+<s i="AENLSB0A5106008" t="Select Lever Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A5106009" t="Select Lever Assembly Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106010" t="Select Lever Assembly Inspection">
+</s>
+<s i="AENLSB0A5106011" t="P Position Switch Inspection">
+</s>
+<s i="AENLSB0A5106012" t="Shift Lock Solenoid Inspection">
+</s>
+<s i="AENLSB0A5106013" t="Manual Release of Shift Lock">
+</s>
+<s i="AENLSB0A5106014" t="Select Cable Components">
+</s>
+<s i="AENLSB0A5106015" t="Select Cable Removal and Installation">
+</s>
+<s i="AENLSB0A5106016" t="Select Cable Adjustment">
+</s>
+<s i="AENLSB0A5106017" t="Solenoid Valve On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A5106018" t="Valve Body Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A5106019" t="Solenoid Valve Inspection">
+</s>
+<s i="AENLSB0A5106020" t="TCM Removal and Installation">
+</s>
+<s i="AENLSB0A5106021" t="Back Up Light Control Relay Inspection">
+</s>
+<s i="AENLSB0A5106022" t="Differential Side Oil Seal Replacement">
+</s>
+<s i="AENLSB0A5106023" t="ATF Cooler Hose Components">
+</s>
+<s i="AENLSB0A5106024" t="ATF Cooler Hose Inspection">
+</s>
+<s i="AENLSB0A5106025" t="ATF Cooler Hose Replacement">
+</s>
+<s i="AENLSB0A5106026" t="ATF Cooler Removal and Installation">
+</s>
+<s i="AENLSB0A5106027" t="A/T Assembly Components">
+</s>
+<s i="AENLSB0A5106029" t="A/T Assembly Dismounting and Remounting">
+</s>
+<s i="AENLSB0A5106030" t="A/T Assembly Disassembly">
+</s>
+<s i="AENLSB0A5106031" t="Oil Pump Assembly Components">
+</s>
+<s i="AENLSB0A5106032" t="Oil Pump Assembly Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106033" t="Oil Pump Assembly Inspection">
+</s>
+<s i="AENLSB0A5106034" t="A/T Oil Strainer Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A5106035" t="A/T Oil Strainer Assembly Inspection">
+</s>
+<s i="AENLSB0A5106036" t="Output Shaft Speed Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A5106037" t="Output Shaft Speed Sensor Inspection">
+</s>
+<s i="AENLSB0A5106038" t="Input Shaft Speed Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A5106039" t="Input Shaft Speed Sensor Inspection">
+</s>
+<s i="AENLSB0A5106040" t="Solenoid Harness with ATF Temperature Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A5106041" t="ATF Temperature Sensor Inspection">
+</s>
+<s i="AENLSB0A5106042" t="Reverse Clutch Assembly Inspection">
+</s>
+<s i="AENLSB0A5106043" t="Direct Clutch Assembly Inspection">
+</s>
+<s i="AENLSB0A5106044" t="Forward Clutch Assembly Inspection">
+</s>
+<s i="AENLSB0A5106045" t="B1 Brake Components">
+</s>
+<s i="AENLSB0A5106046" t="B1 Brake Piston Removal and Installation">
+</s>
+<s i="AENLSB0A5106047" t="B1 Brake Piston Rod Adjustment">
+</s>
+<s i="AENLSB0A5106048" t="1st and Reverse Brake Components">
+</s>
+<s i="AENLSB0A5106049" t="1st and Reverse Brake Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106050" t="1st and Reverse Brake Inspection">
+</s>
+<s i="AENLSB0A5106051" t="1st and Reverse Brake Piston Stroke Inspection and Adjustment">
+</s>
+<s i="AENLSB0A5106052" t="Front Planetary Gear Assembly and Input Shaft Components">
+</s>
+<s i="AENLSB0A5106053" t="Front Planetary Gear Assembly and Input Shaft Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106054" t="Rear Planetary Gear Assembly and One-Way Clutch Assembly Components">
+</s>
+<s i="AENLSB0A5106055" t="Rear Planetary Gear Assembly and One-Way Clutch Assembly Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106056" t="Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection">
+</s>
+<s i="AENLSB0A5106057" t="Differential and Pinion and Counter Driven Gear Assembly Components">
+</s>
+<s i="AENLSB0A5106058" t="Differential Assembly Inspection">
+</s>
+<s i="AENLSB0A5106059" t="Torque Converter Housing Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106060" t="Transaxle Case Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A5106061" t="A/T Assembly Inspection and Adjustment">
+</s>
+<s i="AENLSB0A5106062" t="A/T Assembly Reassembly">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A5107001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A5108001" t="Recommended Service Material">
+</s>
+<s i="AENLSB0A5108002" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

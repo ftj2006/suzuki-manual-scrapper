@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10I">
+<servcat sctnbr = "10" scnbr = "09">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA904001" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+ENG A-STOP System Check
+</title>
+<diag type = "test" id = "AENLSB0AA904001001">
+<testgroup id = "AENLSB0AA904001002">
+<title>
+Customer complaint analysis
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA904001010">Step 1: Customer Complaint Analysis</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Was customer complaint analysis performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Perform customer complaint analysis.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001003">
+<title>
+DTC check, record and clearance
+</title>
+<test1>
+<ptxt>
+Check for DTC (including pending DTC). 
+<intxreftitleoff1 refid = "AENLSB0AA904001011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Print DTC or write it down and clear it referring to 
+<intxref refid = "AENLSB0AA904004">DTC Clearance</intxref>
+. Then go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001004">
+<title>
+Trouble symptom confirmation
+</title>
+<test1>
+<ptxt>
+Check trouble symptom. 
+<intxreftitleoff1 refid = "AENLSB0AA904001012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is trouble symptom identified?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001005">
+<title>
+Rechecking and recording DTC
+</title>
+<test1>
+<ptxt>
+Recheck for DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA904001015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001006">
+<title>
+ENG A-STOP symptom diagnosis
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA904001016">Step 5: ENG A-STOP System Symptom Diagnosis</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Are check and repair completed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check and repair defective part, and then go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001007">
+<title>
+Troubleshooting for DTC
+</title>
+<test1>
+<ptxt>
+Perform troubleshooting for applicable DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA904001017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Are check and repair completed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check and repair defective part, and then go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001008">
+<title>
+Intermittent problem check
+</title>
+<test1>
+<ptxt>
+Check for intermittent problem. 
+<intxreftitleoff1 refid = "AENLSB0AA904001018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 8.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904001009">
+<title>
+Final confirmation test
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA904001021">Step 8: Final Confirmation Test</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any problem symptom, DTC or abnormal condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+<servinfosub id = "AENLSB0AA904001010">
+<title>
+Step 1: Customer Complaint Analysis
+</title>
+<ptxt>
+Record details of the problem (failure, complaint) and how it occurred as described by the customer.
+</ptxt>
+<ptxt>
+For this purpose, such a questionnaire form shown below will facilitate collecting information for proper analysis and diagnosis.
+</ptxt>
+<attention3>
+<ptxt>
+The form is a standard sample. It should be modified according to characteristics of each market.
+</ptxt>
+</attention3>
+<figure>
+<title>
+Customer questionnaire form (Example)
+</title>
+<graphic graphicname = "IGSB0AA90003.swf" width = "183.000mm" height = "122.836mm" ver = "01" gw = "469" gh = "332"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001011" page = "2">
+<title>
+Step 2: DTC Check, Record and Clearance
+</title>
+<ptxt>
+First, check for DTCs. 
+<intxreftitleoff1 refid = "AENLSB0AA904003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+If DTCs are indicated, print DTC or write them down and then clear them. 
+<intxreftitleoff1 refid = "AENLSB0AA904004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001012" page = "2">
+<title>
+Step 3: Trouble Symptom Confirmation
+</title>
+<topic id = "AENLSB0AA904001013">
+<title>
+If there is no DTC in Step 2:
+</title>
+<ptxt>
+Based on information obtained in 
+<intxref refid = "AENLSB0AA904001010">Step 1: Customer Complaint Analysis</intxref>
+ and 
+<intxref refid = "AENLSB0AA904001011">Step 2: DTC Check, Record and Clearance</intxref>
+, check trouble symptoms.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AA904001014">
+<title>
+If there is any DTC in Step 2:
+</title>
+<ptxt>
+Recheck DTC according to “DTC Confirmation Procedure” described in each DTC troubleshooting.
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001015" page = "2">
+<title>
+Step 4: Rechecking and Recording DTC
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AA904003">DTC Check</intxref>
+ for checking procedure.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001016" page = "2">
+<title>
+Step 5: ENG A-STOP System Symptom Diagnosis
+</title>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA904008">ENG A-STOP System Symptom Diagnosis</intxref>
+ based on symptom found in vehicle, checking the following items.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Customer complaint analysis
+</ptxt>
+</item>
+<item>
+<ptxt>
+Trouble symptom confirmation
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001017" page = "2">
+<title>
+Step 6: Troubleshooting for DTC
+</title>
+<ptxt>
+Perform troubleshooting for applicable DTC and repair or replace faulty parts.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001018" page = "2">
+<title>
+Step 7: Intermittent Problem Check
+</title>
+<topic id = "AENLSB0AA904001019">
+<title>
+If there is no DTC in Step 2:
+</title>
+<ptxt>
+Check for intermittent problem. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</topic>
+<topic id = "AENLSB0AA904001020">
+<title>
+If there is any DTC in Step 2:
+</title>
+<ptxt>
+Check parts related to detected DTC (e.g. wire harness, connector, etc.).
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AA904001021" page = "2">
+<title>
+Step 8: Final Confirmation Test
+</title>
+<ptxt>
+Check that the problem symptom does not recur and the vehicle is free from any abnormal conditions. If what has been repaired is related to DTC, clear DTC once, perform DTC confirmation procedure and check that no DTC is indicated.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9A">
+<servcat sctnbr = "09" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "E">
+<servinfo servinfosgmlid = "AENLSB0A910E028" svcinfotypenbr = "10" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+B-5 Power Door Lock Circuit Diagram (RHD with Deadlock)
+</title>
+<figure>
+<graphic graphicname = "ILSB0A910989.swf" width = "183.000mm" height = "240.237mm" ver = "01" gw = "506" gh = "664"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910990.swf" width = "183.000mm" height = "239.870mm" ver = "01" gw = "509" gh = "663"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910991.swf" width = "183.000mm" height = "239.275mm" ver = "01" gw = "508" gh = "662"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

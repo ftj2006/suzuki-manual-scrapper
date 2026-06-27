@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9B">
+<servcat sctnbr = "09" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A9201001" svcinfotypenbr = "03" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Lighting System Description
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Lighting and turn signal switch is equipped with CPU and has functions of self-diagnosis and CAN communication.
+</ptxt>
+<ptxt>
+Lighting system is controlled by BCM based on signal from lighting and turn signal switch through CAN communication.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The steering angle sensor is built into the lighting and turn signal switch.
+</ptxt>
+</item>
+<item>
+<ptxt>
+For model with DSBS, DSBS system is equipped with high beam assist function and is controlled by dual sensor brake support control module. For more details of high beam assist function, refer to 
+<intxref refid = "AENLSB0AAA11003">Description of Dual Sensor Brake Support Function:Dual Sensor Brake Support</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

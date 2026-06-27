@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10E">
+<servcat sctnbr = "10" scnbr = "05">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA504016" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC B1137
+</title>
+<servinfosub id = "AENLSB0AA504016001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.596in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.596in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+B1137: Brake Light Switch Malfunction
+</emph>
+</ptxt>
+<ptxt>
+Inconsistency between brake light switch signal and the data signal transmitted via CAN communication.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake light switch circuit / connector
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake light switch
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA504016002">
+<title>
+Circuit Diagram
+</title>
+<figure>
+<graphic graphicname = "ILSB0AA50006.swf" width = "183.000mm" height = "104.760mm" ver = "01" gw = "478" gh = "280"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+DSBS model
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+A1:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake light switch signal circuit 1
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+BCM
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Non-DSBS model
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+A2:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake light switch signal circuit 2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+ECM
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[C]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/B connector (View: [a])
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+“STOP” fuse
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+To brake light
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[D]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ECM connector (View: [a])
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Brake light switch
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AA504016003">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Depress brake pedal fully for 3 seconds or more.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release brake pedal for 3 seconds or more.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA504016004">
+<title>
+DTC Troubleshooting
+</title>
+<attention3>
+<ptxt>
+This DTC might be detected when battery is run down or the voltage is very low.
+</ptxt>
+</attention3>
+<diag type = "test" id = "AENLSB0AA504016005">
+<testgroup id = "AENLSB0AA504016006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in BCM. 
+<intxreftitleoff1 refid = "AENLSB0AA204003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC U0100 detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting in 
+<intxref refid = "AENLSB0AA204020">DTC U0100</intxref>
+.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA504016007">
+<title>
+Parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC when ignition is “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “Brake Light Switch” displayed on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA204007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+End. (Intermittent trouble.)
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA504016008">
+<title>
+Brake light switch signal circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect ECM and “E323” connectors.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper terminal connection to ECM and “E323” connectors.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check that resistance of “A1” circuit is less than 1 &#937;.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA504016009">
+<title>
+Brake light switch signal circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect brake light switch connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Connect “E323” connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check that resistance between “A2” circuit terminal at brake light switch connector and “A1” circuit terminal at ECM connector is less than 1 &#937;.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1316001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA504016010">
+<title>
+Brake light switch check
+</title>
+<test1>
+<ptxt>
+Check brake light switch. 
+<intxreftitleoff1 refid = "AENLSB0A4106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace brake light switch. 
+<intxreftitleoff1 refid = "AENLSB0A4106011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA504016011">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Connect brake light switch and ECM connectors.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA504016003">DTC Confirmation Procedure</intxref>
+ and then recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA504004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is current DTC B1137 detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace BCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End. (Intermittent trouble.)
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

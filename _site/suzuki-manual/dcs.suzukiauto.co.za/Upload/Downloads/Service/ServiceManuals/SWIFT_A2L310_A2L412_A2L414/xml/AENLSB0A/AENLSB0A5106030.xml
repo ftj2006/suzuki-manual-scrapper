@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106030" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+A/T Assembly Disassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106029">A/T Assembly Dismounting and Remounting</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106027">A/T Assembly Components</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+Contamination and rough handling of the transaxle may cause premature wear, functional problems and damage to parts.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Thoroughly clean the exterior of the transaxle before disassembling it.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Keep workbench, tools and hands clean during the service operation.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use special care when handling aluminum parts so as not to damage them.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Keep removed parts free of dust and other foreign material.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<attention3>
+<ptxt>
+When A/T internal part(s) is replaced, perform 
+<intxref refid = "AENLSB0A5106001">TCM Learning Value Clearance</intxref>
+, 
+<intxref refid = "AENLSB0A5106003">Neutral Position Calibration</intxref>
+ and 
+<intxref refid = "AENLSB0A5106002">TCM Learning Value Initialization</intxref>
+.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Drain ATF before overhauling. 
+<intxreftitleoff1 refid = "AENLSB0A5106005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove TCM. 
+<intxreftitleoff1 refid = "AENLSB0A5106020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove torque converter (1) by pulling it out of the transaxle as straight as possible to prevent oil seal lip from damage.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510334.swf" width = "88.000mm" height = "54.394mm" ver = "02" gw = "185" gh = "138"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect breather hose (1) and breather plug (2), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510450.swf" width = "88.000mm" height = "62.559mm" ver = "02" gw = "206" gh = "161"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove A/T hook and harness brackets, if necessary.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove select cable bracket. 
+<intxreftitleoff1 refid = "AENLSB0A5106014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove select cable clamp, if necessary. 
+<intxreftitleoff1 refid = "AENLSB0A5106014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ATF cooler. 
+<intxreftitleoff1 refid = "AENLSB0A5106026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect input shaft speed sensor connector, and then remove solenoid harness lock plate (1) and solenoid harness with ATF temperature sensor (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510335.swf" width = "88.000mm" height = "56.232mm" ver = "02" gw = "180" gh = "143"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove input shaft speed sensor. 
+<intxreftitleoff1 refid = "AENLSB0A5106038"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen torque converter housing bolts in numerical order (“1” – “22”) evenly and gradually.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove torque converter housing (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510336.swf" width = "88.000mm" height = "83.176mm" ver = "02" gw = "219" gh = "219"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove transaxle case gaskets (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510337.swf" width = "88.000mm" height = "54.540mm" ver = "02" gw = "175" gh = "138"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove oil pump assembly (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510338.swf" width = "88.000mm" height = "59.435mm" ver = "02" gw = "172" gh = "152"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove reverse clutch assembly and front planetary gear assembly and input shaft (1) all together.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510339.swf" width = "88.000mm" height = "55.393mm" ver = "02" gw = "157" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove B1 brake band anchor bolt (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510340.swf" width = "88.000mm" height = "54.565mm" ver = "02" gw = "212" gh = "138"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove B1 brake band (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510341.swf" width = "88.000mm" height = "50.816mm" ver = "02" gw = "182" gh = "128"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove B1 brake piston as follows.
+</ptxt>
+<s2>
+<ptxt>
+Remove snap ring (1) while pushing B1 brake piston cover (2) using hammer or the like.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510170.swf" width = "88.000mm" height = "54.945mm" ver = "01" gw = "208" gh = "139"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove B1 brake piston cover (1), B1 brake piston (2) and B1 brake piston spring (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510342.swf" width = "88.000mm" height = "63.221mm" ver = "02" gw = "193" gh = "163"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove input shaft thrust bearing (1), input shaft thrust bearing race (2) and forward clutch assembly (3).
+</ptxt>
+<attention3>
+<ptxt>
+If input shaft thrust bearing is not found, it may have been taken out with input shaft.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "IEL10C510343.swf" width = "88.000mm" height = "53.062mm" ver = "02" gw = "200" gh = "134"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove sun gear input drum thrust bearing (1), sun gear input drum thrust bearing race (2) and sun gear input drum (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510344.swf" width = "88.000mm" height = "56.006mm" ver = "02" gw = "187" gh = "142"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove manual detent spring (1) and spring cover (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510345.swf" width = "88.000mm" height = "56.153mm" ver = "02" gw = "187" gh = "143"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove spring guide sleeve (1) and spring (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510347.swf" width = "88.000mm" height = "57.225mm" ver = "02" gw = "195" gh = "146"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove parking lock pawl shaft (1) and spring (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510346.swf" width = "88.000mm" height = "52.777mm" ver = "02" gw = "199" gh = "133"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove parking lock pawl (1) and parking lock pawl bracket (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510348.swf" width = "88.000mm" height = "100.229mm" ver = "02" gw = "190" gh = "268"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect parking lock rod (1) from manual valve lever (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510349.swf" width = "88.000mm" height = "63.917mm" ver = "02" gw = "200" gh = "165"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove manual valve lever (1) and parking lock rod (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510350.swf" width = "88.000mm" height = "56.424mm" ver = "02" gw = "187" gh = "143"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove parking lock pin (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510351.swf" width = "88.000mm" height = "53.710mm" ver = "02" gw = "202" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove pinion and counter driven gear assembly (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510352.swf" width = "88.000mm" height = "54.062mm" ver = "02" gw = "198" gh = "137"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove differential assembly (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510353.swf" width = "88.000mm" height = "54.062mm" ver = "02" gw = "186" gh = "137"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove lubrication tube (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510354.swf" width = "88.000mm" height = "90.960mm" ver = "02" gw = "193" gh = "241"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove counter drive gear assembly (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510355.swf" width = "88.000mm" height = "68.602mm" ver = "02" gw = "216" gh = "178"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove output shaft speed sensor. 
+<intxreftitleoff1 refid = "AENLSB0A5106036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear planetary sun gear No.1 (1), rear planetary sun gear No.1 thrust bearing (2) and rear planetary sun gear No.1 thrust bearing race (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510356.swf" width = "88.000mm" height = "71.030mm" ver = "02" gw = "223" gh = "185"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rear planetary sun gear No.2 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510357.swf" width = "88.000mm" height = "63.383mm" ver = "02" gw = "211" gh = "163"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove 1st and reverse brake snap ring No.2 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510358.swf" width = "88.000mm" height = "61.961mm" ver = "02" gw = "197" gh = "159"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rear planetary gear assembly (1) and one-way clutch (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510359.swf" width = "88.000mm" height = "66.054mm" ver = "02" gw = "221" gh = "171"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rear planetary sun gear No.2 thrust bearing (1) and rear planetary sun gear No.2 thrust bearing races (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510360.swf" width = "88.000mm" height = "61.491mm" ver = "02" gw = "217" gh = "158"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove 1st and reverse brake snap ring No.1 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510361.swf" width = "88.000mm" height = "60.730mm" ver = "02" gw = "218" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove 1st and reverse brake disc, 1st and reverse brake retaining plate and 1st and reverse brake separator plate. 
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510362.swf" width = "88.000mm" height = "65.963mm" ver = "02" gw = "213" gh = "170"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove direct clutch assembly (1), direct clutch thrust bearing (2) and direct clutch thrust bearing race (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510363.swf" width = "88.000mm" height = "76.494mm" ver = "02" gw = "205" gh = "200"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove 1st and reverse brake piston as follows.
+</ptxt>
+<s2>
+<ptxt>
+Remove 1st and reverse brake piston snap ring No.2 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510364.swf" width = "88.000mm" height = "67.425mm" ver = "02" gw = "202" gh = "175"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove 1st and reverse brake return spring (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510365.swf" width = "88.000mm" height = "58.162mm" ver = "02" gw = "209" gh = "148"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Apply compressed air (400 to 800 kPa, 4.1 to 8.2 kgf/cm<sup>2</sup>, 58.0 to 116 psi) to oil hole (1) of transaxle case to remove 1st and reverse brake piston (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510366.swf" width = "88.000mm" height = "48.285mm" ver = "02" gw = "222" gh = "120"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Using special tool, remove pinion and counter driven gear left taper roller bearing outer race (1) and shim, if necessary.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5A009">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09944-96013">
+09944–96013
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5A010">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09942-15511">
+09942–15511
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5A011">
+<s-part>
+(C)
+</s-part>
+<s-number num = "09921-26010">
+09921–26010
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IEL10C510171.swf" width = "88.000mm" height = "58.623mm" ver = "03" gw = "197" gh = "150"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Using special tool, remove differential side left taper roller bearing (1), if necessary.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5A012">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09913-75520">
+09913–75520
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5A013">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09913-65135">
+09913–65135
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IEL10C510172.swf" width = "88.000mm" height = "72.152mm" ver = "02" gw = "213" gh = "188"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

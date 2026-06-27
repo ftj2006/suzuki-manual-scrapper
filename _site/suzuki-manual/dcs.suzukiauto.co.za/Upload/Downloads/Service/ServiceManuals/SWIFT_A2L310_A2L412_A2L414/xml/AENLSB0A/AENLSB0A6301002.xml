@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "6C">
+<servcat sctnbr = "06" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A6301002" svcinfotypenbr = "03" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Description of EPS System Component Function
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.773in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.914in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.914in"/>
+<colspec colnum = "4" colname = "4" colwidth = "4.603in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+EPS system components
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Function
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+Steering column assembly
+</emph>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+Torque sensor
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Using two circuits (i.e. main and sub circuits), torque sensor outputs voltages proportional to steering input torque and direction to P/S control module.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+P/S control module / motor assembly
+</emph>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+P/S motor
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+P/S motor produces steering assist torque that corresponds to electric current from P/S control module.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+Rotation angle sensor
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Rotation angle sensor consists of an energized coil and a pair of fixed detector coils, and outputs signals proportional to motor rotation angle to P/S control module.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+P/S control module
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+P/S control module controls P/S motor drive current by determining its amount and direction of assistance based on voltage signal from torque sensor, vehicle speed and other data which are received via CAN communication.
+</ptxt>
+</item>
+<item>
+<ptxt>
+P/S control module judges whether engine is running or not using engine speed signal from CAN.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+ECM
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+ECM transmits “Vehicle speed signal” and “Engine speed signal” to P/S control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+ESP<sup>&#174;</sup> control module
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+ESP<sup>&#174;</sup> control module transmits “Yaw rate signal” to P/S control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+Lighting and turn signal switch incorporating steering angle sensor
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Steering angle sensor transmits “Steering angle signal” to P/S control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+P/S warning light
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A6301005">OBD System Description</intxref>
+ for operation of the P/S warning light.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+BCM
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+BCM transmits “Turn signal switch status” to P/S control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+Dual sensor brake support control module (lane departure prevention model)
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Receiving “Camera information” and “Lane departure prevention SW status” from dual sensor brake support control module through CAN communication, P/S control module assists steering force.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+Combination meter (lane departure prevention model)
+</emph>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Receiving information from P/S control module through CAN communication, combination meter displays various lane departure prevention system information for the system warning, collision warning, operating condition, etc. and warns the driver of this situation.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<servinfosub id = "AENLSB0A6301002001">
+<title>
+Steering Column Assembly
+</title>
+<ptxt>
+Steering column assembly mainly consists of torque sensor shaft (input shaft) from steering wheel, worm wheel shaft (output shaft) to steering gear case, torsion bar connecting the input and output shafts, torque sensor and P/S control module / motor assembly and rotation angle sensor.
+</ptxt>
+<topic id = "AENLSB0A6301002002">
+<title>
+Torque sensor
+</title>
+<ptxt>
+Torque sensor adopts a hall IC-aided torque sensing system and consists of stationary magnet on input shaft, stationary yoke on output shaft and stationary magnetic flux focusing ring (including hall IC) in torque sensor housing.
+</ptxt>
+<ptxt>
+The magnet provides magnetic flux, the yoke adjusts the magnetic flux and the torque sensor detects fluctuation of magnetic flux in the magnetic flux focusing ring. Further, the magnetic flux focusing ring consists of dual circuit, hall IC 1 and hall IC 2. This enables the P/S control module to compute steering assist torque corresponding to steering wheel handling force based on signal from hall IC 1 (main signal). And hall IC 2 (sub signal) is used to check if hall IC 1 (main signal) is normal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A6301002003">
+<title>
+Torque sensing principle
+</title>
+<s1>
+<ptxt>
+At neutral point of the steering wheel (with no handling force applied), each tooth of yoke is positioned at intermediate point between S and N poles. Therefore, magnetic flux does not pass through hall IC in this state.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+When handling force is applied to steering wheel (input shaft) against sensor shaft (output shaft), which is stationary with road friction, torsion occurs in torsion bar and a phase deviation relative to the torsion angle is generated between yoke teeth and magnet.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Upon generation of the relative phase deviation between yoke teeth and magnet, each tooth of yoke is positioned on S or N pole. Therefore, magnetic flux passes through yoke, magnetic flux focusing ring and hall IC.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Magnetic flux which passes through hall IC varies according to the steering direction and, density of the magnetic flux varies according to the steering wheel handling force (steering torque). Hall IC converts the detected variation of the magnetic flux on its direction and density to electrical signal and outputs to P/S control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Output voltage of hall IC 1 (main torque sensor) and hall IC 2 (sub torque sensor) is 2.5 V at steering wheel neutral point. In this position, P/S control module computes steering handling torque at zero. However, when steering wheel is rotated with handling force, P/S control module controls the steering based on signal from hall IC 1 (main torque sensor) according to the level of the handling force. When output voltage of hall IC 1 (main torque sensor) exceeds 2.5 V, P/S control module assists the steering to the right. On the other hand, when the voltage is below 2.5 V, the control module assists the steering to the left.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A630001.swf" width = "183.000mm" height = "143.324mm" ver = "01" gw = "505" gh = "390"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.756in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.575in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.575in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Left side steering
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Magnet
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Main signal
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Neutral point
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+N pole
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Sub signal
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[C]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Right side steering
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+S pole
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Sensor shaft (output shaft)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[D]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Pass of magnetic flux to hall IC upper side
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Magnetic flux focusing ring
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Torsion bar
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[E]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+No pass of magnetic flux to hall IC
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Yoke teeth
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Yoke
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[F]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Pass of magnetic flux to hall IC lower side
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Magnetic flux
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Torque sensor housing
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[G]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Torque sensor output characteristics
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Hall IC1
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Input shaft
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[H]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Steering wheel neutral point (steering wheel handling torque)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Hall IC2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</topic>
+<topic id = "AENLSB0A6301002004" page = "2">
+<title>
+P/S motor
+</title>
+<ptxt>
+When the steering wheel is turned to right or left, P/S control module feeds an alternating current to transistors in the P/S control module appropriate to the necessary torque based on the signals from the torque sensor and rotation angle sensor.
+</ptxt>
+<ptxt>
+Receiving the alternating current, the six transistors are switched ON or OFF and feed the alternating current to a three-phase stator coil (1) in P/S motor to create a current circuit. The current circuit alternates the three-phase stator coil to plus and minus phases, thus the inside rotor (permanent magnet) (2) is rotated to assist steering.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B630012.swf" width = "88.000mm" height = "36.020mm" ver = "01" gw = "183" gh = "86"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Inverter
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A6301002005" page = "2">
+<title>
+Rotation angle sensor
+</title>
+<ptxt>
+Rotation angle sensor consists of an energized coil (1) to generate a magnetic field and a pair of detector coils to generate a current for detecting motor rotation angle, and the rotor (2) is off-center positioned from the center of the motor shaft (3). And, the rotation angle sensor calculates the motor rotation angle as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Magnetic field generated by energized coil is modulated corresponding to rotation of rotor with P/S motor.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Induced electromotive force in each of detector coil 1 (4) and detector coil 2 (5) is fluctuated corresponding to change of the magnetic field.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Receiving the induced electromotive force from each detector coil, P/S control module calculates rotation angle of the P/S motor.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B630013.swf" width = "88.000mm" height = "49.190mm" ver = "01" gw = "141" gh = "123"/>
+</figure>
+</item>
+</list1>
+</topic>
+<topic id = "AENLSB0A6301002006" page = "2">
+<title>
+Handling of steering when P/S system stops
+</title>
+<ptxt>
+The system has a fail-safe function, which works as manual steering without power assist when engine is stopped or power steering system is malfunctioning. When steering wheel is rotated by hand under these conditions, torsion bar (1) is twisted but steering assist is not available without supply of electricity. Therefore, steering torque sensor shaft (input shaft) (2) in steering column bumps against manual stopper (4) in worm wheel shaft (output shaft) (3) and torque sensor shaft (input shaft) rotates worm wheel shaft (output shaft) directly.
+</ptxt>
+<figure>
+<graphic graphicname = "IDMAKPF60003.swf" width = "88.000mm" height = "40.884mm" ver = "01" gw = "127" gh = "99"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Maximum torsional angle of torsion bar
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A6301002007">
+<title>
+P/S Control Module
+</title>
+<ptxt>
+P/S control module determines basic assist power based on steering assist control and improves feeling of the steering by using steering return control and steering converging control. Further, the P/S control module controls motor current to harmonize target current with actual current in accordance with computing result of each control and maximum current limit control.
+</ptxt>
+<ptxt>
+And, the P/S control module communicates with dual sensor brake support control module, ECM, BCM, ESP<sup>&#174;</sup> control module, lighting and turn signal switch and combination meter through CAN communication.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

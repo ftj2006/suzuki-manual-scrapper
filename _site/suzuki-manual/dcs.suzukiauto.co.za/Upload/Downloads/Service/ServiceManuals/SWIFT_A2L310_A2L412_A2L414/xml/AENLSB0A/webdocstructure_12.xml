@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Aux. Emission Control Devices">
+<c i="1" t="">
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1214001" t="EVAP Canister Purge System Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1216001" t="EVAP System Components">
+</s>
+<s i="AENLSB0A1216002" t="EVAP Canister Purge Valve Inspection">
+</s>
+<s i="AENLSB0A1216003" t="EVAP Canister Removal and Installation">
+</s>
+<s i="AENLSB0A1216004" t="EVAP Canister Inspection">
+</s>
+<s i="AENLSB0A1216005" t="EVAP Connection Hose Inspection">
+</s>
+<s i="AENLSB0A1216006" t="PCV Hose Inspection">
+</s>
+<s i="AENLSB0A1216007" t="PCV Valve On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1216008" t="PCV Valve Inspection">
+</s>
+<s i="AENLSB0A1216009" t="Fuel Cut Valve Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1218001" t="Special Tool">
+</s>
+</t>
+</c>
+
+</b>

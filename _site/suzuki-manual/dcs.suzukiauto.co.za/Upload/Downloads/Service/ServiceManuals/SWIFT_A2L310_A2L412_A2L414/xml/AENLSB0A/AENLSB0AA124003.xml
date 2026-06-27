@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124003" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Adaptive Cruise Control System Self-Diagnosis Function
+</title>
+<servinfosub id = "AENLSB0AA124003001">
+<title>
+Description
+</title>
+<ptxt>
+RBS control module and ECM monitor conditions of adaptive cruise control system components and circuits. When an abnormal condition in the system occurs, RBS control module and ECM operate as follows.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124003002">
+<title>
+Self-Diagnosis Function
+</title>
+<ptxt>
+RBS control module and ECM have self-diagnosis function that stores DTC for abnormalities detected in adaptive cruise control system. Stored DTCs remain in memory of RBS control module and ECM unless they are cleared.
+</ptxt>
+<attention3>
+<ptxt>
+RBS control module does not store history DTCs of C1610, C1640, C1655, C1658 and C1659.
+</ptxt>
+</attention3>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124003003">
+<title>
+Warning Function
+</title>
+<ptxt>
+RBS control module turns on the adaptive cruise control warning light (1) to warn the driver that a malfunction is detected.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12005.swf" width = "88.000mm" height = "48.314mm" ver = "01" gw = "199" gh = "120"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124003004">
+<title>
+Fail-Safe Control
+</title>
+<ptxt>
+When any abnormality is found, RBS control module disables adaptive cruise control.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

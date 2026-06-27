@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1316026" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+MAF Sensor with IAT Sensor-1 Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A1316026001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector from MAF sensor with IAT sensor-1 as follows.
+</ptxt>
+<s2>
+<ptxt>
+Move connector lock pin (1) in arrow direction as shown in figure.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Push connector lock lever (2) and disconnect connector from MAF sensor with IAT sensor-1 (3).
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove MAF sensor with IAT sensor-1 from air cleaner assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A134015.jpg" width = "88.000mm" height = "65.105mm" ver = "01" gw = "199" gh = "168"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1316026002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1316027">MAF Sensor with IAT Sensor-1 Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten MAF sensor with IAT sensor-1 screws (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1C108">
+<t-part>
+MAF sensor with IAT sensor-1 screw
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+0.7
+</t-value1>
+<t-value2>
+0.07
+</t-value2>
+<t-value3>
+0.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IHSB0A134016.jpg" width = "88.000mm" height = "54.853mm" ver = "01" gw = "199" gh = "139"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

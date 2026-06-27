@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124023" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC C1652 / C1653
+</title>
+<servinfosub id = "AENLSB0AA124023001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.598in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.598in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C1652: Wheel Speed Sensor Calculation Performance
+</emph>
+</ptxt>
+<ptxt>
+Difference between wheel speed signal of ESP<sup>&#174;</sup> control module and that of millimeter wave radar exceeds specified value for specified time continuously.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Wheel speed sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C1653: Wheel Speed Sensor Circuit
+</emph>
+</ptxt>
+<ptxt>
+Wheel speed signal from ESP<sup>&#174;</sup> control module is kept stuck for more than specified time.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124023002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test using 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<topic id = "AENLSB0AA124023003">
+<title>
+C1652
+</title>
+<s1>
+<ptxt>
+Drive the vehicle at 30 km/h (19 mile/h) or more for 2 minutes or more.
+</ptxt>
+</s1>
+</topic>
+<topic id = "AENLSB0AA124023004">
+<title>
+C1653
+</title>
+<s1>
+<ptxt>
+Drive the vehicle at 10 km/h (6 mile/h) or more for 1 minute or more.
+</ptxt>
+</s1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124023005">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA124023006">
+<testgroup id = "AENLSB0AA124023007">
+<question>
+Was “Adaptive Cruise Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0AA124001">Adaptive Cruise Control System Check:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA124023008">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA124023009">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA124005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA124023002">DTC Confirmation Procedure</intxref>
+ and then recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC C1652 or C1653 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace RBS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check for intermittent trouble. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

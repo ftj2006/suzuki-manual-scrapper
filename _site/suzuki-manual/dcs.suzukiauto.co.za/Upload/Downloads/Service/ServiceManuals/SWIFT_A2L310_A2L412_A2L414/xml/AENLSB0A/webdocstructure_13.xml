@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Engine Electrical Devices">
+<c i="1" t="">
+<t s="1" t="General Description">
+<s i="AENLSB0A1311001" t="Engine Electrical Devices Description">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0A1313001" t="Electric Control System Component Location">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1316001" t="ECM Removal and Installation">
+</s>
+<s i="AENLSB0A1316002" t="Procedure after ECM Replacement">
+</s>
+<s i="AENLSB0A1316003" t="Electric Throttle Body Assembly On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316004" t="Electric Throttle Control System Calibration">
+</s>
+<s i="AENLSB0A1316005" t="ECM Learning Procedure of Engine Torque">
+</s>
+<s i="AENLSB0A1316006" t="APP Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316007" t="Accelerator Pedal Assembly (Incorporating APP Sensor) Removal and Installation">
+</s>
+<s i="AENLSB0A1316008" t="APP Sensor Inspection">
+</s>
+<s i="AENLSB0A1316009" t="MAP Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316010" t="MAP Sensor Inspection">
+</s>
+<s i="AENLSB0A1316011" t="Oil Temperature Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316012" t="Oil Temperature Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316013" t="Oil Temperature Sensor Inspection">
+</s>
+<s i="AENLSB0A1316014" t="ECT Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316015" t="ECT Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316016" t="ECT Sensor Inspection">
+</s>
+<s i="AENLSB0A1316017" t="HO2S-1 and HO2S-2 On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316018" t="HO2S-1 and HO2S-2 Removal and Installation">
+</s>
+<s i="AENLSB0A1316019" t="CMP Sensor Inspection">
+</s>
+<s i="AENLSB0A1316020" t="CMP Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316021" t="CKP Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316022" t="CKP Sensor Inspection">
+</s>
+<s i="AENLSB0A1316023" t="Knock Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316024" t="Knock Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1316025" t="Engine and Emission Control System Relay Inspection">
+</s>
+<s i="AENLSB0A1316026" t="MAF Sensor with IAT Sensor-1 Removal and Installation">
+</s>
+<s i="AENLSB0A1316027" t="MAF Sensor with IAT Sensor-1 Inspection">
+</s>
+<s i="AENLSB0A1316028" t="Boost Pressure Sensor with IAT Sensor-2 Removal and Installation">
+</s>
+<s i="AENLSB0A1316029" t="Boost Pressure Sensor with IAT Sensor-2 Inspection">
+</s>
+<s i="AENLSB0A1316030" t="ABV-VSV On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316031" t="ABV-VSV Removal and Installation">
+</s>
+<s i="AENLSB0A1316032" t="ABV-VSV Inspection">
+</s>
+<s i="AENLSB0A1316033" t="WGV-VSV On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1316034" t="WGV-VSV Removal and Installation">
+</s>
+<s i="AENLSB0A1316035" t="WGV-VSV Inspection">
+</s>
+<s i="AENLSB0A1316036" t="OCV Inspection">
+</s>
+<s i="AENLSB0A1316037" t="Electric Load Current Sensor On-Vehicle Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1317001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1318001" t="Special Tool">
+</s>
+</t>
+</c>
+
+</b>

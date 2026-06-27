@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "00">
+<servcat sctnbr = "00" scnbr = "00">
+<configtype typenbr = "0">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0A0000004" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Warning for ENG A-STOP System
+</title>
+<attention1>
+<ptxt>
+There is a risk of personal injury due to the accidental engine starting if the service work is performed while the ENG A-STOP OFF switch turns off, i.e. the ENG A-STOP warning light does not light.
+</ptxt>
+<ptxt>
+Turn on the ENG A-STOP OFF switch and check that the ENG A-STOP warning light lights before the service work, except when the service manual instructs to turn it off.
+</ptxt>
+</attention1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

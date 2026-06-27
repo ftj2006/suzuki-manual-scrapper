@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA406003" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+TPMS Control Module Removal and Installation
+</title>
+<servinfosub id = "AENLSB0AA406003001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove glove box.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect TPMS control module connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove bolt (3), and then remove TPMS control module (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AA40008.jpg" width = "88.000mm" height = "73.530mm" ver = "01" gw = "228" gh = "192"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA406003002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten TPMS control module bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T10D001">
+<t-part>
+TPMS control module bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+9.0
+</t-value1>
+<t-value2>
+0.92
+</t-value2>
+<t-value3>
+7.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0AA40009.jpg" width = "88.000mm" height = "74.941mm" ver = "01" gw = "228" gh = "196"/>
+</figure>
+</item>
+<item>
+<ptxt>
+If TPMS control module is replaced, perform 
+<intxref refid = "AENLSB0AA406004">Registration Procedure for Tire Pressure Sensor ID Code</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10K">
+<servcat sctnbr = "10" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAB04002" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Auxiliary Power Module (Lithium-Ion Battery) Self-Diagnosis Function
+</title>
+<servinfosub id = "AENLSB0AAB04002001">
+<title>
+Description
+</title>
+<ptxt>
+Auxiliary power module (lithium-ion battery) monitors conditions of the system components and circuits. When an abnormal condition in the system occurs, auxiliary power module (lithium-ion battery) performs control as follows.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAB04002002">
+<title>
+Self-Diagnosis Function
+</title>
+<ptxt>
+Auxiliary power module (lithium-ion battery) has self-diagnosis function that stores DTC for abnormalities detected in auxiliary power module (lithium-ion battery) control system. Stored DTCs remain in memory of auxiliary power module (lithium-ion battery) unless they are cleared.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0AAB04002003">
+<title>
+Warning Function
+</title>
+<ptxt>
+When a malfunction is detected in auxiliary power module (lithium-ion battery), auxiliary power module (lithium-ion battery) blink the ENG A-STOP warning light (1) and turn on the charge warning light (2) causing them to warn the driver. The warning lights are turned off when normal condition is restored.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10014.swf" width = "88.000mm" height = "48.548mm" ver = "02" gw = "201" gh = "121"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AAB04002004">
+<title>
+Fail-Safe Control
+</title>
+<ptxt>
+Auxiliary power module (lithium-ion battery) performs fail-safe control when an abnormal condition related to ENG A-STOP system is detected and stops all control to protect the system.
+</ptxt>
+<ptxt>
+Details of fail-safe control vary with detected DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAB04006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

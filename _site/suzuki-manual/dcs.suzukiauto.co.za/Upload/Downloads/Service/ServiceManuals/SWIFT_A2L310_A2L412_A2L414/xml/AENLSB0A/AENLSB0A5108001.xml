@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "8">
+<servinfo servinfosgmlid = "AENLSB0A5108001" svcinfotypenbr = "11" svcinfoqualnbr = "m" page = "1" supplyoff = "1">
+<title>
+Recommended Service Material
+</title>
+<table frame = "all" colsep = "1" rowsep = "1" tabletype = "material">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.614in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.323in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.465in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.811in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Material
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+SUZUKI recommended product or Specification
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Note
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+A/T fluid
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+SUZUKI AT OIL AW-1
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+P/No.: 99000–22B28–017
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<intxreftitleoff refid = "AENLSB0A5106004#M5A001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106004#M5A002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106005#M5A003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Grease
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+ECSTAR Grease A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+P/No.: 99000–25480
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<intxreftitleoff refid = "AENLSB0A5106009#M5A004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106016#M5A005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106062#M5A013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+ECSTAR Grease C
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+P/No.: 99000–25490
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<intxreftitleoff refid = "AENLSB0A5106022#M5A007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106032#M5A008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106059#M5A009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106060#M5A010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106062#M5A011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Sealant
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+SUZUKI Bond No.1216B
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+P/No.: 99000–31230
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<intxreftitleoff refid = "AENLSB0A5106018#M5A006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+<intxreftitleoff refid = "AENLSB0A5106062#M5A012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<attention3>
+<ptxt>
+Required service material(s) is also described in:
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106007">Select Lever Assembly Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106014">Select Cable Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106027">A/T Assembly Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106031">Oil Pump Assembly Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106045">B1 Brake Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106048">1st and Reverse Brake Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106052">Front Planetary Gear Assembly and Input Shaft Components</intxref>
+</ptxt>
+<ptxt>
+<intxref refid = "AENLSB0A5106054">Rear Planetary Gear Assembly and One-Way Clutch Assembly Components</intxref>
+</ptxt>
+</attention3>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

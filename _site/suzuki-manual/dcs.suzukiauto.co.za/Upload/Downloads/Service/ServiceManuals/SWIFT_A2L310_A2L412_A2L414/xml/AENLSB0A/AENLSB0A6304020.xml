@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "6C">
+<servcat sctnbr = "06" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A6304020" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "1" supplyoff = "1" modify = "0">
+<title>
+DTC C116A
+</title>
+<servinfosub id = "AENLSB0A6304020001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.602in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.602in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C116A: Steering Angle Sensor Calibration Incomplete
+</emph>
+</ptxt>
+<ptxt>
+Incomplete calibration signal of steering angle is received from lighting and turn signal switch.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+P/S control module (steering column assembly)
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A6304020002">
+<title>
+DTC Confirmation Procedure
+</title>
+<ptxt>
+Refer to “DTC Confirmation Procedure” for DTC C1075 Steering Angle Sensor Calibration. 
+<intxreftitleoff1 refid = "AENLSB0A4604036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A6304020003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A6304020004">
+<testgroup id = "AENLSB0A6304020005">
+<question>
+Was “P/S System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0A6304001">P/S System Check</intxref>
+ and recheck DTC.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A6304020006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check ESP<sup>&#174;</sup> control module for DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A6304020007">
+<title>
+Sensor calibration
+</title>
+<test1>
+<ptxt>
+Perform sensor calibration. 
+<intxreftitleoff1 refid = "AENLSB0A4606002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check DTC. 
+<intxreftitleoff1 refid = "AENLSB0A6304003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC C116A still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Substitute a known-good steering column assembly and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A6206009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A5104040" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P1718 / P1719
+</title>
+<servinfosub id = "AENLSB0A5104040001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.987in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.203in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1718: Unable To Engage Gear 1 With Engine Brake
+</emph>
+</ptxt>
+<ptxt>
+Engine brake does not work at 1st gear when driving in M range.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Line pressure control solenoid valve
+</ptxt>
+</item>
+<item>
+<ptxt>
+Pressure control solenoid valve “A”, “C” and “D”
+</ptxt>
+</item>
+<item>
+<ptxt>
+Shift solenoid valve “A” and “B”
+</ptxt>
+</item>
+<item>
+<ptxt>
+Valve body assembly
+</ptxt>
+</item>
+<item>
+<ptxt>
+A/T (forward clutch, direct clutch, reverse clutch, B1 brake and/or 1st and reverse brake)
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1719: Gear 1 With Engine Brake Incorrect Ratio
+</emph>
+</ptxt>
+<ptxt>
+Engine brake does not work at 1st gear when driving in M range.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104040002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that the following conditions are met in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+DTC P0717, P0722, P1736, P1737, P1738, P1739, U0073 or U0100 is not detected.
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM: DTC P0335 is not detected.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Troubleshoot first unexpected DTCs previously detected in “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle in 1st gear of M range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release accelerator pedal, and keep vehicle coasting in engine braking condition. (Fuel cut)
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Repeat Steps 2) – 3) 5 times or more.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104040003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A5104040004">
+<testgroup id = "AENLSB0A5104040005">
+<question>
+Was “A/T Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0A5104001">A/T Control System Check</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104040006">
+<title>
+ATF check
+</title>
+<test1>
+<ptxt>
+Check ATF for level and deterioration. 
+<intxreftitleoff1 refid = "AENLSB0A5106004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Add or change ATF. 
+<intxreftitleoff1 refid = "AENLSB0A5106005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104040007">
+<title>
+Line pressure check
+</title>
+<test1>
+<ptxt>
+Check applicable line pressure as shown in the following table. 
+<intxreftitleoff1 refid = "AENLSB0A5104015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104040008">
+<title>
+Solenoid valve check
+</title>
+<test1>
+<ptxt>
+Remove valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check applicable solenoid valve for proper operation as shown in the following table. 
+<intxreftitleoff1 refid = "AENLSB0A5106019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104040009">
+<title>
+Valve body check
+</title>
+<test1>
+<ptxt>
+Check that each fluid passage is not clogged in valve body assembly.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Check A/T mechanical systems (clutch, brake or gear etc.).
+</ptxt>
+<ptxt>
+If OK, substitute a known-good TCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A5106020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Clean or replace valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+<table frame = "all" colsep = "1" rowsep = "1">
+<title>
+Table for Step 3 (Line pressure check)
+</title>
+<tgroup cols = "6" colsep = "1" rowsep = "1" align = "center">
+<colspec colnum = "1" colname = "1" colwidth = "1.000in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.239in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.239in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.239in"/>
+<colspec colnum = "5" colname = "5" colwidth = "1.239in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.239in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+DTC
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Line pressure
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+B2
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1718
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1719
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame = "all" colsep = "1" rowsep = "1">
+<title>
+Table for Step 4 (Solenoid valve check)
+</title>
+<tgroup cols = "7" colsep = "1" rowsep = "1" align = "center">
+<colspec colnum = "1" colname = "1" colwidth = "1.000in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.187in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.000in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.000in"/>
+<colspec colnum = "5" colname = "5" colwidth = "1.000in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.000in"/>
+<colspec colnum = "7" colname = "7" colwidth = "1.000in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+DTC
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Line pressure control solenoid valve
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Shift solenoid valve
+</ptxt>
+</entry>
+<entry namest = "5" nameend = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Pressure control solenoid valve
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+A
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+B
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+A
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+C
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+D
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1718
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1719
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

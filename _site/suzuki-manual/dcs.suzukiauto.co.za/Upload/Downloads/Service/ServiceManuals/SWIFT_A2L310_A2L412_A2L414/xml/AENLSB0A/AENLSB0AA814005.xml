@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA814005" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Communication Check
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check communication conditions of central gateway control module first.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The following control modules are not compatible with “Communication Bus Check” function. However, if system names are indicated on startup screen of “Vehicle Health” on SUZUKI scan tool and the status is indicated “Found”, communication circuit is judged normal. Check related CAN-DTC in each system if necessary.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Central gateway control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sonar control module (parking sensor model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headlight auto leveling control module (headlight auto leveling model)
+</ptxt>
+</item>
+</list2>
+</list1>
+</attention3>
+<servinfosub id = "AENLSB0AA814005008">
+<title>
+Central Gateway Control Module
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “G60” connector to central gateway control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+At startup of SUZUKI scan tool, check “Vehicle Health” screen and “Central gateway control module” and each system already connected to CAN communication are shown on the screen, and their status is “Found”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005005">
+<title>
+Dual Sensor Brake Support Control Module (DSBS Model)
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “K04” connector to dual sensor brake support control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that status of CAN communication with control modules, sensors and dual sensor brake support control module already connected are shown as normal on scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA814006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace dual sensor brake support control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA16001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005003">
+<title>
+Headlight Auto Leveling Control Module (Headlight Auto Leveling Model)
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “G14” connector to headlight auto leveling control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+At startup of SUZUKI scan tool, check “Vehicle Health” screen and “Headlight auto leveling control module” and each system already connected to CAN communication are shown on the screen, and their status is “Found”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace headlight auto leveling control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9206015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005001">
+<title>
+SDM
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “G12” connector to SDM.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that status of CAN communication with control modules, sensors and SDM already connected are shown as normal on scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA814006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace SDM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A8206004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005002">
+<title>
+Lighting and Turn Signal Switch
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “G144” connector to lighting and turn signal switch.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that status of CAN communication with control modules, sensors and lighting and turn signal switch already connected are shown as normal on scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA814006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace lighting and turn signal switch and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005004">
+<title>
+Sonar Control Module (Parking Sensor Model)
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “L29” connector to sonar control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+At startup of SUZUKI scan tool, check “Vehicle Health” screen and “Sonar control module” and each system already connected to CAN communication are shown on the screen, and their status is “Found”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace sonar control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA36002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005006">
+<title>
+RBS Control Module (DSBS Model)
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “E490” connector to RBS control module.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that status of CAN communication with control modules, sensors and RBS control module already connected are shown as normal on scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA814006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace RBS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA814005007">
+<title>
+TCM (A/T Model)
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect “C06” connector to TCM.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Select “Communication Bus Check” menu of SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that status of CAN communication with control modules, sensors and TCM already connected are shown as normal on scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA814006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If any malfunction is found, replace TCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A5106020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

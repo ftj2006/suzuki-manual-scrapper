@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9C">
+<servcat sctnbr = "09" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9304010" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC B1840
+</title>
+<servinfosub id = "AENLSB0A9304010001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.597in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.597in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+B1840: Vehicle Speed Invalid Data
+</emph>
+</ptxt>
+<ptxt>
+Combination meter received abnormal vehicle speed data from ECM.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Wheel speed sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A9304010002">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A9304010003">
+<testgroup id = "AENLSB0A9304010004">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Clear DTC.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check that ignition is “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check DTC.
+</ptxt>
+</test1>
+<question>
+Is DTC B1840 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check for intermittent trouble. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A9304010005">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A9304010006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ECM.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1114003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1124003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1416019" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Electric Throttle Body Assembly Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416017">Electric Throttle Body and Intake Manifold Components:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416018">Electric Throttle Body On-Vehicle Inspection:K14C</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+The electric throttle body will lose its original performance if it is disassembled.
+</ptxt>
+<ptxt>
+Do not disassemble the electric throttle body.
+</ptxt>
+<ptxt>
+If any faulty condition is found, replace the electric throttle body with a new one.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+After replacing electric throttle body assembly, calibration of throttle valve position is required. 
+<intxreftitleoff1 refid = "AENLSB0A1316004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0A1416019001" page = "2">
+<title>
+Removal
+</title>
+<s1 page = "2">
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove air cleaner assembly and air cleaner suction hose No.2. 
+<intxreftitleoff1 refid = "AENLSB0A1416004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector from boost pressure sensor with IAT sensor-2 (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intercooler outlet pipe No.2 (2) and intercooler outlet hose No.3 (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144038.jpg" width = "88.000mm" height = "55.445mm" ver = "01" gw = "199" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+For LHD, disconnect ECM connectors. 
+<intxreftitleoff1 refid = "AENLSB0A1316001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect and remove the following connectors and bolts including the related clamps.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Ignition coils (1)
+</ptxt>
+</item>
+<item>
+<ptxt>
+MAP sensor (2)
+</ptxt>
+</item>
+<item>
+<ptxt>
+EVAP canister purge valve (3)
+</ptxt>
+</item>
+<item>
+<ptxt>
+HO2S-1 (4)
+</ptxt>
+</item>
+<item>
+<ptxt>
+HO2S-2 (5)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECT sensor (6)
+</ptxt>
+</item>
+<item>
+<ptxt>
+WGV-VSV (7)
+</ptxt>
+</item>
+<item>
+<ptxt>
+CMP sensor (8)
+</ptxt>
+</item>
+<item>
+<ptxt>
+High pressure fuel pump (9)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine cover bracket No.1 bolts (10)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine harness bracket bolt (LHD) (11)
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144039.swf" width = "88.000mm" height = "96.963mm" ver = "01" gw = "226" gh = "258"/>
+</figure>
+<figure>
+<graphic graphicname = "IHSB0A144040.swf" width = "88.000mm" height = "59.094mm" ver = "01" gw = "198" gh = "151"/>
+</figure>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Disconnect “B” terminal wire (1) and generator connector (2) from generator (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144041.swf" width = "88.000mm" height = "61.605mm" ver = "01" gw = "194" gh = "158"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove engine harness bracket bolt (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144042.swf" width = "88.000mm" height = "56.373mm" ver = "02" gw = "198" gh = "143"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect engine harness bracket (1) from engine harness.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect electric throttle body connector (2) from electric throttle body assembly (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove electric throttle body assembly from intake manifold.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144043.swf" width = "88.000mm" height = "61.945mm" ver = "01" gw = "198" gh = "159"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1416019002" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416020">Electric Throttle Body Cleaning:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Clean mating surfaces and install new electric throttle body gasket (1) to intake manifold.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A140045.swf" width = "88.000mm" height = "58.583mm" ver = "01" gw = "206" gh = "150"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install intercooler outlet pipe No.2 (1), and fix radiator inlet hose (2) and outlet hose (3) with clamps on intercooler outlet pipe No.2.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144044.jpg" width = "88.000mm" height = "87.969mm" ver = "01" gw = "199" gh = "233"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten intercooler outlet pipe No.2 clamps to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A1416005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

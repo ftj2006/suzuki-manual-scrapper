@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106049" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+1st and Reverse Brake Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106030">A/T Assembly Disassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106062">A/T Assembly Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106048">1st and Reverse Brake Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A5106049001">
+<title>
+Disassembly
+</title>
+<ptxt>
+Refer to Steps 39) to 42) under 
+<intxref refid = "AENLSB0A5106030">A/T Assembly Disassembly</intxref>
+.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106049002">
+<title>
+Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106051">1st and Reverse Brake Piston Stroke Inspection and Adjustment</intxrefpoff>
+</ptxt>
+<ptxt>
+Refer to Step 2) under 
+<intxref refid = "AENLSB0A5106062">A/T Assembly Reassembly</intxref>
+.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

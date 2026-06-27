@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9B">
+<servcat sctnbr = "09" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9204A05" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Front or rear fog light(s) does not light up (If equipped)
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+Front or rear fog light(s) does not light up (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Blown bulb(s)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace bulb(s).
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty system circuit (including relays and fuses)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair circuit and replace relay and/or fuse.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty lighting and turn signal switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A9206020">Lighting and Turn Signal Switch Inspection</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty BCM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AA204029">Inspection of BCM and Its Circuits</intxref>
+.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

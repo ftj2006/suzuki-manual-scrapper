@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA14018" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC C16A8
+</title>
+<servinfosub id = "AENLSB0AAA14018001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.779in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.413in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C16A8: Communication Error From Dual Sensor Brake Support Control Module To ABS / ESP<sup>&#174;</sup> Control Module
+</emph>
+</ptxt>
+<ptxt>
+ESP<sup>&#174;</sup> control module detected abnormal condition in control data transmitted by dual sensor brake support control module through CAN communication.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Dual sensor brake support control module
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA14018002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA14018003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AAA14018004">
+<testgroup id = "AENLSB0AAA14018005">
+<question>
+Was “Dual Sensor Brake Support System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0AAA14001">Dual Sensor Brake Support System Check:Dual Sensor Brake Support</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AAA14018006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace dual sensor brake support control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA16001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

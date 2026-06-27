@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10K">
+<servcat sctnbr = "10" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAB04007" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Scan Tool Data
+</title>
+<scantool>
+<scantool-title>
+Auxiliary Power Module (Lithium-Ion Battery)
+</scantool-title>
+<attention3>
+<ptxt>
+If communication between SUZUKI scan tool and auxiliary power module (lithium-ion battery) is not possible, perform the following checks:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check communication condition between PC and VCI using SUZUKI scan tool function.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication circuit and connectors between DLC and central gateway control module. (Refer to “Diagnosis flow: [a]” in “Troubleshooting” of “Troubleshooting for Lost Communication”.) 
+<intxreftitleoff1 refid = "AENLSB0AA824003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.) 
+<intxreftitleoff1 refid = "AENLSB0AA824004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AA834020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check auxiliary power module (lithium-ion battery) and its circuits. 
+<intxreftitleoff1 refid = "AENLSB0AAB04019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "2.008in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.890in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.295in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Scan tool data
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Normal condition / Reference value
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Battery Module Current 
+<intxreftitleoff1 refid = "AENLSB0AAB04007002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+–250 to 250 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Vehicle: Running
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Battery Module Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+24 to 51 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+48V Terminal Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+24 to 51 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Battery Module Maximum Temperature 
+<intxreftitleoff1 refid = "AENLSB0AAB04007005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Auxiliary control module (lithium-ion battery) maximum temperature is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Battery Module Minimum Temperature 
+<intxreftitleoff1 refid = "AENLSB0AAB04007006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Auxiliary control module (lithium-ion battery) minimum temperature is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Predict Charge Current 
+<intxreftitleoff1 refid = "AENLSB0AAB04007007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0 to 291 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Predict Discharge Current 
+<intxreftitleoff1 refid = "AENLSB0AAB04007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0 to 291 A
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Predict Charge Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Maximum predicted charging voltage is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Predict Discharge Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Maximum predicted discharging voltage is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Cell Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.06 to 4.29 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Minimum Cell Voltage 
+<intxreftitleoff1 refid = "AENLSB0AAB04007012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.06 to 4.29 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Maximum Cell State Of Charge 
+<intxreftitleoff1 refid = "AENLSB0AAB04007013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Maximum state-of-charge of cell is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Minimum Cell State Of Charge 
+<intxreftitleoff1 refid = "AENLSB0AAB04007014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Minimum state-of-charge of cell is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Minimum Cell State Of Health Capacity 
+<intxreftitleoff1 refid = "AENLSB0AAB04007015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0 to 100%
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Minimum Cell State Of Health Power 
+<intxreftitleoff1 refid = "AENLSB0AAB04007016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0 to 100%
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Total Discharge Current Integration 
+<intxreftitleoff1 refid = "AENLSB0AAB04007017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Integrated total discharge current value is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+48Volt Relay State 
+<intxreftitleoff1 refid = "AENLSB0AAB04007018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+ON
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine: Running
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Contactor Error State 
+<intxreftitleoff1 refid = "AENLSB0AAB04007019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+No Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Other than condition below
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Error (Welded Relay)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Contactor: Abnormal condition (DTC P0AA1 and/or P0AA2 is detected)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Number of Battery Module 
+<intxreftitleoff1 refid = "AENLSB0AAB04007020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Serial Number 
+<intxreftitleoff1 refid = "AENLSB0AAB04007021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Serial number is displayed.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</scantool>
+<servinfosub id = "AENLSB0AAB04007001" page = "2">
+<title>
+Scan Tool Data Definitions
+</title>
+<topic id = "AENLSB0AAB04007002">
+<title>
+Battery Module Current (A)
+</title>
+<ptxt>
+This parameter indicates output current value of the auxiliary power module (lithium-ion battery).
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007003">
+<title>
+Battery Module Voltage (V)
+</title>
+<ptxt>
+This parameter indicates auxiliary power module (lithium-ion battery) side voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007004">
+<title>
+48V Terminal Voltage (V)
+</title>
+<ptxt>
+This parameter indicates 48V terminal voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007005">
+<title>
+Battery Module Maximum Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the maximum auxiliary power module (lithium-ion battery) temperature.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007006">
+<title>
+Battery Module Minimum Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the minimum auxiliary power module (lithium-ion battery) temperature.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007007">
+<title>
+Maximum Predict Charge Current (A)
+</title>
+<ptxt>
+This parameter indicates the maximum predicted charging current value.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007008">
+<title>
+Maximum Predict Discharge Current (A)
+</title>
+<ptxt>
+This parameter indicates the maximum predicted discharging current value.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007009">
+<title>
+Maximum Predict Charge Voltage (V)
+</title>
+<ptxt>
+This parameter indicates the maximum predicted charging voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007010">
+<title>
+Maximum Predict Discharge Voltage (V)
+</title>
+<ptxt>
+This parameter indicates the maximum predicted discharging voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007011">
+<title>
+Maximum Cell Voltage (V)
+</title>
+<ptxt>
+This parameter indicates the maximum cell voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007012">
+<title>
+Minimum Cell Voltage (V)
+</title>
+<ptxt>
+This parameter indicates the minimum cell voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007013">
+<title>
+Maximum Cell State Of Charge (%)
+</title>
+<ptxt>
+This parameter indicates the maximum SOC (state-of-charge) of cell.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007014">
+<title>
+Minimum Cell State Of Charge (%)
+</title>
+<ptxt>
+This parameter indicates the minimum SOC (state-of-charge) of cell.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007015">
+<title>
+Minimum Cell State Of Health Capacity (%)
+</title>
+<ptxt>
+This parameter indicates the minimum SOH (state-of-health: remaining capacity %) of cell.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007016">
+<title>
+Minimum Cell State Of Health Power (%)
+</title>
+<ptxt>
+This parameter indicates the minimum SOH (state-of-health: remaining power %) of cell.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007017">
+<title>
+Total Discharge Current Integration (Ah)
+</title>
+<ptxt>
+This parameter indicates integrated total discharging current value.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007018">
+<title>
+48Volt Relay State (OFF / ON)
+</title>
+<ptxt>
+This parameter indicates the state of 48 V relay.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007019">
+<title>
+Contactor Error State (No Error / Error (Welded Relay))
+</title>
+<ptxt>
+This parameter indicates the state of contactor error.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007020">
+<title>
+Number of Battery Module
+</title>
+<ptxt>
+This parameter indicates the number of auxiliary power module (lithium-ion battery).
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAB04007021">
+<title>
+Serial Number
+</title>
+<ptxt>
+This parameter indicates the serial number of auxiliary power module (lithium-ion battery).
+</ptxt>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

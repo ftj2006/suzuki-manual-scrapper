@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1416016" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Turbocharger Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416015">Turbocharger Removal and Installation:K14C</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1416016001">
+<title>
+Moving Part
+</title>
+<ptxt>
+Check moving part as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Visually check compressor, turbine and waste gate valve for deformation and damage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Wobble shaft with finger and check that compressor blades do not touch the housing.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Blow compressed air on compressor and check the shaft for smooth rotation.
+</ptxt>
+</item>
+</list1>
+<ptxt>
+If any abnormality is found replace turbocharger.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A1416016002">
+<title>
+Distortion of Gasket Surface
+</title>
+<ptxt>
+Using straightedge and feeler gauge, check gasket surfaces [A] and [B] for distortion. When checking surface [B], using “VACUUM” mode of special tool, apply negative pressure to waste gate valve actuator to draw in waste gate valve.
+</ptxt>
+<ptxt>
+If distortion exceeds the limit, repair the surface(s).
+</ptxt>
+<ptxt>
+If repair is not possible, replace turbocharger.
+</ptxt>
+<attention3>
+<ptxt>
+Before using special tool (vacuum pump gauge), read its Operator’s Manual to know how to use it.
+</ptxt>
+</attention3>
+<servicetool>
+<servicetoolitem id = "L1D113">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09917-47020">
+09917–47020
+</s-number>
+</servicetoolitem>
+</servicetool>
+<spec>
+<title>
+Distortion of cylinder head surface [A]
+</title>
+<ptxt>
+Limit: 0.1 mm (0.004 in.)
+</ptxt>
+</spec>
+<spec>
+<title>
+Distortion of catalytic converter surface [B]
+</title>
+<ptxt>
+Limit: 0.1 mm (0.004 in.)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A141006.jpg" width = "88.000mm" height = "62.533mm" ver = "01" gw = "154" gh = "161"/>
+</figure>
+<figure>
+<graphic graphicname = "IHSB0A144035.jpg" width = "88.000mm" height = "48.079mm" ver = "01" gw = "137" gh = "120"/>
+</figure>
+<figure>
+<graphic graphicname = "IHSB0A144036.jpg" width = "88.000mm" height = "48.079mm" ver = "01" gw = "88" gh = "120"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

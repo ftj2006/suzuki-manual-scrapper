@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "3">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0AA830001" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Precautions for Diagnosing Trouble
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that no equipment or option other than original parts is connected onto CAN bus. If any of those items are connected, disconnect it before troubleshooting.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Read 
+<intxref refid = "AENLSB0A0000002">Precautions for Electrical Circuit Service</intxref>
+ before troubleshooting central gateway control module, and understand well what is written there.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Clear all DTCs after completing troubleshooting.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

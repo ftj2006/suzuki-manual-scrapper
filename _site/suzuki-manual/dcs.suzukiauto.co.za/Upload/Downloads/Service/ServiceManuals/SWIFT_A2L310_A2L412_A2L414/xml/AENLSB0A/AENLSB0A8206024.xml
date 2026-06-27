@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206024" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Side-Impact G Sensor Removal and Installation (8-Channel Air Bag System)
+</title>
+<attention1>
+<ptxt>
+Failure to take proper precautions when handling the air bag system sensors can result in personal injury due to non-deployed air bag system in the event of an accident or accidental air bag deployment.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Never impact or shake the sensors.
+</ptxt>
+<ptxt>
+Otherwise, proper operation of the sensors cannot be assured.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Always tighten the mounting bolts to specified torque when installing the sensors. Otherwise, proper operation of the sensors cannot be assured.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<servinfosub id = "AENLSB0A8206024001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove center pillar lower trim. 
+<intxreftitleoff1 refid = "AENLSB0A9806016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect front side-impact G sensor connector (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Release locking slider (1) by sliding it in arrow direction “1”.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Disconnect front side-impact G sensor connector by pulling it in arrow direction “2”.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove front side-impact G sensor bolt (3) and remove front side-impact G sensor (4) from center pillar inner lower panel (5).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822108.jpg" width = "88.000mm" height = "69.321mm" ver = "01" gw = "194" gh = "180"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8206024002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206025">Front Side-Impact G Sensor Inspection (8-Channel Air Bag System)</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Check that none of the following faulty conditions exists.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Bend, deformation or rust on side sill scuff
+</ptxt>
+</item>
+<item>
+<ptxt>
+Foreign material on sensor
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Align mounting pin (1) with mounting hole (2) of vehicle to install front side-impact G sensor (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten front side-impact G sensor bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T8B006">
+<t-part>
+Front side-impact G sensor bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+9.0
+</t-value1>
+<t-value2>
+0.92
+</t-value2>
+<t-value3>
+7.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A822109.jpg" width = "88.000mm" height = "53.921mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect front side-impact G sensor connector securely.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install center pillar lower trim. 
+<intxreftitleoff1 refid = "AENLSB0A9806016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Enable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

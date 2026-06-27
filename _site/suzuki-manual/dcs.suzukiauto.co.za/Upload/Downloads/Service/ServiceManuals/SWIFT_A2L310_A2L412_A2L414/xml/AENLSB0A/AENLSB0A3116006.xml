@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "3A">
+<servcat sctnbr = "03" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A3116006" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Wheel Bearing Check
+</title>
+<s1>
+<ptxt>
+Hoist vehicle and remove front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove front brake disc. 
+<intxreftitleoff1 refid = "AENLSB0A4206005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check thrust play of front wheel bearing as follows.
+</ptxt>
+<ptxt>
+If measured value exceeds the limit, replace front wheel hub assembly.
+</ptxt>
+<s2>
+<ptxt>
+Apply measuring tip of dial gauge to flat-surface of front wheel hub assembly.
+</ptxt>
+<attention3>
+<ptxt>
+Apply measuring tip of dial gauge perpendicular to flat-surface of front wheel hub assembly as much as possible.
+</ptxt>
+</attention3>
+</s2>
+<s2>
+<ptxt>
+Gripping hub at the top and bottom, apply push pull force to the front wheel hub assembly.
+</ptxt>
+<spec-sdm>
+<sdm-title>
+Front wheel bearing thrust play
+</sdm-title>
+<sdm1>
+<sdm-condition>
+Limit
+</sdm-condition>
+<sdm-value>
+0.05 mm (0.002 in.)
+</sdm-value>
+</sdm1>
+</spec-sdm>
+<figure>
+<graphic graphicname = "ILSB0A311008.swf" width = "88.000mm" height = "71.590mm" ver = "01" gw = "184" gh = "186"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install front brake disc. 
+<intxreftitleoff1 refid = "AENLSB0A4206005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check wheel bearing for rattle by shaking wheel in axial direction, and for noise and smooth rotation by turning wheel.
+</ptxt>
+<ptxt>
+If check result is not OK, replace front wheel hub assembly. 
+<intxreftitleoff1 refid = "AENLSB0A3116007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A311009.swf" width = "88.000mm" height = "53.244mm" ver = "01" gw = "163" gh = "134"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

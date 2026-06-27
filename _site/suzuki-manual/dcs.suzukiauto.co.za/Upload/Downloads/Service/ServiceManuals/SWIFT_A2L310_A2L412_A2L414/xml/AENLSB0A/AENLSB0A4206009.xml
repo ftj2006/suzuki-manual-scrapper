@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4B">
+<servcat sctnbr = "04" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4206009" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Brake Caliper Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4206008">Front Brake Caliper Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<attention3>
+<ptxt>
+Perform this inspection in the following cases.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+When replacing front brake pads with new ones.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When removing front brake caliper.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<servinfosub id = "AENLSB0A4206009001">
+<title>
+Caliper Body and Carrier
+</title>
+<ptxt>
+Check brake caliper body and carrier for deformation, crack, damage and rust. Replace front brake caliper and carrier if defective.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A4206009002" page = "2">
+<title>
+Piston Boot
+</title>
+<ptxt>
+Check piston boot (1) for break and crack. Replace piston boot if defective.
+</ptxt>
+<figure>
+<graphic graphicname = "I8RW01420003.swf" width = "88.000mm" height = "45.624mm" ver = "01" gw = "135" gh = "112"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A4206009003">
+<title>
+Slide Pin
+</title>
+<ptxt>
+Before installing caliper to carrier (2), check slide pins (1) for smooth thrust movement.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A420017.swf" width = "88.000mm" height = "63.503mm" ver = "01" gw = "212" gh = "164"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

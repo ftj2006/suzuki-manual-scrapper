@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AAA16001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Dual Sensor Brake Support Control Module Removal and Installation
+</title>
+<attention4>
+<ptxt>
+Do not drop or otherwise expose the dual sensor brake support control module to large shock. Any dual sensor brake support control module that has received large shock should be replaced.
+</ptxt>
+</attention4>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+When replacing dual sensor brake support control module, use new control module. If used one is installed, DTC (C1681) could be detected due to mismatch of each registration.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After replacing dual sensor brake support control module, perform 
+<intxref refid = "AENLSB0AAA16002">Dual Sensor Brake Support Control Module Aiming Adjustment:Dual Sensor Brake Support</intxref>
+ and check DTC.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When dual sensor brake support control module is replaced, traffic sign recognition function is setting ON. When necessary, traffic sign recognition function is setting OFF by operation of user customization function in combination meter.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<servinfosub id = "AENLSB0AAA16001001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Check that ignition is “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove dual sensor brake support control module cover (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Unhooking claws (2) of dual sensor brake support control module holder (3) using a flat-bladed screwdriver or the like.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AAA2037.jpg" width = "88.000mm" height = "58.390mm" ver = "01" gw = "238" gh = "149"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove dual sensor brake support control module cover (1) from dual sensor brake support control module holder (2) by moving it in arrow direction.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AAA2038.jpg" width = "88.000mm" height = "70.686mm" ver = "01" gw = "186" gh = "184"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector and remove dual sensor brake support control module (1) by pushing claws (2) in arrow direction all together.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AAA2039.jpg" width = "88.000mm" height = "51.314mm" ver = "01" gw = "209" gh = "129"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove dual sensor brake support control module (1) from dual sensor brake support control module holder (2) by moving it in arrow direction.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AAA2040.jpg" width = "88.000mm" height = "76.820mm" ver = "01" gw = "209" gh = "201"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA16001002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that claws (1) of dual sensor brake support control module (2) fixed to the holder (3) securely.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AAA2041.jpg" width = "88.000mm" height = "84.245mm" ver = "01" gw = "200" gh = "222"/>
+</figure>
+</item>
+<item>
+<ptxt>
+After installation, check that dual sensor brake support control module is no looseness, wobble or abnormal noise.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After installation, perform 
+<intxref refid = "AENLSB0AAA16002">Dual Sensor Brake Support Control Module Aiming Adjustment:Dual Sensor Brake Support</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

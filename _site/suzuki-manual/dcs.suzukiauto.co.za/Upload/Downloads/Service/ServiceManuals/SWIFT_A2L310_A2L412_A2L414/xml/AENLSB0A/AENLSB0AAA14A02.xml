@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA14A02" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Dual sensor brake support works unexpectedly
+</title>
+<attention3>
+<ptxt>
+Dual sensor brake support system is controlled by dual sensor brake support control module communicating with the following control modules through CAN communication. Before performing symptom diagnosis, check that no DTC is indicated in these control modules.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM (A/T model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+P/S control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Dual sensor brake support works unexpectedly
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Improper vehicle conditions
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Unload the vehicle, remove modification parts for vehicle’s height, wiper blade(s), windshield, etc. and replace with genuine parts.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Conditions that dual sensor brake support control module could fail to recognize obstacle
+</ptxt>
+</ps>
+<action>
+<ptxt>
+—
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA836001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Central Gateway Control Module Removal and Installation
+</title>
+<servinfosub id = "AENLSB0AA836001003">
+<title>
+LHD
+</title>
+<topic id = "AENLSB0AA836001001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove steering column hole cover and instrument panel driver outside garnish. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove nut (1), and then remove central gateway control module (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect central gateway control module connector.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA83004.jpg" width = "88.000mm" height = "51.466mm" ver = "01" gw = "183" gh = "129"/>
+</figure>
+</s1>
+</topic>
+<topic id = "AENLSB0AA836001002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Insert protrusion (1) of central gateway control module into hole in steering support member.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten central gateway control module nut to special torque.
+</ptxt>
+<torque>
+<torqueitem id = "T10H301">
+<t-part>
+Central gateway control module nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+9.5
+</t-value1>
+<t-value2>
+0.97
+</t-value2>
+<t-value3>
+7.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AA83005.jpg" width = "88.000mm" height = "51.466mm" ver = "01" gw = "183" gh = "129"/>
+</figure>
+</item>
+</list1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AA836001004">
+<title>
+RHD
+</title>
+<topic id = "AENLSB0AA836001005">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove instrument panel from vehicle body. 
+<intxreftitleoff1 refid = "AENLSB0A9306002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ventilator duct from instrument panel. 
+<intxreftitleoff1 refid = "AENLSB0A9306003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect central gateway control module connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove nut (1), and then remove central gateway control module (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA83006.jpg" width = "88.000mm" height = "51.466mm" ver = "01" gw = "182" gh = "129"/>
+</figure>
+</s1>
+</topic>
+<topic id = "AENLSB0AA836001006">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Insert protrusion (1) of central gateway control module into hole in steering support member.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten central gateway control module nut to special torque.
+</ptxt>
+<torque>
+<torqueitem id = "T10H302">
+<t-part>
+Central gateway control module nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+9.5
+</t-value1>
+<t-value2>
+0.97
+</t-value2>
+<t-value3>
+7.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AA83007.jpg" width = "88.000mm" height = "83.932mm" ver = "01" gw = "200" gh = "221"/>
+</figure>
+</item>
+</list1>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

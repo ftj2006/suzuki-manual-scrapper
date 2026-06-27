@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9A">
+<servcat sctnbr = "09" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "F">
+<servinfo servinfosgmlid = "AENLSB0A910F003" svcinfotypenbr = "10" svcinfoqualnbr = "01" supplyoff = "1" modify = "1">
+<title>
+C Connector
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.201in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.201in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.201in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.201in"/>
+<colspec colnum = "5" colname = "5" colwidth = "1.201in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.201in"/>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C01
+</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C06
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C27
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF600014.swf" width = "91.515mm" height = "32.668mm" ver = "01"/>
+</entry>
+<entry namest = "4" nameend = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF140044.swf" width = "61.010mm" height = "32.752mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020394.swf" width = "30.505mm" height = "32.835mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "4" nameend = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C29
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C31
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C32
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C36
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C37
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C39
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030127.swf" width = "30.505mm" height = "11.771mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030103.swf" width = "30.505mm" height = "11.854mm" ver = "02"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030127.swf" width = "30.505mm" height = "11.938mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030085.swf" width = "30.505mm" height = "12.021mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020372.swf" width = "30.505mm" height = "12.105mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020176.swf" width = "30.505mm" height = "12.189mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C40
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C42
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C47
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C47
+</ptxt>
+</entry>
+<entry namest = "5" nameend = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C48
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060127.swf" width = "30.505mm" height = "19.945mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040092.swf" width = "30.505mm" height = "20.029mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040141.swf" width = "30.505mm" height = "20.112mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF050066.swf" width = "30.505mm" height = "20.196mm" ver = "01"/>
+</entry>
+<entry namest = "5" nameend = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060068.swf" width = "61.010mm" height = "20.280mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+<entry namest = "5" nameend = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C48
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C51
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C52
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C56
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C56
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C69
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060106.swf" width = "30.505mm" height = "18.890mm" ver = "02"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040110.swf" width = "30.505mm" height = "18.974mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030127.swf" width = "30.505mm" height = "19.057mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040092.swf" width = "30.505mm" height = "19.141mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040081.swf" width = "30.505mm" height = "19.225mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020328.swf" width = "30.505mm" height = "19.308mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C75
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C91
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C92
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C93
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C94
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C101
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060107.swf" width = "30.505mm" height = "15.260mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020345.swf" width = "30.505mm" height = "15.343mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020266.swf" width = "30.505mm" height = "15.427mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020345.swf" width = "30.505mm" height = "15.511mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020266.swf" width = "30.505mm" height = "15.594mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030172.swf" width = "30.505mm" height = "15.678mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C102
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C103
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C104
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C122
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C123
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C123
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030172.swf" width = "30.505mm" height = "14.312mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030172.swf" width = "30.505mm" height = "14.396mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030172.swf" width = "30.505mm" height = "14.479mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060120.swf" width = "30.505mm" height = "14.563mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020375.swf" width = "30.505mm" height = "14.647mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020374.swf" width = "30.505mm" height = "14.730mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+With GPF sensor
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Without GPF sensor
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C124
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C126
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C126
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C127
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C133
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C134
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020150.swf" width = "30.505mm" height = "12.548mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020418.swf" width = "30.505mm" height = "12.631mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020350.swf" width = "30.505mm" height = "12.715mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020176.swf" width = "30.505mm" height = "12.799mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020227.swf" width = "30.505mm" height = "12.882mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020401.swf" width = "30.505mm" height = "12.966mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C135
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C136
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C137
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C141
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C144
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C162
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060061.swf" width = "30.505mm" height = "15.062mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020150.swf" width = "30.505mm" height = "15.146mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020375.swf" width = "30.505mm" height = "15.229mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010076.swf" width = "30.505mm" height = "15.313mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020317.swf" width = "30.505mm" height = "15.397mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010102.swf" width = "30.505mm" height = "15.480mm" ver = "02"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C162
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C165
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C168
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C192
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C194
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C195
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030083.swf" width = "30.505mm" height = "12.297mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020176.swf" width = "30.505mm" height = "12.381mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020277.swf" width = "30.505mm" height = "12.465mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010141.swf" width = "30.505mm" height = "12.548mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010145.swf" width = "30.505mm" height = "12.632mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010021.swf" width = "30.505mm" height = "12.715mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C195
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C196
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C282
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C283
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C343 (E371)
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010155.swf" width = "30.505mm" height = "18.779mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010078.swf" width = "30.505mm" height = "18.862mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010078.swf" width = "30.505mm" height = "18.946mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF010082.swf" width = "30.505mm" height = "19.029mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF200011.swf" width = "30.505mm" height = "19.113mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+K14D model
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C344 (E372)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C356 (D246)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C360 (D250)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C363 (C364)
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C364 (C363)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF130045.swf" width = "61.010mm" height = "18.890mm" ver = "01"/>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF040092.swf" width = "30.505mm" height = "18.974mm" ver = "01"/>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF060061.swf" width = "30.505mm" height = "19.057mm" ver = "01"/>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF020375.swf" width = "30.505mm" height = "19.141mm" ver = "01"/>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONM020058.swf" width = "30.505mm" height = "19.225mm" ver = "01"/>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+C368
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "0" border-left = "1" border-right = "0" valign = "middle">
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle">
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle">
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle">
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle">
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "0" border-bottom = "0" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "MCONF030127.swf" width = "30.505mm" height = "11.771mm" ver = "01"/>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "0" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "0" border-bottom = "0" border-left = "1" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "3" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "4" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "5" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+<entry colname = "6" border-top = "0" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "center">
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

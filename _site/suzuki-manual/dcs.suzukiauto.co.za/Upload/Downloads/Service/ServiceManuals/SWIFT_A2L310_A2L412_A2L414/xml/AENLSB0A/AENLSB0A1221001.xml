@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1B">
+<servcat sctnbr = "01" scnbr = "02">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A1221001" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Gasoline Particulate Filter (GPF) Description
+</title>
+<ptxt>
+Gasoline particulate filter (GPF) is a device to constitute the exhaust system.
+</ptxt>
+<ptxt>
+GPF is canned together with catalytic converter and located under the catalytic converter.
+</ptxt>
+<ptxt>
+GPF collects particulate matter (PM) from emission and reduces harmful substance in the emission.
+</ptxt>
+<ptxt>
+A pressure sensor is configured to monitor pressure difference between the upper and lower reaches of GPF for clogging. Further, ECM estimates collected soot volume in GPF monitoring the engine condition.
+</ptxt>
+<ptxt>
+Under a normal driving condition, the soot is burned off naturally if GPF is in higher temperature than the specification and oxygen is supplied during fuel cut operation etc.
+</ptxt>
+<ptxt>
+If ECM estimates clogging of GPF exceeding the specified limit, ignition timing is retarded to raise exhaust temperature and accelerates forced burning off of the soot.
+</ptxt>
+<ptxt>
+And, if the clogging is not eliminated even after the forced burning off and estimated PM accumulation calculated by ECM is higher than the specification, ECM turns on GPF warning light in the combination meter and indicates “DRIVE TO REGENERATE GPF” on information display to warn the driver of clogged GPF and urge high speed driving to raise exhaust temperature.
+</ptxt>
+<ptxt>
+Further, if the clogging is not eliminated yet and pressure difference of exhaust between upper and lower of GPF, or estimated soot volume in GPF calculated by ECM is higher than the specification, ECM turns on GPF warning light and indicates “WARNING GPF SYSTEM” on information display to warn the driver of clogged GPF and urge to enter the vehicle for servicing.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

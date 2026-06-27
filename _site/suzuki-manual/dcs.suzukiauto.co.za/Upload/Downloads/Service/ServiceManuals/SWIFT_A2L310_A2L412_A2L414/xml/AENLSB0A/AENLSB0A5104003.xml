@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A5104003" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Transmission Warning Light Check
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that transmission warning light (1) lights for about 2 sec. and then goes OFF. If anything faulty is found, refer to 
+<intxref refid = "AENLSB0A5104020">Transmission Warning Light Does Not Come ON with Ignition ON</intxref>
+ or 
+<intxref refid = "AENLSB0A5104021">Transmission Warning Light Remains ON with Ignition ON</intxref>
+.
+</ptxt>
+</s1>
+<figure>
+<graphic graphicname = "IGSB0A510008.swf" width = "88.000mm" height = "58.680mm" ver = "01" gw = "220" gh = "150"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

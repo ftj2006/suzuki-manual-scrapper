@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1724002" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Power Balance Test
+</title>
+<attention4>
+<ptxt>
+The engine could be damaged if it is accelerated to a high rpm with a fuel injector connector disconnected.
+</ptxt>
+<ptxt>
+Always perform power balance test with engine running at an idle speed.
+</ptxt>
+</attention4>
+<s1>
+<ptxt>
+Place gear shift lever in “Neutral” and apply parking brake.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect scan tool to DLC (1) with ignition “OFF”.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G217">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A171004.swf" width = "88.000mm" height = "87.737mm" ver = "01" gw = "205" gh = "232"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Using SUZUKI scan tool, select “Fuel Injector” in “Active Test” and turn off each fuel injector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With each fuel injector turned off, check that engine speed decreases from specified idle speed.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If decreasing rates of engine speed are not in scale, check the following items.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fuel injector circuit: 
+<intxreftitleoff1 refid = "AENLSB0A1724003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fuel injector: 
+<intxreftitleoff1 refid = "AENLSB0A1726014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Spark plug: 
+<intxreftitleoff1 refid = "AENLSB0A1826002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Ignition coil circuit: 
+<intxreftitleoff1 refid = "AENLSB0A1824001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Ignition coil: 
+<intxreftitleoff1 refid = "AENLSB0A1826004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine compression: 
+<intxreftitleoff1 refid = "AENLSB0A1424001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>
