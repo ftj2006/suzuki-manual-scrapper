@@ -12,6 +12,53 @@ python scrape.py --start-url "https://dcs.suzukiauto.co.za/Upload/Downloads/Serv
 
 Then open [index.html](index.html) or serve the repo root with any static server.
 
+## Staged URL Scanner (Recommended)
+
+Use the staged scanner to discover roots, probe model-relevant code patterns, cache results, and regenerate the clickable HTML output.
+
+### Inputs
+
+- `model_code_sources.csv`: external model/code intelligence (recalls, docs, catalog references)
+- `all_existing_roots.txt`: known existing roots (updated automatically)
+
+### Run (standard)
+
+```bash
+./.venv/bin/python staged_scanner.py
+```
+
+### Run (with deep stage)
+
+```bash
+./.venv/bin/python staged_scanner.py --include-deep
+```
+
+### Outputs
+
+- `working-urls.html`: regenerated clickable summary page
+- `scan_cache.tsv`: URL status cache to avoid duplicate probing
+- `scan_reports/summary.txt`: latest scan summary
+- `scan_reports/final_hits.tsv`: all hit URLs (`200/401/403`)
+- `scan_reports/delta_report.tsv`: delta vs `all_roots_full_rescan_combined_codes.tsv` baseline
+
+The scanner is root-first and staged (high-confidence -> medium expansion -> neighborhood expansion, optionally deep), so it prioritizes likely wins before expensive brute-force passes.
+
 ## GitHub Pages
 
 The repository root includes a static entry page that redirects to [suzuki-manual/index.html](suzuki-manual/index.html). The `.nojekyll` file ensures GitHub Pages serves the mirrored asset tree as-is.
+
+### Symlink Compatibility (Important)
+
+GitHub Pages artifacts reject symlinks in many setups. This repository has root aliases (`config8`, `icon`, `image`, `symbol`) that may be symlinks locally.
+
+The workflow `.github/workflows/deploy-pages.yml` stages the site with `cp -RL`, which dereferences symlinks and copies their real contents into the deploy artifact.
+
+If you stage manually, use `cp -RL` (or `rsync -aL`) instead of plain `cp -R`.
+
+Quick local check of staged output:
+
+```bash
+find _site -type l
+```
+
+The command above should print nothing.

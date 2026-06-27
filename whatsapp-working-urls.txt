@@ -1,0 +1,20 @@
+*Suzuki Service Manual URLs Update*
+
+*Total working URLs:* 45
+*Roots with working links:* 5
+
+*By root folder:*
+- *BREZZA*: 1 links
+- *IGNIS*: 1 links
+- *SWIFT_A2L310_A2L412_A2L414*: 3 links
+- *SX4*: 20 links
+- *SX4_RW415_RW416_RW420*: 20 links
+
+*Quick links (sample):*
+- BREZZA: https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLBA0C/index.html
+- IGNIS: https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLJA0A/index.html
+- SWIFT_A2L310_A2L412_A2L414: https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENKSB0A/index.html
+- SX4: https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/ADU8RW0A/index.html
+- SX4_RW415_RW416_RW420: https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4_RW415_RW416_RW420/xml/ADU8RW0A/index.html
+
+Full grouped report: working-urls-grouped-report.html

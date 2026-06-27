@@ -1,0 +1,139 @@
+host	dns	ip	path	status	url
+dcs.suzuki.ae	NX				
+dcs.suzuki.al	NX				
+dcs.suzuki.at	OK	80.120.70.17	/	200	https://dcs.suzuki.at/
+dcs.suzuki.at	OK	80.120.70.17	/robots.txt	200	https://dcs.suzuki.at/robots.txt
+dcs.suzuki.at	OK	80.120.70.17	/Upload/Downloads/Service/ServiceManuals/	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.at	OK	80.120.70.17	/Login_SSO/loginaction.do	200	https://dcs.suzuki.at/Login_SSO/loginaction.do
+dcs.suzuki.ba	NX				
+dcs.suzuki.be	OK	5.134.1.215	/	ERR	https://dcs.suzuki.be/
+dcs.suzuki.be	OK	5.134.1.215	/robots.txt	ERR	https://dcs.suzuki.be/robots.txt
+dcs.suzuki.be	OK	5.134.1.215	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.be/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.be	OK	5.134.1.215	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.be/Login_SSO/loginaction.do
+dcs.suzuki.bg	NX				
+dcs.suzuki.bh	NX				
+dcs.suzuki.ca	NX				
+dcs.suzuki.ch	NX				
+dcs.suzuki.cl	NX				
+dcs.suzuki.co.id	OK	139.255.85.75	/	ERR	https://dcs.suzuki.co.id/
+dcs.suzuki.co.id	OK	139.255.85.75	/robots.txt	ERR	https://dcs.suzuki.co.id/robots.txt
+dcs.suzuki.co.id	OK	139.255.85.75	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.co.id/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.co.id	OK	139.255.85.75	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.co.id/Login_SSO/loginaction.do
+dcs.suzuki.co.in	NX				
+dcs.suzuki.co.jp	NX				
+dcs.suzuki.co.kr	OK	222.231.55.96	/	ERR	https://dcs.suzuki.co.kr/
+dcs.suzuki.co.kr	OK	222.231.55.96	/robots.txt	ERR	https://dcs.suzuki.co.kr/robots.txt
+dcs.suzuki.co.kr	OK	222.231.55.96	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.co.kr/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.co.kr	OK	222.231.55.96	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.co.kr/Login_SSO/loginaction.do
+dcs.suzuki.co.nz	NX				
+dcs.suzuki.co.th	NX				
+dcs.suzuki.co.uk	NX				
+dcs.suzuki.co.za	NX				
+dcs.suzuki.com	NX				
+dcs.suzuki.com.ar	NX				
+dcs.suzuki.com.au	NX				
+dcs.suzuki.com.br	NX				
+dcs.suzuki.com.mx	NX				
+dcs.suzuki.com.my	NX				
+dcs.suzuki.com.ph	NX				
+dcs.suzuki.com.sg	OK	103.11.189.189	/	ERR	https://dcs.suzuki.com.sg/
+dcs.suzuki.com.sg	OK	103.11.189.189	/robots.txt	ERR	https://dcs.suzuki.com.sg/robots.txt
+dcs.suzuki.com.sg	OK	103.11.189.189	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.com.sg/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.com.sg	OK	103.11.189.189	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.com.sg/Login_SSO/loginaction.do
+dcs.suzuki.com.vn	NX				
+dcs.suzuki.cz	NX				
+dcs.suzuki.de	OK	178.15.44.228	/	200	https://dcs.suzuki.de/
+dcs.suzuki.de	OK	178.15.44.228	/robots.txt	404	https://dcs.suzuki.de/robots.txt
+dcs.suzuki.de	OK	178.15.44.228	/Upload/Downloads/Service/ServiceManuals/	404	https://dcs.suzuki.de/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.de	OK	178.15.44.228	/Login_SSO/loginaction.do	200	https://dcs.suzuki.de/Login_SSO/loginaction.do
+dcs.suzuki.dk	NX				
+dcs.suzuki.ee	NX				
+dcs.suzuki.eg	NX				
+dcs.suzuki.es	NX				
+dcs.suzuki.fi	NX				
+dcs.suzuki.fr	NX				
+dcs.suzuki.gr	NX				
+dcs.suzuki.hr	OK	85.25.211.227	/	ERR	https://dcs.suzuki.hr/
+dcs.suzuki.hr	OK	85.25.211.227	/robots.txt	ERR	https://dcs.suzuki.hr/robots.txt
+dcs.suzuki.hr	OK	85.25.211.227	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.hr/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.hr	OK	85.25.211.227	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.hr/Login_SSO/loginaction.do
+dcs.suzuki.hu	OK	193.68.57.118	/	200	https://dcs.suzuki.hu/
+dcs.suzuki.hu	OK	193.68.57.118	/robots.txt	404	https://dcs.suzuki.hu/robots.txt
+dcs.suzuki.hu	OK	193.68.57.118	/Upload/Downloads/Service/ServiceManuals/	404	https://dcs.suzuki.hu/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.hu	OK	193.68.57.118	/Login_SSO/loginaction.do	404	https://dcs.suzuki.hu/Login_SSO/loginaction.do
+dcs.suzuki.ie	NX				
+dcs.suzuki.il	NX				
+dcs.suzuki.it	NX				
+dcs.suzuki.jo	NX				
+dcs.suzuki.kw	NX				
+dcs.suzuki.lt	NX				
+dcs.suzuki.lv	NX				
+dcs.suzuki.ma	NX				
+dcs.suzuki.md	NX				
+dcs.suzuki.me	OK	172.67.133.206	/	403	https://dcs.suzuki.me/
+dcs.suzuki.me	OK	172.67.133.206	/robots.txt	200	https://dcs.suzuki.me/robots.txt
+dcs.suzuki.me	OK	172.67.133.206	/Upload/Downloads/Service/ServiceManuals/	403	https://dcs.suzuki.me/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.me	OK	172.67.133.206	/Login_SSO/loginaction.do	403	https://dcs.suzuki.me/Login_SSO/loginaction.do
+dcs.suzuki.mk	NX				
+dcs.suzuki.net	OK	15.197.204.56	/	ERR	https://dcs.suzuki.net/
+dcs.suzuki.net	OK	15.197.204.56	/robots.txt	ERR	https://dcs.suzuki.net/robots.txt
+dcs.suzuki.net	OK	15.197.204.56	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.net/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.net	OK	15.197.204.56	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.net/Login_SSO/loginaction.do
+dcs.suzuki.nl	NX				
+dcs.suzuki.no	NX				
+dcs.suzuki.om	NX				
+dcs.suzuki.org	NX				
+dcs.suzuki.pl	OK	85.219.240.99	/	ERR	https://dcs.suzuki.pl/
+dcs.suzuki.pl	OK	85.219.240.99	/robots.txt	ERR	https://dcs.suzuki.pl/robots.txt
+dcs.suzuki.pl	OK	85.219.240.99	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.pl/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.pl	OK	85.219.240.99	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.pl/Login_SSO/loginaction.do
+dcs.suzuki.pt	OK	81.247.254.221	/	ERR	https://dcs.suzuki.pt/
+dcs.suzuki.pt	OK	81.247.254.221	/robots.txt	ERR	https://dcs.suzuki.pt/robots.txt
+dcs.suzuki.pt	OK	81.247.254.221	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.pt/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.pt	OK	81.247.254.221	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.pt/Login_SSO/loginaction.do
+dcs.suzuki.qa	NX				
+dcs.suzuki.ro	OK	188.138.29.227	/	ERR	https://dcs.suzuki.ro/
+dcs.suzuki.ro	OK	188.138.29.227	/robots.txt	ERR	https://dcs.suzuki.ro/robots.txt
+dcs.suzuki.ro	OK	188.138.29.227	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.ro/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.ro	OK	188.138.29.227	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.ro/Login_SSO/loginaction.do
+dcs.suzuki.rs	NX				
+dcs.suzuki.sa	NX				
+dcs.suzuki.se	NX				
+dcs.suzuki.si	NX				
+dcs.suzuki.sk	OK	212.57.38.91	/	200	https://dcs.suzuki.sk/
+dcs.suzuki.sk	OK	212.57.38.91	/robots.txt	200	https://dcs.suzuki.sk/robots.txt
+dcs.suzuki.sk	OK	212.57.38.91	/Upload/Downloads/Service/ServiceManuals/	404	https://dcs.suzuki.sk/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.sk	OK	212.57.38.91	/Login_SSO/loginaction.do	404	https://dcs.suzuki.sk/Login_SSO/loginaction.do
+dcs.suzuki.tn	NX				
+dcs.suzuki.tr	NX				
+dcs.suzuki.ua	NX				
+dcs.suzuki.us	OK	104.143.9.210	/	ERR	https://dcs.suzuki.us/
+dcs.suzuki.us	OK	104.143.9.210	/robots.txt	ERR	https://dcs.suzuki.us/robots.txt
+dcs.suzuki.us	OK	104.143.9.210	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzuki.us/Upload/Downloads/Service/ServiceManuals/
+dcs.suzuki.us	OK	104.143.9.210	/Login_SSO/loginaction.do	ERR	https://dcs.suzuki.us/Login_SSO/loginaction.do
+dcs.suzuki.za	NX				
+dcs.suzukiauto.co.id	NX				
+dcs.suzukiauto.co.in	NX				
+dcs.suzukiauto.co.jp	NX				
+dcs.suzukiauto.co.kr	NX				
+dcs.suzukiauto.co.nz	NX				
+dcs.suzukiauto.co.th	NX				
+dcs.suzukiauto.co.uk	NX				
+dcs.suzukiauto.co.za	OK	41.180.8.37	/	200	https://dcs.suzukiauto.co.za/
+dcs.suzukiauto.co.za	OK	41.180.8.37	/robots.txt	200	https://dcs.suzukiauto.co.za/robots.txt
+dcs.suzukiauto.co.za	OK	41.180.8.37	/Upload/Downloads/Service/ServiceManuals/	403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/
+dcs.suzukiauto.co.za	OK	41.180.8.37	/Login_SSO/loginaction.do	404	https://dcs.suzukiauto.co.za/Login_SSO/loginaction.do
+dcs.suzukiauto.com.ar	NX				
+dcs.suzukiauto.com.au	NX				
+dcs.suzukiauto.com.br	NX				
+dcs.suzukiauto.com.mx	NX				
+dcs.suzukiauto.com.my	OK	103.7.9.22	/	ERR	https://dcs.suzukiauto.com.my/
+dcs.suzukiauto.com.my	OK	103.7.9.22	/robots.txt	ERR	https://dcs.suzukiauto.com.my/robots.txt
+dcs.suzukiauto.com.my	OK	103.7.9.22	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzukiauto.com.my/Upload/Downloads/Service/ServiceManuals/
+dcs.suzukiauto.com.my	OK	103.7.9.22	/Login_SSO/loginaction.do	ERR	https://dcs.suzukiauto.com.my/Login_SSO/loginaction.do
+dcs.suzukiauto.com.ph	OK	45.79.222.138	/	ERR	https://dcs.suzukiauto.com.ph/
+dcs.suzukiauto.com.ph	OK	45.79.222.138	/robots.txt	ERR	https://dcs.suzukiauto.com.ph/robots.txt
+dcs.suzukiauto.com.ph	OK	45.79.222.138	/Upload/Downloads/Service/ServiceManuals/	ERR	https://dcs.suzukiauto.com.ph/Upload/Downloads/Service/ServiceManuals/
+dcs.suzukiauto.com.ph	OK	45.79.222.138	/Login_SSO/loginaction.do	ERR	https://dcs.suzukiauto.com.ph/Login_SSO/loginaction.do
+dcs.suzukiauto.com.sg	NX				
+dcs.suzukiauto.com.vn	NX				

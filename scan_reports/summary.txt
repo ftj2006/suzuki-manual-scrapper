@@ -1,0 +1,1 @@
+Latest staged scan: 2026-06-27T03:19:39.098096+00:00 | roots=18 | final_hits=45 | hit200=45 | new_vs_baseline=40
