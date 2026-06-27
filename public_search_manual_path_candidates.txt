@@ -1,0 +1,16 @@
+http://duckduckgo.com/html/?q=%22AENLBA0C%22+Suzuki
+http://duckduckgo.com/html/?q=%22AENLJA0A%22+Suzuki
+http://duckduckgo.com/html/?q=%22AENLSB0A%22+Suzuki
+http://duckduckgo.com/html/?q=%22SWIFT_A2L310_A2L412_A2L414%22
+http://duckduckgo.com/html/?q=%22Upload/Downloads/Service/ServiceManuals%22+%22dcs.suzuki%22
+http://duckduckgo.com/html/?q=site:dcs.suzuki.de+Upload/Downloads/Service/ServiceManuals
+http://duckduckgo.com/html/?q=site:dcs.suzukiauto.co.za+Upload/Downloads/Service/ServiceManuals
+http://duckduckgo.com/l/?uddg=http%3A%2F%2Fdcs.suzuki.de%2FLogin_SSO%2Floginaction.do&rut=7c173593077a7d778074092c0adec6bce42e29d937304bf82c56eefb0df71896
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzuki.de%2FLogin_SSO%2Fsie%2Flogin%2Flogin.jsp%3Bjsessionid%3D3713306B8968B52AF3AD7C741EB0B7F1&rut=a48df4934499e9c0d41a7458af0b8aef5df9b2b95103694f5c1af93e5a89463d
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzuki.de%2Fasap%2Fcommon%2Fdealer%2Fstart.asap%3Fcid%3D40522&rut=38be6e0db63e5486266f1fffecbdf0e682b82b5fde5c0ccd4b91f2b96436ce2f
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzuki.de%2Fasap%2Fcommon%2Fdealer%2Fstart.asap%3Fcid%3D84620&rut=32b58e75e8291ff7a9716d8b88f7c01b2065f4e9738f0d36e77b44c8d7525f2f
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzukiauto.co.za%2F&rut=c7a9f4f090911963470e74644b2834e58f26022e812796469bdc6de2a8e33ca0
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzukiauto.co.za%2FUpload%2FDownloads%2FService%2FServiceManuals%2FSWIFT_AZG412_AZG413D_AZG416%2FTop%2Fhead.html&rut=9c4515557fbde8e274f6a90c7d959523e234c5636d2b614e3a5456a97c2c26f2
+http://duckduckgo.com/l/?uddg=https%3A%2F%2Fdcs.suzukiauto.co.za%2FUpload%2FDownloads%2FService%2FServiceManuals%2FSX4_RW415_RW416_RW420%2FTop%2FModelSelect.html&rut=56925186271e45603dae99890e2f0bb39ada9f0364760fa11d27e0b5433ffeb8
+http://external-content.duckduckgo.com/ip3/dcs.suzuki.de.ico
+http://external-content.duckduckgo.com/ip3/dcs.suzukiauto.co.za.ico

@@ -1,0 +1,193 @@
+host	type	root	code	status	url
+dcs.suzukiauto.co.za	root	ALTO		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/
+dcs.suzukiauto.co.za	root	BREZZA		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/
+dcs.suzukiauto.co.za	root	CELERIO		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/
+dcs.suzukiauto.co.za	root	DZIRE		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/
+dcs.suzukiauto.co.za	root	EECO		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/
+dcs.suzukiauto.co.za	root	FRONX		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/
+dcs.suzukiauto.co.za	root	IGNIS		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/
+dcs.suzukiauto.co.za	root	IGNIS_ATM412		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/
+dcs.suzukiauto.co.za	root	JIMNY		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/
+dcs.suzukiauto.co.za	root	KIZASHI		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/
+dcs.suzukiauto.co.za	root	S-PRESSO		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/
+dcs.suzukiauto.co.za	root	SPLASH		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/
+dcs.suzukiauto.co.za	root	SUPER_CARRY		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/
+dcs.suzukiauto.co.za	root	SWIFT_A2L310_A2L412_A2L414		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/
+dcs.suzukiauto.co.za	root	SX4		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/
+dcs.suzukiauto.co.za	root	XL6		403	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/
+dcs.suzukiauto.co.za	index	ALTO	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	ALTO	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	ALTO	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	ALTO	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	ALTO	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	BREZZA	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	BREZZA	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	BREZZA	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	BREZZA	AENLBA0C	200	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	BREZZA	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	CELERIO	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	CELERIO	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	CELERIO	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	CELERIO	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	CELERIO	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	DZIRE	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	DZIRE	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	DZIRE	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	DZIRE	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	DZIRE	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	EECO	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	EECO	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	EECO	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	EECO	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	EECO	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	FRONX	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	FRONX	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	FRONX	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	FRONX	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	FRONX	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	IGNIS	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	IGNIS	AENLJA0A	200	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS_ATM412	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS_ATM412	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	IGNIS_ATM412	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	IGNIS_ATM412	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	IGNIS_ATM412	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	JIMNY	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	JIMNY	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	JIMNY	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	JIMNY	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	JIMNY	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	KIZASHI	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	KIZASHI	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	KIZASHI	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	KIZASHI	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	KIZASHI	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	S-PRESSO	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	S-PRESSO	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	S-PRESSO	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	S-PRESSO	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	S-PRESSO	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	SPLASH	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	SPLASH	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	SPLASH	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	SPLASH	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	SPLASH	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	SUPER_CARRY	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	SUPER_CARRY	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	SUPER_CARRY	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	SUPER_CARRY	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	SUPER_CARRY	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	SWIFT_A2L310_A2L412_A2L414	AENKSB0A	200	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	SWIFT_A2L310_A2L412_A2L414	AENLSB0A	200	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	SWIFT_A2L310_A2L412_A2L414	AENLSB0C	200	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	SWIFT_A2L310_A2L412_A2L414	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	SWIFT_A2L310_A2L412_A2L414	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	SX4	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	SX4	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	SX4	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	SX4	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	SX4	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLJA0A/index.html
+dcs.suzukiauto.co.za	index	XL6	AENKSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENKSB0A/index.html
+dcs.suzukiauto.co.za	index	XL6	AENLSB0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLSB0A/index.html
+dcs.suzukiauto.co.za	index	XL6	AENLSB0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLSB0C/index.html
+dcs.suzukiauto.co.za	index	XL6	AENLBA0C	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLBA0C/index.html
+dcs.suzukiauto.co.za	index	XL6	AENLJA0A	404	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLJA0A/index.html
+dcs.suzuki.at	root	ALTO		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/
+dcs.suzuki.at	root	BREZZA		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/
+dcs.suzuki.at	root	CELERIO		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/
+dcs.suzuki.at	root	DZIRE		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/
+dcs.suzuki.at	root	EECO		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/
+dcs.suzuki.at	root	FRONX		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/
+dcs.suzuki.at	root	IGNIS		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/
+dcs.suzuki.at	root	IGNIS_ATM412		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/
+dcs.suzuki.at	root	JIMNY		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/
+dcs.suzuki.at	root	KIZASHI		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/
+dcs.suzuki.at	root	S-PRESSO		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/
+dcs.suzuki.at	root	SPLASH		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/
+dcs.suzuki.at	root	SUPER_CARRY		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/
+dcs.suzuki.at	root	SWIFT_A2L310_A2L412_A2L414		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/
+dcs.suzuki.at	root	SX4		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/
+dcs.suzuki.at	root	XL6		200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/
+dcs.suzuki.at	index	ALTO	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	ALTO	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	ALTO	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	ALTO	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	ALTO	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/ALTO/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	BREZZA	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	BREZZA	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	BREZZA	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	BREZZA	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	BREZZA	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	CELERIO	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	CELERIO	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	CELERIO	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	CELERIO	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	CELERIO	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/CELERIO/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	DZIRE	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	DZIRE	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	DZIRE	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	DZIRE	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	DZIRE	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/DZIRE/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	EECO	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	EECO	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	EECO	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	EECO	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	EECO	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/EECO/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	FRONX	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	FRONX	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	FRONX	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	FRONX	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	FRONX	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/FRONX/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	IGNIS	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	IGNIS	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	IGNIS	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	IGNIS	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	IGNIS	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	IGNIS_ATM412	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	IGNIS_ATM412	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	IGNIS_ATM412	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	IGNIS_ATM412	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	IGNIS_ATM412	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/IGNIS_ATM412/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	JIMNY	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	JIMNY	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	JIMNY	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	JIMNY	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	JIMNY	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/JIMNY/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	KIZASHI	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	KIZASHI	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	KIZASHI	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	KIZASHI	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	KIZASHI	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/KIZASHI/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	S-PRESSO	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	S-PRESSO	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	S-PRESSO	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	S-PRESSO	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	S-PRESSO	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/S-PRESSO/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	SPLASH	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	SPLASH	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	SPLASH	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	SPLASH	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	SPLASH	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SPLASH/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	SUPER_CARRY	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	SUPER_CARRY	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	SUPER_CARRY	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	SUPER_CARRY	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	SUPER_CARRY	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SUPER_CARRY/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	SWIFT_A2L310_A2L412_A2L414	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	SWIFT_A2L310_A2L412_A2L414	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	SWIFT_A2L310_A2L412_A2L414	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	SWIFT_A2L310_A2L412_A2L414	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	SWIFT_A2L310_A2L412_A2L414	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	SX4	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	SX4	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	SX4	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	SX4	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	SX4	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/SX4/xml/AENLJA0A/index.html
+dcs.suzuki.at	index	XL6	AENKSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENKSB0A/index.html
+dcs.suzuki.at	index	XL6	AENLSB0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLSB0A/index.html
+dcs.suzuki.at	index	XL6	AENLSB0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLSB0C/index.html
+dcs.suzuki.at	index	XL6	AENLBA0C	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLBA0C/index.html
+dcs.suzuki.at	index	XL6	AENLJA0A	200	https://dcs.suzuki.at/Upload/Downloads/Service/ServiceManuals/XL6/xml/AENLJA0A/index.html

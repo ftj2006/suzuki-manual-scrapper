@@ -1,0 +1,2 @@
+200	SWIFT_A2L310_A2L412_A2L414	AENLSB0A	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/index.html
+200	SWIFT_A2L310_A2L412_A2L414	AENLSB0C	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0C/index.html

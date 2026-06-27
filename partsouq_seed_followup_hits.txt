@@ -1,0 +1,2 @@
+200	BREZZA	AENLBA0C	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/BREZZA/xml/AENLBA0C/index.html
+200	IGNIS	AENLJA0A	https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/IGNIS/xml/AENLJA0A/index.html
