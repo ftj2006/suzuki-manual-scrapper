@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA406002" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Tire Pressure Sensor Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0AA406001">Tire Pressure Sensor Removal and Installation</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Visually check tire pressure sensor for damage. Replace tire pressure sensor if defective.
+</ptxt>
+<figure>
+<graphic graphicname = "IAW101A40009.swf" width = "88.000mm" height = "36.111mm" ver = "01" gw = "110" gh = "86"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Using recommended tool, activate tire pressure sensor.
+</ptxt>
+<ptxt>
+Refer to instruction of recommended tool for activating method of tire pressure sensor.
+</ptxt>
+<spec>
+<title>
+Recommended tool
+</title>
+<ptxt>
+“VT56”, “VT55”, “VT36” or “VT30” made by ATEQ
+</ptxt>
+</spec>
+</s1>
+<s1>
+<ptxt>
+Check information from tire pressure sensor is indicated in recommended tool.
+</ptxt>
+<ptxt>
+Repeat the activating process once again if no information is indicated.
+</ptxt>
+<ptxt>
+Replace tire pressure sensor if still no information is indicated.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "3A">
+<servcat sctnbr = "03" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A3116004" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Drive Shaft Assembly Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A3116001">Front Drive Shaft Components:Front</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A3116003">Front Drive Shaft Assembly Removal and Installation:Front</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A3116004009" page = "2">
+<title>
+Disassembly
+</title>
+<attention4>
+<ptxt>
+Disassembly of the wheel side joint in the left side drive shaft or the tripod joint can affect the performance.
+</ptxt>
+<ptxt>
+If any abnormality is found, replace the drive shaft or the tripod joint(s) as an assembly.
+</ptxt>
+</attention4>
+<topic id = "AENLSB0A3116004010" page = "2">
+<title>
+Differential side joint
+</title>
+<s1>
+<ptxt>
+Using nose pliers (1), disengage hooks of boot big band (2) and remove band.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10A311006.swf" width = "88.000mm" height = "55.149mm" ver = "01" gw = "196" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove differential side joint housing from tripod joint.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For right side drive shaft, remove drive shaft support bracket (1) and washer (2) from differential side joint housing, if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A311009.jpg" width = "88.000mm" height = "75.427mm" ver = "01" gw = "199" gh = "197"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Wipe off grease from shaft and use snap ring pliers (2) to remove snap ring (1).
+</ptxt>
+<figure>
+<graphic graphicname = "I7RW01311003.swf" width = "88.000mm" height = "49.561mm" ver = "01" gw = "95" gh = "123"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove tripod joint (1) using 3-arm puller (2).
+</ptxt>
+<attention4>
+<ptxt>
+Except for the housing, washing the tripod joint parts with a washing solution may cause problems with the joint.
+</ptxt>
+<ptxt>
+Do not use a washing solution to clean any tripod joint parts other than the housing. Use a cloth to remove grease from tripod joints.
+</ptxt>
+</attention4>
+<figure>
+<graphic graphicname = "I9P60A311005.swf" width = "88.000mm" height = "42.746mm" ver = "01" gw = "173" gh = "105"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Using flat-bladed screwdriver (1) or the like, release caulking (2) of boot small band (3).
+</ptxt>
+<figure>
+<graphic graphicname = "I8V101311031.swf" width = "88.000mm" height = "38.286mm" ver = "01" gw = "172" gh = "92"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Pull out differential side boot from shaft.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For right side drive shaft, remove damper from shaft.
+</ptxt>
+</s1>
+</topic>
+<topic id = "AENLSB0A3116004011" page = "2">
+<title>
+Wheel side joint
+</title>
+<attention3>
+<ptxt>
+Wheel side joint assembly in the right side drive shaft cannot be disassembled.
+</ptxt>
+<ptxt>
+If any abnormality is found, replace the joint as an assembly.
+</ptxt>
+</attention3>
+<s1 page = "2">
+<ptxt>
+For left side drive shaft, using flat-bladed screwdriver (1) or the like, release caulking (2) of boot small band (3) and big band (4).
+</ptxt>
+<attention3>
+<ptxt>
+Use nippers to cut boot band if it is of a welded type.
+</ptxt>
+<ptxt>
+Take care not to damage boot while cutting band.
+</ptxt>
+</attention3>
+<figure page = "2">
+<graphic graphicname = "IFFA0A311002.swf" width = "88.000mm" height = "48.701mm" ver = "01" gw = "170" gh = "122"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Pull out wheel side boot from shaft.
+</ptxt>
+</s1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A3116004012" page = "2">
+<title>
+Reassembly
+</title>
+<ptxt>
+Judging from abnormality noted before disassembly and what is found through visual check of component parts after disassembly, prepare replacing parts and proceed to reassembly.
+</ptxt>
+<ptxt>
+Check that wheel side joint assembly (1) and differential side joint housing (2) are washed thoroughly and air-dried.
+</ptxt>
+<attention4>
+<ptxt>
+Inadequate or insufficient lubricant will reduce durability of the joint.
+</ptxt>
+<ptxt>
+Lubricate each joint with specified amount of specified grease following instructions shown below.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+If removed joint boot(s) (3) is to be reused, wiping off of the inside grease with shop cloth is recommended.
+</ptxt>
+</attention3>
+<figure page = "2">
+<graphic graphicname = "I4RS0A310007.swf" width = "88.000mm" height = "77.712mm" ver = "01" gw = "184" gh = "203"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Wheel side
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Differential side
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<topic id = "AENLSB0A3116004013" page = "2">
+<title>
+Wheel side joint
+</title>
+<s1 page = "2">
+<ptxt>
+For left side drive shaft, install boot and boot band according to the following procedure.
+</ptxt>
+<s2>
+<ptxt>
+Wash disassembled parts (except boots). After washing parts, air-dry them completely.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Clean boots with shop cloth.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Apply grease from the service kit to wheel side joint.
+</ptxt>
+<spec>
+<title>
+Grease specification for front drive shaft wheel side joint
+</title>
+<table frame = "all" colsep = "1" rowsep = "1" page = "2">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.614in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.807in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Grease color
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Grease amount
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Tan
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+85 – 105 g
+</ptxt>
+<ptxt>
+(3.00 – 3.70 oz)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>
+Install wheel side boot on shaft.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Insert flat-bladed screwdriver or the like into boot (1) and allow air to enter boot so that air pressure in boot becomes the same as atmospheric pressure at boot fixing position.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IFRA0A311007.swf" width = "88.000mm" height = "33.841mm" ver = "01" gw = "152" gh = "79"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Place new boot big band (3) and small band (4) onto boot putting each band outer end (1) against forward rotation (2) as shown in figure.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "I4RS0A310009.swf" width = "88.000mm" height = "91.005mm" ver = "01" gw = "135" gh = "241"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Fasten boot bands (1) using special tool as shown in figure.
+</ptxt>
+<attention4>
+<ptxt>
+Squeezing or distorting the boot will reduce its durability.
+</ptxt>
+<ptxt>
+Do not force air out of the boot by squeezing or distorting it when fastening it with boot bands.
+</ptxt>
+</attention4>
+<servicetool>
+<servicetoolitem id = "L3A101">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09943-57011">
+09943–57011
+</s-number>
+</servicetoolitem>
+</servicetool>
+<spec>
+<title>
+Boot band fastening distance
+</title>
+<ptxt>
+“a”: 1.2 – 4.0 mm (0.04 – 0.15 in.)
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "IFKA0P311008.swf" width = "88.000mm" height = "51.326mm" ver = "02" gw = "186" gh = "129"/>
+</figure>
+</s2>
+</s1>
+<s1 page = "2">
+<ptxt>
+For right side drive shaft, install damper to specified position on shaft as shown in figure.
+</ptxt>
+<spec>
+<title>
+Drive shaft damper installing position
+</title>
+<ptxt>
+“a”: 309 – 313 mm (12.2 – 12.3 in.)
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "IHSB0A311010.swf" width = "88.000mm" height = "45.861mm" ver = "02" gw = "233" gh = "113"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Wheel side
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</topic>
+<topic id = "AENLSB0A3116004014" page = "2">
+<title>
+Differential side joint
+</title>
+<s1 page = "2">
+<ptxt>
+Wash disassembled parts (except boot and tripod joint). After washing parts, air-dry them completely.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Clean boot and tripod joint with shop cloth.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For right side drive shaft, install drive shaft support bracket (1) and washer (2) to differential side joint housing and tighten drive shaft support bracket washer bolt (3) to specified torque, if removed.
+</ptxt>
+<torque>
+<torqueitem id = "T3A103">
+<t-part>
+Drive shaft support bracket washer bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+7.5
+</t-value1>
+<t-value2>
+0.76
+</t-value2>
+<t-value3>
+5.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure page = "2">
+<graphic graphicname = "IHSB0A311011.jpg" width = "88.000mm" height = "75.427mm" ver = "01" gw = "199" gh = "197"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Place new boot big band (3) and small band (4) onto boot putting each band outer end (1) against forward rotation (2) as shown in figure.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IHSB0A311013.swf" width = "88.000mm" height = "43.169mm" ver = "01" gw = "209" gh = "105"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install differential side boot on shaft.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install tripod joint (1) on shaft using special tool with hammer, directing its chamfered spline (3) toward wheel side, and then fasten tripod joint with new snap ring (2) using snap ring pliers (4).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L3A102">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09925-98221">
+09925–98221
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "I8G001311014.swf" width = "88.000mm" height = "30.306mm" ver = "01" gw = "155" gh = "69"/>
+</figure>
+<figure>
+<graphic graphicname = "I8C50A311007.swf" width = "88.000mm" height = "50.196mm" ver = "01" gw = "189" gh = "125"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Apply grease “A” from the service kit to tripod joint and joint housing (1).
+</ptxt>
+<spec>
+<title>
+Grease specification for front drive shaft differential side joint
+</title>
+<table frame = "all" colsep = "1" rowsep = "1" page = "2">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.714in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.714in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Grease color
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Grease amount
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Tan
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+120 – 140 g
+</ptxt>
+<ptxt>
+(4.23 – 4.94 oz)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure>
+<graphic graphicname = "I4RS0B310003.swf" width = "88.000mm" height = "38.935mm" ver = "01" gw = "191" gh = "93"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Fit boot (1) to grooves of shaft and differential side joint housing (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Insert flat-bladed screwdriver or the like into boot and allow air to enter boot so that air pressure in boot becomes the same as atmospheric pressure at boot fixing position.
+</ptxt>
+<spec>
+<title>
+Drive shaft boot fixing position (distance between differential side joint end and boot small end)
+</title>
+<table frame = "all" colsep = "1" rowsep = "1" page = "2">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.024in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Transaxle type
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Fixing position “a”
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M/T
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Right side:
+</ptxt>
+<ptxt>
+472.0 – 482.0 mm (18.58 – 18.97 in.)
+</ptxt>
+<ptxt>
+Left side:
+</ptxt>
+<ptxt>
+227.0 – 237.0mm (8.937 – 9.330 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/T
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Right side:
+</ptxt>
+<ptxt>
+473.0 – 483.0 mm (18.62 – 19.02 in.)
+</ptxt>
+<ptxt>
+Left side:
+</ptxt>
+<ptxt>
+218.9 – 228.9 mm (8.618 – 9.012 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure page = "2">
+<graphic graphicname = "IHSB0A311014.swf" width = "88.000mm" height = "84.816mm" ver = "02" gw = "213" gh = "224"/>
+</figure>
+<figure>
+<graphic graphicname = "IDL10A311007.swf" width = "88.000mm" height = "33.630mm" ver = "01" gw = "152" gh = "79"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Right side drive shaft assembly
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Left side drive shaft assembly
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Fasten boot bands using special tool as shown in figure.
+</ptxt>
+<attention4>
+<ptxt>
+Squeezing or distorting the boot will reduce its durability.
+</ptxt>
+<ptxt>
+Do not force air out of the boot by squeezing or distorting it when fastening it with boot bands.
+</ptxt>
+</attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+<emph etype = "bold">
+Big band:
+</emph>
+</ptxt>
+<ptxt>
+Fasten boot band (1) by pinching hooks (2) with special tool and engage hooks (3) as shown in figure.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L3A103">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09943-57021">
+09943–57021
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure page = "2">
+<graphic graphicname = "I8C50A311034.swf" width = "88.000mm" height = "76.913mm" ver = "01" gw = "176" gh = "202"/>
+</figure>
+</item>
+</list1>
+<list1 type = "unordered">
+<item>
+<ptxt>
+<emph etype = "bold">
+Small band:
+</emph>
+</ptxt>
+<ptxt>
+Fasten boot band (1) using special tool as shown in figure.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L3A104">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09943-57011">
+09943–57011
+</s-number>
+</servicetoolitem>
+</servicetool>
+<spec>
+<title>
+Boot band fastening distance
+</title>
+<ptxt>
+“a”: 1.2 – 4.0 mm (0.04 – 0.15 in.)
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "IDL10A311008.swf" width = "88.000mm" height = "48.906mm" ver = "01" gw = "190" gh = "122"/>
+</figure>
+</item>
+</list1>
+</s1>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9A">
+<servcat sctnbr = "09" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "D">
+<servinfo servinfosgmlid = "AENLSB0A910D001" svcinfotypenbr = "10" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Power Supply Diagram
+</title>
+<servinfosub id = "AENLSB0A910D001001">
+<title>
+K14C Model
+</title>
+<figure>
+<graphic graphicname = "ILSB0A910915.swf" width = "183.000mm" height = "244.430mm" ver = "01" gw = "509" gh = "676"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910917.swf" width = "183.000mm" height = "100.371mm" ver = "01" gw = "506" gh = "268"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910918.swf" width = "183.000mm" height = "192.538mm" ver = "01" gw = "501" gh = "529"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A910D001002">
+<title>
+K14D Model
+</title>
+<figure>
+<graphic graphicname = "ILSB0A910919.swf" width = "183.000mm" height = "244.430mm" ver = "02" gw = "510" gh = "676"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910920.swf" width = "183.000mm" height = "100.371mm" ver = "02" gw = "506" gh = "268"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910921.swf" width = "183.000mm" height = "192.538mm" ver = "01" gw = "501" gh = "529"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A910922.swf" width = "183.000mm" height = "192.313mm" ver = "03" gw = "477" gh = "529"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

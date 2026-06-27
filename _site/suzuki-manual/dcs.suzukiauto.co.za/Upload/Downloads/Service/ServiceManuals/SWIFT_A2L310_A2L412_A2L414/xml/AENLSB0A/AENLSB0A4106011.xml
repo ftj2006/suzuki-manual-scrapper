@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4A">
+<servcat sctnbr = "04" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4106011" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Brake Light Switch Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A4106011001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove steering column hole cover. 
+<intxreftitleoff1 refid = "AENLSB0A9306002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect brake light switch connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove brake light switch (2) by turning it counterclockwise viewed from above by approx. 90&#176;.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410014.swf" width = "88.000mm" height = "63.000mm" ver = "02" gw = "227" gh = "162"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4106011002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4106012">Brake Light Switch Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+While keeping brake pedal (2) in unloaded condition, install brake light switch (1) pressing it to pedal bracket so that the switch stroke becomes 0 (zero) and turning it clockwise viewed from above by approx. 90&#176;.
+</ptxt>
+<attention3>
+<ptxt>
+While installing brake light switch turning it clockwise, the switch body rises from the pedal bracket.
+</ptxt>
+<ptxt>
+This movement automatically creates specified clearance “a” between switch screw end and the pedal bracket.
+</ptxt>
+<ptxt>
+Clearance “a”: 1.0 to 2.0 mm (0.039 to 0.078 in.)
+</ptxt>
+<figure>
+<graphic graphicname = "IBP80A410014.swf" width = "88.000mm" height = "50.910mm" ver = "01" gw = "142" gh = "128"/>
+</figure>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Connect brake light switch connector (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410015.swf" width = "88.000mm" height = "63.000mm" ver = "01" gw = "227" gh = "162"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install steering column hole cover. 
+<intxreftitleoff1 refid = "AENLSB0A9306002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

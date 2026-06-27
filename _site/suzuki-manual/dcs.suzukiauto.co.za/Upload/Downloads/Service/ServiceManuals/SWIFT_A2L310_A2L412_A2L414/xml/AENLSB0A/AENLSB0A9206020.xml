@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9B">
+<servcat sctnbr = "09" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9206020" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Lighting and Turn Signal Switch Inspection
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A9204006">Scan Tool Data</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A7206047" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Relief Valve Inspection
+</title>
+<servinfosub id = "AENLSB0A7206047002">
+<title>
+K14C Model
+</title>
+<s1>
+<ptxt>
+Check A/C system referring to 
+<intxref refid = "AENLSB0A7204002">Trouble Diagnosis for Abnormal Pressure</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check relief valve for refrigerant leakage using leak detector (1).
+</ptxt>
+<ptxt>
+If there is refrigerant leakage, replace relief valve. 
+<intxreftitleoff1 refid = "AENLSB0A7206048"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A723024.jpg" width = "88.000mm" height = "52.994mm" ver = "01" gw = "191" gh = "134"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A7206047001">
+<title>
+K14D Model
+</title>
+<s1>
+<ptxt>
+Check A/C system referring to 
+<intxref refid = "AENLSB0A7204002">Trouble Diagnosis for Abnormal Pressure</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check relief valve for refrigerant leakage using leak detector (1).
+</ptxt>
+<ptxt>
+If there is refrigerant leakage, replace relief valve. 
+<intxreftitleoff1 refid = "AENLSB0A7206048"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A720017.jpg" width = "88.000mm" height = "54.260mm" ver = "01" gw = "185" gh = "137"/>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

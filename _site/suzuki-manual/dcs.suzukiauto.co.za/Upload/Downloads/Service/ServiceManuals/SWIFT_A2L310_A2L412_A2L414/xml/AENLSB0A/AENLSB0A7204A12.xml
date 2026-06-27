@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A7204A12" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Rumbling noise is heard when compressor is not in operation
+</title>
+<servinfosub id = "AENLSB0A7204004003">
+<title>
+Abnormal Noise from Magnet Clutch
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+Rumbling noise is heard when compressor is not in operation
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Worn or damaged bearings
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace magnet clutch assembly. 
+<intxreftitleoff1 refid = "AENLSB0A7206046"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

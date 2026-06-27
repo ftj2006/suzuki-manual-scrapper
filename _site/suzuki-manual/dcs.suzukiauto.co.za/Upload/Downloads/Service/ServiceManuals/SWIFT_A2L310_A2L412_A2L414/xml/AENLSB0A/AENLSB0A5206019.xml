@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5B">
+<servcat sctnbr = "05" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5206019" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Transaxle Left Case Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206017">Manual Transaxle Assembly Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206016">Manual Transaxle Assembly Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A5206019001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+Remove oil gutter (1), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "I5RW0B520036.swf" width = "88.000mm" height = "53.253mm" ver = "01" gw = "186" gh = "134"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove differential side oil seal using flat-bladed screwdriver or the like.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove differential side bearing outer race (1) and shim using special tools.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5B019">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09942-15511">
+09942–15511
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5B020">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09944-96013">
+09944–96013
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5B021">
+<s-part>
+(C)
+</s-part>
+<s-number num = "09921-26010">
+09921–26010
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IDP70A522003.swf" width = "88.000mm" height = "53.978mm" ver = "01" gw = "192" gh = "137"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove countershaft left bearing outer race (1) and shim using special tools.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5B022">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09942-15511">
+09942–15511
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5B023">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09944-96013">
+09944–96013
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5B024">
+<s-part>
+(C)
+</s-part>
+<s-number num = "09921-26010">
+09921–26010
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IDP70A522004.swf" width = "88.000mm" height = "55.896mm" ver = "01" gw = "184" gh = "142"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5206019002">
+<title>
+Reassembly
+</title>
+<s1>
+<ptxt>
+Install oil gutter (1), if removed.
+</ptxt>
+<figure>
+<graphic graphicname = "I5RW0B520036.swf" width = "88.000mm" height = "53.253mm" ver = "01" gw = "186" gh = "134"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Calculate clearance “c” for selection of applicable differential side shim as follows.
+</ptxt>
+<s2>
+<ptxt>
+Install differential side bearing outer race to transaxle right case, if removed. 
+<intxreftitleoff1 refid = "AENLSB0A5206018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install differential assembly (2) to transaxle right case (1).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install differential side bearing outer race of transaxle left case side (3) to differential assembly.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Keep pushing differential side bearing outer race with force of 34 N (3.5 kgf, 7.6 lbf) by hand and turn differential assembly 10 times or more.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A521025.swf" width = "88.000mm" height = "64.594mm" ver = "01" gw = "219" gh = "167"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Measure distance “a” from mating surface of transaxle right case (1) to differential side bearing outer race (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A521026.swf" width = "88.000mm" height = "54.133mm" ver = "01" gw = "203" gh = "137"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Measure depth “b” from mating surface of transaxle left case (1) to installation position of differential side bearing outer race.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A521027.swf" width = "88.000mm" height = "74.075mm" ver = "01" gw = "221" gh = "193"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Calculate clearance “c” by the following formula.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+<emph etype = "bold">
+Clearance “c” = depth “b” – distance “a”
+</emph>
+</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname = "IGSB0A521028.swf" width = "88.000mm" height = "60.848mm" ver = "01" gw = "221" gh = "156"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Select shim closest to calculated clearance “c” from the following available sizes.
+</ptxt>
+<spec>
+<title>
+Available shim thickness
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.728in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.728in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Clearance “c”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shim thickness
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.795 – 0.835 mm
+</ptxt>
+<ptxt>
+(0.0313 – 0.0329 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.00 mm (0.0394 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.835 – 0.875 mm
+</ptxt>
+<ptxt>
+(0.0329 – 0.0344 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.04 mm (0.0409 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.875 – 0.915 mm
+</ptxt>
+<ptxt>
+(0.0344 – 0.0360 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.08 mm (0.0425 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.915 – 0.955 mm
+</ptxt>
+<ptxt>
+(0.0360 – 0.0376 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.12 mm (0.0441 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.955 – 0.995 mm
+</ptxt>
+<ptxt>
+(0.0376 – 0.0392 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.16 mm (0.0457 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.995 – 1.035 mm
+</ptxt>
+<ptxt>
+(0.0392 – 0.0407 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.20 mm (0.0472 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.035 – 1.075 mm
+</ptxt>
+<ptxt>
+(0.0407 – 0.0423 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.24 mm (0.0488 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.075 – 1.115 mm
+</ptxt>
+<ptxt>
+(0.0423 – 0.0439 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.28 mm (0.0504 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.115 – 1.155 mm
+</ptxt>
+<ptxt>
+(0.0439 – 0.0455 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.32 mm (0.0520 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.155 – 1.195 mm
+</ptxt>
+<ptxt>
+(0.0455 – 0.0470 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.36 mm (0.0535 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.195 – 1.235 mm
+</ptxt>
+<ptxt>
+(0.0470 – 0.0486 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.40 mm (0.0551 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.235 – 1.275 mm
+</ptxt>
+<ptxt>
+(0.0486 – 0.0502 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.44 mm (0.0567 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.275 – 1.315 mm
+</ptxt>
+<ptxt>
+(0.0502 – 0.0518 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.48 mm (0.0583 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.315 – 1.355 mm
+</ptxt>
+<ptxt>
+(0.0518 – 0.0533 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.52 mm (0.0598 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.355 – 1.395 mm
+</ptxt>
+<ptxt>
+(0.0533 – 0.0549 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.56 mm (0.0614 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.395 – 1.435 mm
+</ptxt>
+<ptxt>
+(0.0549 – 0.0565 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.60 mm (0.0630 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.435 – 1.475 mm
+</ptxt>
+<ptxt>
+(0.0565 – 0.0581 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.64 mm (0.0646 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.475 – 1.515 mm
+</ptxt>
+<ptxt>
+(0.0581 – 0.0596 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.68 mm (0.0661 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Apply grease to countershaft left bearing shim.
+</ptxt>
+<materials>
+<materialitem name = "ECSTAR Grease A" id = "M5B009" uid = "1545785286">
+<m-part>
+</m-part>
+<m-desc>
+Grease
+</m-desc>
+<m-number>
+99000–25480
+</m-number>
+<m-name>
+ECSTAR Grease A
+</m-name>
+</materialitem>
+</materials>
+</s1>
+<s1>
+<ptxt>
+Install countershaft left bearing shim first and countershaft left bearing outer race in transaxle left case, and then press-fit the bearing race using special tool.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5B025">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09913-85210">
+09913–85210
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IAY301520035.swf" width = "88.000mm" height = "51.000mm" ver = "02" gw = "185" gh = "128"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Apply grease to differential left bearing shim.
+</ptxt>
+<materials>
+<materialitem name = "ECSTAR Grease A" id = "M5B010" uid = "1545785286">
+<m-part>
+</m-part>
+<m-desc>
+Grease
+</m-desc>
+<m-number>
+99000–25480
+</m-number>
+<m-name>
+ECSTAR Grease A
+</m-name>
+</materialitem>
+</materials>
+</s1>
+<s1>
+<ptxt>
+Install differential left side bearing shim first and differential left side bearing outer race in transaxle left case, and then press-fit the bearing race using special tools.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5B026">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09924-74510">
+09924–74510
+</s-number>
+</servicetoolitem>
+<servicetoolitem id = "L5B027">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09944-66010">
+09944–66010
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IAY301520036.swf" width = "88.000mm" height = "45.461mm" ver = "01" gw = "147" gh = "112"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install new differential side oil seal. 
+<intxreftitleoff1 refid = "AENLSB0A5206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

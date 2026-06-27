@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0B">
+<servcat sctnbr = "00" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A0206012" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Filter Replacement (K14C Model)
+</title>
+<attention1>
+<ptxt>
+Replacing the fuel filter without adequate ventilation may lead to a fire. Replace the fuel filter only in a well-ventilated area away from any open flames (e.g. a gas water heater).
+</ptxt>
+</attention1>
+<ptxt>
+Fuel filter is installed in fuel pump assembly inside fuel tank.
+</ptxt>
+<ptxt>
+Replace fuel pump assembly with new one periodically. 
+<intxreftitleoff1 refid = "AENLSB0A1716022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

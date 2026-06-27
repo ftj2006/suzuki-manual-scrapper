@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A7201001" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Auto A/C System Description
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+In the automatic air conditioning system (auto A/C), BCM automatically controls inside air temperature, blower fan speed, air inlet and outlet, etc. Once users set desired inside air temperature with the temperature control selector and push “AUTO” switch, BCM starts detecting the inside air temperature, the outside air temperature, sunlight and the engine coolant temperature by means of the inside air temperature sensor, the outside air temperature sensor, the sunload sensor, and the ECT sensor, respectively. In this way, BCM keeps in-car temperature at the desired level at all times.
+</ptxt>
+</item>
+<item>
+<ptxt>
+For further information on the auto A/C system, refer to 
+<intxref refid = "AENLSB0A7203001">Auto A/C Control System Component Location</intxref>
+, 
+<intxref refid = "AENLSB0A7206002">A/C System Major Components</intxref>
+ and 
+<intxref refid = "AENLSB0A7202001">Auto A/C Electronic Control Input / Output Block Diagram</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10I">
+<servcat sctnbr = "10" scnbr = "09">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA904010" svcinfotypenbr = "06" svcinfoqualnbr = "03" supplyoff = "1" modify = "0">
+<title>
+ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON”
+</title>
+<servinfosub id = "AENLSB0AA904010001">
+<title>
+Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA904010002">
+<testgroup id = "AENLSB0AA904010003">
+<title>
+ENG A-STOP OFF switch check
+</title>
+<test1>
+<ptxt>
+Check ENG A-STOP OFF switch. 
+<intxreftitleoff1 refid = "AENLSB0AA906018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ENG A-STOP OFF switch. 
+<intxreftitleoff1 refid = "AENLSB0AA906017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA904010004">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA904003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck for DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+If ENG A-STOP warning light still remains ON or blinking, replace ECM and recheck for DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Rear Suspension">
+<c i="0" t="configtype none title">
+<t s="0" t="Precautions">
+<s i="AENLSB0A2300001" t="Precautions for Handling of Rear Vehicle Height Sensor (Headlight Auto Leveling Model)">
+</s>
+<s i="AENLSB0A2300002" t="Precautions for Handling of Rear Shock Absorber">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0A2301001" t="Rear Suspension Description">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A2306001" t="Rear Wheel Alignment Inspection">
+</s>
+<s i="AENLSB0A2306002" t="Rear Suspension Components">
+</s>
+<s i="AENLSB0A2306003" t="Rear Shock Absorber Removal and Installation">
+</s>
+<s i="AENLSB0A2306004" t="Rear Shock Absorber Inspection">
+</s>
+<s i="AENLSB0A2306005" t="Rear Coil Spring and Spring Seat Removal and Installation">
+</s>
+<s i="AENLSB0A2306006" t="Rear Coil Spring and Spring Seat Check">
+</s>
+<s i="AENLSB0A2306007" t="Rear Axle Removal and Installation">
+</s>
+<s i="AENLSB0A2306008" t="Rear Axle Check">
+</s>
+<s i="AENLSB0A2306009" t="Rear Suspension Fastener Check">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A2307001" t="Tightening Torque Specifications">
+</s>
+</t>
+</c>
+</b>

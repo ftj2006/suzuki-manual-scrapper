@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1E">
+<servcat sctnbr = "01" scnbr = "05">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1516003" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Oil Pressure Switch Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1516002">Oil Pressure Switch On-Vehicle Inspection:K14C</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1516003001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect oil pressure switch connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove oil pressure switch (2) from cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A150008.swf" width = "88.000mm" height = "63.472mm" ver = "01" gw = "218" gh = "163"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1516003002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Apply sealant to thread portion of oil pressure switch (1), and then tighten it to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+Excessive sealant may clog the oil pressure switch hole and cause malfunction of the switch.
+</ptxt>
+<ptxt>
+Apply sealant suitably avoiding the oil pressure switch hole.
+</ptxt>
+</attention4>
+<materials>
+<materialitem name = "Thread Lock Cement Super 1322" id = "M1E101" uid = "1372210228">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Thread lock cement
+</m-desc>
+<m-number>
+99000–32150
+</m-number>
+<m-name>
+Thread Lock Cement Super 1322
+</m-name>
+</materialitem>
+</materials>
+<torque>
+<torqueitem id = "T1E103">
+<t-part>
+Oil pressure switch
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Connect oil pressure switch connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A150009.swf" width = "88.000mm" height = "65.503mm" ver = "01" gw = "218" gh = "169"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Start engine and check oil pressure switch for oil leakage.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

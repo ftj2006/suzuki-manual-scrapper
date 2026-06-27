@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5B">
+<servcat sctnbr = "05" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5206010" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Neutral Position Switch On-Vehicle Inspection (If Equipped)
+</title>
+<s1>
+<ptxt>
+Remove left front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect neutral position switch connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove neutral position switch connector from engine harness MT bracket.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check neutral position switch (1) function using ohmmeter.
+</ptxt>
+<spec>
+<title>
+Neutral position switch specification
+</title>
+<ptxt>
+Neutral position: Continuity exists
+</ptxt>
+<ptxt>
+Other than neutral position: No continuity
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "IHSB0A523007.swf" width = "88.000mm" height = "62.974mm" ver = "01" gw = "221" gh = "162"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

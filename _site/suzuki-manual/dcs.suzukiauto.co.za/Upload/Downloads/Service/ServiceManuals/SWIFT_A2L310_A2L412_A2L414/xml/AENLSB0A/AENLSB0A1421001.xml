@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A1421001" svcinfotypenbr = "03" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Engine Construction Description
+</title>
+<ptxt>
+The engine is a water-cooled, in-line 4-cylinder, 4-stroke-cycle direct-injection gasoline unit with a DOHC valve mechanism arranged in a “V” type valve configuration and has 16 valves.
+</ptxt>
+<ptxt>
+Intake camshaft (1) and exhaust camshaft (2) are mounted over the cylinder head and are driven by the crankshaft with a timing chain. The intake camshaft is equipped with a VVT actuator (3) controlled by ECM, a high pressure fuel pump cam (4) and a signal rotor at the end. The exhaust camshaft is equipped with a conventional hydraulic VVT actuator (5) controlled by OCV on the oil pump assembly.
+</ptxt>
+<ptxt>
+The valves are operated by roller type rocker arms (6) driven by intake and exhaust camshafts. And, end of the valve rocker arms are supported by hydraulic valve lash adjusters (7) which require no valve clearance adjustment.
+</ptxt>
+<ptxt>
+Exhaust manifold is incorporated in the cylinder head and cooled by coolant.
+</ptxt>
+<ptxt>
+The engine is equipped with piston cooling jets (8) and the injection is controlled by piston cooling jet valve (9) for effective cooling of pistons, oil cooler, intercooler and turbocharger (10), and the turbocharger is mounted on the cylinder head directly. Further, a high pressure fuel pump (11) and a vacuum pump (12) are mounted on the cylinder head at the rear side and driven by the intake camshaft.
+</ptxt>
+<ptxt>
+An oil pressure and temperature sensor (13) is located on the timing chain cover and monitors temperature and pressure of the engine oil.
+</ptxt>
+<ptxt>
+This engine has adopted cracked connecting rods (14). The connecting rod formed as a single piece is cracked apart at the cracking line and then combined in one using connecting rod bolts without using dowel pins. This method ensures a stable fitting between connecting rod and its cap reducing the weight.
+</ptxt>
+<ptxt>
+With this direct-injection system, intake air is supercharged into the combustion chamber (15) by the turbocharger and the air is highly compressed in the compression stroke and, before the end of the compression stroke, fuel is injected through fuel injector (16) at high pressure into the combustion chamber directly and ignited by long reach spark plug. This fuel combustion generates more engine power with low emission.
+</ptxt>
+<ptxt>
+Crankcase ventilation is managed using two routes. A breather plate (17) adjoining the cylinder block provides labyrinth and separates oil and blow-by gas, and the blow-by gas is sucked in intake manifold through PCV valve (18) and the separated oil returns in oil pan. As another ventilation route, a breather hose is provided between the upper part of the cylinder head cover and air cleaner outlet hose.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142117.jpg" width = "183.000mm" height = "156.936mm" ver = "01" gw = "437" gh = "428"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

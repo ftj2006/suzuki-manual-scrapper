@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4A">
+<servcat sctnbr = "04" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4106019" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Brake Master Cylinder Reservoir Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4106016">Brake Master Cylinder Components</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+Brake fluid is extremely damaging to painted surfaces.
+</ptxt>
+<ptxt>
+If brake fluid contacts painted surfaces, immediately wipe it off and flush the surfaces with water thoroughly.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0A4106019001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Clean outside surface of reservoir.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove brake master cylinder together with reservoir from brake booster. 
+<intxreftitleoff1 refid = "AENLSB0A4106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove spring pin (1) using special tool.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L4A003">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09916-43211">
+09916–43211
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A410025.swf" width = "88.000mm" height = "61.747mm" ver = "01" gw = "213" gh = "159"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove reservoir (1) and grommets (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410026.swf" width = "88.000mm" height = "74.079mm" ver = "01" gw = "185" gh = "193"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4106019002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4106020">Brake Master Cylinder Assembly Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Lubricate new grommets with the same brake fluid as the one to fill reservoir before fitting grommets into master cylinder.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install reservoir to brake master cylinder.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install new spring pin (2) from chamfered side (1) using special tool until protrusion “a” at both ends become equal.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L4A004">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09916-43211">
+09916–43211
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IFRA0P410030.swf" width = "88.000mm" height = "53.372mm" ver = "01" gw = "230" gh = "135"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install brake master cylinder with reservoir to brake booster. 
+<intxreftitleoff1 refid = "AENLSB0A4106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

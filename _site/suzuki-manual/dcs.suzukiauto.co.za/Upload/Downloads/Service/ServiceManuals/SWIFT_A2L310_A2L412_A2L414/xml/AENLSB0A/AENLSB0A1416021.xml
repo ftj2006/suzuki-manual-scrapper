@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1416021" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Intake Manifold Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416017">Electric Throttle Body and Intake Manifold Components:K14C</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1416021001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove electric throttle body assembly from intake manifold. 
+<intxreftitleoff1 refid = "AENLSB0A1416019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect the following hoses.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Air bypass valve control hose No.4 (1)
+</ptxt>
+</item>
+<item>
+<ptxt>
+EVAP canister purge valve hose (2)
+</ptxt>
+</item>
+<item>
+<ptxt>
+PCV hose (3)
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A144045.jpg" width = "88.000mm" height = "81.743mm" ver = "01" gw = "237" gh = "215"/>
+</figure>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Disconnect engine harness clamps from intake manifold.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intake manifold and its gaskets from cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove MAP sensor if necessary. 
+<intxreftitleoff1 refid = "AENLSB0A1316009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove EVAP canister purge valve if necessary. 
+<intxreftitleoff1 refid = "AENLSB0A1216001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1416021002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new gaskets.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that all removed parts are back in place.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

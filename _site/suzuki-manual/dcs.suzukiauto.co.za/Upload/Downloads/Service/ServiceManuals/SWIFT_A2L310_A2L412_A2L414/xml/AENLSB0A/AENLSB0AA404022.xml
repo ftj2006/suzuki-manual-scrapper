@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA404022" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC B1A49
+</title>
+<servinfosub id = "AENLSB0AA404022001" page = "1">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.596in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.596in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+B1A49: Wheel Speed Sensor Wrong Data
+</emph>
+</ptxt>
+<ptxt>
+TPMS control module receives invalid wheel speed signal from ESP<sup>&#174;</sup> control module for specified time.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Wheel speed sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+TPMS control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tire pressure sensor No.1, No.2, No.3 and/or No.4
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA404022002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<s1>
+<ptxt>
+Set ignition “OFF” and leave ignition “OFF” for 20 minutes or more.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle at 25 km/h (16 mile/h) or more for 10 minutes or more on paved road and winding road as much as possible.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA404022003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA404022004">
+<testgroup id = "AENLSB0AA404022005">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA404022006">
+<title>
+DTC check
+</title>
+<question>
+Is DTC B1A20, B1A21, B1A22 or B1A23 detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace TPMS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA406003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

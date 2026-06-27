@@ -1,0 +1,4992 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A5101001" svcinfotypenbr = "03" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+A/T Description
+</title>
+<ptxt>
+This transaxle is an electronically controlled fully automatic transaxle with 6 speeds for forward movement and 1 speed in reverse.
+</ptxt>
+<ptxt>
+The torque converter is of a 3-element, 1-step and 2-phase type equipped with an automatically controlled lock-up mechanism.
+</ptxt>
+<ptxt>
+The gear change device consists of a planetary gear unit, a Ravigneaux type planetary gear unit, 3 multiple-disc type clutches, a multiple-disc type brakes, a band brake and a one-way clutch.
+</ptxt>
+<ptxt>
+The hydraulic pressure control device consists of a valve body assembly, line pressure control solenoid valve (linear solenoid), 4 pressure control solenoid valves (linear solenoid), TCC solenoid valve (linear solenoid) and 2 shift solenoid valves. Optimum line pressure complying with engine torque is produced by the line pressure control solenoid valve in dependence upon control signals from the TCM. This enables the control of the line pressure with high accuracy in accordance with engine power and running conditions to achieve smooth shifting characteristics and high efficiency in power transmission.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510291.swf" width = "183.000mm" height = "181.430mm" ver = "02" gw = "336" gh = "497"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Torque converter clutch (TCC)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+B1 brake (B1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+19.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Intermediate shaft
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Torque converter
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Forward clutch (C1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+20.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary short pinion gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Oil pump
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+21.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary sun gear No.1
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Input shaft
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+One-way clutch (F1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+22.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary ring gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary sun gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary long pinion gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+23.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Countershaft
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary ring gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+1st and reverse brake (B2)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+24.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Reverse clutch (C3)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+16.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Direct clutch (C2)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+25.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Parking lock gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary pinion gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+17.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary carrier
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+26.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Differential case assembly
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary carrier
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+18.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary sun gear No.2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+27.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<servinfosub id = "AENLSB0A5101001001">
+<title>
+Specifications
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.739in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.643in"/>
+<colspec colnum = "3" colname = "3" colwidth = "2.215in"/>
+<colspec colnum = "4" colname = "4" colwidth = "3.598in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Item
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Specifications
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Torque converter
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Type
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+3-element, 1-step, 2-phase type (with TCC (lock-up) mechanism)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Stall torque ratio
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1.75 – 1.95
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Oil pump
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Type
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Internal involute gear type oil pump (non-crescent type)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Drive system
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine driven
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "26" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Gear change device
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Type
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Forward 6-step, reverse 1-step planetary gear type
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Shift position
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+P range
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Gear in neutral, output shaft fixed, engine start
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+R range
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Reverse
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+N range
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Gear in neutral, engine start
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+D range
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Forward 1st &#8596; 2nd &#8596; 3rd &#8596; 4th &#8596; 5th &#8596; 6th automatic gear change
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M range
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Forward 1st &#8596; 2nd &#8596; 3rd &#8596; 4th &#8596; 5th &#8596; 6th manual gear change
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Gear ratio
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1st
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4.044
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+2nd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+2.371
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+3rd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1.556
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1.159
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+5th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.852
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+6th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.672
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Reverse (reverse gear)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+3.193
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Number of teeth
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Front planetary sun gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+45
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear planetary sun gear No.1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+38
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear planetary sun gear No.2
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+30
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Front planetary pinion gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+17
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear planetary short pinion gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+17
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear planetary long pinion gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+20
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Front planetary ring gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+81
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear planetary ring gear
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+78
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Control elements
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Wet type multiple-disc clutch
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+3 sets
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Wet type multiple-disc brake
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1 set
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Wet type band brake
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1 set
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+One-way clutch
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1 set
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Reduction gear ratio
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.906
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Final gear reduction ratio
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4.067
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lubrication
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lubrication system
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Force feed system by oil pump
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cooling
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cooling system
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ATF cooler mounted on A/T (water cooling)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fluid used
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+SUZUKI AT OIL AW-1
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry namest = "1" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ATF capacity
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+6.2 liters (13.10/10.91 US/Imp. pt.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001002">
+<title>
+TCM
+</title>
+<ptxt>
+By using a TCM (1) with an integrated transmission range sensor (2) and simplifying the wire harness, reliability has increased and the number of parts has been reduced. Additionally, by employing a non-contact type (hall IC) transmission range sensor, durability and reliability have increased.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510292.jpg" width = "183.000mm" height = "92.740mm" ver = "01" gw = "427" gh = "246"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001003">
+<title>
+Solenoid Harness with ATF Temperature Sensor
+</title>
+<ptxt>
+The solenoid harness (1) is structured so that 1 connector leads to each of the sensors and the solenoids. The connector of the solenoid harness is directly connected to the TCM (2) without an intermediate harness.
+</ptxt>
+<ptxt>
+The solenoid harness incorporates the ATF temperature sensor (3) mounted on the valve body.
+</ptxt>
+<ptxt>
+The ATF temperature sensor senses ATF temperature in the hydraulic circuit directly. A thermistor incorporated in the temperature sensor changes its resistance according to the temperature change and the temperature signal is inputted to TCM.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510293.swf" width = "183.000mm" height = "98.311mm" ver = "01" gw = "314" gh = "262"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001004">
+<title>
+ATF Level Detection Mechanism
+</title>
+<ptxt>
+An overflow type ATF level detection mechanism is employed. This mechanism automatically discharges excess fluid, and does not allow the addition of ATF to a level exceeding the predetermined level during ATF level check, enabling direct and accurate control over the ATF level.
+</ptxt>
+<ptxt>
+For details on the ATF level inspection and replacement procedures, refer to the 
+<intxref refid = "AENLSB0A5106004">ATF Level Check</intxref>
+ or 
+<intxref refid = "AENLSB0A5106005">ATF Change</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "IGRA0A512001.jpg" width = "183.000mm" height = "93.953mm" ver = "01" gw = "446" gh = "250"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ATF filler plug
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ATF drain plug
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ATF overflow plug
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001005">
+<title>
+Select Lever
+</title>
+<ptxt>
+A straight type select lever (1) is employed. In addition to P, R, N, and D positions on the select lever, a shift paddle switch allows for the manual selection of the gear position (M position – manual mode). 
+</ptxt>
+<ptxt>
+By pressing the select lever button (2) while the shift lock is released, the select lever can be moved forwards and backwards with the select lever shaft (3) as a pivot.
+</ptxt>
+<ptxt>
+Additionally, the select lever has a spring (4) which provides a sense of moderation in the operation of the lever.
+</ptxt>
+<attention3>
+<ptxt>
+The figure shows LHD as an example.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A510001.swf" width = "183.000mm" height = "169.782mm" ver = "01" gw = "435" gh = "465"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Shift lock manual release button
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Shift lock solenoid
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Select lever illumination light
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+P position switch
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<topic id = "AENLSB0A5101001006">
+<title>
+Shift lock system
+</title>
+<ptxt>
+The select lever has a shift lock function that prevents accidental operation. The ignition must be in the “ON” position and the brake pedal needs to be depressed in order to shift the select lever outside P position.
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001007">
+<title>
+A/T Mechanical Components
+</title>
+<figure>
+<graphic graphicname = "IEL10C510297.swf" width = "183.000mm" height = "118.034mm" ver = "04" gw = "428" gh = "318"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Oil pump body
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Forward clutch (C1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+17.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Intermediate shaft
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Input shaft
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+18.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary short pinion gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary sun gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+One-way clutch (F1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+19.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary sun gear No.1
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary ring gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary long pinion gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+20.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary ring gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Reverse clutch (C3)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+1st and reverse brake (B2)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+21.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary pinion gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Direct clutch (C2)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+22.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary carrier
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary carrier
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+23.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+B1 brake (B1)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+16.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary sun gear No.2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+24.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<topic id = "AENLSB0A5101001008">
+<title>
+Functions
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "2.057in"/>
+<colspec colnum = "2" colname = "2" colwidth = "5.135in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part name
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Function
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Forward clutch (C1)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Connects front planetary carrier with rear planetary sun gear No.2
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Direct clutch (C2)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Connects intermediate shaft with rear planetary carrier
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Reverse clutch (C3)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Connects front planetary carrier with rear planetary sun gear No.1
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+B1 brake (B1)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fixes rear planetary sun gear No.1
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+1st and reverse brake (B2)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fixes rear planetary carrier
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+One-way clutch (F1)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Prevents rear planetary carrier from turning counterclockwise
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001009">
+<title>
+Operation Table of A/T Components
+</title>
+<topic id = "AENLSB0A5101001010">
+<title>
+Clutch and brake
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "10" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.276in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.591in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.787in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.787in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.787in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.787in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.787in"/>
+<colspec colnum = "9" colname = "9" colwidth = "0.787in"/>
+<colspec colnum = "10" colname = "10" colwidth = "1.287in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Selector position
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Gear position
+</ptxt>
+</entry>
+<entry namest = "4" nameend = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "10" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Forward clutch (C1)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Direct clutch (C2)
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Reverse clutch (C3)
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1 brake (B1)
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+1st and reverse brake (B2)
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+One-way clutch (F1)
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Parking
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+×
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+×
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+×
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+×
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+×
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+R
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Reverse
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 11 km/h (7 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at more than 11 km/h (7 mile/h)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+R &#8596; N
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+N
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Neutral
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 5 km/h (3 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at more than 5 km/h (3 mile/h)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+D, M
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1st
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 5 km/h (3 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+D range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2nd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+3rd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+4th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+5th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+6th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "10" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+<ptxt>
+Controlled
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</topic>
+<topic id = "AENLSB0A5101001011">
+<title>
+Pressure control solenoid valve, shift solenoid valve and TCC solenoid valve
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "11" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.276in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.591in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.669in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.669in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.669in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.669in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.669in"/>
+<colspec colnum = "9" colname = "9" colwidth = "0.669in"/>
+<colspec colnum = "10" colname = "10" colwidth = "0.669in"/>
+<colspec colnum = "11" colname = "11" colwidth = "1.327in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Selector position
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Gear position
+</ptxt>
+</entry>
+<entry namest = "4" nameend = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "11" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Pressure control solenoid valve “A”
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Pressure control solenoid valve “B”
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Pressure control solenoid valve “C”
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Pressure control solenoid valve “D”
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shift solenoid valve “A”
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shift solenoid valve “B”
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+TCC solenoid valve
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Parking
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+R
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Reverse
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 11 km/h (7 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at more than 11 km/h (7 mile/h)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+R &#8596; N
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+N
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Neutral
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 5 km/h (3 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at more than 5 km/h (3 mile/h)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "12" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+D, M
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1st
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 5 km/h (3 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+D range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2nd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+3rd
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+4th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+5th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+6th
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "10" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "11" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lock-up OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "11" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Operates
+</ptxt>
+<ptxt>
+Does not operate
+</ptxt>
+<ptxt>
+Controlled
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "2.900in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.451in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.451in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Valve status
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Operates
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Does not operate
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pressure control solenoid valve “A”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pressure control solenoid valve “B”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pressure control solenoid valve “C”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pressure control solenoid valve “D”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Shift solenoid valve “A”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Shift solenoid valve “B”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TCC solenoid valve
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Line pressure control solenoid valve
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Closed
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Open
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001012">
+<title>
+Power Transmission
+</title>
+<topic id = "AENLSB0A5101001013">
+<title>
+1st-speed in D and M range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 5 km/h (3 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+D range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M range
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+<ptxt>
+<symbol name = "MATRIANGLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+<ptxt>
+Controlled
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+Clockwise rotations of the input shaft (1) result in power transmission to the front planetary ring gear (2) as the input shaft and front planetary ring gear are comprised of a single unit.
+</ptxt>
+<ptxt>
+Clockwise rotations of the front planetary ring gear result in clockwise rotations of the front planetary carrier (6), by rotation or revolution of the front planetary pinion gears (5), as the front planetary sun gear (3) is permanently locked by the oil pump body (4).
+</ptxt>
+<ptxt>
+Clockwise rotations of the front planetary carrier are transmitted to the rear planetary sun gear No.2 (8) by being connected via the forward clutch (7).
+</ptxt>
+<ptxt>
+Clockwise rotations of the rear planetary sun gear No.2 result in clockwise rotations of the rear planetary ring gear (13) as the rear planetary short pinion gears (11) rotate counterclockwise and the rear planetary long pinion gears (12) rotate clockwise, because the one-way clutch (10) prevents counterclockwise rotation of the rear planetary carrier (9).
+</ptxt>
+<subtopic id = "AENLSB0A5101001014">
+<title>
+Engine brake (M range)
+</title>
+<ptxt>
+When the engine speed drops through releasing the accelerator pedal etc., the rear planetary carrier that was prevented from counterclockwise rotation through the operation of the one-way clutch tries to rotate clockwise through the drive force being directed from the tires. However, by fixing the rear planetary carrier into position through the activation of the 1st and reverse brake (14), the drive force from the tires is transmitted to the engine and this results in the engine brake taking effect.
+</ptxt>
+<ptxt>
+In D range, engine brake is not activated because there is no activation of the 1st and reverse brake.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510298.swf" width = "183.000mm" height = "118.034mm" ver = "03" gw = "422" gh = "318"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+17.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+19.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+16.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+18.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</subtopic>
+</topic>
+<topic id = "AENLSB0A5101001015">
+<title>
+2nd-speed in D range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+The input shaft (1) rotates the rear planetary sun gear No.2 (2) clockwise through the same transmission route as 1st-speed in D range.
+</ptxt>
+<ptxt>
+As the rear planetary sun gear No.1 (4) is locked by B1 brake (3), clockwise rotations of the rear planetary sun gear No.2 result in clockwise rotations of the rear planetary ring gear (7) by causing the rear planetary short pinion gears (5) to rotate counterclockwise, the rear planetary long pinion gears (6) to rotate clockwise, and the rear planetary short pinion gears and rear planetary long pinion gears to revolve clockwise around the rear planetary sun gear No.2 and the rear planetary sun gear No.1 respectively.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510299.swf" width = "183.000mm" height = "118.034mm" ver = "03" gw = "421" gh = "318"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A5101001016">
+<title>
+3rd-speed in D range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.431in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+The input shaft (1) rotates the front planetary carrier (2) clockwise through the same transmission route as 1st-speed in D range.
+</ptxt>
+<ptxt>
+Clockwise rotations of the front planetary carrier will result in power transmission to the rear planetary sun gear No.2 (5) and rear planetary sun gear No.1 (6) via the forward clutch (3) and the reverse clutch (4) respectively.
+</ptxt>
+<ptxt>
+Clockwise rotations of the rear planetary sun gear No.2 and rear planetary sun gear No.1 will cause the rear planetary short pinion gears (7) and rear planetary long pinion gears (8) to rotate counterclockwise. However, because the rear planetary short pinion gears and rear planetary long pinion gears are meshed with each other, the difference in the direction of rotation causes both pinion gears to be locked to each other. As a result, the clockwise rotations of the rear planetary sun gear No.2 and rear planetary sun gear No.1 will cause the rear planetary ring gear (10) to rotate clockwise through rotating the whole rear planetary gear unit (9) clockwise.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510300.swf" width = "183.000mm" height = "119.301mm" ver = "03" gw = "421" gh = "322"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A5101001017">
+<title>
+4th-speed in D range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+The input shaft (1) rotates the rear planetary sun gear No.2 (2) clockwise through the same transmission route as 1st-speed in D range.
+</ptxt>
+<ptxt>
+Additionally, when the input shaft rotates clockwise, the power is transmitted at the same speed of rotations and in the same direction to the intermediate shaft (3). By engaging the direct clutch (4), the rear planetary carrier (5) rotates clockwise.
+</ptxt>
+<ptxt>
+The rear planetary short pinion gears (6) receive the rotational force from both the rear planetary sun gear No.2 and the rear planetary carrier, but because the rear planetary carrier rotation speed is faster than the rear planetary sun gear No.2 rotation speed, the rear planetary short pinion gears rotate clockwise and revolve around the rear planetary sun gear No.2 clockwise.
+</ptxt>
+<ptxt>
+As a result, the rear planetary long pinion gears (7) rotate counterclockwise and revolve around the rear planetary sun gear No.1 (8) clockwise, rotating the rear planetary ring gear (9) clockwise.
+</ptxt>
+<ptxt>
+The rotation speed of the rear planetary ring gear are the result of subtracting the counterclockwise rotation speed of the rear planetary long pinion gears from clockwise rotation speed of the rear planetary carrier, causing the rotation speed of the rear planetary ring gear to be less than those of the rear planetary carrier.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510301.swf" width = "183.000mm" height = "118.034mm" ver = "04" gw = "430" gh = "318"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A5101001018">
+<title>
+5th-speed in D range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+The input shaft (1) rotates the front planetary carrier (2) clockwise through the same transmission route as 1st-speed in D range.
+</ptxt>
+<ptxt>
+Clockwise rotations of the front planetary carrier rotate the rear planetary sun gear No.1 (4) clockwise by engaging the reverse clutch (3).
+</ptxt>
+<ptxt>
+Additionally, when the input shaft rotates clockwise, the power is transmitted at the same speed of rotations and in the same direction to the intermediate shaft (5). By engaging the direct clutch (6), the rear planetary carrier (7) rotates clockwise.
+</ptxt>
+<ptxt>
+The rear planetary long pinion gears (8) receive the rotational force from the rear planetary sun gear No.1 and rear planetary carrier. As the rotation speed of the rear planetary carrier is higher than that of the rear planetary sun gear No.1, the rear planetary long pinion gears rotate clockwise and revolve around the rear planetary sun gear No.1 clockwise.
+</ptxt>
+<ptxt>
+As a result, the rear planetary long pinion gears cause the rear planetary ring gear (9) to rotate clockwise.
+</ptxt>
+<ptxt>
+The rotation speed of the rear planetary ring gear is higher than that of the rear planetary carrier, as the clockwise rotation speed of the rear planetary long pinion gears is added to that of the rear planetary carrier.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510302.swf" width = "183.000mm" height = "118.214mm" ver = "03" gw = "430" gh = "319"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A5101001019">
+<title>
+6th-speed in D range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+When the input shaft (1) rotates clockwise, the power is transmitted at the same speed of rotation and in the same direction to the intermediate shaft (2) and to the rear planetary carrier (4) by engaging the direct clutch (3).
+</ptxt>
+<ptxt>
+As the rear planetary sun gear No.1 (6) is locked by B1 brake (5), clockwise rotations of the rear planetary carrier result in clockwise rotations of the rear planetary ring gear (8) by causing the rear planetary long pinion gears (7) to rotate clockwise and revolve around the rear planetary sun gear No.1.
+</ptxt>
+<ptxt>
+As the rear planetary sun gear No.1 is locked, the rotation speed of the rear planetary long pinion gears around the rear planetary sun gear No.1 is higher than that in the 5th-speed in D range.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510303.swf" width = "183.000mm" height = "118.057mm" ver = "03" gw = "430" gh = "318"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ 
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+<topic id = "AENLSB0A5101001020">
+<title>
+R range
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "9" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "0.669in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.630in"/>
+<colspec colnum = "4" colname = "4" colwidth = "0.630in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.630in"/>
+<colspec colnum = "6" colname = "6" colwidth = "0.630in"/>
+<colspec colnum = "7" colname = "7" colwidth = "0.630in"/>
+<colspec colnum = "8" colname = "8" colwidth = "0.630in"/>
+<colspec colnum = "9" colname = "9" colwidth = "2.429in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Part
+</ptxt>
+</entry>
+<entry colname = "9" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C1
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C2
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+C3
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B1
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+B2
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+F1
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Operation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at 11 km/h (7 mile/h) or less
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "7" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "8" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+x
+</ptxt>
+</entry>
+<entry colname = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When vehicle is traveling forwards at more than 11 km/h (7 mile/h)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "0" border-left = "0" border-right = "0" valign = "middle" align = "right">
+<ptxt>
+<symbol name = "MACIRCLE_W" width = "5.006mm" height = "3.006mm"/>
+:
+</ptxt>
+<ptxt>
+x:
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "9" border-top = "1" border-bottom = "0" border-left = "0" border-right = "1" valign = "middle">
+<ptxt>
+Applied
+</ptxt>
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>
+The input shaft (1) rotates the front planetary carrier (2) clockwise through the same transmission route as 1st-speed in D range.
+</ptxt>
+<ptxt>
+Clockwise rotations of the front planetary carrier are transmitted to the rear planetary sun gear No.1 (4) engaging the reverse clutch (3).
+</ptxt>
+<ptxt>
+Clockwise rotations of the rear planetary sun gear No.1 rotates the rear planetary ring gear (8) counterclockwise by rotating the rear planetary long pinion gears (7) counterclockwise, as the rear planetary carrier (5) is locked by the 1st and reverse brake (6).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510304.swf" width = "183.000mm" height = "118.296mm" ver = "03" gw = "422" gh = "319"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Front planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Counter drive gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Final gear
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear planetary gear unit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Reduction driven gear
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001021" page = "2">
+<title>
+A/T Control Description
+</title>
+<topic id = "AENLSB0A5101001022">
+<title>
+Lock-up control
+</title>
+<ptxt>
+When the vehicle speed exceeds the specified value, the TCC solenoid valve fully engages the TCC upon receiving control signals from the TCM. This control helps improve power transmission efficiency.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001023">
+<title>
+Slip controlled lock-up function
+</title>
+<ptxt>
+Even at a lower speed than when the TCC is completely engaged, control over the TCC solenoid valve causes the TCC to slip (to be engaged partially), improving power transmission efficiency. While such slip control is being executed, the fluid pressure applied to the TCC is controlled by the TCC solenoid valve so that the difference between the engine speed and the input shaft speed becomes close to the specified value.
+</ptxt>
+<ptxt>
+Also, during deceleration, the TCC is made to slip (be engaged slightly) to raise the engine speed and enlarge the fuel cut operation range so that fuel consumption is reduced.
+</ptxt>
+<ptxt>
+Due to this reason, it is absolutely necessary for the A/T to use ATF suitable for slip control. Use of any fluid other than the specified ATF may cause juddering or other faulty conditions to occur.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001024">
+<title>
+Reverse control
+</title>
+<ptxt>
+In the reverse control, if the shift lever is shifted to R range while the vehicle is running forward, the TCM prevents shifting to reverse to protect internal A/T parts from becoming damaged.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001025">
+<title>
+Garage shift control
+</title>
+<ptxt>
+The garage shift control controls gear shifting to D or R range from N range while vehicle is standstill. The line pressure applied to the forward clutch or the reverse clutch is adjusted to reduce shift shock.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001026">
+<title>
+Manual mode control
+</title>
+<ptxt>
+When the select lever is shifted to M range, or when the shift paddle switch is operated with the select lever in D range, the TCM switches the control mode from automatic to manual mode, while maintaining the actual gear position. In manual mode, every time the paddle-up or paddle-down switch is operated, the TCM selects the gear position from 1st to 6th-speed, and shifts up or down depending on the vehicle speed.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001027">
+<title>
+Slope shift control
+</title>
+<ptxt>
+TCM distinguishes uphill or downhill according to vehicle speed, accelerator pedal position and/or brake pedal position, and controls gear ratio as follows:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Uphill: To improve acceleration, gear ratio in the high speed range is limited.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Downhill: To obtain effective engine brakes, gear ratio is downshifted.
+</ptxt>
+</item>
+</list1>
+</topic>
+<topic id = "AENLSB0A5101001028">
+<title>
+Engine speed control
+</title>
+<ptxt>
+In the engine speed control, the engine speed is adjusted during shifting to reduce shift shock.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001029">
+<title>
+Cruise control
+</title>
+<ptxt>
+When cruise control is executed, appropriate gear is selected automatically corresponding to the required conditions. For details, refer to 
+<intxref refid = "AENLSB0AA111001">Cruise Control System Construction:Cruise Control</intxref>
+.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001030">
+<title>
+Multiplex shift control
+</title>
+<ptxt>
+In the multiplex shift control, when the gear shift control is activated, the previous command is canceled and the gear shift control is performed based on the newly received command, if a new command is being sent due to a change in the vehicle speed or accelerator position.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A5101001031">
+<title>
+Start-lock control
+</title>
+<ptxt>
+The start-lock control prevents the engine from being started.
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5101001032">
+<title>
+Electronic Shift Control System Input / Output Table
+</title>
+<figure>
+<graphic graphicname = "IGSB0A510002.swf" width = "183.000mm" height = "168.604mm" ver = "01" gw = "368" gh = "461"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

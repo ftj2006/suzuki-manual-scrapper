@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206033" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Passenger Air Bag Deactivation Indicator Inspection (If Equipped)
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206032">Passenger Air Bag Deactivation Indicator Removal and Installation (If Equipped)</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Remove passenger air bag deactivation indicator. 
+<intxreftitleoff1 refid = "AENLSB0A8206032"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check “PASSENGER AIR BAG OFF” and “PASSENGER AIR BAG ON” indicators as follows. If any faulty condition is found, replace hazard switch.
+</ptxt>
+<s2>
+<ptxt>
+Connect battery positive (+) terminal to terminal “9” and negative (–) terminal to terminal “10” as shown.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Check that “PASSENGER AIR BAG OFF” indicator (1) lights up.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Connect battery positive (+) terminal to terminal “4” and check that “PASSENGER AIR BAG OFF” indicator reduces an illumination.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822116.jpg" width = "88.000mm" height = "100.193mm" ver = "01" gw = "198" gh = "268"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Connect battery positive (+) terminal to terminal “9” and negative (–) terminal to terminal “3” as shown.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Check that “PASSENGER AIR BAG ON” indicator (1) lights up.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Connect battery positive (+) terminal to terminal “4” and check that “PASSENGER AIR BAG ON” indicator reduces an illumination.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822117.jpg" width = "88.000mm" height = "101.604mm" ver = "01" gw = "198" gh = "272"/>
+</figure>
+</s2>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

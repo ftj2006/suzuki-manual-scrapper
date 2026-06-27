@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8A">
+<servcat sctnbr = "08" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8106002" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Seat Belt Assembly Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106001">Front Seat Belt Components</intxrefpoff>
+</ptxt>
+<attention1>
+<ptxt>
+Failure to take proper precautions when servicing seat belt pretensioner may result in personal injury.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Do not disassemble or repair seat belt components. If any abnormalities are found, replace the seat belt components with a new replacement set.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Before servicing the seat belt, read 
+<intxref refid = "AENLSB0A8100001">Precautions for Service and Diagnosis of Seat Belt</intxref>
+ and follow all the instructions provided.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<servinfosub id = "AENLSB0A8106002001">
+<title>
+Removal
+</title>
+<attention3>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A8104001">Repair and Inspection Required after Accident</intxref>
+ before replacing an activated pretensioner.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove center pillar lower trim. 
+<intxreftitleoff1 refid = "AENLSB0A9806016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector (1) from seat belt pretensioner (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Release lock button (3) by pulling it in arrow direction “1”.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Disconnect connector with lock released by pulling it in arrow direction “2”.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A810003.jpg" width = "88.000mm" height = "72.093mm" ver = "01" gw = "211" gh = "188"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove shoulder adjuster cover. 
+<intxreftitleoff1 refid = "AENLSB0A8106001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove bolts of front seat belt assembly and then remove front seat belt assembly. 
+<intxreftitleoff1 refid = "AENLSB0A8106001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8106002002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106003">Front Seat Belt Assembly Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fit claw (2) on seat belt pretensioner (1) into cutout (3) on body panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A810004.jpg" width = "88.000mm" height = "49.603mm" ver = "01" gw = "185" gh = "124"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten bolts of front seat belt assembly in numerical order to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A8106001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connect connector (2) to seat belt pretensioner (1) as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Connect connector to seat belt pretensioner with lock button (3) released by pushing it in arrow direction “1”.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Press lock button to lock connector securely by pushing it in arrow direction “2”.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A810005.jpg" width = "88.000mm" height = "72.093mm" ver = "01" gw = "211" gh = "188"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Enable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

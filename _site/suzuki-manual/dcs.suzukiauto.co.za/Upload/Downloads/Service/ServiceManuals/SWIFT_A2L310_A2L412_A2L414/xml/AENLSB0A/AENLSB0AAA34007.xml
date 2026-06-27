@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA34007" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Scan Tool Data
+</title>
+<scantool>
+<scantool-title>
+Sonar Control Module
+</scantool-title>
+<attention3>
+<ptxt>
+If communication between SUZUKI scan tool and sonar control module is not possible, perform the following checks:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check communication condition between PC and VCI using SUZUKI scan tool function.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication circuit and connectors between DLC and central gateway control module. (Refer to “Diagnosis flow: [a]” in “Troubleshooting” of “Troubleshooting for Lost Communication”.)
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0AA814003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0AA824003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.)
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0AA814004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0AA824004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AA834020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check sonar control module power circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0AAA34033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.968in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.848in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Scan tool data
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Normal condition / Reference value
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Voltage
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+13 – 15 V
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Running
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Vehicle Speed
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Almost the same as speedometer reading
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+In driving
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Left Outer Sonar Detected Distance
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Distance from sensor to obstacle detected by parking sensor (left) is shown.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Left Inner Sonar Detected Distance
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Distance from sensor to obstacle detected by parking sensor (center-left) is shown.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Right Inner Sonar Detected Distance
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Distance from sensor to obstacle detected by parking sensor (center-right) is shown.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Right Outer Sonar Detected Distance
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Distance from sensor to obstacle detected by parking sensor (right) is shown.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance of Object behind Vehicle
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Longitudinal distance from vehicle to obstacle behind is shown by calculated value based on signals from multiple parking sensors.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance of Object on Vehicle sides
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Side distance from vehicle to obstacle diagonally behind is shown by calculated value based on signals from multiple parking sensors.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Parking System State
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+No Failure
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor system is working normally.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Temporarily Failure
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor system is malfunctioning temporarily.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Permanently Failure
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor system is malfunctioning all the time.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Initial Check
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+During initial check.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Left Outer Sonar Detected State
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAA34007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor (left) is not detecting obstacle.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Short
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (left) is 0 – 350 mm (0 – 13.8 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Middle
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (left) is 350 – 450 mm (13.8 – 17.7 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (left) is 450 – 600 mm (17.7 – 23.6 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Left Inner Sonar Detected State 
+<intxreftitleoff1 refid = "AENLSB0AAA34007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor (center-left) is not detecting obstacle.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Short
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-left) is 0 – 350 mm (0 – 13.8 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Middle
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-left) is 350 – 450 mm (13.8 – 17.7 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-left) is 450 – 600 mm (17.7 – 23.6 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Most long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-left) is 600 – 1,500 mm (23.6 – 59.1 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Right Inner Sonar Detected State 
+<intxreftitleoff1 refid = "AENLSB0AAA34007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor (center-right) is not detecting obstacle.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Short
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-right) is 0 – 350 mm (0 – 13.8 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Middle
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-right) is 350 – 450 mm (13.8 – 17.7 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-right) is 450 – 600 mm (17.7 – 23.6 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Most long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (center-right) is 600 – 1,500 mm (23.6 – 59.1 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Rear Right Outer Sonar Detected State 
+<intxreftitleoff1 refid = "AENLSB0AAA34007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When parking sensor (right) is not detecting obstacle.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Short
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (right) is 0 – 350 mm (0 – 13.8 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Middle
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (right) is 350 – 450 mm (13.8 – 17.7 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When distance from sensor to obstacle detected by parking sensor (right) is 450 – 600 mm (17.7 – 23.6 in.).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Front Sonar sensor 
+<intxreftitleoff1 refid = "AENLSB0AAA34007009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not supported
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Transmission type 
+<intxreftitleoff1 refid = "AENLSB0AAA34007010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Undetermined
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Transmission type is not identified.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+MT
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M/T model
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+AT/CVT
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/T model
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Sonar Control Module Voltage Malfunction 
+<intxreftitleoff1 refid = "AENLSB0AAA34007011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When DTC C1006-1C is detected.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ambient Air Temperature Sensor Malfunction 
+<intxreftitleoff1 refid = "AENLSB0AAA34007012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When DTC C1006-81 is detected.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Steering Angle Sensor Malfunction 
+<intxreftitleoff1 refid = "AENLSB0AAA34007013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When DTC C1007-81 is detected.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Wheel Speed Sensor Malfunction 
+<intxreftitleoff1 refid = "AENLSB0AAA34007014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When DTC C100C-81 is detected.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Not Detected
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<servinfosub id = "AENLSB0AAA34007001" page = "2">
+<title>
+Scan Tool Data Definitions
+</title>
+<topic id = "AENLSB0AAA34007002">
+<title>
+Battery Voltage (V)
+</title>
+<ptxt>
+This parameter indicates battery voltage detected by sonar control module.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007003">
+<title>
+Vehicle Speed (km/h, MPH)
+</title>
+<ptxt>
+The vehicle speed is calculated based on pulse signals from wheel speed sensors.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007004">
+<title>
+Rear Left Outer Sonar / Rear Left Inner Sonar / Rear Right Inner Sonar / Rear Right Outer Sonar Detected Distance (mm)
+</title>
+<ptxt>
+This parameter indicates distance from vehicle to obstacle detected by parking sensors (left / center-left / center-right / right).
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007005">
+<title>
+Distance of Object behind Vehicle (mm)
+</title>
+<ptxt>
+This parameter indicates longitudinal distance from vehicle to obstacle behind calculated by sonar control module based on signals from multiple parking sensors.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007006">
+<title>
+Distance of Object on Vehicle sides (mm)
+</title>
+<ptxt>
+This parameter indicates side distance from vehicle to obstacle diagonally behind calculated by sonar control module based on signals from multiple parking sensors.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007007">
+<title>
+Rear Parking System State (No Failure / Temporarily Failure / Permanently Failure / Initial Check)
+</title>
+<ptxt>
+This parameter indicates operating state of parking sensor system.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007008">
+<title>
+Rear Left Outer Sonar / Rear Left Inner Sonar / Rear Right Inner Sonar / Rear Right Outer Sonar Detected State (Not detected / Short / Middle / Long / Most long)
+</title>
+<ptxt>
+This parameter indicates state of vehicle corresponding to distance to the obstacle detected by parking sensors (left / center-left / center-right / right).
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007009">
+<title>
+Front Sonar sensor (Not supported)
+</title>
+<ptxt>
+This parameter is indicated all the time without change.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007010">
+<title>
+Transmission type (Undetermined / MT / AT/CVT / Auto Gear Shift)
+</title>
+<ptxt>
+This parameter indicates transmission type identified by sonar control module.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007011">
+<title>
+Sonar Control Module Voltage Malfunction (Not detected / Detected)
+</title>
+<ptxt>
+This parameter indicates whether or not abnormality of sonar control module power supply voltage is detected.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007012">
+<title>
+Ambient Air Temperature Sensor Malfunction (Not detected / Detected)
+</title>
+<ptxt>
+This parameter indicates whether or not temporary abnormality of outside air temperature signal is detected.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007013">
+<title>
+Steering Angle Sensor Malfunction (Not detected / Detected)
+</title>
+<ptxt>
+This parameter indicates whether or not temporary abnormality of steering angle signal is detected.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AAA34007014">
+<title>
+Wheel Speed Sensor Malfunction (Not detected / Detected)
+</title>
+<ptxt>
+This parameter indicates whether or not temporary abnormality of wheel speed signal is detected.
+</ptxt>
+</topic>
+</servinfosub>
+</scantool>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

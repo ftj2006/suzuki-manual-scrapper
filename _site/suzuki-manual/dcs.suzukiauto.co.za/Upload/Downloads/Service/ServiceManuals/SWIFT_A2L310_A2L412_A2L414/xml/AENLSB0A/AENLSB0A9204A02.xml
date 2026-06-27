@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9B">
+<servcat sctnbr = "09" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9204A02" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Headlight manual leveling system does not operate (Headlight manual leveling model)
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+Headlight manual leveling system does not operate (Headlight manual leveling model)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty system circuit (including relays and fuses)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair circuit and replace relay and/or fuse.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty headlight leveling switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A9206024">Headlight Leveling Switch Inspection (Headlight Manual Leveling Model)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty headlight units (including headlight leveling actuators)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A9206014">Headlight Leveling Actuator Inspection</intxref>
+.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

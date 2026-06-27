@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426059" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Intake VVT Actuator Removal and Installation
+</title>
+<attention4>
+<ptxt>
+The intake VVT actuator will lose its original performance if it is disassembled.
+</ptxt>
+<ptxt>
+Do not disassemble and repair the intake VVT actuator. If any faulty condition is found, replace the intake VVT actuator with a new one.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0A1426059001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine assembly from vehicle. 
+<intxreftitleoff1 refid = "AENLSB0A1426025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect intake VVT actuator connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intake VVT actuator (motor part) (1) and O-ring.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142074.jpg" width = "88.000mm" height = "54.768mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove timing chain. 
+<intxreftitleoff1 refid = "AENLSB0A1426033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With hexagonal section of intake camshaft held stationary with spanner or adjustable wrench (1), remove intake VVT actuator bolt (2) and remove intake VVT actuator (sprocket part) (3).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142075.jpg" width = "88.000mm" height = "55.022mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1426059002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Fit intake VVT actuator (sprocket part) to intake camshaft.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With hexagonal section of intake camshaft held stationary with spanner or adjustable wrench (1), tighten intake VVT actuator (sprocket part) bolt (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1D259">
+<t-part>
+Intake VVT actuator (sprocket part) bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+90
+</t-value1>
+<t-value2>
+9.2
+</t-value2>
+<t-value3>
+66.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A142076.jpg" width = "88.000mm" height = "55.022mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install timing chain. 
+<intxreftitleoff1 refid = "AENLSB0A1426033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Clean mating surface of oil pump assembly, fit new O-rings to oil pump assembly.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install intake VVT actuator (motor part) (1) to oil pump assembly (2) aligning intake VVT actuator (motor part) coupling (3) with slit (4) of intake VVT actuator (sprocket part).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142077.swf" width = "88.000mm" height = "61.567mm" ver = "01" gw = "186" gh = "158"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tighten intake VVT actuator (motor part) bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1D260">
+<t-part>
+Intake VVT actuator (motor part) bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A142078.jpg" width = "88.000mm" height = "54.768mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect intake VVT actuator connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine assembly from vehicle. 
+<intxreftitleoff1 refid = "AENLSB0A1426025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

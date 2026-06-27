@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A7201003" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+A/C Refrigerant Identification
+</title>
+<ptxt>
+For distinction of refrigerant types, check color of caps (1).
+</ptxt>
+<spec>
+<title>
+Cap color
+</title>
+<ptxt>
+HFC-134a model: Light blue
+</ptxt>
+<ptxt>
+HFO-1234yf model: Black
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A720001.jpg" width = "88.000mm" height = "52.821mm" ver = "01" gw = "188" gh = "133"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

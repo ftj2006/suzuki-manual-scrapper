@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9C">
+<servcat sctnbr = "09" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9304006" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Combination Meter Diagnosis
+</title>
+<ptxt>
+Combination meter operates meters, indicators and information display according to input signals and CAN communication data from control modules. Conduct diagnosis as follows if there are problems with combination meter.
+</ptxt>
+<s1>
+<ptxt>
+Check combination meter power supply and ground circuits. 
+<intxreftitleoff1 refid = "AENLSB0A9304015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Using SUZUKI scan tool, check every DTC of all systems concerned.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If any DTC is found during inspection in Step 2), go to applicable DTC troubleshooting referring to the section for the system (control module) in question.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If any of troubles has occurred independently even though display shows no abnormal DTC during inspection in Step 2), check concerned item according to instructions given below.
+</ptxt>
+<attention3>
+<ptxt>
+When checking each circuit, perform diagnosis of the circuit referring to “Circuit Diagram”.
+</ptxt>
+</attention3>
+</item>
+</list1>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

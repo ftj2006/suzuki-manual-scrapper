@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4A">
+<servcat sctnbr = "04" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4106026" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Brake Booster Pressure Sensor Inspection (If Equipped)
+</title>
+<attention2>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If excessive vacuum is applied, the brake booster pressure sensor may be damaged.
+</ptxt>
+<ptxt>
+Do not exceed a vacuum of –90 kPa (–0.9 kgf/cm<sup>2</sup>, –13.0 psi, –0.9 bar).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not remove brake booster pressure sensor.
+</ptxt>
+<ptxt>
+Removal and reinstallation will spoil its original performance.
+</ptxt>
+<ptxt>
+If faulty condition is observed, replace brake booster assembly with new one.
+</ptxt>
+</item>
+</list1>
+</attention2>
+<servinfosub id = "AENLSB0A4106026001">
+<title>
+Using SUZUKI Scan Tool
+</title>
+<s1>
+<ptxt>
+Connect SUZUKI scan tool to DLC (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L4A009">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A410043.swf" width = "88.000mm" height = "87.737mm" ver = "01" gw = "205" gh = "232"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”, and select “Brake Booster Pressure Sensor” in “Data list” mode on SUZUKI scan tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check parameter displayed on SUZUKI scan tool at each negative pressure specified. Refer to 
+<intxref refid = "AENLSB0A4604009">Scan Tool Data</intxref>
+.
+</ptxt>
+<ptxt>
+If the parameter is not as shown in the table, check the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake booster pressure sensor (1) and grommet (2) for installation
+</ptxt>
+</item>
+<item>
+<ptxt>
+Grommet damage
+</ptxt>
+</item>
+<item>
+<ptxt>
+Wiring and connection
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake vacuum hose (3)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake booster pressure sensor: 
+<intxreftitleoff1 refid = "AENLSB0A4106026002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake booster (4): 
+<intxreftitleoff1 refid = "AENLSB0A4106024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410045.swf" width = "88.000mm" height = "67.425mm" ver = "01" gw = "177" gh = "175"/>
+</figure>
+</item>
+</list1>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4106026002">
+<title>
+Using Circuit Tester
+</title>
+<s1>
+<ptxt>
+Remove brake booster with brake master cylinder assembly (1). 
+<intxreftitleoff1 refid = "AENLSB0A4106023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check brake booster pressure sensor output voltage as follows.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace brake booster.
+</ptxt>
+<attention4>
+<ptxt>
+Specified input voltage of this brake booster pressure sensor is between 4.8 and 5.2 V. Therefore, arrangement of three 1.5 V dry batteries (4.5 V) is not enough, and four 1.5 V dry batteries (6 V) exceeds the limit which may affect the sensor.
+</ptxt>
+<ptxt>
+Use four 1.2 V chargeable batteries for this check.
+</ptxt>
+</attention4>
+<s2>
+<ptxt>
+Arrange four 1.2 V chargeable batteries (3) in series and check that total voltage is 4.8 – 5.2 V.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Connect special tool, voltmeter (4) and batteries to brake booster and brake booster pressure sensor (2) as shown in figure and set the tool in “VACUUM” mode.
+</ptxt>
+<attention3>
+<ptxt>
+Before using special tool (vacuum pump gauge), read its Operator’s Manual to know how to use it.
+</ptxt>
+</attention3>
+<servicetool>
+<servicetoolitem id = "L4A010">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09917-47020">
+09917–47020
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s2>
+<s2>
+<ptxt>
+Check that voltage varies gradually when negative pressure is gradually applied with special tool.
+</ptxt>
+<spec>
+<title>
+Vacuum sensor reference voltage
+</title>
+<ptxt>
+Negative pressure 0 kPa (0.0 kgf/cm<sup>2</sup>, 0.0 psi, 0.0 bar): 3.4 – 4.2 V
+</ptxt>
+<ptxt>
+Negative pressure –70 kPa (–0.7 kgf/cm<sup>2</sup>, –10.1 psi, –0.7 bar): 0.6 – 1.4 V
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A410009.swf" width = "88.000mm" height = "92.913mm" ver = "01" gw = "213" gh = "247"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Adapter included in special tool
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

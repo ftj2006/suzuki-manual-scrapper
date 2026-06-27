@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106009" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Select Lever Assembly Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106008">Select Lever Assembly Removal and Installation</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A5106009001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+Disconnect select lever connector clamp (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect select lever illumination light terminals (2) from select lever connector (3) according to the following procedure.
+</ptxt>
+<attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Connector claws may be deformed if terminals are disconnected improperly from connector, causing terminals coming off the connector during connector assembly.
+</ptxt>
+<ptxt>
+Be careful not to deform connector claws.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Terminals may be deformed if they are disconnected improperly from connector, causing poor contact.
+</ptxt>
+<ptxt>
+Be careful not to deform terminals.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<figure>
+<graphic graphicname = "IGSB0A510020.swf" width = "88.000mm" height = "80.170mm" ver = "01" gw = "209" gh = "211"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Select lever connector (View: [a])
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<s2>
+<ptxt>
+Pull up terminal lock (1) approx. 1.0 mm (0.039 in.).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510044.swf" width = "88.000mm" height = "57.168mm" ver = "01" gw = "143" gh = "146"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Insert terminal release tool (3) or flat-bladed precision screwdriver (4) between connector claw (1) and terminal (2), and then lift up connector claw slightly to release terminal.
+</ptxt>
+<attention3>
+<ptxt>
+Use the tool shown in figure below.
+</ptxt>
+<figure>
+<graphic graphicname = "IDP60A510017.swf" width = "88.000mm" height = "93.661mm" ver = "01" gw = "205" gh = "249"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.535in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.260in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Terminal release tool
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Approx. 1.0 mm (0.039 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Flat-bladed precision screwdriver
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“b”:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Approx. 2.5 mm (0.098 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</attention3>
+<figure>
+<graphic graphicname = "IEL10C510045.swf" width = "88.000mm" height = "70.167mm" ver = "01" gw = "220" gh = "182"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Pull wiring to remove terminal (1) from connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IDP60A510019.swf" width = "88.000mm" height = "53.828mm" ver = "01" gw = "176" gh = "136"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Release select lever indicator claws (1) from select lever.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510021.swf" width = "88.000mm" height = "74.510mm" ver = "01" gw = "205" gh = "195"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Pushing locks (1), pull down select lever boot (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510022.swf" width = "88.000mm" height = "66.932mm" ver = "01" gw = "102" gh = "173"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Releasing claws (1), remove select lever knob with select lever boot and indicator (2) from select lever.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510023.swf" width = "88.000mm" height = "75.137mm" ver = "01" gw = "166" gh = "196"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Releasing claws (1), remove select lever knob (2) and indicator (3) from select lever boot (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510024.swf" width = "88.000mm" height = "68.120mm" ver = "01" gw = "199" gh = "177"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove select lever illumination light assembly (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510025.swf" width = "88.000mm" height = "64.919mm" ver = "01" gw = "179" gh = "168"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Release claws (1), remove shift lock release button (2) and spring.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510026.swf" width = "88.000mm" height = "55.873mm" ver = "01" gw = "189" gh = "142"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106009002">
+<title>
+Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106010">Select Lever Assembly Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Apply grease to sliding surface of shift lock release button (1).
+</ptxt>
+<materials>
+<materialitem name = "ECSTAR Grease A" id = "M5A004" uid = "1545785286">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Grease
+</m-desc>
+<m-number>
+99000–25480
+</m-number>
+<m-name>
+ECSTAR Grease A
+</m-name>
+</materialitem>
+</materials>
+</s1>
+<s1>
+<ptxt>
+Push shift lock release button along with spring (2) until claws lock in place to install them.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510027.swf" width = "88.000mm" height = "72.231mm" ver = "01" gw = "153" gh = "188"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install select lever illumination light assembly (1) and fix harness to select lever as shown in figure.
+</ptxt>
+<figure>
+<title>
+LHD
+</title>
+<graphic graphicname = "IGSB0A510028.swf" width = "88.000mm" height = "72.544mm" ver = "01" gw = "191" gh = "189"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle forward
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<figure>
+<title>
+RHD
+</title>
+<graphic graphicname = "IGSB0A510029.swf" width = "88.000mm" height = "79.142mm" ver = "01" gw = "183" gh = "208"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle forward
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install select lever indicator (1) and knob (2) to select lever boot (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510030.swf" width = "88.000mm" height = "65.587mm" ver = "01" gw = "118" gh = "169"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install select lever knob with select lever boot and indicator (1) to select lever (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510031.swf" width = "88.000mm" height = "75.137mm" ver = "01" gw = "104" gh = "196"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Pull up select lever boot (1) to lower end of select lever knob (2) over the locks (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510032.swf" width = "88.000mm" height = "67.020mm" ver = "01" gw = "103" gh = "173"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect select lever illumination light terminals (1) to select lever connector (2) at positions shown in figure according to the following procedure.
+</ptxt>
+<attention3>
+<ptxt>
+Polarity of select lever illumination light terminals does not affect their performance. Therefore, connection of select lever illumination light terminals “4”, “9” can be either positive or negative.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A510033.swf" width = "88.000mm" height = "75.158mm" ver = "01" gw = "208" gh = "197"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Select lever connector (View: [a])
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<s2>
+<ptxt>
+Align protrusions (2) on terminals with slots (1) in connector, and then push terminals into connector until they click into place.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510034.swf" width = "88.000mm" height = "62.636mm" ver = "01" gw = "179" gh = "161"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Pull wirings slightly to check that terminals are firmly locked in place.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Push terminal lock (1) into connector until it is flush with connector surface.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510050.swf" width = "88.000mm" height = "54.237mm" ver = "01" gw = "134" gh = "137"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Connect select lever connector clamp.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check the following items.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select lever button can move smoothly without noise.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Select lever can shift from P range to R range normally with shift lock manual release button and select lever button pushed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Select lever can operate smoothly.
+</ptxt>
+</item>
+</list1>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

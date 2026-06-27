@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5C">
+<servcat sctnbr = "05" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5306009" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Clutch Fluid Pipe Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5306008">Clutch Fluid Pipe and Hose Components</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+Brake fluid is extremely damaging to painted surfaces.
+</ptxt>
+<ptxt>
+If brake fluid contacts painted surfaces, immediately wipe it off and flush the surfaces with water thoroughly.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0A5306009001" page = "2">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove dust and dirt from each joint of pipe to be disconnected and clean around brake master cylinder reservoir cap.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For RHD, remove air cleaner assembly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1416004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1426004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Take out fluid from brake master cylinder reservoir with syringe or the like.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove clutch fluid pipe (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Pull out clamp (1) of clutch master cylinder (3).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Pull out clamp (5) of pipe joint (4).
+</ptxt>
+</s2>
+</s1>
+<figure>
+<graphic graphicname = "IGSB0A530008.jpg" width = "88.000mm" height = "53.752mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0A530002.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "185" gh = "141"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A5306009002" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5306010">Clutch Fluid Pipe and Hose Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install each clamp securely.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After installation, bleed air from clutch system. 
+<intxreftitleoff1 refid = "AENLSB0A5306007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+After installation, check clutch pedal free travel. 
+<intxreftitleoff1 refid = "AENLSB0A5306005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check fluid leakage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Add fluid to MAX level of reservoir.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>
