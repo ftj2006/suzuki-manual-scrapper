@@ -312,6 +312,16 @@ XMLLoader.prototype.load = function(url, callback) {
 			return doc;
 		}
 	}
+	// Resolve url against this.win.document.baseURI if available to avoid
+	// relying on <base> presence/timing in the parent document.
+	try {
+		var base = (this.win && this.win.document && this.win.document.baseURI) ? this.win.document.baseURI : document.baseURI;
+		// Use URL to resolve relative paths
+		url = (new URL(url, base)).toString();
+	} catch (e) {
+		// If URL resolution fails, fall back to raw url
+	}
+
 	if (this.isIE) {
 		doc = this.__msxml_load(url, callback);
 	} else {

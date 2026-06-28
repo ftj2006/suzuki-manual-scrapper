@@ -1,0 +1,511 @@
+{
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/ctl.html",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/navi.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/open.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/doc.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/closed.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top_logo1.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/stdiodom.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/stdio.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/ui.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/undo.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/prev.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/next.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/print.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/return.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/help.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/suzuki_all.xsl",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure.xml",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/navi-kousei-e.xslt",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/ui.xslt",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/navi.css?v=20131107",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/stdio.js?v=20140416",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/ui.xslt",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon/top_back.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_vars1.xml",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure.xml",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/navi-kousei-e.xslt",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8/ui.xslt",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/config8/navi.css?v=20131107",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/config8/stdio.js?v=20140416",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/icon/closed.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/icon/doc.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/config8/stdio.js?v=20140416",
+      "failed": true,
+      "failureText": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://ftj2006.github.io/config8/navi.css?v=20131107",
+      "failed": true,
+      "failureText": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_vars1.xml",
+      "method": "GET",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "url": "https://ftj2006.github.io/icon/doc.gif",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"HeadlessChrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "referer": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.75 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    }
+  ],
+  "frames": [
+    {
+      "name": "",
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/index.html",
+      "base": "./"
+    },
+    {
+      "name": "CTL",
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/ctl.html",
+      "base": "./"
+    },
+    {
+      "name": "TOP",
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html",
+      "base": "./"
+    },
+    {
+      "name": "NAVI",
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html",
+      "base": null
+    },
+    {
+      "name": "MAIN",
+      "url": "https://ftj2006.github.io/suzuki-manual-scrapper/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html",
+      "base": "./"
+    }
+  ]
+}
