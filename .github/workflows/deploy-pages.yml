@@ -46,7 +46,7 @@ jobs:
               cp -RL "$path" _site/
             fi
           done
-            python3 -c "exec('''from pathlib import Path\nimport re\n\nbase_script = \"<script type=\\\"text/javascript\\\">document.write('<base href=\\\"' + new URL('./', window.location.href).href + '\\\" />');</script>\"\n\nfor html_path in Path('_site').rglob('*.html'):\n    text = html_path.read_text(encoding='utf-8')\n    if \"new URL('./', window.location.href)\" in text or \"<base href=\" in text:\n        continue\n    updated_text, replacements = re.subn(r'<head([^>]*)>', r'<head\\1>' + base_script, text, count=1, flags=re.IGNORECASE)\n    if replacements:\n        html_path.write_text(updated_text, encoding='utf-8')\n''')"
+          python3 .github/scripts/inject_base_tags.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
