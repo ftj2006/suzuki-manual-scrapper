@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       publish_branch:
-        description: Branch to publish from
+        description: 'Branch to publish from (leave empty to use the branch that triggered this run)'
         required: false
-        default: main
+        default: ''
 
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.publish_branch }}
+          ref: ${{ inputs.publish_branch || github.ref_name }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
