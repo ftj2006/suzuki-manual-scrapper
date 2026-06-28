@@ -6,7 +6,8 @@
     <style>
       :root { color-scheme: light; }
       html, body { height: 100%; margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f3f3f3; }
-      body { display: grid; grid-template-rows: 56px 56px 1fr; }
+      /* Use a single row so content fills the viewport when CTL/TOP are absent */
+      body { display: grid; grid-template-rows: 1fr; }
       iframe { border: 0; display: block; width: 100%; background: white; }
       .ctl { height: 56px; }
       .top { height: 56px; border-bottom: 1px solid #d0d0d0; }
