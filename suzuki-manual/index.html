@@ -42,13 +42,28 @@
         </script>
   </head>
   <body>
-    <!-- CTL and TOP iframes removed for simplified runtime; emulate minimal objects -->
+    <!-- CTL and TOP placeholders (visual replacements for removed iframes) -->
+    <div class="ctl">
+      <div style="display:flex;align-items:center;justify-content:flex-end;padding:0 16px;height:100%">
+        <label for="lang" style="margin-right:8px;font-size:14px;color:#333">Lang</label>
+        <select id="lang" style="height:28px">
+          <option value="e">EN</option>
+          <option value="j">JA</option>
+        </select>
+      </div>
+    </div>
+    <div class="top">
+      <div style="display:flex;align-items:center;gap:12px;padding:0 16px;height:100%">
+        <img src="../icon/doc.gif" alt="logo" style="height:36px;object-fit:contain"/>
+        <div style="font-weight:600">Suzuki Manual</div>
+      </div>
+    </div>
     <script>
       // Provide a minimal CTL object expected by legacy scripts (language selector)
       window.CTL = {
         document: {
           ctl: {
-            lang: { value: 'e' }
+            lang: { value: document.getElementById('lang') ? document.getElementById('lang').value : 'e' }
           }
         }
       };
@@ -57,6 +72,9 @@
         document: document,
         location: window.location
       };
+      // keep CTL.lang in sync if user changes selection
+      var langEl = document.getElementById('lang');
+      if (langEl) langEl.addEventListener('change', function(){ window.CTL.document.ctl.lang.value = this.value; });
     </script>
     <div class="content">
       <iframe class="nav" name="NAVI" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html"></iframe>
