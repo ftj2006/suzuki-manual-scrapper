@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Working Manual URL Report</title>
+  <style>
+    :root {
+      --bg: #f7f7f2;
+      --card: #ffffff;
+      --ink: #1d2a1f;
+      --muted: #5e6d61;
+      --line: #d7ded8;
+      --accent: #1f6f43;
+      --accent-soft: #e7f3eb;
+      --head-bg: #f6faf7;
+      --head-ink: #244731;
+      --root-bg: #fbfdfb;
+      --row-line: #edf1ed;
+      --link-ink: #0e5e37;
+      --code-border: #b9d5c2;
+      --code-bg: #eef8f1;
+      --code-bg-hover: #dff2e6;
+      --code-border-hover: #94bfa1;
+      --country-btn-ink: #2b4a38;
+      --country-btn-border: #c8d7cb;
+      --country-btn-bg: #f2f7f3;
+      --country-btn-bg-hover: #e6efe8;
+      --country-btn-border-hover: #a9c0af;
+    }
+
+    body[data-theme="dark"] {
+      --bg: #111714;
+      --card: #18201c;
+      --ink: #e5f0e8;
+      --muted: #9fb0a4;
+      --line: #2a3931;
+      --accent: #5cbc83;
+      --accent-soft: #1e2f26;
+      --head-bg: #1b2a22;
+      --head-ink: #bfe5cd;
+      --root-bg: #16211c;
+      --row-line: #233129;
+      --link-ink: #8bd3a8;
+      --code-border: #3f6a52;
+      --code-bg: #1f3228;
+      --code-bg-hover: #274032;
+      --code-border-hover: #5c9875;
+      --country-btn-ink: #d5eadc;
+      --country-btn-border: #4a6555;
+      --country-btn-bg: #223429;
+      --country-btn-bg-hover: #2a4032;
+      --country-btn-border-hover: #6d947a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      letter-spacing: 0.02em;
+    }
+
+    .sub {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+
+    .section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      margin: 0 0 22px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(16, 32, 20, 0.06);
+    }
+
+    .section h2 {
+      margin: 0;
+      padding: 12px 14px;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, var(--accent-soft), #f8fbf9);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      text-align: left;
+      font-size: 0.9rem;
+      color: var(--head-ink);
+      border-bottom: 1px solid var(--line);
+      background: var(--head-bg);
+      padding: 10px 12px;
+    }
+
+    td {
+      vertical-align: top;
+      border-bottom: 1px solid var(--row-line);
+      padding: 10px 12px;
+      font-size: 0.95rem;
+    }
+
+    td.root {
+      font-weight: 700;
+      width: 22%;
+      background: var(--root-bg);
+    }
+
+    td.country {
+      width: 10%;
+      font-weight: 700;
+      background: var(--root-bg);
+    }
+
+    .country-link {
+      display: inline-block;
+      color: var(--country-btn-ink);
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--country-btn-border);
+      background: var(--country-btn-bg);
+      border-radius: 6px;
+      padding: 4px 9px;
+      font-size: 0.86rem;
+      line-height: 1.2;
+    }
+
+    .country-link:hover {
+      background: var(--country-btn-bg-hover);
+      border-color: var(--country-btn-border-hover);
+    }
+
+    .country-pill {
+      display: inline-block;
+      color: var(--country-btn-ink);
+      font-weight: 700;
+      border: 1px solid var(--country-btn-border);
+      background: var(--country-btn-bg);
+      border-radius: 6px;
+      padding: 4px 9px;
+      font-size: 0.86rem;
+      line-height: 1.2;
+    }
+
+    td.codes {
+      width: 68%;
+    }
+
+    .codes-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .code-link {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--link-ink);
+      border: 1px solid var(--code-border);
+      background: var(--code-bg);
+      border-radius: 6px;
+      padding: 4px 9px;
+      font-size: 0.86rem;
+      line-height: 1.2;
+    }
+
+    .code-link:hover {
+      background: var(--code-bg-hover);
+      border-color: var(--code-border-hover);
+    }
+
+    .empty {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .status {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 760px) {
+      .wrap { padding: 14px; }
+      h1 { font-size: 1.5rem; }
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+      td { border: none; padding: 6px 0; }
+      td.root::before { content: "Model: "; color: var(--muted); font-weight: 400; }
+      td.country::before { content: "Country: "; color: var(--muted); font-weight: 400; }
+      td.codes::before { content: "Codes: "; color: var(--muted); font-weight: 400; display: block; margin-bottom: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Manual Code Index</h1>
+    <p class="sub">Semi-table view from URL summary JSON: Model -> Country -> Clickable Codes</p>
+
+    <div id="app"></div>
+    <p id="status" class="status">Loading manuals.json...</p>
+  </div>
+
+  <script>
+    function applyTheme(theme) {
+      document.body.setAttribute("data-theme", theme);
+    }
+
+    function setupAutoTheme() {
+      // Default to dark when system preference cannot be detected.
+      if (!window.matchMedia) {
+        applyTheme("dark");
+        return;
+      }
+
+      var media = window.matchMedia("(prefers-color-scheme: dark)");
+      var syncTheme = function () {
+        applyTheme(media.matches ? "dark" : "light");
+      };
+
+      syncTheme();
+
+      if (typeof media.addEventListener === "function") {
+        media.addEventListener("change", syncTheme);
+      } else if (typeof media.addListener === "function") {
+        media.addListener(syncTheme);
+      }
+    }
+
+    function buildCodeUrl(domain, root, code) {
+      var cleanDomain = String(domain || "").replace(/\/$/, "");
+      return cleanDomain + "/Upload/Downloads/Service/ServiceManuals/" +
+        encodeURIComponent(root) + "/xml/" + encodeURIComponent(code) + "/index.html";
+    }
+
+    function countryLabel(code) {
+      var names = {
+        AT: "Austria",
+        AU: "Australia",
+        BE: "Belgium",
+        CZ: "Czech Republic",
+        DE: "Germany",
+        ES: "Spain",
+        FR: "France",
+        HU: "Hungary",
+        IN: "India",
+        IT: "Italy",
+        JP: "Japan",
+        ME: "Montenegro",
+        NL: "Netherlands",
+        PL: "Poland",
+        SK: "Slovakia",
+        UK: "United Kingdom",
+        ZA: "South Africa"
+      };
+      return names[code] || code || "-";
+    }
+
+    function renderSection(title, groups, countryDomains) {
+      var visibleGroups = (Array.isArray(groups) ? groups : []).map(function (rootGroup) {
+        var countries = Array.isArray(rootGroup.countries) ? rootGroup.countries : [];
+        var visibleCountries = countries.filter(function (countryGroup) {
+          return Array.isArray(countryGroup.codes) && countryGroup.codes.length > 0;
+        });
+        return { root: rootGroup.root || "", countries: visibleCountries };
+      }).filter(function (rootGroup) {
+        return rootGroup.countries.length > 0;
+      });
+
+      var section = document.createElement("section");
+      section.className = "section";
+
+      var heading = document.createElement("h2");
+      heading.textContent = title + " (" + visibleGroups.length + " models)";
+      section.appendChild(heading);
+
+      var table = document.createElement("table");
+      var thead = document.createElement("thead");
+      thead.innerHTML = "<tr><th>Model</th><th>Country</th><th>Codes</th></tr>";
+      table.appendChild(thead);
+
+      var tbody = document.createElement("tbody");
+
+      visibleGroups.forEach(function (rootGroup) {
+        var root = rootGroup.root || "";
+        var countries = Array.isArray(rootGroup.countries) ? rootGroup.countries : [];
+
+        countries.forEach(function (countryGroup, idx) {
+          var tr = document.createElement("tr");
+
+          if (idx === 0) {
+            var tdRoot = document.createElement("td");
+            tdRoot.className = "root";
+            tdRoot.textContent = root;
+            tdRoot.rowSpan = countries.length;
+            tr.appendChild(tdRoot);
+          }
+
+          var country = countryGroup.country || "";
+          var codes = Array.isArray(countryGroup.codes) ? countryGroup.codes : [];
+          var domain = countryDomains[country] || "";
+
+          var tdCountry = document.createElement("td");
+          tdCountry.className = "country";
+          if (domain) {
+            var link = document.createElement("a");
+            link.className = "country-link";
+            link.href = domain;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = countryLabel(country);
+            tdCountry.appendChild(link);
+          } else {
+            var pill = document.createElement("span");
+            pill.className = "country-pill";
+            pill.textContent = countryLabel(country);
+            tdCountry.appendChild(pill);
+          }
+          tr.appendChild(tdCountry);
+
+          var tdCodes = document.createElement("td");
+          tdCodes.className = "codes";
+          var list = document.createElement("div");
+          list.className = "codes-list";
+
+          codes.forEach(function (code) {
+            var a = document.createElement("a");
+            a.className = "code-link";
+            a.textContent = code;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.href = buildCodeUrl(domain, root, code);
+            list.appendChild(a);
+          });
+
+          tdCodes.appendChild(list);
+
+          tr.appendChild(tdCodes);
+          tbody.appendChild(tr);
+        });
+      });
+
+      table.appendChild(tbody);
+      section.appendChild(table);
+      return section;
+    }
+
+    fetch("./manuals.json")
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status + " while loading JSON");
+        return res.json();
+      })
+      .then(function (data) {
+        var app = document.getElementById("app");
+        var countryDomains = data.country_domains || {};
+
+        app.appendChild(renderSection("Working", data.working_urls || [], countryDomains));
+
+        var status = document.getElementById("status");
+        status.textContent = "Loaded successfully from manuals.json";
+      })
+      .catch(function (err) {
+        var status = document.getElementById("status");
+        status.textContent = "Failed to load JSON: " + err.message;
+      });
+
+    setupAutoTheme();
+  </script>
+</body>
+</html>
