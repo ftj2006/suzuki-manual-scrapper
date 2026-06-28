@@ -1,4 +1,5 @@
 __pycache__
+_site
 .venv
 .pytest_cache
 .playwright-mcp
