@@ -237,7 +237,12 @@ if (typeof parent.init !== "undefined") {
 </xsl:variable>
 
 <xsl:element name="a">
-	<xsl:attribute name="href">javascript: toggle('<xsl:value-of select="$scid"/>')</xsl:attribute>
+	<xsl:attribute name="href">
+		<xsl:choose>
+			<xsl:when test="$scid='11'">javascript: toggle('11'); toggle('111')</xsl:when>
+			<xsl:otherwise>javascript: toggle('<xsl:value-of select="$scid"/>')</xsl:otherwise>
+		</xsl:choose>
+	</xsl:attribute>
 	<xsl:attribute name="title"><xsl:value-of select="../@i"/> &#8211; <xsl:value-of select="@t"/>
 	</xsl:attribute>
 			

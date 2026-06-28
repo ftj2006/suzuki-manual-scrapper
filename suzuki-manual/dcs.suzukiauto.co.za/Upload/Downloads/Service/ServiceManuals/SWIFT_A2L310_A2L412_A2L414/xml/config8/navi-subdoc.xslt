@@ -25,7 +25,7 @@
 </xsl:variable>
 
 <xsl:choose>
-	<xsl:when test="@i!='0'">
+	<xsl:when test="@i!='0' and normalize-space(@t)!=''">
 	<xsl:value-of select="$newline"/>
 		<xsl:element name="a">
 			<xsl:attribute name="href">javascript: toggle('<xsl:value-of select="$configid"/>')</xsl:attribute>
