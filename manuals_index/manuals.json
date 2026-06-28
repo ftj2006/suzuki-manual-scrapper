@@ -1,0 +1,90 @@
+{
+  "generated_at_utc": "2026-06-27T16:02:21.998726+00:00",
+  "description": "Minimal URL summary for brute-force discovery results.",
+  "notes": {
+    "standard_statuses": [
+      200,
+      403,
+      404
+    ],
+    "structure": [
+      "working_urls"
+    ],
+    "excluded_countries": [
+      "AT"
+    ],
+    "country_domains_field": "country_domains",
+    "root_group_fields": [
+      "root",
+      "countries"
+    ],
+    "country_group_fields": [
+      "country",
+      "codes"
+    ],
+    "codes_value_type": "string[]",
+    "codes_source": "derived from removed per-item url objects",
+    "url_field_removed": true
+  },
+  "country_domains": {
+    "AU": "https://dcs.suzuki.com.au",
+    "BE": "https://dcs.suzuki.be",
+    "CZ": "https://dcs.suzuki.cz",
+    "DE": "https://dcs.suzuki.de",
+    "ES": "https://dcs.suzuki.es",
+    "FR": "https://dcs.suzuki.fr",
+    "HU": "https://dcs.suzuki.hu",
+    "IN": "https://dcs.suzuki.co.in",
+    "IT": "https://dcs.suzuki.it",
+    "JP": "https://dcs.suzuki.co.jp",
+    "ME": "https://dcs.suzuki.me",
+    "NL": "https://dcs.suzuki.nl",
+    "PL": "https://dcs.suzuki.pl",
+    "SK": "https://dcs.suzuki.sk",
+    "UK": "https://dcs.suzuki.co.uk",
+    "ZA": "https://dcs.suzukiauto.co.za"
+  },
+  "working_urls": [
+    {
+      "root": "BREZZA",
+      "countries": [
+        {
+          "country": "ZA",
+          "codes": [
+            "AENLBA0C"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "IGNIS",
+      "countries": [
+        {
+          "country": "ZA",
+          "codes": [
+            "AENLJA0A"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "SWIFT_A2L310_A2L412_A2L414",
+      "countries": [
+        {
+          "country": "ZA",
+          "codes": [
+            "AENKSB0A",
+            "AENLSB0A",
+            "AENLSB0C"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "working_root_count": 3,
+    "working_code_count": 5,
+    "country_domain_count": 16,
+    "recovered_working_codes": 0
+  }
+}
