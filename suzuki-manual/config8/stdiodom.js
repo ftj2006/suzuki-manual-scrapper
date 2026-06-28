@@ -5,6 +5,7 @@
 // console.log("execute stdiodom.js global code.");
 var UI_lang;
 var xrefWin;
+var BASE_TAG = '<base href="./" />';
 
 String.prototype.endsWith = function(suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
@@ -454,6 +455,39 @@ XMLLoader.prototype.transform = function(xml, xslt, params) {
 XMLLoader.prototype.writeTo = function(toWindow, xml, xslt, param) {
 	var _doc = toWindow.document;
 	var _txt = this.transform(xml, xslt, param);
+	// Ensure the transformed HTML includes a <base> so relative URLs resolve
+	// against the document's base even if the parent page didn't have one
+	try {
+		if (!(/<base\s+href=/i).test(_txt)) {
+			_txt = _txt.replace(/(<head(?:\s[^>]*)?>)/i, '$1' + BASE_TAG + '\n');
+		}
+	} catch (e) {
+		// ignore injection errors and continue
+	}
+	// If we have access to the iframe element, prefer setting srcdoc or src
+	// to avoid using document.write which can cause base-resolution issues.
+	try {
+		var frameElem = toWindow.frameElement;
+		if (frameElem) {
+			if ('srcdoc' in frameElem) {
+				frameElem.srcdoc = _txt;
+				return;
+			} else {
+				// Fallback: create blob and set src
+				try {
+					var blob = new Blob([_txt], {type: 'text/html'});
+					var url = URL.createObjectURL(blob);
+					frameElem.onload = function() { try { URL.revokeObjectURL(url); } catch (e) {} };
+					frameElem.src = url;
+					return;
+				} catch (e) {
+					// blob unsupported; fall through to document.write
+				}
+			}
+		}
+	} catch (e) {
+		// cross-origin or other error; fall back to document.write
+	}
 	if (this.useDelayDisplay && this.isIE) { // 20140416-001-B, 20131225-003-E
 	window.setTimeout(function() {
 		_doc.open();

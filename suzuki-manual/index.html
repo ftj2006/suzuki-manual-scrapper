@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Local Suzuki Manual - v2</title>
+    <title>Local Suzuki Manual - v3</title>
     <style>
       :root { color-scheme: light; }
       html, body { height: 100%; margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f3f3f3; }
@@ -42,9 +42,22 @@
         </script>
   </head>
   <body>
-    <h1>This is me provising the site is loaded</h1>
-    <iframe class="ctl" name="CTL" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/ctl.html"></iframe>
-    <iframe class="top" name="TOP" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html"></iframe>
+    <!-- CTL and TOP iframes removed for simplified runtime; emulate minimal objects -->
+    <script>
+      // Provide a minimal CTL object expected by legacy scripts (language selector)
+      window.CTL = {
+        document: {
+          ctl: {
+            lang: { value: 'e' }
+          }
+        }
+      };
+      // Provide a minimal TOP object to satisfy references
+      window.TOP = {
+        document: document,
+        location: window.location
+      };
+    </script>
     <div class="content">
       <iframe class="nav" name="NAVI" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html"></iframe>
       <iframe class="main" name="MAIN" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html"></iframe>
