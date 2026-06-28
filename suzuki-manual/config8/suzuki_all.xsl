@@ -22,7 +22,7 @@ use="generate-id(preceding-sibling::condition[1])"/>
 <head>
 <title><xsl:value-of select="//servinfo/@servinfosgmlid"/></title>
 	<xsl:value-of select="$newline"/>
-	<script type="text/javascript">document.write('<base href="' + new URL('./', window.location.href).href + '" />');</script>
+	<base href="./" />
 	<xsl:value-of select="$newline"/>
 	<xsl:choose>
 		<xsl:when test="$UI_lang = 'jp'">
