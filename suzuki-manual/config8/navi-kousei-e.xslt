@@ -19,6 +19,7 @@
 	<xsl:value-of select="$newline"/>
 <head>
 <title>Contents Index</title>
+	<base href="./"/>
 	<xsl:value-of select="$newline"/>
 <link rel="stylesheet" href="../../config8/navi.css?v=20131107" type="text/css"/>
 	<xsl:value-of select="$newline"/>
