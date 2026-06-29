@@ -12,6 +12,22 @@ python scrape.py --start-url "https://dcs.suzukiauto.co.za/Upload/Downloads/Serv
 
 Then open [index.html](index.html) or serve the repo root with any static server.
 
+### Emulate GitHub Pages Locally
+
+To test URLs under `/suzuki-manual-scrapper/suzuki-manual/` without deploying, serve the parent folder of the repository:
+
+```bash
+./serve-github-pages-local.sh
+```
+
+Then open:
+
+```text
+http://localhost:8000/suzuki-manual-scrapper/suzuki-manual/index.html
+```
+
+Use that extended URL for local testing going forward. It matches the GitHub Pages project-path layout closely enough to catch root-relative asset issues locally, and the local server maps the repository path prefix back onto the working tree so the manual frames load with their original URLs.
+
 ## Staged URL Scanner (Recommended)
 
 Use the staged scanner to discover roots, probe model-relevant code patterns, cache results, and regenerate the clickable HTML output.
