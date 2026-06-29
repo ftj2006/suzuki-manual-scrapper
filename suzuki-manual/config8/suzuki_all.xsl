@@ -22,8 +22,6 @@ use="generate-id(preceding-sibling::condition[1])"/>
 <head>
 <title><xsl:value-of select="//servinfo/@servinfosgmlid"/></title>
 	<xsl:value-of select="$newline"/>
-	<base href="./" />
-	<xsl:value-of select="$newline"/>
 	<xsl:choose>
 		<xsl:when test="$UI_lang = 'jp'">
 			<link rel="stylesheet" href="../../config8/suzukimain_j.css?v=20131107" type="text/css"/>

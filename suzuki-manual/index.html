@@ -2,19 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Local Suzuki Manual - v2.2</title>
+    <title>Local Suzuki Manual</title>
     <style>
       :root { color-scheme: light; }
       html, body { height: 100%; margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f3f3f3; }
-      /* Use a single row so content fills the viewport when CTL/TOP are absent */
-      body { display: grid; grid-template-rows: 1fr; }
-      iframe { border: 0; display: block; width: 100%; height: 100%; background: white; }
+      body { display: grid; grid-template-rows: 56px 56px 1fr; }
+      iframe { border: 0; display: block; width: 100%; background: white; }
       .ctl { height: 56px; }
       .top { height: 56px; border-bottom: 1px solid #d0d0d0; }
-      /* Ensure the content container fills available space and allows children to stretch */
-      .content { display: grid; grid-template-columns: 320px minmax(0, 1fr); min-height: 0; height: 100%; }
-      .nav { min-width: 320px; height: 100%; border-right: 1px solid #d0d0d0; min-height: 0; }
-      .main { min-width: 0; height: 100%; min-height: 0; }
+      .content { display: grid; grid-template-columns: 320px minmax(0, 1fr); min-height: 0; }
+      .nav { min-width: 320px; height: 100%; border-right: 1px solid #d0d0d0; }
+      .main { min-width: 0; height: 100%; }
       @media (max-width: 960px) {
         .content { grid-template-columns: 1fr; }
         .nav { max-height: 35vh; border-right: 0; border-bottom: 1px solid #d0d0d0; }
@@ -44,21 +42,8 @@
         </script>
   </head>
   <body>
-    <script>
-      // Provide a minimal CTL object expected by legacy scripts (language selector)
-      window.CTL = {
-        document: {
-          ctl: {
-            lang: { value: 'e' }
-          }
-        }
-      };
-      // Provide a minimal TOP object to satisfy references
-      window.TOP = {
-        document: document,
-        location: window.location
-      };
-    </script>
+    <iframe class="ctl" name="CTL" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/ctl.html"></iframe>
+    <iframe class="top" name="TOP" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html"></iframe>
     <div class="content">
       <iframe class="nav" name="NAVI" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html"></iframe>
       <iframe class="main" name="MAIN" src="dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html"></iframe>

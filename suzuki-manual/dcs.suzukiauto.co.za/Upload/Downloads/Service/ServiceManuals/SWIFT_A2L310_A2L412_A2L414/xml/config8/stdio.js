@@ -244,8 +244,8 @@ function toggle(id) {
 		if (visible) {
 			objBlock.style.display="none";
 			objImg.src="../../icon/closed.gif";
-			var divs = objBlock.getElementsByTagName("div");
-			for (var i=0;i<divs.length;i++) {
+			divs=parent.NAVI.objBlock.getElementsByTagName("div")
+			for (i=0;i<divs.length;i++) {
 				if (divs[i].id.substr(0,3)=="blk") {
 					divs[i].style.display="none";
 				}
@@ -262,11 +262,7 @@ function toggle(id) {
 
 			if (id.length==2) {
 				if (objBlock.getElementsByTagName("div").length==0) {
-					try {
-						objBlock.innerHTML = parent.TOP.getInnerNaviHtml(id);
-					} catch (e) {
-						try { console.error('stdio.toggle: parent.TOP.getInnerNaviHtml not available; caller:', (window && window.location) ? window.location.href : '<unknown>'); } catch (e2) {}
-					}
+					objBlock.innerHTML=parent.TOP.getInnerNaviHtml(id);
 				}
 			}
 		}
