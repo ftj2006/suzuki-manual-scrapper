@@ -438,6 +438,8 @@ XMLLoader.prototype.transform = function(xml, xslt, params) {
 			restxt = rule.doTrans(restxt, parent.CTL.document.ctl.lang.value);
 		}
 	}
+	// Legacy XML pages still reference a GIF variant that is not present in the mirrored tree.
+	restxt = restxt.replace(/intxreftitleoff\.gif/gi, "intxreftitleoff.png");
 	return restxt;
 }
 
