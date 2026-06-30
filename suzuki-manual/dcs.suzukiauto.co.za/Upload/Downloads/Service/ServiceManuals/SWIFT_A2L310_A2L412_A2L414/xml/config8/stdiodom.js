@@ -440,6 +440,9 @@ XMLLoader.prototype.transform = function(xml, xslt, params) {
 	}
 	// Legacy XML pages still reference a GIF variant that is not present in the mirrored tree.
 	restxt = restxt.replace(/intxreftitleoff\.gif/gi, "intxreftitleoff.png");
+	// A small subset of pages points at missing JPGs while SVG variants exist.
+	restxt = restxt.replace(/ILSB0A010007\.jpg/gi, "ILSB0A010007.svg");
+	restxt = restxt.replace(/IGSB0A010009\.jpg/gi, "IGSB0A010009.svg");
 	return restxt;
 }
 
@@ -460,13 +463,81 @@ function __injectBaseHref(htmlText, baseHref) {
 	return '<head><base href="' + baseHref + '"></head>' + htmlText;
 }
 
+function __assetRootFromBaseHref(baseHref) {
+	if (!baseHref) {
+		return null;
+	}
+	try {
+		return (new URL('../../', baseHref)).href;
+	} catch (e) {
+		var trimmed = String(baseHref).replace(/[?#].*$/, '');
+		if (!/\/$/.test(trimmed)) {
+			trimmed = trimmed.replace(/[^\/]*$/, '');
+		}
+		return trimmed + '../../';
+	}
+}
+
+function __rewriteRootAssetPaths(htmlText, baseHref) {
+	if (!htmlText || !baseHref) {
+		return htmlText;
+	}
+	var assetRoot = __assetRootFromBaseHref(baseHref);
+	if (!assetRoot) {
+		return htmlText;
+	}
+	// Rewrite root-absolute runtime asset URLs so they stay under the project path.
+	htmlText = htmlText.replace(
+		/(\b(?:src|href|data)\s*=\s*["'])\/(image|icon|symbol|config8)\//gi,
+		'$1' + assetRoot + '$2/'
+	);
+	htmlText = htmlText.replace(
+		/(\b(?:src|href|data)\s*=\s*["'])(?:\.\.\/)+(image|icon|symbol|config8)\//gi,
+		'$1' + assetRoot + '$2/'
+	);
+	htmlText = htmlText.replace(
+		/(url\(\s*["']?)\/(image|icon|symbol|config8)\//gi,
+		'$1' + assetRoot + '$2/'
+	);
+	htmlText = htmlText.replace(
+		/(url\(\s*["']?)(?:\.\.\/)+(image|icon|symbol|config8)\//gi,
+		'$1' + assetRoot + '$2/'
+	);
+	return htmlText;
+}
+
+function __injectImageExtensionFallback(htmlText) {
+	if (!htmlText || /data-image-fallback=\"1\"/i.test(htmlText)) {
+		return htmlText;
+	}
+	var fallbackScript = '<script data-image-fallback="1">(function(){if(window.__imgExtFallbackBound){return;}window.__imgExtFallbackBound=true;var root=(function(){try{var p=(window.top&&window.top.location&&window.top.location.pathname)||window.location.pathname||"/";return p.replace(/\\/[^\\/]*$/,"/");}catch(e){return "/";}})();document.addEventListener("error",function(ev){var el=ev&&ev.target;if(!el||String(el.tagName).toUpperCase()!=="IMG"){return;}var src=el.getAttribute("src")||"";if(!src){return;}var abs;try{abs=new URL(src,document.baseURI);}catch(e){abs=null;}if(abs&&el.getAttribute("data-path-fallback")!=="1"){var m=abs.pathname.match(/\\/image\\/.+$/i);if(m){el.setAttribute("data-path-fallback","1");el.setAttribute("src",root+m[0].replace(/^\\//,""));return;}}var stage=el.getAttribute("data-ext-fallback")||"";if(/\\.jpg(?=([?#]|$))/i.test(src)&&stage!=="jpeg"){el.setAttribute("data-ext-fallback","jpeg");el.setAttribute("src",src.replace(/\\.jpg(?=([?#]|$))/i,".jpeg"));return;}if(/\\.jpe?g(?=([?#]|$))/i.test(src)&&stage!=="svg"){el.setAttribute("data-ext-fallback","svg");el.setAttribute("src",src.replace(/\\.jpe?g(?=([?#]|$))/i,".svg"));}},true);})();</script>';
+	if (/<head\b[^>]*>/i.test(htmlText)) {
+		return htmlText.replace(/<head\b[^>]*>/i, function(match) {
+			return match + fallbackScript;
+		});
+	}
+	if (/<html\b[^>]*>/i.test(htmlText)) {
+		return htmlText.replace(/<html\b[^>]*>/i, function(match) {
+			return match + '<head>' + fallbackScript + '</head>';
+		});
+	}
+	return '<head>' + fallbackScript + '</head>' + htmlText;
+}
+
 XMLLoader.prototype.writeTo = function(toWindow, xml, xslt, param) {
 	var _doc = toWindow.document;
 	var _txt = this.transform(xml, xslt, param);
-	var _baseHref = toWindow.location && toWindow.location.href ? toWindow.location.href : null;
+	_txt = __injectImageExtensionFallback(_txt);
+	var _baseHref = null;
+	if (this.win && this.win.location && this.win.location.href && this.win.location.href.indexOf("about:") !== 0) {
+		_baseHref = this.win.location.href;
+	} else if (toWindow.location && toWindow.location.href) {
+		_baseHref = toWindow.location.href;
+	}
 	if (_baseHref && _baseHref.indexOf("about:") !== 0) {
 		_baseHref = _baseHref.replace(/[?#].*$/, "");
 		_baseHref = _baseHref.replace(/[^\/]*$/, "");
+		_txt = __rewriteRootAssetPaths(_txt, _baseHref);
 		_txt = __injectBaseHref(_txt, _baseHref);
 	}
 	if (this.useDelayDisplay && this.isIE) { // 20140416-001-B, 20131225-003-E
