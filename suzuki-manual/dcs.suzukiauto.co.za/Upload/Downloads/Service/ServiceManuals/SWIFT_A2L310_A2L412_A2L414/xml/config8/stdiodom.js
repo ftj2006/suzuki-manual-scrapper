@@ -441,9 +441,32 @@ XMLLoader.prototype.transform = function(xml, xslt, params) {
 	return restxt;
 }
 
+function __injectBaseHref(htmlText, baseHref) {
+	if (!htmlText || !baseHref || /<base\b/i.test(htmlText)) {
+		return htmlText;
+	}
+	if (/<head\b[^>]*>/i.test(htmlText)) {
+		return htmlText.replace(/<head\b[^>]*>/i, function(match) {
+			return match + '<base href="' + baseHref + '">';
+		});
+	}
+	if (/<html\b[^>]*>/i.test(htmlText)) {
+		return htmlText.replace(/<html\b[^>]*>/i, function(match) {
+			return match + '<head><base href="' + baseHref + '"></head>';
+		});
+	}
+	return '<head><base href="' + baseHref + '"></head>' + htmlText;
+}
+
 XMLLoader.prototype.writeTo = function(toWindow, xml, xslt, param) {
 	var _doc = toWindow.document;
 	var _txt = this.transform(xml, xslt, param);
+	var _baseHref = toWindow.location && toWindow.location.href ? toWindow.location.href : null;
+	if (_baseHref && _baseHref.indexOf("about:") !== 0) {
+		_baseHref = _baseHref.replace(/[?#].*$/, "");
+		_baseHref = _baseHref.replace(/[^\/]*$/, "");
+		_txt = __injectBaseHref(_txt, _baseHref);
+	}
 	if (this.useDelayDisplay && this.isIE) { // 20140416-001-B, 20131225-003-E
 	window.setTimeout(function() {
 		_doc.open();
