@@ -18,61 +18,157 @@
           window.location.replace("./manuals-index/index.html");
         }
       })();
+
+      function applyTheme(theme) {
+        document.body.setAttribute("data-theme", theme);
+      }
+
+      function setupAutoTheme() {
+        if (!window.matchMedia) {
+          applyTheme("dark");
+          return;
+        }
+
+        var media = window.matchMedia("(prefers-color-scheme: dark)");
+        var syncTheme = function () {
+          applyTheme(media.matches ? "dark" : "light");
+        };
+
+        syncTheme();
+
+        if (typeof media.addEventListener === "function") {
+          media.addEventListener("change", syncTheme);
+        } else if (typeof media.addListener === "function") {
+          media.addListener(syncTheme);
+        }
+      }
     </script>
     <style>
+      :root {
+        --bg: #f7f7f2;
+        --card: #ffffff;
+        --ink: #1d2a1f;
+        --muted: #5e6d61;
+        --line: #d7ded8;
+        --accent: #1f6f43;
+        --accent-soft: #e7f3eb;
+        --action-ink: #0e5e37;
+        --action-border: #b9d5c2;
+        --action-bg: #eef8f1;
+        --action-bg-hover: #dff2e6;
+        --action-border-hover: #94bfa1;
+        --shadow: 0 10px 30px rgba(16, 32, 20, 0.06);
+      }
+
+      body[data-theme="dark"] {
+        --bg: #111714;
+        --card: #18201c;
+        --ink: #e5f0e8;
+        --muted: #9fb0a4;
+        --line: #2a3931;
+        --accent: #5cbc83;
+        --accent-soft: #1e2f26;
+        --action-ink: #8bd3a8;
+        --action-border: #3f6a52;
+        --action-bg: #1f3228;
+        --action-bg-hover: #274032;
+        --action-border-hover: #5c9875;
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.34);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       html, body {
         height: 100%;
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #f4f4f4;
-        color: #1f1f1f;
       }
+
+      body {
+        margin: 0;
+        font-family: "Source Sans 3", "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
       main {
         min-height: 100%;
         display: grid;
         place-items: center;
         padding: 24px;
-        box-sizing: border-box;
       }
+
       .card {
         width: min(560px, 100%);
-        background: white;
-        border: 1px solid #d8d8d8;
-        border-radius: 16px;
-        padding: 28px;
-        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 26px;
+        box-shadow: var(--shadow);
       }
+
       h1 {
-        margin: 0 0 12px;
-        font-size: 1.6rem;
+        margin: 0 0 10px;
+        font-size: 1.9rem;
+        letter-spacing: 0.02em;
       }
+
       p {
-        margin: 0 0 14px;
+        margin: 0 0 10px;
         line-height: 1.5;
+        color: var(--muted);
       }
+
+      .hint {
+        margin-top: 2px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px dashed var(--line);
+        background: linear-gradient(90deg, var(--accent-soft), transparent);
+        color: var(--ink);
+      }
+
       .actions {
         display: grid;
-        gap: 10px;
-        margin-top: 8px;
+        gap: 8px;
+        margin-top: 14px;
       }
+
       .actions a {
         display: block;
         text-decoration: none;
-        color: #0f4c81;
-        border: 1px solid #b8c7d4;
-        background: #f8fbff;
+        color: var(--action-ink);
+        border: 1px solid var(--action-border);
+        background: var(--action-bg);
         padding: 12px 14px;
-        border-radius: 10px;
+        border-radius: 8px;
         font-weight: 700;
       }
+
       .actions a:hover {
-        background: #eef5ff;
+        background: var(--action-bg-hover);
+        border-color: var(--action-border-hover);
       }
+
       .actions small {
         display: block;
         margin-top: 4px;
         font-weight: 400;
-        color: #4a5560;
+        color: var(--muted);
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding: 14px;
+        }
+
+        .card {
+          padding: 18px;
+        }
+
+        h1 {
+          font-size: 1.55rem;
+        }
       }
     </style>
   </head>
@@ -81,7 +177,7 @@
       <div class="card">
         <h1>Suzuki Manual Hub</h1>
         <p>Select where to start from the repository base.</p>
-        <p>Optional shortcuts: <strong>?go=manual</strong> or <strong>?go=index</strong>.</p>
+        <p class="hint">Optional shortcuts: <strong>?go=manual</strong> or <strong>?go=index</strong>.</p>
         <div class="actions">
           <a href="./suzuki-manual/index.html">
             Open Manual Viewer
@@ -94,5 +190,8 @@
         </div>
       </div>
     </main>
+    <script>
+      setupAutoTheme();
+    </script>
   </body>
 </html>
