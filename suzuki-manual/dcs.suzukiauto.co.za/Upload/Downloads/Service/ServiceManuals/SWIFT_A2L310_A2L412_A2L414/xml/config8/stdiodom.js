@@ -529,7 +529,9 @@ XMLLoader.prototype.writeTo = function(toWindow, xml, xslt, param) {
 	var _txt = this.transform(xml, xslt, param);
 	_txt = __injectImageExtensionFallback(_txt);
 	var _baseHref = null;
-	if (this.win && this.win.location && this.win.location.href && this.win.location.href.indexOf("about:") !== 0) {
+	if (window.location && window.location.href && window.location.href.indexOf("about:") !== 0) {
+		_baseHref = window.location.href;
+	} else if (this.win && this.win.location && this.win.location.href && this.win.location.href.indexOf("about:") !== 0) {
 		_baseHref = this.win.location.href;
 	} else if (toWindow.location && toWindow.location.href) {
 		_baseHref = toWindow.location.href;
