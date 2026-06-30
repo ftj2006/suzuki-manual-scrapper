@@ -288,7 +288,47 @@ function SendFunctionCode(code) {
 	}
 }
 
+function bindOfflineNavigationHandler() {
+	var navDoc;
+	try {
+		navDoc = parent.NAVI && parent.NAVI.document;
+	} catch (e) {
+		return false;
+	}
+	if (!navDoc || navDoc.__offlineMainLinkHandlerBound) {
+		return !!navDoc;
+	}
+	navDoc.addEventListener('click', function(event) {
+		var node = event.target;
+		while (node && node.nodeType === 1 && node.tagName !== 'A') {
+			node = node.parentNode;
+		}
+		if (!node || node.tagName !== 'A' || node.getAttribute('target') !== 'MAIN') {
+			return;
+		}
+		var href = node.getAttribute('href') || '';
+		if (!href || href.charAt(0) === '#' || /^javascript:/i.test(href)) {
+			return;
+		}
+		var match = href.match(/(?:^|\/)([^\/?#]+)\.(xml|htm|html)(?:[?#].*)?$/i);
+		if (!match) {
+			return;
+		}
+		event.preventDefault();
+		loadSIE(match[1], null);
+	}, true);
+	navDoc.__offlineMainLinkHandlerBound = true;
+	return true;
+}
+
+var offlineNavigationBindTimer = window.setInterval(function() {
+	if (bindOfflineNavigationHandler()) {
+		window.clearInterval(offlineNavigationBindTimer);
+	}
+}, 250);
+
 function loadSIE(id,back) { 
+	bindOfflineNavigationHandler();
 	var backlist = parent.CTL.document.ctl.backlist;
 	var fwdlist = parent.CTL.document.ctl.fwdlist;
 	var UI_lang = parent.CTL.document.ctl.lang.value;

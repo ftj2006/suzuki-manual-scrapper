@@ -933,6 +933,25 @@ function toggle(id) {
   block.style.display = block.style.display === 'none' ? '' : 'none';
   return false;
 }
+document.addEventListener('click', function(event) {
+    var node = event.target;
+    while (node && node.nodeType === 1 && node.tagName !== 'A') {
+        node = node.parentNode;
+    }
+    if (!node || node.tagName !== 'A' || node.getAttribute('target') !== 'MAIN') {
+        return;
+    }
+    var href = node.getAttribute('href') || '';
+    if (!href || href.charAt(0) === '#' || /^javascript:/i.test(href)) {
+        return;
+    }
+    var match = href.match(/(?:^|\\/)([^\\/?#]+)\.(xml|htm|html)(?:[?#].*)?$/i);
+    if (!match || !parent || !parent.TOP || typeof parent.TOP.loadSIE !== 'function') {
+        return;
+    }
+    event.preventDefault();
+    parent.TOP.loadSIE(match[1], null);
+}, true);
 </script>
 """
     fragment = BeautifulSoup(script, "html.parser")
