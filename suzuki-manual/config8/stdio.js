@@ -11,10 +11,14 @@ ChildWindow.prototype.open = function(url, contents, newwin_func, staywin_func) 
 	} catch(e) {}
 	if (!isReady) {
 		var tmpwin = this.owner.open(url, this.name, this.opt);
+		if (!tmpwin) {
+			this.childwin = undefined;
+			return undefined;
+		}
 		try {
 			tmpwin.opener.location; //test
 		} catch(e) {
-			tmpwin.close();
+			try { tmpwin.close(); } catch (ignore) {}
 			this.childwin = undefined;
 			return undefined;
 		}
@@ -36,10 +40,14 @@ ChildWindow.prototype.open2 = function(url){
 	} catch(e) {}
 	if (!isReady) {
 		var tmpwin = this.owner.open(url, this.name, this.opt);
+		if (!tmpwin) {
+			this.childwin = undefined;
+			return undefined;
+		}
 		try {
 			tmpwin.opener.location; //test
 		} catch(e) {
-			tmpwin.close();
+			try { tmpwin.close(); } catch (ignore) {}
 			this.childwin = undefined;
 			return undefined;
 		}
@@ -521,6 +529,31 @@ function jumpToAnchor() {
 
 function expandImage(path,gtype) {
 //	alert(path);
+	function projectRootPath() {
+		try {
+			var p = (window.top && window.top.location && window.top.location.pathname) || window.location.pathname || "/";
+			return p.replace(/\/[^\/]*$/, "/");
+		} catch (e) {
+			return "/";
+		}
+	}
+	function normalizeImagePath(rawPath) {
+		try {
+			var abs = new URL(rawPath, document.baseURI || window.location.href);
+			var m = abs.pathname.match(/\/image\/.+$/i);
+			if (m) {
+				var root = projectRootPath();
+				return new URL(root + m[0].replace(/^\//, ""), abs.origin).href;
+			}
+			return abs.href;
+		} catch (e) {
+			return rawPath;
+		}
+	}
+	function popupImageFallbackScript() {
+		return '<script>(function(){document.addEventListener("error",function(ev){var el=ev&&ev.target;if(!el||String(el.tagName).toUpperCase()!=="IMG"){return;}var src=el.getAttribute("src")||"";var stage=el.getAttribute("data-ext-fallback")||"";if(/\\.jpg(?=([?#]|$))/i.test(src)&&stage!=="jpeg"){el.setAttribute("data-ext-fallback","jpeg");el.setAttribute("src",src.replace(/\\.jpg(?=([?#]|$))/i,".jpeg"));return;}if(/\\.jpe?g(?=([?#]|$))/i.test(src)&&stage!=="svg"){el.setAttribute("data-ext-fallback","svg");el.setAttribute("src",src.replace(/\\.jpe?g(?=([?#]|$))/i,".svg"));}},true);})();<\/script>';
+	}
+	var resolvedPath = normalizeImagePath(path);
 // set window features
 	if (gtype=="svg") {
 		var feats="menubar=yes,toolbar=no,locationbar=no,statusbar=no,scrollbars=no,width=600,height=600,resizable=yes";
@@ -536,14 +569,14 @@ function expandImage(path,gtype) {
 	}
 	var imgWin = new ChildWindow(motherwindow, "ImageWindow", feats);
 src = '<html>';
-src += '<head><title>Expand Image Window</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>';
+src += '<head><title>Expand Image Window</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><base href="' + (document.baseURI || window.location.href) + '">' + popupImageFallbackScript() + '</head>';
 src += '<body>';
 if (gtype=="svg") {
-src += '<object type="image/svg+xml" height="100%" width="100%" data="' + path + '">';
-src += '<embed src="' + path + '" type="image/svg+xml" height="100%" width="100%"></embed></object>';
+src += '<object type="image/svg+xml" height="100%" width="100%" data="' + resolvedPath + '">';
+src += '<embed src="' + resolvedPath + '" type="image/svg+xml" height="100%" width="100%"></embed></object>';
 		
 	} else {
-		src += '<img src="' + path + '" width="100%">';
+		src += '<img src="' + resolvedPath + '" width="100%">';
 	}
 src += '</body>';
 src += '</html>';
