@@ -38,7 +38,9 @@ Agent handover notes are in [HANDOVER.md](HANDOVER.md).
 
 ## GitHub Pages Deployment
 
-The repository root includes a static entry page that redirects to [suzuki-manual/index.html](suzuki-manual/index.html). The `.nojekyll` file ensures GitHub Pages serves the mirrored asset tree as-is.
+The repository root includes a static hub page with direct links to [suzuki-manual/index.html](suzuki-manual/index.html) and [manuals-index/index.html](manuals-index/index.html). The `.nojekyll` file ensures GitHub Pages serves the mirrored asset tree as-is.
+
+For direct entry links from the base page, use `?go=manual` or `?go=index` on the repository root URL.
 
 If you stage manually, use `cp -RL` or `rsync -aL` instead of plain `cp -R` so symlinks are dereferenced.
 
