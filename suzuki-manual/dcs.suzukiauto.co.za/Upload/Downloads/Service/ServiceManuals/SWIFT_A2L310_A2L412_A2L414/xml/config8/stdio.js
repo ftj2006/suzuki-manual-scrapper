@@ -439,9 +439,10 @@ function pageload(page) {\
 var basewindow = opener.parent;\
 var loader = basewindow.TOP.xmlloader;\
 var UI_lang = basewindow.CTL.document.ctl.lang.value;\
-var htmltxt = loader.transform(page,  "../../config8/suzuki_all.xsl", {"UI_lang": UI_lang, "ManualLinkage": loader.enableManualLinkage});\
-XREFMAIN.document.write(htmltxt);\
-XREFMAIN.document.close();\
+var baseHref = basewindow.TOP.location.href.replace(/[?#].*$/, "").replace(/[^\\/]*$/, "");\
+var pageUrl = new URL(page, baseHref).href;\
+var xslUrl = new URL("../../config8/suzuki_all.xsl", baseHref).href;\
+loader.writeTo(XREFMAIN, pageUrl, xslUrl, {"UI_lang": UI_lang, "ManualLinkage": loader.enableManualLinkage});\
 file = page;\
 }\
 </script>\
@@ -762,7 +763,10 @@ htmlMain="";
 	if (file!="") {
 		var UI_lang = parent.opener.parent.CTL.document.ctl.lang.value;
 		var loader = motherwindow.parent.TOP.xmlloader;
-		loader.writeTo(parent.XREFMAIN, file, "../../config8/suzuki_all.xsl", {"UI_lang": UI_lang, "ManualLinkage": loader.enableManualLinkage});
+		var baseHref = motherwindow.parent.TOP.location.href.replace(/[?#].*$/, "").replace(/[^\/]*$/, "");
+		var pageUrl = new URL(file, baseHref).href;
+		var xslUrl = new URL("../../config8/suzuki_all.xsl", baseHref).href;
+		loader.writeTo(parent.XREFMAIN, pageUrl, xslUrl, {"UI_lang": UI_lang, "ManualLinkage": loader.enableManualLinkage});
 	}
 }
 

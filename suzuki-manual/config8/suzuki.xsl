@@ -32,7 +32,7 @@ use="generate-id(preceding-sibling::condition[1])"/>
 <script type="text/javascript">
 var UI_lang = "<xsl:value-of select="$UI_lang"/>";
 </script>
-<script type="text/javascript" src="../config8/stdio.js?v=1.7"></script>
+<script type="text/javascript" src="../config8/stdio.js?v=1.8"></script>
 	<xsl:value-of select="$newline"/>
 </head>
 <body onload="fixImgWidth()" onresize="dragEnd()">
