@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA114008" svcinfotypenbr = "06" svcinfoqualnbr = "04" supplyoff = "1" modify = "0">
+<title>
+Cruise Control System Symptom Diagnosis
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Perform cruise control system check referring to 
+<intxref refid = "AENLSB0AA114001">Cruise Control System Check:Cruise Control</intxref>
+ before performing this Cruise Control System Symptom Diagnosis.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check each part in the order from the top of the following list.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition" id = "AENLSB0AA114008001">
+<condition>
+<ptxt>
+“CRUISE” or “SET” indicator does not turn ON or OFF
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Lighting or blinking MIL
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA114003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CRUISE (main) switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CRUISE (main) switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty SET/– switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check SET/– switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty RES/+ switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check RES/+ switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CANCEL switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CANCEL switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CPP switch (M/T model)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CPP switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty brake light switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check brake light switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty combination meter
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check combination meter. 
+<intxreftitleoff1 refid = "AENLSB0A9304015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Vehicle speed cannot be set
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty CRUISE (main) switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CRUISE (main) switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty SET/– switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check SET/– switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty brake light switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check brake light switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CPP switch (M/T model)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CPP switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Acceleration or deceleration is not available by operating RES/+ or SET/– switch
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty RES/+ or SET/– switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check RES/+ or SET/– switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Cruise control system cannot be canceled
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty CANCEL switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CANCEL switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty brake light switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check brake light switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CPP switch (M/T model)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check CPP switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Cruise control at vehicle speed stored in memory cannot be resumed after cruise control was canceled by means other than CRUISE (main) switch
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty RES/+ switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check RES/+ switch. 
+<intxreftitleoff1 refid = "AENLSB0AA116001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

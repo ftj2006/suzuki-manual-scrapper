@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA404026" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+DTC U0140
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AA824003">Troubleshooting for Lost Communication:CAN (K14D Model)</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

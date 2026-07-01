@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0B">
+<servcat sctnbr = "00" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A0206032" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Manual Transaxle Oil Inspection (M/T Model)
+</title>
+<ptxt>
+Check transaxle oil for leakage, contamination and level.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K10C model and K12C-4WD model: 
+<intxreftitleoff1 refid = "AENKSB0A5216001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12C-2WD model and K12M model: 
+<intxreftitleoff1 refid = "AENKSB0A5226001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENKSB0A5236001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

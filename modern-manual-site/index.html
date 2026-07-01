@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual Viewer Next</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <h1>Manual Viewer Next</h1>
+          <p>Modern frame-free XML manual reader</p>
+        </div>
+        <div class="topbar-actions">
+          <label class="field">
+            <span>Dataset</span>
+            <select id="datasetSelect"></select>
+          </label>
+          <button id="themeToggle" class="button secondary" type="button">Theme</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <div class="sidebar-header">
+            <h2>Tree</h2>
+            <input id="treeFilter" type="search" placeholder="Filter files..." />
+          </div>
+          <nav id="tree" class="tree" aria-label="Manual file tree"></nav>
+        </aside>
+
+        <section class="content">
+          <article id="viewer" class="viewer empty">
+            <h2>Select a file from the tree</h2>
+            <p>The selected XML file will render here as a modern document view.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js?v=2"></script>
+  </body>
+</html>

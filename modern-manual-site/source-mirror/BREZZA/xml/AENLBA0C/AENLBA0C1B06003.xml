@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1K">
+<servcat sctnbr = "01" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C1B06003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Exhaust Manifold Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLBA0C1B06002">Exhaust Manifold Removal and Installation</intxrefpoff>
+</ptxt>
+<ptxt>
+Using straightedge and feeler gauge, check gasket surface for distortion. If distortion exceeds its limit, repair it.
+</ptxt>
+<ptxt>
+If repair is not possible, replace exhaust manifold.
+</ptxt>
+<spec>
+<title>
+Distortion of exhaust manifold [a] – [e]
+</title>
+<ptxt>
+Limit: 0.3 mm (0.012 in.)
+</ptxt>
+</spec>
+<spec>
+<title>
+Distortion of exhaust manifold [f] – [i]
+</title>
+<ptxt>
+Limit: 0.7 mm (0.028 in.)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "IFKA0P1B0005.jpg" width = "88.000mm" height = "32.640mm" ver = "01" gw = "217" gh = "76"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

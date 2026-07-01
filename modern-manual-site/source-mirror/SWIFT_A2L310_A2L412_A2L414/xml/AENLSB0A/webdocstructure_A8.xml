@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Communication System">
+<c i="1" t="CAN (K14C Model)">
+<t s="0" t="Precautions">
+<s i="AENLSB0AA810001" t="Precautions for Diagnosing Trouble">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0AA811001" t="Communication System Description">
+</s>
+<s i="AENLSB0AA811002" t="CAN Communication System Diagnosis General Description">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0AA812001" t="CAN Communication System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0AA813001" t="CAN Communication System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0AA814001" t="CAN Communication Check">
+</s>
+<s i="AENLSB0AA814002" t="CAN DTC (Lost Communication and Communication Bus Off) Table">
+</s>
+<s i="AENLSB0AA814003" t="Troubleshooting for Lost Communication">
+</s>
+<s i="AENLSB0AA814004" t="Troubleshooting for Communication Bus Off">
+</s>
+<s i="AENLSB0AA814005" t="Communication Check">
+</s>
+<s i="AENLSB0AA814006" t="Judgement of Communication Bus Check">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0AA818001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="CAN (K14D Model)">
+<t s="0" t="Precautions">
+<s i="AENLSB0AA820001" t="Precautions for Diagnosing Trouble">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0AA821001" t="Communication System Description">
+</s>
+<s i="AENLSB0AA821002" t="CAN Communication System Diagnosis General Description">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0AA822001" t="CAN Communication System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0AA823001" t="CAN Communication System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0AA824001" t="CAN Communication Check">
+</s>
+<s i="AENLSB0AA824002" t="CAN DTC (Lost Communication and Communication Bus Off) Table">
+</s>
+<s i="AENLSB0AA824003" t="Troubleshooting for Lost Communication">
+</s>
+<s i="AENLSB0AA824004" t="Troubleshooting for Communication Bus Off">
+</s>
+<s i="AENLSB0AA824005" t="Communication Check">
+</s>
+<s i="AENLSB0AA824006" t="Judgement of Communication Bus Check">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0AA828001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="3" t="CAN (Central Gateway)">
+<t s="0" t="Precautions">
+<s i="AENLSB0AA830001" t="Precautions for Diagnosing Trouble">
+</s>
+<s i="AENLSB0AA830002" t="Precautions for Replacing Central Gateway Control Module">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENLSB0AA832001" t="Central Gateway Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENLSB0AA833001" t="CAN Communication System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0AA834001" t="Central Gateway Control System Check">
+</s>
+<s i="AENLSB0AA834002" t="Central Gateway Control Module Self-Diagnosis Function">
+</s>
+<s i="AENLSB0AA834003" t="DTC Check">
+</s>
+<s i="AENLSB0AA834004" t="DTC Clearance">
+</s>
+<s i="AENLSB0AA834005" t="DTC Table">
+</s>
+<s i="AENLSB0AA834006" t="Scan Tool Data">
+</s>
+<s i="AENLSB0AA834007" t="DTC B1140-04 / B1141-04 / B1142-04">
+</s>
+<s i="AENLSB0AA834008" t="DTC B1150-16 / B1150-17">
+</s>
+<s i="AENLSB0AA834009" t="DTC U0073-88">
+</s>
+<s i="AENLSB0AA834010" t="DTC U0075-88">
+</s>
+<s i="AENLSB0AA834021" t="DTC U0077-88">
+</s>
+<s i="AENLSB0AA834011" t="DTC U0100-87">
+</s>
+<s i="AENLSB0AA834012" t="DTC U0101-87">
+</s>
+<s i="AENLSB0AA834013" t="DTC U0121-87">
+</s>
+<s i="AENLSB0AA834014" t="DTC U0126-87">
+</s>
+<s i="AENLSB0AA834015" t="DTC U0140-87">
+</s>
+<s i="AENLSB0AA834016" t="DTC U0151-87">
+</s>
+<s i="AENLSB0AA834017" t="DTC U0155-87">
+</s>
+<s i="AENLSB0AA834018" t="DTC U1096-87">
+</s>
+<s i="AENLSB0AA834020" t="Inspection of Central Gateway Control Module and Its Circuits">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0AA836001" t="Central Gateway Control Module Removal and Installation">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0AA837001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0AA838001" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0A">
+<servcat sctnbr = "00" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENKSB0A0101008" svcinfotypenbr = "02" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Vehicle Identification Number
+</title>
+<ptxt>
+The number (1) is inscribed on the right dash side of front panel in engine compartment.
+</ptxt>
+<ptxt>
+The number (2) is also attached on the left side of cowl top panel depending on vehicle specification.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A010010.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+<ptxt>
+The label (3) inscribed with the number is also attached on rear floor panel depending on vehicle specification.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A010011.jpg" width = "88.000mm" height = "55.615mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+<ptxt>
+The label (4) inscribed with the number is also attached on CVT assembly depending on vehicle specification.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A010012.jpg" width = "88.000mm" height = "50.958mm" ver = "01" gw = "139" gh = "128"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

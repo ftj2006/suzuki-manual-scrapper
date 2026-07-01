@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0A">
+<servcat sctnbr = "00" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLJA0A0101009" svcinfotypenbr = "02" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Identification Plate
+</title>
+<ptxt>
+Identification plate (1) is installed at the center pillar lower side on the right or left side body outer panel.
+</ptxt>
+<ptxt>
+The identification plate has the following information:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+VIN (2)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle type (3)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine type (4)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Color code (5)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Model code (6) including the model information shown in 
+<intxref refid = "AENLJA0A0101009001">Model Code Description</intxref>
+below.
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A010008.swf" width = "88.000mm" height = "71.776mm" ver = "01" gw = "218" gh = "187"/>
+</figure>
+<figure>
+<title>
+Type A
+</title>
+<graphic graphicname = "IGJA0A010009.swf" width = "88.000mm" height = "34.364mm" ver = "01" gw = "152" gh = "81"/>
+</figure>
+<figure>
+<title>
+Type B
+</title>
+<graphic graphicname = "IGJA0A010010.swf" width = "88.000mm" height = "37.073mm" ver = "01" gw = "131" gh = "89"/>
+</figure>
+<figure>
+<title>
+Type C
+</title>
+<graphic graphicname = "IGJA0A010011.swf" width = "88.000mm" height = "37.327mm" ver = "01" gw = "151" gh = "89"/>
+</figure>
+</item>
+</list1>
+<servinfosub id = "AENLJA0A0101009001">
+<title>
+Model Code Description
+</title>
+<ptxt>
+The composition of the model code and the description of each digit are as follows.
+</ptxt>
+<ptxt>
+The model code is composed of 9 characters.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The first character indicates body type.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 2nd character indicates model series.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 3rd character indicates door (3 door, 4 door, etc.).
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 4th and 5th characters indicate the combination of engine and transmission.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 6th character indicates the grade etc.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 7th character indicates the type of model.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The 8th and 9th characters indicate the market code.
+</ptxt>
+</item>
+</list1>
+<ptxt>
+For example, “71” means market code “E71”.
+</ptxt>
+<ptxt>
+The market code is used in this manual for easier and exact distinction of the vehicle specification.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

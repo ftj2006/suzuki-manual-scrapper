@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0A">
+<servcat sctnbr = "00" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENKSB0A0101011" svcinfotypenbr = "02" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Transaxle Identification Number
+</title>
+<servinfosub id = "AENKSB0A0101011001">
+<title>
+A/T
+</title>
+<ptxt>
+The A/T identification number (1) is inscribed on a plate (2) on transaxle case.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B010004.jpg" width = "88.000mm" height = "69.043mm" ver = "01" gw = "193" gh = "179"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENKSB0A0101011002">
+<title>
+CVT
+</title>
+<ptxt>
+The CVT identification number (1) is inscribed on transaxle case.
+</ptxt>
+<figure>
+<graphic graphicname = "IBP70A010004.jpg" width = "88.000mm" height = "50.958mm" ver = "02" gw = "139" gh = "135"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

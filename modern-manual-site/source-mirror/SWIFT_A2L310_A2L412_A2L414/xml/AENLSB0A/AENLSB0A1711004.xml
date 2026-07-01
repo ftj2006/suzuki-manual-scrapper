@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "1">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A1711004" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+High Pressure Fuel Pump Description
+</title>
+<servinfosub id = "AENLSB0A1711004001">
+<title>
+System Description
+</title>
+<ptxt>
+The high pressure fuel pump (1) is mounted on the camshaft rear housing (2) on the cylinder head and driven by the high pressure fuel pump cam (3) incorporated in the intake camshaft (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B171003.swf" width = "88.000mm" height = "69.817mm" ver = "01" gw = "219" gh = "181"/>
+</figure>
+<ptxt>
+The high pressure fuel pump consists of the fuel inlet valve (solenoid valve) (1) which controls OPEN / CLOSE from low pressure fuel passage, fuel compression plunger (2) which pressurizes fuel driven by the intake camshaft and delivery valve (3) which controls open / close to high pressure fuel passage mechanically.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174002.swf" width = "88.000mm" height = "76.844mm" ver = "01" gw = "121" gh = "201"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Fuel pump tappet
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+High pressure fuel pump cam
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A1711004002">
+<title>
+Component Function
+</title>
+<ptxt>
+Fuel inlet valve: Operated by signal from ECM and controls fuel pressure (amount of fuel flow) for high pressure fuel line.
+</ptxt>
+<ptxt>
+Delivery valve: Opens by pressure difference between front (high pressure fuel pipe – injectors) and rear (high pressure fuel pump inside) and supplies pressurized fuel into high pressure fuel pipe.
+</ptxt>
+<ptxt>
+Fuel compression plunger: Pressurizes low pressure fuel 500 kPa (5.1 kgf/cm<sup>2</sup>, 72.5 psi) to 3 – 20 MPa (30.6 – 203.9 kgf/cm<sup>2</sup>, 435 – 2901 psi) and supplies it into high pressure fuel pipe.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A1711004003" page = "1">
+<title>
+High-Pressure Fuel Pump Function
+</title>
+<topic id = "AENLSB0A1711004004">
+<title>
+Suction stroke [A]
+</title>
+<ptxt>
+Fuel inlet valve in high pressure fuel pump is open in this stroke with solenoid OFF and low pressure fuel flows into pressure rising chamber through this valve.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A1711004005">
+<title>
+Spill stroke [B]
+</title>
+<ptxt>
+To pressurize fuel in the pressure rising chamber, compression plunger is pushed up by high pressure fuel pump cam but the fuel is relieved (returns) in this stroke due to open state of fuel inlet valve with solenoid OFF.
+</ptxt>
+<ptxt>
+Extension of solenoid OFF time increases return fuel and reduces remaining fuel in the pressure rising chamber. In other words, extension of solenoid ON time reduces return fuel and increases remaining fuel in the pressure rising chamber.
+</ptxt>
+<ptxt>
+Through this stroke, required amount of fuel flow into high pressure fuel pipe is controlled.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A1711004006">
+<title>
+Delivery stroke [C]
+</title>
+<ptxt>
+Fuel inlet valve is closed in this stroke with solenoid ON. From the closing point of the fuel inlet valve, compression plunger is pushed up further by high pressure fuel pump cam and the fuel is pressurized in the pressure rising chamber. The pressurized fuel opens delivery valve when the pressure exceeds the specified value and the fuel is supplied to high pressure fuel pipe. A fuel pressure sensor mounted on the fuel delivery pipe detects the fuel pressure and receiving this pressure signal, ECM performs feedback control to maintain target fuel pressure for injectors.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174003.swf" width = "183.000mm" height = "139.427mm" ver = "01" gw = "499" gh = "379"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "4.331in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+“Target Valve Closing Position of High Pressure Fuel Pump” in SUZUKI scan tool
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

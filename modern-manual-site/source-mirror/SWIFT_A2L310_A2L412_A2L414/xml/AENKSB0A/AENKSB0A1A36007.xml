@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1A36007" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Auto Tensioner Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1A36006">Water Pump / Generator Drive Belt Auto Tensioner Removal and Installation:K12C-Generator</intxrefpoff>
+</ptxt>
+<ptxt>
+Check the following points. If check result is not OK, replace water pump / generator drive belt auto tensioner (1).
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check pulley (2) of water pump / generator drive belt auto tensioner for wear and smoothly rotation.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check damage on water pump / generator drive belt auto tensioner.
+</ptxt>
+<figure>
+<graphic graphicname = "IFKA0P1A1009.jpg" width = "88.000mm" height = "31.485mm" ver = "01" gw = "149" gh = "73"/>
+</figure>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

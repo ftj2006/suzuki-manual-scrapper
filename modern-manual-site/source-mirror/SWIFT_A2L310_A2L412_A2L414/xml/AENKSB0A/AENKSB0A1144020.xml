@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "4">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENKSB0A1144020" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P0087 / P0088
+</title>
+<servinfosub id = "AENKSB0A1144020001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.218in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.972in"/>
+<thead valign = "middle">
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<ptxt>
+<emph etype = "bold">
+P0087: Fuel Rail / System Pressure – Too Low
+</emph>
+</ptxt>
+<ptxt>
+Measured fuel rail pressure is far below targeted fuel rail pressure for specified time.
+</ptxt>
+<ptxt>
+(1 D/C detection logic)
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fuel pressure sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Low fuel pressure circuit (fuel pressure regulator in fuel pump, fuel pump and/or its circuit, fuel filter, fuel hose, fuel pipe)
+</ptxt>
+</item>
+<item>
+<ptxt>
+High fuel pressure circuit (high pressure fuel pump, fuel rail, high pressure pipe, fuel injector)
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<ptxt>
+<emph etype = "bold">
+P0088: Fuel Rail / System Pressure – Too High
+</emph>
+</ptxt>
+<ptxt>
+Measured fuel rail pressure is far above targeted fuel rail pressure for specified time.
+</ptxt>
+<ptxt>
+(1 D/C detection logic)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENKSB0A1144020002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that the following condition is met in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Battery voltage &#60; 16 V
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Check that the following DTCs are not detected in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Fuel pressure sensor (P0192 and P0193)
+</ptxt>
+</item>
+</list2>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle at 50 to 80 km/h (31 to 50 mile/h) constantly for 5 min. or more.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENKSB0A1144020003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENKSB0A1144020004">
+<testgroup id = "AENKSB0A1144020005">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENKSB0A1144001">Engine and Emission Control System Check:K14C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1144020006">
+<title>
+Low fuel pressure circuit check
+</title>
+<test1>
+<ptxt>
+Check low fuel pressure circuit. 
+<intxreftitleoff1 refid = "AENKSB0A1744007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part(s).
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1144020007">
+<title>
+High fuel pressure circuit check
+</title>
+<test1>
+<ptxt>
+Check high fuel pressure circuit. 
+<intxreftitleoff1 refid = "AENKSB0A1744008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENKSB0A1346001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part(s).
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,4 +1,5 @@
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import re
 import shutil
@@ -32,6 +33,13 @@ TEXT_RESOURCE_SUFFIXES = (
 )
 
 
+REUSE_ROOT: Optional[Path] = None
+DOWNLOAD_WORKERS: int = 16
+URL_SCOPE_PATH_PREFIX: Optional[str] = None
+LOCAL_PATH_STRIP_PREFIX: Optional[str] = None
+REMOTE_PREFIX_FOR_LOCAL: Optional[str] = None
+
+
 def normalize_url(base_url: str, href: str) -> Optional[str]:
     if not href:
         return None
@@ -45,7 +53,13 @@ def normalize_url(base_url: str, href: str) -> Optional[str]:
 
 
 def same_origin(url: str, origin: str) -> bool:
-    return urlparse(url).scheme == urlparse(origin).scheme and urlparse(url).netloc == urlparse(origin).netloc
+    parsed_url = urlparse(url)
+    parsed_origin = urlparse(origin)
+    if parsed_url.scheme != parsed_origin.scheme or parsed_url.netloc != parsed_origin.netloc:
+        return False
+    if URL_SCOPE_PATH_PREFIX is None:
+        return True
+    return (parsed_url.path or "/").startswith(URL_SCOPE_PATH_PREFIX)
 
 
 def ensure_parent(path: Path) -> None:
@@ -54,7 +68,6 @@ def ensure_parent(path: Path) -> None:
 
 def output_path_for_url(url: str, output_dir: Path, origin: Optional[str] = None) -> Path:
     parsed = urlparse(url)
-    netloc = parsed.netloc or (urlparse(origin or "").netloc or "local")
     path = parsed.path or "/"
     if path.endswith("/"):
         path += "index.html"
@@ -62,7 +75,29 @@ def output_path_for_url(url: str, output_dir: Path, origin: Optional[str] = None
         path = "/" + path
     if not os.path.splitext(path)[1]:
         path += ".html"
+    if LOCAL_PATH_STRIP_PREFIX and path.startswith(LOCAL_PATH_STRIP_PREFIX):
+        return output_dir / path[len(LOCAL_PATH_STRIP_PREFIX) :].lstrip("/")
+    netloc = parsed.netloc or (urlparse(origin or "").netloc or "local")
     return output_dir / netloc / path.lstrip("/")
+
+
+def reuse_source_for(local_path: Path, output_dir: Path) -> Optional[Path]:
+    if REUSE_ROOT is None:
+        return None
+    try:
+        rel = local_path.relative_to(output_dir)
+    except ValueError:
+        return None
+    return REUSE_ROOT / rel
+
+
+def hydrate_from_reuse(local_path: Path, output_dir: Path) -> bool:
+    source = reuse_source_for(local_path, output_dir)
+    if source is None or not source.exists() or not source.is_file():
+        return False
+    ensure_parent(local_path)
+    shutil.copy2(source, local_path)
+    return True
 
 
 def is_legacy_placeholder(path: Path) -> bool:
@@ -96,6 +131,33 @@ def download_url(url: str, local_path: Path) -> bool:
     return False
 
 
+def download_url_with_context(url: str, local_path: Path, output_dir: Path) -> bool:
+    if local_path.exists() and not is_legacy_placeholder(local_path):
+        return True
+    if hydrate_from_reuse(local_path, output_dir):
+        return True
+    return download_url(url, local_path)
+
+
+def download_missing_urls_concurrent(url_map: Dict[str, Path], output_dir: Path, workers: int = 16) -> None:
+    pending: List[Tuple[str, Path]] = []
+    for url, local_path in sorted(url_map.items()):
+        if local_path.exists():
+            continue
+        pending.append((url, local_path))
+
+    if not pending:
+        return
+
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as executor:
+        futures = [
+            executor.submit(download_url_with_context, url, local_path, output_dir)
+            for url, local_path in pending
+        ]
+        for future in as_completed(futures):
+            future.result()
+
+
 def save_html_document(url: str, output_dir: Path, origin: str, url_map: Dict[str, Path]) -> Path:
     local_path = output_path_for_url(url, output_dir, origin)
     if local_path.exists():
@@ -127,6 +189,8 @@ def remote_url_for_local_path(local_path: Path, output_dir: Path, origin: str) -
         relative_path = local_path.relative_to(output_dir)
     except ValueError:
         return None
+    if REMOTE_PREFIX_FOR_LOCAL:
+        return f"{origin}{REMOTE_PREFIX_FOR_LOCAL}{relative_path.as_posix()}"
     if len(relative_path.parts) < 2:
         return None
     return f"{origin}/{Path(*relative_path.parts[1:]).as_posix()}"
@@ -543,7 +607,7 @@ def download_referenced_resources(output_dir: Path, origin: str, url_map: Dict[s
                             resource_path = output_path_for_url(resource_url, output_dir, origin)
                             if resource_url not in url_map:
                                 url_map[resource_url] = resource_path
-                            if not resource_path.exists() and download_url(resource_url, resource_path):
+                            if not resource_path.exists() and download_url_with_context(resource_url, resource_path, output_dir):
                                 downloaded_any = True
                         continue
 
@@ -554,7 +618,7 @@ def download_referenced_resources(output_dir: Path, origin: str, url_map: Dict[s
                     resource_path = output_path_for_url(resource_url, output_dir, origin)
                     if resource_url not in url_map:
                         url_map[resource_url] = resource_path
-                    if not resource_path.exists() and download_url(resource_url, resource_path):
+                    if not resource_path.exists() and download_url_with_context(resource_url, resource_path, output_dir):
                         downloaded_any = True
 
             for raw_reference in extract_resource_references(text):
@@ -564,7 +628,7 @@ def download_referenced_resources(output_dir: Path, origin: str, url_map: Dict[s
                 resource_path = output_path_for_url(resource_url, output_dir, origin)
                 if resource_url not in url_map:
                     url_map[resource_url] = resource_path
-                if not resource_path.exists() and download_url(resource_url, resource_path):
+                if not resource_path.exists() and download_url_with_context(resource_url, resource_path, output_dir):
                     downloaded_any = True
 
             for graphic_base, graphic_type in extract_graphic_references(text):
@@ -588,7 +652,7 @@ def download_referenced_resources(output_dir: Path, origin: str, url_map: Dict[s
                         url_map[graphic_url] = graphic_path
                     if graphic_path.exists():
                         break
-                    if download_url(graphic_url, graphic_path):
+                    if download_url_with_context(graphic_url, graphic_path, output_dir):
                         downloaded_any = True
                         break
 
@@ -618,7 +682,7 @@ def download_all_graphic_assets(output_dir: Path, origin: str, url_map: Dict[str
                         graphic_path = output_path_for_url(graphic_url, output_dir, origin)
                         if graphic_url not in url_map:
                             url_map[graphic_url] = graphic_path
-                        if graphic_path.exists() or download_url(graphic_url, graphic_path):
+                        if graphic_path.exists() or download_url_with_context(graphic_url, graphic_path, output_dir):
                             downloaded = True
                             break
                     if downloaded:
@@ -664,7 +728,7 @@ def ensure_required_static_assets(start_url: str, output_dir: Path, origin: str)
             if not source_path.exists() or source_path.read_bytes() != remote_bytes:
                 source_path.write_bytes(remote_bytes)
         elif not source_path.exists():
-            download_url(source_url, source_path)
+            download_url_with_context(source_url, source_path, output_dir)
 
         if not source_path.exists():
             continue
@@ -691,7 +755,7 @@ def ensure_foreword_html_assets(start_url: str, output_dir: Path, origin: str, u
             url_map[foreword_url] = foreword_path
         if foreword_path.exists():
             continue
-        download_url(foreword_url, foreword_path)
+        download_url_with_context(foreword_url, foreword_path, output_dir)
 
 
 def ensure_symbol_assets(start_url: str, output_dir: Path, origin: str, url_map: Dict[str, Path]) -> None:
@@ -753,7 +817,7 @@ def ensure_symbol_assets(start_url: str, output_dir: Path, origin: str, url_map:
         if source_url not in url_map:
             url_map[source_url] = source_path
         if not source_path.exists():
-            download_url(source_url, source_path)
+            download_url_with_context(source_url, source_path, output_dir)
         if not source_path.exists():
             continue
 
@@ -805,7 +869,7 @@ def hydrate_placeholder_images(start_url: str, output_dir: Path, origin: str) ->
 
         canonical_path = output_path_for_url(remote_url, output_dir, origin)
         if not canonical_path.exists():
-            download_url(remote_url, canonical_path)
+            download_url_with_context(remote_url, canonical_path, output_dir)
         if not canonical_path.exists() or canonical_path == local_image:
             continue
 
@@ -1337,7 +1401,7 @@ def rewrite_html_links(soup: BeautifulSoup, base_url: str, current_page: Path, o
             if resource_url not in url_map:
                 url_map[resource_url] = resource_path
             if resource_path and not resource_path.exists():
-                download_url(resource_url, resource_path)
+                download_url_with_context(resource_url, resource_path, output_dir)
             tag[attr] = relative_path_for(resource_path, current_page)
 
 
@@ -1405,7 +1469,7 @@ def capture_frame_documents(page, start_url: str, output_dir: Path, origin: str,
     return saved
 
 
-def build_frame_shell(output_dir: Path, frame_files: List[Tuple[str, Path]]) -> Path:
+def build_frame_shell(shell_path: Path, frame_files: List[Tuple[str, Path]]) -> Path:
     frame_map = {name: path for name, path in frame_files}
     shell = """<!doctype html>
 <html lang=\"en\">
@@ -1466,7 +1530,7 @@ def build_frame_shell(output_dir: Path, frame_files: List[Tuple[str, Path]]) -> 
     main_path = frame_map.get("MAIN")
     if not all([ctl_path, top_path, navi_path, main_path]):
         raise RuntimeError("Missing one or more required frames.")
-    shell_path = output_dir / "index.html"
+    ensure_parent(shell_path)
     shell_path.write_text(
         shell.format(
             ctl=relative_path_for(ctl_path, shell_path),
@@ -1480,8 +1544,22 @@ def build_frame_shell(output_dir: Path, frame_files: List[Tuple[str, Path]]) -> 
 
 
 def scrape_manual(start_url: str, output_dir: Path) -> Path:
+    global URL_SCOPE_PATH_PREFIX, LOCAL_PATH_STRIP_PREFIX, REMOTE_PREFIX_FOR_LOCAL
     output_dir.mkdir(parents=True, exist_ok=True)
     origin = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
+    start_path = urlparse(start_url).path or "/"
+    service_manuals_prefix = "/Upload/Downloads/Service/ServiceManuals/"
+    if service_manuals_prefix in start_path:
+        LOCAL_PATH_STRIP_PREFIX = service_manuals_prefix
+        REMOTE_PREFIX_FOR_LOCAL = service_manuals_prefix
+    else:
+        LOCAL_PATH_STRIP_PREFIX = None
+        REMOTE_PREFIX_FOR_LOCAL = None
+    # Keep scraping constrained to the selected manual code directory only.
+    if start_path.endswith("/"):
+        URL_SCOPE_PATH_PREFIX = start_path
+    else:
+        URL_SCOPE_PATH_PREFIX = start_path.rsplit("/", 1)[0] + "/"
     url_map: Dict[str, Path] = {}
 
     def seed_url(url: Optional[str]) -> None:
@@ -1495,65 +1573,19 @@ def scrape_manual(start_url: str, output_dir: Path) -> Path:
         local_path = output_path_for_url(url, output_dir, origin)
         if url not in url_map:
             url_map[url] = local_path
-        download_url(url, local_path)
-
-    def alias_to_output_root(source_url: Optional[str], root_relative_path: str) -> None:
-        if not source_url:
-            return
-        source_path = output_path_for_url(source_url, output_dir, origin)
-        if not source_path.exists():
-            return
-        target_path = output_dir / Path(root_relative_path)
-        ensure_parent(target_path)
-        shutil.copy2(source_path, target_path)
-
-    def mirror_asset(source_url: Optional[str], target_url: Optional[str]) -> None:
-        if not source_url or not target_url:
-            return
-        source_path = output_path_for_url(source_url, output_dir, origin)
-        if not source_path.exists():
-            download_url(source_url, source_path)
-        if not source_path.exists():
-            return
-        target_path = output_path_for_url(target_url, output_dir, origin)
-        ensure_parent(target_path)
-        shutil.copy2(source_path, target_path)
-
-    def mirror_tree_to_output_root(source_relative_path: str, root_relative_path: str) -> None:
-        source_root = output_dir / source_relative_path
-        if not source_root.exists() or not source_root.is_dir():
-            return
-        target_root = output_dir / root_relative_path
-        target_root.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(source_root, target_root, dirs_exist_ok=True)
+        download_url_with_context(url, local_path, output_dir)
 
     bootstrap_urls = [
         normalize_url(start_url, "./webdocstructure.xml"),
         normalize_url(start_url, "../webdocstructure.xml"),
         normalize_url(start_url, "../webdocstructure_vars1.xml"),
         normalize_url(start_url, "./webdocstructure_vars1.xml"),
-        normalize_url(start_url, "../../config8/suzuki_all.xsl"),
         normalize_url(start_url, "../config8/suzuki_all.xsl"),
-        normalize_url(start_url, "../../config8/navi-kousei-e.xslt"),
         normalize_url(start_url, "../config8/navi-kousei-e.xslt"),
-        normalize_url(start_url, "../../config8/navi-dtc-e.xslt"),
-        normalize_url(start_url, "../../config8/navi-sym-e.xslt"),
-        normalize_url(start_url, "../../config8/navi-subdoc.xslt"),
         normalize_url(start_url, "../config8/navi-subdoc.xslt"),
-        normalize_url(start_url, "../../config8/searchindex-e.xslt"),
-        normalize_url(start_url, "../../config8/search-dtc-e.xslt"),
-        normalize_url(start_url, "../../config8/search-sym-e.xslt"),
-        normalize_url(start_url, "../../config8/mods-list-e.xslt"),
-        normalize_url(start_url, "../../config8/main-dtc.xslt"),
-        normalize_url(start_url, "../../config8/main-ttm.xslt"),
-        normalize_url(start_url, "../../config8/prexns.xsl"),
         normalize_url(start_url, "../icon/top_back.gif"),
-        normalize_url(start_url, "../../icon/top_back.gif"),
         normalize_url(start_url, "../icon/zoom.gif"),
-        normalize_url(start_url, "../../icon/zoom.gif"),
         normalize_url(start_url, "../icon/intxreftitleoff.png"),
-        normalize_url(start_url, "../../icon/intxreftitleoff.png"),
-        normalize_url(start_url, "../../../icon/intxreftitleoff.png"),
         normalize_url(start_url, "../webdocstructure-dtc.xml"),
         normalize_url(start_url, "../webdocstructure-sym.xml"),
         normalize_url(start_url, "../webdocstructure_vars2.xml"),
@@ -1570,116 +1602,42 @@ def scrape_manual(start_url: str, output_dir: Path) -> Path:
         page = context.new_page()
         page.goto(start_url, wait_until="networkidle", timeout=60000)
         frame_files = capture_frame_documents(page, start_url, output_dir, origin, url_map)
-        shell_path = build_frame_shell(output_dir, frame_files)
+        shell_path = build_frame_shell(output_path_for_url(start_url, output_dir, origin), frame_files)
         browser.close()
 
     download_referenced_resources(output_dir, origin, url_map)
 
-    for url, local_path in sorted(url_map.items()):
-        if local_path.exists():
-            continue
-        download_url(url, local_path)
+    download_missing_urls_concurrent(url_map, output_dir, workers=DOWNLOAD_WORKERS)
 
     download_all_graphic_assets(output_dir, origin, url_map)
 
     # A final crawl captures resources referenced by files fetched in the url_map pass above.
     download_referenced_resources(output_dir, origin, url_map)
 
-    for url, local_path in sorted(url_map.items()):
-        if local_path.exists():
-            continue
-        download_url(url, local_path)
+    download_missing_urls_concurrent(url_map, output_dir, workers=DOWNLOAD_WORKERS)
 
     # Ensure core XML/XSL assets required by stdio/stdiodom are present.
     critical_assets = [
         normalize_url(start_url, "./webdocstructure.xml"),
         normalize_url(start_url, "../webdocstructure.xml"),
-        normalize_url(start_url, "../../config8/suzuki_all.xsl"),
         normalize_url(start_url, "../config8/suzuki_all.xsl"),
-        normalize_url(start_url, "../../config8/navi-kousei-e.xslt"),
         normalize_url(start_url, "../config8/navi-kousei-e.xslt"),
         normalize_url(start_url, "../config8/navi-subdoc.xslt"),
         normalize_url(start_url, "../config8/navi.css"),
-        normalize_url(start_url, "../../config8/navi.css"),
         normalize_url(start_url, "../config8/stdio.js"),
-        normalize_url(start_url, "../../config8/stdio.js"),
         normalize_url(start_url, "../config8/stdiodom.js"),
-        normalize_url(start_url, "../../config8/stdiodom.js"),
         normalize_url(start_url, "../config8/ui.js"),
-        normalize_url(start_url, "../../config8/ui.js"),
         normalize_url(start_url, "../config8/suzukimain_e.css"),
-        normalize_url(start_url, "../../config8/suzukimain_e.css"),
         normalize_url(start_url, "../icon/doc.gif"),
-        normalize_url(start_url, "../../icon/doc.gif"),
         normalize_url(start_url, "../icon/closed.gif"),
-        normalize_url(start_url, "../../icon/closed.gif"),
         normalize_url(start_url, "../icon/open.gif"),
-        normalize_url(start_url, "../../icon/open.gif"),
         normalize_url(start_url, "../icon/attenmark.gif"),
-        normalize_url(start_url, "../../icon/attenmark.gif"),
         normalize_url(start_url, "../icon/precaution.gif"),
-        normalize_url(start_url, "../../icon/precaution.gif"),
         normalize_url(start_url, "../icon/sie_bg.gif"),
-        normalize_url(start_url, "../../icon/sie_bg.gif"),
     ]
     for critical_url in critical_assets:
         seed_url(critical_url)
-
-    # Some legacy scripts request /config8/* and /icon/* from the server root.
-    # Mirror key assets to output root so serving from output_dir remains functional.
-    root_aliases = [
-        (normalize_url(start_url, "../config8/navi.css"), "config8/navi.css"),
-        (normalize_url(start_url, "../config8/stdio.js"), "config8/stdio.js"),
-        (normalize_url(start_url, "../config8/stdiodom.js"), "config8/stdiodom.js"),
-        (normalize_url(start_url, "../config8/ui.js"), "config8/ui.js"),
-        (normalize_url(start_url, "../config8/suzukimain_e.css"), "config8/suzukimain_e.css"),
-        (normalize_url(start_url, "../config8/navi-kousei-e.xslt"), "config8/navi-kousei-e.xslt"),
-        (normalize_url(start_url, "../config8/navi-subdoc.xslt"), "config8/navi-subdoc.xslt"),
-        (normalize_url(start_url, "../icon/top_back.gif"), "icon/top_back.gif"),
-        (normalize_url(start_url, "../../icon/top_back.gif"), "icon/top_back.gif"),
-        (normalize_url(start_url, "../icon/zoom.gif"), "icon/zoom.gif"),
-        (normalize_url(start_url, "../../icon/zoom.gif"), "icon/zoom.gif"),
-        (normalize_url(start_url, "../icon/intxreftitleoff.png"), "icon/intxreftitleoff.png"),
-        (normalize_url(start_url, "../../icon/intxreftitleoff.png"), "icon/intxreftitleoff.png"),
-        (normalize_url(start_url, "../../../icon/intxreftitleoff.png"), "icon/intxreftitleoff.png"),
-        (normalize_url(start_url, "../icon/doc.gif"), "icon/doc.gif"),
-        (normalize_url(start_url, "../icon/closed.gif"), "icon/closed.gif"),
-        (normalize_url(start_url, "../icon/open.gif"), "icon/open.gif"),
-        (normalize_url(start_url, "../icon/attenmark.gif"), "icon/attenmark.gif"),
-        (normalize_url(start_url, "../icon/precaution.gif"), "icon/precaution.gif"),
-        (normalize_url(start_url, "../icon/sie_bg.gif"), "icon/sie_bg.gif"),
-    ]
-    for source_url, target_rel in root_aliases:
-        alias_to_output_root(source_url, target_rel)
-
-    mirror_asset(
-        normalize_url(start_url, "../icon/intxreftitleoff.png"),
-        normalize_url(start_url, "../../../icon/intxreftitleoff.png"),
-    )
-
-    mirror_tree_to_output_root(
-        "dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/config8",
-        "config8",
-    )
-
-    mirror_tree_to_output_root(
-        "dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/icon",
-        "icon",
-    )
-
-    mirror_tree_to_output_root(
-        "dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/image",
-        "image",
-    )
-
-    ensure_required_static_assets(start_url, output_dir, origin)
     ensure_foreword_html_assets(start_url, output_dir, origin, url_map)
-    ensure_symbol_assets(start_url, output_dir, origin, url_map)
-    normalize_k14_webdocstructure_files(output_dir)
-    normalize_k14_navigation_pages(output_dir)
-    remove_k14d_only_resources(output_dir)
-    remove_k14d_related_only_image_assets(output_dir)
-    hydrate_placeholder_images(start_url, output_dir, origin)
 
     return shell_path
 
@@ -1688,11 +1646,25 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Create a local offline copy of the Suzuki manual frameset.")
     parser.add_argument("--start-url", required=True, help="The starting page URL")
     parser.add_argument("--output-dir", default="scraped", help="Where to save the offline copy")
+    parser.add_argument(
+        "--reuse-from",
+        default="",
+        help="Optional local mirror root to reuse files from (for example: suzuki-manual).",
+    )
+    parser.add_argument(
+        "--download-workers",
+        type=int,
+        default=16,
+        help="Number of concurrent workers for missing URL download passes.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
+    global REUSE_ROOT, DOWNLOAD_WORKERS
     args = parse_args()
+    REUSE_ROOT = Path(args.reuse_from).resolve() if args.reuse_from else None
+    DOWNLOAD_WORKERS = max(1, int(args.download_workers))
     shell_path = scrape_manual(args.start_url, Path(args.output_dir))
     print(f"Offline copy created at {shell_path}")
 

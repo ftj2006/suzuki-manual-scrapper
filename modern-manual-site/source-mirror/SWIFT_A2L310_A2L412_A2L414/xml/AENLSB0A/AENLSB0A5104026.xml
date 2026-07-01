@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A5104026" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P0711 / P0712 / P0713
+</title>
+<servinfosub id = "AENLSB0A5104026001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "4.295in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.902in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P0711: Transmission Fluid Temperature Sensor “A” Circuit Range / Performance
+</emph>
+</ptxt>
+<ptxt>
+ATF temperature sensor signal circuit voltage is unchanged for 10 minutes during driving.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Solenoid harness with ATF temperature sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P0712: Transmission Fluid Temperature Sensor “A” Circuit Low
+</emph>
+</ptxt>
+<ptxt>
+ATF temperature sensor signal circuit voltage is lower than specified value for 5 sec.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P0713: Transmission Fluid Temperature Sensor “A” Circuit High
+</emph>
+</ptxt>
+<ptxt>
+ATF temperature sensor signal circuit voltage is higher than specified value for 5 sec. after driving.
+</ptxt>
+<ptxt>
+(2 D/C detection logic)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104026002">
+<title>
+DTC Confirmation Procedure
+</title>
+<topic id = "AENLSB0A5104026003">
+<title>
+P0711 / P0713
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle for 10 minutes or more.
+</ptxt>
+</s1>
+</topic>
+<topic id = "AENLSB0A5104026004">
+<title>
+P0712
+</title>
+<s1>
+<ptxt>
+Set ignition “ON” for 10 sec.
+</ptxt>
+</s1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A5104026005">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A5104026006">
+<testgroup id = "AENLSB0A5104026007">
+<question>
+Was “A/T Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0A5104001">A/T Control System Check</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A5104026008">
+<title>
+ATF temperature sensor check
+</title>
+<test1>
+<ptxt>
+Check ATF temperature sensor. 
+<intxreftitleoff1 refid = "AENLSB0A5106041"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Substitute a known-good TCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A5106020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace solenoid harness with ATF temperature sensor. 
+<intxreftitleoff1 refid = "AENLSB0A5106040"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1A16003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Tension Inspection and Adjustment
+</title>
+<s1 page = "2">
+<ptxt>
+Check water pump / generator drive belt for crack, cuts, deformation, wear and cleanliness. If it is necessary to replace water pump / generator drive belt, refer to 
+<intxref refid = "AENKSB0A1A16004">Water Pump / Generator Drive Belt Removal and Installation:K10C-Generator</intxref>
+.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+When engine is cool, turn crankshaft 720&#176; to stabilize water pump / generator drive belt and check the belt for tension.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Using sonic tension meter (Gates 508C or equivalent):
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Enter the input data following instructions in the tension meter manual.
+</ptxt>
+<spec>
+<title>
+Recommended belt tension meter specification
+</title>
+<ptxt>
+MASS: 105 g/m
+</ptxt>
+<ptxt>
+WIDTH: 1.0 mm/R 
+</ptxt>
+<ptxt>
+SPAN: 184 mm
+</ptxt>
+</spec>
+</item>
+<item>
+<ptxt>
+Flip belt (1) at span to vibrate the belt and measure the belt tension.
+</ptxt>
+<ptxt>
+If belt tension is not as specified, go to next steps.
+</ptxt>
+<spec-sdm>
+<sdm-title>
+Water pump / generator drive belt tension
+</sdm-title>
+<sdm-part>
+“a”
+</sdm-part>
+<sdm1>
+<sdm-condition>
+Existing belt
+</sdm-condition>
+<sdm-value>
+575 – 675 N (58.6 – 68.8 kgf, 129.3 – 151.7 lbf)
+</sdm-value>
+</sdm1>
+<sdm1>
+<sdm-condition>
+New belt
+</sdm-condition>
+<sdm-value>
+725 – 925 N (73.9 – 94.3 kgf, 163.0 – 208.0 lbf)
+</sdm-value>
+</sdm1>
+</spec-sdm>
+</item>
+</list2>
+<item>
+<ptxt>
+Without using sonic tension meter (Pushing belt span):
+</ptxt>
+<ptxt>
+Push belt (2) at span with finger force of 100 N (10.2 kgf, 22.5 lbf) to bend the belt and measure the bending value.
+</ptxt>
+<ptxt>
+If belt tension is not as specified, go to next steps.
+</ptxt>
+<spec-sdm>
+<sdm-title>
+Water pump / generator drive belt tension
+</sdm-title>
+<sdm-part>
+“b”
+</sdm-part>
+<sdm1>
+<sdm-condition>
+Existing belt
+</sdm-condition>
+<sdm-value>
+4.4 – 5.0 mm (0.17 – 0.20 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)
+</sdm-value>
+<sdm-ptxt>
+between water pump pulley and generator pulley
+</sdm-ptxt>
+</sdm1>
+<sdm1>
+<sdm-condition>
+New belt
+</sdm-condition>
+<sdm-value>
+3.2 – 4.1 mm (0.13 – 0.16 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)
+</sdm-value>
+<sdm-ptxt>
+between water pump pulley and generator pulley
+</sdm-ptxt>
+</sdm1>
+</spec-sdm>
+</item>
+</list1>
+<figure>
+<graphic graphicname = "IGSB0A1A1001.swf" width = "88.000mm" height = "51.356mm" ver = "01" gw = "212" gh = "129"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Loosen generator bolt (1), pivot bolt (2) and then adjust belt tension to specification described at Step 2) by loosening / tightening generator adjusting bolt (3).
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Tighten generator bolt and pivot bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J106">
+<t-part>
+Generator bolt (Hexagon head bolt)
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J107">
+<t-part>
+Generator bolt (Dodecagon head bolt)
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+45
+</t-value1>
+<t-value2>
+4.6
+</t-value2>
+<t-value3>
+33.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J108">
+<t-part>
+Generator pivot bolt
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+48
+</t-value1>
+<t-value2>
+4.9
+</t-value2>
+<t-value3>
+35.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check belt tension for specification after turning crankshaft two revolutions clockwise.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A1A1001.jpg" width = "88.000mm" height = "82.237mm" ver = "01" gw = "199" gh = "217"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Hexagon head bolt
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Dodecagon head bolt
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

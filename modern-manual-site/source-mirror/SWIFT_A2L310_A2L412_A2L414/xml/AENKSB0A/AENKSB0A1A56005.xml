@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "5">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1A56005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Removal and Installation
+</title>
+<servinfosub id = "AENKSB0A1A56005001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine undercover and right side engine under side cover. 
+<intxreftitleoff1 refid = "AENKSB0A9806003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENKSB0A1A56004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect “B” terminal wire (1) and connector (2) from generator (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove generator from engine assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1011.jpg" width = "88.000mm" height = "54.345mm" ver = "01" gw = "172" gh = "138"/>
+</figure>
+</s1>
+</servinfosub>
+<c-change/>
+<servinfosub id = "AENKSB0A1A56005002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install generator bolt (1) and generator pivot bolt (2) to generator.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1012.jpg" width = "88.000mm" height = "54.853mm" ver = "01" gw = "192" gh = "139"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Connect wire (1) to generator as shown in figure, and tighten “B” terminal nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J560">
+<t-part>
+“B” terminal nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+7.9
+</t-value1>
+<t-value2>
+0.81
+</t-value2>
+<t-value3>
+6.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0A1A1013.jpg" width = "88.000mm" height = "54.345mm" ver = "01" gw = "172" gh = "138"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Adjust belt tension. 
+<intxreftitleoff1 refid = "AENKSB0A1A56003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

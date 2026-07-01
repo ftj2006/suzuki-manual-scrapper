@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206012" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Seat Belt Pretensioner Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206011">Front Seat Belt Pretensioner Removal and Installation</intxrefpoff>
+</ptxt>
+<attention1>
+<ptxt>
+Failure to take proper precautions when checking the seat belt pretensioner can result in personal injury due to accidental activate of the seat belt pretensioner.
+</ptxt>
+<ptxt>
+Never measure the resistance of the seat belt pretensioner.
+</ptxt>
+<figure>
+<graphic graphicname = "I9P60A820063.swf" width = "88.000mm" height = "55.897mm" ver = "01" gw = "228" gh = "142"/>
+</figure>
+</attention1>
+<ptxt>
+Check seat belt assembly (retractor pretensioner) and if any of the following conditions is found, replace seat belt assembly (retractor pretensioner) with new one.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Pretensioner is activated.
+</ptxt>
+<attention3>
+<ptxt>
+As retractor pretensioners are controlled with driver and passenger air bags, you should judge that pretensioners have been activated if air bags have deployed.
+</ptxt>
+</attention3>
+</item>
+<item>
+<ptxt>
+Retractor pretensioner is damaged or a strong impact was applied to it.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connector is damaged.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

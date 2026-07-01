@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1K">
+<servcat sctnbr = "01" scnbr = "11">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1B16003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Catalytic Converter Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0C1B16002">Catalytic Converter Removal and Installation:K10C</intxrefpoff>
+</ptxt>
+<ptxt>
+Using straightedge and feeler gauge, check gasket surface for distortion. If distortion exceeds its limit, repair it.
+</ptxt>
+<ptxt>
+If repair is not possible, replace catalytic converter.
+</ptxt>
+<spec>
+<title>
+Distortion of seating faces catalytic converter on turbocharger
+</title>
+<ptxt>
+Limit: 0.4 mm (0.015 in.)
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0Q1B1003.jpg" width = "88.000mm" height = "70.040mm" ver = "01" gw = "230" gh = "182"/>
+</figure>
+</spec>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -10,6 +10,14 @@ Generate the mirror with:
 python scrape.py --start-url "https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/index.html" --output-dir suzuki-manual
 ```
 
+Generate a completely separate mirror for the modern site (without mutating `suzuki-manual/`):
+
+```bash
+python scrape.py --start-url "https://dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/index.html" --output-dir modern-manual-site/source-mirror/swift-a2l310-a2l412-a2l414
+```
+
+All scrapes now keep the full dataset content by default.
+
 Start the local GitHub Pages emulator with:
 
 ```bash
@@ -27,6 +35,12 @@ Use that extended URL for local testing. It matches the GitHub Pages project-pat
 ## What Gets Generated
 
 The scraper writes the mirrored manual under [suzuki-manual/](suzuki-manual/) and copies the runtime assets it needs into [config8/](config8/), [icon/](icon/), [image/](image/), and [symbol/](symbol/).
+
+For modern datasets, use the isolated mirror root [modern-manual-site/source-mirror/](modern-manual-site/source-mirror/) and rebuild indexes with:
+
+```bash
+python modern-manual-site/scripts/build_dataset_index.py
+```
 
 The manual is frame-based, so the output keeps the original `CTL`, `TOP`, `NAVI`, and `MAIN` documents and rewrites their links to local files.
 

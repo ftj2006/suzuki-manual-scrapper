@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8A">
+<servcat sctnbr = "08" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8106008" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Center Rear Seat Belt Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106006">Rear Seat Belt Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A8106008001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove rear seat cushion assembly. 
+<intxreftitleoff1 refid = "AENLSB0A9706007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear center seat belt bolt (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B810017.jpg" width = "88.000mm" height = "54.260mm" ver = "01" gw = "185" gh = "137"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback assembly. 
+<intxreftitleoff1 refid = "AENLSB0A9706008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback trim and rear seatback pad from rear seatback frame. 
+<intxreftitleoff1 refid = "AENLSB0A9706009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove center seat belt assembly (1) from rear seatback frame (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B810018.jpg" width = "88.000mm" height = "54.853mm" ver = "01" gw = "185" gh = "139"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8106008002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106009">Rear Seat Belt Assembly Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that pin (3) on rear seatback frame is inserted in hole (2) on center rear seat belt assembly (1).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten center rear seat belt nut (4) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T8A001">
+<t-part>
+Center rear seat belt nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+43
+</t-value1>
+<t-value2>
+4.4
+</t-value2>
+<t-value3>
+32.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A810009.jpg" width = "88.000mm" height = "86.980mm" ver = "02" gw = "201" gh = "230"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten bolts of rear center seat belt to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A8106006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not step on vehicle bead (2) when installing anchor plate (1).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fit tab (3) of rear center seat belt buckle (4) to hole (5) of floor panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A810007.swf" width = "88.000mm" height = "40.116mm" ver = "01" gw = "202" gh = "97"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear center seat belt assembly
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear right-side seat belt buckle
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

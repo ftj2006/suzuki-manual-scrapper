@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9J">
+<servcat sctnbr = "09" scnbr = "10">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A9A06010" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Filler Door Removal and Installation
+</title>
+<servinfosub id = "AENLJA0A9A06010001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove fuel filler cap tether (1) from fuel filler door (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove fuel filler door bolts (3) and remove fuel filler door.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9A0009.jpg" width = "88.000mm" height = "62.303mm" ver = "01" gw = "199" gh = "160"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A9A06010002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

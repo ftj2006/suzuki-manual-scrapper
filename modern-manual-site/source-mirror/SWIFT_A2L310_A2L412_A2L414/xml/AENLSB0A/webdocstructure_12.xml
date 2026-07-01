@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Aux. Emission Control Devices">
+<c i="1" t="K14C">
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1214001" t="EVAP Canister Purge System Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1216001" t="EVAP System Components">
+</s>
+<s i="AENLSB0A1216002" t="EVAP Canister Purge Valve Inspection">
+</s>
+<s i="AENLSB0A1216003" t="EVAP Canister Removal and Installation">
+</s>
+<s i="AENLSB0A1216004" t="EVAP Canister Inspection">
+</s>
+<s i="AENLSB0A1216005" t="EVAP Connection Hose Inspection">
+</s>
+<s i="AENLSB0A1216006" t="PCV Hose Inspection">
+</s>
+<s i="AENLSB0A1216007" t="PCV Valve On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1216008" t="PCV Valve Inspection">
+</s>
+<s i="AENLSB0A1216009" t="Fuel Cut Valve Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1218001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K14D">
+<t s="1" t="General Description">
+<s i="AENLSB0A1221003" t="Gasoline Particulate Filter (GPF) Pressure Sensor Description">
+</s>
+<s i="AENLSB0A1221004" t="EGR (Exhaust Gas Recirculation) System Description">
+</s>
+<s i="AENLSB0A1221001" t="Gasoline Particulate Filter (GPF) Description">
+</s>
+<s i="AENLSB0A1221002" t="Gasoline Particulate Filter (GPF) Regeneration Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1224001" t="EVAP Canister Purge System Inspection">
+</s>
+<s i="AENLSB0A1224002" t="EGR Valve System Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1226001" t="EVAP System Components">
+</s>
+<s i="AENLSB0A1226002" t="EVAP Canister Purge Valve Inspection">
+</s>
+<s i="AENLSB0A1226003" t="EVAP Canister Removal and Installation">
+</s>
+<s i="AENLSB0A1226004" t="EVAP Canister Inspection">
+</s>
+<s i="AENLSB0A1226005" t="EVAP Connection Hose Inspection">
+</s>
+<s i="AENLSB0A1226006" t="PCV Hose Inspection">
+</s>
+<s i="AENLSB0A1226007" t="PCV Valve On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1226008" t="PCV Valve Inspection">
+</s>
+<s i="AENLSB0A1226013" t="EGR System Components">
+</s>
+<s i="AENLSB0A1226014" t="EGR Valve Removal and Installation">
+</s>
+<s i="AENLSB0A1226015" t="EGR Valve Inspection">
+</s>
+<s i="AENLSB0A1226016" t="EGR Cooler Removal and Installation">
+</s>
+<s i="AENLSB0A1226009" t="Fuel Cut Valve Inspection">
+</s>
+<s i="AENLSB0A1226010" t="Gasoline Particulate Filter (GPF) Pressure Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1226011" t="Gasoline Particulate Filter (GPF) Pressure Sensor Inspection">
+</s>
+<s i="AENLSB0A1226012" t="Gasoline Particulate Filter (GPF) After-Sales Regeneration">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1227001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1228001" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0B">
+<servcat sctnbr = "00" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A0206037" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+ATF Leakage Inspection (A/T Model)
+</title>
+<ptxt>
+Check the following parts around A/T for ATF leakage. If any sign of leakage is found, correct defects.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Between engine and A/T (Torque converter oil seal)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Differential side oil seal
+</ptxt>
+</item>
+<item>
+<ptxt>
+Drain plug
+</ptxt>
+</item>
+<item>
+<ptxt>
+Breather hose
+</ptxt>
+</item>
+<item>
+<ptxt>
+Oil pan
+</ptxt>
+</item>
+<item>
+<ptxt>
+Oil cooler, etc.
+</ptxt>
+<figure>
+<graphic graphicname = "IFFA0A020002.swf" width = "88.000mm" height = "101.382mm" ver = "01" gw = "200" gh = "271"/>
+</figure>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

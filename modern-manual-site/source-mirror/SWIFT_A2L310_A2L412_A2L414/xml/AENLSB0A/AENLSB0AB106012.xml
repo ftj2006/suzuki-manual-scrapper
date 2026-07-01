@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AB106012" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+DC/DC Converter Removal and Installation
+</title>
+<attention2>
+<ptxt>
+Servicing SHVS system involves a danger of electric shock.
+</ptxt>
+<ptxt>
+For precaution, use insulation tool and gloves.
+</ptxt>
+</attention2>
+<servinfosub id = "AENLSB0AB106012001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”, and keep ignition “OFF” for 3 minutes.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect positive (+) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove left side front seat. 
+<intxreftitleoff1 refid = "AENLSB0A9706002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove left rear duct No.3. 
+<intxreftitleoff1 refid = "AENLSB0A7206037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect harness clamp (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove clip (2) and remove DC/DC converter cover (3) in arrow direction.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10018.jpg" width = "88.000mm" height = "60.985mm" ver = "01" gw = "227" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Release lock (1) and remove terminal cover (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10019.jpg" width = "88.000mm" height = "96.204mm" ver = "01" gw = "230" gh = "256"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check terminal voltage between “48V+” terminal (1) and “GND” terminal (2) is lower than 5V.
+</ptxt>
+<attention3>
+<ptxt>
+If the voltage is still higher than 5 V, check it again in 15 minutes.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "ILSB0AB10020.jpg" width = "88.000mm" height = "60.695mm" ver = "01" gw = "227" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect DC/DC converter connector (1) and DC/DC converter fan connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10021.jpg" width = "88.000mm" height = "98.723mm" ver = "01" gw = "227" gh = "263"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove “48V+” terminal nut (1), “12V+” terminal nut (2) and “GND” terminal nut (3), and then remove those cables.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10022.jpg" width = "88.000mm" height = "58.070mm" ver = "01" gw = "227" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove DC/DC converter (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10023.jpg" width = "88.000mm" height = "58.070mm" ver = "01" gw = "227" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove DC/DC converter brackets as follows, if necessary.
+</ptxt>
+<s2>
+<ptxt>
+Remove terminal box (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10032.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove DC/DC converter bracket No.1 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10033.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove floor carpet. 
+<intxreftitleoff1 refid = "AENLSB0A9806017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Remove DC/DC converter bracket No.2 (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10034.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AB106012002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0AB106013">DC/DC Converter Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install DC/DC converter brackets as follows, if removed.
+</ptxt>
+<s2>
+<ptxt>
+Install DC/DC converter bracket No.2 (1) and tighten DC/DC converter bracket No.2 bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T11A001">
+<t-part>
+DC/DC converter bracket No.2 bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AB10035.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Install floor carpet. 
+<intxreftitleoff1 refid = "AENLSB0A9806017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install DC/DC converter bracket No.1 (1) and tighten DC/DC converter bracket No.1 bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T11A002">
+<t-part>
+DC/DC converter bracket No.1 bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AB10036.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Install terminal box (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10032.jpg" width = "88.000mm" height = "56.546mm" ver = "01" gw = "227" gh = "144"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install DC/DC converter (1) and tighten DC/DC converter bolts (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T11A003">
+<t-part>
+DC/DC converter bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+22
+</t-value1>
+<t-value2>
+2.2
+</t-value2>
+<t-value3>
+16.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AB10024.jpg" width = "88.000mm" height = "62.757mm" ver = "01" gw = "227" gh = "161"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install “48V+” cable (1), “12V+” cable (2) and “GND” cable (3), and tighten those nuts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T11A004">
+<t-part>
+“48V+” terminal nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+20
+</t-value1>
+<t-value2>
+2.0
+</t-value2>
+<t-value3>
+15.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T11A005">
+<t-part>
+“12V+” terminal nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+20
+</t-value1>
+<t-value2>
+2.0
+</t-value2>
+<t-value3>
+15.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T11A006">
+<t-part>
+“GND” terminal nut
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+20
+</t-value1>
+<t-value2>
+2.0
+</t-value2>
+<t-value3>
+15.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0AB10025.jpg" width = "88.000mm" height = "61.730mm" ver = "01" gw = "227" gh = "158"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install terminal covers (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10026.jpg" width = "88.000mm" height = "58.070mm" ver = "01" gw = "227" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect DC/DC converter connector (1) and DC/DC converter fan connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10027.jpg" width = "88.000mm" height = "58.070mm" ver = "01" gw = "227" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install DC/DC converter cover (2) and install clip (1).
+</ptxt>
+<ptxt>
+After installation, check that tabs (3) is properly fixed to DC/DC converter bracket (4).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect harness clamp (5).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10029.jpg" width = "88.000mm" height = "102.239mm" ver = "01" gw = "230" gh = "273"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install left rear duct No.3. 
+<intxreftitleoff1 refid = "AENLSB0A7206037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install left side front seat. 
+<intxreftitleoff1 refid = "AENLSB0A9706002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect positive (+) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124024" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC C1655
+</title>
+<servinfosub id = "AENLSB0AA124024001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.823in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.374in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C1655: Yaw Rate Sensor Circuit (Temporary Inhibition)
+</emph>
+</ptxt>
+<ptxt>
+Neutral position corrective signal of yaw rate sensor from ESP<sup>&#174;</sup> control module is not completed in RBS control module.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+RBS control module
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124024002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON” for 1 sec. or more when the vehicle is stopped.
+</ptxt>
+<attention3>
+<ptxt>
+When the vehicle moves with ignition “ON” without engine start or the vehicle starts suddenly right after starting the engine, RBS control module may judge malfunction of neutral position signal of yaw rate sensor and the control module detects DTC C1655.
+</ptxt>
+</attention3>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124024003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA124024004">
+<testgroup id = "AENLSB0AA124024005">
+<question>
+Was “Adaptive Cruise Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0AA124001">Adaptive Cruise Control System Check:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA124024006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA124005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA124024002">DTC Confirmation Procedure</intxref>
+ and then recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC C1655 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace RBS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

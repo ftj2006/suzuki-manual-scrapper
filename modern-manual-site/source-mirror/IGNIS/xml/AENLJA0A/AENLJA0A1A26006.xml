@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A26006" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Auto Tensioner Removal and Installation
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Keep the retaining pin installed as it is until the tensioner is installed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+New water pump / generator drive belt auto tensioner (2) is supplied in compressed position held with a pin (1). Keep the pin installed until the tensioner is installed.
+</ptxt>
+<figure>
+<graphic graphicname = "IFKA0P1A1007.swf" width = "88.000mm" height = "49.798mm" ver = "01" gw = "148" gh = "125"/>
+</figure>
+</item>
+</list1>
+</attention3>
+<servinfosub id = "AENLJA0A1A26006001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove auto tensioner lower bolt (1) and timing chain cover No.1 bolt (2) and then remove water pump / generator drive belt auto tensioner (3).
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A1A26006002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLJA0A1A26007">Water Pump / Generator Drive Belt Auto Tensioner Inspection:K12C-Generator</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten auto tensioner lower bolt and timing chain cover No.1 bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J219">
+<t-part>
+Auto tensioner lower bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J220">
+<t-part>
+Timing chain cover No.1 bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFKA0P1A1008.jpg" width = "88.000mm" height = "53.300mm" ver = "01" gw = "183" gh = "135"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install water pump / generator drive belt, refer to 
+<intxref refid = "AENLJA0A1A26004">Water Pump / Generator Drive Belt Removal and Installation:K12C-Generator</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

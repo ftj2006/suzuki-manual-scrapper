@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C9F06004" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Radio Antenna Removal and Installation
+</title>
+<servinfosub id = "AENLBA0C9F06004001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove spot light assembly. 
+<intxreftitleoff1 refid = "AENLBA0C9206011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect antenna (1) from antenna base (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen antenna nut (4) and remove antenna feeder (3) from antenna base.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove antenna base from the vehicle.
+</ptxt>
+<figure>
+<graphic graphicname = "IFBA0A9F0026.jpg" width = "88.000mm" height = "74.411mm" ver = "01" gw = "237" gh = "194"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove head lining. 
+<intxreftitleoff1 refid = "AENLBA0C9806018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove antenna feeders (roof side and instrument panel side), if necessary. 
+<intxreftitleoff1 refid = "AENLBA0C9F03001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLBA0C9F06004002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten antenna nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T9O001">
+<t-part>
+Antenna nut
+</t-part>
+<t-value1>
+2.9
+</t-value1>
+<t-value2>
+0.30
+</t-value2>
+<t-value3>
+2.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1A36008" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Accessory Drive Belt Auto Tensioner / Idler Pulley Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0C1A36007">Accessory Drive Belt Auto Tensioner / Idler Pulley Removal and Installation:K12C-ISG</intxrefpoff>
+</ptxt>
+<ptxt>
+Check the following points. If check result is not OK, replace accessory drive belt auto tensioner (1) and/or idler pulley (3).
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Turn accessory drive belt auto tensioner pulley (2) and drive belt idler pulley and check that each pulley rotates smoothly without any abnormal noise.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check damage on accessory drive belt auto tensioner and idler pulley.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that there is no leakage of accessory drive belt auto tensioner oil.
+</ptxt>
+<figure>
+<graphic graphicname = "IFKA0P1A2002.jpg" width = "88.000mm" height = "64.876mm" ver = "01" gw = "116" gh = "167"/>
+</figure>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

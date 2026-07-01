@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426008" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Vacuum Pump Removal and Installation
+</title>
+<attention4>
+<ptxt>
+The vacuum pump will lose its original performance if it is disassembled.
+</ptxt>
+<ptxt>
+Do not disassemble and repair the vacuum pump. If any faulty condition is found, replace the vacuum pump with a new one.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0A1426008001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect vacuum hose (1) and waste gate control hose No.4 (2) from vacuum pump.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove vacuum pump (3) with O-ring.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142010.jpg" width = "88.000mm" height = "53.159mm" ver = "01" gw = "185" gh = "134"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1426008002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Clean mating surfaces of thermostat case and vacuum pump.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install new O-ring (1) to vacuum pump.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install vacuum pump (2) to thermostat case (3) aligning vacuum pump coupling (4) with slit (5) of camshaft.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142011.jpg" width = "88.000mm" height = "52.567mm" ver = "01" gw = "185" gh = "132"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tighten vacuum pump bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1D239">
+<t-part>
+Vacuum pump bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Connect waste gate control hose No.4 (2) and vacuum hose (3).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142012.jpg" width = "88.000mm" height = "53.159mm" ver = "01" gw = "185" gh = "134"/>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

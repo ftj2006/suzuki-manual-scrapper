@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1416048" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Piston, Piston Ring, Connecting Rod and Cylinder Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416047">Piston, Piston Ring, Connecting Rod and Cylinder Removal and Installation:K14C</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+If any of the parts listed below is reinstalled into a position different from the original position, engine problems could occur.
+</ptxt>
+<ptxt>
+If these parts are to be reused, keep them in numerical order so that they can be reinstalled in their original positions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Pistons
+</ptxt>
+</item>
+<item>
+<ptxt>
+Piston pins
+</ptxt>
+</item>
+<item>
+<ptxt>
+Piston rings
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connecting rods
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connecting rod bearings
+</ptxt>
+</item>
+</list1>
+</attention4>
+<servinfosub id = "AENLSB0A1416048001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+Using a piston ring expander, remove 1st ring, 2nd ring and oil ring from piston.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove piston pin from piston and connecting rod as follows.
+</ptxt>
+<s2>
+<ptxt>
+Remove piston pin circlips (1), as shown.
+</ptxt>
+<figure>
+<graphic graphicname = "I2RH0B140113.swf" width = "88.000mm" height = "52.990mm" ver = "01" gw = "194" gh = "133"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove piston pin.
+</ptxt>
+<figure>
+<graphic graphicname = "I2RH0B140114.swf" width = "88.000mm" height = "51.000mm" ver = "01" gw = "181" gh = "128"/>
+</figure>
+</s2>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1416048002">
+<title>
+Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416049">Cylinder, Piston and Piston Ring Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416050">Piston Pin and Connecting Rod Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1416051">Crankshaft Pin and Connecting Rod Bearing Inspection:K14C</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+The engine will seize up if it is operated when the parts listed below are not properly lubricated.
+</ptxt>
+<ptxt>
+Lubricate all the friction surfaces of these parts with engine oil before installing them.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Pistons
+</ptxt>
+</item>
+<item>
+<ptxt>
+Piston pins
+</ptxt>
+</item>
+<item>
+<ptxt>
+Piston rings
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connecting rods
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connecting rod bearings
+</ptxt>
+</item>
+</list1>
+</attention4>
+<s1>
+<ptxt>
+Remove carbon deposits from piston head and ring grooves using a suitable tool.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install piston pin to piston (1) and connecting rod (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Apply engine oil to piston pin, piston pin hole in piston and connecting rod.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Fit connecting rod positioning front mark (protrusion) (5) on connecting rod big-end piston and front mark (4) on piston as shown in figure.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Insert piston pin into piston and connecting rod.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install new piston pin circlips (3).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Face opening (6) of piston pin circlip toward opposite to cutout (7).
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A140126.swf" width = "88.000mm" height = "50.186mm" ver = "01" gw = "202" gh = "126"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install piston rings to piston noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+As shown in figure, 1st and 2nd rings have top mark (1) respectively. When installing them, face each top mark upward.
+</ptxt>
+</item>
+<item>
+<ptxt>
+1st ring (2) differs from 2nd ring (3) in shape contacting cylinder wall.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Since the thickness of 1st ring and 2nd ring is the same, distinguish them by the figure.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When installing oil ring (4), install spacer first and then two rails.
+</ptxt>
+<figure>
+<graphic graphicname = "I8T401142098.swf" width = "88.000mm" height = "70.913mm" ver = "02" gw = "136" gh = "185"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install oil ring with new one, and when installing two rails (1), face each paint marks (2) rightward from gaps (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IKAA0A140006.jpg" width = "88.000mm" height = "67.346mm" ver = "01" gw = "219" gh = "174"/>
+</figure>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+After installing three rings (1st, 2nd and oil rings), distribute their end gaps as shown in figure.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A140127.swf" width = "88.000mm" height = "34.321mm" ver = "01" gw = "87" gh = "80"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.071in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+45&#176;
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+Front mark
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+Oil ring upper rail gap
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+1st ring end gap
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+2nd ring end gap and oil ring spacer gap
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" valign = "top" align = "left">
+<ptxt>
+Oil ring lower rail gap
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

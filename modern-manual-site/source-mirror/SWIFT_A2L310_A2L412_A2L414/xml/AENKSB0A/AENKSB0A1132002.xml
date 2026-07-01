@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "3">
+<servinfotype sitcode = "2">
+<servinfo servinfosgmlid = "AENKSB0A1132002" svcinfotypenbr = "10" svcinfoqualnbr = "03" supplyoff = "1" modify = "0">
+<title>
+Engine and Emission Control System Flow Diagram
+</title>
+<figure>
+<graphic graphicname = "IGSB0A113006.swf" width = "244.516mm" height = "183.000mm" ver = "02" turn = "on" gw = "677" gh = "360"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

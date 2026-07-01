@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1716013" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Injector Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1716012">Fuel Injector On-Vehicle Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+Before performing the following procedure, observe 
+<intxref refid = "AENLSB0A1710001">Precautions for Fuel System Service:K14C</intxref>
+.
+</ptxt>
+<servinfosub id = "AENLSB0A1716013001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Relieve fuel pressure. 
+<intxreftitleoff1 refid = "AENLSB0A1716003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intake manifold. 
+<intxreftitleoff1 refid = "AENLSB0A1416021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect fuel injector connectors and fuel pressure sensor connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove high pressure pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1716008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove fuel delivery pipe (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174021.jpg" width = "88.000mm" height = "56.969mm" ver = "02" gw = "199" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove fuel injector clips (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174022.jpg" width = "88.000mm" height = "56.969mm" ver = "02" gw = "199" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove delivery pipe silencer (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174030.jpg" width = "88.000mm" height = "55.953mm" ver = "01" gw = "199" gh = "142"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove fuel injectors.
+</ptxt>
+<ptxt>
+If it is hard to remove, use special tool as follows.
+</ptxt>
+<attention4>
+<ptxt>
+Removal of fuel injector using special tool may damage the injector.
+</ptxt>
+<ptxt>
+Replace the fuel injector removed by special tool with new one.
+</ptxt>
+</attention4>
+<s2>
+<ptxt>
+Set special tool on fuel injector (1) and fix it tightening bolt (2) by hand.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G110">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09918-35811">
+09918–35811
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s2>
+<s2>
+<ptxt>
+Giving impact to fuel injector with special tool, pull it out of cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174023.jpg" width = "88.000mm" height = "59.311mm" ver = "01" gw = "223" gh = "152"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove O-ring (1) and back up ring (2) from fuel injector.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B171031.jpg" width = "88.000mm" height = "54.345mm" ver = "01" gw = "199" gh = "138"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Using nippers, cut seal ring (1) and remove it. Take special care not to damage fuel injector surface.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A170031.swf" width = "88.000mm" height = "40.568mm" ver = "01" gw = "200" gh = "98"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1716013002">
+<title>
+Installation
+</title>
+<attention4>
+<ptxt>
+Failure to take the following precautions may cause leakage of high pressure fuel.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Removed fuel injector using special tool could be damaged. Do not reuse such injector.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Replace O-ring in clean condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+To avoid damaging injector, do not use metal tool for removal of O-ring.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check injector groove for cleanliness before fitting O-ring.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fit new O-ring with a minimum stretch.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not reuse O-ring once removed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After fitting O-ring, check for proper seating and cleanliness.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<s1>
+<ptxt>
+Using special tools, set fuel injector seal ring as follows.
+</ptxt>
+<s2>
+<ptxt>
+Put special tool (A) on top of injector (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G111">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09912-97140">
+09912–97140
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IFRA0Q171026.swf" width = "88.000mm" height = "64.350mm" ver = "01" gw = "80" gh = "166"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Fit new seal ring (1) into groove (2) through special tool (A).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G112">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09912-97140">
+09912–97140
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGRA0A171003.swf" width = "88.000mm" height = "68.652mm" ver = "03" gw = "80" gh = "178"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Fuel injector
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove special tool (A) and place special tool (B) with chamfered side down onto injector and then depress the tool up to the position shown in figure.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G113">
+<s-part>
+(B)
+</s-part>
+<s-number num = "09912-97130">
+09912–97130
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s2>
+<s2>
+<ptxt>
+Turn special tool (B) 180&#176; in arrow direction and then reverse it to the starting position.
+</ptxt>
+<figure>
+<graphic graphicname = "IGRA0A171004.swf" width = "88.000mm" height = "46.687mm" ver = "03" gw = "110" gh = "116"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Fuel injector
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove special tool (B) and check seal ring (1) for seating conditions compared with standard positioning shown in figure. If misalignment, crack or collapse is found, replace seal ring with new one again.
+</ptxt>
+<figure>
+<graphic graphicname = "IGRA0A171005.swf" width = "88.000mm" height = "50.825mm" ver = "01" gw = "195" gh = "128"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Fuel injector
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Fit new back up ring (1) and new O-ring (2) to fuel injector (3) noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Clean injector surface thoroughly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Face wide flat surface side of back up ring upward.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use full care not to damage O-ring.
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Apply a bit of fuel to O-ring.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set new fuel injector clip (4).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set fuel injectors to new fuel delivery pipe (5).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set delivery pipe silencer (6) to fuel delivery pipe.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174024.jpg" width = "88.000mm" height = "58.020mm" ver = "02" gw = "235" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install fuel delivery pipe, delivery pipe silencer with fuel injectors to cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten fuel delivery pipe bolts (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Tighten the bolts evenly and carefully until fuel injectors (2) are inserted in the holes of cylinder head (3) fully.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten fuel delivery pipe bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1G104">
+<t-part>
+Fuel delivery pipe bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IHSB0A174025.jpg" width = "88.000mm" height = "57.017mm" ver = "02" gw = "201" gh = "145"/>
+</figure>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If reinstallation of injectors is necessary, replace each back up ring and O-ring with new one again.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check the state of each seal ring and replace it if any abnormality is found.
+</ptxt>
+</item>
+</list1>
+</attention3>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install new high pressure pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1716008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect fuel injector connectors and fuel pressure sensor connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install intake manifold. 
+<intxreftitleoff1 refid = "AENLSB0A1416021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With engine stopped, set ignition “ON” and check for fuel leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1716004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4A">
+<servcat sctnbr = "04" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4106006" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Brake Pedal Assembly Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4106005">Brake Pedal Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A4106006001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove steering column hole cover. 
+<intxreftitleoff1 refid = "AENLSB0A9306002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect brake light switch connector. 
+<intxreftitleoff1 refid = "AENLSB0A4106011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For ENG A-STOP model, disconnect brake stroke sensor connector. 
+<intxreftitleoff1 refid = "AENLSB0AB106007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove accelerator pedal assembly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1316007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1326007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+For LHD, remove steering joint cover. 
+<intxreftitleoff1 refid = "AENLSB0A6206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For LHD, remove accelerator pedal bracket nuts (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410007.jpg" width = "88.000mm" height = "71.278mm" ver = "01" gw = "199" gh = "186"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+For LHD, disconnect harness clamp (upper side) (1) from brake pedal bracket.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410008.swf" width = "88.000mm" height = "56.903mm" ver = "01" gw = "153" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect harness clamp (lower side) (1) from brake pedal bracket.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410009.swf" width = "88.000mm" height = "60.762mm" ver = "01" gw = "198" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove clip, clevis pin and brake booster nuts from brake pedal bracket. 
+<intxreftitleoff1 refid = "AENLSB0A4106023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove brake pedal bracket nut (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410010.jpg" width = "88.000mm" height = "71.278mm" ver = "01" gw = "199" gh = "186"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove brake pedal assembly.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove brake light switch and/or brake stroke sensor, if necessary.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake light switch: 
+<intxreftitleoff1 refid = "AENLSB0A4106011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake stroke sensor: 
+<intxreftitleoff1 refid = "AENLSB0AB106007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4106006002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A4106023">Brake Booster Removal and Installation</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install brake light switch and/or brake stroke sensor, if removed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake light switch: 
+<intxreftitleoff1 refid = "AENLSB0A4106011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake stroke sensor: 
+<intxreftitleoff1 refid = "AENLSB0AB106007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install brake pedal assembly to brake booster.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten brake booster nuts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T4A001">
+<t-part>
+Brake booster nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A410011.jpg" width = "88.000mm" height = "71.278mm" ver = "01" gw = "199" gh = "186"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tighten brake pedal bracket nut (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T4A002">
+<t-part>
+Brake pedal bracket nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A410012.jpg" width = "88.000mm" height = "71.278mm" ver = "01" gw = "199" gh = "186"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+For LHD, tighten accelerator pedal bracket nuts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T4A003">
+<t-part>
+Accelerator pedal bracket nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A410013.jpg" width = "88.000mm" height = "71.278mm" ver = "01" gw = "199" gh = "186"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+For LHD, install steering joint cover. 
+<intxreftitleoff1 refid = "AENLSB0A6206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install accelerator pedal assembly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1316007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1326007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install clevis pin and new clip. 
+<intxreftitleoff1 refid = "AENLSB0A4106023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For LHD, connect harness clamp (upper side) (1) to brake pedal bracket.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410008.swf" width = "88.000mm" height = "56.903mm" ver = "01" gw = "153" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect harness clamp (lower side) (1) to brake pedal bracket.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A410009.swf" width = "88.000mm" height = "60.762mm" ver = "01" gw = "198" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+For ENG A-STOP model, connect brake stroke sensor connector. 
+<intxreftitleoff1 refid = "AENLSB0AB106007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect brake light switch connector. 
+<intxreftitleoff1 refid = "AENLSB0A4106011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check brake pedal free height and play.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake pedal free height: 
+<intxreftitleoff1 refid = "AENLSB0A4106007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake pedal play: 
+<intxreftitleoff1 refid = "AENLSB0A4106008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Check all connections for fluid leakage and check that brake system operates properly.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install steering column hole cover. 
+<intxreftitleoff1 refid = "AENLSB0A9306002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

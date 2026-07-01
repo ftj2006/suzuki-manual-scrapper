@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0A">
+<servcat sctnbr = "00" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLBA0C0101009" svcinfotypenbr = "02" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Identification Plate
+</title>
+<ptxt>
+Identification plate (1) is installed at the center pillar lower side on the right body outer panel.
+</ptxt>
+<ptxt>
+The identification plate has the following information:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+VIN (2)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Color code (3)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Model code (4) including the model information shownin 
+<intxref refid = "AENLBA0C0101009001">Model Code Description</intxref>
+ below.
+</ptxt>
+</item>
+</list1>
+<figure page = "2">
+<graphic graphicname = "IKHC0A010004.jpg" width = "88.000mm" height = "71.778mm" ver = "01" gw = "215" gh = "187"/>
+</figure>
+<figure page = "2">
+<graphic graphicname = "ILBA0C010001.jpg" width = "88.000mm" height = "44.267mm" ver = "01" gw = "206" gh = "109"/>
+</figure>
+<servinfosub id = "AENLBA0C0101009001" page = "2">
+<title>
+Model Code Description
+</title>
+<ptxt>
+The composition of the model code and the descriptionof digits are as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The model code is composed of 9 characters.
+</ptxt>
+</item>
+</list1>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The 8th and 9th characters indicate market code.
+</ptxt>
+</item>
+</list1>
+<ptxt>
+For example, “06” means market code “P06”.
+</ptxt>
+<ptxt>
+The market code is used in this manual to facilitate exact identification of the vehicle specification.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

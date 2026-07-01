@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1326002" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Procedure after ECM Replacement
+</title>
+<attention3>
+<ptxt>
+When ECM and BCM are replaced with new ones at the same time, perform “Immobilizer Key Registration” instead of “ECM Registration” using SUZUKI scan tool and security device. Refer to Operator&apos;s Manual of SUZUKI scan tool for the immobilizer registration.
+</ptxt>
+</attention3>
+<ptxt>
+After ECM is replaced with new one, perform the following procedure:
+</ptxt>
+<s1>
+<ptxt>
+Program calibration data to ECM. Refer to Operator’s Manual of SUZUKI ECU Programming System.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA306003">ECM / ISG Registration</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform electric throttle control system calibration. 
+<intxreftitleoff1 refid = "AENLSB0A1326004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform GPF after-sales regeneration. 
+<intxreftitleoff1 refid = "AENLSB0A1226012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

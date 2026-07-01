@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A1A34002" svcinfotypenbr = "06" svcinfoqualnbr = "04" page = "1" supplyoff = "1" modify = "0">
+<title>
+Generator Symptom Diagnosis
+</title>
+<ptxt>
+Trouble in charging system will show up as one or more of the following conditions.
+</ptxt>
+<servinfosub id = "AENLJA0A1A34002001">
+<title>
+Charging Warning Light Operation Failure
+</title>
+<diag type = "condition" id = "AENLJA0A1A34002002">
+<condition>
+<ptxt>
+Charge warning light does not light with ignition “ON” and engine off
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Blown fuse
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace fuse and check its circuit.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty combination meter
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace combination meter. 
+<intxreftitleoff1 refid = "AENLJA0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check ECM. 
+<intxreftitleoff1 refid = "AENLJA0A1124076"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty CAN communication line
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair or replace CAN communication line. 
+<intxreftitleoff1 refid = "AENLJA0AA824001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Charge warning light does not go out with engine running (battery requires frequent recharging)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Malfunctioning charging system
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Perform generator test. 
+<intxreftitleoff1 refid = "AENLJA0A1A34004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Loose or worn ISG drive belt
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A36004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG drive belt tensioner and idler pulley
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG drive belt tensioner and idler pulley. 
+<intxreftitleoff1 refid = "AENLJA0A1A36007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty combination meter
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace combination meter. 
+<intxreftitleoff1 refid = "AENLJA0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check ECM. 
+<intxreftitleoff1 refid = "AENLJA0A1124076"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+</diag>
+</servinfosub>
+<servinfosub id = "AENLJA0A1A34002003">
+<title>
+Battery Charging Failure
+</title>
+<diag type = "condition" id = "AENLJA0A1A34002004">
+<condition>
+<ptxt>
+Undercharged battery
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Loose or worn ISG drive belt
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A36004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG drive belt tensioner and idler pulley
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG drive belt tensioner and idler pulley. 
+<intxreftitleoff1 refid = "AENLJA0A1A36007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Loosen or corroded battery terminals
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Tighten battery terminals or replace battery. 
+<intxreftitleoff1 refid = "AENLJA0A1A36002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Overcharged battery
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty ISG
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfosub>
+<servinfosub id = "AENLJA0A1A34002005">
+<title>
+Noise
+</title>
+<diag type = "condition" id = "AENLJA0A1A34002006">
+<condition>
+<ptxt>
+Noisy ISG
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Loose mounting bolts
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Tighten mounting bolts. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty rotor, stator or inverter
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Dirty, worn or faulty bearings
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ISG. 
+<intxreftitleoff1 refid = "AENLJA0A1A36005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

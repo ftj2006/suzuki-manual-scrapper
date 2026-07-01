@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA14A13" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Lane departure prevention function cannot be switched ON or OFF (lane departure prevention model)
+</title>
+<attention3>
+<ptxt>
+Dual sensor brake support system is controlled by dual sensor brake support control module communicating with the following control modules through CAN communication. Before performing symptom diagnosis, check that no DTC is indicated in these control modules.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+<item>
+<ptxt>
+TCM (A/T model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+P/S control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</item>
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Lane departure prevention function cannot be switched ON or OFF (lane departure prevention model)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty lane departure prevention switch circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0AAA16008">Lane Departure Prevention Switch Inspection (Lane Departure Prevention Model):Dual Sensor Brake Support</intxref>
+.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

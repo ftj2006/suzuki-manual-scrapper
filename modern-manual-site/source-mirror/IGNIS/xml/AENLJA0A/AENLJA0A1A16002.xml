@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A16002" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Battery Removal and Installation
+</title>
+<servinfosub id = "AENLJA0A1A16002001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable (1) at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect positive (+) cable (2) at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove battery band (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove battery (4).
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IGJA0A1A1001.jpg" width = "88.000mm" height = "50.450mm" ver = "01" gw = "185" gh = "126"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+If necessary, remove battery tray (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Disconnect harness clamps from battery tray.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Remove battery tray.
+</ptxt>
+</s2>
+<figure>
+<graphic graphicname = "IGJA0A1A1002.jpg" width = "88.000mm" height = "50.111mm" ver = "01" gw = "185" gh = "126"/>
+</figure>
+</s1>
+</servinfosub>
+<p-change/>
+<servinfosub id = "AENLJA0A1A16002002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If removed, tighten new battery tray bolts (1) and nut (2) to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+The battery tray bolt and nut are pre-coated with adhesive. If these bolt and nut are reused, they may work loose.
+</ptxt>
+<ptxt>
+Replace the battery tray bolt and nut with new ones whenever they are removed.
+</ptxt>
+</attention4>
+<torque>
+<torqueitem id = "T1J101">
+<t-part>
+Battery tray bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+15
+</t-value1>
+<t-value2>
+1.5
+</t-value2>
+<t-value3>
+11.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J102">
+<t-part>
+Battery tray nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+15
+</t-value1>
+<t-value2>
+1.5
+</t-value2>
+<t-value3>
+11.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGJA0A1A1003.jpg" width = "88.000mm" height = "50.111mm" ver = "01" gw = "185" gh = "126"/>
+</figure>
+</item>
+</list1>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Face notch (1) of battery band inside.
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A1A1004.jpg" width = "88.000mm" height = "59.495mm" ver = "01" gw = "185" gh = "152"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Fasten battery cables securely.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Initialize electrical devices if necessary.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

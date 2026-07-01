@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1A24004" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Test
+</title>
+<ptxt>
+This condition, as evidenced by slow cranking or low specific gravity, can be caused by one or more of the following conditions even though warning light operates normally.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that undercharged condition has not been caused by accessories being left on for an extended period.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check accessory drive belt for wear and tension. 
+<intxreftitleoff1 refid = "AENLSB0A1A26003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+If battery defect is suspected, refer to 
+<intxref refid = "AENLSB0A1A21001">Battery Description:K14D</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wiring for defects. Check all connections for tightness and cleanliness, battery cable connections at battery, starting motor and ignition ground cable.
+</ptxt>
+</item>
+</list1>
+<servinfosub id = "AENLSB0A1A24004001">
+<title>
+Warning Light Check
+</title>
+<attention3>
+<ptxt>
+Use fully charged battery.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that charge warning light (1) comes ON. If charge warning light never lights up, go to “Charge warning light does not light with ignition “ON” and engine off” under 
+<intxref refid = "AENLSB0A1A24002">Generator Symptom Diagnosis:K14D</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2002.swf" width = "88.000mm" height = "55.814mm" ver = "01" gw = "206" gh = "142"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Run engine at idle speed.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If charge warning light remains ON, go to “Charge warning light does not go out with engine running (battery requires frequent recharging)” under 
+<intxref refid = "AENLSB0A1A24002">Generator Symptom Diagnosis:K14D</intxref>
+.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A24004002">
+<title>
+DTC Check
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A1124003">DTC Check:K14D</intxref>
+.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

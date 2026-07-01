@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Air Cleaner Filter Inspection and Cleaning
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1426002">Air Cleaner Filter Removal and Installation:K14D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1426003001">
+<title>
+Inspection
+</title>
+<ptxt>
+Check air cleaner filter for dirt. Replace excessively dirty filter.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A1426003002">
+<title>
+Cleaning
+</title>
+<ptxt>
+Blow off dust by compressed air from air outlet side of filter.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A142005.swf" width = "88.000mm" height = "47.843mm" ver = "01" gw = "162" gh = "119"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

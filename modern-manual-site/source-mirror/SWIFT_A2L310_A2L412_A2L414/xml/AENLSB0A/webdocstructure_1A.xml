@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Charging System">
+<c i="1" t="K14C">
+<t s="0" t="Precautions">
+<s i="AENLSB0A1A10001" t="Precautions for Handling Battery">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0A1A11001" t="Battery Description">
+</s>
+<s i="AENLSB0A1A11002" t="Generator Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1A14001" t="Battery Inspection">
+</s>
+<s i="AENLSB0A1A14002" t="Generator Symptom Diagnosis">
+</s>
+<s i="AENLSB0A1A14003" t="Generator Test">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1A16001" t="Jump-Starting in Case of Emergency">
+</s>
+<s i="AENLSB0A1A16002" t="Battery Removal and Installation">
+</s>
+<s i="AENLSB0A1A16003" t="Water Pump / Generator Drive Belt Tension Inspection and Adjustment">
+</s>
+<s i="AENLSB0A1A16004" t="Water Pump / Generator Drive Belt Removal and Installation">
+</s>
+<s i="AENLSB0A1A16005" t="Generator Removal and Installation">
+</s>
+<s i="AENLSB0A1A16006" t="Water Pump / Generator Drive Belt Idler Pulley Removal and Installation">
+</s>
+<s i="AENLSB0A1A16007" t="Generator Components">
+</s>
+<s i="AENLSB0A1A16008" t="Generator Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1A16009" t="Generator Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1A17001" t="Charging System Specifications">
+</s>
+<s i="AENLSB0A1A17002" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1A18001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K14D">
+<t s="0" t="Precautions">
+<s i="AENLSB0A1A20001" t="Precautions for Handling Battery">
+</s>
+<s i="AENLSB0A1A20002" t="Precautions for Replacing Battery">
+</s>
+<s i="AENLSB0A1A20003" t="Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery)">
+</s>
+<s i="AENLSB0A1A20004" t="Precautions for Handling ISG">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0A1A21001" t="Battery Description">
+</s>
+<s i="AENLSB0A1A21003" t="Auxiliary Power Module (Lithium-Ion Battery) Control System Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1A24001" t="Battery Inspection">
+</s>
+<s i="AENLSB0A1A24002" t="Generator Symptom Diagnosis">
+</s>
+<s i="AENLSB0A1A24003" t="SHVS System Check">
+</s>
+<s i="AENLSB0A1A24004" t="Generator Test">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1A26001" t="Jump-Starting in Case of Emergency">
+</s>
+<s i="AENLSB0A1A26002" t="Battery Removal and Installation">
+</s>
+<s i="AENLSB0A1A26003" t="Accessory Drive Belt Inspection">
+</s>
+<s i="AENLSB0A1A26004" t="Accessory Drive Belt Removal and Installation">
+</s>
+<s i="AENLSB0A1A26005" t="ISG Removal and Installation">
+</s>
+<s i="AENLSB0A1A26006" t="ISG Inspection">
+</s>
+<s i="AENLSB0A1A26007" t="Accessory Drive Belt Tensioner / Idler Pulley Removal and Installation">
+</s>
+<s i="AENLSB0A1A26008" t="Accessory Drive Belt Tensioner / Idler Pulley Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1A27001" t="Charging System Specifications">
+</s>
+<s i="AENLSB0A1A27002" t="Tightening Torque Specifications">
+</s>
+</t>
+</c>
+</b>

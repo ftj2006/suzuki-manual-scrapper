@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206026" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Front Side-Impact Pressure Sensor Removal and Installation (10-Channel Air Bag System)
+</title>
+<attention1>
+<ptxt>
+Failure to take proper precautions when handling the air bag system sensors can result in personal injury due to non-deployed air bag system in the event of an accident or accidental air bag deployment.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Never impact or shake the sensors.
+</ptxt>
+<ptxt>
+Otherwise, proper operation of the sensors cannot be assured.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Always tighten the mounting bolts to specified torque when installing the sensors. Otherwise, proper operation of the sensors cannot be assured.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<servinfosub id = "AENLSB0A8206026001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove front door trim and door sealing cover. 
+<intxreftitleoff1 refid = "AENLSB0A9506008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect front side-impact pressure sensor connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove front side-impact pressure sensor screws (2) and remove front side-impact pressure sensor (3) from front door panel (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822110.jpg" width = "88.000mm" height = "47.275mm" ver = "01" gw = "171" gh = "117"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8206026002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206027">Front Side-Impact Pressure Sensor Inspection (10-Channel Air Bag System)</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Check that none of the following faulty conditions exists.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Bend, deformation or rust on front door panel
+</ptxt>
+</item>
+<item>
+<ptxt>
+Foreign material on sensor
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install front side-impact pressure sensor (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten front side-impact pressure sensor screws (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect front side-impact pressure sensor connector (3) securely.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822111.jpg" width = "88.000mm" height = "47.275mm" ver = "01" gw = "171" gh = "117"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install door sealing cover and front door trim. 
+<intxreftitleoff1 refid = "AENLSB0A9506008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Enable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

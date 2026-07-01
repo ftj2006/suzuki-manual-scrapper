@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9F04A08" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Rearview image is unclear (if equipped)
+</title>
+<ptxt>
+Before performing the following troubleshooting, check if the symptom is not caused by incorrect handling while referring to Owner’s Manual.
+</ptxt>
+<ptxt>
+If the cause cannot be identified by the following troubleshooting, replace audio unit with a known-good one. If the symptom is cleared, audio unit is the cause.
+</ptxt>
+<diag type = "condition">
+<condition>
+<ptxt>
+Rearview image is unclear (if equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Abnormal operating environments such as temperature, radio waves, etc.
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Recheck in different place.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Damaged lens
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace rearview camera. 
+<intxreftitleoff1 refid = "AENLSB0A9F06012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio unit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace audio unit. 
+<intxreftitleoff1 refid = "AENLSB0A9F06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

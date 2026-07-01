@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "00">
+<servcat sctnbr = "00" scnbr = "00">
+<configtype typenbr = "0">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0C0000022" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Warning for Blind Spot Monitor System
+</title>
+<attention1>
+<ptxt>
+Failure to take the following precautions may cause a serious accident affected by malfunction of blind spot monitor system.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Keep the rear bumper around the sensors clean always.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not drop or otherwise expose blind spot monitor control module to large shock. The blind spot monitor control module that has received large shock should be replaced.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If peripheral component of the rear bumper is damaged, check the blind spot monitor control module and its bracket.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When replacing rear bumper, use SUZUKI genuine parts.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not affix clear film or sticker etc. to rear bumper at the area of radar irradiation. 
+<intxreftitleoff1 refid = "AENLSB0CAA30002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not apply paint to rear bumper at the area of radar irradiation.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If rear bumper is damaged, deformed, dented or cracked at the area of radar irradiation, replace the bumper.
+</ptxt>
+</item>
+</list1>
+</attention1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

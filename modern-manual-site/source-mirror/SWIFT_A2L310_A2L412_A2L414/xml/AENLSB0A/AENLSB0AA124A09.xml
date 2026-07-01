@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124A09" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Maximum speed cannot be changed by operating RES/+ or SET/– switch
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Perform speed limiter system check referring to 
+<intxref refid = "AENLSB0AA124002">Speed Limiter System Check:Adaptive Cruise Control</intxref>
+ before performing this Speed Limiter System Symptom Diagnosis.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check each part in the order from the top of the following list.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Maximum speed cannot be changed by operating RES/+ or SET/– switch
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty RES/+ or SET/– switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check RES/+ or SET/– switch. 
+<intxreftitleoff1 refid = "AENLSB0AA126003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace ECM after checking that none of above parts is faulty.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

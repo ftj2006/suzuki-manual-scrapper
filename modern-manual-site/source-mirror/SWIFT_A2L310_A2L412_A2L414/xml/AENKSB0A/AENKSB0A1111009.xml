@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENKSB0A1111009" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Electronic Control System Description
+</title>
+<ptxt>
+The electronic control system consists of various sensors which detect the state of engine and driving conditions, ECM which controls various devices according to the signals from the sensors and various controlled devices.
+</ptxt>
+<ptxt>
+Functionally, the electronic control system is divided into the following sub systems:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fuel injection control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Ignition control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Electric throttle control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fuel pump control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Radiator cooling fan control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Evaporative emission control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+HO2S heater control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+A/C control system (A/C model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+VVT system
+</ptxt>
+</item>
+<item>
+<ptxt>
+A/F sensor heater control system (GPF model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Generator control system (Non-ENG A-STOP model)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Boost control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Immobilizer control system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake override system
+</ptxt>
+<ptxt>
+When the driver depresses accelerator pedal and brake pedal at the same time, ECM controls engine output by restricting throttle valve opening and prioritizes braking force.
+</ptxt>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The system may not be activated depending on the following conditions.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Depressing amount of accelerator pedal and brake pedal
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle speed
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+The system restricts throttle valve opening mainly. Therefore, ignition timing control, boost control and VVT system are affected by this system.
+</ptxt>
+</item>
+</list1>
+</attention3>
+</item>
+<item>
+<ptxt>
+Controller (computer) communication system
+</ptxt>
+</item>
+</list1>
+<ptxt>
+ECM is uses CAN communication system to communicate with other control modules. For more detail of CAN communication, refer to 
+<intxref refid = "AENKSB0AA811001">Communication System Description:K10C Model</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0B">
+<servcat sctnbr = "00" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "8">
+<servinfo servinfosgmlid = "AENLSB0C0208001" svcinfotypenbr = "11" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Recommended Fluids and Lubricants
+</title>
+<table frame = "all" colsep = "0" rowsep = "0">
+<tgroup cols = "2" colsep = "0" rowsep = "0">
+<colspec colnum = "1" colname = "1" colwidth = "2.232in"/>
+<colspec colnum = "2" colname = "2" colwidth = "4.961in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine oil
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<list1 type = "unordered">
+<item>
+<ptxt>
+K10C model: Refer to 
+<intxref refid = "AENLSB0C1516001">Engine Oil and Filter Change:K10C</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12C model: Refer to 
+<intxref refid = "AENLSB0C1526001">Engine Oil and Filter Change:K12C</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12D model: Refer to 
+<intxref refid = "AENLSB0C1536001">Engine Oil and Filter Change:K12D</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12M model: Refer to 
+<intxref refid = "AENLSB0C1546001">Engine Oil and Filter Change:K12M</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine coolant
+</ptxt>
+<ptxt>
+(Ethylene glycol base coolant)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<list1 type = "unordered">
+<item>
+<ptxt>
+K10C model: Refer to 
+<intxref refid = "AENLSB0C1611002">Coolant Description:K10C</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12C model: Refer to 
+<intxref refid = "AENLSB0C1621002">Coolant Description:K12C</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12D model: Refer to 
+<intxref refid = "AENLSB0C1631002">Coolant Description:K12D</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12M model: Refer to 
+<intxref refid = "AENLSB0C1641002">Coolant Description:K12M</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Brake fluid and clutch fluid
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Refer to reservoir cap of brake master cylinder.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Manual transaxle oil (M/T model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<list1 type = "unordered">
+<item>
+<ptxt>
+K10C model and K12D-4WD model: Refer to 
+<intxref refid = "AENLSB0C5216002">Manual Transaxle Oil Change:K10C Model and K12D-4WD Model</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+K12C model, K12D-2WD model and K12M model: Refer to 
+<intxref refid = "AENLSB0C5226002">Manual Transaxle Oil Change:K12C Model, K12D-2WD Model and K12M Model</intxref>
+.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+CVT fluid
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0C5506004">CVT Fluid Change</intxref>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Transfer oil (4WD model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0C3306002">Transfer Oil Change</intxref>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Rear differential oil (4WD model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0C3206002">Rear Differential Oil Change</intxref>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Door hinges
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine oil or water resistant chassis grease
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Hood latch assembly
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Engine oil or water resistant chassis grease
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Key lock cylinder
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Spray lubricant
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

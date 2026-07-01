@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1A16002" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Battery Removal and Installation
+</title>
+<servinfosub id = "AENLSB0C1A16002001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable (1) at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect positive (+) cable (2) at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove battery band (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove battery (4).
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IFRA0B1A1002.swf" width = "88.000mm" height = "60.828mm" ver = "01" gw = "213" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove battery tray (1), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1A1003.swf" width = "88.000mm" height = "61.248mm" ver = "01" gw = "214" gh = "157"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C1A16002002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten new battery tray bolts (1), new battery tray nut (2) and battery band nuts (3) to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+The battery tray bolts and nut are pre-coated. If these bolts and nut are reused, they may work loose.
+</ptxt>
+<ptxt>
+Replace the battery tray bolts and nut with new ones whenever they are removed.
+</ptxt>
+</attention4>
+<torque>
+<torqueitem id = "T1J101">
+<t-part>
+Battery tray bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J102">
+<t-part>
+Battery tray nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+13
+</t-value1>
+<t-value2>
+1.3
+</t-value2>
+<t-value3>
+9.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J103">
+<t-part>
+Battery band nut
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+3.3
+</t-value1>
+<t-value2>
+0.34
+</t-value2>
+<t-value3>
+2.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten positive (+) cable nut (4) and negative (–) cable nut (5) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J104">
+<t-part>
+Positive (+) cable nut
+</t-part>
+<t-part1>
+d
+</t-part1>
+<t-value1>
+5.0
+</t-value1>
+<t-value2>
+0.51
+</t-value2>
+<t-value3>
+4.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J105">
+<t-part>
+Negative (–) cable nut
+</t-part>
+<t-part1>
+e
+</t-part1>
+<t-value1>
+5.0
+</t-value1>
+<t-value2>
+0.51
+</t-value2>
+<t-value3>
+4.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0B1A1004.swf" width = "88.000mm" height = "61.248mm" ver = "01" gw = "214" gh = "157"/>
+</figure>
+<figure>
+<graphic graphicname = "IGSB0A1A1006.swf" width = "88.000mm" height = "97.609mm" ver = "01" gw = "233" gh = "260"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Initialize electrical devices if necessary.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106040" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Solenoid Harness with ATF Temperature Sensor Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A5106040001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove valve body assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5106018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove solenoid harness lock plate (1) and solenoid harness with ATF temperature sensor (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510311.swf" width = "88.000mm" height = "56.232mm" ver = "02" gw = "180" gh = "143"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106040002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106041">ATF Temperature Sensor Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install solenoid harness lock plate properly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use new solenoid harness connector O-ring (1) and new gasket (2).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Apply ATF to O-ring and gasket.
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510312.swf" width = "88.000mm" height = "66.853mm" ver = "03" gw = "211" gh = "173"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

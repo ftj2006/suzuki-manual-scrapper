@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C1A06005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Belt Tensioner Arm and Belt Tensioner Pulley Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLBA0C1A06006">Generator Removal and Installation</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLBA0C1A06005001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENLBA0C1A06004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove belt tensioner arm with belt tensioner pulley (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IJHA0A1A0013.jpg" width = "88.000mm" height = "53.244mm" ver = "01" gw = "199" gh = "134"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove generator belt adjuster bolt (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove tension pulley bolt (2), and then remove tension pulley (3) and generator belt adjuster (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A1A1010.jpg" width = "88.000mm" height = "61.203mm" ver = "01" gw = "167" gh = "157"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLBA0C1A06005002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Install tension pulley (1) to belt tensioner arm (2) so that cutout (3) in tension pulley is aligned with slot (4) in belt tensioner arm.
+</ptxt>
+<figure>
+<graphic graphicname = "IJHB0D1A0003.jpg" width = "88.000mm" height = "63.573mm" ver = "01" gw = "120" gh = "164"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install generator belt adjuster (1) and tighten tension pulley bolt (2) temporarily.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install generator belt adjuster bolt (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A1A1012.jpg" width = "88.000mm" height = "65.267mm" ver = "01" gw = "171" gh = "168"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install belt tensioner arm with belt tensioner pulley as shown in figure.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten belt tensioner arm bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J006">
+<t-part>
+Belt tensioner arm bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IJHB0D1A0004.jpg" width = "88.000mm" height = "56.598mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Adjust belt tension. 
+<intxreftitleoff1 refid = "AENLBA0C1A06003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install right side engine under side cover. 
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

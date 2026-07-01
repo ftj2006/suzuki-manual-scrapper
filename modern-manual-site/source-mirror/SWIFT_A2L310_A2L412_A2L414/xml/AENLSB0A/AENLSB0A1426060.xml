@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1426060" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Crankshaft Front Oil Seal Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A1426060001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Hoist vehicle and remove right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump drive belt. 
+<intxreftitleoff1 refid = "AENLSB0A1626019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove crankshaft pulley referring to Step 3) – 5) in “Removal” under 
+<intxref refid = "AENLSB0A1526009">Oil Pump Assembly Removal and Installation:K14D</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Using a flat-bladed screwdriver or the like wrapped with protective tape, remove oil seal (1) slowly.
+</ptxt>
+<attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If tip of screwdriver scratches oil pump assembly, it may cause oil leakage.
+</ptxt>
+<ptxt>
+Carefully remove oil seal not to damage oil pump assembly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If crankshaft edge is dented, it may disturb smooth installation of crankshaft pulley.
+</ptxt>
+<ptxt>
+Carefully remove oil seal not to damage crankshaft edge.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<figure>
+<graphic graphicname = "ILSB0A142102.jpg" width = "88.000mm" height = "52.313mm" ver = "01" gw = "156" gh = "132"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1426060002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Using special tool and hammer, install new oil seal (1) into timing chain cover.
+</ptxt>
+<spec>
+<title>
+Depth
+</title>
+<ptxt>
+“a”: 2.15 – 2.32 mm (0.084 – 0.091 in.)
+</ptxt>
+</spec>
+<servicetool>
+<servicetoolitem id = "L1D249">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09913-70123">
+09913–70123
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "ILSB0A142103.jpg" width = "88.000mm" height = "45.963mm" ver = "01" gw = "189" gh = "114"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install crankshaft pulley referring to Step 19) – 21) in “Installation” under 
+<intxref refid = "AENLSB0A1526009">Oil Pump Assembly Removal and Installation:K14D</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install water pump drive belt. 
+<intxreftitleoff1 refid = "AENLSB0A1626019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install right side engine under side cover.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

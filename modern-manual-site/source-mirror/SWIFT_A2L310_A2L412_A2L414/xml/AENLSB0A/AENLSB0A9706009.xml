@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9G">
+<servcat sctnbr = "09" scnbr = "07">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9706009" svcinfotypenbr = "08" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+Rear Seatback and Rear Seat Cushion Disassembly and Reassembly
+</title>
+<servinfosub id = "AENLSB0A9706009001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+Remove rear seat. 
+<intxreftitleoff1 refid = "AENLSB0A9706008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove headrests and headrest guides. 
+<intxreftitleoff1 refid = "AENLSB0A9706007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove shoulder anchor cover (7)
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear side hinge bolts (10), and remove rear side hinge bushings (11).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove tether anchor cover (12) and rear seatback lock bezels (4).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback trim (R) / (L) (2) and remove rear seatback pad (R) / (L) (1) from rear seatback frame (R) / (L) (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback silencers (13).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback lock bolts (9), and remove rear seatback locks (6).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seatback lock knobs (5).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A970007.jpg" width = "183.000mm" height = "154.810mm" ver = "01" gw = "497" gh = "422"/>
+<callout-l>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.394in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+If equipped
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MADONOT" width = "5.132mm" height = "3.048mm"/>
+:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+&#183;Do not reuse.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Trim ring
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout-l>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disassemble rear seat cushion assembly if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B970009.jpg" width = "183.000mm" height = "73.729mm" ver = "01" gw = "295" gh = "192"/>
+<callout-l>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.394in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear seat cushion pad
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Trim ring
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Rear seat cushion trim
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MADONOT" width = "5.132mm" height = "3.048mm"/>
+:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Do not reuse.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout-l>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9706009002">
+<title>
+Reassembly
+</title>
+<ptxt>
+Reverse disassembly procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten rear side hinge bolts and rear seatback lock bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T9G006">
+<t-part>
+Rear seatback lock bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+21
+</t-value1>
+<t-value2>
+2.1
+</t-value2>
+<t-value3>
+15.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A970008.jpg" width = "183.000mm" height = "47.741mm" ver = "01" gw = "396" gh = "119"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

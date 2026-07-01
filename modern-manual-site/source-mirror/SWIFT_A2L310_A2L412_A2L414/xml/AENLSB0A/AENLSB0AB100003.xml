@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0AB100003" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Precautions for Replacing Battery
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A1A20002">Precautions for Replacing Battery:K14D</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A7204A03" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+No cool air comes out (Radiator cooling fan motor does not operate)
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+No cool air comes out (Radiator cooling fan motor does not operate)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Blown fuse
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check related fuses, and then check for short circuit to ground.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty radiator cooling fan relay
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check radiator cooling fan relay. 
+<intxreftitleoff1 refid = "AENLSB0A7206040"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty radiator cooling fan motor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check radiator cooling fan motor.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1616009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1626009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check ECM. 
+<intxreftitleoff1 refid = "AENLSB0A7204027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty BCM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check BCM. 
+<intxreftitleoff1 refid = "AENLSB0AA204029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

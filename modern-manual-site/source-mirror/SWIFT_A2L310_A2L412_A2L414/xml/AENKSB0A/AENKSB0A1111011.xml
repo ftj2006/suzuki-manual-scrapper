@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENKSB0A1111011" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+A/F Sensor Description (Gasoline Particulate Filter (GPF) Model)
+</title>
+<ptxt>
+The A/F sensor is located at the cluster of the exhaust manifold (in front of the three-way catalytic converter with GPF) and contains a sensor heater and sensor element.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The sensor element is of a laminated structure which consists of a zirconia element, a detection chamber and an oxygen reference chamber. ECM detects the oxygen concentration (A/F ratio) of the exhaust emission from “LEAN” to “RICH” in proportion using the zirconia characteristic.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The sensor heater maintains the sensor element temperature at approx. 780 &#176;C (1,436 &#176;F) constantly by the duty control signal to activate the sensor element.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

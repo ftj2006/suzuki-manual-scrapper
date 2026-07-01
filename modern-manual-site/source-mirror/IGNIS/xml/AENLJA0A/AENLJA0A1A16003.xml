@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A16003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Tension Inspection and Adjustment
+</title>
+<s1 page = "2">
+<ptxt>
+Check water pump / generator drive belt for cracks, cuts, deformation, wear and cleanliness. If it is necessary to replace water pump / generator drive belt, refer to 
+<intxref refid = "AENLJA0A1A16004">Water Pump / Generator Drive Belt Removal and Installation:K12M</intxref>
+.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check water pump / generator drive belt for tension. Water pump / generator drive belt is in proper tension when it deflects as follows under thumb pressure (about 100 N (10.2 kgf, 22.5 lbf).).
+</ptxt>
+<ptxt>
+If belt tension is not as specified, go to next steps.
+</ptxt>
+<spec-sdm>
+<sdm-title>
+Water pump / generator drive belt tension
+</sdm-title>
+<sdm-part>
+“a”
+</sdm-part>
+<sdm1>
+<sdm-condition>
+Existing belt
+</sdm-condition>
+<sdm-value>
+5.2 – 6.0 mm (0.21 – 0.23 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)
+</sdm-value>
+<sdm-ptxt>
+between water pump pulley and generator pulley
+</sdm-ptxt>
+</sdm1>
+<sdm1>
+<sdm-condition>
+New belt
+</sdm-condition>
+<sdm-value>
+3.5 – 4.2 mm (0.14 – 0.16 in.) as deflection / 100 N (10.2 kgf, 22.5 lbf)
+</sdm-value>
+<sdm-ptxt>
+between water pump pulley and generator pulley
+</sdm-ptxt>
+</sdm1>
+</spec-sdm>
+<figure>
+<graphic graphicname = "IGJA0A1A1005.jpg" width = "88.000mm" height = "61.372mm" ver = "01" gw = "201" gh = "157"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Loosen tension pulley bolt (1) and then adjust belt tension to specification described at Step 2) by loosening / tightening generator belt adjusting bolt (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten tension pulley bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J103">
+<t-part>
+Tension pulley bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGJA0A1A1006.jpg" width = "88.000mm" height = "61.913mm" ver = "01" gw = "199" gh = "159"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check belt tension for specification after turning crankshaft two revolutions clockwise.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If check result is not as specified, repeat Step 3) – 5) again.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

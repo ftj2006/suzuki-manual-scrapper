@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9B">
+<servcat sctnbr = "09" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A9201006" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Guide Me Light System Description (If Equipped)
+</title>
+<ptxt>
+Guide me light system functions to illuminate the road at night turning on the clearance light, headlight, tail light and license plate light for specified time when the driver gets off or gets on the vehicle.
+</ptxt>
+<servinfosub id = "AENLSB0A9201006001">
+<title>
+Guide Me Light to Home
+</title>
+<ptxt>
+When passing light switch is operated to ON while lighting switch is positioned in “AUTO”, the clearance light, headlight, tail light and license plate light turn on for specified time under the following conditions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Ignition: OFF
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver’s door: Open
+</ptxt>
+</item>
+<item>
+<ptxt>
+Guide me light to home function: Not in operation
+</ptxt>
+</item>
+</list1>
+<ptxt>
+The lights go out if any one of the following conditions is met.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+After specified time elapsed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Ignition: “ACC” or “ON”
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting switch: Detects position change to other than “AUTO”
+</ptxt>
+</item>
+<item>
+<ptxt>
+Passing light switch: ON
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9201006002">
+<title>
+Guide Me Light to Car
+</title>
+<ptxt>
+When unlocking the doors using remote controller / transmitter while lighting switch is positioned in “AUTO”, the clearance light, headlight, tail light and license plate light turn on for a specified time under the following conditions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Ignition: OFF
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auto-on headlight sensor: Detects darkness
+</ptxt>
+</item>
+</list1>
+<ptxt>
+The lights go out if any one of the following conditions is met.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Doors are locked with key cylinder, remote controller or transmitter
+</ptxt>
+</item>
+<item>
+<ptxt>
+After specified time elapsed
+</ptxt>
+</item>
+<item>
+<ptxt>
+Ignition: “ACC” or “ON”
+</ptxt>
+</item>
+<item>
+<ptxt>
+Lighting switch: Detects position change to other than “AUTO”
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

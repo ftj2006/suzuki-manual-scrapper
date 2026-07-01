@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C9F06005" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Radio Antenna Feeder Cable Inspection
+</title>
+<servinfosub id = "AENLBA0C9F06005001">
+<title>
+Antenna and Antenna Base
+</title>
+<ptxt>
+Check antenna (1) and antenna base (2) for deformation and damage.
+</ptxt>
+<ptxt>
+If any faulty condition exists, replace antenna and/or antenna base.
+</ptxt>
+<figure>
+<graphic graphicname = "IFBA0A9F0017.swf" width = "88.000mm" height = "42.087mm" ver = "01" gw = "77" gh = "103"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLBA0C9F06005002">
+<title>
+Radio Antenna Feeder Cable (Instrument Panel Side)
+</title>
+<ptxt>
+Disconnect radio antenna feeder cable (instrument panel) and check continuity as shown in figure. If check result is not as specified, replace radio antenna feeder cable (instrument panel).
+</ptxt>
+<figure>
+<title>
+Radio antenna feeder cable (Instrument panel side) continuity
+</title>
+<graphic graphicname = "IFBA0A9F0029.swf" width = "88.000mm" height = "79.037mm" ver = "04" gw = "220" gh = "208"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLBA0C9F06005003">
+<title>
+Radio Antenna Feeder Cable (Roof Side)
+</title>
+<ptxt>
+Disconnect radio antenna feeder cable (roof) and check continuity as shown in figure. If check result is not as specified, replace radio antenna feeder cable (roof). 
+</ptxt>
+<figure>
+<title>
+Radio antenna feeder cable (Roof side) continuity
+</title>
+<graphic graphicname = "IHL70D9F0011.jpg" width = "88.000mm" height = "83.729mm" ver = "01" gw = "225" gh = "221"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

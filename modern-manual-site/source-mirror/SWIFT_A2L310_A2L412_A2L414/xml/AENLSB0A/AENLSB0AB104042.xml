@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AB104042" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "1" supplyoff = "1" modify = "0">
+<title>
+DTC P1D00
+</title>
+<servinfosub id = "AENLSB0AB104042001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.596in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.596in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1D00: 48V-ISG System
+</emph>
+</ptxt>
+<ptxt>
+48V-ISG system error with ECM
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</item>
+<item>
+<ptxt>
+DC/DC converter
+</ptxt>
+</item>
+<item>
+<ptxt>
+ISG
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AB104042002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention3>
+<ptxt>
+Check that the following condition is met in this “DTC Confirmation Procedure”.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+DTC P1D01, U0298, U108C, U1092, U1468, U1469, U1471, U1472, U1478 or U1479 is not detected.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Run engine at idle speed for 2 min.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AB104042003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AB104042004">
+<testgroup id = "AENLSB0AB104042005">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check following control modules for DTC.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery): 
+<intxreftitleoff1 refid = "AENLSB0AAB04003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+ISG: 
+<intxreftitleoff1 refid = "AENLSB0AB104004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+DC/DC converter: 
+<intxreftitleoff1 refid = "AENLSB0AB104004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042007">
+<title>
+Lead-acid battery check
+</title>
+<test1>
+<ptxt>
+Check lead-acid battery. 
+<intxreftitleoff1 refid = "AENLSB0A1A24001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part and recheck DTC.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042006">
+<title>
+DTC recheck
+</title>
+<test1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform “DTC Confirmation Procedure”, and check DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC P1D00 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Intermittent trouble.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042008">
+<title>
+Auxiliary power module (lithium-ion battery), ISG and DC/DC converter check
+</title>
+<test1>
+<ptxt>
+Check following control modules for proper installation.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery): 
+<intxreftitleoff1 refid = "AENLSB0AAB06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+ISG: 
+<intxreftitleoff1 refid = "AENLSB0AB106004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+DC/DC converter: 
+<intxreftitleoff1 refid = "AENLSB0AB106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts, then go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042015">
+<title>
+DTC recheck
+</title>
+<test1>
+<ptxt>
+Perform “DTC Confirmation Procedure”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”, and keep ignition “OFF” for 3 min.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery, and wait for 10 sec.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Connect negative (–) cable, and wait for 10 sec. or more.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1124003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC P1D00 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Intermittent trouble.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042009">
+<title>
+Scan tool parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC with ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Start engine at idle speed and select “Data list” mode of ISG.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “B-terminal Voltage Actual Value” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is voltage below 24 V?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042010">
+<title>
+Scan tool parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC with ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Start engine at idle speed and select “Data list” mode of DC/DC converter.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “HV Voltage” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is voltage between 24 and 54 V?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042011">
+<title>
+Scan tool parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC with ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Start engine at idle speed and select “Data list” mode of auxiliary power module (lithium-ion battery).
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “48V Terminal Voltage” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is voltage below 24 V?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042012">
+<title>
+Terminal voltage check
+</title>
+<paragroup>
+<attention2>
+<ptxt>
+Servicing SHVS system involves a danger of electric shock.
+</ptxt>
+<ptxt>
+For precaution, use insulation tool and gloves.
+</ptxt>
+</attention2>
+<attention3>
+<ptxt>
+Check voltage within 60 sec. after engine start.
+</ptxt>
+</attention3>
+</paragroup>
+<test1>
+<ptxt>
+Start engine at idle speed.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check terminal voltage between “48V+” terminal and “GND” terminal of DC/DC converter. 
+<intxreftitleoff1 refid = "AENLSB0AB106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is voltage below 24 V?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace DC/DC converter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042013">
+<title>
+Scan tool parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC with ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Start engine at idle speed and select “Data list” mode of auxiliary power module (lithium-ion battery).
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “48V Terminal Voltage” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Select “Data list” mode of DC/DC converter.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “HV Voltage” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check that electric potential difference between auxiliary power module (lithium-ion battery) and DC/DC converter is below 2 V.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace auxiliary power module (lithium-ion battery) and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAB06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104042014">
+<title>
+Scan tool parameter check
+</title>
+<test1>
+<ptxt>
+Connect SUZUKI scan tool to DLC with ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Start engine at idle speed and select “Data list” mode of ISG.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “B-terminal Voltage Actual Value” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Select “Data list” mode of DC/DC converter.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check “HV Voltage” using “Data list” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AB104008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check that electric potential difference between auxiliary power module (lithium-ion battery) and DC/DC converter is below 2 V.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ISG and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB106004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA114002" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Customer Complaint Analysis Form
+</title>
+<attention3>
+<ptxt>
+The form is a standard sample. It should be modified according to characteristics of each market.
+</ptxt>
+</attention3>
+<figure>
+<title>
+Customer questionnaire form (Example)
+</title>
+<graphic graphicname = "IGSB0AA11002.swf" width = "183.000mm" height = "148.633mm" ver = "01" gw = "469" gh = "405"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

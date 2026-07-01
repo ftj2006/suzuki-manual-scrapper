@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "4">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A46005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+ISG Removal and Installation
+</title>
+<attention2>
+<ptxt>
+Servicing SHVS system involves a danger of electric shock.
+</ptxt>
+<ptxt>
+For precaution, use insulation tool and gloves.
+</ptxt>
+</attention2>
+<attention4>
+<ptxt>
+The ISG consists of precision parts. Without taking the following precautions, it may lose its original performance.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Do not disassemble the ISG.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not drop or expose the ISG to large shock.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<servinfosub id = "AENLJA0A1A46005001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”, and keep ignition “OFF” for 3 minutes.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove right side wheel.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove accessory drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A46004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Detach A/C suction hose from ISG.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With A/C hoses connected, detach A/C compressor from cylinder block, and disconnect magnet clutch lead wire connector.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Manual type: 
+<intxreftitleoff1 refid = "AENLJA0A7226006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Automatic type: 
+<intxreftitleoff1 refid = "AENLJA0A7236006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+<attention4>
+<ptxt>
+When A/C compressor is detached, the A/C hoses could be damaged receiving weight of the compressor.
+</ptxt>
+<ptxt>
+Suspend the removed A/C compressor to the vehicle body while the compressor is detached.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Remove accessory drive belt lower tensioner. 
+<intxreftitleoff1 refid = "AENLJA0A1A46007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Detach harness clamps (1) and ISG connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILJA0A1A4005.jpg" width = "88.000mm" height = "79.829mm" ver = "01" gw = "204" gh = "210"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove terminal cover (1) and “B” terminal nut (2), and then disconnect “B” terminal wire (3).
+</ptxt>
+<figure>
+<graphic graphicname = "ILJA0A1A4006.jpg" width = "88.000mm" height = "74.275mm" ver = "01" gw = "229" gh = "194"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove ISG bolt (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ISG bolt (2) halfway.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ISG (3) from vehicle by passing ISG bolt (2) through notch (4) of cylinder block.
+</ptxt>
+<figure>
+<graphic graphicname = "ILJA0A1A4019.jpg" width = "88.000mm" height = "103.753mm" ver = "02" gw = "229" gh = "190"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove harness bracket (1), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "ILJA0A1A4008.jpg" width = "88.000mm" height = "59.451mm" ver = "01" gw = "154" gh = "152"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A1A46005002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLJA0A1A46006">ISG Inspection:K12D</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install harness bracket as follows, if removed.
+</ptxt>
+<s2>
+<ptxt>
+Touch bracket stopper (1) to ISG and tighten bolt (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J439">
+<t-part>
+Harness bracket bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+10
+</t-value1>
+<t-value2>
+1.0
+</t-value2>
+<t-value3>
+7.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILJA0A1A4009.jpg" width = "88.000mm" height = "59.451mm" ver = "01" gw = "165" gh = "152"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install ISG (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Insert ISG bolt (2) halfway into ISG (1).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Put ISG on cylinder block by passing ISG bolt (2) through notch of cylinder block and tighten ISG bolt (2) temporarily.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install ISG bolt (3).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten ISG bolts in numerical order (“1” – “2”) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J440">
+<t-part>
+ISG bolt*
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+48
+</t-value1>
+<t-value2>
+4.9
+</t-value2>
+<t-value3>
+35.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILJA0A1A4020.jpg" width = "88.000mm" height = "79.366mm" ver = "02" gw = "231" gh = "363"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+ Insert lugs (1) of “B” terminal wire (2) into groove (3) and then tighten “B” terminal nut (4) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J441">
+<t-part>
+“B” terminal nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILJA0A1A4011.jpg" width = "88.000mm" height = "106.010mm" ver = "02" gw = "229" gh = "284"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Fit harness clamps (1) and connect ISG connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILJA0A1A4005.jpg" width = "88.000mm" height = "79.829mm" ver = "01" gw = "204" gh = "210"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install accessory drive belt lower tensioner. 
+<intxreftitleoff1 refid = "AENLJA0A1A46007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install A/C compressor to cylinder block, and connect magnet clutch lead wire connector.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Manual type: 
+<intxreftitleoff1 refid = "AENLJA0A7226006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Automatic type: 
+<intxreftitleoff1 refid = "AENLJA0A7236006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+Install radiator cooling fan assembly. 
+<intxreftitleoff1 refid = "AENLJA0A1636011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install accessory drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A46004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine undercover and right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+After ISG is replaced with new one, perform “Immobilizer key Registration” mode of SUZUKI scan tool.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

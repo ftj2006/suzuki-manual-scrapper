@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A1124055" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P1693
+</title>
+<servinfosub id = "AENLJA0A1124055001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.835in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.342in"/>
+<thead valign = "middle">
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<ptxt>
+<emph>
+P1693: Equipment Information Mismatched
+</emph>
+</ptxt>
+<ptxt>
+ECM detects incorrect vehicle variant data from ESP<sup>&#174;</sup> control module and combination meter.
+</ptxt>
+<ptxt>
+(1 D/C detection logic but MIL does not light up)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Combination meter
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLJA0A1124055002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A1124055003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLJA0A1124055004">
+<testgroup id = "AENLJA0A1124055005">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLJA0A1124001">Engine and Emission Control System Check:K12C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124055006">
+<title>
+DTC check for combination meter
+</title>
+<test1>
+<ptxt>
+Check DTC in combination meter. 
+<intxreftitleoff1 refid = "AENLJA0A9304001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124055007">
+<title>
+DTC check for ESP&#174;
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLJA0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124055008">
+<title>
+Combination meter specification check
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLJA0A4604004">Warning Light Check</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLJA0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124055009">
+<title>
+ESP&#174; control module specification check
+</title>
+<test1>
+<ptxt>
+Check that ESP<sup>&#174;</sup> control module with the correct part number is installed.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLJA0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ESP<sup>&#174;</sup> control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLJA0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

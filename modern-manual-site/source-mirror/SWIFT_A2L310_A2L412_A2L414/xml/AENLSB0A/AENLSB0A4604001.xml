@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4F">
+<servcat sctnbr = "04" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A4604001" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+ESP&#174; System Check
+</title>
+<ptxt>
+Refer to the description after the following general flow for details of each step.
+</ptxt>
+<diag type = "test" id = "AENLSB0A4604001001">
+<testgroup id = "AENLSB0A4604001002">
+<title>
+Malfunction analysis 
+<intxreftitleoff1 refid = "AENLSB0A4604001008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001009">Customer complaint analysis</intxref>
+.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001010">Problem symptom confirmation</intxref>
+.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001011">DTC check, record and clearance</intxref>
+ and recheck DTC.
+</ptxt>
+</test1>
+<question>
+Is the same DTC detected again after performing DTC clearance?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Check and repair referring to applicable DTC troubleshooting, and then go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604001003">
+<title>
+Visual inspection
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001012">Step 2: Visual Inspection</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604001004">
+<title>
+Road test
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001013">Step 3: Road Test</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is malfunction detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604001005">
+<title>
+Brake diagnosis
+</title>
+<test1>
+<ptxt>
+Check and repair brake system. 
+<intxreftitleoff1 refid = "AENLSB0A4604001014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is malfunction detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604001006">
+<title>
+Intermittent problem check
+</title>
+<test1>
+<ptxt>
+Check for intermittent problems. 
+<intxreftitleoff1 refid = "AENLSB0A4604001015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is malfunction detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604001007">
+<title>
+Final confirmation test
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001016">Step 6: Final Confirmation Test</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is malfunction detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+<servinfosub id = "AENLSB0A4604001008" page = "1">
+<title>
+Step 1: Malfunction Analysis
+</title>
+<topic id = "AENLSB0A4604001009">
+<title>
+Customer complaint analysis
+</title>
+<ptxt>
+Record details of the problem (failure, complaint) and how it occurred as described by the customer. 
+</ptxt>
+<ptxt>
+For this purpose, use of such a questionnaire form shown below will facilitate collecting information for proper analysis and diagnosis.
+</ptxt>
+<figure>
+<title>
+Customer questionnaire form (Example)
+</title>
+<graphic graphicname = "IAP70A460005.swf" width = "183.000mm" height = "169.322mm" ver = "01" gw = "494" gh = "463"/>
+</figure>
+</topic>
+<topic id = "AENLSB0A4604001010" page = "2">
+<title>
+Problem symptom confirmation
+</title>
+<ptxt>
+If symptom in “Customer Questionnaire” is found or reproduced in the vehicle, check that the symptom is problem or not. (This step should be done with the customer if possible.) Check warning light related to brake system referring to “EBD Warning Light (Brake Warning Light) Check”, “ABS Warning Light Check” and “ESP<sup>&#174;</sup> Warning Light Check” under 
+<intxref refid = "AENLSB0A4604004">Warning Light Check</intxref>
+.
+</ptxt>
+</topic>
+<topic id = "AENLSB0A4604001011" page = "2">
+<title>
+DTC check, record and clearance
+</title>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604005">DTC Check</intxref>
+ procedure, record it and then clear it. 
+<intxreftitleoff1 refid = "AENLSB0A4604006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+Recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+When DTC which is recorded at DTC check procedure is detected again after performing DTC clearance, go to 
+<intxref refid = "AENLSB0A4604005">DTC Check</intxref>
+ to perform the diagnosis.
+</ptxt>
+<ptxt>
+When DTC which is recorded at DTC check procedure is not detected anymore after performing DTC clearance, ESP<sup>&#174;</sup> control module does not perform the system diagnosis, or temporary abnormality may occur, therefore go to 
+<intxref refid = "AENLSB0A4604001013">Step 3: Road Test</intxref>
+ to perform the diagnosis.
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604001012" page = "2">
+<title>
+Step 2: Visual Inspection
+</title>
+<ptxt>
+As a preliminary step, perform visual check of the items that support proper function of the ESP<sup>&#174;</sup> system. 
+<intxreftitleoff1 refid = "AENLSB0A4604002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604001013" page = "2">
+<title>
+Step 3: Road Test
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</attention3>
+<ptxt>
+Perform Road Test as follows to check if each warning light lights up.
+</ptxt>
+<s1>
+<ptxt>
+Drive at 40 km/h (25 mph) for over two minutes.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Turn right and left at over 10 km/h (6 mph) for over a second by turning steering wheel over 45 degrees.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive at 60 km/h (37 mph) for over three seconds.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Stop the vehicle using foot brake from driving at 60 km/h (37 mph).
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604001014" page = "2">
+<title>
+Step 4: Brake Diagnosis
+</title>
+<ptxt>
+Check the parts or system suspected as a possible cause referring to 
+<intxref refid = "AENLSB0A4101001">Brake System Description</intxref>
+ and based on symptoms appearing on the vehicle (symptoms observed through Step 1 – 3). Repair faulty parts or replace them, if necessary.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604001015" page = "2">
+<title>
+Step 5: Intermittent Problem Check
+</title>
+<ptxt>
+Check parts that are prone to cause intermittent trouble (e.g. wire harness, connector), referring to 
+<intxref refid = "AENLSB0A0006002">Intermittent Connection and Poor Contact Inspection</intxref>
+ and the related circuit of which DTC is recorded in Step 1 – 5.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604001016" page = "2">
+<title>
+Step 6: Final Confirmation Test
+</title>
+<ptxt>
+Check that the problem symptom is not observed any more and ESP<sup>&#174;</sup> is free from any abnormal conditions. If what has been repaired is related to malfunction DTC, clear the DTC referring to 
+<intxref refid = "AENLSB0A4604006">DTC Clearance</intxref>
+, perform road test and check that the DTC is not indicated.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

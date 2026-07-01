@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9K">
+<servcat sctnbr = "09" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C9B06022" svcinfotypenbr = "08" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Rear Floor No.1 Crossmember Removal and Installation (4WD Model)
+</title>
+<attention3>
+<ptxt>
+The figure below shows condition where the following parts are removed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Back panel: 
+<intxreftitleoff1 refid = "AENLSB0C9B06020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Rear floor rear panel: 
+<intxreftitleoff1 refid = "AENLSB0C9B06021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A9B0122.jpg" width = "183.000mm" height = "74.809mm" ver = "01" gw = "358" gh = "196"/>
+</figure>
+<servinfosub id = "AENLSB0C9B06022001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Drill out welding spots and remove rear floor No.1 crossmember.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A9B0123.jpg" width = "183.000mm" height = "116.361mm" ver = "02" gw = "454" gh = "313"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C9B06022002">
+<title>
+Installation
+</title>
+<attention3>
+<ptxt>
+Before conducting any weld, check installation position and condition for installation part(s). 
+<intxreftitleoff1 refid = "AENLSB0C9B04008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Install rear floor No.1 crossmember.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld or plug weld.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A9B0124.jpg" width = "183.000mm" height = "116.361mm" ver = "02" gw = "454" gh = "313"/>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

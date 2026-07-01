@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "4">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENKSB0A1A44001" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Battery Inspection
+</title>
+<servinfosub id = "AENKSB0A1A44001001">
+<title>
+Common Causes of Failure
+</title>
+<ptxt>
+The following are the most common causes of battery failures.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Accessories left on overnight or for an extended period without the generator operation.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Frequent driving at slow speeds for short periods.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Electrical load exceeds generator output, particularly due to additional fitting of aftermarket equipment.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Defects in charging system. 
+<intxreftitleoff1 refid = "AENKSB0A1A44002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Including failure to keep terminals clean or making hold-down clamps too loose or too tight.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Mechanical problems in electrical system such as short-circuit or pinched wires.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deterioration of battery due to long-term use.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deterioration of battery due to long-term storage.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENKSB0A1A44001002">
+<title>
+Visual Inspection
+</title>
+<ptxt>
+Check for visible damage, such as a cracked or broken case or cover, make corrections loss of electrolyte. If visible damage is noted, replace battery. Determine cause of damage and make corrections if necessary.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

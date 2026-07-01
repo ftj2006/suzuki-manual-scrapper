@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9K">
+<servcat sctnbr = "09" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A9B06016" svcinfotypenbr = "08" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Quarter-Pillar Outer Panel Removal and Installation
+</title>
+<attention3>
+<ptxt>
+The figure below shows condition where the following parts are removed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fuel filler door panel: 
+<intxreftitleoff1 refid = "AENKSB0A9A06010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A9B0104.jpg" width = "183.000mm" height = "104.891mm" ver = "01" gw = "341" gh = "281"/>
+</figure>
+<servinfosub id = "AENKSB0A9B06016001">
+<title>
+Precautions
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Welding method and number of welding points are the same on both sides. This repair instruction shows procedure for left side.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Part filled with foamed material is included in parts of this repair. Therefore, repair referring to 
+<intxref refid = "AENKSB0A9B06024">Foamed Material Filling Area Repair</intxref>
+ for precautions and repair procedure.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The dimensions shown in the figure are reference values when cutting replacement part placed on top of existing part. Determine the most appropriate cutting (or joint) line considering both size of replacement part and condition of existing part.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENKSB0A9B06016002">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Mark at the shown position and cut quarter-pillar outer panel.
+</ptxt>
+<attention4>
+<ptxt>
+You may accidentally cut the parts under the roof panel or the parts under the side sill outer panel when cutting the quarter-pillar outer panel.
+</ptxt>
+<ptxt>
+Take sufficient care not to damage the parts under the quarter-pillar outer panel or the parts under the side sill outer panel when cutting the quarter-pillar outer panel.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Drill out welding spots.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Bend open metal tab (arrow) and remove quarter-pillar outer panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A9B0006.jpg" width = "183.000mm" height = "154.872mm" ver = "01" gw = "485" gh = "422"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.394in"/>
+<colspec colnum = "2" colname = "2" colwidth = "6.693in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+When heating around sealer application portion to detach body sealer, be sure that temperature of said portion does not reach 170 &#176;C (338 &#176;F).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+This symbol indicates that wheel house outer panel are replaced at the same time.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Welding points are covered. Bend upper and lower ends of back panel, and then drill out welding points.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle left side
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENKSB0A9B06016003">
+<title>
+Installation
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Before conducting any weld, check installation position and condition for installation part(s).
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Rearend door: 
+<intxreftitleoff1 refid = "AENKSB0A9B04005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Side body outside: 
+<intxreftitleoff1 refid = "AENKSB0A9B04006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Side body inside: 
+<intxreftitleoff1 refid = "AENKSB0A9B04007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Perform repair while taking into consideration installation of parts that affect appearance. 
+<intxreftitleoff1 refid = "AENKSB0A9B04003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1 page = "1">
+<ptxt>
+Apply body sealer to fuel filler box.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install fuel filler box.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld.
+</ptxt>
+<figure page = "1">
+<graphic graphicname = "IHSB0A9B0015.swf" width = "88.000mm" height = "69.585mm" ver = "01" gw = "228" gh = "181"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Applied part of body sealer
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install new quarter-pillar outer panel to vehicle body and cut in stacked condition.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Repair foamed material. 
+<intxreftitleoff1 refid = "AENKSB0A9B06024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply sealer to quarter-pillar outer panel.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install quarter-pillar outer panel to vehicle body.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld or plug weld.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct continuous weld.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply anti-corrosion wax to back side of continuous weld part.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Bend in metal tab (arrow) of quarter-pillar outer panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A9B0016.jpg" width = "183.000mm" height = "203.829mm" ver = "01" gw = "491" gh = "561"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.394in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.937in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "2.362in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+This symbol indicates that wheel house outer panel are replaced at the same time.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Quarter-pillar outer panel
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Weld these points first before back panel covers the points.
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Wheel house outer panel
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Vehicle left side
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Applied part of body sealer
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+K14C model
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Applied part of adhesive
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Foamed material
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

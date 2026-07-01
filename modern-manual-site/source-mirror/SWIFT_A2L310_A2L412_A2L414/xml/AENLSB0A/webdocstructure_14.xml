@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Engine Mechanical">
+<c i="1" t="K14C">
+<t s="1" t="General Description">
+<s i="AENLSB0A1411001" t="Engine Construction Description">
+</s>
+<s i="AENLSB0A1411002" t="VVT System Description">
+</s>
+<s i="AENLSB0A1411003" t="Turbocharger Description">
+</s>
+<s i="AENLSB0A1411004" t="Vacuum Pump Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1414001" t="Compression Check">
+</s>
+<s i="AENLSB0A1414002" t="Intake Manifold Vacuum Check">
+</s>
+<s i="AENLSB0A1414003" t="Turbocharger On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1414004" t="Waste Gate Valve On-Vehicle Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1416001" t="Air Cleaner Components">
+</s>
+<s i="AENLSB0A1416002" t="Air Cleaner Filter Removal and Installation">
+</s>
+<s i="AENLSB0A1416003" t="Air Cleaner Filter Inspection and Cleaning">
+</s>
+<s i="AENLSB0A1416004" t="Air Cleaner Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1416005" t="Intercooler Components">
+</s>
+<s i="AENLSB0A1416006" t="Intercooler On-Vehicle Inspection and Cleaning">
+</s>
+<s i="AENLSB0A1416007" t="Intercooler Removal and Installation">
+</s>
+<s i="AENLSB0A1416008" t="Vacuum Pump Removal and Installation">
+</s>
+<s i="AENLSB0A1416009" t="Vacuum Pump Inspection">
+</s>
+<s i="AENLSB0A1416010" t="Turbocharger Components">
+</s>
+<s i="AENLSB0A1416011" t="Air Bypass Valve Removal and Installation">
+</s>
+<s i="AENLSB0A1416012" t="Air Bypass Valve Inspection">
+</s>
+<s i="AENLSB0A1416013" t="Check Valve Removal and Installation">
+</s>
+<s i="AENLSB0A1416014" t="Check Valve Inspection">
+</s>
+<s i="AENLSB0A1416015" t="Turbocharger Removal and Installation">
+</s>
+<s i="AENLSB0A1416016" t="Turbocharger Inspection">
+</s>
+<s i="AENLSB0A1416017" t="Electric Throttle Body and Intake Manifold Components">
+</s>
+<s i="AENLSB0A1416018" t="Electric Throttle Body On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1416019" t="Electric Throttle Body Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1416020" t="Electric Throttle Body Cleaning">
+</s>
+<s i="AENLSB0A1416021" t="Intake Manifold Removal and Installation">
+</s>
+<s i="AENLSB0A1416022" t="Cylinder Head Cover Components">
+</s>
+<s i="AENLSB0A1416023" t="Cylinder Head Cover Removal and Installation">
+</s>
+<s i="AENLSB0A1416024" t="Engine Mounting Components">
+</s>
+<s i="AENLSB0A1416025" t="Engine Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1416026" t="Timing Chain Cover Components">
+</s>
+<s i="AENLSB0A1416027" t="Timing Chain Cover Removal and Installation">
+</s>
+<s i="AENLSB0A1416028" t="Timing Chain Cover Inspection">
+</s>
+<s i="AENLSB0A1416029" t="OCV Removal and Installation">
+</s>
+<s i="AENLSB0A1416030" t="Flywheel / Drive Plate Removal and Installation">
+</s>
+<s i="AENLSB0A1416031" t="Flywheel / Drive Plate Inspection">
+</s>
+<s i="AENLSB0A1416032" t="Timing Chain and Chain Tensioner Components">
+</s>
+<s i="AENLSB0A1416033" t="Timing Chain and Chain Tensioner Removal and Installation">
+</s>
+<s i="AENLSB0A1416034" t="Timing Chain and Chain Tensioner Inspection">
+</s>
+<s i="AENLSB0A1416035" t="Camshaft Components">
+</s>
+<s i="AENLSB0A1416036" t="Camshaft Removal and Installation">
+</s>
+<s i="AENLSB0A1416037" t="Camshaft and VVT Actuator Inspection">
+</s>
+<s i="AENLSB0A1416038" t="Valve and Cylinder Head Components">
+</s>
+<s i="AENLSB0A1416039" t="Valve and Cylinder Head Removal and Installation">
+</s>
+<s i="AENLSB0A1416040" t="Valve Rocker Arm Inspection">
+</s>
+<s i="AENLSB0A1416041" t="Valve and Cylinder Head Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1416042" t="Valve and Valve Guide Inspection">
+</s>
+<s i="AENLSB0A1416043" t="Cylinder Head Inspection">
+</s>
+<s i="AENLSB0A1416044" t="Cylinder Head Bolt Inspection">
+</s>
+<s i="AENLSB0A1416045" t="Valve Spring Inspection">
+</s>
+<s i="AENLSB0A1416046" t="Piston, Piston Ring, Connecting Rod and Cylinder Components">
+</s>
+<s i="AENLSB0A1416047" t="Piston, Piston Ring, Connecting Rod and Cylinder Removal and Installation">
+</s>
+<s i="AENLSB0A1416048" t="Piston, Piston Ring, Connecting Rod and Cylinder Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1416049" t="Cylinder, Piston and Piston Ring Inspection">
+</s>
+<s i="AENLSB0A1416050" t="Piston Pin and Connecting Rod Inspection">
+</s>
+<s i="AENLSB0A1416051" t="Crankshaft Pin and Connecting Rod Bearing Inspection">
+</s>
+<s i="AENLSB0A1416052" t="Main Bearing, Crankshaft and Cylinder Block Components">
+</s>
+<s i="AENLSB0A1416053" t="Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</s>
+<s i="AENLSB0A1416054" t="Crankshaft Inspection">
+</s>
+<s i="AENLSB0A1416055" t="Main Bearing Inspection">
+</s>
+<s i="AENLSB0A1416056" t="Sensor Plate Inspection">
+</s>
+<s i="AENLSB0A1416057" t="Piston Cooling Jet Inspection">
+</s>
+<s i="AENLSB0A1416058" t="Cylinder Block Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1417001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1418001" t="Recommended Service Material">
+</s>
+<s i="AENLSB0A1418002" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K14D">
+<t s="1" t="General Description">
+<s i="AENLSB0A1421001" t="Engine Construction Description">
+</s>
+<s i="AENLSB0A1421002" t="VVT System Description">
+</s>
+<s i="AENLSB0A1421003" t="Turbocharger Description">
+</s>
+<s i="AENLSB0A1421004" t="Vacuum Pump Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1424001" t="Compression Check">
+</s>
+<s i="AENLSB0A1424002" t="Intake Manifold Vacuum Check">
+</s>
+<s i="AENLSB0A1424003" t="Turbocharger On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1424004" t="Waste Gate Valve On-Vehicle Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1426001" t="Air Cleaner Components">
+</s>
+<s i="AENLSB0A1426002" t="Air Cleaner Filter Removal and Installation">
+</s>
+<s i="AENLSB0A1426003" t="Air Cleaner Filter Inspection and Cleaning">
+</s>
+<s i="AENLSB0A1426004" t="Air Cleaner Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1426005" t="Intercooler Components">
+</s>
+<s i="AENLSB0A1426006" t="Intercooler On-Vehicle Inspection and Cleaning">
+</s>
+<s i="AENLSB0A1426007" t="Intercooler Removal and Installation">
+</s>
+<s i="AENLSB0A1426008" t="Vacuum Pump Removal and Installation">
+</s>
+<s i="AENLSB0A1426009" t="Vacuum Pump Inspection">
+</s>
+<s i="AENLSB0A1426010" t="Turbocharger Components">
+</s>
+<s i="AENLSB0A1426012" t="Air Bypass Valve Inspection">
+</s>
+<s i="AENLSB0A1426015" t="Turbocharger Removal and Installation">
+</s>
+<s i="AENLSB0A1426016" t="Turbocharger Inspection">
+</s>
+<s i="AENLSB0A1426017" t="Electric Throttle Body and Intake Manifold Components">
+</s>
+<s i="AENLSB0A1426018" t="Electric Throttle Body On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1426019" t="Electric Throttle Body Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1426020" t="Electric Throttle Body Cleaning">
+</s>
+<s i="AENLSB0A1426021" t="Intake Manifold Removal and Installation">
+</s>
+<s i="AENLSB0A1426022" t="Cylinder Head Cover Components">
+</s>
+<s i="AENLSB0A1426023" t="Cylinder Head Cover Removal and Installation">
+</s>
+<s i="AENLSB0A1426060" t="Crankshaft Front Oil Seal Removal and Installation">
+</s>
+<s i="AENLSB0A1426024" t="Engine Mounting Components">
+</s>
+<s i="AENLSB0A1426025" t="Engine Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1426026" t="Timing Chain Cover Components">
+</s>
+<s i="AENLSB0A1426027" t="Timing Chain Cover Removal and Installation">
+</s>
+<s i="AENLSB0A1426028" t="Timing Chain Cover Inspection">
+</s>
+<s i="AENLSB0A1426029" t="Exhaust OCV Removal and Installation">
+</s>
+<s i="AENLSB0A1426030" t="Flywheel Removal and Installation">
+</s>
+<s i="AENLSB0A1426031" t="Flywheel Inspection">
+</s>
+<s i="AENLSB0A1426032" t="Timing Chain and Chain Tensioner Components">
+</s>
+<s i="AENLSB0A1426033" t="Timing Chain and Chain Tensioner Removal and Installation">
+</s>
+<s i="AENLSB0A1426034" t="Timing Chain and Chain Tensioner Inspection">
+</s>
+<s i="AENLSB0A1426035" t="Camshaft Components">
+</s>
+<s i="AENLSB0A1426059" t="Intake VVT Actuator Removal and Installation">
+</s>
+<s i="AENLSB0A1426036" t="Camshaft Removal and Installation">
+</s>
+<s i="AENLSB0A1426037" t="Camshaft and VVT Actuator Inspection">
+</s>
+<s i="AENLSB0A1426038" t="Valve and Cylinder Head Components">
+</s>
+<s i="AENLSB0A1426039" t="Valve and Cylinder Head Removal and Installation">
+</s>
+<s i="AENLSB0A1426040" t="Valve Rocker Arm Inspection">
+</s>
+<s i="AENLSB0A1426041" t="Valve and Cylinder Head Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1426042" t="Valve and Valve Guide Inspection">
+</s>
+<s i="AENLSB0A1426043" t="Cylinder Head Inspection">
+</s>
+<s i="AENLSB0A1426044" t="Cylinder Head Bolt Inspection">
+</s>
+<s i="AENLSB0A1426045" t="Valve Spring Inspection">
+</s>
+<s i="AENLSB0A1426046" t="Piston, Piston Ring, Connecting Rod and Cylinder Components">
+</s>
+<s i="AENLSB0A1426047" t="Piston, Piston Ring, Connecting Rod and Cylinder Removal and Installation">
+</s>
+<s i="AENLSB0A1426048" t="Piston, Piston Ring, Connecting Rod and Cylinder Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1426049" t="Cylinder, Piston and Piston Ring Inspection">
+</s>
+<s i="AENLSB0A1426050" t="Piston Pin and Connecting Rod Inspection">
+</s>
+<s i="AENLSB0A1426051" t="Crankshaft Pin and Connecting Rod Bearing Inspection">
+</s>
+<s i="AENLSB0A1426052" t="Main Bearing, Crankshaft and Cylinder Block Components">
+</s>
+<s i="AENLSB0A1426053" t="Main Bearing, Crankshaft and Cylinder Block Removal and Installation">
+</s>
+<s i="AENLSB0A1426054" t="Crankshaft Inspection">
+</s>
+<s i="AENLSB0A1426055" t="Main Bearing Inspection">
+</s>
+<s i="AENLSB0A1426056" t="Sensor Plate Inspection">
+</s>
+<s i="AENLSB0A1426057" t="Piston Cooling Jet Inspection">
+</s>
+<s i="AENLSB0A1426058" t="Cylinder Block Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1427001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1428001" t="Recommended Service Material">
+</s>
+<s i="AENLSB0A1428002" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0C1121005" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+EGR Valve System Description
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+EGR valve system recirculates water cooled EGR gas to combustion chamber to control the combustion temperature low for effective engine output reducing knocking, pre-ignition, piston pumping loss and NOx.
+</ptxt>
+</item>
+<item>
+<ptxt>
+EGR valve is operated by a stepper motor and controlled by ECM in response to the driving condition.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

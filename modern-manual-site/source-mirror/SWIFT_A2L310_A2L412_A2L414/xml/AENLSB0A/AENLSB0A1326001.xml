@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1326001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+ECM Removal and Installation
+</title>
+<attention4>
+<ptxt>
+The ECM is a precision unit and can be easily damaged.
+</ptxt>
+<ptxt>
+Handle the ECM carefully and do not expose it to large shock.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+After ECM is replaced with new one, perform 
+<intxref refid = "AENLSB0A1326002">Procedure after ECM Replacement:K14D</intxref>
+.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0A1326001001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Turn lock lever (1) in arrow direction until it stops.
+</ptxt>
+<ptxt>
+Then, disconnect connectors from ECM.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B131001.swf" width = "88.000mm" height = "44.275mm" ver = "01" gw = "225" gh = "109"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove cowl top garnish and cowl front silencer. 
+<intxreftitleoff1 refid = "AENLSB0A9806006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ECM box (1) from cowl upper panel (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A131001.jpg" width = "88.000mm" height = "48.587mm" ver = "01" gw = "199" gh = "121"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove ECM (1) with brackets (2) from ECM box (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ECM brackets from ECM.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B131003.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1326001002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten ECM box bolts and nuts according to the following procedure.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Tighten ECM box bolts (1) in numerical order (“1” – “4”).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten ECM box nuts (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1C209">
+<t-part>
+ECM box nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+5.4
+</t-value1>
+<t-value2>
+0.55
+</t-value2>
+<t-value3>
+4.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A131002.jpg" width = "88.000mm" height = "103.145mm" ver = "02" gw = "236" gh = "276"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+LHD
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+RHD
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Connect connectors to ECM as follows:
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Check that lock lever of ECM connectors is in unlocked position.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B131005.swf" width = "88.000mm" height = "42.571mm" ver = "01" gw = "103" gh = "104"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Insert ECM connectors to ECM until they stop with lock lever in unlocked position.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B131006.swf" width = "88.000mm" height = "40.124mm" ver = "01" gw = "106" gh = "97"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Pull lock lever up to lock ECM connectors securely.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B131007.swf" width = "88.000mm" height = "42.652mm" ver = "01" gw = "227" gh = "104"/>
+</figure>
+</item>
+</list2>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

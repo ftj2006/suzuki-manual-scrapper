@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106036" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Output Shaft Speed Sensor Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A5106036001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove counter drive gear. 
+<intxreftitleoff1 refid = "AENLSB0A5106030"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove output shaft speed sensor (1) and spacer (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10C510307.swf" width = "88.000mm" height = "51.454mm" ver = "02" gw = "162" gh = "129"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106036002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106037">Output Shaft Speed Sensor Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install spacer (1) and output shaft speed sensor (2), and then tighten output shaft speed sensor bolt (3) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A019">
+<t-part>
+Output shaft speed sensor bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+5.4
+</t-value1>
+<t-value2>
+0.55
+</t-value2>
+<t-value3>
+4.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IEL10C510308.swf" width = "88.000mm" height = "56.722mm" ver = "02" gw = "162" gh = "144"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1E">
+<servcat sctnbr = "01" scnbr = "05">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1526011" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Oil Pump Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1526009">Oil Pump Assembly Removal and Installation:K14D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1526011001">
+<title>
+Oil Seal
+</title>
+<ptxt>
+Check oil seal lip for fault or other damage. Replace it if necessary.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLSB0A1526011002">
+<title>
+Oil Pump Assembly
+</title>
+<ptxt>
+Check oil pump assembly as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check resistance between terminals of variable oil pump valve connector (1).
+</ptxt>
+<ptxt>
+If measured resistance is out of specified range, replace oil pump assembly. 
+<intxreftitleoff1 refid = "AENLSB0A1526009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<spec>
+<title>
+Variable oil pump valve resistance
+</title>
+<ptxt>
+7.0 to 7.8 &#937; at 20 &#176;C (68 &#176;F)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A152037.swf" width = "88.000mm" height = "51.722mm" ver = "01" gw = "178" gh = "130"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Check oil passages (1) for exhaust VVT actuator and filter (2).
+</ptxt>
+<ptxt>
+Clean oil passages and filter if clogging or foreign material exists.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A152021.jpg" width = "88.000mm" height = "45.963mm" ver = "01" gw = "156" gh = "114"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA834002" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Central Gateway Control Module Self-Diagnosis Function
+</title>
+<ptxt>
+Central gateway control module monitors conditions of system components and its circuit when ignition is “ON”. When an abnormal condition in the system occurs, central gateway control module performs controls as follow.
+</ptxt>
+<servinfosub id = "AENLSB0AA834002001">
+<title>
+Self-Diagnosis Function
+</title>
+<ptxt>
+Central gateway control module is equipped with self-diagnosis function that stores DTC for abnormalities detected in central gateway control system. Stored DTC is saved until abnormal condition is corrected.
+</ptxt>
+<attention3>
+<ptxt>
+Central gateway control module does not store history DTC of B1150-16.
+</ptxt>
+</attention3>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

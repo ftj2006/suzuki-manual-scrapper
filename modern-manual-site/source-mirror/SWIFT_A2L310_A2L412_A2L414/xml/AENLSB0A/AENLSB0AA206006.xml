@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10B">
+<servcat sctnbr = "10" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA206006" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Security Alarm Mode Selection Procedure (If Equipped)
+</title>
+<ptxt>
+Security alarm mode can be selected by performing the following procedure.
+</ptxt>
+<attention3>
+<ptxt>
+Security alarm mode can also be selected by setting change function, refer to 
+<intxref refid = "AENLSB0AA204009">Scan Tool Utility Table</intxref>
+ or “User Customization Function” under 
+<intxref refid = "AENLSB0A9301001">Combination Meter Description</intxref>
+.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Check that all doors are closed, all doors are unlocked and lighting switch is in OFF position.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform the following steps within 15 seconds.
+</ptxt>
+<s2>
+<ptxt>
+Turn lighting switch to “CLEARANCE” position.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Turn lighting switch to “OFF” position.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Repeat Step a) – b) 3 times.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Push “LOCK” switch of power door lock switch (1).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Release “LOCK” switch of power door lock switch.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Repeat Step d) and e) 2 times.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0PA20014.swf" width = "88.000mm" height = "41.981mm" ver = "01" gw = "111" gh = "102"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Warning buzzer (in combination meter) sounds by the specified number for each mode as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Changed from “Disabled” mode to “Active” mode: Buzzer sounds 4 times.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Changed from “Active” mode to “Disabled” mode: Buzzer sounds once.
+</ptxt>
+</item>
+</list1>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

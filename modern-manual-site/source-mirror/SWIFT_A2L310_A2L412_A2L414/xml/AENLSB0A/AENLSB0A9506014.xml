@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9E">
+<servcat sctnbr = "09" scnbr = "05">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9506014" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rear Window Regulator Assembly Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9506012">Rear Door Window Glass Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A9506014001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove rear door glass. 
+<intxreftitleoff1 refid = "AENLSB0A9506013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For rear power window type, disconnect power window motor connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove window regulator bolts (2) and remove rear window regulator (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A950046.jpg" width = "88.000mm" height = "74.665mm" ver = "01" gw = "155" gh = "195"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9506014002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9506015">Rear Window Regulator Assembly Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Apply grease to sliding parts of rear window regulator.
+</ptxt>
+<materials>
+<materialitem name = "ECSTAR Grease A" id = "M9E002" uid = "1545785286">
+<m-part>
+</m-part>
+<m-desc>
+Grease
+</m-desc>
+<m-number>
+99000–25480
+</m-number>
+<m-name>
+ECSTAR Grease A
+</m-name>
+</materialitem>
+</materials>
+</item>
+<item>
+<ptxt>
+Tighten rear window regulator bolts in numerical order (“1” – “2”) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T9E005">
+<t-part>
+Rear window regulator bolt*
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+8.4
+</t-value1>
+<t-value2>
+0.86
+</t-value2>
+<t-value3>
+6.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A950048.jpg" width = "88.000mm" height = "75.173mm" ver = "01" gw = "162" gh = "197"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1A16009" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1A16008">Generator Disassembly and Reassembly:K14C</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1A16009001" page = "2">
+<title>
+Rotor
+</title>
+<s1 page = "2">
+<ptxt>
+Using ohmmeter (1), check for continuity between slip rings (2) of rotor. If there is no continuity, replace rotor.
+</ptxt>
+<spec>
+<title>
+Standard resistance between slip rings of rotor
+</title>
+<ptxt>
+2.2 – 2.6 &#937;
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "I4RS0B1A0005.swf" width = "88.000mm" height = "48.714mm" ver = "01" gw = "175" gh = "121"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Using ohmmeter (1), check that there is no continuity between slip ring (2) and rotor core (3). If there is continuity, replace rotor.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "I4RS0B1A0008.swf" width = "88.000mm" height = "47.952mm" ver = "01" gw = "176" gh = "119"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check slip rings and fan blades for damage. If any abnormality is found, replace rotor.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A16009002" page = "2">
+<title>
+Bearing
+</title>
+<ptxt>
+Check bearing for smooth rotation.
+</ptxt>
+<ptxt>
+If any abnormality is found, replace defective parts.
+</ptxt>
+<attention3>
+<ptxt>
+Bearing (1) shown in figure is combined with rotor (2) and check it as it is. If any abnormality is found, replace rotor.
+</ptxt>
+<figure>
+<graphic graphicname = "ICV00P1A0016.swf" width = "88.000mm" height = "37.436mm" ver = "01" gw = "126" gh = "90"/>
+</figure>
+</attention3>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A16009003" page = "2">
+<title>
+Stator
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Using ohmmeter, check continuity between each of stator coil terminals (A1 / A2 / A3) and each of stator coil terminals (B1 / B2 / B3). If there is no continuity, replace stator assembly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Using ohmmeter, check continuity between each of stator coil terminals (A1 / A2 / A3) and corresponding terminals (A4 / A5 / A6), and each of stator coil terminals (B1 / B2 / B3) and corresponding terminals (B4 / B5 / B6). If there is no continuity, replace stator assembly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Using diode range of circuit tester, check continuity between “B” terminal (1) and stator coil terminals (A4 / A5 / A6 / B4 / B5 / B6), and ground (2) and stator coil terminals (A4 / A5 / A6 / B4 / B5 / B6). 
+</ptxt>
+<ptxt>
+Check both directions by reversing probes of circuit tester and, if there is continuity in both directions or there is no continuity in both directions, replace stator assembly.
+</ptxt>
+<attention3>
+<ptxt>
+For diode test, refer to the instruction manual of circuit tester.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A1A1005.swf" width = "88.000mm" height = "108.590mm" ver = "01" gw = "196" gh = "291"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A16009004" page = "2">
+<title>
+Brush
+</title>
+<ptxt>
+Check each brush for wear by measuring its length as shown. If brush has worn down to service limit, replace brush holder assembly.
+</ptxt>
+<spec>
+<title>
+Exposed brush length “a”
+</title>
+<ptxt>
+Standard: 10.5 mm (0.41 in.)
+</ptxt>
+<ptxt>
+Limit: 1.5 mm (0.06 in.)
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "I8T4011A0022.swf" width = "88.000mm" height = "42.216mm" ver = "01" gw = "100" gh = "103"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A16009005" page = "2">
+<title>
+Rectifier
+</title>
+<attention3>
+<ptxt>
+Rectifiers are combined with stator assembly and inspection for individual rectifier is not possible.
+</ptxt>
+</attention3>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

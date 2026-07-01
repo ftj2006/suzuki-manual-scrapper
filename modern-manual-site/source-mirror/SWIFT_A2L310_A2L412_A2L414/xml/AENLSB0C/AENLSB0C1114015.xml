@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0C1114015" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "1" supplyoff = "1" modify = "0">
+<title>
+DTC P0016
+</title>
+<servinfosub id = "AENLSB0C1114015001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.596in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.596in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P0016: Crankshaft Position – Camshaft Position Correlation (Bank1 SensorA)
+</emph>
+</ptxt>
+<ptxt>
+Difference between camshaft position and crankshaft position is out of specified range.
+</ptxt>
+<ptxt>
+(3 D/C detection logic)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+CMP sensor and signal rotor
+</ptxt>
+</item>
+<item>
+<ptxt>
+CKP sensor and sensor plate
+</ptxt>
+</item>
+<item>
+<ptxt>
+Timing chain
+</ptxt>
+</item>
+<item>
+<ptxt>
+Timing chain tensioner
+</ptxt>
+</item>
+<item>
+<ptxt>
+Timing chain tensioner adjuster
+</ptxt>
+</item>
+<item>
+<ptxt>
+VVT actuator
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0C1114015002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine and repeat acceleration and deceleration between 30 and 80 km/h (19 and 50 mile/h) more than 10 times.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C1114015003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0C1114015004">
+<testgroup id = "AENLSB0C1114015005">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1111004">Engine and Emission Control System Description:K10C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1114015006">
+<title>
+CMP sensor, signal rotor and its circuit check
+</title>
+<test1>
+<ptxt>
+Check CMP sensor, signal rotor and its circuit related to DTC according to Step 2 – 5 under 
+<intxref refid = "AENLSB0C1114044">DTC P0340:K10C</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1114015007">
+<title>
+CKP sensor, sensor plate and its circuit check
+</title>
+<test1>
+<ptxt>
+Check CKP sensor, sensor plate and its circuit related to DTC according to Step 2 – 5 under 
+<intxref refid = "AENLSB0C1114043">DTC P0335 / P0336:K10C</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1114015008">
+<title>
+Engine mechanical system check
+</title>
+<test1>
+<ptxt>
+Remove timing chain cover. 
+<intxreftitleoff1 refid = "AENLSB0C1416027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check the following items.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Timing chain, timing chain tensioner and timing chain tensioner adjuster: 
+<intxreftitleoff1 refid = "AENLSB0C1416034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+VVT actuator: 
+<intxreftitleoff1 refid = "AENLSB0C1416037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective part.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1114015009">
+<title>
+Troubleshooting of other DTC(s) at the same time
+</title>
+<question>
+Is other DTC(s) detected together?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0C1316001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

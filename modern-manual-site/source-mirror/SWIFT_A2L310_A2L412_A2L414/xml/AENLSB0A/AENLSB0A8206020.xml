@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206020" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Curtain Air Bag (Inflator) Module Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206019">Curtain Air Bag (Inflator) Module Components</intxrefpoff>
+</ptxt>
+<attention1>
+<ptxt>
+Failure to take proper precautions when performing service on the curtain air bag (inflator) module can result in personal injury or non-activation of the air bag in the event of a collision.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Never disassemble or repair an air bag (inflator) module. If any abnormal condition is found, replace the module with a new one.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Carefully read 
+<intxref refid = "AENLSB0A8200001">Precautions for Air Bag System Service</intxref>
+, 
+<intxref refid = "AENLSB0A8200002">Precautions for Handling and Storage of Air Bag System Components</intxref>
+ and 
+<intxref refid = "AENLSB0A8200003">Precautions for Disposal of Air Bag and Seat Belt Pretensioner</intxref>
+ and follow all of the instructions provided.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not install curtain air bag (inflator) module while twisted or bent. Otherwise, curtain air bag (inflator) module may not deploy and injury may result.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention4>
+<ptxt>
+An air bag (inflator) module that has been dropped may not operate correctly.
+</ptxt>
+<ptxt>
+Never use an air bag (inflator) module that has been dropped. Replace the module with a new one.
+</ptxt>
+</attention4>
+<attention3>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A8204055">Repair and Inspection Required after Accident</intxref>
+ before replacing a deployed air bag.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0A8206020001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove head lining. 
+<intxreftitleoff1 refid = "AENLSB0A9806018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect curtain air bag (inflator) module connector (1) as shown in figure.
+</ptxt>
+<s2>
+<ptxt>
+Release lock button (2) by pulling it in arrow direction “1”.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Disconnect curtain air bag (inflator) module connector with lock released by pulling it in arrow direction “2”.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A820006.jpg" width = "88.000mm" height = "49.369mm" ver = "01" gw = "190" gh = "123"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove curtain air bag (inflator) module bolts and remove curtain air bag (inflator) module.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8206020002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206021">Curtain Air Bag (Inflator) Module Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install curtain air bag (inflator) module as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Install curtain air bag (inflator) module (1) without twisting.
+</ptxt>
+</item>
+<item>
+<ptxt>
+For positioning curtain air bag (inflator) module, insert metal hooks (2) to body slits (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822107.jpg" width = "88.000mm" height = "70.204mm" ver = "01" gw = "199" gh = "182"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install curtain air bag (inflator) module bolts and tighten them to specified torque.
+</ptxt>
+<attention3>
+<ptxt>
+Check that each bracket of clamping part to body panel is securely fixed after tightening curtain air bag (inflator) module bolts.
+</ptxt>
+</attention3>
+<torque>
+<torqueitem id = "T8B004">
+<t-part>
+Curtain air bag (inflator) module bolt
+</t-part>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Lock connector for curtain air bag (inflator) module securely.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Enable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

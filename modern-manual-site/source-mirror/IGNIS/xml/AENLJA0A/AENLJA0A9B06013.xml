@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9K">
+<servcat sctnbr = "09" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A9B06013" svcinfotypenbr = "08" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+B-Pillar Outer Panel, Rear Door Hinge Reinforcement and Center Pillar Inner Upper Panel Removal and Installation
+</title>
+<attention3>
+<ptxt>
+The figure below shows condition where the following parts are removed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Front fender: 
+<intxreftitleoff1 refid = "AENLJA0A9A06005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<figure>
+<graphic graphicname = "IFJA0P9B0082.jpg" width = "88.000mm" height = "58.155mm" ver = "01" gw = "227" gh = "148"/>
+</figure>
+<servinfosub id = "AENLJA0A9B06013001">
+<title>
+General Notes
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Welding method and number of welding points are the same on both sides. This repair instruction shows procedure for left side.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The dimensions shown in the figure are reference values when cutting replacement part is placed on top of existing part. Determine the most appropriate cutting (or joint) line considering both size of replacement part and condition of existing part.
+</ptxt>
+</item>
+<item>
+<ptxt>
+B-pillar outer panel (upper part) is to be reused.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLJA0A9B06013002">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Mark at the shown position and cut B-pillar outer panel.
+</ptxt>
+<attention4>
+<ptxt>
+You may accidentally cut the parts under the B-pillar outer panel or the parts under the side sill outer panel when cutting the B-pillar outer panel.
+</ptxt>
+<ptxt>
+Take sufficient care not to damage the parts under the B-pillar outer panel or the parts under the side sill outer panel when cutting the B-pillar outer panel.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Cut B-pillar outer panel, rear door hinge reinforcement and B-pillar outer panel at the same time at shown rough cutting position.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drill out welding spots and remove B-pillar outer panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A9B0039.jpg" width = "183.000mm" height = "142.102mm" ver = "01" gw = "402" gh = "386"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.677in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+B-pillar outer panel cut position (Cut around here)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Drill out welding spots and remove upper part of rear door hinge reinforcement and upper part of center pillar inner upper panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0084.jpg" width = "88.000mm" height = "47.656mm" ver = "01" gw = "227" gh = "119"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Drill out welding spots and remove lower part of rear door hinge reinforcement.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0085.jpg" width = "88.000mm" height = "43.718mm" ver = "01" gw = "227" gh = "107"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A9B06013003">
+<title>
+Installation
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Before conducting any weld, check installation position and condition for installation part(s).
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Side body outside: 
+<intxreftitleoff1 refid = "AENLJA0A9B04006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Side body inside: 
+<intxreftitleoff1 refid = "AENLJA0A9B04007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Perform repair while taking into consideration installation of parts that affect appearance. 
+<intxreftitleoff1 refid = "AENLJA0A9B04003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Drill out welding spots and remove roof side reinforcement from rear door hinge reinforcement.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0086.jpg" width = "88.000mm" height = "110.234mm" ver = "01" gw = "203" gh = "296"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install rear door hinge retainers (2 pcs.).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld or plug weld.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0087.jpg" width = "88.000mm" height = "118.946mm" ver = "01" gw = "184" gh = "321"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install center pillar inner panel.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld or plug weld.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0088.jpg" width = "88.000mm" height = "125.042mm" ver = "01" gw = "130" gh = "338"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install rear door hinge reinforcement and center pillar inner upper panel.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld and plug weld.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9B0089.jpg" width = "88.000mm" height = "106.902mm" ver = "01" gw = "234" gh = "287"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install new B-pillar outer panel to vehicle body and cut in stacked condition.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install B-pillar outer panel to vehicle body.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct resistance spot weld or plug weld.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Conduct continuous weld.
+</ptxt>
+</s1>
+<s1 page = "1">
+<ptxt>
+Apply anti-corrosion wax to back side of continuous weld part.
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A9B0040.jpg" width = "183.000mm" height = "143.334mm" ver = "01" gw = "402" gh = "390"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.392in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.329in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+<symbol name = "MANOTE" width = "5.132mm" height = "3.048mm"/>
+:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Conduct resistance spot weld as three panel thickness.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

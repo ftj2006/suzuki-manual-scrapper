@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4F">
+<servcat sctnbr = "04" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A4604A01" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+ESP&#174; warning light remains lit for more than 2 seconds after setting ignition “ON”
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+ESP<sup>&#174;</sup> warning light remains lit for more than 2 seconds after setting ignition “ON”
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Malfunctioning ESP<sup>&#174;</sup> function
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Perform ESP<sup>&#174;</sup> system check. 
+<intxreftitleoff1 refid = "AENLSB0A4604001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Malfunctioning ESP<sup>&#174;</sup> warning light circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check ESP<sup>&#174;</sup> warning light circuit. 
+<intxreftitleoff1 refid = "AENLSB0A4604012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

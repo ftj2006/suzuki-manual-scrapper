@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "4">
+<servinfotype sitcode = "0">
+<servinfo servinfosgmlid = "AENLSB0C1A40003" svcinfotypenbr = "01" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery)
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0CAB20002">Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery):K12D Model</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

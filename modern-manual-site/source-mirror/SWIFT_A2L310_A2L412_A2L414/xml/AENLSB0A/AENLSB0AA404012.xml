@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA404012" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC B1A11
+</title>
+<servinfosub id = "AENLSB0AA404012001" page = "1">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.605in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.605in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+B1A11: Auto Tire Pressure Sensor ID Code Learning Not Complete
+</emph>
+</ptxt>
+<ptxt>
+Automatic learning of tire pressure sensor ID code is not completed.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tire pressure sensor No.1, No.2, No.3 and/or No.4
+</ptxt>
+</item>
+<item>
+<ptxt>
+TPMS control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA404012002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<s1>
+<ptxt>
+Set ignition “OFF” and leave ignition “OFF” for 20 minutes or more.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle at 25 km/h (16 mile/h) or more for 10 minutes or more.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA404012003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA404012004">
+<testgroup id = "AENLSB0AA404012005">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ECM. 
+<intxreftitleoff1 refid = "AENLSB0A1124003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA404012006">
+<title>
+Tire pressure sensor ID code registration
+</title>
+<test1>
+<ptxt>
+Perform automatic learning referring to “Automatic Learning” in 
+<intxref refid = "AENLSB0AA406004">Registration Procedure for Tire Pressure Sensor ID Code</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is ID code registration completed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA404012007">
+<title>
+DTC check
+</title>
+<question>
+Is there any DTC(s) other than B1A11?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace all tire pressure sensors. 
+<intxreftitleoff1 refid = "AENLSB0AA406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

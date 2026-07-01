@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C9F06012" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Rear-View Camera Removal and Installation
+</title>
+<servinfosub id = "AENLBA0C9F06012001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear end door trim and rear end door license garnish. 
+<intxreftitleoff1 refid = "AENLBA0C9606010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect rear-view camera connector (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Detach rear-view camera connector from rear end door (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear-view camera (3) from rear end door while holding claws (4) pressed in arrow directions.
+</ptxt>
+<figure>
+<graphic graphicname = "IFBA0A9F0013.jpg" width = "88.000mm" height = "84.115mm" ver = "01" gw = "200" gh = "222"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLBA0C9F06012002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

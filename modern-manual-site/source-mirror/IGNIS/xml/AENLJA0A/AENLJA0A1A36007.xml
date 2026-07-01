@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A36007" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+ISG Drive Belt Auto Tensioner / Idler Pulley Removal and Installation
+</title>
+<servinfosub id = "AENLJA0A1A36007001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove ISG drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A36004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove idler pulley bolt (1) and then remove idler pulley (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ISG drive belt auto tensioner upper bolt (3) and lower bolt (4) and then remove the tensioner (5).
+</ptxt>
+</s1>
+<attention3>
+<ptxt>
+Keep the removed ISG drive belt auto tensioner in upright position as much as possible. Do not leave the tensioner tilted to 45&#176; or more for longer than 24 hours.
+</ptxt>
+</attention3>
+</servinfosub>
+<servinfosub id = "AENLJA0A1A36007002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLJA0A1A36008">ISG Drive Belt Auto Tensioner / Idler Pulley Inspection:K12C-ISG</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install idler pulley and ISG drive belt auto tensioner and then tighten idler pulley bolt, ISG drive belt tensioner upper bolt and lower bolt to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J333">
+<t-part>
+Idler pulley bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J334">
+<t-part>
+ISG drive belt auto tensioner upper bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1J335">
+<t-part>
+ISG drive belt auto tensioner lower bolt
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFKA0P1A2001.jpg" width = "88.000mm" height = "52.606mm" ver = "01" gw = "187" gh = "133"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Using special tool, compress ISG drive belt auto tensioner fully.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1J309">
+<s-part>
+</s-part>
+<s-number num = "09932-97600">
+09932–97600
+</s-number>
+<ptxt>
+</ptxt>
+</servicetoolitem>
+</servicetool>
+</s1>
+<s1>
+<ptxt>
+Release the compression.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Repeat Step 2) – 3) 2 times.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install ISG drive belt. 
+<intxreftitleoff1 refid = "AENLJA0A1A36004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

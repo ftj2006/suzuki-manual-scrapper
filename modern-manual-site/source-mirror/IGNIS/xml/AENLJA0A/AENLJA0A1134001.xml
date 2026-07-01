@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A1134001" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Engine and Emission Control System Check
+</title>
+<ptxt>
+Refer to the following items for the details of each step.
+</ptxt>
+<diag type = "test" id = "AENLJA0A1134001001">
+<testgroup id = "AENLJA0A1134001002">
+<title>
+Customer complaint analysis
+</title>
+<test1>
+<ptxt>
+Perform customer complaint analysis. 
+<intxreftitleoff1 refid = "AENLJA0A1134001013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Was customer complaint analysis performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Perform customer complaint analysis.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001003">
+<title>
+DTC / freeze frame data check, record and clearance
+</title>
+<test1>
+<ptxt>
+Check for DTCs (including pending DTCs). 
+<intxreftitleoff1 refid = "AENLJA0A1134001014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) / freeze frame data?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Print DTCs and freeze frame data or write them down and clear them referring to 
+<intxref refid = "AENLJA0A1134004">DTC Clearance:K12D</intxref>
+, and go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001004">
+<title>
+Visual inspection
+</title>
+<test1>
+<ptxt>
+Perform visual inspection. 
+<intxreftitleoff1 refid = "AENLJA0A1134001015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001005">
+<title>
+Visual inspection
+</title>
+<test1>
+<ptxt>
+Perform visual inspection. 
+<intxreftitleoff1 refid = "AENLJA0A1134001015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part, and then go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001006">
+<title>
+Trouble symptom confirmation
+</title>
+<test1>
+<ptxt>
+Check trouble symptom. 
+<intxreftitleoff1 refid = "AENLJA0A1134001016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is trouble symptom identified?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001007">
+<title>
+Rechecking and recording DTC / freeze frame data
+</title>
+<test1>
+<ptxt>
+Recheck for DTC and freeze frame data. 
+<intxreftitleoff1 refid = "AENLJA0A1134001019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001008">
+<title>
+Rechecking and recording DTC / freeze frame data
+</title>
+<test1>
+<ptxt>
+Recheck for DTC and freeze frame data. 
+<intxreftitleoff1 refid = "AENLJA0A1134001019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s)?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 10.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001009">
+<title>
+Engine basic inspection and engine symptom diagnosis
+</title>
+<test1>
+<ptxt>
+Check and repair. 
+<intxreftitleoff1 refid = "AENLJA0A1134001020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Are check and repair complete?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check and repair defective part(s), and go to Step 11.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001010">
+<title>
+Troubleshooting for DTC
+</title>
+<test1>
+<ptxt>
+Check and repair according to applicable DTC troubleshooting. 
+<intxreftitleoff1 refid = "AENLJA0A1134001021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Are check and repair complete?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Check and repair defective part(s), and go to Step 11.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001011">
+<title>
+Intermittent problem check
+</title>
+<test1>
+<ptxt>
+Check for intermittent problems. 
+<intxreftitleoff1 refid = "AENLJA0A1134001022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any faulty condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace defective part(s), and go to Step 11.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 11.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1134001012">
+<title>
+Final confirmation test
+</title>
+<test1>
+<ptxt>
+Clear DTC if any.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform final confirmation test. 
+<intxreftitleoff1 refid = "AENLJA0A1134001025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any problem symptom, DTC or abnormal condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+<servinfosub id = "AENLJA0A1134001013">
+<title>
+Step 1: Customer Complaint Analysis
+</title>
+<ptxt>
+Record details of the problem (failure, complaint) and how it occurred as described by the customer. For this purpose, use of an inspection form as shown will facilitate collecting information required for proper analysis and diagnosis.
+</ptxt>
+<attention3>
+<ptxt>
+This form is a standard sample. It should be modified according to characteristic of each market.
+</ptxt>
+</attention3>
+<figure>
+<title>
+Customer questionnaire form (Example)
+</title>
+<graphic graphicname = "I9P60A111042.swf" width = "183.000mm" height = "208.015mm" ver = "01" gw = "516" gh = "573"/>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001014" page = "2">
+<title>
+Step 2: DTC / Freeze Frame Data Check, Record and Clearance
+</title>
+<ptxt>
+First, check DTC (including pending DTC). 
+<intxreftitleoff1 refid = "AENLJA0A1134003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+If DTC is indicated, print it and freeze frame data or write them down and then clear them. 
+<intxreftitleoff1 refid = "AENLJA0A1134004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001015" page = "2">
+<title>
+Steps 3 and 4: Visual Inspection
+</title>
+<ptxt>
+As a preliminary step, perform visual check of the items that support proper function of the engine. 
+<intxreftitleoff1 refid = "AENLJA0A1134008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001016" page = "2">
+<title>
+Step 5: Trouble Symptom Confirmation
+</title>
+<topic id = "AENLJA0A1134001017">
+<title>
+If there is no DTC in Step 2:
+</title>
+<ptxt>
+Based on information obtained in 
+<intxref refid = "AENLJA0A1134001013">Step 1: Customer Complaint Analysis</intxref>
+ and 
+<intxref refid = "AENLJA0A1134001014">Step 2: DTC / Freeze Frame Data Check, Record and Clearance</intxref>
+, check trouble symptoms.
+</ptxt>
+</topic>
+<topic id = "AENLJA0A1134001018">
+<title>
+If there is any DTC in Step 2:
+</title>
+<ptxt>
+Recheck DTC according to “DTC Confirmation Procedure” described in each DTC troubleshooting.
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001019" page = "2">
+<title>
+Steps 6 and 7: Rechecking and Record in DTC / Freeze Frame Data
+</title>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A1134003">DTC Check:K12D</intxref>
+ for checking procedure.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001020" page = "2">
+<title>
+Step 8: Engine Basic Inspection and Engine Symptom Diagnosis
+</title>
+<s1>
+<ptxt>
+Perform basic engine inspection. 
+<intxreftitleoff1 refid = "AENLJA0A1134009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If there is no faulty part found in inspection procedure of “Engine basic inspection”, perform 
+<intxref refid = "AENLJA0A1134010">Engine Symptom Diagnosis:K12D</intxref>
+ based on symptom found in vehicle checking in the following steps.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Customer complaint analysis
+</ptxt>
+</item>
+<item>
+<ptxt>
+Trouble symptom confirmation
+</ptxt>
+</item>
+</list1>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001021" page = "2">
+<title>
+Step 9: Troubleshooting for DTC
+</title>
+<ptxt>
+Perform applicable DTC troubleshooting and repair or replace faulty parts.
+</ptxt>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001022" page = "2">
+<title>
+Step 10: Intermittent Problems Check
+</title>
+<topic id = "AENLJA0A1134001023">
+<title>
+If there is no DTC in Step 2:
+</title>
+<ptxt>
+Check for intermittent problem. 
+<intxreftitleoff1 refid = "AENLJA0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</topic>
+<topic id = "AENLJA0A1134001024">
+<title>
+If there is any DTC in Step 2:
+</title>
+<ptxt>
+Check parts related to detected DTC (e.g. wire harness, connector, etc.).
+</ptxt>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLJA0A1134001025" page = "2">
+<title>
+Step 11: Final Confirmation Test
+</title>
+<ptxt>
+Check that the problem symptom has gone and engine is free from any abnormal conditions. If what has been repaired is related to DTC, clear DTC once, perform DTC confirmation procedure and check that no DTC is indicated.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

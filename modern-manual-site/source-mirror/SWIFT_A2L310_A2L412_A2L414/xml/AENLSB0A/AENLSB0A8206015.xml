@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8206015" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rear Seat Belt Pretensioner Inspection (10-Channel Air Bag System)
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8206014">Rear Seat Belt Pretensioner Removal and Installation (10-Channel Air Bag System)</intxrefpoff>
+</ptxt>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A8206012">Front Seat Belt Pretensioner Inspection</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

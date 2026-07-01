@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A1A26003" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Inspection
+</title>
+<attention3>
+<ptxt>
+Check water pump / generator drive belt when engine is cool.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check water pump / generator drive belt (1) for crack, tear, deformation, wear or dirt. If any defect is found replace it. 
+<intxreftitleoff1 refid = "AENLJA0A1A26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove right front fender lining. 
+<intxreftitleoff1 refid = "AENLJA0A9A06004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that slit (3) on water pump / generator drive belt auto tensioner (2) is within width “a” of protrusion (4).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If check result is not as specified, replace water pump / generator drive belt and recheck that the slit is within the width “a”. 
+<intxreftitleoff1 refid = "AENLJA0A1A26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<ptxt>
+If new water pump / generator drive belt is installed and the slit position is not as specified, replace water pump / generator drive belt auto tensioner. 
+<intxreftitleoff1 refid = "AENLJA0A1A26006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "IFKA0P1A1002.jpg" width = "88.000mm" height = "92.772mm" ver = "02" gw = "218" gh = "246"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

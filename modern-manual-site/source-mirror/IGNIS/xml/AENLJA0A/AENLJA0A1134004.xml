@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A1134004" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+DTC Clearance
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect SUZUKI scan tool or CAN communication OBD-II generic scan tool to DLC (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1A308">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s1>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Clear DTC and pending DTC according to instructions displayed on SUZUKI scan tool and print them or write them down. Refer to Operator&apos;s Manual of SUZUKI scan tool for further details.
+</ptxt>
+<attention3>
+<ptxt>
+If communication between SUZUKI scan tool and ECM is not possible, perform the following checks:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check communication condition between PC and VCI (2) using SUZUKI scan tool function.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication circuit and connectors between DLC and central gateway control module. (Refer to “Diagnosis flow: [a]” in “Troubleshooting” of 
+<intxref refid = "AENLJA0AA834003">Troubleshooting for Lost Communication:K12D Model</intxref>
+.) 
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.) 
+<intxreftitleoff1 refid = "AENLJA0AA834004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLJA0AA844020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ECM power circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLJA0A1134077"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</attention3>
+<figure>
+<graphic graphicname = "IGJA0A181003.jpg" width = "88.000mm" height = "102.492mm" ver = "02" gw = "190" gh = "274"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+After completing DTC clearance, set ignition “OFF” and disconnect scan tool from DLC.
+</ptxt>
+<attention3>
+<ptxt>
+DTC and freeze frame data stored in ECM memory are also cleared in the following case. Be careful not to clear them before keeping their record.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+When the same malfunction (DTC) is not detected again for 40 engine warm-up cycles. (See “Warm-Up Cycle” of 
+<intxref refid = "AENLJA0A1131003">OBD System Description:K12D</intxref>
+.)
+</ptxt>
+</item>
+</list1>
+</attention3>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1A16005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Removal and Installation
+</title>
+<servinfosub id = "AENLSB0C1A16005001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove engine undercover and right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENLSB0C1A16004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect “B” terminal wire (1) and connector (2) from generator (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove generator.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1A1009.jpg" width = "88.000mm" height = "81.610mm" ver = "01" gw = "236" gh = "215"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C1A16005002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Install generator bolt (1) and generator pivot bolt (2) to generator.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connect wire (3) to generator as shown in figure, and tighten “B” terminal nut (4) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J109">
+<t-part>
+“B” terminal nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0B1A1010.jpg" width = "88.000mm" height = "79.491mm" ver = "01" gw = "241" gh = "209"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Adjust belt tension. 
+<intxreftitleoff1 refid = "AENLSB0C1A16003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

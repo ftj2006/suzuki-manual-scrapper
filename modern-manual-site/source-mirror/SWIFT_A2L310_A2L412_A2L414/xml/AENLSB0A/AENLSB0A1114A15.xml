@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1114A15" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Improper engine idling or engine fails to idle
+</title>
+<ptxt>
+Perform troubleshooting referring to the following points when ECM has detected no DTC and no abnormality has been found in 
+<intxref refid = "AENLSB0A1114008">Visual Inspection:K14C</intxref>
+ and 
+<intxref refid = "AENLSB0A1114009">Engine Basic Inspection:K14C</intxref>
+.
+</ptxt>
+<diag type = "condition">
+<condition>
+<ptxt>
+Improper engine idling or engine fails to idle
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty spark plug
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1816002">Spark Plug Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ignition coil assembly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1816004">Ignition Coil Assembly Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Fuel pressure out of specification
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1714009">Fuel Low-Pressure Basic Check:K14C</intxref>
+ and 
+<intxref refid = "AENLSB0A1714010">Fuel High-Pressure Basic Check:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Leaky manifold, throttle body or cylinder head gasket
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check air intake system.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty evaporative emission control system
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1216002">EVAP Canister Purge Valve Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty fuel injector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1714003">Fuel Injector Circuit Check:K14C</intxref>
+ or 
+<intxref refid = "AENLSB0A1716014">Fuel Injector Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Poor performance of ECT sensor, MAP sensor or MAF sensor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316016">ECT Sensor Inspection:K14C</intxref>
+, 
+<intxref refid = "AENLSB0A1316010">MAP Sensor Inspection:K14C</intxref>
+ or 
+<intxref refid = "AENLSB0A1316027">MAF Sensor with IAT Sensor-1 Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty electric throttle body assembly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316003">Electric Throttle Body Assembly On-Vehicle Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty APP sensor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316008">APP Sensor Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1114082">Inspection of ECM and Its Circuits:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Loose connection or disconnection of vacuum hoses
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check connection of vacuum hoses.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Malfunctioning PCV valve
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1216007">PCV Valve On-Vehicle Inspection:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Engine overheating
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Condition “Engine overheating”
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Low compression
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1414001">Compression Check:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty generator and/or its circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1A14003">Generator Test:K14C</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+VVT system out of order
+</ptxt>
+</ps>
+<action>
+<list1 type = "unordered">
+<item>
+<ptxt>
+VVT actuator: 
+<intxref refid = "AENLSB0A1416037">Camshaft and VVT Actuator Inspection:K14C</intxref>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Valve timing: 
+<intxref refid = "AENLSB0A1416034">Timing Chain and Chain Tensioner Inspection:K14C</intxref>
+</ptxt>
+</item>
+<item>
+<ptxt>
+OCV oil circuit: 
+<intxref refid = "AENLSB0A1416028">Timing Chain Cover Inspection:K14C</intxref>
+</ptxt>
+</item>
+</list1>
+</action>
+<ps>
+<ptxt>
+Faulty oil temperature sensor
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1316011">Oil Temperature Sensor On-Vehicle Inspection:K14C</intxref>
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

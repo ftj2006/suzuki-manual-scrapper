@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "4">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENKSB0A1A44004" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Test
+</title>
+<ptxt>
+This condition, as evidenced by slow cranking or low specific gravity, can be caused by one or more of the following conditions even though warning light operates normally. The following procedure also applies to cars with voltmeter and ammeter.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that undercharged condition has not been caused by accessories being left on for an extended period.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ISG drive belt for wear and tension. 
+<intxreftitleoff1 refid = "AENKSB0A1A46003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+If battery defect is suspected, refer to 
+<intxref refid = "AENKSB0A1A41001">Battery Description:K12C-ISG</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wiring for defects. Check all connections for tightness and cleanliness, battery cable connections at battery, starting motor and ignition ground cable.
+</ptxt>
+</item>
+</list1>
+<servinfosub id = "AENKSB0A1A44004001">
+<title>
+Parameter Check
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use fully charged battery.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The following check is for generating mode. If the generating mode operates normally, driving mode of ISG is judged to be normal.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Operating time of generating mode right after the engine start varies according to state-of-charge of the battery (lead-acid battery) and auxiliary power module (lithium-ion battery). Therefore, perform step 4) – 5) within 15 seconds. If the mode is changed to other than generating mode during the measurement, stop the engine and start the measurement from step 4) again.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Turn off all electrical loads.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect SUZUKI scan tool to DLC (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1J411">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A1A4001.swf" width = "88.000mm" height = "87.737mm" ver = "01" gw = "205" gh = "232"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Run engine at idle speed.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Turn lighting switch to “HEAD” position.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Measure parameter data of “ISG Control Mode”, “Relay 2P Current”, “Relay 3P Current” and “ISG + Terminal Voltage” selecting them in “Data List”, and check that the result is as specified.
+</ptxt>
+<spec>
+<title>
+Generating mode specifications
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.063in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.225in"/>
+<colspec colnum = "3" colname = "3" colwidth = "1.155in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Parameter
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Standard value
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Mode
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+ISG control mode
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Generating
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Standard current
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Relay 2P current
+</ptxt>
+</entry>
+<entry colname = "3" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+10 A or more (*1)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Relay 3P current
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Regulated voltage at 25 &#176;C (77 &#176;F)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+ISG + terminal voltage
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+10.3 – 16.3 V
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+“ISG control Mode” is parameter of ECM. “Relay 2P Current”, “Relay 3P Current” and “ISG + Terminal Voltage” are parameters of auxiliary power module (lithium-ion battery).
+</ptxt>
+</item>
+<item>
+<ptxt>
+*1: In the generating mode, “Relay 2P Current” is displayed in a negative value. Standard current value is sum of “Relay 2P Current” converted into a positive value and “Relay 3P Current”.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Connect voltmeter (1) and ammeter (2) as shown in figure for measurement.
+</ptxt>
+<figure>
+<graphic graphicname = "IEV00PB10007.swf" width = "88.000mm" height = "59.186mm" ver = "01" gw = "222" gh = "151"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.071in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ISG
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+“ISG +” terminal
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+</list1>
+</attention3>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

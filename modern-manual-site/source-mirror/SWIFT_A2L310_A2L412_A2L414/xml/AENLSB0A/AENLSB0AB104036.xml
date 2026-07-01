@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AB104036" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "1" supplyoff = "1" modify = "0">
+<title>
+DTC P1C00 / P1C01 / P1C08 / P1C09 / P1C0A / P1C15 / P1C16 / P1C17 / P1C18 / P1C19
+</title>
+<servinfosub id = "AENLSB0AB104036001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "5.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.878in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C00: DC/DC Converter Safety Switch Failure
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure.
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "9" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DC/DC converter
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C01: DC/DC Converter Shut-off Path
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C08: DC/DC Converter LV Under Voltage
+</emph>
+</ptxt>
+<ptxt>
+Voltage of 12V side is lower than specified value for more than specified time.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C09: DC/DC Converter LV Over Voltage
+</emph>
+</ptxt>
+<ptxt>
+Voltage of 12V side is higher than specified value for more than specified time.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C0A: DC/DC Converter LV Over Voltage HW
+</emph>
+</ptxt>
+<ptxt>
+12V side is over voltage.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C15: DC/DC Converter 13V5 Power Supply Under Voltage
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure (MOSFET error).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C16: DC/DC Converter 13V5 Power Supply Over Voltage
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure (MOSFET error).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C17: DC/DC Converter 13V5 Voltage Sensor Low
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure (voltage sensor circuit error).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C18: DC/DC Converter 13V5 Voltage Sensor High
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure (voltage sensor circuit error).
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+P1C19: DC/DC Converter Vdd5V Power Supply Over/Under Voltage
+</emph>
+</ptxt>
+<ptxt>
+DC/DC converter internal failure (microcomputer or power supply circuit is failure).
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AB104036002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON” for 10 sec.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AB104036003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AB104036004">
+<testgroup id = "AENLSB0AB104036005">
+<title>
+DC/DC converter check
+</title>
+<test1>
+<ptxt>
+Check DC/DC converter for proper installation referring to 
+<intxref refid = "AENLSB0AB106012">DC/DC Converter Removal and Installation</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts, then go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AB104036006">
+<title>
+DTC recheck
+</title>
+<test1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB104005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform “DTC Confirmation Procedure”, and check DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB104004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC P1C00, P1C01, P1C08, P1C09, P1C0A, P1C15, P1C16, P1C17, P1C18 or P1C19 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace DC/DC converter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AB106012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Intermittent trouble.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

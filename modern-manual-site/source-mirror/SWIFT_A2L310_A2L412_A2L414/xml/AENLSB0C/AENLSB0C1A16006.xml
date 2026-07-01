@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1A16006" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump / Generator Drive Belt Idler Pulley Removal and Installation
+</title>
+<servinfosub id = "AENLSB0C1A16006001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENLSB0C1A16004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt idler pulley.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C1A16006002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten water pump / generator drive belt idler pulley bolt (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J110">
+<t-part>
+Water pump / generator drive belt idler pulley bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0B1A1011.jpg" width = "88.000mm" height = "65.775mm" ver = "01" gw = "199" gh = "170"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Adjust belt tension. 
+<intxreftitleoff1 refid = "AENLSB0C1A16003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

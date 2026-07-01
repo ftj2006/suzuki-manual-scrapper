@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "2D">
+<servcat sctnbr = "02" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A2406005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Treatment of Flat Tire Repaired with Sealant
+</title>
+<attention1>
+<ptxt>
+Damage to health may result if you do not observe the precautions when handling flat tire repaired with flat tire repair sealant.
+</ptxt>
+<ptxt>
+Observe the precautions in 
+<intxref refid = "AENLSB0A2400001">Precautions for Emergency Flat Tire Repair Kit (If Equipped)</intxref>
+ when handling the flat tire.
+</ptxt>
+</attention1>
+<s1>
+<ptxt>
+Remove wheel and tire repaired with the sealant.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release air from the tire slowly by loosening valve core.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For vehicle without TPMS, pull valve stem and cut rubber (1) of the valve to thereby let remainder portion (2) drop into inside of the wheel.
+</ptxt>
+<figure>
+<graphic graphicname = "IDW101240001.swf" width = "88.000mm" height = "51.137mm" ver = "02" gw = "234" gh = "128"/>
+</figure>
+<ptxt>
+For vehicle with TPMS, remove the pressure sensor mounting nut (3) to thereby let the pressure sensor (4) drop into inside of the wheel.
+</ptxt>
+<figure>
+<graphic graphicname = "IDW101240002.swf" width = "88.000mm" height = "51.337mm" ver = "02" gw = "232" gh = "129"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove the tire from the wheel using tire changer. 
+<intxreftitleoff1 refid = "AENLSB0A2406004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<attention3>
+<ptxt>
+Remove the tire carefully not to spill sealant in the tire.
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Remove flat tire repair sealant from the tire and wipe off remaining sealant from the tire and the wheel.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Replace the tire with new one. However, if the tire damage is slight and the puncture is judged to be repairable, repair it.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install a new tire pressure sensor to wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install new or repaired tire to wheel and check that no leakage exists, and then adjust tire pressure to the specification. 
+<intxreftitleoff1 refid = "AENLSB0A2406004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For vehicle without TPMS, install a new valve to wheel.
+</ptxt>
+<ptxt>
+For vehicle with TPMS, install wheel fitted with tire to vehicle.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

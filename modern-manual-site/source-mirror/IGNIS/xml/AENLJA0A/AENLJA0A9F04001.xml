@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A9F04001" svcinfotypenbr = "06" svcinfoqualnbr = "04" supplyoff = "1" modify = "0">
+<title>
+Audio System Symptom Diagnosis
+</title>
+<ptxt>
+Before performing the following troubleshooting, check if the symptom is not caused by incorrect handling while referring to Owner’s Manual.
+</ptxt>
+<ptxt>
+If the cause cannot be identified by the following troubleshooting, replace audio unit with a known-good one. If the symptom is cleared, audio unit is the cause.
+</ptxt>
+<diag type = "condition" id = "AENLJA0A9F04001001">
+<condition>
+<ptxt>
+Audio unit cannot turn ON
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty audio connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check audio connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio power supply and ground circuits (including fuse)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Poor radio reception
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty radio antenna connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check radio antenna connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty radio antenna
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Substitute a known-good radio antenna and recheck reception.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty radio antenna feeder cable
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06005">Radio Antenna Feeder Cable Inspection</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty radio antenna power supply circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+No sound from speaker
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty speaker connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check speaker connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty speaker circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Light mode does not change when lighting switch is turned on
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty illumination power supply and ground circuits (including fuse)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Audio system is operative, but audio control switch does not control audio system
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty audio control switch connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check steering switch connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio control switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06007">Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio control switch circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Impossible to call using hands-free system (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty microphone connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check microphone connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty microphone
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty microphone circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty hands-free switch connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check steering switch connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty hands-free switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06007">Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty hands-free switch circuit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Rearview image does not come out even when shift lever is shifted to reverse position (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Rearview image signal from rearview camera inputted incorrectly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check rearview camera circuit. 
+<intxreftitleoff1 refid = "AENLJA0A9F02001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Reverse position signal inputted incorrectly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check reverse position signal circuit.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Rearview image is unclear (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Abnormal operating environments such as temperature, radio waves, etc.
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Recheck in different place.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Damaged lens
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace rearview camera. 
+<intxreftitleoff1 refid = "AENLJA0A9F06013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio unit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace audio unit. 
+<intxreftitleoff1 refid = "AENLJA0A9F06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<condition>
+<ptxt>
+Rearview image vibrates too much, or looks different from usual cases (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Rearview camera installed improperly
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check installation status. 
+<intxreftitleoff1 refid = "AENLJA0A9F06013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio unit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace audio unit. 
+<intxreftitleoff1 refid = "AENLJA0A9F06001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<condition>
+<ptxt>
+USB device connected to USB socket is not recognized by audio unit (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty USB and AUX harness connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check USB and AUX harness connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty USB and AUX harness
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06011">USB and AUX Harness Inspection (If Equipped)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty USB and AUX socket
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06010">USB and AUX Socket Inspection (If Equipped)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio unit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+<condition>
+<ptxt>
+AUX device connected to AUX socket is not recognized by audio unit (If equipped)
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Faulty USB and AUX harness connector
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check USB and AUX harness connectors for connection.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty USB and AUX harness
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F06011">USB and AUX Harness Inspection (If Equipped)</intxref>
+.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty USB and AUX socket
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Substitute a known-good USB and AUX socket and recheck reception.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty audio unit
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Refer to 
+<intxref refid = "AENLJA0A9F02001">Audio System Circuit Diagram</intxref>
+ and 
+<intxref refid = "AENLJA0A9F04002">Inspection of Audio System and Its Circuit</intxref>
+.
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

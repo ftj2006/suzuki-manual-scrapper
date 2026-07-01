@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1F">
+<servcat sctnbr = "01" scnbr = "06">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1626015" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Water Pump Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A1626015001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1626004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump drive belt. 
+<intxreftitleoff1 refid = "AENLSB0A1626019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water inlet pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1626017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect harness clamp from water pump bracket.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump (1) and its O-ring (2) from cylinder block.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A162026.jpg" width = "88.000mm" height = "47.063mm" ver = "01" gw = "185" gh = "117"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove water pump pulley (1) and harness bracket (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A162027.jpg" width = "88.000mm" height = "63.658mm" ver = "01" gw = "185" gh = "164"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1626015002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1626016">Water Pump Inspection:K14D</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new gasket.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten water pump pulley bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1F214">
+<t-part>
+Water pump pulley bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+20
+</t-value1>
+<t-value2>
+2.0
+</t-value2>
+<t-value3>
+15.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A162028.jpg" width = "88.000mm" height = "49.603mm" ver = "01" gw = "185" gh = "124"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten water pump bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1F215">
+<t-part>
+Water pump bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A162029.jpg" width = "88.000mm" height = "48.836mm" ver = "01" gw = "185" gh = "122"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Refill cooling system with coolant. 
+<intxreftitleoff1 refid = "AENLSB0A1626005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check cooling system for leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1626003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

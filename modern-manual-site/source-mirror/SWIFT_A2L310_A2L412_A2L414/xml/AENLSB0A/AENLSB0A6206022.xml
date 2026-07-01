@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "6B">
+<servcat sctnbr = "06" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A6206022" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+Tie-Rod End Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A6206021">Tie-Rod End Boot On-Vehicle Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A6206020">Steering Gear Case Assembly Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A6206022001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Hoist vehicle, and then remove front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove clip (1) and loosen tie-rod end nut (2) up to end off the stud as show.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A620011.swf" width = "88.000mm" height = "73.586mm" ver = "01" gw = "184" gh = "192"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect tie-rod end (1) from steering knuckle (2) using ball joint remover (3).
+</ptxt>
+<attention2>
+<ptxt>
+When tie-rod end is disconnected, ball joint remover may fall off and cause personal injury.
+</ptxt>
+<ptxt>
+Suspend the ball joint remover from the vehicle body using a rope to prevent the remover from falling off.
+</ptxt>
+</attention2>
+<figure>
+<graphic graphicname = "IDAA0A630013.jpg" width = "88.000mm" height = "61.033mm" ver = "01" gw = "199" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove tie-rod end nut.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+To facilitate adjustment after installation, make mark (1) of tie-rod end lock nut (2) position on tie-rod end thread. Then, loosen lock nut and remove tie-rod end (3) from tie-rod (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IDAA0A630014.jpg" width = "88.000mm" height = "61.033mm" ver = "01" gw = "199" gh = "156"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A6206022002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A6206023">Tie-Rod End Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install tie-rod end lock nut (2) and tie-rod end (3) to tie-rod (4). Align lock nut with mark (1) on tie-rod thread.
+</ptxt>
+<figure>
+<graphic graphicname = "IDAA0A630014.jpg" width = "88.000mm" height = "61.033mm" ver = "01" gw = "199" gh = "156"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect tie-rod end to steering knuckle. Tighten tie-rod end nut (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T6B006">
+<t-part>
+Tie-rod end nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+45
+</t-value1>
+<t-value2>
+4.6
+</t-value2>
+<t-value3>
+33.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Install new clip (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A620012.swf" width = "88.000mm" height = "73.586mm" ver = "01" gw = "184" gh = "192"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install front wheel. 
+<intxreftitleoff1 refid = "AENLSB0A2406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check and adjust front wheel alignment. 
+<intxreftitleoff1 refid = "AENLSB0A2206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten tie-rod end lock nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T6B007">
+<t-part>
+Tie-rod end lock nut
+</t-part>
+<t-value1>
+45
+</t-value1>
+<t-value2>
+4.6
+</t-value2>
+<t-value3>
+33.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

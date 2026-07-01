@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1424003" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Turbocharger On-Vehicle Inspection
+</title>
+<s1>
+<ptxt>
+Place gear shift lever in “Neutral”, apply parking brake and block drive wheels.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Stop engine and turn off all electric switches.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With ignition “OFF”, connect SUZUKI scan tool to DLC (1).
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1D246">
+<s-part>
+(A)
+</s-part>
+<s-number num = "NNNNN-00035">
+SUZUKI scan tool (Suzuki SDT-II)
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IGSB0A131015.swf" width = "88.000mm" height = "87.737mm" ver = "01" gw = "205" gh = "232"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check “Boost Pressure” under “Data List” mode on scan tool under the following conditions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Accelerator pedal: Depress fully for 5 seconds and release
+</ptxt>
+</item>
+<item>
+<ptxt>
+Engine speed: 2,500 – 4,000 rpm or more
+</ptxt>
+<spec>
+<title>
+Boost pressure specification
+</title>
+<ptxt>
+20 to 55 kPa (0.2 to 0.6 kgf/cm<sup>2</sup>, 2.90 to 7.97 psi, 0.20 to 0.55 bar)
+</ptxt>
+</spec>
+</item>
+</list1>
+<ptxt>
+If boost pressure is out of specified range, the following causes are suspected.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fault of waste gate valve
+</ptxt>
+</item>
+<item>
+<ptxt>
+Leakage of air
+</ptxt>
+</item>
+<item>
+<ptxt>
+Malfunction of turbocharger
+</ptxt>
+</item>
+</list1>
+</s1>
+<s1>
+<ptxt>
+After completing the check, set ignition “OFF” and disconnect SUZUKI scan tool from DLC.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

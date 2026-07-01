@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "0B">
+<servcat sctnbr = "00" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C0206032" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+ATF Inspection (A/T Model)
+</title>
+<s1 page = "2">
+<ptxt>
+Inspect transmission case for evidence of fluid leakage.
+</ptxt>
+<ptxt>
+Repair leaky point, if any.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check that vehicle is placed in level surface for fluid level check.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check fluid level referring to 
+<intxref refid = "AENLBA0C5106003">ATF Level Check</intxref>
+. If fluid level is low, replenish transaxle with specified fluid.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

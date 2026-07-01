@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4A">
+<servcat sctnbr = "04" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4106010" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Brake Light Switch On-Vehicle Inspection
+</title>
+<ptxt>
+Depress the brake pedal until brake light turns on and measure the brake pedal stroke to that point.
+</ptxt>
+<ptxt>
+If the pedal stroke is not as specified, remove and reinstall brake light switch.
+</ptxt>
+<spec>
+<title>
+Brake pedal stroke until brake light turns on “a”
+</title>
+<ptxt>
+LHD: 5.4 – 13.5 mm (0.21 – 0.53 in.)
+</ptxt>
+<ptxt>
+RHD: 6.3 – 15.9 mm (0.25 – 0.63 in.)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "IAP70B410015.swf" width = "88.000mm" height = "47.048mm" ver = "01" gw = "60" gh = "117"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

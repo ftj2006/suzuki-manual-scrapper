@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1E">
+<servcat sctnbr = "01" scnbr = "05">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1516002" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Oil Pressure Switch On-Vehicle Inspection
+</title>
+<s1 page = "2">
+<ptxt>
+Disconnect oil pressure switch connector (1).
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Check for continuity between oil pressure switch terminal (2) and cylinder head (3) as shown.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace oil pressure switch (4).
+</ptxt>
+<spec>
+<title>
+Oil pressure sensor specification
+</title>
+<ptxt>
+With engine running: No continuity
+</ptxt>
+<ptxt>
+At engine stop: Continuity
+</ptxt>
+</spec>
+<figure page = "2">
+<graphic graphicname = "IFAE0A150007.swf" width = "88.000mm" height = "68.348mm" ver = "01" gw = "221" gh = "177"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

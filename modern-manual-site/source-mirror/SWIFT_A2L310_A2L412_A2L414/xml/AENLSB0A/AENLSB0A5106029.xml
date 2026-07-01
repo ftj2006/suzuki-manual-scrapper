@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5A">
+<servcat sctnbr = "05" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5106029" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+A/T Assembly Dismounting and Remounting
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5106027">A/T Assembly Components</intxrefpoff>
+</ptxt>
+<attention2>
+<ptxt>
+If the transaxle assembly is tilted with the torque converter end down, the torque converter can fall off the A/T assembly, which could cause personal injury.
+</ptxt>
+<ptxt>
+Keep the A/T assembly horizontal or tilted with the torque converter end up throughout the operation.
+</ptxt>
+</attention2>
+<attention3>
+<ptxt>
+When A/T assembly is replaced, perform 
+<intxref refid = "AENLSB0A5106001">TCM Learning Value Clearance</intxref>
+, 
+<intxref refid = "AENLSB0A5106003">Neutral Position Calibration</intxref>
+ and 
+<intxref refid = "AENLSB0A5106002">TCM Learning Value Initialization</intxref>
+.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0A5106029001">
+<title>
+Dismounting
+</title>
+<s1>
+<ptxt>
+Shift select lever in N range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine undercover and engine under side covers.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1B16004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove front drive shaft assembly. 
+<intxreftitleoff1 refid = "AENLSB0A3116003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove starting motor. 
+<intxreftitleoff1 refid = "AENLSB0A1916002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove torque converter locating bolt and torque converter bolts as flows.
+</ptxt>
+<s2>
+<ptxt>
+Lock drive plate by engaging flat-bladed screwdriver or the like (1) with drive plate ring gear.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A510043.swf" width = "88.000mm" height = "54.307mm" ver = "01" gw = "183" gh = "137"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove torque converter locating bolt (1) or torque converter bolts (2) through installation hole of starting motor.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A510047.swf" width = "88.000mm" height = "71.461mm" ver = "01" gw = "183" gh = "186"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Turn crankshaft 60&#176; by turning crankshaft pulley bolt using wrench.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Repeat Step b) – c) 5 times.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Dismount A/T assembly with engine from vehicle. Refer to 
+<intxref refid = "AENLSB0A1416025">Engine Assembly Removal and Installation:K14C</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect TCM connector (1) and clamps (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A510004.swf" width = "88.000mm" height = "52.603mm" ver = "01" gw = "208" gh = "133"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Disconnect ATF cooler hoses (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ATF cooler pipe bolts (2) and remove ATF cooler pipe (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B510036.swf" width = "88.000mm" height = "53.812mm" ver = "01" gw = "208" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove bolts (1) and nut (2) fastening engine and A/T assembly, then detach A/T assembly from engine.
+</ptxt>
+<attention3>
+<ptxt>
+When dismounting A/T assembly from engine, move it in parallel with crankshaft and use care so as not to apply excessive force to drive plate and torque converter.
+</ptxt>
+</attention3>
+<figure>
+<graphic graphicname = "IGSB0A510044.swf" width = "88.000mm" height = "94.724mm" ver = "01" gw = "207" gh = "252"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle forward
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove battery ground cable (1), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A510005.jpg" width = "88.000mm" height = "55.699mm" ver = "01" gw = "214" gh = "141"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5106029002">
+<title>
+Remounting
+</title>
+<s1>
+<ptxt>
+Check that torque converter is installed correctly to transaxle. 
+<intxreftitleoff1 refid = "AENLSB0A5106062"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten bolts and nut fastening engine and A/T assembly to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A5106027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install ATF cooler pipe (1) and tighten ATF cooler pipe bolts (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A014">
+<t-part>
+ATF cooler pipe bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Connect ATF cooler hoses (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B510040.swf" width = "88.000mm" height = "53.812mm" ver = "01" gw = "220" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect TCM connector and clamps.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Positioning battery ground cable to specified angle as shown, tighten battery ground cable bolt (1) to specified torque, if removed.
+</ptxt>
+<spec>
+<title>
+Position range for battery ground cable
+</title>
+<ptxt>
+“a”: 45&#176;
+</ptxt>
+</spec>
+<torque>
+<torqueitem id = "T5A015">
+<t-part>
+Battery ground cable bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IHSB0A510006.jpg" width = "88.000mm" height = "62.815mm" ver = "01" gw = "214" gh = "162"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[f]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Vehicle forward
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remount A/T assembly with engine to vehicle. Refer to 
+<intxref refid = "AENLSB0A1416025">Engine Assembly Removal and Installation:K14C</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten torque converter locating bolt and torque converter bolts as follows.
+</ptxt>
+<attention3>
+<ptxt>
+Torque converter locating bolt is used for accurate positioning.
+</ptxt>
+<ptxt>
+Tighten torque converter locating bolt first so that bolt holes for torque converter and drive plate are positioned properly, and that torque converter bolts are tightened securely.
+</ptxt>
+<ptxt>
+One torque converter locating bolt and five torque converter bolts are required to secure torque converter and drive plate.
+</ptxt>
+</attention3>
+<s2>
+<ptxt>
+Lock drive plate by engaging flat-bladed screwdriver or the like (1) with drive plate gear.
+</ptxt>
+<figure>
+<graphic graphicname = "IFAE0A510046.swf" width = "88.000mm" height = "54.307mm" ver = "01" gw = "183" gh = "137"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Tighten torque converter locating bolt (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A016">
+<t-part>
+Torque converter locating bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+23
+</t-value1>
+<t-value2>
+2.3
+</t-value2>
+<t-value3>
+17.0
+</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>
+Turn crankshaft 60&#176; by turning crankshaft pulley bolt using wrench and tighten torque converter bolt (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5A017">
+<t-part>
+Torque converter bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+23
+</t-value1>
+<t-value2>
+2.3
+</t-value2>
+<t-value3>
+17.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFAE0A510051.swf" width = "88.000mm" height = "71.461mm" ver = "02" gw = "183" gh = "186"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Taper
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Repeat Step c) 4 times.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install starting motor. 
+<intxreftitleoff1 refid = "AENLSB0A1916002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install front drive shaft assembly. 
+<intxreftitleoff1 refid = "AENLSB0A3116003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install exhaust pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1B16004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine undercover and engine under side covers.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+After replacing TCM or A/T assembly with new one, program TCM with calibration data. Refer to Operator’s Manual of SUZUKI ECU Programming System.
+</ptxt>
+<attention3>
+<ptxt>
+Supplied TCM may not be programed depending on the shipping time. When a blank TCM is shipped with a memo indicating that “This ECU does not function without the calibration data”, programing of the TCM with the calibration data is necessary for the activation.
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106001">TCM Learning Value Clearance</intxref>
+, if A/T assembly is replaced.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106003">Neutral Position Calibration</intxref>
+, if A/T assembly is replaced.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A5106002">TCM Learning Value Initialization</intxref>
+, if A/T assembly is replaced.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

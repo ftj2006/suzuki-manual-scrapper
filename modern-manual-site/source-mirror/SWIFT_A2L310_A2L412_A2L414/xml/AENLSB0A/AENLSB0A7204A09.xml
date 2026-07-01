@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A7204A09" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+During compressor operation, a rumbling noise is heard as to engine speed increases
+</title>
+<servinfosub id = "AENLSB0A7204004001">
+<title>
+Abnormal Noise from Compressor
+</title>
+<diag type = "condition">
+<condition>
+<ptxt>
+During compressor operation, a rumbling noise is heard as to engine speed increases
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Inadequate clearance in scroll area
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Replace compressor. 
+<intxreftitleoff1 refid = "AENLSB0A7206043"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

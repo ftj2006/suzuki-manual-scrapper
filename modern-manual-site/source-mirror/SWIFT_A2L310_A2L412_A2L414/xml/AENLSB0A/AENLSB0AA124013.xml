@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124013" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC C1610 / C1618
+</title>
+<servinfosub id = "AENLSB0AA124013001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.594in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.594in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C1610: Sensor Not Aligned
+</emph>
+</ptxt>
+<ptxt>
+“Millimeter Wave Radar Aiming Adjustment” is not performed or not completed.
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+RBS control module
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C1618: Sensor Misaligned
+</emph>
+</ptxt>
+<ptxt>
+Abnormal tilt of beam axis of horizontal from millimeter wave radar is detected.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124013002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA124013003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AA124013004">
+<testgroup id = "AENLSB0AA124013005">
+<question>
+Was “Adaptive Cruise Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0AA124001">Adaptive Cruise Control System Check:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA124013006">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA126002">Millimeter Wave Radar Aiming Adjustment:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA124013002">DTC Confirmation Procedure</intxref>
+ and then recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA124004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is DTC C1610 or C1618 still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace RBS control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

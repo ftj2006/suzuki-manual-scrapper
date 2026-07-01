@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A9F06003" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Tweeter Removal and Installation (If Equipped)
+</title>
+<servinfosub id = "AENLJA0A9F06003001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove sash bracket inner garnish. 
+<intxreftitleoff1 refid = "AENLJA0A9506009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove 2 screws (1) and remove tweeter (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector (3) from tweeter.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9F0015.jpg" width = "88.000mm" height = "80.165mm" ver = "01" gw = "171" gh = "211"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A9F06003002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

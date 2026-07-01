@@ -1,0 +1,2618 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0C1114007" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Scan Tool Data
+</title>
+<scantool>
+<scantool-title>
+ECM
+</scantool-title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If communication between SUZUKI scan tool and ECM is not possible, perform the following checks:
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check communication condition between PC and VCI using SUZUKI scan tool function.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC power circuit and ground circuit.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication circuit and connectors between DLC and central gateway control module. (Refer to “Diagnosis flow: [a]” in “Troubleshooting” of “Troubleshooting for Lost Communication”.) 
+<intxreftitleoff1 refid = "AENLSB0CA814003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DLC cable. If necessary, check DLC cable by substituting a known-good DLC cable.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check CAN communication system. (“Control Module Communication Bus Off” is detected in any control module.) 
+<intxreftitleoff1 refid = "AENLSB0CA814004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check central gateway control module power supply circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0CA854019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check ECM power circuit and ground circuit. 
+<intxreftitleoff1 refid = "AENLSB0C1114082"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+With the generic scan tool, only data with asterisk (*) in the following table can be read.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When checking data with engine running at idle or racing, place gear shift lever in neutral position (M/T model) or select P range (A/T model) and apply parking brake fully. Also, if nothing or “no load” is indicated, turn off A/C, all electric loads, P/S and all the other switches.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.241in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.634in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.611in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.708in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Scan tool data
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Vehicle condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Normal condition / Reference value
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine Oil Temperature 
+<intxreftitleoff1 refid = "AENLSB0C1114007002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 70 to 110 &#176;C (158 to 230 &#176;F)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fuel System 
+<intxreftitleoff1 refid = "AENLSB0C1114007003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Open loop control before satisfaction of closed loop control conditions (ECT &#62;10 &#176;C, IAT, TP, HO2S / system = OK)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OL (open loop)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Open loop control due to driving conditions (Power enrichment, etc.)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OL-Drive (open loop)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Open loop control due to system fault detected
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OL-Fault (open loop)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Closed loop control using HO2S-1 and HO2S-2 as feedback sensors for fuel control
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+CL (closed loop)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Closed loop control due to system fault detected
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+CL-Fault (closed loop)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+When engine stops with ignition “ON”
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Short Term Fuel Trim 
+<intxreftitleoff1 refid = "AENLSB0C1114007004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. –20 to 20%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Long Term Fuel Trim 
+<intxreftitleoff1 refid = "AENLSB0C1114007005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. –20 to 20%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Total Fuel Trim 
+<intxreftitleoff1 refid = "AENLSB0C1114007006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. –30 to 30%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Inj Pulse Width 
+<intxreftitleoff1 refid = "AENLSB0C1114007007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 0.5 to 4.0 msec.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition Advance 
+<intxreftitleoff1 refid = "AENLSB0C1114007008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+–10 to 10&#176; BTDC
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fuel Rail Pressure 
+<intxreftitleoff1 refid = "AENLSB0C1114007009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 3,000 kPa
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Target Fuel Rail Pressure 
+<intxreftitleoff1 refid = "AENLSB0C1114007010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 3,000 kPa
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Calculated Load 
+<intxreftitleoff1 refid = "AENLSB0C1114007011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 5 to 40%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine Speed 
+<intxreftitleoff1 refid = "AENLSB0C1114007012"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+<ptxt>
+Radiator cooling fan: Stopped
+</ptxt>
+<ptxt>
+All electrical equipment: OFF
+</ptxt>
+<ptxt>
+Gear shift lever: Neutral position (M/T model)
+</ptxt>
+<ptxt>
+Select lever: P range (A/T model)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M/T model: 700 to 800 rpm 
+</ptxt>
+<ptxt>
+A/T model: 750 to 850 rpm
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Desired Idle 
+<intxreftitleoff1 refid = "AENLSB0C1114007013"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+<ptxt>
+Radiator cooling fan: Stopped
+</ptxt>
+<ptxt>
+All electrical equipment: OFF
+</ptxt>
+<ptxt>
+Gear shift lever: Neutral position (M/T model)
+</ptxt>
+<ptxt>
+Select lever: P range (A/T model)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+M/T model: 700 to 800 rpm 
+</ptxt>
+<ptxt>
+A/T model: 750 to 850 rpm
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+MAF 
+<intxreftitleoff1 refid = "AENLSB0C1114007014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.5 to 3.0 g/sec
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Vehicle Speed 
+<intxreftitleoff1 refid = "AENLSB0C1114007015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Vehicle running
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Almost the same as speedometer reading
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+MAP 
+<intxreftitleoff1 refid = "AENLSB0C1114007016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 20 to 55 kPa
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ECT 
+<intxreftitleoff1 refid = "AENLSB0C1114007017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 80 to 105 &#176;C (176 – 221 &#176;F)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Intake Air Temperature 
+<intxreftitleoff1 refid = "AENLSB0C1114007018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+–5 &#176;C (–9 &#176;F) + environmental temperature to 40 &#176;C (72 &#176;F) + environmental temperature
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Barometric Pres 
+<intxreftitleoff1 refid = "AENLSB0C1114007019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Barometric pressure is displayed.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+EVAP Canist Prg Duty 
+<intxreftitleoff1 refid = "AENLSB0C1114007020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 30%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Waste Gate Valve-VSV control duty 
+<intxreftitleoff1 refid = "AENLSB0C1114007021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Turbocharger: Operating
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+VVT Gap 
+<intxreftitleoff1 refid = "AENLSB0C1114007022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+–1.0 to 1.0&#176; CA
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+IAC Throttle Opening 
+<intxreftitleoff1 refid = "AENLSB0C1114007023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed with no load after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 1 to 40%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+<ptxt>
+A/C compressor: Operating
+</ptxt>
+<ptxt>
+Blower speed selector: Max position
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 10 to 70%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TP Sensor 1 Volt 
+<intxreftitleoff1 refid = "AENLSB0C1114007024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.8 to 1.0 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4.3 to 4.5 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TP Sensor 2 Volt 
+<intxreftitleoff1 refid = "AENLSB0C1114007025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4.0 to 4.2 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.5 to 0.7 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+APP Sensor 1 Voltage 
+<intxreftitleoff1 refid = "AENLSB0C1114007026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.70 to 0.80 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4.35 to 4.45 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+APP Sensor 2 Voltage 
+<intxreftitleoff1 refid = "AENLSB0C1114007027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0.325 to 0.425 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+2.15 to 2.25 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Accelerator Position 
+<intxreftitleoff1 refid = "AENLSB0C1114007028"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 2%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+90 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Throttle Position 
+<intxreftitleoff1 refid = "AENLSB0C1114007029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 10%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+90 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Target Throttle Posi 
+<intxreftitleoff1 refid = "AENLSB0C1114007030"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 2%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+90 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+O2S B1 S1 
+<intxreftitleoff1 refid = "AENLSB0C1114007031"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 0 to 1.0 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+O2S B1 S2 
+<intxreftitleoff1 refid = "AENLSB0C1114007032"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: 2,000 rpm for 3 min. or more after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 0 to 1.0 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+*
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Voltage 
+<intxreftitleoff1 refid = "AENLSB0C1114007033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+10.7 to 16.0 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fuel Tank Level 
+<intxreftitleoff1 refid = "AENLSB0C1114007034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+0 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/C Pressure 
+<intxreftitleoff1 refid = "AENLSB0C1114007035"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+<ptxt>
+A/C compressor: Operating
+</ptxt>
+<ptxt>
+Blower speed selector: Max position
+</ptxt>
+<ptxt>
+Ambient temperature: 30 &#176;C (86 &#176;F)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+HFC-134a: 1,100 to 1,540 kPa
+</ptxt>
+<ptxt>
+HFO-1234yf: 1,200 to 1,410 kPa
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Generator Field Duty 
+<intxreftitleoff1 refid = "AENLSB0C1114007036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 20 to 100%
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Current 
+<intxreftitleoff1 refid = "AENLSB0C1114007037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry namest = "3" nameend = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0C1316037">Electric Load Current Sensor On-Vehicle Inspection:K10C</intxref>
+.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Temperature 
+<intxreftitleoff1 refid = "AENLSB0C1114007038"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery temperature is displayed.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Generator Reg Volt (Com) 
+<intxreftitleoff1 refid = "AENLSB0C1114007039"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+10.7 to 16.0 V
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Radiator Fan 
+<intxreftitleoff1 refid = "AENLSB0C1114007040"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Radiator cooling fan: Off
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Off
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Radiator cooling fan: Low speed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Low
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Radiator cooling fan: High speed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+High
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/C Comp Relay 
+<intxreftitleoff1 refid = "AENLSB0C1114007041"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Running
+</ptxt>
+<ptxt>
+A/C compressor: Operating
+</ptxt>
+<ptxt>
+Blower speed selector: 1st or higher speed position
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fuel Pump 
+<intxreftitleoff1 refid = "AENLSB0C1114007042"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Running
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Air Bypass Valve (Com) 
+<intxreftitleoff1 refid = "AENLSB0C1114007043"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ABV-VSV: Operating
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Starter Switch 
+<intxreftitleoff1 refid = "AENLSB0C1114007044"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “START” (engine cranking)
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/C Switch 
+<intxreftitleoff1 refid = "AENLSB0C1114007045"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+A/C switch: ON
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Blower Fan 
+<intxreftitleoff1 refid = "AENLSB0C1114007046"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+4th or higher speed position
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Brake Switch 
+<intxreftitleoff1 refid = "AENLSB0C1114007047"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Brake pedal: Depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Brake pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Electric Load 
+<intxreftitleoff1 refid = "AENLSB0C1114007048"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Headlight: ON
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Headlight: OFF
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+PNP Signal (A/T model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007049"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Running
+</ptxt>
+<ptxt>
+Shift select lever: Other than P or N position
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+D
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Running
+</ptxt>
+<ptxt>
+Shift select lever: P or N position
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+P/N
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Clutch Switch (M/T model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007050"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Clutch pedal: Depressed fully
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Declutch
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Clutch pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Clutched
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cruise RES/ACC Switch (cruise control model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007051"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“RES / +” switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“RES / +” switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cruise SET/COAST Switch (cruise control model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007052"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“SET / –” switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“SET / –” switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cruise CANCEL Switch (cruise control model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007053"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“CANCEL” switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“CANCEL” switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Cruise ON/OFF Switch (cruise control model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007054"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“CRUISE” (main) switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Pushed
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“CRUISE” (main) switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Released
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance Setting Switch (adaptive cruise control model) 
+<intxreftitleoff1 refid = "AENLSB0C1114007055"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed Limiter Switch 
+<intxreftitleoff1 refid = "AENLSB0C1114007056"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“LIMIT” switch: Pushed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+“LIMIT” switch: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed Limiter 
+<intxreftitleoff1 refid = "AENLSB0C1114007057"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed limiter system is functioning.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Active
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Other than above condition
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Inactive
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed Limiter Main SW 
+<intxreftitleoff1 refid = "AENLSB0C1114007058"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed limiter system: ON
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Speed limiter system: OFF
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Fuel Cut 
+<intxreftitleoff1 refid = "AENLSB0C1114007059"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+<ptxt>
+Engine condition: 2,000 rpm or more after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Closed Throttle Pos 
+<intxreftitleoff1 refid = "AENLSB0C1114007060"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Released
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ON
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Ignition: “ON”
+</ptxt>
+<ptxt>
+Accelerator pedal: Fully depressed
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+OFF
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+O2S B1 S1 Act 
+<intxreftitleoff1 refid = "AENLSB0C1114007061"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Active
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+O2S B1 S2 Act 
+<intxreftitleoff1 refid = "AENLSB0C1114007062"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Active
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Target Valve Closing Position of High Pressure Fuel Pump 
+<intxreftitleoff1 refid = "AENLSB0C1114007063"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 5 to 30&#176;CA
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Intake Air Temperature 1 
+<intxreftitleoff1 refid = "AENLSB0C1114007064"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+–5 &#176;C (–9 &#176;F) + environmental temperature to 40 &#176;C (72 &#176;F) + environmental temperature
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Boost Pressure 
+<intxreftitleoff1 refid = "AENLSB0C1114007065"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Engine: Idle speed after warming up
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Approx. 101 kPa
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</scantool>
+<servinfosub id = "AENLSB0C1114007001" page = "2">
+<title>
+Scan Tool Data Definitions
+</title>
+<topic id = "AENLSB0C1114007002">
+<title>
+Engine Oil Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the oil temperature detected by oil temperature sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007003">
+<title>
+Fuel System (Fuel system status)
+</title>
+<ptxt>
+This parameter indicates the state of A/F feedback control by ECM.
+</ptxt>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Open loop
+</ptxt>
+<ptxt>
+Fuel injection time (volume) in the various engine states is determined beforehand. Therefore, information from HO2S-1 is not reflected in fuel injection control.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Closed loop
+</ptxt>
+<ptxt>
+Information from HO2S-1 is reflected in fuel injection control. When ECM judges that actual air-fuel ratio is higher than stoichiometric air-fuel ratio, ECM controls to increase the volume of fuel. On the contrary, when the actual air-fuel ratio is lower than stoichiometric air-fuel ratio, ECM controls to decrease the volume of fuel.
+</ptxt>
+</item>
+</list1>
+</attention3>
+</topic>
+<topic id = "AENLSB0C1114007004">
+<title>
+Short Term Fuel Trim (%)
+</title>
+<ptxt>
+This parameter indicates short term fuel trim value (short term air/fuel mixture correction factor) and changes the value corresponding to driving conditions. 0 (zero) indicates no correction, a value greater than 0 indicates enrichment correction, and a value less than 0 indicates enleanment correction.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007005">
+<title>
+Long Term Fuel Trim (%)
+</title>
+<ptxt>
+This parameter indicates a median value of short term trim learned in A/F feedback control (closed loop). This median value is used by ECM to correct fuel injection volume appropriately in open loop control avoiding interference caused by individual difference and aging. 0 (zero) indicates no correction, a value greater than 0 indicates enrichment correction, and a value less than 0 indicates enleanment correction.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007006">
+<title>
+Total Fuel Trim (%)
+</title>
+<ptxt>
+This parameter indicates the comprehensive fuel trim computed based on short term and long term fuel trim.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007007">
+<title>
+Inj Pulse Width (Fuel injection pulse width, msec)
+</title>
+<ptxt>
+This parameter indicates the injector drive pulse width (open time) during the injector valve stays open commanded by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007008">
+<title>
+Ignition Advance (Ignition timing advance for No.1 cylinder, &#176; BTDC)
+</title>
+<ptxt>
+This parameter indicates the ignition timing of No.1 cylinder commanded by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007009">
+<title>
+Fuel Rail Pressure (kPa, mmHg, inHg, psi, inH2O)
+</title>
+<ptxt>
+This parameter indicates the fuel rail pressure measured by fuel pressure sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007010">
+<title>
+Target Fuel Rail Pressure (kPa, mmHg, inHg, psi, inH2O)
+</title>
+<ptxt>
+This parameter indicates the target fuel rail pressure calculated by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007011">
+<title>
+Calculated Load (Calculated load value, %)
+</title>
+<ptxt>
+This parameter indicates the engine load as a percentage calculated by ECM based on input signals of various sensors.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007012">
+<title>
+Engine Speed (rpm)
+</title>
+<ptxt>
+This parameter indicates the engine speed calculated by ECM based on input signal of CKP sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007013">
+<title>
+Desired Idle (Desired idle speed, rpm)
+</title>
+<ptxt>
+This parameter indicates the target engine idle speed requested by ECM.
+</ptxt>
+<attention3>
+<ptxt>
+When performing “Fixed Spark” in “Active Test”, actual engine idle speed may not follow the target engine idle speed.
+</ptxt>
+</attention3>
+</topic>
+<topic id = "AENLSB0C1114007014">
+<title>
+MAF (Mass air flow rate, g/sec, lb/min.)
+</title>
+<ptxt>
+This parameter indicates the total mass of air entering intake manifold measured by MAF sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007015">
+<title>
+Vehicle Speed (km/h, mph)
+</title>
+<ptxt>
+This parameter indicates the vehicle speed based on signals from wheel speed sensors sent from ESP<sup>&#174;</sup> control module via CAN communication.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007016">
+<title>
+MAP (Manifold absolute pressure, kPa, mmHg, inHg, psi, inH2O)
+</title>
+<ptxt>
+This parameter indicates the calculated MAP based on input voltage of MAP sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007017">
+<title>
+ECT (Engine coolant temperature, &#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the calculated ECT based on input voltage of ECT sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007018">
+<title>
+Intake Air Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the calculated IAT based on input voltage of intake air temperature sensor-2.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007019">
+<title>
+Barometric Pres (Barometric pressure, kPa, mmHg, inHg, psi, inH2O)
+</title>
+<ptxt>
+This parameter indicates the barometric air pressure measurement and is used for altitude correction of the fuel injection rate.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007020">
+<title>
+Evap Canist Prg Duty (Evap canister purge flow duty, %)
+</title>
+<ptxt>
+This parameter indicates valve ON (valve open) time rate within a certain set cycle of EVAP canister purge valve.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007021">
+<title>
+Waste Gate Valve-VSV control duty (%)
+</title>
+<ptxt>
+This parameter indicates valve ON (VSV open) time rate within a certain set cycle of WGV-VSV which controls the WGV opening.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007022">
+<title>
+VVT Gap (Variable valve timing difference between target and actual position, &#176;)
+</title>
+<ptxt>
+This parameter indicates difference between target camshaft position (intake side) and actual camshaft position (intake side).
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007023">
+<title>
+IAC Throttle Opening (Idle air throttle valve opening, %)
+</title>
+<ptxt>
+This parameter indicates opening% of throttle valve on the assumption that the maximum opening of idle air control is 100%.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007024">
+<title>
+TP Sensor 1 Volt (TP sensor (main) output voltage, V)
+</title>
+<ptxt>
+This parameter indicates the input voltage of TP sensor (main) incorporated in throttle body.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007025">
+<title>
+TP Sensor 2 Volt (TP sensor (sub) output voltage, V)
+</title>
+<ptxt>
+This parameter indicates the input voltage of TP sensor (sub) incorporated in throttle body.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007026">
+<title>
+APP Sensor 1 Voltage (APP sensor (main) output voltage, V)
+</title>
+<ptxt>
+This parameter indicates the input voltage of APP sensor (main) incorporated in accelerator pedal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007027">
+<title>
+APP Sensor 2 Voltage (APP sensor (sub) output voltage, V)
+</title>
+<ptxt>
+This parameter indicates the input voltage of APP sensor (sub) incorporated in accelerator pedal.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007028">
+<title>
+Accelerator Position (Absolute accelerator pedal position, %)
+</title>
+<ptxt>
+This parameter indicates the depressing amount of accelerator pedal in percentage calculated by ECM based on the input signals of APP sensor (main and sub).
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007029">
+<title>
+Throttle Position (Absolute throttle position, %)
+</title>
+<ptxt>
+This parameter indicates the calculated throttle valve opening in percentage based on input signal from TP sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007030">
+<title>
+Target Throttle Posi (Target throttle valve position, %)
+</title>
+<ptxt>
+This parameter indicates the target throttle position requested by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007031">
+<title>
+O2S B1 S1 (HO2S-1, V)
+</title>
+<ptxt>
+This parameter indicates output voltage of HO2S-1 installed on exhaust manifold (pre-TWC).
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007032">
+<title>
+O2S B1 S2 (HO2S-2, V)
+</title>
+<ptxt>
+This parameter indicates output voltage of HO2S-2 installed on exhaust manifold (post-TWC). It is used to detect catalyst deterioration.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007033">
+<title>
+Battery Voltage (V)
+</title>
+<ptxt>
+This parameter indicates battery positive voltage inputted from main relay to ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007034">
+<title>
+Fuel Tank Level (%)
+</title>
+<ptxt>
+This parameter indicates the information of fuel level inputted via combination meter. The fuel level data is provided as a percentage from 0 to 100%.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007035">
+<title>
+A/C Pressure (A/C refrigerant absolute pressure, kPa)
+</title>
+<ptxt>
+This parameter indicates A/C refrigerant pressure calculated by ECM based on A/C refrigerant pressure sensor voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007036">
+<title>
+Generator Field Duty (%)
+</title>
+<ptxt>
+This parameter indicates operating rate (state of output) of the generator by field coil duty ratio.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007037">
+<title>
+Battery Current (A)
+</title>
+<ptxt>
+This parameter indicates electric load value (current consumption) detected by electric load current sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007038">
+<title>
+Battery Temperature (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates battery temperature based on battery temperature sensor.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007039">
+<title>
+Generator Reg Volt (Com) (Generator Regulated Voltage (Com) (V))
+</title>
+<ptxt>
+This parameter indicates commanded generator regulated voltage.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007040">
+<title>
+Radiator Fan (Radiator cooling fan control relay, Low/High/Off)
+</title>
+<ptxt>
+This parameter indicates the state that ECM operates radiator cooling fan relays.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007041">
+<title>
+A/C Comp Relay (A/C compressor relay, ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of A/C compressor relay controlled by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007042">
+<title>
+Fuel Pump (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of fuel pump relay controlled by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007043">
+<title>
+Air Bypass Valve (Com) (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of air bypass solenoid valve controlled by ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007044">
+<title>
+Starter Switch (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates state of starting motor control relay output.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007045">
+<title>
+A/C Switch (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of A/C operation controlled by ECM based on request from BCM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007046">
+<title>
+Blower Fan (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the signal state of the blower fan motor inputted into ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007047">
+<title>
+Brake Switch (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates operating state of the brake switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007048">
+<title>
+Electric Load (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of electric load signal inputted into ECM.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007049">
+<title>
+PNP Signal (P/N or D range) (A/T model)
+</title>
+<ptxt>
+This parameter indicates shift position informed from TCM via CAN communication.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007050">
+<title>
+Clutch Switch (CPP No.2 switch, Declutch / Clutched) (M/T model)
+</title>
+<ptxt>
+This parameter indicates operating state of CPP No.2 switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007051">
+<title>
+Cruise RES/ACC Switch (“RES / +” switch, OFF/ON) (cruise control model)
+</title>
+<ptxt>
+This parameter indicates the state of cruise “RES/+” switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007052">
+<title>
+Cruise SET/COAST Switch (“SET / –” switch, OFF/ON) (cruise control model)
+</title>
+<ptxt>
+This parameter indicates the state of cruise “SET/-” switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007053">
+<title>
+Cruise CANCEL Switch (“CANCEL” switch, OFF/ON) (cruise control model)
+</title>
+<ptxt>
+This parameter indicates the state of cruise “CANCEL” switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007054">
+<title>
+Cruise ON/OFF Switch (“CRUISE” (main) switch, Released / Pushed) (cruise control model)
+</title>
+<ptxt>
+This parameter indicates the state of “CRUISE” (main) switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007055">
+<title>
+Distance Setting Switch (OFF/ON) (adaptive cruise control model)
+</title>
+<ptxt>
+This parameter indicates the state of distance switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007056">
+<title>
+Speed Limiter Switch (“LIMIT” switch, ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of “LIMIT” switch.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007057">
+<title>
+Speed Limiter (Inactive/Active)
+</title>
+<ptxt>
+This parameter indicates the activation condition of the speed limiter system.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007058">
+<title>
+Speed Limiter Main SW (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of the speed limiter system.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007059">
+<title>
+Fuel Cut (ON/OFF)
+</title>
+<ptxt>
+This parameter indicates the state of fuel injection.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007060">
+<title>
+Closed Throttle Pos (Closed throttle position, ON/OFF)
+</title>
+<ptxt>
+This parameter indicates monitored idle for engine control.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007061">
+<title>
+O2S B1 S1 ACT (HO2S-1, Active / Inactive)
+</title>
+<ptxt>
+This parameter indicates the activation condition of HO2S-1.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007062">
+<title>
+O2S B1 S2 ACT (HO2S-2, Active / Inactive)
+</title>
+<ptxt>
+This parameter indicates the activation condition of HO2S-2.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007063">
+<title>
+Target Valve Closing Position of High Pressure Fuel Pump (&#176;CA)
+</title>
+<ptxt>
+This parameter indicates close timing of high pressure fuel pump delivery valve. Correlation between the close timing and amount of fuel supply into high-pressure fuel pipe is as follows.
+</ptxt>
+<ptxt>
+0 degree: Amount of fuel supply is the minimum.
+</ptxt>
+<ptxt>
+Larger degrees: Amount of fuel supply increases.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007064">
+<title>
+Intake Air Temperature 1 (&#176;C, &#176;F)
+</title>
+<ptxt>
+This parameter indicates the calculated IAT based on input voltage of intake air temperature sensor-1.
+</ptxt>
+</topic>
+<topic id = "AENLSB0C1114007065">
+<title>
+Boost Pressure (kPa)
+</title>
+<ptxt>
+This parameter indicates the calculated boost pressure based on input voltage of boost pressure sensor.
+</ptxt>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

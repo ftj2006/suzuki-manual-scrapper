@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AAA36005" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Parking Sensor OFF Switch Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0AAA36004">Parking Sensor OFF Switch Removal and Installation:Parking Sensor</intxrefpoff>
+</ptxt>
+<ptxt>
+Check parking sensor OFF switch for continuity between terminals at each switch position.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace parking sensor OFF switch.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AAA3019.jpg" width = "88.000mm" height = "61.336mm" ver = "01" gw = "237" gh = "157"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

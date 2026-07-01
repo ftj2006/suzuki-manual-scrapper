@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "11A">
+<servcat sctnbr = "11" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AB101006" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Description of SHVS System Function
+</title>
+<servinfosub id = "AENLSB0AB101006001">
+<title>
+Engine Power Assist Function
+</title>
+<topic id = "AENLSB0AB101006002">
+<title>
+ENG A-STOP function
+</title>
+<ptxt>
+ENG A-STOP system is the same with the conventional SHVS system. For more details of ENG A-STOP system, refer to 
+<intxref refid = "AENLSB0AA901001">Description of ENG A-STOP System</intxref>
+.
+</ptxt>
+</topic>
+<topic id = "AENLSB0AB101006003">
+<title>
+Assist function
+</title>
+<subtopic id = "AENLSB0AB101006004">
+<title>
+Assist engine to derive best thermal efficiency
+</title>
+<ptxt>
+Regardless of the engine load, power output of ISG is controlled for the best thermal efficiency of the engine.
+</ptxt>
+</subtopic>
+<subtopic id = "AENLSB0AB101006005">
+<title>
+Filling engine torque
+</title>
+<ptxt>
+When driver’s torque demand (1) is higher than actual engine torque (2), ISG supplements engine with the motor torque and compensates the acceleration delay. This torque filling improves acceleration response.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10003.swf" width = "183.000mm" height = "64.229mm" ver = "01" gw = "452" gh = "166"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Motor assist
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Torque
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[b]:
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Time
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</subtopic>
+<subtopic id = "AENLSB0AB101006006">
+<title>
+Boosting engine torque
+</title>
+<ptxt>
+While the vehicle is running in engine low speed with insufficient torque (1), ISG motor torque (2) is added to improve drivability. This increased low speed torque may also improve fuel economy.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10004.swf" width = "183.000mm" height = "68.713mm" ver = "01" gw = "476" gh = "178"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.968in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.968in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.968in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Motor assist
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Torque
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[b]:
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Engine speed
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</subtopic>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AB101006007">
+<title>
+Deceleration Energy Regeneration Function
+</title>
+<ptxt>
+While the vehicle is decelerating, ISG generates electric power intensively. This power generation reduces engine load for power generation under normal driving conditions and improves fuel economy.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AB10005.swf" width = "88.000mm" height = "59.527mm" ver = "01" gw = "165" gh = "152"/>
+</figure>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

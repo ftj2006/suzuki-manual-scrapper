@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C1A06008" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Belt Tensioner Pulley Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLBA0C1A06005">Belt Tensioner Arm and Belt Tensioner Pulley Removal and Installation</intxrefpoff>
+</ptxt>
+<ptxt>
+Check belt tensioner pulley (1) for wear and smoothly rotation. If check result is not OK, replace belt tensioner pulley.
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A1A1022.jpg" width = "88.000mm" height = "40.341mm" ver = "01" gw = "194" gh = "98"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

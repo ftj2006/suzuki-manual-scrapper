@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "7B">
+<servcat sctnbr = "07" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A7201007" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+OBD System Description
+</title>
+<ptxt>
+BCM detects malfunctions, which may occur in the following areas:
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Inside air temperature sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sunload sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+CAN communication line
+</ptxt>
+</item>
+<item>
+<ptxt>
+LIN communication line
+</ptxt>
+</item>
+<item>
+<ptxt>
+Temperature control actuator
+</ptxt>
+</item>
+<item>
+<ptxt>
+Air flow control actuator
+</ptxt>
+</item>
+<item>
+<ptxt>
+Air intake control actuator
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auto A/C panel
+</ptxt>
+</item>
+<item>
+<ptxt>
+BCM
+</ptxt>
+</item>
+</list1>
+<ptxt>
+When BCM detects malfunction, the “AUTO” display (1) flashes to warn and the diagnostic trouble code (DTC) is stored in the memory of the module. When diagnosing trouble, the DTC can be checked with 
+<intxref refid = "AENLSB0A7204007">DTC Check</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A723001.swf" width = "88.000mm" height = "43.956mm" ver = "01" gw = "200" gh = "108"/>
+</figure>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

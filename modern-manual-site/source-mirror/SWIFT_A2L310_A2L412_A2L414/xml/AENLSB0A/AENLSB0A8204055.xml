@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8B">
+<servcat sctnbr = "08" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A8204055" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Repair and Inspection Required after Accident
+</title>
+<attention1>
+<ptxt>
+Failure to properly check and repair a vehicle that has been involved in an accident can result in unsafe operating conditions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+For any vehicle that was involved in an accident, check all air bag system components including the electrical harness and the areas where they are mounted, even if the air bag system was not activated. Any components deformed or otherwise damaged must be replaced.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Never use air bag system parts from another vehicle model.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not repair the following parts.
+</ptxt>
+<ptxt>
+Replace any of them that are found faulty.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Driver / passenger air bag (inflator) modules
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger side-air bag (inflator) modules
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger curtain air bag (inflator) modules
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+Left-side / right-side rear seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+Forward impact sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front side-impact pressure sensors
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front side-impact G sensors
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger rear side-impact G sensors
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Contact coil
+</ptxt>
+</item>
+<item>
+<ptxt>
+Air bag wire harnesses (in main harness, instrument panel harness and floor harness) and seat harness
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Perform all repairs in a manner which assures that the vehicle’s original configuration is restored.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The SDM that has been involved in an accident severe enough to cause deployment of air bags is not guaranteed to provide its original performance.
+</ptxt>
+<ptxt>
+Never use an SDM that has been involved in an air bag deployment accident.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<servinfosub id = "AENLSB0A8204055001">
+<title>
+Accident with Deployment / Activation – Component Replacement
+</title>
+<ptxt>
+Replace the following components when driver and passenger air bags are deployed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Driver and passenger air bag (inflator) modules
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+Left-side / right-side rear seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<item>
+<ptxt>
+Forward impact sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Instrument panel
+</ptxt>
+</item>
+</list1>
+<ptxt>
+Replace the following components when side-air bag and curtain air bag are deployed.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Side-air bag (inflator) module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+Left-side / right-side rear seat belt pretensioners
+</ptxt>
+</item>
+<item>
+<ptxt>
+Curtain air bag (inflator) module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front side-impact pressure sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger front side-impact G sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Driver / passenger rear side-impact G sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8204055002">
+<title>
+Accident with or without Deployment / Activation – Component Inspections
+</title>
+<ptxt>
+Check the following air bag system components after any crash, whether air bag system was activated or not. If any faulty conditions is found in the following checks, replace faulty component.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Steering column and steering lower shaft
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for length, damage and bend according to 
+<intxref refid = "AENLSB0A6206011">Steering Column Inspection</intxref>
+.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Steering column bracket
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for damage and bend according to 
+<intxref refid = "AENLSB0A6206011">Steering Column Inspection</intxref>
+.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Steering wheel and driver air bag (inflator) module
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check air bag (inflator) module for damage and installation condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check trim cover (pad surface) for crack.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wire harness and connector for damage and tightness.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822095.swf" width = "88.000mm" height = "56.176mm" ver = "01" gw = "147" gh = "143"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Contact coil assembly
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check wire harness and connectors for damage and tightness.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check contact coil case for damage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check contact coil circuit referring to 
+<intxref refid = "AENLSB0A8204054">Contact Coil and Its Circuit Check</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "I9P60A820041.swf" width = "88.000mm" height = "53.650mm" ver = "01" gw = "182" gh = "136"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Instrument panel member and reinforcement
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for distortion, bend, crack and other damage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check instrument panel for crack and deformation.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Passenger air bag (inflator) module
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for dents, crack, damage and installation condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check harness and connector for damage and tightness.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822096.swf" width = "88.000mm" height = "46.491mm" ver = "01" gw = "201" gh = "115"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+SDM
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for external damage such as deformation, scratch, crack and peeled paint.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check SDM for deformation which prevents its proper installation (gap between SDM and SDM plate, etc.).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check connector or lead wire of SDM for scorch, melt or damage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check SDM connector and terminals for tightness.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check DTC and follow referring corresponding diagnostic flow if any DTC is found.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822097.swf" width = "88.000mm" height = "48.061mm" ver = "01" gw = "160" gh = "120"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Air bag wire harnesses and connectors
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for damage, deformation and poor connections.
+</ptxt>
+<ptxt>
+Refer to 
+<intxref refid = "AENLSB0A0006002">Intermittent Connection and Poor Contact Inspection</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wire harnesses for tightness.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822098.swf" width = "88.000mm" height = "48.032mm" ver = "01" gw = "183" gh = "120"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Main harness
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Floor harness
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Instrument panel harness
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Grounding point
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Forward impact sensor
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check sensor (1) and front side member (2) for damage, bend and rust.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check connector (3) and lead wire (4) of forward impact sensor for scorch, melt and damage.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822099.swf" width = "88.000mm" height = "66.773mm" ver = "01" gw = "147" gh = "173"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Front side-impact G sensors
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check sensor (1) and center pillar inner lower panel (2) for dents, crack, deformation and rust.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check sensor connectors (sensor side and harness side) (3) or sensor lead wire (4) for damage, crack, scorch and melt.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822101.jpg" width = "88.000mm" height = "56.830mm" ver = "01" gw = "171" gh = "145"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Front side-impact pressure sensors
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check sensor (1) and front door panel (2) for dents, crack, deformation and rust.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check sensor connectors (sensor side and harness side) (3) or sensor lead wire (4) for damage, crack, scorch and melt.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822102.jpg" width = "88.000mm" height = "47.275mm" ver = "01" gw = "171" gh = "117"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Rear side-impact G sensors
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check sensor (1) and rear door striker reinforcement (2) for dents, crack, deformation and rust.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check sensor connectors (sensor side and harness side) (3) or sensor lead wire (4) for damage, crack, scorch and melt.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A822103.jpg" width = "88.000mm" height = "46.217mm" ver = "01" gw = "171" gh = "114"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Seat belt pretensioner
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for dents, crack, damage and installation condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check harness and connector for damage and tightness.
+</ptxt>
+<figure>
+<graphic graphicname = "IEFA0A820045.swf" width = "88.000mm" height = "49.839mm" ver = "01" gw = "198" gh = "125"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Seat belt
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Retractor assembly
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Seat belts and mounting points
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Front seat belt pretensioner: 
+<intxreftitleoff1 refid = "AENLSB0A8106001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Rear seat belt pretensioner: 
+<intxreftitleoff1 refid = "AENLSB0A8106006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+“AIR BAG” warning light
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A8204001">Air Bag Diagnostic System Check</intxref>
+ after vehicle is completely repaired.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Side-air bag (inflator) modules
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for dents, crack, damage or installation condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check seatback trim crack or deformation.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wire harness and connector for damage or tightness.
+</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>
+Curtain air bag (inflator) modules
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Check for dents, crack, damage or installation condition.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check wire harness and connector for damage or tightness.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check head lining for crack or deformation.
+</ptxt>
+</item>
+</list2>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

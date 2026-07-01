@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10J">
+<servcat sctnbr = "10" scnbr = "10">
+<configtype typenbr = "3">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAA34042" svcinfotypenbr = "06" svcinfoqualnbr = "02" page = "1" supplyoff = "1" modify = "0">
+<title>
+DTC C100C-81
+</title>
+<servinfosub id = "AENLSB0AAA34042001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.596in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.596in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C100C-81: Wheel Speed Temporary Failure
+</emph>
+</ptxt>
+<ptxt>
+Invalid data of wheel speed sensor is received.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> system
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sonar control module
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA34042002">
+<title>
+DTC Confirmation Procedure
+</title>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AAA34042003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0AAA34042004">
+<testgroup id = "AENLSB0AAA34042005">
+<title>
+ESP&#174; system check
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0A4604001">ESP&#174; System Check</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is system in good condition?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace sonar control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA36002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair defective part(s) of ESP<sup>&#174;</sup> system.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

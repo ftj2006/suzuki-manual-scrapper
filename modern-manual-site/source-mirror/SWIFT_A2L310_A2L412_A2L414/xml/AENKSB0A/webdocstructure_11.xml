@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Engine General Information and Diagnosis">
+<c i="1" t="K10C">
+<t s="1" t="General Description">
+<s i="AENKSB0A1111001" t="Statement on Cleanliness and Care">
+</s>
+<s i="AENKSB0A1111002" t="Engine Diagnosis General Description">
+</s>
+<s i="AENKSB0A1111003" t="OBD System Description">
+</s>
+<s i="AENKSB0A1111004" t="DLC Description">
+</s>
+<s i="AENKSB0A1111005" t="Engine and Emission Control System Description">
+</s>
+<s i="AENKSB0A1111006" t="Air Intake System Description">
+</s>
+<s i="AENKSB0A1111007" t="Electric Throttle Control System Description">
+</s>
+<s i="AENKSB0A1111008" t="Generator Control System Description (Non-ENG A-STOP Model)">
+</s>
+<s i="AENKSB0A1111011" t="A/F Sensor Description (Gasoline Particulate Filter (GPF) Model)">
+</s>
+<s i="AENKSB0A1111012" t="Gasoline Particulate Filter (GPF) System Description (Gasoline Particulate Filter (GPF) Model)">
+</s>
+<s i="AENKSB0A1111013" t="Gasoline Particulate Filter (GPF) Regeneration Description (Gasoline Particulate Filter (GPF) Model)">
+</s>
+<s i="AENKSB0A1111009" t="Electronic Control System Description">
+</s>
+<s i="AENKSB0A1111010" t="Engine and Emission Control Input / Output Table">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENKSB0A1112001" t="Engine and Emission Control System Diagram">
+</s>
+<s i="AENKSB0A1112002" t="Engine and Emission Control System Flow Diagram">
+</s>
+<s i="AENKSB0A1112003" t="Electronic Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENKSB0A1113001" t="Electronic Control System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENKSB0A1114001" t="Engine and Emission Control System Check">
+</s>
+<s i="AENKSB0A1114002" t="MIL Check">
+</s>
+<s i="AENKSB0A1114003" t="DTC Check">
+</s>
+<s i="AENKSB0A1114004" t="DTC Clearance">
+</s>
+<s i="AENKSB0A1114005" t="DTC Table">
+</s>
+<s i="AENKSB0A1114006" t="Fail-Safe Table">
+</s>
+<s i="AENKSB0A1114007" t="Scan Tool Data">
+</s>
+<s i="AENKSB0A1114008" t="Visual Inspection">
+</s>
+<s i="AENKSB0A1114009" t="Engine Basic Inspection">
+</s>
+<s i="AENKSB0A1114010" t="Engine Symptom Diagnosis">
+</s>
+<s i="AENKSB0A1114011" t="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)">
+</s>
+<s i="AENKSB0A1114012" t="MIL Remains ON after Engine Starts">
+</s>
+<s i="AENKSB0A1114013" t="DTC P0010 / P2088 / P2089">
+</s>
+<s i="AENKSB0A1114014" t="DTC P0011">
+</s>
+<s i="AENKSB0A1114015" t="DTC P0016">
+</s>
+<s i="AENKSB0A1114016" t="DTC P0030 / P0031 / P0032">
+</s>
+<s i="AENKSB0A1114017" t="DTC P0033 / P0034 / P0035">
+</s>
+<s i="AENKSB0A1114018" t="DTC P0036 / P0037 / P0038">
+</s>
+<s i="AENKSB0A1114019" t="DTC P0039">
+</s>
+<s i="AENKSB0A1114020" t="DTC P0087 / P0088">
+</s>
+<s i="AENKSB0A1114021" t="DTC P0090 / P0091 / P0092">
+</s>
+<s i="AENKSB0A1114022" t="DTC P0097 / P0098">
+</s>
+<s i="AENKSB0A1114023" t="DTC P0102 / P0103">
+</s>
+<s i="AENKSB0A1114024" t="DTC P0107 / P0108">
+</s>
+<s i="AENKSB0A1114025" t="DTC P0112 / P0113">
+</s>
+<s i="AENKSB0A1114026" t="DTC P0116">
+</s>
+<s i="AENKSB0A1114027" t="DTC P0117 / P0118">
+</s>
+<s i="AENKSB0A1114028" t="DTC P0122 / P0123">
+</s>
+<s i="AENKSB0A1114029" t="DTC P0131 / P0132">
+</s>
+<s i="AENKSB0A1114030" t="DTC P0133">
+</s>
+<s i="AENKSB0A1114031" t="DTC P0134">
+</s>
+<s i="AENKSB0A1114032" t="DTC P0137 / P0138 / P0140">
+</s>
+<s i="AENKSB0A1114085" t="DTC P0139 / P2270 / P2271">
+</s>
+<s i="AENKSB0A1114033" t="DTC P0171 / P0172">
+</s>
+<s i="AENKSB0A1114034" t="DTC P0192 / P0193">
+</s>
+<s i="AENKSB0A1114035" t="DTC P0197 / P0198">
+</s>
+<s i="AENKSB0A1114036" t="DTC P0201 / P0202 / P0203">
+</s>
+<s i="AENKSB0A1114037" t="DTC P0222 / P0223">
+</s>
+<s i="AENKSB0A1114038" t="DTC P0237 / P0238">
+</s>
+<s i="AENKSB0A1114039" t="DTC P0244 / P0245 / P0246">
+</s>
+<s i="AENKSB0A1114040" t="DTC P0300 / P0301 / P0302 / P0303">
+</s>
+<s i="AENKSB0A1114041" t="DTC P0327 / P0328">
+</s>
+<s i="AENKSB0A1114042" t="DTC P0335 / P0336">
+</s>
+<s i="AENKSB0A1114043" t="DTC P0340">
+</s>
+<s i="AENKSB0A1114044" t="DTC P0351 / P0352 / P0353 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307">
+</s>
+<s i="AENKSB0A1114045" t="DTC P0420">
+</s>
+<s i="AENKSB0A1114046" t="DTC P0443 / P0458 / P0459">
+</s>
+<s i="AENKSB0A1114047" t="DTC P0480 / P0692">
+</s>
+<s i="AENKSB0A1114048" t="DTC P0481 / P0694">
+</s>
+<s i="AENKSB0A1114049" t="DTC P0500">
+</s>
+<s i="AENKSB0A1114050" t="DTC P0504">
+</s>
+<s i="AENKSB0A1114051" t="DTC P0515">
+</s>
+<s i="AENKSB0A1114052" t="DTC P0530">
+</s>
+<s i="AENKSB0A1114053" t="DTC P0560 / P0562 / P0563">
+</s>
+<s i="AENKSB0A1114054" t="DTC P0602">
+</s>
+<s i="AENKSB0A1114055" t="DTC P0606">
+</s>
+<s i="AENKSB0A1114056" t="DTC P0607">
+</s>
+<s i="AENKSB0A1114057" t="DTC P0645 / P0646 / P0647">
+</s>
+<s i="AENKSB0A1114058" t="DTC P0A5A">
+</s>
+<s i="AENKSB0A1114059" t="DTC P1693">
+</s>
+<s i="AENKSB0A1114060" t="DTC P2100">
+</s>
+<s i="AENKSB0A1114061" t="DTC P2101 / P2119">
+</s>
+<s i="AENKSB0A1114062" t="DTC P2122 / P2123">
+</s>
+<s i="AENKSB0A1114063" t="DTC P2127 / P2128">
+</s>
+<s i="AENKSB0A1114064" t="DTC P2135">
+</s>
+<s i="AENKSB0A1114065" t="DTC P2138">
+</s>
+<s i="AENKSB0A1114066" t="DTC P2176">
+</s>
+<s i="AENKSB0A1114067" t="DTC P2195 / P2196">
+</s>
+<s i="AENKSB0A1114068" t="DTC P2226 / P2227">
+</s>
+<s i="AENKSB0A1114086" t="DTC P2237 / P2243 / P2251">
+</s>
+<s i="AENKSB0A1114069" t="DTC P2263">
+</s>
+<s i="AENKSB0A1114087" t="DTC P226D">
+</s>
+<s i="AENKSB0A1114088" t="DTC P2454 / P2455">
+</s>
+<s i="AENKSB0A1114089" t="DTC P2463">
+</s>
+<s i="AENKSB0A1114090" t="DTC P24A4">
+</s>
+<s i="AENKSB0A1114071" t="DTC U0073">
+</s>
+<s i="AENKSB0A1114072" t="DTC U0101">
+</s>
+<s i="AENKSB0A1114073" t="DTC U0121">
+</s>
+<s i="AENKSB0A1114074" t="DTC U0131">
+</s>
+<s i="AENKSB0A1114075" t="DTC U0140">
+</s>
+<s i="AENKSB0A1114076" t="DTC U0155">
+</s>
+<s i="AENKSB0A1114077" t="DTC U108A">
+</s>
+<s i="AENKSB0A1114078" t="DTC U108C">
+</s>
+<s i="AENKSB0A1114079" t="DTC U108E">
+</s>
+<s i="AENKSB0A1114080" t="DTC U1093">
+</s>
+<s i="AENKSB0A1114081" t="DTC U2001">
+</s>
+<s i="AENKSB0A1114082" t="DTC U2021">
+</s>
+<s i="AENKSB0A1114083" t="Inspection of ECM and Its Circuits">
+</s>
+<s i="AENKSB0A1114084" t="ECM Power Supply and Ground Circuit Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENKSB0A1116001" t="Idle Speed Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENKSB0A1118001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K12C">
+<t s="1" t="General Description">
+<s i="AENKSB0A1121001" t="Statement on Cleanliness and Care">
+</s>
+<s i="AENKSB0A1121002" t="Engine Diagnosis General Description">
+</s>
+<s i="AENKSB0A1121003" t="OBD System Description">
+</s>
+<s i="AENKSB0A1121004" t="DLC Description">
+</s>
+<s i="AENKSB0A1121005" t="Engine and Emission Control System Description">
+</s>
+<s i="AENKSB0A1121006" t="EGR Valve System Description">
+</s>
+<s i="AENKSB0A1121007" t="Air Intake System Description">
+</s>
+<s i="AENKSB0A1121008" t="Electric Throttle Control System Description">
+</s>
+<s i="AENKSB0A1121009" t="Generator Control System Description (Non-ENG A-STOP Model)">
+</s>
+<s i="AENKSB0A1121010" t="Electronic Control System Description">
+</s>
+<s i="AENKSB0A1121011" t="Engine and Emission Control Input / Output Table">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENKSB0A1122001" t="Engine and Emission Control System Diagram">
+</s>
+<s i="AENKSB0A1122002" t="Engine and Emission Control System Flow Diagram">
+</s>
+<s i="AENKSB0A1122003" t="Electronic Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENKSB0A1123001" t="Electronic Control System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENKSB0A1124001" t="Engine and Emission Control System Check">
+</s>
+<s i="AENKSB0A1124002" t="MIL Check">
+</s>
+<s i="AENKSB0A1124003" t="DTC Check">
+</s>
+<s i="AENKSB0A1124004" t="DTC Clearance">
+</s>
+<s i="AENKSB0A1124005" t="DTC Table">
+</s>
+<s i="AENKSB0A1124006" t="Fail-Safe Table">
+</s>
+<s i="AENKSB0A1124007" t="Scan Tool Data">
+</s>
+<s i="AENKSB0A1124008" t="Visual Inspection">
+</s>
+<s i="AENKSB0A1124009" t="Engine Basic Inspection">
+</s>
+<s i="AENKSB0A1124010" t="Engine Symptom Diagnosis">
+</s>
+<s i="AENKSB0A1124011" t="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)">
+</s>
+<s i="AENKSB0A1124012" t="MIL Remains ON after Engine Starts">
+</s>
+<s i="AENKSB0A1124013" t="DTC P0010 / P0013 / P2088 / P2089 / P2090 / P2091">
+</s>
+<s i="AENKSB0A1124014" t="DTC P0011 / P0014">
+</s>
+<s i="AENKSB0A1124015" t="DTC P0016 / P0017">
+</s>
+<s i="AENKSB0A1124016" t="DTC P0030 / P0031 / P0032">
+</s>
+<s i="AENKSB0A1124017" t="DTC P0036 / P0037 / P0038">
+</s>
+<s i="AENKSB0A1124018" t="DTC P0102 / P0103">
+</s>
+<s i="AENKSB0A1124019" t="DTC P0107 / P0108">
+</s>
+<s i="AENKSB0A1124020" t="DTC P0112 / P0113">
+</s>
+<s i="AENKSB0A1124021" t="DTC P0116">
+</s>
+<s i="AENKSB0A1124022" t="DTC P0117 / P0118">
+</s>
+<s i="AENKSB0A1124023" t="DTC P0122 / P0123">
+</s>
+<s i="AENKSB0A1124024" t="DTC P0130">
+</s>
+<s i="AENKSB0A1124025" t="DTC P0131 / P0132">
+</s>
+<s i="AENKSB0A1124026" t="DTC P0133">
+</s>
+<s i="AENKSB0A1124027" t="DTC P0134">
+</s>
+<s i="AENKSB0A1124028" t="DTC P0137 / P0138 / P0140">
+</s>
+<s i="AENKSB0A1124029" t="DTC P0171 / P0172">
+</s>
+<s i="AENKSB0A1124030" t="DTC P0197 / P0198">
+</s>
+<s i="AENKSB0A1124031" t="DTC P0201 / P0202 / P0203 / P0204 / P0261 / P0262 / P0264 / P0265 / P0267 / P0268 / P0270 / P0271 / P1201 / P1202 / P1203 / P1204 / P1261 / P1262 / P1264 / P1265 / P1267 / P1268 / P1270 / P1271">
+</s>
+<s i="AENKSB0A1124032" t="DTC P0222 / P0223">
+</s>
+<s i="AENKSB0A1124033" t="DTC P0300 / P0301 / P0302 / P0303 / P0304">
+</s>
+<s i="AENKSB0A1124034" t="DTC P0327 / P0328">
+</s>
+<s i="AENKSB0A1124035" t="DTC P0335 / P0336">
+</s>
+<s i="AENKSB0A1124036" t="DTC P0340 / P0365">
+</s>
+<s i="AENKSB0A1124037" t="DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310">
+</s>
+<s i="AENKSB0A1124038" t="DTC P0400">
+</s>
+<s i="AENKSB0A1124039" t="DTC P0403">
+</s>
+<s i="AENKSB0A1124040" t="DTC P0420">
+</s>
+<s i="AENKSB0A1124041" t="DTC P0443 / P0458 / P0459">
+</s>
+<s i="AENKSB0A1124042" t="DTC P0480 / P0692">
+</s>
+<s i="AENKSB0A1124043" t="DTC P0481 / P0694">
+</s>
+<s i="AENKSB0A1124044" t="DTC P0500">
+</s>
+<s i="AENKSB0A1124045" t="DTC P0504">
+</s>
+<s i="AENKSB0A1124046" t="DTC P0515">
+</s>
+<s i="AENKSB0A1124047" t="DTC P0530">
+</s>
+<s i="AENKSB0A1124048" t="DTC P0560 / P0562 / P0563">
+</s>
+<s i="AENKSB0A1124049" t="DTC P0602">
+</s>
+<s i="AENKSB0A1124050" t="DTC P0606">
+</s>
+<s i="AENKSB0A1124051" t="DTC P0607">
+</s>
+<s i="AENKSB0A1124052" t="DTC P0645 / P0646 / P0647">
+</s>
+<s i="AENKSB0A1124053" t="DTC P0A5A">
+</s>
+<s i="AENKSB0A1124054" t="DTC P1693">
+</s>
+<s i="AENKSB0A1124055" t="DTC P2100">
+</s>
+<s i="AENKSB0A1124056" t="DTC P2101 / P2119">
+</s>
+<s i="AENKSB0A1124057" t="DTC P2122 / P2123">
+</s>
+<s i="AENKSB0A1124058" t="DTC P2127 / P2128">
+</s>
+<s i="AENKSB0A1124059" t="DTC P2135">
+</s>
+<s i="AENKSB0A1124060" t="DTC P2138">
+</s>
+<s i="AENKSB0A1124061" t="DTC P2176">
+</s>
+<s i="AENKSB0A1124062" t="DTC P2226 / P2227">
+</s>
+<s i="AENKSB0A1124063" t="DTC P2271">
+</s>
+<s i="AENKSB0A1124064" t="DTC U0073">
+</s>
+<s i="AENKSB0A1124065" t="DTC U0101">
+</s>
+<s i="AENKSB0A1124066" t="DTC U0121">
+</s>
+<s i="AENKSB0A1124067" t="DTC U0131">
+</s>
+<s i="AENKSB0A1124068" t="DTC U0140">
+</s>
+<s i="AENKSB0A1124069" t="DTC U0155">
+</s>
+<s i="AENKSB0A1124070" t="DTC U108A">
+</s>
+<s i="AENKSB0A1124071" t="DTC U108C">
+</s>
+<s i="AENKSB0A1124072" t="DTC U108E">
+</s>
+<s i="AENKSB0A1124073" t="DTC U1093">
+</s>
+<s i="AENKSB0A1124074" t="DTC U2001">
+</s>
+<s i="AENKSB0A1124075" t="DTC U2021">
+</s>
+<s i="AENKSB0A1124076" t="Inspection of ECM and Its Circuits">
+</s>
+<s i="AENKSB0A1124077" t="ECM Power Supply and Ground Circuit Check">
+</s>
+<s i="AENKSB0A1124078" t="Fuel Cut Operation Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENKSB0A1126001" t="Idle Speed Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENKSB0A1128001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="3" t="K12M">
+<t s="1" t="General Description">
+<s i="AENKSB0A1131001" t="Statement on Cleanliness and Care">
+</s>
+<s i="AENKSB0A1131002" t="Engine Diagnosis General Description">
+</s>
+<s i="AENKSB0A1131003" t="OBD System Description">
+</s>
+<s i="AENKSB0A1131004" t="DLC Description">
+</s>
+<s i="AENKSB0A1131005" t="Engine and Emission Control System Description">
+</s>
+<s i="AENKSB0A1131006" t="Air Intake System Description">
+</s>
+<s i="AENKSB0A1131007" t="Electric Throttle Control System Description">
+</s>
+<s i="AENKSB0A1131008" t="Generator Control System Description">
+</s>
+<s i="AENKSB0A1131009" t="Electronic Control System Description">
+</s>
+<s i="AENKSB0A1131010" t="Engine and Emission Control Input / Output Table">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENKSB0A1132001" t="Engine and Emission Control System Diagram">
+</s>
+<s i="AENKSB0A1132002" t="Engine and Emission Control System Flow Diagram">
+</s>
+<s i="AENKSB0A1132003" t="Electronic Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENKSB0A1133001" t="Electronic Control System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENKSB0A1134001" t="Engine and Emission Control System Check">
+</s>
+<s i="AENKSB0A1134002" t="MIL Check">
+</s>
+<s i="AENKSB0A1134003" t="DTC Check">
+</s>
+<s i="AENKSB0A1134004" t="DTC Clearance">
+</s>
+<s i="AENKSB0A1134005" t="DTC Table">
+</s>
+<s i="AENKSB0A1134006" t="Fail-Safe Table">
+</s>
+<s i="AENKSB0A1134007" t="Scan Tool Data">
+</s>
+<s i="AENKSB0A1134008" t="Visual Inspection">
+</s>
+<s i="AENKSB0A1134009" t="Engine Basic Inspection">
+</s>
+<s i="AENKSB0A1134010" t="Engine Symptom Diagnosis">
+</s>
+<s i="AENKSB0A1134011" t="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)">
+</s>
+<s i="AENKSB0A1134012" t="MIL Remains ON after Engine Starts">
+</s>
+<s i="AENKSB0A1134013" t="DTC P0010 / P2088 / P2089">
+</s>
+<s i="AENKSB0A1134014" t="DTC P0011">
+</s>
+<s i="AENKSB0A1134015" t="DTC P0030 / P0031 / P0032">
+</s>
+<s i="AENKSB0A1134016" t="DTC P0036 / P0037 / P0038">
+</s>
+<s i="AENKSB0A1134017" t="DTC P0107 / P0108">
+</s>
+<s i="AENKSB0A1134018" t="DTC P0112 / P0113">
+</s>
+<s i="AENKSB0A1134019" t="DTC P0116">
+</s>
+<s i="AENKSB0A1134020" t="DTC P0117 / P0118">
+</s>
+<s i="AENKSB0A1134021" t="DTC P0122 / P0123">
+</s>
+<s i="AENKSB0A1134022" t="DTC P0130">
+</s>
+<s i="AENKSB0A1134023" t="DTC P0131 / P0132">
+</s>
+<s i="AENKSB0A1134024" t="DTC P0133">
+</s>
+<s i="AENKSB0A1134025" t="DTC P0134">
+</s>
+<s i="AENKSB0A1134026" t="DTC P0137 / P0138 / P0140">
+</s>
+<s i="AENKSB0A1134027" t="DTC P0171 / P0172">
+</s>
+<s i="AENKSB0A1134028" t="DTC P0201 / P0202 / P0203 / P0204 / P0261 / P0262 / P0264 / P0265 / P0267 / P0268 / P0270 / P0271">
+</s>
+<s i="AENKSB0A1134029" t="DTC P0222 / P0223">
+</s>
+<s i="AENKSB0A1134030" t="DTC P0300 / P0301 / P0302 / P0303 / P0304">
+</s>
+<s i="AENKSB0A1134031" t="DTC P0327 / P0328">
+</s>
+<s i="AENKSB0A1134032" t="DTC P0335 / P0336">
+</s>
+<s i="AENKSB0A1134033" t="DTC P0340">
+</s>
+<s i="AENKSB0A1134034" t="DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310">
+</s>
+<s i="AENKSB0A1134035" t="DTC P0420">
+</s>
+<s i="AENKSB0A1134036" t="DTC P0443 / P0458 / P0459">
+</s>
+<s i="AENKSB0A1134037" t="DTC P0480 / P0692">
+</s>
+<s i="AENKSB0A1134038" t="DTC P0481 / P0694">
+</s>
+<s i="AENKSB0A1134039" t="DTC P0500">
+</s>
+<s i="AENKSB0A1134040" t="DTC P0504">
+</s>
+<s i="AENKSB0A1134041" t="DTC P0530">
+</s>
+<s i="AENKSB0A1134042" t="DTC P0560 / P0562 / P0563">
+</s>
+<s i="AENKSB0A1134043" t="DTC P0602">
+</s>
+<s i="AENKSB0A1134044" t="DTC P0606">
+</s>
+<s i="AENKSB0A1134045" t="DTC P0607">
+</s>
+<s i="AENKSB0A1134046" t="DTC P0645 / P0646 / P0647">
+</s>
+<s i="AENKSB0A1134047" t="DTC P2100">
+</s>
+<s i="AENKSB0A1134048" t="DTC P2101 / P2119">
+</s>
+<s i="AENKSB0A1134049" t="DTC P2122 / P2123">
+</s>
+<s i="AENKSB0A1134050" t="DTC P2127 / P2128">
+</s>
+<s i="AENKSB0A1134051" t="DTC P2135">
+</s>
+<s i="AENKSB0A1134052" t="DTC P2138">
+</s>
+<s i="AENKSB0A1134053" t="DTC P2176">
+</s>
+<s i="AENKSB0A1134054" t="DTC P2226 / P2227">
+</s>
+<s i="AENKSB0A1134055" t="DTC P2271">
+</s>
+<s i="AENKSB0A1134056" t="DTC U0073">
+</s>
+<s i="AENKSB0A1134057" t="DTC U0101">
+</s>
+<s i="AENKSB0A1134058" t="DTC U0121">
+</s>
+<s i="AENKSB0A1134059" t="DTC U0131">
+</s>
+<s i="AENKSB0A1134060" t="DTC U0140">
+</s>
+<s i="AENKSB0A1134061" t="DTC U0155">
+</s>
+<s i="AENKSB0A1134062" t="DTC U2001">
+</s>
+<s i="AENKSB0A1134063" t="DTC U2021">
+</s>
+<s i="AENKSB0A1134064" t="Inspection of ECM and Its Circuits">
+</s>
+<s i="AENKSB0A1134065" t="ECM Power Supply and Ground Circuit Check">
+</s>
+<s i="AENKSB0A1134066" t="Fuel Cut Operation Inspection">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENKSB0A1136001" t="Idle Speed Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENKSB0A1138001" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="4" t="K14C">
+<t s="1" t="General Description">
+<s i="AENKSB0A1141001" t="Statement on Cleanliness and Care">
+</s>
+<s i="AENKSB0A1141002" t="Engine Diagnosis General Description">
+</s>
+<s i="AENKSB0A1141003" t="OBD System Description">
+</s>
+<s i="AENKSB0A1141004" t="DLC Description">
+</s>
+<s i="AENKSB0A1141005" t="Engine and Emission Control System Description">
+</s>
+<s i="AENKSB0A1141006" t="Air Intake System Description">
+</s>
+<s i="AENKSB0A1141007" t="Electric Throttle Control System Description">
+</s>
+<s i="AENKSB0A1141008" t="Generator Control System Description">
+</s>
+<s i="AENKSB0A1141009" t="Electronic Control System Description">
+</s>
+<s i="AENKSB0A1141010" t="Engine and Emission Control Input / Output Table">
+</s>
+</t>
+<t s="2" t="Schematic and Routing Diagram">
+<s i="AENKSB0A1142001" t="Engine and Emission Control System Diagram">
+</s>
+<s i="AENKSB0A1142002" t="Engine and Emission Control System Flow Diagram">
+</s>
+<s i="AENKSB0A1142003" t="Electronic Control System Circuit Diagram">
+</s>
+</t>
+<t s="3" t="Component Location">
+<s i="AENKSB0A1143001" t="Electronic Control System Component Location">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENKSB0A1144001" t="Engine and Emission Control System Check">
+</s>
+<s i="AENKSB0A1144002" t="MIL Check">
+</s>
+<s i="AENKSB0A1144003" t="DTC Check">
+</s>
+<s i="AENKSB0A1144004" t="DTC Clearance">
+</s>
+<s i="AENKSB0A1144005" t="DTC Table">
+</s>
+<s i="AENKSB0A1144006" t="Fail-Safe Table">
+</s>
+<s i="AENKSB0A1144007" t="Scan Tool Data">
+</s>
+<s i="AENKSB0A1144008" t="Visual Inspection">
+</s>
+<s i="AENKSB0A1144009" t="Engine Basic Inspection">
+</s>
+<s i="AENKSB0A1144010" t="Engine Symptom Diagnosis">
+</s>
+<s i="AENKSB0A1144011" t="MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started)">
+</s>
+<s i="AENKSB0A1144012" t="MIL Remains ON after Engine Starts">
+</s>
+<s i="AENKSB0A1144013" t="DTC P0010 / P2088 / P2089">
+</s>
+<s i="AENKSB0A1144014" t="DTC P0011">
+</s>
+<s i="AENKSB0A1144015" t="DTC P0016">
+</s>
+<s i="AENKSB0A1144016" t="DTC P0030 / P0031 / P0032">
+</s>
+<s i="AENKSB0A1144017" t="DTC P0033 / P0034 / P0035">
+</s>
+<s i="AENKSB0A1144018" t="DTC P0036 / P0037 / P0038">
+</s>
+<s i="AENKSB0A1144019" t="DTC P0039">
+</s>
+<s i="AENKSB0A1144020" t="DTC P0087 / P0088">
+</s>
+<s i="AENKSB0A1144021" t="DTC P0090 / P0091 / P0092">
+</s>
+<s i="AENKSB0A1144022" t="DTC P0097 / P0098">
+</s>
+<s i="AENKSB0A1144023" t="DTC P0100 / P0102 / P0103">
+</s>
+<s i="AENKSB0A1144024" t="DTC P0107 / P0108">
+</s>
+<s i="AENKSB0A1144025" t="DTC P0112 / P0113">
+</s>
+<s i="AENKSB0A1144026" t="DTC P0116">
+</s>
+<s i="AENKSB0A1144027" t="DTC P0117 / P0118">
+</s>
+<s i="AENKSB0A1144028" t="DTC P0122 / P0123">
+</s>
+<s i="AENKSB0A1144029" t="DTC P0131 / P0132">
+</s>
+<s i="AENKSB0A1144030" t="DTC P0133">
+</s>
+<s i="AENKSB0A1144031" t="DTC P0134">
+</s>
+<s i="AENKSB0A1144032" t="DTC P0137 / P0138 / P0140">
+</s>
+<s i="AENKSB0A1144033" t="DTC P0171 / P0172">
+</s>
+<s i="AENKSB0A1144034" t="DTC P0192 / P0193">
+</s>
+<s i="AENKSB0A1144035" t="DTC P0197 / P0198">
+</s>
+<s i="AENKSB0A1144036" t="DTC P0201 / P0202 / P0203 / P0204">
+</s>
+<s i="AENKSB0A1144037" t="DTC P0222 / P0223">
+</s>
+<s i="AENKSB0A1144038" t="DTC P0237 / P0238">
+</s>
+<s i="AENKSB0A1144039" t="DTC P0244 / P0245 / P0246">
+</s>
+<s i="AENKSB0A1144040" t="DTC P0300 / P0301 / P0302 / P0303 / P0304">
+</s>
+<s i="AENKSB0A1144041" t="DTC P0327 / P0328">
+</s>
+<s i="AENKSB0A1144042" t="DTC P0335 / P0336">
+</s>
+<s i="AENKSB0A1144043" t="DTC P0340">
+</s>
+<s i="AENKSB0A1144044" t="DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310">
+</s>
+<s i="AENKSB0A1144045" t="DTC P0420">
+</s>
+<s i="AENKSB0A1144046" t="DTC P0443 / P0458 / P0459">
+</s>
+<s i="AENKSB0A1144047" t="DTC P0480 / P0692">
+</s>
+<s i="AENKSB0A1144048" t="DTC P0481 / P0694">
+</s>
+<s i="AENKSB0A1144049" t="DTC P0482 / P0696">
+</s>
+<s i="AENKSB0A1144050" t="DTC P0500">
+</s>
+<s i="AENKSB0A1144051" t="DTC P0504">
+</s>
+<s i="AENKSB0A1144052" t="DTC P0515">
+</s>
+<s i="AENKSB0A1144053" t="DTC P0530">
+</s>
+<s i="AENKSB0A1144054" t="DTC P0560 / P0562 / P0563">
+</s>
+<s i="AENKSB0A1144055" t="DTC P0602">
+</s>
+<s i="AENKSB0A1144056" t="DTC P0606">
+</s>
+<s i="AENKSB0A1144057" t="DTC P0607">
+</s>
+<s i="AENKSB0A1144058" t="DTC P0645 / P0646 / P0647">
+</s>
+<s i="AENKSB0A1144059" t="DTC P0A5A">
+</s>
+<s i="AENKSB0A1144060" t="DTC P2100">
+</s>
+<s i="AENKSB0A1144061" t="DTC P2101 / P2119">
+</s>
+<s i="AENKSB0A1144062" t="DTC P2122 / P2123">
+</s>
+<s i="AENKSB0A1144063" t="DTC P2127 / P2128">
+</s>
+<s i="AENKSB0A1144064" t="DTC P2135">
+</s>
+<s i="AENKSB0A1144065" t="DTC P2138">
+</s>
+<s i="AENKSB0A1144066" t="DTC P2176">
+</s>
+<s i="AENKSB0A1144067" t="DTC P2195 / P2196">
+</s>
+<s i="AENKSB0A1144068" t="DTC P2226 / P2227">
+</s>
+<s i="AENKSB0A1144069" t="DTC P2263">
+</s>
+<s i="AENKSB0A1144070" t="DTC P2271">
+</s>
+<s i="AENKSB0A1144071" t="DTC U0073">
+</s>
+<s i="AENKSB0A1144072" t="DTC U0101">
+</s>
+<s i="AENKSB0A1144073" t="DTC U0121">
+</s>
+<s i="AENKSB0A1144074" t="DTC U0131">
+</s>
+<s i="AENKSB0A1144075" t="DTC U0140">
+</s>
+<s i="AENKSB0A1144076" t="DTC U0155">
+</s>
+<s i="AENKSB0A1144077" t="DTC U1082">
+</s>
+<s i="AENKSB0A1144078" t="DTC U108A">
+</s>
+<s i="AENKSB0A1144079" t="DTC U1093">
+</s>
+<s i="AENKSB0A1144080" t="DTC U2001">
+</s>
+<s i="AENKSB0A1144081" t="DTC U2021">
+</s>
+<s i="AENKSB0A1144082" t="Inspection of ECM and Its Circuits">
+</s>
+<s i="AENKSB0A1144083" t="ECM Power Supply and Ground Circuit Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENKSB0A1146001" t="Idle Speed Inspection">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENKSB0A1148001" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

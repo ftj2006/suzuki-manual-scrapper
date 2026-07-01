@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AA121004" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Information Display Message Table
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "3.602in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.602in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Information display indication
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Condition
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12005.swf" width = "91.491mm" height = "28.484mm" ver = "02" gw = "139" gh = "72"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Adaptive cruise control system: On standby
+</ptxt>
+<ptxt>
+(CRUISE (Main) switch: ON)
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headway gap: “Middle”
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12006.swf" width = "91.491mm" height = "28.230mm" ver = "01" gw = "140" gh = "72"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Adaptive cruise control system: Under control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle ahead: No detection
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headway gap: “Long”
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12007.jpg" width = "91.491mm" height = "27.637mm" ver = "02" gw = "141" gh = "70"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Adaptive cruise control system: Under control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle ahead: Detected
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headway gap: “Short”
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IJFA0BA12021.jpg" width = "91.491mm" height = "93.501mm" ver = "01" gw = "226" gh = "257"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Adaptive cruise control cannot be set
+</ptxt>
+<ptxt>
+(Each message is shown depending on the condition)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IJFA0BA12022.jpg" width = "91.491mm" height = "94.236mm" ver = "01" gw = "228" gh = "259"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Adaptive cruise control is canceled
+</ptxt>
+<ptxt>
+(Each message is shown depending on the condition)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IJFA0BA12023.swf" width = "91.491mm" height = "15.631mm" ver = "01" gw = "83" gh = "36"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Headway alert is operating
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12015.swf" width = "91.491mm" height = "33.893mm" ver = "01" gw = "83" gh = "88"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Malfunction of adaptive cruise control system is detected
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12016.swf" width = "91.491mm" height = "33.893mm" ver = "01" gw = "83" gh = "88"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Temporary stop of adaptive cruise control system is detected (Poor radar visibility)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IGSB0AA12017.swf" width = "91.491mm" height = "33.893mm" ver = "01" gw = "83" gh = "88"/>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Temporary stop of adaptive cruise control system is detected (Except poor radar visibility)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

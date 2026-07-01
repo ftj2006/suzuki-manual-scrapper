@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9O">
+<servcat sctnbr = "09" scnbr = "15">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLJA0A9F06006" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Steering Switch (Audio Control Switch and Hands-Free Switch) Removal and Installation (If Equipped)
+</title>
+<servinfosub id = "AENLJA0A9F06006001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove steering wheel referring to 
+<intxref refid = "AENLJA0A6206002">Steering Wheel Removal and Installation</intxref>
+.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For CVT with manual mode, remove shift paddle switch. 
+<intxreftitleoff1 refid = "AENLJA0A5506008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove steering wheel cover (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove audio control switch (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For cruise control model, remove cruise control switch (3) and garnish (4) as a unit.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9F0009.jpg" width = "88.000mm" height = "68.210mm" ver = "01" gw = "199" gh = "177"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove screws and audio control switch (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove screws and hands-free switch (2), if equipped.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove screws and cruise control switch (3), if equipped.
+</ptxt>
+<figure>
+<graphic graphicname = "IFJA0P9F0010.swf" width = "88.000mm" height = "74.877mm" ver = "01" gw = "227" gh = "196"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A9F06006002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLJA0A9F06007">Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped)</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure.
+</ptxt>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

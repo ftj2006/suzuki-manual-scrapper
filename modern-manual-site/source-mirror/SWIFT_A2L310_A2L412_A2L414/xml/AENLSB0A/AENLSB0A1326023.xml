@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1326023" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+CKP Sensor Removal and Installation
+</title>
+<attention4>
+<ptxt>
+The CKP sensor bolt is pre-coated with adhesive. If the bolt is reused, it may work loose.
+</ptxt>
+<ptxt>
+Replace the CKP sensor bolt with a new one.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0A1326023001" page = "2">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector (1) from CKP sensor.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove CKP sensor (2) from cylinder block.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A132009.jpg" width = "88.000mm" height = "52.651mm" ver = "01" gw = "185" gh = "133"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1326023002" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1326024">CKP Sensor Inspection:K14D</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Apply engine oil to O-ring of CKP sensor.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

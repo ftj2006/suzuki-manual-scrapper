@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9D">
+<servcat sctnbr = "09" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9406001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Washer Tank and Washer Pump Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A9406001001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Remove right-side front fender lining. 
+<intxreftitleoff1 refid = "AENLSB0A9A06005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect wire harness clamps (3), washer pump connectors (2) and washer hoses (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove washer tank bolts (4) and clip, and remove washer tank (5).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A940002.jpg" width = "88.000mm" height = "67.827mm" ver = "01" gw = "215" gh = "176"/>
+</figure>
+<figure>
+<graphic graphicname = "IGSB0A940003.jpg" width = "88.000mm" height = "70.619mm" ver = "01" gw = "214" gh = "184"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove windshield washer pump (1), rear washer pump (2) from washer tank (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A940004.jpg" width = "88.000mm" height = "72.270mm" ver = "01" gw = "214" gh = "188"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9406001002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A9406002">Washer Pump Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten washer tank bolts in numerical order (“1” – “3”) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T9D001">
+<t-part>
+Washer tank bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+3.9
+</t-value1>
+<t-value2>
+0.40
+</t-value2>
+<t-value3>
+3.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A940005.jpg" width = "88.000mm" height = "67.638mm" ver = "02" gw = "214" gh = "175"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

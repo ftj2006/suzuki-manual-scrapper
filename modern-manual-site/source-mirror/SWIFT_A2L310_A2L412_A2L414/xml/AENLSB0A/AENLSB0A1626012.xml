@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1F">
+<servcat sctnbr = "01" scnbr = "06">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1626012" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Radiator Cooling Fan Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1626011">Radiator Cooling Fan Assembly Removal and Installation:K14D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A1626012001">
+<title>
+Disassembly
+</title>
+<s1 page = "2">
+<ptxt>
+Remove radiator cooling main fan (1) from radiator cooling main fan motor (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove radiator cooling sub fan (3) from radiator cooling sub fan motor (4).
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove radiator cooling main fan motor and radiator cooling sub fan motor from radiator cooling fan shroud (5).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A162017.swf" width = "88.000mm" height = "52.528mm" ver = "01" gw = "213" gh = "132"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1626012002" page = "2">
+<title>
+Reassembly
+</title>
+<ptxt>
+Reverse disassembly procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten each bolt and nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1F211">
+<t-part>
+Radiator cooling fan motor bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+3.9
+</t-value1>
+<t-value2>
+0.40
+</t-value2>
+<t-value3>
+3.0
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1F212">
+<t-part>
+Radiator cooling fan nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+6.3
+</t-value1>
+<t-value2>
+0.64
+</t-value2>
+<t-value3>
+5.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A162018.swf" width = "88.000mm" height = "49.203mm" ver = "01" gw = "214" gh = "123"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0C1124009" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Engine Basic Inspection
+</title>
+<ptxt>
+This check is very important for troubleshooting when ECM has detected no DTC and no abnormality has been found in 
+<intxref refid = "AENLSB0C1124008">Visual Inspection:K12C</intxref>
+.
+</ptxt>
+<ptxt>
+Follow the flow carefully.
+</ptxt>
+<diag type = "test" id = "AENLSB0C1124009001">
+<testgroup id = "AENLSB0C1124009002">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1124001">Engine and Emission Control System Check:K12C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009003">
+<title>
+Battery voltage check
+</title>
+<question>
+Is it 12 V or more?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Charge or replace battery.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009004">
+<question>
+Is engine cranked?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1924001">Cranking System Symptom Diagnosis:K12C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009005">
+<question>
+Does engine start?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009006">
+<title>
+Idle speed check
+</title>
+<test1>
+<ptxt>
+Check engine idle speed. 
+<intxreftitleoff1 refid = "AENLSB0C1126001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1124010">Engine Symptom Diagnosis:K12C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009007">
+<title>
+Ignition system check
+</title>
+<test1>
+<ptxt>
+Check ignition system. 
+<intxreftitleoff1 refid = "AENLSB0C1824001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1124010">Engine Symptom Diagnosis:K12C</intxref>
+.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009008">
+<title>
+Immobilizer system check
+</title>
+<test1>
+<ptxt>
+Check immobilizer control system.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Ignition switch model: 
+<intxreftitleoff1 refid = "AENLSB0CA314001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Keyless push start model: 
+<intxreftitleoff1 refid = "AENLSB0CA324001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 8.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Immobilizer control system malfunction.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009009">
+<title>
+Fuel supply check
+</title>
+<test1>
+<ptxt>
+Check fuel supply. 
+<intxreftitleoff1 refid = "AENLSB0C1726014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 9.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0C1124009010">
+<title>
+Fuel injector circuit check
+</title>
+<test1>
+<ptxt>
+Check fuel injector circuit referring to 
+<intxref refid = "AENLSB0C1724003">Fuel Injector Circuit Check:K12C</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0C1124010">Engine Symptom Diagnosis:K12C</intxref>
+.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective parts.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

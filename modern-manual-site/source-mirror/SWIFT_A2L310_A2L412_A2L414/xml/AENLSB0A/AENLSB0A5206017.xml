@@ -1,0 +1,1324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "5B">
+<servcat sctnbr = "05" scnbr = "02">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A5206017" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Manual Transaxle Assembly Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206012">Manual Transaxle Unit Dismounting and Remounting</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206016">Manual Transaxle Assembly Components</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0A5206017001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+Remove back up light switch. 
+<intxreftitleoff1 refid = "AENLSB0A5206007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove gear shift and select shaft assembly. 
+<intxreftitleoff1 refid = "AENLSB0A5206014"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove transaxle case bolts.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove transaxle left side case (1) from right case using special tool.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L5B010">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09912-34510">
+09912–34510
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IAY301520026.swf" width = "88.000mm" height = "55.580mm" ver = "01" gw = "165" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove reverse gear shift lever bolts (1) and reverse gear shift lever (2).
+</ptxt>
+<figure>
+<graphic graphicname = "I5RW0B520024.swf" width = "88.000mm" height = "70.640mm" ver = "01" gw = "168" gh = "184"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Tapping input shaft end with plastic hammer, push it out as assembly from case a little, and then remove input shaft assembly (1), countershaft assembly (2), high speed gear shift shaft (3), low speed gear shift shaft (4), 5th &#38; 6th gear shift shaft (5), reverse gear shift shaft (6), reverse idler gear assembly (7) and revers gear shift fork shaft.
+</ptxt>
+<figure>
+<graphic graphicname = "I5RW0B520025.swf" width = "88.000mm" height = "59.208mm" ver = "01" gw = "159" gh = "151"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove differential assembly from transaxle right case.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A5206017002">
+<title>
+Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206018">Transaxle Right Case Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206019">Transaxle Left Case Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206021">Input Shaft Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206024">Countershaft Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206026">Reverse Idler Gear Assembly Components</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206031">Differential Disassembly and Reassembly</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A5206029">Gear Shift Shaft and Fork Inspection</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Select input shaft shim, countershaft shim and reverse idler gear shim as follows.
+</ptxt>
+<s2>
+<ptxt>
+Measure depth of transaxle left case (1) i.e., “a” for input shaft assembly, “e” for countershaft assembly and “i” for reverse idler gear assembly.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Measure depth of right case (2) i.e., “b” for input shaft assembly, “f” for countershaft assembly and “j” for reverse idler gear assembly.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Measure distance “c” of input shaft assembly (3) and “k” of reverse idler gear assembly (4).
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Measure distance “g” of countershaft assembly (5) according to the following procedure.
+</ptxt>
+<s3>
+<ptxt>
+Remove countershaft right bearing outer race from transaxle right case. 
+<intxreftitleoff1 refid = "AENLSB0A5206018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s3>
+<s3>
+<ptxt>
+Remove countershaft left bearing outer race from transaxle left case. 
+<intxreftitleoff1 refid = "AENLSB0A5206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s3>
+<s3>
+<ptxt>
+Set countershaft bearing outer races to countershaft.
+</ptxt>
+</s3>
+<s3>
+<ptxt>
+Keep pressing countershaft bearing outer race with 34 N (3.5 kgf, 7.6 lbf) and turn countershaft assembly 10 times or more.
+</ptxt>
+</s3>
+<s3>
+<ptxt>
+Measure distance “g” of countershaft assembly.
+</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>
+Calculate the clearance of “d” for input shaft, “h” for countershaft and “l” for reverse idler by the following formulas.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+<emph etype = "bold">
+Clearance “d” = depth “a” + depth “b” – distance “c”
+</emph>
+</ptxt>
+</item>
+<item>
+<ptxt>
+<emph etype = "bold">
+Clearance “h” = depth “e” + depth “f” – distance “g”
+</emph>
+</ptxt>
+</item>
+<item>
+<ptxt>
+<emph etype = "bold">
+Clearance “l” = depth “i” + depth “j” – distance “k”
+</emph>
+</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname = "IHSB0A523022.jpg" width = "88.000mm" height = "166.158mm" ver = "01" gw = "207" gh = "454"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Select shim closest to clearance “d”, “h” and “l” from the following available sizes.
+</ptxt>
+<spec>
+<title>
+Available shim thickness
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.733in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.733in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Clearance “d”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shim thickness
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.055 – 1.095 mm
+</ptxt>
+<ptxt>
+(0.0415 – 0.0431 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.04 mm (0.0409 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.095 – 1.135 mm
+</ptxt>
+<ptxt>
+(0.0431 – 0.0447 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.08 mm (0.0425 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.135 – 1.175 mm
+</ptxt>
+<ptxt>
+(0.0447 – 0.0463 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.12 mm (0.0441 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.175 – 1.215 mm
+</ptxt>
+<ptxt>
+(0.0463 – 0.0478 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.16 mm (0.0457 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.215 – 1.255 mm
+</ptxt>
+<ptxt>
+(0.0478 – 0.0494 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.20 mm (0.0472 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.255 – 1.295 mm
+</ptxt>
+<ptxt>
+(0.0494 – 0.0510 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.24 mm (0.0488 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.295 – 1.335 mm
+</ptxt>
+<ptxt>
+(0.0510 – 0.0526 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.28 mm (0.0504 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.335 – 1.375 mm
+</ptxt>
+<ptxt>
+(0.0526 – 0.0541 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.32 mm (0.0520 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.375 – 1.415 mm
+</ptxt>
+<ptxt>
+(0.0541 – 0.0557 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.36 mm (0.0535 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.415 – 1.455 mm
+</ptxt>
+<ptxt>
+(0.0557 – 0.0573 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.40 mm (0.0551 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.455 – 1.495 mm
+</ptxt>
+<ptxt>
+(0.0573 – 0.0589 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.44 mm (0.0567 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.495 – 1.535 mm
+</ptxt>
+<ptxt>
+(0.0589 – 0.0604 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.48 mm (0.0583 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.535 – 1.575 mm
+</ptxt>
+<ptxt>
+(0.0604 – 0.0620 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.52 mm (0.0598 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.575 – 1.615 mm
+</ptxt>
+<ptxt>
+(0.0620 – 0.0636 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.56 mm (0.0614 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.615 – 1.655 mm
+</ptxt>
+<ptxt>
+ (0.0636 – 0.0652 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.60 mm (0.0630 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.655 – 1.695 mm
+</ptxt>
+<ptxt>
+ (0.0652 – 0.0667 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.64 mm (0.0646 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.695 – 1.735 mm
+</ptxt>
+<ptxt>
+ (0.0667 – 0.0683 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.68 mm (0.0661 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.735 – 1.775 mm
+</ptxt>
+<ptxt>
+ (0.0683 – 0.0699 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.72 mm (0.0677 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.775 – 1.815 mm
+</ptxt>
+<ptxt>
+ (0.0699 – 0.0715 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.76 mm (0.0693 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.815 – 1.855 mm
+</ptxt>
+<ptxt>
+ (0.0715 – 0.0730 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.80 mm (0.0709 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.855 – 1.895 mm
+</ptxt>
+<ptxt>
+ (0.0730 – 0.0746 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.84 mm (0.0724 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.895 – 1.935 mm
+</ptxt>
+<ptxt>
+ (0.0746 – 0.0762 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.88 mm (0.0740 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.935 – 1.975 mm
+</ptxt>
+<ptxt>
+ (0.0762 – 0.0778 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.92 mm (0.0756 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.975 – 2.015 mm
+</ptxt>
+<ptxt>
+ (0.0778 – 0.0793 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.96 mm (0.0772 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>
+Available shim thickness
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.746in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.722in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Clearance “h”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Shim thickness
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.795 – 0.845 mm
+</ptxt>
+<ptxt>
+(0.0313 – 0.0333 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.050 mm (0.0413 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.845 – 0.895 mm
+</ptxt>
+<ptxt>
+(0.0333 – 0.0352 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.100 mm (0.0433 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.895 – 0.945 mm
+</ptxt>
+<ptxt>
+(0.0352 – 0.0372 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.150 mm (0.0453 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.945 – 0.995 mm
+</ptxt>
+<ptxt>
+(0.0372 – 0.0392 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.200 mm (0.0472 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+0.995 – 1.045 mm
+</ptxt>
+<ptxt>
+(0.0392 – 0.0411 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.250 mm (0.0492 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.045 – 1.095 mm
+</ptxt>
+<ptxt>
+(0.0411 – 0.0431 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.300 mm (0.0512 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.095 – 1.145 mm
+</ptxt>
+<ptxt>
+(0.0431 – 0.0451 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.350 mm (0.0531 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.145 – 1.165 mm
+</ptxt>
+<ptxt>
+(0.0451 – 0.0459 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.375 mm (0.0541 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.165 – 1.195 mm
+</ptxt>
+<ptxt>
+(0.0459 – 0.0470 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.400 mm (0.0551 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.195 – 1.215 mm
+</ptxt>
+<ptxt>
+(0.0470 – 0.0478 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.425 mm (0.0561 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.215 – 1.245 mm
+</ptxt>
+<ptxt>
+(0.0478 – 0.0490 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.450 mm (0.0571 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.245 – 1.265 mm
+</ptxt>
+<ptxt>
+(0.0490 – 0.0498 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.475 mm (0.0581 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.265 – 1.295 mm
+</ptxt>
+<ptxt>
+(0.0498 – 0.0510 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.500 mm (0.0591 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.295 – 1.315 mm
+</ptxt>
+<ptxt>
+(0.0510 – 0.0518 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.525 mm (0.0600 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.315 – 1.345 mm
+</ptxt>
+<ptxt>
+(0.0518 – 0.0530 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.550 mm (0.0610 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.345 – 1.395 mm
+</ptxt>
+<ptxt>
+(0.0530 – 0.0549 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.600 mm (0.0630 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.395 – 1.445 mm
+</ptxt>
+<ptxt>
+(0.0549 – 0.0569 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.650 mm (0.0650 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.445 – 1.495 mm
+</ptxt>
+<ptxt>
+(0.0569 – 0.0589 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.700 mm (0.0669 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.495 – 1.545 mm
+</ptxt>
+<ptxt>
+(0.0589 – 0.0608 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.750 mm (0.0689 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.545 – 1.595 mm
+</ptxt>
+<ptxt>
+(0.0608 – 0.0628 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.800 mm (0.0709 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.595 – 1.645 mm
+</ptxt>
+<ptxt>
+(0.0628 – 0.0648 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.850 mm (0.0728 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.645 – 1.695 mm
+</ptxt>
+<ptxt>
+(0.0648 – 0.0667 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.900 mm (0.0748 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.695 – 1.745 mm
+</ptxt>
+<ptxt>
+(0.0667 – 0.0687 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.950 mm (0.0768 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.745 – 1.795 mm
+</ptxt>
+<ptxt>
+(0.0687 – 0.0707 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.000 mm (0.0787 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>
+Available shim thickness
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.733in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.733in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Clearance “l”
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shim thickness
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.815 – 1.895 mm
+</ptxt>
+<ptxt>
+(0.0715 – 0.0746 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.76 mm (0.0693 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.895 – 1.975 mm
+</ptxt>
+<ptxt>
+(0.0746 – 0.0778 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.84 mm (0.0724 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.975 – 2.055 mm
+</ptxt>
+<ptxt>
+(0.0778 – 0.0809 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1.92 mm (0.0756 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.055 – 2.135 mm
+</ptxt>
+<ptxt>
+(0.0809 – 0.0841 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.00 mm (0.0787 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.135 – 2.215 mm
+</ptxt>
+<ptxt>
+(0.0841 – 0.0872 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.08 mm (0.0819 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.215 – 2.295 mm
+</ptxt>
+<ptxt>
+(0.0872 – 0.0904 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.16 mm (0.0850 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.295 – 2.375 mm
+</ptxt>
+<ptxt>
+(0.0904 – 0.0935 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.24 mm (0.0882 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.375 – 2.455 mm
+</ptxt>
+<ptxt>
+(0.0935 – 0.0967 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.32 mm (0.0913 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.455 – 2.535 mm
+</ptxt>
+<ptxt>
+(0.0967 – 0.0998 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.40 mm (0.0945 in.)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.535 – 2.615 mm
+</ptxt>
+<ptxt>
+(0.0998 – 0.1030 in.)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2.48 mm (0.0976 in.)
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install countershaft right bearing outer race to transaxle right case. 
+<intxreftitleoff1 refid = "AENLSB0A5206018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install countershaft shim and countershaft left bearing outer race to transaxle left case. 
+<intxreftitleoff1 refid = "AENLSB0A5206019"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply transaxle oil to differential side bearings.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install differential assembly into transaxle right case.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply transaxle oil to input shaft right bearing, countershaft left bearing and right bearing.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Join input shaft assembly (5), countershaft assembly (4), low speed gear shift shaft (2), high speed gear shift shaft (3), 5th &#38; 6th gear shift shaft (6), reverse gear shift shaft (7), reverse idler gear assembly (8) and reverse gear shift fork shaft all together, and then install them into transaxle right case (1) so as not to damage oil seal by input shaft spline.
+</ptxt>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Input shaft right bearing on shaft can be installed into transaxle right case by tapping shaft with plastic hammer.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that countershaft is engaged with final gear while installing.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<figure>
+<graphic graphicname = "I5RW0B520026.swf" width = "88.000mm" height = "64.257mm" ver = "01" gw = "161" gh = "166"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Apply grease to input shaft shim (1).
+</ptxt>
+<materials>
+<materialitem name = "ECSTAR Grease A" id = "M5B006" uid = "1545785286">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Grease
+</m-desc>
+<m-number>
+99000–25480
+</m-number>
+<m-name>
+ECSTAR Grease A
+</m-name>
+</materialitem>
+</materials>
+</s1>
+<s1>
+<ptxt>
+Install input shaft shim and reverse idler gear shim (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0P522024.swf" width = "88.000mm" height = "66.583mm" ver = "02" gw = "175" gh = "200"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install reverse gear shift lever (1) and then tighten new reverse gear shift lever bolts (2) to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+The reverse gear shift lever bolts are pre-coated with adhesive. If these bolts are reused, they may work loose.
+</ptxt>
+<ptxt>
+Replace the reverse gear shift lever bolts with new ones whenever they are removed.
+</ptxt>
+</attention4>
+<torque>
+<torqueitem id = "T5B013">
+<t-part>
+Reverse gear shift lever bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+23
+</t-value1>
+<t-value2>
+2.3
+</t-value2>
+<t-value3>
+17.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IAY301520028.swf" width = "88.000mm" height = "72.931mm" ver = "01" gw = "169" gh = "190"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Clean mating surfaces of both right and left cases, and apply sealant to transaxle right case (1) as shown in figure. Diameter of applied sealant is 1.5 mm (0.059 in.).
+</ptxt>
+<materials>
+<materialitem name = "SUZUKI Bond No.1217G" id = "M5B007" uid = "-491504098">
+<m-part>
+“A”
+</m-part>
+<m-desc>
+Sealant
+</m-desc>
+<m-number>
+99000–31260
+</m-number>
+<m-name>
+SUZUKI Bond No.1217G
+</m-name>
+</materialitem>
+</materials>
+</s1>
+<s1>
+<ptxt>
+Mate it with transaxle left case (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten transaxle case bolts (3) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T5B014">
+<t-part>
+Transaxle case bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+23
+</t-value1>
+<t-value2>
+2.3
+</t-value2>
+<t-value3>
+17.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "I5RW0B520030.swf" width = "88.000mm" height = "90.328mm" ver = "01" gw = "146" gh = "239"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install back up light switch. 
+<intxreftitleoff1 refid = "AENLSB0A5206007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

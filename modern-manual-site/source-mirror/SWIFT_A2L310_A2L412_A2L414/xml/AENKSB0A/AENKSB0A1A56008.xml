@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "5">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1A56008" svcinfotypenbr = "08" svcinfoqualnbr = "02" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Disassembly and Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1A56005">Generator Removal and Installation:K12M</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1A56007">Generator Components:K12M</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENKSB0A1A56008001">
+<title>
+Disassembly
+</title>
+<s1>
+<ptxt>
+To facilitate reinstallation, provide matchmarks (1) on drive end frame (2) and stator assembly (3) as shown.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1019.jpg" width = "88.000mm" height = "60.018mm" ver = "01" gw = "133" gh = "154"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove rear end cover (2) and bushing (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1020.swf" width = "88.000mm" height = "56.636mm" ver = "01" gw = "119" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove brush holder assembly (1) from stator assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1021.swf" width = "88.000mm" height = "57.174mm" ver = "01" gw = "127" gh = "146"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove stator assembly bolts (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1022.swf" width = "88.000mm" height = "57.320mm" ver = "01" gw = "170" gh = "146"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+With lever inserted between stator assembly (1) and drive end frame (2), separate generator into drive end frame and stator assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1023.swf" width = "88.000mm" height = "71.823mm" ver = "01" gw = "180" gh = "187"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove pulley as follows.
+</ptxt>
+<s2>
+<ptxt>
+Hold rotor (1) using vise (2).
+</ptxt>
+<attention4>
+<ptxt>
+The rotor assembly may be damaged if it is not held in a vise in the specified method and at the indicated parts when loosening the pulley nut.
+</ptxt>
+<ptxt>
+Hold the rotor assembly in the vise via a clean cloth (3) at the iron parts (4). Never hold the rotor assembly at other parts (5).
+</ptxt>
+</attention4>
+</s2>
+<s2>
+<ptxt>
+Remove pulley (6).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10A1A1009.swf" width = "88.000mm" height = "49.654mm" ver = "01" gw = "186" gh = "124"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove rotor (1) from drive end frame (2) by tapping shaft (3) lightly using plastic hammer.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A1A1024.swf" width = "88.000mm" height = "53.415mm" ver = "01" gw = "179" gh = "135"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+If necessary, remove bearing retainer screws and bearing retainer (1), and then remove bearing (2) from drive end frame (3) using special tool.
+</ptxt>
+<attention3>
+<ptxt>
+If necessary, when removing bearing heat drive end frame to a temperature of 80 – 100 &#176;C (176 – 212 &#176;F) so that it will not be distorted.
+</ptxt>
+</attention3>
+<servicetool>
+<servicetoolitem id = "L1J515">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09925-96710">
+09925–96710
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "IFRA0A1A1025.swf" width = "88.000mm" height = "47.071mm" ver = "01" gw = "182" gh = "117"/>
+</figure>
+<figure>
+<graphic graphicname = "IGSB0A1A3009.swf" width = "88.000mm" height = "49.895mm" ver = "01" gw = "122" gh = "125"/>
+</figure>
+</s1>
+</servinfosub>
+<p-change/>
+<servinfosub id = "AENKSB0A1A56008002">
+<title>
+Reassembly
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1A56009">Generator Inspection:K12M</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Using special tool, install new bearing to drive end frame. Check the bearing for smooth rotation, if removed.
+</ptxt>
+<attention4>
+<ptxt>
+When installing the bearing, the bearing and the drive end frame may become damaged if pressing any section other than the outer race.
+</ptxt>
+<ptxt>
+Press the outer race of the bearing when installing it.
+</ptxt>
+</attention4>
+<servicetool>
+<servicetoolitem id = "L1J516">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09913-76010">
+09913–76010
+</s-number>
+</servicetoolitem>
+</servicetool>
+<figure>
+<graphic graphicname = "ICV00P1A0021.swf" width = "88.000mm" height = "49.986mm" ver = "01" gw = "135" gh = "125"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install bearing retainer (1) to drive end frame (2), and then tighten bearing retainer screws to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J562">
+<t-part>
+Bearing retainer screw
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+2.3
+</t-value1>
+<t-value2>
+0.23
+</t-value2>
+<t-value3>
+2.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0A1A1026.swf" width = "88.000mm" height = "45.783mm" ver = "01" gw = "182" gh = "113"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install rotor (1) to stator assembly (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IEL10A1A1011.swf" width = "88.000mm" height = "54.952mm" ver = "01" gw = "189" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install pulley as follows.
+</ptxt>
+<s2>
+<ptxt>
+Hold rotor (1) using vise (2).
+</ptxt>
+<attention4>
+<ptxt>
+The rotor may be damaged if it is not held in a vise in the specified method and at the specified parts when tightening the pulley nut.
+</ptxt>
+<ptxt>
+Hold the rotor in the vise via a clean cloth (3) at the iron parts (4). Never hold the rotor at other parts (5).
+</ptxt>
+</attention4>
+</s2>
+<s2>
+<ptxt>
+Tighten pulley nut (6) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J563">
+<t-part>
+Pulley nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+130
+</t-value1>
+<t-value2>
+13.3
+</t-value2>
+<t-value3>
+96.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IEL10A1A1012.swf" width = "88.000mm" height = "48.245mm" ver = "01" gw = "186" gh = "120"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install stator assembly (1) to drive end frame (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten rear end frame bolts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J564">
+<t-part>
+Rear end frame bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+6.0
+</t-value1>
+<t-value2>
+0.61
+</t-value2>
+<t-value3>
+4.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IEL10A1A1013.swf" width = "88.000mm" height = "43.974mm" ver = "01" gw = "197" gh = "108"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install brush holder assembly (1) using the following procedure.
+</ptxt>
+<s2>
+<ptxt>
+Push brushes (2) in arrow direction.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Hold brushes in compressed position, by inserting a pin (3) into stopper hole (4).
+</ptxt>
+<attention3>
+<ptxt>
+Recommended pin diameter: About 1.0 mm (0.04 in.)
+</ptxt>
+</attention3>
+</s2>
+<s2>
+<ptxt>
+Install brush holder assembly to stator assembly (5), and then tighten brush holder assembly screws (6) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J565">
+<t-part>
+Brush holder assembly screw
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+2.0
+</t-value1>
+<t-value2>
+0.20
+</t-value2>
+<t-value3>
+1.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0A1A1027.swf" width = "88.000mm" height = "57.220mm" ver = "02" gw = "202" gh = "146"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove pin from brush holder assembly.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install bushing (1) to “B” terminal.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install rear end cover (2) to stator assembly, and then tighten rear end cover bolts (3) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J566">
+<t-part>
+Rear end cover bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+4.5
+</t-value1>
+<t-value2>
+0.46
+</t-value2>
+<t-value3>
+3.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IFRA0A1A1028.swf" width = "88.000mm" height = "56.636mm" ver = "01" gw = "135" gh = "144"/>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

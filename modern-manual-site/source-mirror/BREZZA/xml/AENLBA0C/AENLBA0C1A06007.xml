@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLBA0C1A06007" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Generator Arm and Generator Bracket Removal and Installation
+</title>
+<servinfosub id = "AENLBA0C1A06007001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump / generator drive belt. 
+<intxreftitleoff1 refid = "AENLBA0C1A06004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove water pump pulley. 
+<intxreftitleoff1 refid = "AENLBA0C1606015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove generator bolt (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove generator arm (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGJA0A1A1019.jpg" width = "88.000mm" height = "49.265mm" ver = "01" gw = "185" gh = "123"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove belt tensioner arm and generator. 
+<intxreftitleoff1 refid = "AENLBA0C1A06006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove generator bracket (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IJHA0A1A0015.jpg" width = "88.000mm" height = "47.402mm" ver = "01" gw = "199" gh = "118"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLBA0C1A06007002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Tighten generator bracket bolts in numerical order (“1” – “4”) evenly and gradually to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J010">
+<t-part>
+Generator bracket bolt*
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IJHA0A1A0016.jpg" width = "88.000mm" height = "51.043mm" ver = "01" gw = "199" gh = "128"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten generator arm bolts to specified torque. 
+<intxreftitleoff1 refid = "AENLBA0C1606015"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Install generator. 
+<intxreftitleoff1 refid = "AENLBA0C1A06006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

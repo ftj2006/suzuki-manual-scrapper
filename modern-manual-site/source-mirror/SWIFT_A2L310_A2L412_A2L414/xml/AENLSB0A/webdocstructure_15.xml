@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Engine Lubrication System">
+<c i="1" t="K14C">
+<t s="1" t="General Description">
+<s i="AENLSB0A1511001" t="Engine Lubrication Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1514001" t="Oil Pressure Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1516001" t="Engine Oil and Filter Change">
+</s>
+<s i="AENLSB0A1516002" t="Oil Pressure Switch On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1516003" t="Oil Pressure Switch Removal and Installation">
+</s>
+<s i="AENLSB0A1516004" t="Oil Cooler Components">
+</s>
+<s i="AENLSB0A1516005" t="Oil Cooler Removal and Installation">
+</s>
+<s i="AENLSB0A1516006" t="Oil Pan and Oil Pump Strainer Components">
+</s>
+<s i="AENLSB0A1516007" t="Oil Pan and Oil Pump Strainer Removal and Installation">
+</s>
+<s i="AENLSB0A1516008" t="Oil Pump Assembly Components">
+</s>
+<s i="AENLSB0A1516009" t="Oil Pump Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1516010" t="Oil Pump Assembly Disassembly and Reassembly">
+</s>
+<s i="AENLSB0A1516011" t="Oil Pump Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1517001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1518001" t="Recommended Service Material">
+</s>
+<s i="AENLSB0A1518002" t="Special Tool">
+</s>
+</t>
+</c>
+<c i="2" t="K14D">
+<t s="0" t="Precautions">
+<s i="AENLSB0A1520001" t="Precautions for Engine Lubrication System Service">
+</s>
+</t>
+<t s="1" t="General Description">
+<s i="AENLSB0A1521001" t="Engine Lubrication Description">
+</s>
+<s i="AENLSB0A1521002" t="Variable Displacement Oil Pump Description">
+</s>
+</t>
+<t s="4" t="Diagnostic Information and Procedures">
+<s i="AENLSB0A1524001" t="Oil Pressure Check">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLSB0A1526001" t="Engine Oil and Filter Change">
+</s>
+<s i="AENLSB0A1526012" t="Oil Pressure and Temperature Sensor On-Vehicle Inspection">
+</s>
+<s i="AENLSB0A1526013" t="Oil Pressure and Temperature Sensor Removal and Installation">
+</s>
+<s i="AENLSB0A1526014" t="Piston Cooling Jet Valve Removal and Installation">
+</s>
+<s i="AENLSB0A1526004" t="Oil Cooler Components">
+</s>
+<s i="AENLSB0A1526005" t="Oil Cooler Removal and Installation">
+</s>
+<s i="AENLSB0A1526006" t="Oil Pan and Oil Pump Strainer Components">
+</s>
+<s i="AENLSB0A1526007" t="Oil Pan and Oil Pump Strainer Removal and Installation">
+</s>
+<s i="AENLSB0A1526008" t="Oil Pump Assembly Components">
+</s>
+<s i="AENLSB0A1526009" t="Oil Pump Assembly Removal and Installation">
+</s>
+<s i="AENLSB0A1526011" t="Oil Pump Inspection">
+</s>
+</t>
+<t s="7" t="Specifications">
+<s i="AENLSB0A1527001" t="Tightening Torque Specifications">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLSB0A1528001" t="Recommended Service Material">
+</s>
+<s i="AENLSB0A1528002" t="Special Tool">
+</s>
+</t>
+</c>
+</b>

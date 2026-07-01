@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10I">
+<servcat sctnbr = "10" scnbr = "09">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA904A02" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Engine auto start control does not operate after engine auto stop
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP system controls the system communicating with ECM, ISG, auxiliary power module (lithium-ion battery), DC/DC converter, ESP<sup>&#174;</sup> control module, BCM, etc., using CAN communication system.
+</ptxt>
+<ptxt>
+Before performing symptom diagnosis, check each control module for DTC.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Input signals of switch, sensor, etc., related to the engine auto stop and auto restart control can be checked simply in “Data List” mode on SUZUKI scan tool. 
+<intxreftitleoff1 refid = "AENLSB0AA904007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+For details of the engine auto stop and auto restart control conditions, refer to 
+<intxref refid = "AENLSB0AA901001">Description of ENG A-STOP System</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When charging the battery, disconnect negative (–) cable at the battery.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Engine auto start control does not operate after engine auto stop
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Other than engine auto start conditions
+</ptxt>
+</ps>
+<action>
+<ptxt>
+—
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ISG
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1A24004">Generator Test:K14D</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty engine control system
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0A1124009">Engine Basic Inspection:K14D</intxref>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty auxiliary power module (lithium-ion battery)
+</ptxt>
+</ps>
+<action>
+<ptxt>
+<intxref refid = "AENLSB0AAB06002">Auxiliary Power Module (Lithium-Ion Battery) Inspection</intxref>
+</ptxt>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1A26005" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "1">
+<title>
+ISG Removal and Installation
+</title>
+<attention2>
+<ptxt>
+Servicing SHVS system involves a danger of electric shock.
+</ptxt>
+<ptxt>
+For precaution, detect the terminal voltage and use insulation tool and gloves.
+</ptxt>
+</attention2>
+<attention4>
+<ptxt>
+The ISG consists of precision parts. Without taking the following precautions, it may lose its original performance.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Do not disassemble the ISG.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Do not drop or expose the ISG to large shock.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<ptxt>
+Before performing the following procedure, observe 
+<intxref refid = "AENLSB0A1A20004">Precautions for Handling ISG:K14D</intxref>
+.
+</ptxt>
+<servinfosub id = "AENLSB0A1A26005001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Set ignition “OFF”, and keep ignition “OFF” for 3 minutes.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle and remove engine undercover and right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove accessory drive belt. 
+<intxreftitleoff1 refid = "AENLSB0A1A26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove radiator cooling fan assembly. 
+<intxreftitleoff1 refid = "AENLSB0A1626011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With A/C hoses connected, detach A/C compressor from cylinder block, and disconnect magnet clutch lead wire connector. 
+<intxreftitleoff1 refid = "AENLSB0A7206006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<attention4>
+<ptxt>
+When A/C compressor is detached, the A/C hoses could be damaged receiving weight of the compressor.
+</ptxt>
+<ptxt>
+Suspend the removed A/C compressor to the vehicle body while the compressor is detached.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Remove accessory drive belt lower tensioner. 
+<intxreftitleoff1 refid = "AENLSB0A1A26007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Detach harness clamps (1) and ISG connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2007.jpg" width = "88.000mm" height = "100.363mm" ver = "01" gw = "200" gh = "268"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove terminal cover (1), and check terminal voltage between “48V+” (2) and “48V–” (3) is lower than 5V.
+</ptxt>
+<attention3>
+<ptxt>
+If the voltage is still higher than 5V, check it again in 15 minutes.
+</ptxt>
+</attention3>
+</s1>
+<s1>
+<ptxt>
+Disconnect “48V–” terminal wire.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect “48V+” terminal wire.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2008.jpg" width = "88.000mm" height = "71.702mm" ver = "01" gw = "199" gh = "187"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove ISG bolts (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove ISG (2) from vehicle.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2009.jpg" width = "88.000mm" height = "71.702mm" ver = "01" gw = "199" gh = "187"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove ISG bracket (1), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2020.jpg" width = "88.000mm" height = "77.120mm" ver = "01" gw = "199" gh = "202"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove harness bracket (1) and suction hose stay (2), if necessary.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2010.jpg" width = "88.000mm" height = "62.303mm" ver = "01" gw = "170" gh = "160"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1A26005002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1A26006">ISG Inspection:K14D</intxrefpoff>
+</ptxt>
+<s1>
+<ptxt>
+Install harness bracket and suction hose stay as follows, if removed.
+</ptxt>
+<s2>
+<ptxt>
+Touch bracket stopper (1) to ISG and tighten bolt (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J220">
+<t-part>
+Harness bracket bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+10
+</t-value1>
+<t-value2>
+1.0
+</t-value2>
+<t-value3>
+7.5
+</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>
+Set suction hose stay to its original position and tighten bolt (3) securely.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2011.jpg" width = "88.000mm" height = "63.883mm" ver = "01" gw = "170" gh = "165"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Tighten ISG bracket bolts (1), if removed.
+</ptxt>
+<torque>
+<torqueitem id = "T1J221">
+<t-part>
+ISG bracket bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A1A2021.jpg" width = "88.000mm" height = "77.205mm" ver = "01" gw = "199" gh = "202"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ISG bracket
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install ISG (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Put ISG on cylinder block and tighten new ISG bolts (2) temporarily.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten ISG bolts to 30 N&#183;m (3.1 kgf-m, 22.5 lbf-ft) and check that bushings (3) in ISG bracket are in contact with ISG bracket and cylinder block, and then loosen the bolts.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten ISG bolts in numerical order (“1” – “2”) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J222">
+<t-part>
+ISG bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+48
+</t-value1>
+<t-value2>
+4.9
+</t-value2>
+<t-value3>
+35.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A1A2012.jpg" width = "88.000mm" height = "123.712mm" ver = "02" gw = "200" gh = "330"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Connect “48V+” terminal wire and tighten “48V+” terminal nut (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J223">
+<t-part>
+“48V+” terminal nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Connect “48V–” terminal wire and tighten “48V–” terminal nut (2) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1J224">
+<t-part>
+“48V–” terminal nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+</s1>
+<s1>
+<ptxt>
+Install terminal cover (3) to ISG ground terminal wire.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2013.jpg" width = "88.000mm" height = "71.702mm" ver = "01" gw = "199" gh = "187"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Fit harness clamps (1) and connect ISG connector (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A1A2007.jpg" width = "88.000mm" height = "100.363mm" ver = "01" gw = "200" gh = "268"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install accessory drive belt lower tensioner. 
+<intxreftitleoff1 refid = "AENLSB0A1A26007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install A/C compressor to cylinder block, and connect magnet clutch lead wire connector. 
+<intxreftitleoff1 refid = "AENLSB0A7206006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install radiator cooling fan assembly. 
+<intxreftitleoff1 refid = "AENLSB0A1626011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install accessory drive belt. 
+<intxreftitleoff1 refid = "AENLSB0A1A26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install engine undercover and right side engine under side cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+After ISG is replaced with new one, perform 
+<intxref refid = "AENLSB0AA306003">ECM / ISG Registration</intxref>
+ using SUZUKI scan tool.
+</ptxt>
+<ptxt>
+However, when ISG and BCM are replaced at the same time, perform 
+<intxref refid = "AENLSB0AA206002">BCM Registration</intxref>
+ for their registration.
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

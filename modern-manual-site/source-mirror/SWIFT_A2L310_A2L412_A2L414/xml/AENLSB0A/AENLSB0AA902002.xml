@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10I">
+<servcat sctnbr = "10" scnbr = "09">
+<configtype typenbr = "0">
+<servinfotype sitcode = "2">
+<servinfo servinfosgmlid = "AENLSB0AA902002" svcinfotypenbr = "10" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+ENG A-STOP System Electric Circuit Diagram
+</title>
+<ptxt>
+The ENG A-STOP system is controlled by ECM. For connection of ECM, refer to 
+<intxref refid = "AENLSB0A1122003">Electronic Control System Circuit Diagram:K14D</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

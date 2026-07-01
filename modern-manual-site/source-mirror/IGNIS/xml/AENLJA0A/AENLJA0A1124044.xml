@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLJA0A1124044" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P0500
+</title>
+<attention3>
+<ptxt>
+There are two types of OBD system on ECM depending on the vehicle specification.
+</ptxt>
+<ptxt>
+For identification, refer to “Discrimination for OBD System” under 
+<intxref refid = "AENLJA0A1121003">OBD System Description:K12C</intxref>
+.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLJA0A1124044001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "4.607in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.571in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<ptxt>
+<emph>
+P0500: Vehicle Speed Sensor “A”
+</emph>
+</ptxt>
+<ptxt>
+Any of the following conditions is met.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Vehicle speed is slower than 4 km/h (2.5 mile/h) for 13 sec. at fuel cut.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Vehicle speed is not inputted by CAN communication.
+</ptxt>
+</item>
+</list1>
+<ptxt>
+(3 D/C detection logic (type A))
+</ptxt>
+<ptxt>
+(2 D/C detection logic (type B))
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<list1 type = "unordered">
+<item>
+<ptxt>
+CAN communication line
+</ptxt>
+</item>
+<item>
+<ptxt>
+Wheel speed sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLJA0A1124044002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test with 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Troubleshoot first unexpected DTCs previously detected in “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that the following DTCs are not detected in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+ECT sensor (P0117)
+</ptxt>
+</item>
+<item>
+<ptxt>
+CKP sensor (P0335 and P0336)
+</ptxt>
+</item>
+</list2>
+</list1>
+</attention3>
+<s1>
+<ptxt>
+Warm up engine to normal operating temperature.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle at 60 to 80 km/h (37 to 50 mile/h) constantly for 1 min. or more.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release accelerator pedal, and keep vehicle coasting for 15 sec. with engine brakes applied (fuel cut condition).
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLJA0A1124044003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLJA0A1124044004">
+<testgroup id = "AENLJA0A1124044005">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLJA0A1124001">Engine and Emission Control System Check:K12C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124044006">
+<title>
+DTC check
+</title>
+<question>
+Is there any CAN-DTC detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for CAN-DTC. 
+<intxreftitleoff1 refid = "AENLJA0AA824002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLJA0A1124044007">
+<title>
+DTC check
+</title>
+<test1>
+<ptxt>
+Check DTC in ESP<sup>&#174;</sup> control module. 
+<intxreftitleoff1 refid = "AENLJA0A4604005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is there any DTC(s) detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLJA0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

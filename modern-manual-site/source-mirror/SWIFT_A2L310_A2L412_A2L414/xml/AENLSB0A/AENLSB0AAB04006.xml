@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10K">
+<servcat sctnbr = "10" scnbr = "11">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AAB04006" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Fail-Safe Table
+</title>
+<ptxt>
+When any of the following DTC(s) is detected, auxiliary power module (lithium-ion battery) control enters the fail-safe mode as long as the failure condition associated with the DTC(s) continues. The fail-safe mode is canceled when auxiliary power module (lithium-ion battery) detects normal condition.
+</ptxt>
+<attention3>
+<ptxt>
+If ignition mode is changed to “ON” automatically while the engine is auto stopping, it is possible to restart the engine by driver’s operation shifting the gear shift lever in “Neutral”, depressing the clutch pedal and pressing the engine switch.
+</ptxt>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.142in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.756in"/>
+<colspec colnum = "3" colname = "3" colwidth = "3.295in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC name
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Fail-safe operation
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0A7D 
+<intxreftitleoff1 refid = "AENLSB0AAB04020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack State of Charge Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0A7E 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Over Temperature
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0A7F 
+<intxreftitleoff1 refid = "AENLSB0AAB04036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack “A” Deterioration
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0A8D 
+<intxreftitleoff1 refid = "AENLSB0AAB04023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+14 Volt Power Module System Voltage Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0A8E 
+<intxreftitleoff1 refid = "AENLSB0AAB04023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+14 Volt Power Module System Voltage High
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0AA1 
+<intxreftitleoff1 refid = "AENLSB0AAB04024"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Circuit Stuck Closed
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit (if possible).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0AA2 
+<intxreftitleoff1 refid = "AENLSB0AAB04025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Circuit Stuck Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0AC0 
+<intxreftitleoff1 refid = "AENLSB0AAB04026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Current Sensor “A” Circuit Range/Performance
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0AFD 
+<intxreftitleoff1 refid = "AENLSB0AAB04027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Temperature Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0C30 
+<intxreftitleoff1 refid = "AENLSB0AAB04020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack State of Charge High
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0C6E 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Temperature Sensor “A”/“B” Correlation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P0ECB 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Voltage Sensor System - Multiple Sensor Correlation
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B00 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Error 1
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B01 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Control Module Initial Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B02 
+<intxreftitleoff1 refid = "AENLSB0AAB04023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+14 Volt Power Module System Voltage Sensor “A” Circuit Range High
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B03 
+<intxreftitleoff1 refid = "AENLSB0AAB04025"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack 48 Volt Sensor “A” Circuit Performance
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B04 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Cell Voltage High/Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B05 
+<intxreftitleoff1 refid = "AENLSB0AAB04029"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Cell Voltage High/Low Warning
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B06 
+<intxreftitleoff1 refid = "AENLSB0AAB04028"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery System Over Charge Current
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B07 
+<intxreftitleoff1 refid = "AENLSB0AAB04037"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Unhealable diagnostics History
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B09 
+<intxreftitleoff1 refid = "AENLSB0AAB04030"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Over Temperature Warning
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B0B 
+<intxreftitleoff1 refid = "AENLSB0AAB04027"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Temperature Too Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B0C 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Diag Failure
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B0D 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Current High
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B0E 
+<intxreftitleoff1 refid = "AENLSB0AAB04026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Opened With Load
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B0F 
+<intxreftitleoff1 refid = "AENLSB0AAB04031"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Crash Detect Signal Receive History
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B10 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Error 2
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B11 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Error 3
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B12 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Monitoring Module Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B13 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Read Only Memory (ROM) Read Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B14 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Read Only Memory (ROM) Write Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B15 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Nonvolatile Memory Data Inconsistence Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B16 
+<intxreftitleoff1 refid = "AENLSB0AAB04032"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module CAN Hardware Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B17 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Cell Initial Open Circuit Voltage High/Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B18 
+<intxreftitleoff1 refid = "AENLSB0AAB04023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+14 Volt Power Module System Voltage Sensor “A” Circuit Range Low
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B19 
+<intxreftitleoff1 refid = "AENLSB0AAB04033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack 48 Volt Sensor “A” Circuit Range
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1A 
+<intxreftitleoff1 refid = "AENLSB0AAB04033"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack 48 Volt Sensor “A” Circuit/Open
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1B 
+<intxreftitleoff1 refid = "AENLSB0AAB04034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery System Over Discharge Current
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1C 
+<intxreftitleoff1 refid = "AENLSB0AAB04034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery System Over Charge Current Warning
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1D 
+<intxreftitleoff1 refid = "AENLSB0AAB04034"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery System Over Discharge Current Warning
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1E 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Open Time Too Long
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B1F 
+<intxreftitleoff1 refid = "AENLSB0AAB04021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Positive Contactor Deterioration
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) cuts off 48V circuit to stop the power supply.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits current for power assist and regeneration.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B20 
+<intxreftitleoff1 refid = "AENLSB0AAB04036"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Hybrid/EV Battery Pack Current Sensing Resistor Adjustment Value Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B21 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Off Time Counter Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+P1B22 
+<intxreftitleoff1 refid = "AENLSB0AAB04022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Battery Control Module Software Reset History
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) limits the following functions.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+ENG A-STOP control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Power assist control
+</ptxt>
+</item>
+<item>
+<ptxt>
+Deceleration energy regeneration control
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+U0073
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAB04017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Control Module Communication Bus Off
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+U0100
+</ptxt>
+<ptxt>
+<intxreftitleoff1 refid = "AENLSB0AAB04018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "left">
+<ptxt>
+Lost Communication With ECM
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+—
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+U1401 
+<intxreftitleoff1 refid = "AENLSB0AAB04035"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Invalid Data Received From ECM - Rolling Counter Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) shuts off activation request for contactor by ECM.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+U1402 
+<intxreftitleoff1 refid = "AENLSB0AAB04035"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Invalid Data Received From ECM - Checksum Error
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Auxiliary power module (lithium-ion battery) shuts off activation request for contactor by ECM.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9E">
+<servcat sctnbr = "09" scnbr = "05">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A9504004" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Inspection of Power Window Anti-Pinching Function
+</title>
+<s1>
+<ptxt>
+Lower door glass fully.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Place wood handle of hammer as shown in figure.
+</ptxt>
+<attention4>
+<ptxt>
+Putting hammer handle from outside the vehicle may damage door visor (if equipped).
+</ptxt>
+<ptxt>
+Put hammer handle from inside the vehicle when checking anti-pinching function.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Activate auto-up function of power window.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that window glass automatically reverses at the position the hammer handle is lightly pinched to prevent the hammer handle from being pinched hard (to a point about 220 mm (8.66 in.) below outside top end (1) of glass run). 
+<intxreftitleoff1 refid = "AENLSB0A9506018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If the function is faulty, initialize power window system. 
+<intxreftitleoff1 refid = "AENLSB0A9506018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "ICK80A950006.swf" width = "88.000mm" height = "41.514mm" ver = "01" gw = "140" gh = "101"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

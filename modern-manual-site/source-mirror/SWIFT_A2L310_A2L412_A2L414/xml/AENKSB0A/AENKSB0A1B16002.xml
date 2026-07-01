@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1K">
+<servcat sctnbr = "01" scnbr = "11">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1B16002" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Catalytic Converter Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1B16001">Exhaust System Components:K10C</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENKSB0A1B16002003">
+<title>
+Non-GPF Model
+</title>
+<topic id = "AENKSB0A1B16002001" page = "2">
+<title>
+Removal
+</title>
+<attention4>
+<ptxt>
+Applying a shock to the catalytic converter without GPF may cause damage to the inside the catalyst.
+</ptxt>
+<ptxt>
+Handle the catalytic converter without GPF carefully not to drop it or hit it against something.
+</ptxt>
+</attention4>
+<s1 page = "2">
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENKSB0A1616004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release HO2S-1 and HO2S-2 wire harness from clamps (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1B1002.jpg" width = "88.000mm" height = "63.743mm" ver = "01" gw = "199" gh = "164"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Disconnect HO2S-1 (1) and HO2S-2 (2) connectors and then detach them from the bracket.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove HO2S-1 and HO2S-2, if necessary. 
+<intxreftitleoff1 refid = "AENKSB0A1316018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove turbocharger water inlet hose (3) and turbocharger water outlet hose (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1B1003.jpg" width = "88.000mm" height = "57.308mm" ver = "01" gw = "199" gh = "146"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove catalytic converter cover (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1B1004.jpg" width = "88.000mm" height = "56.800mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove catalytic converter stiffener (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1B1010.swf" width = "88.000mm" height = "65.749mm" ver = "01" gw = "200" gh = "170"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust pipe nuts (1) from exhaust pipe.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust pipe stiffener bolts (2) from oil pan.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0B1B1005.jpg" width = "88.000mm" height = "55.276mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove catalytic converter without GPF (1) and its gasket from turbocharger.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IFRA0B1B1006.jpg" width = "88.000mm" height = "55.784mm" ver = "01" gw = "199" gh = "142"/>
+</figure>
+</s1>
+</topic>
+<topic id = "AENKSB0A1B16002002" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1B16003">Catalytic Converter Inspection:K10C</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If the turbocharger is to be reused, check the threaded holes in the flange and the mating surface for rust which may cause loosening of the bolts and nuts.
+</ptxt>
+<ptxt>
+If rusted, remove the rust by grinding the surface and tapping the threaded holes.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Torx<sup>&#174;</sup> type stud bolt head could be damaged when tightening.
+</ptxt>
+<ptxt>
+Carefully tighten the stud bolt.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new gaskets.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use new bolts, stud bolts and nuts.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten new stud bolt until incomplete thread reaches.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Install catalytic converter without GPF and its stiffener as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Install catalytic converter without GPF (1) and its stiffener (2), and tighten new catalytic converter nuts (3) and stiffener nut (4) by hand.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten catalytic converter nuts and stiffener nut with wrench until they are seated and then loosen the all nuts 90&#176;.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten stiffener bolt (5) with wrench until it is seated.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten new catalytic converter bolts (6) and nuts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K101">
+<t-part>
+Catalytic converter bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+40
+</t-value1>
+<t-value2>
+4.1
+</t-value2>
+<t-value3>
+29.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K102">
+<t-part>
+Catalytic converter nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+40
+</t-value1>
+<t-value2>
+4.1
+</t-value2>
+<t-value3>
+29.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten stiffener bolt securely.
+</ptxt>
+</item>
+<item>
+<ptxt>
+ Tighten stiffener nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K103">
+<t-part>
+Catalytic converter stiffener nut
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IKSB0A1B1003.jpg" width = "88.000mm" height = "55.809mm" ver = "01" gw = "199" gh = "142"/>
+</figure>
+<figure>
+<graphic graphicname = "IKSB0A1B1004.swf" width = "88.000mm" height = "65.752mm" ver = "01" gw = "200" gh = "170"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten exhaust pipe nuts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K104">
+<t-part>
+Exhaust pipe nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+50
+</t-value1>
+<t-value2>
+5.1
+</t-value2>
+<t-value3>
+37.0
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten exhaust pipe stiffener bolts (2) securely.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A1B1002.jpg" width = "88.000mm" height = "55.276mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Install HO2S-1 and HO2S-2 if removed. 
+<intxreftitleoff1 refid = "AENKSB0A1316018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Clamp HO2S-1 and HO2S-2 lead wire. 
+<intxreftitleoff1 refid = "AENKSB0A1316018"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Refill cooling system with coolant. 
+<intxreftitleoff1 refid = "AENKSB0A1616005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check cooling system for leakage. 
+<intxreftitleoff1 refid = "AENKSB0A1616003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Run engine and check for exhaust gas leakage.
+</ptxt>
+</item>
+</list1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENKSB0A1B16002004">
+<title>
+GPF Model
+</title>
+<topic id = "AENKSB0A1B16002005" page = "2">
+<title>
+Removal
+</title>
+<attention4>
+<ptxt>
+Applying a shock to the catalytic converter with GPF may cause damage to the inside the catalyst.
+</ptxt>
+<ptxt>
+Handle the catalytic converter with GPF carefully not to drop it or hit it against something.
+</ptxt>
+</attention4>
+<s1 page = "2">
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Drain coolant. 
+<intxreftitleoff1 refid = "AENKSB0A1616004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove engine cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release A/F sensor and HO2S-2 wire harness from clamps (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A1B1005.jpg" width = "88.000mm" height = "53.921mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Disconnect A/F sensor (1) and HO2S-2 (2) connectors and then detach them from the bracket.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove A/F sensor from catalytic converter with GPF. 
+<intxreftitleoff1 refid = "AENKSB0A1316039"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove HO2S-2 from catalytic converter with GPF, if necessary. 
+<intxreftitleoff1 refid = "AENKSB0A1316039"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove turbocharger water inlet hose (3) and turbocharger water outlet hose (4).
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A1B1006.jpg" width = "88.000mm" height = "55.530mm" ver = "01" gw = "199" gh = "141"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove GPF pressure sensor hose No.1 (1) and GPF pressure sensor hose No.2 (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A1B1007.jpg" width = "88.000mm" height = "56.715mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove catalytic converter cover (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IJFA0B1B3005.jpg" width = "88.000mm" height = "55.022mm" ver = "01" gw = "199" gh = "139"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove engine undercover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove catalytic converter stiffener (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A1B1008.jpg" width = "88.000mm" height = "56.208mm" ver = "01" gw = "199" gh = "143"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust No.1 pipe nuts (1) from exhaust No.1 pipe.
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove exhaust No.1 pipe stiffener bolts (2) from oil pan.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "IJFA0B1B3006.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove catalytic converter with GPF (1) and its gasket from turbocharger.
+</ptxt>
+<figure>
+<graphic graphicname = "IJFA0B1B3008.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+</topic>
+<topic id = "AENKSB0A1B16002006" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If the turbocharger is to be reused, check the threaded holes in the flange and the mating surface for rust which may cause loosening of the bolts and nuts.
+</ptxt>
+<ptxt>
+If rusted, remove the rust by grinding the surface and tapping the threaded holes.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Torx<sup>&#174;</sup> type stud bolt head could be damaged when tightening.
+</ptxt>
+<ptxt>
+Carefully tighten the stud bolt.
+</ptxt>
+</item>
+</list1>
+</attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new gaskets.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Use new bolts, stud bolts and nuts.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten new stud bolt until incomplete thread reaches.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Install catalytic converter with GPF and its stiffener as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Install catalytic converter with GPF (1) to turbocharger and tighten catalytic converter new nuts (3) by hand.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Install catalytic converter stiffener (4) and tighten stiffener bolt (5) and nut (6) by hand.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten catalytic converter nuts, stiffener bolt and nut in this order with wrench until they are seated.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Loosen catalytic converter nuts, stiffener bolt and nut 90&#176;.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten new catalytic converter bolts (2) and nuts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K105">
+<t-part>
+Catalytic converter bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+40
+</t-value1>
+<t-value2>
+4.1
+</t-value2>
+<t-value3>
+29.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K106">
+<t-part>
+Catalytic converter nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+40
+</t-value1>
+<t-value2>
+4.1
+</t-value2>
+<t-value3>
+29.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten catalytic converter stiffener bolt and nut to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K107">
+<t-part>
+Catalytic converter stiffener bolt
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K108">
+<t-part>
+Catalytic converter stiffener nut
+</t-part>
+<t-part1>
+d
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IJFA0B1B3009.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+<figure>
+<graphic graphicname = "IKSB0A1B1009.jpg" width = "88.000mm" height = "55.953mm" ver = "01" gw = "199" gh = "142"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten exhaust pipe nuts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K109">
+<t-part>
+Exhaust pipe nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+50
+</t-value1>
+<t-value2>
+5.1
+</t-value2>
+<t-value3>
+37.0
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten exhaust pipe stiffener bolts (2) securely.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A1B1002.jpg" width = "88.000mm" height = "55.276mm" ver = "01" gw = "199" gh = "140"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Fix A/F sensor and HO2S-2 harness with clamps (1) as shown in figure.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Set clamp (2) just on positioning tapes (3) on the harnesses. Deviation from the center of the tapes is not allowed.
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A1B1010.jpg" width = "88.000mm" height = "54.308mm" ver = "01" gw = "214" gh = "137"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.378in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.378in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“a”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+1.5 mm (0.06 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+A/F sensor
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+“b”:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+4.0 mm (0.16 in.)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+HO2S-2 sensor
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+<item>
+<ptxt>
+Install HO2S-2, if removed. 
+<intxreftitleoff1 refid = "AENKSB0A1316039"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Refill cooling system with coolant. 
+<intxreftitleoff1 refid = "AENKSB0A1616005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check cooling system for leakage. 
+<intxreftitleoff1 refid = "AENKSB0A1616003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Run engine and check for exhaust gas leakage.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After replacing catalytic converter with GPF with new one, perform the following procedure.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+When ignition is “OFF”, connect SUZUKI scan tool to DLC.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Execute “Initialize GPF data” in “Utility” menu following instructions displayed on SUZUKI scan tool.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When ignition is “OFF”, disconnect SUZUKI scan tool from DLC.
+</ptxt>
+</item>
+</list2>
+</list1>
+</topic>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

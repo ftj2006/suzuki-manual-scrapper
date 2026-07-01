@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1J">
+<servcat sctnbr = "01" scnbr = "10">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENKSB0A1A26006" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+ISG Inspection
+</title>
+<ptxt>
+<intxrefpoff refid = "AENKSB0A1A26005">ISG Removal and Installation:K10C-ISG</intxrefpoff>
+</ptxt>
+<ptxt>
+Check the following points. If check result is not OK, replace ISG (1).
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Turn pulley (2) and check that it rotates smoothly without any abnormal noise.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check damage on ISG.
+</ptxt>
+<figure>
+<graphic graphicname = "IFKA0P1A2005.jpg" width = "88.000mm" height = "66.110mm" ver = "01" gw = "151" gh = "171"/>
+</figure>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

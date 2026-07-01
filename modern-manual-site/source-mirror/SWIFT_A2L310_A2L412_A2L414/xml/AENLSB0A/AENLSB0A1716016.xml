@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1716016" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Injector Cleaning Procedure
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+If injector cleaning is not performed periodically as specified in “Scheduled Maintenance”, fuel injectors could become inoperative affected by carbon deposits.
+</ptxt>
+</item>
+<item>
+<ptxt>
+To mix cleaning agent with fuel, pour cleaning agent into fuel tank first and then fill up the tank.
+</ptxt>
+</item>
+<item>
+<ptxt>
+For effective fuel injector cleaning, drive the vehicle until the tank becomes empty without refilling on the way.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<ptxt>
+Before performing the injector cleaning, observe 
+<intxref refid = "AENLSB0A1710001">Precautions for Fuel System Service:K14C</intxref>
+.
+</ptxt>
+<s1 page = "2">
+<ptxt>
+If tank is full, drain fuel until the level becomes about two-thirds.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Pour cleaning agent into tank.
+</ptxt>
+<ptxt>
+<emph etype = "bold">
+Cleaning agent: SUZUKI Injector Cleaner
+</emph>
+</ptxt>
+<spec>
+<title>
+Amount of the agent
+</title>
+<ptxt>
+300 cm<sup>3</sup> (300 ml, 10.14 US.oz, 10.56 Imp.oz)
+</ptxt>
+</spec>
+</s1>
+<s1>
+<ptxt>
+If fuel is drained, return it into the tank.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Fill up the tank.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Drive vehicle until tank becomes empty.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

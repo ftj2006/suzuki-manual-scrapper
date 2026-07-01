@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1K">
+<servcat sctnbr = "01" scnbr = "11">
+<configtype typenbr = "3">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0C1B36002" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Exhaust Manifold Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0C1B36001">Exhaust System Components:K12D</intxrefpoff>
+</ptxt>
+<servinfosub id = "AENLSB0C1B36002001" page = "2">
+<title>
+Removal
+</title>
+<attention4>
+<ptxt>
+Applying a shock to the exhaust manifold may cause damage to the three-way catalytic converter inside the exhaust manifold.
+</ptxt>
+<ptxt>
+Handle the exhaust manifold carefully. Be careful not to drop it or hit it against something.
+</ptxt>
+</attention4>
+<s1 page = "2">
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove A/F sensor and HO2S from exhaust manifold. 
+<intxreftitleoff1 refid = "AENLSB0C1336020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove engine undercover, if equipped.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove EGR pipe (1) and its gaskets (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0B1B3003.jpg" width = "88.000mm" height = "73.844mm" ver = "01" gw = "199" gh = "193"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove exhaust manifold cover (1) together with oxygen sensor clamp (2) from exhaust manifold.
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "ILSB0B1B3004.jpg" width = "88.000mm" height = "74.411mm" ver = "01" gw = "199" gh = "194"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove oxygen sensor clamp from exhaust manifold cover, if necessary.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust pipe (1) from exhaust manifold.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0B1B3005.jpg" width = "88.000mm" height = "73.479mm" ver = "01" gw = "199" gh = "192"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove exhaust manifold stiffener No.1 (1) and No.2 (2).
+</ptxt>
+<figure page = "2">
+<graphic graphicname = "ILSB0B1B3006.jpg" width = "88.000mm" height = "74.411mm" ver = "01" gw = "199" gh = "194"/>
+</figure>
+</s1>
+<s1 page = "2">
+<ptxt>
+Remove exhaust manifold (1) and its gasket from cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0B1B3007.jpg" width = "88.000mm" height = "74.411mm" ver = "01" gw = "199" gh = "194"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust manifold stud bolts from cylinder head, if necessary.
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0C1B36002002" page = "2">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0C1B36003">Exhaust Manifold Inspection:K12D</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<attention4>
+<ptxt>
+Torx<sup>&#174;</sup> type stud bolt head could be damaged when tightening.
+</ptxt>
+<ptxt>
+Carefully tighten the stud bolt.
+</ptxt>
+</attention4>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new gasket and seal ring.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten new stud bolts until incomplete thread reaches.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Install exhaust manifold and its stiffeners as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Install exhaust manifold (1) with new gasket, and tighten these bolts (2) and nuts (3) temporarily.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0B1B3008.jpg" width = "88.000mm" height = "74.411mm" ver = "01" gw = "199" gh = "194"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Fit exhaust manifold stiffener No.1 (1), and tighten its bolt (2) and nut (3) temporarily.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fit exhaust manifold stiffener No.2 (4) as shown in figure, and tighten its bolt (5) and nut (6) temporarily.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0B1B3009.jpg" width = "88.000mm" height = "78.740mm" ver = "01" gw = "199" gh = "207"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Loosen these bolts and nuts installed in Step a – c by 90&#176;.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten exhaust manifold bolts and nuts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K311">
+<t-part>
+Exhaust manifold bolt
+</t-part>
+<t-value1>
+60
+</t-value1>
+<t-value2>
+6.1
+</t-value2>
+<t-value3>
+44.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K312">
+<t-part>
+Exhaust manifold nut
+</t-part>
+<t-value1>
+60
+</t-value1>
+<t-value2>
+6.1
+</t-value2>
+<t-value3>
+44.5
+</t-value3>
+</torqueitem>
+</torque>
+</item>
+<item>
+<ptxt>
+Tighten each stiffener bolt and nut in numerical order (“1” – “4”) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K313">
+<t-part>
+Exhaust manifold stiffener No.1 bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K314">
+<t-part>
+Exhaust manifold stiffener No.1 nut
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K315">
+<t-part>
+Exhaust manifold stiffener No.2 bolt
+</t-part>
+<t-part1>
+c
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K316">
+<t-part>
+Exhaust manifold stiffener No.2 nut
+</t-part>
+<t-part1>
+d
+</t-part1>
+<t-value1>
+25
+</t-value1>
+<t-value2>
+2.5
+</t-value2>
+<t-value3>
+18.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0B1B3010.jpg" width = "88.000mm" height = "73.479mm" ver = "02" gw = "199" gh = "192"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Tighten exhaust pipe bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1K317">
+<t-part>
+Exhaust pipe bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+43
+</t-value1>
+<t-value2>
+4.4
+</t-value2>
+<t-value3>
+32.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0B1B3011.jpg" width = "88.000mm" height = "73.479mm" ver = "01" gw = "199" gh = "192"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install EGR pipe with new gaskets. 
+<intxreftitleoff1 refid = "AENLSB0C1236009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten exhaust manifold cover bolts (1) to specified torque.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten oxygen sensor clamp bolt (2) to specified torque, if removed.
+</ptxt>
+<torque>
+<torqueitem id = "T1K318">
+<t-part>
+Exhaust manifold cover bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+<torqueitem id = "T1K319">
+<t-part>
+Oxygen sensor clamp bolt
+</t-part>
+<t-part1>
+b
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0B1B3012.jpg" width = "88.000mm" height = "73.479mm" ver = "01" gw = "199" gh = "192"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Run engine and check related parts for leakage.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

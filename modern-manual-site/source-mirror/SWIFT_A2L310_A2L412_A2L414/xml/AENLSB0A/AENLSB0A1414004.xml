@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1D">
+<servcat sctnbr = "01" scnbr = "04">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A1414004" svcinfotypenbr = "06" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Waste Gate Valve On-Vehicle Inspection
+</title>
+<s1>
+<ptxt>
+Remove engine cover.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect waste gate control hose No.1 (1) from WGV-VSV.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect special tool to waste gate control hose No.1 and set the tool in “VACUUM” mode.
+</ptxt>
+<attention3>
+<ptxt>
+Before using special tool (vacuum pump gauge), read its Operator’s Manual to know how to use it.
+</ptxt>
+</attention3>
+<servicetool>
+<servicetoolitem id = "L1D109">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09917-47020">
+09917–47020
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s1>
+<s1>
+<ptxt>
+Draw a mark (3) on waste gate valve actuator rod (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Apply negative pressure to waste gate valve actuator until the mark moves 5.0 mm (0.19 in.) and check the pressure at that point.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace turbocharger.
+</ptxt>
+<spec>
+<title>
+Negative pressure specification
+</title>
+<ptxt>
+–17.7 to –17.1 kPa (–0.18 to –0.17 kgf/cm<sup>2</sup>, –2.56 to –2.48 psi, –0.177 to –0.171 bar)
+</ptxt>
+</spec>
+<spec>
+<title>
+Actuator rod travel
+</title>
+<ptxt>
+“a”: 5.0 mm (0.19 in.)
+</ptxt>
+</spec>
+<figure>
+<graphic graphicname = "ILSB0A141003.swf" width = "88.000mm" height = "77.627mm" ver = "01" gw = "192" gh = "204"/>
+</figure>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

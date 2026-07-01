@@ -1,0 +1,1360 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10H">
+<servcat sctnbr = "10" scnbr = "08">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA824004" svcinfotypenbr = "06" svcinfoqualnbr = "01" supplyoff = "1" modify = "1">
+<title>
+Troubleshooting for Communication Bus Off
+</title>
+<attention3>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA824001">CAN Communication Check:CAN (K14D Model)</intxref>
+ before performing this flow.
+</ptxt>
+</attention3>
+<servinfosub id = "AENLSB0AA824004001">
+<title>
+Circuit Diagram
+</title>
+<figure>
+<graphic graphicname = "ILSB0AA82002.swf" width = "183.000mm" height = "237.220mm" ver = "01" gw = "510" gh = "656"/>
+</figure>
+<figure>
+<graphic graphicname = "ILSB0AA82003.swf" width = "183.000mm" height = "155.738mm" ver = "01" gw = "505" gh = "425"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.472in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.520in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.594in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.949in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[a] to [v]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+CAN communication line (linked with diagnosis flows [a] to [v] of “Diagnosis Flow Selection Table”)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+8.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+P/S control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+17.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+DC/DC converter
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[w]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Connector view
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+9.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Combination meter
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+18.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Auxiliary power module (lithium-ion battery)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+CAN driver
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+10.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+SDM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+19.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ISG
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+DLC
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+11.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+20.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (G307)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+3.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Blind spot monitor control module (main) (blind spot monitor model)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+12.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Sonar control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+21.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (L349 / L350)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+4.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Central gateway control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+13.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+BCM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+22.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (E346 / E347)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+5.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Dual sensor brake support control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+14.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+RBS control module (DSBS model)
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+23.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (E348 / E349)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+6.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+TPMS control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+15.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+24.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+J/C (L347 / L348)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+7.
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+16.
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+ECM
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824004002">
+<title>
+Diagnosis Procedure (Except U0075)
+</title>
+<ptxt>
+When “CAN Communication Bus Off” (except U0075) is detected in any control modules, or when it is not possible to communicate with any control modules / sensors with CAN using SUZUKI scan tool, perform the following procedure.
+</ptxt>
+<s1>
+<ptxt>
+Connect oscilloscope to combination meter connector when ignition is “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Using oscilloscope, observe waveform in the following condition when ignition is “ON”.
+</ptxt>
+<attention3>
+<ptxt>
+Waveform cannot be checked through DLC.
+</ptxt>
+</attention3>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.285in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.285in"/>
+<colspec colnum = "3" colname = "3" colwidth = "4.618in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Channel
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Probe
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Terminal No.
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
++
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+G241-27 
+<intxreftitleoff1 refid = "AENLSB0AA824004001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+–
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Ground
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
++
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+G241-7 
+<intxreftitleoff1 refid = "AENLSB0AA824004001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+–
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Ground
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s1>
+<s1>
+<ptxt>
+Compare observed signal waveform with waveforms given as “Reference Waveform”. Find the most similar signal waveform and identify the system in trouble and cause of trouble. 
+<intxreftitleoff1 refid = "AENLSB0AA824004003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform troubleshooting. 
+<intxreftitleoff1 refid = "AENLSB0AA824004006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824004016">
+<title>
+Diagnosis Procedure (U0075)
+</title>
+<ptxt>
+When “CAN Communication Bus Off” (U0075-88) is detected in central gateway control module, perform the following procedure.
+</ptxt>
+<s1>
+<ptxt>
+Connect oscilloscope to central gateway control module when ignition is “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Using oscilloscope, observe waveform in the following condition when ignition is “ON”.
+</ptxt>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "3" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.285in"/>
+<colspec colnum = "2" colname = "2" colwidth = "1.285in"/>
+<colspec colnum = "3" colname = "3" colwidth = "4.618in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Channel
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Probe
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Terminal No.
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+1
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
++
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+G60-14 
+<intxreftitleoff1 refid = "AENLSB0AA824004001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+–
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Ground
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+2
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
++
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+G60-15 
+<intxreftitleoff1 refid = "AENLSB0AA824004001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" align = "center">
+<ptxt>
+–
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Ground
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s1>
+<s1>
+<ptxt>
+Compare observed signal waveform with waveforms given as “Reference Waveform”. Find the most similar signal waveform and identify the system in trouble and cause of trouble. 
+<intxreftitleoff1 refid = "AENLSB0AA824004003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Perform troubleshooting. 
+<intxreftitleoff1 refid = "AENLSB0AA824004017"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824004003">
+<title>
+Reference Waveform
+</title>
+<attention3>
+<ptxt>
+Waveforms in “Examples of abnormal waveforms” are selected examples of CAN communication waveforms seen when an abnormal condition occurs. However, these waveforms may not be exactly the same in appearance as observed waveforms. Therefore, to identify an abnormal condition, select the waveform that is most similar to the observed waveform from 
+<intxref refid = "AENLSB0AA824004005">Examples of abnormal waveforms</intxref>
+.
+</ptxt>
+</attention3>
+<topic id = "AENLSB0AA824004004">
+<title>
+Normal waveform
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "5" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.075in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "2.692in"/>
+<colspec colnum = "5" colname = "5" colwidth = "1.771in"/>
+<thead>
+<row rowsep = "1">
+<entry namest = "1" nameend = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Normal waveform
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Description
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry namest = "1" nameend = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82009.swf" width = "137.083mm" height = "51.549mm" ver = "01" gw = "167" gh = "138"/>
+</entry>
+<entry colname = "5" morerows = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Reference voltages for both CAN High signal and CAN Low signal are 2.5 V. Waveform of CAN High signal is 2.5 – 3.5 V and that of CAN Low signal is 2.5 – 1.5 V.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Ground level of each channel
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[D]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Waveform of channel 1 (CAN High signal)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+VOLT/DIV of each channel
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[E]:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Waveform of channel 2 (CAN Low signal)
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[C]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+TIME/DIV of each channel
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</topic>
+<topic id = "AENLSB0AA824004005">
+<title>
+Examples of abnormal waveforms
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "4" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.349in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.026in"/>
+<colspec colnum = "3" colname = "3" colwidth = "2.068in"/>
+<colspec colnum = "4" colname = "4" colwidth = "1.766in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Possible cause
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Characteristic waveform
+</ptxt>
+</entry>
+<entry colname = "4" morerows = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Description
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+CAN High signal
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+CAN Low signal
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shorted to ground
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82010.swf" width = "51.460mm" height = "82.164mm" ver = "01" gw = "143" gh = "116"/>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82011.swf" width = "52.527mm" height = "82.248mm" ver = "01" gw = "142" gh = "116"/>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+In case CAN High signal wire is shorted to ground circuit
+</emph>
+</ptxt>
+<ptxt>
+Both of CAN High signal and CAN Low signal are fixed to GND level (0 V).
+</ptxt>
+<ptxt>
+<emph>
+In case CAN Low signal wire is shorted to ground circuit
+</emph>
+</ptxt>
+<ptxt>
+Reference voltages for both of CAN High signal and CAN Low signal are GND level (0 V) and CAN High signal waveform oscillates irregularly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+CAN High signal: Between 0 V and 3.5 V
+</ptxt>
+</item>
+<item>
+<ptxt>
+CAN Low signal: Fixed to 0 V
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Opened
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82012.swf" width = "51.460mm" height = "96.864mm" ver = "01" gw = "143" gh = "117"/>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82013.swf" width = "52.527mm" height = "96.948mm" ver = "01" gw = "142" gh = "115"/>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+In case CAN High signal wire is open
+</emph>
+</ptxt>
+<ptxt>
+Reference voltages for both CAN High signal and CAN Low signal are 2.5 V and these waveforms oscillate irregularly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+CAN High signal: Between 4.0 V and 1.0 V
+</ptxt>
+</item>
+<item>
+<ptxt>
+CAN Low signal: Between 2.5 V and 1.0 V
+</ptxt>
+</item>
+</list1>
+<ptxt>
+<emph>
+In case CAN Low signal wire is open
+</emph>
+</ptxt>
+<ptxt>
+Reference voltages for both of CAN High signal and CAN Low signal are 2.5 V and these waveforms oscillate irregularly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+CAN High signal: Between 2.5 V and 4.0 V
+</ptxt>
+</item>
+<item>
+<ptxt>
+CAN Low signal: Between 1.0 V and 4.0 V
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shorted to power supply circuit (12 V)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82014.swf" width = "51.460mm" height = "50.531mm" ver = "01" gw = "142" gh = "115"/>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82015.swf" width = "52.527mm" height = "50.614mm" ver = "01" gw = "142" gh = "115"/>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+In case CAN High signal wire is shorted to power supply circuit (12 V)
+</emph>
+</ptxt>
+<ptxt>
+CAN High signal is fixed to 12 V and CAN Low signal is fixed to 11 V.
+</ptxt>
+<ptxt>
+<emph>
+In case CAN Low signal wire is shorted to power supply circuit (12 V)
+</emph>
+</ptxt>
+<ptxt>
+CAN High signal is fixed to 11 V and CAN Low signal is fixed to 12 V.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Shorted to power supply circuit (5 V)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82016.swf" width = "51.460mm" height = "94.864mm" ver = "01" gw = "142" gh = "115"/>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82017.swf" width = "52.527mm" height = "94.948mm" ver = "01" gw = "142" gh = "115"/>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph>
+In case CAN High signal wire is shorted to power supply circuit (5 V)
+</emph>
+</ptxt>
+<ptxt>
+Reference voltages for both CAN High signal and CAN Low signal are 4.5 V and these waveforms oscillate irregularly.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+CAN High signal: Between 5.5 V and 3.5 V
+</ptxt>
+</item>
+<item>
+<ptxt>
+CAN Low signal: Between 5.0 V and 1.0 V
+</ptxt>
+</item>
+</list1>
+<ptxt>
+<emph>
+In case CAN Low signal wire is shorted to power supply circuit (5 V)
+</emph>
+</ptxt>
+<ptxt>
+Reference voltage is 4.5 V and phase is the same for both CAN High signal and CAN Low signal, and waveforms oscillate irregularly between 6.0 V and 1.0 V.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+CAN High signal and CAN Low signal wires are shorted to each other
+</ptxt>
+</entry>
+<entry namest = "2" nameend = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<graphic graphicname = "IDAA0AA82018.swf" width = "103.987mm" height = "43.723mm" ver = "01" gw = "143" gh = "115"/>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Both of CAN High signal and CAN Low signal are fixed to near 2.5 V.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</topic>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824004006">
+<title>
+Troubleshooting (Except U0075)
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Before diagnosing trouble, check equipment of vehicle being serviced as well as control modules and sensors connected to CAN communication line.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Before using scan tool, read its Operator’s Manual to know how to use it.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When performing “Communication Bus Check” using SUZUKI scan tool in this troubleshooting, refer to 
+<intxref refid = "AENLSB0AA824006">Judgement of Communication Bus Check:CAN (K14D Model)</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The following control modules are not compatible with “Communication Bus Check” function. However, if system names are indicated on startup screen of “Vehicle Health” on SUZUKI scan tool and the status is indicated “Found”, communication circuit is judged normal. Check related CAN-DTC in each system if necessary.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+Central gateway control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Sonar control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Headlight auto leveling control module
+</ptxt>
+</item>
+</list2>
+</list1>
+</attention3>
+<diag type = "test" id = "AENLSB0AA824004007">
+<testgroup id = "AENLSB0AA824004008">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect connectors from all the control modules and sensors communicating by CAN. 
+<intxreftitleoff1 refid = "AENLSB0AA824004001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to each CAN communication circuit at all control modules / sensors (communicating by CAN) connectors and DLC.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check the following points of each CAN communication circuit based on results found in Step 3) of 
+<intxref refid = "AENLSB0AA824004002">Diagnosis Procedure (Except U0075)</intxref>
+.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Open circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to power circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to ground circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to CAN communication wire with each other
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004009">
+<title>
+ECM communication check
+</title>
+<test1>
+<ptxt>
+Connect “E01” connector to ECM.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between the following terminals.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Between “E08-3” and “E08-16” terminals of ESP<sup>&#174;</sup> control module connector
+</ptxt>
+</item>
+<item>
+<ptxt>
+Between “G60-2” and “G60-12” terminals of central gateway control module connector
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A1326001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004010">
+<title>
+ESP&#174; control module communication check
+</title>
+<test1>
+<ptxt>
+Connect “E09” connector to ESP<sup>&#174;</sup> control module.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “E04-5” and “E04-17” terminals of BCM connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace ESP<sup>&#174;</sup> control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004011">
+<title>
+BCM communication check
+</title>
+<test1>
+<ptxt>
+Connect “E04” and “L01” connectors to BCM.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G10-7” and “G10-8” terminals of P/S control module connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace BCM and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA206003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004012">
+<title>
+P/S control module communication check
+</title>
+<test1>
+<ptxt>
+Connect “G10” connector to P/S control module.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G241-7” and “G241-27” terminals of combination meter connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace P/S control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A6206009"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004013">
+<title>
+Combination meter communication check
+</title>
+<test1>
+<ptxt>
+Connect “G241” connector to combination meter.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect BCM connector “L01”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “G60-20” and “G60-21” terminals of central gateway control module connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 7.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace combination meter and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A9306001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004014">
+<title>
+Other control module and sensor communication check
+</title>
+<test1>
+<ptxt>
+Perform 
+<intxref refid = "AENLSB0AA824005">Communication Check:CAN (K14D Model)</intxref>
+.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Check for intermittent trouble. 
+<intxreftitleoff1 refid = "AENLSB0A0006002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace defective control module or sensor and recheck DTC.
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+<servinfosub id = "AENLSB0AA824004017">
+<title>
+Troubleshooting (U0075)
+</title>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Before diagnosing trouble, check equipment of vehicle being serviced as well as control modules and sensors connected to CAN communication line.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Before using scan tool, read its Operator’s Manual to know how to use it.
+</ptxt>
+</item>
+</list1>
+</attention3>
+<diag type = "test" id = "AENLSB0AA824004018">
+<testgroup id = "AENLSB0AA824004019">
+<title>
+CAN communication circuit check
+</title>
+<test1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Disconnect blind spot monitor control module (main) connector “L531” and central gateway control module connector “G60”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper connection to blind spot monitor control module (main) connector and central gateway control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connections are OK, check the following points of each CAN communication circuit between blind spot monitor control module (main) connector and central gateway control module connector based on results found in Step 3) of 
+<intxref refid = "AENLSB0AA824004016">Diagnosis Procedure (U0075)</intxref>
+.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Open circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to power circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to ground circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+Short to CAN communication wire with each other
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0AA824004020">
+<title>
+Central gateway control module terminating resistance check
+</title>
+<test1>
+<ptxt>
+Connect central gateway control module connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Measure resistance between “L531-3” and “L531-7” terminals of blind spot monitor control module (main) connector.
+</ptxt>
+</test1>
+<question>
+Is resistance 114 – 134 &#937;?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace blind spot monitor control module (main) and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AAA26001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace central gateway control module and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0AA836001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

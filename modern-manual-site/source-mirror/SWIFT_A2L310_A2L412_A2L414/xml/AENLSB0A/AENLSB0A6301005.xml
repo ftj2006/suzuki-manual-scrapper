@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "6C">
+<servcat sctnbr = "06" scnbr = "03">
+<configtype typenbr = "0">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0A6301005" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+OBD System Description
+</title>
+<ptxt>
+The P/S control module has an on-board self-diagnostic function which detects a malfunction in this system. Have full understanding of “OBD System Description” and each item in 
+<intxref refid = "AENLSB0A6300001">Precautions for Diagnosing Trouble</intxref>
+, before executing diagnosis according to 
+<intxref refid = "AENLSB0A6304001">P/S System Check</intxref>
+.
+</ptxt>
+<ptxt>
+The P/S control module performs on-board diagnosis (self-diagnosis) on the system and operates the P/S warning light (1) as follows.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+The P/S warning light turns on when the ignition is “ON” (but the engine at stop) regardless of the condition of the P/S control system. This is only to check if the P/S warning light operates properly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When the engine is started, on-board diagnosis (self-diagnosis) is performed and the P/S warning light turns off if no trouble is found.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When the P/S control module detects a trouble, the P/S warning light comes on to warn the driver of the trouble. At the same time, a DTC is stored in the module.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A630002.swf" width = "88.000mm" height = "46.360mm" ver = "01" gw = "173" gh = "115"/>
+</figure>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

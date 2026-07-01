@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1726013" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Injector Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1726012">Fuel Injector On-Vehicle Inspection:K14D</intxrefpoff>
+</ptxt>
+<ptxt>
+Before performing the following procedure, observe 
+<intxref refid = "AENLSB0A1720001">Precautions for Fuel System Service:K14D</intxref>
+.
+</ptxt>
+<servinfosub id = "AENLSB0A1726013001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Relieve fuel pressure. 
+<intxreftitleoff1 refid = "AENLSB0A1726003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove intake manifold. 
+<intxreftitleoff1 refid = "AENLSB0A1426021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect fuel injector connectors (1) and fuel pressure sensor connector (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove injector knock wire bolt (3).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A172022.jpg" width = "88.000mm" height = "63.743mm" ver = "01" gw = "199" gh = "164"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove high pressure pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1726008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove fuel delivery pipe (1) together with fuel pressure sensor (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A172023.jpg" width = "88.000mm" height = "69.924mm" ver = "01" gw = "199" gh = "182"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove fuel injector clips (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A172024.jpg" width = "88.000mm" height = "69.924mm" ver = "01" gw = "199" gh = "182"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove fuel injectors.
+</ptxt>
+<ptxt>
+If it is hard to remove, use special tool as follows.
+</ptxt>
+<attention4>
+<ptxt>
+Removal of fuel injector using special tool may damage the injector.
+</ptxt>
+<ptxt>
+Replace the fuel injector removed by special tool with new one.
+</ptxt>
+</attention4>
+<s2>
+<ptxt>
+Set special tool on fuel injector (1) and fix it tightening bolt (2) by hand.
+</ptxt>
+<servicetool>
+<servicetoolitem id = "L1G226">
+<s-part>
+(A)
+</s-part>
+<s-number num = "09918-35811">
+09918–35811
+</s-number>
+</servicetoolitem>
+</servicetool>
+</s2>
+<s2>
+<ptxt>
+Giving impact to fuel injector with special tool, pull it out of cylinder head.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A172025.jpg" width = "88.000mm" height = "85.228mm" ver = "01" gw = "199" gh = "225"/>
+</figure>
+</s2>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1726013002">
+<title>
+Installation
+</title>
+<attention4>
+<ptxt>
+If the fuel injector is reused, it may cause high pressure fuel leakage.
+</ptxt>
+<ptxt>
+Never reused the fuel injector.
+</ptxt>
+</attention4>
+<s1>
+<ptxt>
+Apply a bit of fuel to O-ring (1) of new fuel injector (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set new fuel injector clip (3).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Set fuel injectors to new fuel delivery pipe (4).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0A172026.jpg" width = "88.000mm" height = "65.097mm" ver = "02" gw = "227" gh = "182"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install fuel delivery pipe with fuel injectors to cylinder head.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen high pressure fuel pump bolts 90&#176; – 120&#176;.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten fuel delivery pipe bolts (1) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Tighten the bolts evenly and carefully until fuel injectors (2) are inserted in the holes of cylinder head (3) fully.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Tighten fuel delivery pipe bolts to specified torque.
+</ptxt>
+<attention3>
+<ptxt>
+If reinstallation of fuel injectors is necessary, replace them with new ones again.
+</ptxt>
+</attention3>
+<torque>
+<torqueitem id = "T1G210">
+<t-part>
+Fuel delivery pipe bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+55
+</t-value1>
+<t-value2>
+5.6
+</t-value2>
+<t-value3>
+40.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A172027.jpg" width = "88.000mm" height = "70.008mm" ver = "02" gw = "199" gh = "189"/>
+</figure>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install new high pressure pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1726008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten high pressure fuel pump bolts to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A1726008"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect fuel injector connectors (1) and fuel pressure sensor connector (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten injector knock wire bolts (3) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T1G211">
+<t-part>
+Injector knock wire bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+11
+</t-value1>
+<t-value2>
+1.1
+</t-value2>
+<t-value3>
+8.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "ILSB0A172030.jpg" width = "88.000mm" height = "63.743mm" ver = "01" gw = "199" gh = "164"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install intake manifold. 
+<intxreftitleoff1 refid = "AENLSB0A1426021"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With engine stopped, set ignition “ON” and check for fuel leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1726004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

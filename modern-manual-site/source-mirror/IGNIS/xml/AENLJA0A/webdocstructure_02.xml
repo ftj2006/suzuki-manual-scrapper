@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b t="Maintenance and Lubrication">
+<c i="0" t="configtype none title">
+<t s="5" t="Scheduled Maintenance">
+<s i="AENLJA0A0205001" t="Maintenance Schedule under Normal Driving Conditions">
+</s>
+<s i="AENLJA0A0205002" t="Maintenance Recommended under Severe Driving Conditions">
+</s>
+</t>
+<t s="6" t="Repair Instructions">
+<s i="AENLJA0A0206001" t="Accessory Drive Belt Inspection">
+</s>
+<s i="AENLJA0A0206002" t="Accessory Drive Belt Replacement">
+</s>
+<s i="AENLJA0A0206003" t="Valve Lash (Clearance) Inspection (K12M Model)">
+</s>
+<s i="AENLJA0A0206004" t="Engine Oil and Filter Change">
+</s>
+<s i="AENLJA0A0206005" t="Engine Coolant Change">
+</s>
+<s i="AENLJA0A0206006" t="Exhaust System Inspection">
+</s>
+<s i="AENLJA0A0206007" t="Spark Plug Replacement">
+</s>
+<s i="AENLJA0A0206008" t="Air Cleaner Filter Inspection">
+</s>
+<s i="AENLJA0A0206009" t="Air Cleaner Filter Replacement">
+</s>
+<s i="AENLJA0A0206010" t="Fuel Tank, Cap Gasket and Fuel Line Inspection">
+</s>
+<s i="AENLJA0A0206011" t="Fuel Filter Replacement">
+</s>
+<s i="AENLJA0A0206012" t="PCV Valve Inspection">
+</s>
+<s i="AENLJA0A0206013" t="Fuel Evaporative Emission Control System Inspection">
+</s>
+<s i="AENLJA0A0206014" t="Brake Disc and Pad Inspection">
+</s>
+<s i="AENLJA0A0206015" t="Brake Drum and Shoe Inspection">
+</s>
+<s i="AENLJA0A0206016" t="Brake Hose and Pipe Inspection">
+</s>
+<s i="AENLJA0A0206017" t="Brake Fluid Inspection">
+</s>
+<s i="AENLJA0A0206043" t="Brake Pedal Inspection">
+</s>
+<s i="AENLJA0A0206018" t="Brake Fluid Replacement">
+</s>
+<s i="AENLJA0A0206019" t="Brake Lever and Cable Inspection">
+</s>
+<s i="AENLJA0A0206020" t="Clutch Pedal Inspection (M/T Model)">
+</s>
+<s i="AENLJA0A0206021" t="Tire Inspection">
+</s>
+<s i="AENLJA0A0206022" t="Wheel Disc Inspection">
+</s>
+<s i="AENLJA0A0206023" t="Wheel Bearing Inspection">
+</s>
+<s i="AENLJA0A0206024" t="Drive Shaft (Axle) Boot Inspection">
+</s>
+<s i="AENLJA0A0206025" t="Propeller Shaft Inspection (4WD Model)">
+</s>
+<s i="AENLJA0A0206026" t="Suspension System Inspection">
+</s>
+<s i="AENLJA0A0206027" t="Steering System Inspection">
+</s>
+<s i="AENLJA0A0206028" t="Manual Transaxle Oil Inspection (M/T Model)">
+</s>
+<s i="AENLJA0A0206029" t="Manual Transaxle Oil Replacement (M/T Model)">
+</s>
+<s i="AENLJA0A0206030" t="Auto Gear Shift Oil Inspection (Auto Gear Shift Model)">
+</s>
+<s i="AENLJA0A0206031" t="Auto Gear Shift Oil Replacement (Auto Gear Shift Model)">
+</s>
+<s i="AENLJA0A0206044" t="Auto Gear Shift Actuator Oil Inspection (Auto Gear Shift Model)">
+</s>
+<s i="AENLJA0A0206032" t="CVT Fluid Level Inspection (CVT Model)">
+</s>
+<s i="AENLJA0A0206033" t="CVT Fluid Deterioration Inspection (CVT Model)">
+</s>
+<s i="AENLJA0A0206034" t="CVT Fluid Change (CVT Model)">
+</s>
+<s i="AENLJA0A0206035" t="Transfer Oil Inspection (4WD Model)">
+</s>
+<s i="AENLJA0A0206036" t="Transfer Oil Replacement (4WD Model)">
+</s>
+<s i="AENLJA0A0206037" t="Rear Differential Oil Inspection (4WD Model)">
+</s>
+<s i="AENLJA0A0206038" t="Rear Differential Oil Replacement (4WD Model)">
+</s>
+<s i="AENLJA0A0206039" t="All Latches, Hinges and Locks Inspection">
+</s>
+<s i="AENLJA0A0206040" t="HVAC Air Filter Inspection">
+</s>
+<s i="AENLJA0A0206041" t="HVAC Air Filter Replacement">
+</s>
+<s i="AENLJA0A0206042" t="Final Inspection for Maintenance Service">
+</s>
+</t>
+<t s="8" t="Special Tools and Equipment">
+<s i="AENLJA0A0208001" t="Recommended Fluids and Lubricants">
+</s>
+</t>
+</c>
+</b>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4D">
+<servcat sctnbr = "04" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A4406006" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Parking Brake Lever Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A4406006001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Place gear shift lever in “1st” (M/T model) or selector lever in “P” range (A/T model), and block drive wheels.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove floor console box. 
+<intxreftitleoff1 refid = "AENLSB0A9806020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect parking brake switch connector from parking brake lever.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Loosen parking brake cable adjusting nut (1).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A440002.jpg" width = "88.000mm" height = "68.294mm" ver = "02" gw = "199" gh = "177"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove parking brake lever bolts (1) and then remove parking brake lever (2) together with equalizer (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A440006.jpg" width = "88.000mm" height = "69.246mm" ver = "01" gw = "199" gh = "180"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A4406006002">
+<title>
+Installation
+</title>
+<s1>
+<ptxt>
+Tighten parking brake lever bolts (1) to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T4D001">
+<t-part>
+Parking brake lever bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+26
+</t-value1>
+<t-value2>
+2.7
+</t-value2>
+<t-value3>
+19.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A440007.jpg" width = "88.000mm" height = "69.246mm" ver = "01" gw = "199" gh = "180"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect parking brake cable to equalizer, and then adjust parking brake cable. 
+<intxreftitleoff1 refid = "AENLSB0A4406003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect parking brake switch connector to parking brake lever.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that brake system operates properly.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install floor console box. 
+<intxreftitleoff1 refid = "AENLSB0A9806020"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AA121001" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "1" supplyoff = "1" modify = "0">
+<title>
+Adaptive Cruise Control System Construction
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+In addition to a constant-speed control like a conventional cruise control system, the adaptive cruise control system has a constant headway gap control which keeps distance to a vehicle ahead.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Adaptive cruise control system consists of RBS control module, cruise control switch, ECM, ESP<sup>®</sup> control module, lighting and turn signal switch, combination meter, TCM (A/T model), dual sensor brake support control module and BCM.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The adaptive cruise control system adopts a millimeter (radio) wave radar system as a sensor to detect distance to the vehicle ahead and relative speed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Distance switch is incorporated in the cruise control switch and located in the steering wheel right side. Using this switch, vehicle distance can be set to any one of “Long”, “Middle” and “Short” modes.
+</ptxt>
+</item>
+<item>
+<ptxt>
+For driver’s visual recognition, the state of the control by the adaptive cruise control system is shown on the information display in the combination meter.
+</ptxt>
+</item>
+</list1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

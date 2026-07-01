@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AA111007" svcinfotypenbr = "03" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+OBD System Description
+</title>
+<ptxt>
+ECM diagnoses if there is any trouble in cruise control system. When ECM detects an abnormal condition in cruise control system, it saves the area where such abnormal condition has occurred as a DTC in its memory, but MIL does not light up. Read DTC using SUZUKI scan tool referring to 
+<intxref refid = "AENLSB0AA114003">DTC Check:Cruise Control</intxref>
+.
+</ptxt>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "1">
+<servinfo servinfosgmlid = "AENLSB0AA121002" svcinfotypenbr = "03" svcinfoqualnbr = "01" supplyoff = "1" modify = "0">
+<title>
+Description of Adaptive Cruise Control System Components
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "1.457in"/>
+<colspec colnum = "2" colname = "2" colwidth = "5.736in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Component
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Description
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+RBS control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+RBS control module incorporates a radar sensor and is located behind the radiator upper grill. This control module determines the vehicle to follow and target level of acceleration / deceleration based on information obtained by millimeter wave radar, and demands brake control and torque control for adequate distance to the vehicle ahead.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The radar sensor adopts a millimeter wave radar method and transmits a radio wave from the front of the RBS control module, and measures reflex time of the radio wave from the vehicle ahead. Thus the radar sensor measures the distance, relative speed and direction of the vehicle ahead. Since the radar sensor uses a radio wave, effective detection of the vehicle ahead is possible under the condition of high speed running, at night, in bad weather such as rainy weather or dense fog.
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module communicates with other control module through CAN communication. For CAN communication, refer to “Communication System Description” in Section 10H.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0AA811001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0AA821001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+CRUISE (main) switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+This switch has a momentary contact type button to turn adaptive cruise control function ON and OFF.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Distance switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Vehicle distance under “Constant headway gap control” can be changed to “Long”, “Middle” or “Short” mode using this switch.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+SET/– switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+When this switch is pressed (ON) and then released (OFF) while the vehicle is running at 40 km/h (25 mile/h) or higher speed, the vehicle speed obtained when the switch is released is stored in memory and it is set as a target vehicle speed under adaptive cruise control.
+</ptxt>
+</item>
+<item>
+<ptxt>
+When this switch is pressed (ON) for a momentarily during adaptive cruise control, the set speed will decrease by 1 km/h (1 mile/h). When this switch is continuously pressed (ON) during adaptive cruise control, the set speed will decrease by 5 km/h (5 mile/h) as long as the switch is ON. And the vehicle is controlled according to the new set speed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+RES/+ switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+When this switch is pressed (ON) for a momentarily during adaptive cruise control, the set speed will increase by 1 km/h (1 mile/h). When this switch is continuously pressed (ON) during adaptive cruise control, the set speed will increase by 5 km/h (5 mile/h) as long as the switch is ON. And the vehicle is controlled according to the new set speed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+If vehicle speed is higher than 40 km/h (25 mile/h) after adaptive cruise control is canceled, pressing this switch ON momentarily will resume the vehicle running at the speed.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+CANCEL switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+When this switch is pressed (ON), adaptive cruise control is canceled.
+</ptxt>
+</item>
+<item>
+<ptxt>
+The switch signal is outputted to ECM and RBS control module receives cruise control switch signal from ECM through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ECM
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ECM controls electric throttle valve opening based on information from RBS control module through CAN communication.
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM transmits cruise control switch signal, engine torque signal, vehicle speed signal, etc. to RBS control module through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+ESP<sup>®</sup> control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module controls brake pressure and brake light based on information from RBS control module through CAN communication.
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module transmits wheel speed signal, lateral G signal, etc. to RBS control module through CAN communication.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Lighting and turn signal switch
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Steering angle sensor is incorporated, and transmits steering angle signal to RBS control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Neutral position switch (M/T model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+This switch is installed on the transaxle case. The ECM determines whether the gear is in neutral based on the signal from this switch.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Combination meter
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Combination meter turns on or off adaptive cruise control warning light, shows state of the control on information display and sounds warning buzzer based on information through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TCM (A/T model)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+TCM transmits transmission shift position signal to RBS control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+BCM
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<list1 type = "unordered">
+<item>
+<ptxt>
+BCM transmits turn signal switch status etc. to RBS control module through CAN communication.
+</ptxt>
+</item>
+<item>
+<ptxt>
+RBS control module uses turn signal switch status to judge overtaking action.
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Dual sensor brake support control module
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle">
+<ptxt>
+Dual sensor brake support control module transmits dual sensor brake support control request signal etc. to RBS control module through CAN communication.
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

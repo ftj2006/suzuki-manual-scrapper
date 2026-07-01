@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1A">
+<servcat sctnbr = "01" scnbr = "01">
+<configtype typenbr = "1">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENKSB0A1114087" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC P226D
+</title>
+<servinfosub id = "AENKSB0A1114087001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "4.295in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.902in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "middle" align = "center">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1" valign = "top" align = "left">
+<ptxt>
+<emph etype = "bold">
+P226D: Particulate Filter Deteriorated / Missing Substrate Bank1
+</emph>
+</ptxt>
+<ptxt>
+GPF pressure during acceleration is lower than the specified value.
+</ptxt>
+<ptxt>
+(1 D/C detection logic but MIL does not light up)
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Exhaust system
+</ptxt>
+</item>
+<item>
+<ptxt>
+GPF pressure sensor hose
+</ptxt>
+</item>
+<item>
+<ptxt>
+GPF pressure sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Catalytic converter with GPF
+</ptxt>
+</item>
+<item>
+<ptxt>
+ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENKSB0A1114087002">
+<title>
+DTC Confirmation Procedure
+</title>
+<attention1>
+<ptxt>
+If you do not select a suitable route and take proper precautions when performing a road test, an accident can occur.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Select a level road with no traffic to minimize the risk of accident.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the test extremely carefully.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Perform the road test using 2 persons, a driver and a tester.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<attention3>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Limit the driving speed permissible in road conditions and regulations.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that the following DTCs are not detected in this “DTC Confirmation Procedure”.
+</ptxt>
+</item>
+<list2 type = "unordered">
+<item>
+<ptxt>
+GPF pressure sensor (P2454 and P2455)
+</ptxt>
+</item>
+</list2>
+</list1>
+</attention3>
+<topic id = "AENKSB0A1114087004">
+<title>
+M/T model
+</title>
+<s1>
+<ptxt>
+Drive vehicle at 100 km/h (62 mile/h) with 4th gear.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release accelerator pedal till vehicle speed reached 70 km/h (44 mile/h) with 4th gear.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Depress accelerator pedal completely for 5 sec. till vehicle speed reached 100 km/h (62 mile/h) with 4th gear.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Repeat step 2) and 3) for more than 5 times.
+</ptxt>
+</s1>
+</topic>
+<topic id = "AENKSB0A1114087010">
+<title>
+A/T model
+</title>
+<s1>
+<ptxt>
+Drive vehicle at 80 km/h (50 mile/h) with D range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Release accelerator pedal till vehicle speed reached 50 km/h (30 mile/h) with D range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Depress accelerator pedal completely for 5 sec. till vehicle speed reached 80 km/h (50 mile/h) with D range.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Repeat step 2) and 3) for more than 5 times.
+</ptxt>
+</s1>
+</topic>
+</servinfosub>
+<servinfosub id = "AENKSB0A1114087006">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENKSB0A1114087007">
+<testgroup id = "AENKSB0A1114087008">
+<question>
+Was “Engine and Emission Control System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENKSB0A1114001">Engine and Emission Control System Check:K10C</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1114087009">
+<title>
+DTC check
+</title>
+<question>
+Is there any DTC(s) other than P226D?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1114087013">
+<title>
+GPF pressure sensor hose check
+</title>
+<test1>
+<ptxt>
+Check GPF pressure sensor hoses are installed correctly to the sensor. 
+<intxreftitleoff1 refid = "AENKSB0A1216010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Install GPF pressure sensor hoses correctly.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1114087014">
+<title>
+GPF pressure sensor check
+</title>
+<test1>
+<ptxt>
+Check GPF pressure sensor. 
+<intxreftitleoff1 refid = "AENKSB0A1216011"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace GPF pressure sensor. 
+<intxreftitleoff1 refid = "AENKSB0A1216010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENKSB0A1114087015">
+<title>
+DTC recheck
+</title>
+<test1>
+<ptxt>
+Replace catalytic converter with GPF. 
+<intxreftitleoff1 refid = "AENKSB0A1B16002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Clear DTC. 
+<intxreftitleoff1 refid = "AENKSB0A1114004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Set ignition “OFF”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Perform “DTC Confirmation Procedure”, and check DTC.
+</ptxt>
+</test1>
+<question>
+Is DTC P226D still detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ECM and recheck DTC. 
+<intxreftitleoff1 refid = "AENKSB0A1316001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+End. (Catalytic converter with GPF was faulty)
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

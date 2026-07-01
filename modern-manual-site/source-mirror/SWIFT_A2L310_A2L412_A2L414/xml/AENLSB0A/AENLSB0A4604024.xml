@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "4F">
+<servcat sctnbr = "04" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0A4604024" svcinfotypenbr = "06" svcinfoqualnbr = "02" supplyoff = "1" modify = "0">
+<title>
+DTC C102B
+</title>
+<servinfosub id = "AENLSB0A4604024001">
+<title>
+DTC Detecting Condition and Trouble Area
+</title>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "4.085in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.113in"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+DTC detecting condition
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+Trouble area
+</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<ptxt>
+<emph etype = "bold">
+C102B: Brake Booster Pressure Sensor System Malfunction
+</emph>
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake booster pressure sensor signal is kept stuck.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake booster pressure sensor signal is out of specified range.
+</ptxt>
+</item>
+</list1>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "1" border-right = "1">
+<list1 type = "unordered">
+<item>
+<ptxt>
+Brake booster pressure sensor
+</ptxt>
+</item>
+<item>
+<ptxt>
+Brake booster pressure sensor circuit
+</ptxt>
+</item>
+<item>
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</item>
+<item>
+<ptxt>
+Barometric pressure sensor in ECM
+</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604024002">
+<title>
+Circuit Diagram
+</title>
+<figure>
+<graphic graphicname = "ILSB0A460011.swf" width = "183.000mm" height = "77.605mm" ver = "01" gw = "440" gh = "203"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "6" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "2.362in"/>
+<colspec colnum = "3" colname = "3" colwidth = "0.315in"/>
+<colspec colnum = "4" colname = "4" colwidth = "2.165in"/>
+<colspec colnum = "5" colname = "5" colwidth = "0.315in"/>
+<colspec colnum = "6" colname = "6" colwidth = "1.575in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+[A]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+ESP<sup>&#174;</sup> control module connector (View: [a])
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+A2:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake booster pressure sensor signal circuit
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+1.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake booster pressure sensor
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+A1:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake booster pressure sensor power supply circuit
+</ptxt>
+</entry>
+<entry colname = "3" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+A3:
+</ptxt>
+</entry>
+<entry colname = "4" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+Brake booster pressure sensor ground circuit
+</ptxt>
+</entry>
+<entry colname = "5" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" valign = "top" align = "right">
+<ptxt>
+2.
+</ptxt>
+</entry>
+<entry colname = "6" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1">
+<ptxt>
+ESP<sup>&#174;</sup> control module
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</servinfosub>
+<servinfosub id = "AENLSB0A4604024003">
+<title>
+DTC Troubleshooting
+</title>
+<diag type = "test" id = "AENLSB0A4604024004">
+<testgroup id = "AENLSB0A4604024005">
+<title>
+DTC check for ECM
+</title>
+<test1>
+<ptxt>
+Check ECM for DTC.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1114003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1124003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is DTC P2226 and/or P2227 detected?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to troubleshooting for applicable DTC.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 2.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604024006">
+<question>
+Was “ESP<sup>&#174;</sup> System Check” performed?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 3.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to 
+<intxref refid = "AENLSB0A4604001">ESP&#174; System Check</intxref>
+.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604024007">
+<title>
+Brake booster pressure sensor power supply circuit check
+</title>
+<test1>
+<ptxt>
+With ignition “OFF”, disconnect brake booster pressure sensor connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper terminal connection to brake booster pressure sensor connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connection is OK, set ignition “ON”.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check that voltage between “A1” and “A3” circuit is approx. 5 V.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 5.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Go to Step 4.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604024008">
+<title>
+Brake booster pressure sensor ground circuit check
+</title>
+<test1>
+<ptxt>
+Check that voltage between “A1” circuit and ground is approx. 5 V.
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Repair or replace “A3” circuit. If DTC C102B is still detected, replace ESP<sup>&#174;</sup> hydraulic unit / control module assembly and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace “A1” circuit. If DTC C102B is still detected, replace ESP<sup>&#174;</sup> hydraulic unit / control module assembly and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604024009">
+<title>
+Brake booster pressure sensor signal circuit check
+</title>
+<test1>
+<ptxt>
+With ignition “OFF”, disconnect “E09” connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+Check for proper terminal connection to “E09” connector.
+</ptxt>
+</test1>
+<test1>
+<ptxt>
+If connection is OK, check the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Resistance of “A2” circuit: less than 1 &#937;
+</ptxt>
+</item>
+<item>
+<ptxt>
+Resistance between “A2” circuit and ground: infinity
+</ptxt>
+</item>
+<item>
+<ptxt>
+Resistance between “A2” circuit terminal and other terminal at “E09” connector: infinity
+</ptxt>
+</item>
+<item>
+<ptxt>
+Voltage of “A2” circuit: approx. 0 V (When ignition is “ON”)
+</ptxt>
+</item>
+</list1>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Go to Step 6.
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Repair or replace defective wire harness.
+</ptxt>
+</action>
+</testgroup>
+<testgroup id = "AENLSB0A4604024010">
+<title>
+Brake booster pressure sensor check
+</title>
+<test1>
+<ptxt>
+Check brake booster pressure sensor. 
+<intxreftitleoff1 refid = "AENLSB0A4106026"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</test1>
+<question>
+Is check result OK?
+</question>
+<result type = "yes"/>
+<action>
+<ptxt>
+Replace ESP<sup>&#174;</sup> hydraulic unit / control module assembly and recheck DTC. 
+<intxreftitleoff1 refid = "AENLSB0A4606005"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<result type = "no"/>
+<action>
+<ptxt>
+Replace brake booster assembly. 
+<intxreftitleoff1 refid = "AENLSB0A4106023"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+</testgroup>
+</diag>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

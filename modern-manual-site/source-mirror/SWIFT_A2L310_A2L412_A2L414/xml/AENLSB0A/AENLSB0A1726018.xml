@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1G">
+<servcat sctnbr = "01" scnbr = "07">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1726018" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Fuel Tank Removal and Installation
+</title>
+<ptxt>
+Before performing the following procedure, observe 
+<intxref refid = "AENLSB0A1720001">Precautions for Fuel System Service:K14D</intxref>
+.
+</ptxt>
+<servinfosub id = "AENLSB0A1726018001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Relieve fuel pressure from fuel feed line. 
+<intxreftitleoff1 refid = "AENLSB0A1726003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove fuel filler cap.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Insert hose of a hand operated pump into fuel filler hose (1) and pump out fuel in space “a” shown in figure.
+</ptxt>
+<attention1>
+<ptxt>
+There is a risk of fire or explosion due to static electricity if the drained fuel is stored in an open container or plastic container.
+</ptxt>
+<ptxt>
+Store the fuel in a sealed metal container.
+</ptxt>
+</attention1>
+<attention4>
+<ptxt>
+The hose of the hand operated pump could damage the fuel tank inlet valve if excessive force is applied when inserting or removing it to or from the fuel tank.
+</ptxt>
+<ptxt>
+Do not apply excessive force when inserting or removing the hose of the hand operated pump.
+</ptxt>
+</attention4>
+<figure>
+<graphic graphicname = "IBP70A170006.swf" width = "88.000mm" height = "26.327mm" ver = "01" gw = "164" gh = "58"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Hoist vehicle.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove clamps (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect breather hose (2) and air suction hose (3) and turn plastic clamp (4).
+</ptxt>
+<attention4>
+<ptxt>
+The plastic clamp could be damaged if excessive force is applied when turning it.
+</ptxt>
+<ptxt>
+Turn plastic clamp carefully.
+</ptxt>
+</attention4>
+<figure>
+<graphic graphicname = "IGSB0A171019.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove clamp (1) and fuel filler hose (2) from fuel tank.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171020.jpg" width = "88.000mm" height = "56.461mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove exhaust center pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1B26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove parking brake cable nut (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect quick joints (2) from fuel pipes (3). 
+<intxreftitleoff1 refid = "AENLSB0A1726002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171021.jpg" width = "88.000mm" height = "56.631mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Support fuel tank (1) with jack (2) and remove its mounting bolts.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A174026.jpg" width = "88.000mm" height = "57.047mm" ver = "01" gw = "199" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Lower fuel tank a little to disconnect fuel pump connector (1), and then remove fuel tank.
+</ptxt>
+<attention4>
+<ptxt>
+Applying tension to the fuel pump harness will cause damage to the fuel pump and the fuel pump harness when lowering the fuel tank.
+</ptxt>
+<ptxt>
+Disconnect the fuel pump connector with the fuel tank lowered to a height at which tension is not applied to the fuel pump harness.
+</ptxt>
+</attention4>
+<figure>
+<graphic graphicname = "IGSB0A171023.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove EVAP canister, if necessary. 
+<intxreftitleoff1 refid = "AENLSB0A1226001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+If necessary, remove fuel tank components as follows.
+</ptxt>
+<s2>
+<ptxt>
+Remove fuel pump. 
+<intxreftitleoff1 refid = "AENLSB0A1726022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Drain fuel.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Remove fuel tank baffle plate (1) in numerical order (“1” – “2”).
+</ptxt>
+<figure>
+<graphic graphicname = "IGRA0A173005.swf" width = "88.000mm" height = "55.688mm" ver = "01" gw = "194" gh = "141"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Remove fuel tank belt.
+</ptxt>
+</s2>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1726018002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1726019">Fuel Tank Inspection:K14D</intxrefpoff>
+</ptxt>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1726020">Fuel Tank Flushing Procedure:K14D</intxrefpoff>
+</ptxt>
+<attention1>
+<ptxt>
+Failure to take proper precautions when reinstalling the fuel tank connections can result in fuel leakage or damage.
+</ptxt>
+<ptxt>
+Clean the outside surface of the pipe where each quick joint is to be installed, push the pipe into the joint until the joint lock clicks, and then check that the pipe is connected securely.
+</ptxt>
+</attention1>
+<s1>
+<ptxt>
+If removed, install fuel tank components as follows.
+</ptxt>
+<s2>
+<ptxt>
+Install fuel tank baffle plate (1) in numerical order (“1” – “2”).
+</ptxt>
+<figure>
+<graphic graphicname = "IGRA0A173006.swf" width = "88.000mm" height = "55.657mm" ver = "01" gw = "194" gh = "141"/>
+</figure>
+</s2>
+<s2>
+<ptxt>
+Install fuel pump. 
+<intxreftitleoff1 refid = "AENLSB0A1726022"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Install fuel tank belt.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Install EVAP canister, if removed. 
+<intxreftitleoff1 refid = "AENLSB0A1226001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Raise fuel tank with jack and connect fuel pump connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install fuel tank (1) to vehicle and tighten new fuel tank bolts (2) to specified torque.
+</ptxt>
+<attention4>
+<ptxt>
+The fuel tank bolts are pre-coated with friction stabilizer. If the bolts are reused, they may work loose.
+</ptxt>
+<ptxt>
+Use the new fuel tank bolts.
+</ptxt>
+</attention4>
+<torque>
+<torqueitem id = "T1G212">
+<t-part>
+Fuel tank bolt
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+14
+</t-value1>
+<t-value2>
+1.4
+</t-value2>
+<t-value3>
+10.5
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IGSB0A171024.jpg" width = "88.000mm" height = "53.667mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect fuel filler hose (2) to fuel tank and clamp (1) them securely.
+</ptxt>
+<ptxt>
+For proper installation, refer to 
+<intxref refid = "AENLSB0A1726002">Fuel Hose Disconnection and Reconnection:K14D</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171020.jpg" width = "88.000mm" height = "56.461mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Turn plastic clamp (1).
+</ptxt>
+<attention4>
+<ptxt>
+The plastic clamp could be damaged if excessive force is applied when turning it.
+</ptxt>
+<ptxt>
+Turn plastic clamp carefully.
+</ptxt>
+</attention4>
+</s1>
+<s1>
+<ptxt>
+Connect breather hose (2) and air suction hose (3) and clamps (4) them securely.
+</ptxt>
+<ptxt>
+For proper installation, refer to 
+<intxref refid = "AENLSB0A1726002">Fuel Hose Disconnection and Reconnection:K14D</intxref>
+.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171025.jpg" width = "88.000mm" height = "53.712mm" ver = "01" gw = "199" gh = "136"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Connect quick joints (2) to fuel pipes (3). 
+<intxreftitleoff1 refid = "AENLSB0A1726002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Tighten parking brake cable nut (1) to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A4406001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A171021.jpg" width = "88.000mm" height = "56.631mm" ver = "01" gw = "199" gh = "144"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Install exhaust center pipe. 
+<intxreftitleoff1 refid = "AENLSB0A1B26004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Install fuel filler cap.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Connect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+With engine stopped, set ignition “ON” and check for fuel leakage. 
+<intxreftitleoff1 refid = "AENLSB0A1726004"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

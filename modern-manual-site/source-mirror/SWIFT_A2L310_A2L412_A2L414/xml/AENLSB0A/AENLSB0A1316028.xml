@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "1C">
+<servcat sctnbr = "01" scnbr = "03">
+<configtype typenbr = "1">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A1316028" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Boost Pressure Sensor with IAT Sensor-2 Removal and Installation
+</title>
+<servinfosub id = "AENLSB0A1316028001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Disconnect negative (–) cable at battery.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect boost pressure sensor with IAT sensor-2 connector.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove boost pressure sensor with IAT sensor-2 (1) from intercooler outlet pipe No.2.
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0A134017.jpg" width = "88.000mm" height = "54.853mm" ver = "01" gw = "199" gh = "139"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A1316028002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A1316029">Boost Pressure Sensor with IAT Sensor-2 Inspection:K14C</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following point.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check O-ring of boost pressure sensor with IAT sensor-2 for deformation or damage.
+</ptxt>
+<ptxt>
+If defect is found, replace boost pressure sensor with IAT sensor-2.
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

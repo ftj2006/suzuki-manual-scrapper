@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "9F">
+<servcat sctnbr = "09" scnbr = "06">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A9606011" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+Rearend Door Latch On-Vehicle Inspection
+</title>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Check that rearend door opens and closes smoothly.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that rearend door closes completely.
+</ptxt>
+</item>
+</list1>
+<servinfosub id = "AENLSB0A9606011001">
+<title>
+Rearend Door Opener Actuator
+</title>
+<s1>
+<ptxt>
+Remove rearend door trim. 
+<intxreftitleoff1 refid = "AENLSB0A9606010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect rearend door lock connector (1) from rearend door lock assembly (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A960021.jpg" width = "88.000mm" height = "67.637mm" ver = "01" gw = "214" gh = "175"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Check operation of motor with battery voltage applied to the following terminals of rearend door lock connector.
+</ptxt>
+<ptxt>
+Replace rearend door lock assembly if defective.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A960022.jpg" width = "88.000mm" height = "89.445mm" ver = "01" gw = "214" gh = "237"/>
+</figure>
+<figure>
+<title>
+Rearend door opener actuator operation
+</title>
+<graphic graphicname = "IGSB0A960023.swf" width = "88.000mm" height = "19.107mm" ver = "01" gw = "130" gh = "38"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A9606011002">
+<title>
+Rearend Door Switch
+</title>
+<s1>
+<ptxt>
+Remove rearend door trim. 
+<intxreftitleoff1 refid = "AENLSB0A9606010"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect rearend door lock connector (1) from rearend door lock assembly (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that there is continuity between the following terminals when rearend door is opened.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Check that there is no continuity between terminals when rearend door is closed.
+</ptxt>
+<ptxt>
+If check result is not as specified, replace rearend door lock assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A960024.jpg" width = "88.000mm" height = "67.637mm" ver = "01" gw = "214" gh = "175"/>
+</figure>
+<figure>
+<title>
+Rearend door switch continuity
+</title>
+<graphic graphicname = "IGSB0A960025.swf" width = "88.000mm" height = "24.752mm" ver = "01" gw = "120" gh = "54"/>
+</figure>
+</s1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "4">
+<servinfo servinfosgmlid = "AENLSB0AA124A06" svcinfotypenbr = "06" svcinfoqualnbr = "03">
+<title>
+Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch
+</title>
+<attention3>
+<ptxt>
+Adaptive cruise control system is controlled by the RBS control module communicating with ESP<sup>®</sup> control module, BCM, ECM, TCM (A/T model), lighting and turn signal switch, dual sensor brake support control module and combination meter through CAN communication. Before performing symptom diagnosis, check that no DTC is indicated in these control modules.
+</ptxt>
+</attention3>
+<diag type = "condition">
+<condition>
+<ptxt>
+Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch
+</ptxt>
+</condition>
+<ps>
+<ptxt>
+Adaptive cruise control was canceled by means other than recoverable condition.
+</ptxt>
+</ps>
+<action>
+<ptxt>
+—
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty RES/+ switch
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check RES/+ switch. 
+<intxreftitleoff1 refid = "AENLSB0AA126003"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty wiring or grounding
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Repair wiring.
+</ptxt>
+</action>
+<ps>
+<ptxt>
+Faulty ECM
+</ptxt>
+</ps>
+<action>
+<ptxt>
+Check ECM.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+K14C model: 
+<intxreftitleoff1 refid = "AENLSB0A1114082"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+K14D model: 
+<intxreftitleoff1 refid = "AENLSB0A1124088"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</action>
+</diag>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

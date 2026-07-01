@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10D">
+<servcat sctnbr = "10" scnbr = "04">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA406005" svcinfotypenbr = "08" svcinfoqualnbr = "03" page = "2" supplyoff = "1" modify = "0">
+<title>
+TPMS Setting Procedure
+</title>
+<ptxt>
+The Tire Placard (1) affixed to vehicle body indicates two types of setting modes for TPMS, “Comfort (Unladen)” (2) and “Load (Laden)” (3). The system is set to “Comfort” as default.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AA40011.swf" width = "88.000mm" height = "55.438mm" ver = "01" gw = "183" gh = "141"/>
+</figure>
+<ptxt>
+When changing the tire pressure to suit the driving condition, the TPMS setting mode also needs to be changed as follows.
+</ptxt>
+<s1>
+<ptxt>
+Set ignition “ON”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Push and hold indicator selector knob (1) for more than 3 seconds.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Turn the indicator selector knob to left or right and select “TPMS” (2).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Turn the indicator selector knob to left or right and select “TPMS Mode” (3).
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AA40014.swf" width = "88.000mm" height = "71.146mm" ver = "01" gw = "226" gh = "185"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Select a mode from “Comfort Mode” (1) or “Load Mode” (2) depending on tire pressure to be set.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Push indicator selector knob. Registration is complete if “Successful” (3) is displayed.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0AA40015.swf" width = "88.000mm" height = "36.561mm" ver = "01" gw = "236" gh = "87"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Adjust the tire pressure to the specified range depending on the configured setting mode.
+</ptxt>
+</s1>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

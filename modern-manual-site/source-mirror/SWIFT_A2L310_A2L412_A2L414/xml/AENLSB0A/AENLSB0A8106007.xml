@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "8A">
+<servcat sctnbr = "08" scnbr = "01">
+<configtype typenbr = "0">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0A8106007" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+Side Rear Seat Belt Assembly Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106006">Rear Seat Belt Components</intxrefpoff>
+</ptxt>
+<attention1>
+<ptxt>
+For 10-channel air bag system, failure to take proper precautions when servicing seat belt pretensioner may result in personal injury.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Do not disassemble or repair seat belt components. If any abnormalities are found, replace the seat belt components with a new replacement set.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Before servicing the seat belt, read 
+<intxref refid = "AENLSB0A8100001">Precautions for Service and Diagnosis of Seat Belt</intxref>
+ and follow all the instructions provided.
+</ptxt>
+</item>
+</list1>
+</attention1>
+<servinfosub id = "AENLSB0A8106007001">
+<title>
+Removal
+</title>
+<attention3>
+<ptxt>
+For 10-channel air bag system, refer to 
+<intxref refid = "AENLSB0A8204055">Repair and Inspection Required after Accident</intxref>
+ before replacing an activated pretensioner.
+</ptxt>
+</attention3>
+<s1>
+<ptxt>
+For 10-channel air bag system, disable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear seat assembly. 
+<intxreftitleoff1 refid = "AENLSB0A9706007"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove rear quarter inner lower trim. 
+<intxreftitleoff1 refid = "AENLSB0A9806016"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+For 10-channel air bag system, disconnect rear seat belt pretensioner connector (1) from rear seat belt pretensioner (2) as follows.
+</ptxt>
+<s2>
+<ptxt>
+Release lock button (3) by pulling it in arrow direction “1”.
+</ptxt>
+</s2>
+<s2>
+<ptxt>
+Disconnect rear seat belt pretensioner connector with lock released by pulling it in arrow direction “2”.
+</ptxt>
+</s2>
+</s1>
+<s1>
+<ptxt>
+Remove rear seat belt bolts (4), and then remove rear seat belt assembly.
+</ptxt>
+<figure>
+<graphic graphicname = "IGSB0A810007.swf" width = "88.000mm" height = "60.599mm" ver = "01" gw = "199" gh = "155"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0A8106007002">
+<title>
+Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0A8106009">Rear Seat Belt Assembly Inspection</intxrefpoff>
+</ptxt>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Fit claw (2) on seat belt pretensioner (1) into cutout (3) on body panel.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Tighten bolts of rear seat belt assembly in numerical order to specified torque. 
+<intxreftitleoff1 refid = "AENLSB0A8106006"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+<item>
+<ptxt>
+For 10-channel air bag system, connect rear seat belt pretensioner connector (4) to rear seat belt pretensioner as follows.
+</ptxt>
+</item>
+<list2 type = "ordered">
+<item>
+<ptxt>
+Connect rear seat belt pretensioner connector to seat belt pretensioner with lock button (5) released by pushing it in arrow direction “1”.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Press lock button to lock connector securely by pushing it in arrow direction “2”.
+</ptxt>
+<figure>
+<graphic graphicname = "IKSB0A810001.swf" width = "88.000mm" height = "61.894mm" ver = "01" gw = "199" gh = "159"/>
+</figure>
+</item>
+</list2>
+<item>
+<ptxt>
+Do not step on vehicle bead (2) when installing anchor plate (1).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Fit tab (3) of right-side and center rear seat belt buckle (4) to hole (5) of floor panel.
+</ptxt>
+<figure>
+<graphic graphicname = "IFRA0A810007.swf" width = "88.000mm" height = "40.116mm" ver = "01" gw = "202" gh = "97"/>
+<callout>
+<table frame = "all" colsep = "1" rowsep = "1">
+<tgroup cols = "2" colsep = "1" rowsep = "1">
+<colspec colnum = "1" colname = "1" colwidth = "0.315in"/>
+<colspec colnum = "2" colname = "2" colwidth = "3.071in"/>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[A]: 
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Side rear seat belt assembly and left-side rear seat belt buckle
+</ptxt>
+</entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1" border-top = "1" border-bottom = "1" border-left = "1" border-right = "0" align = "right">
+<ptxt>
+[B]:
+</ptxt>
+</entry>
+<entry colname = "2" border-top = "1" border-bottom = "1" border-left = "0" border-right = "1" align = "left">
+<ptxt>
+Right-side and center rear seat belt buckle
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</item>
+<item>
+<ptxt>
+For 10-channel air bag system, enable air bag system. 
+<intxreftitleoff1 refid = "AENLSB0A8206002"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>

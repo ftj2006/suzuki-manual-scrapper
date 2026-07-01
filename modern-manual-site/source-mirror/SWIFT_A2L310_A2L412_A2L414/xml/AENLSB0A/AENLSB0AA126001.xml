@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="..\config8\suzuki.xsl" ?>
+<!DOCTYPE suzuki [
+<!ENTITY % sdatacharaents SYSTEM "..\config8\sdatacharaents.txt">
+%sdatacharaents;
+]>
+<suzuki><manual>
+<section sectnbr = "10A">
+<servcat sctnbr = "10" scnbr = "01">
+<configtype typenbr = "2">
+<servinfotype sitcode = "6">
+<servinfo servinfosgmlid = "AENLSB0AA126001" svcinfotypenbr = "08" svcinfoqualnbr = "01" page = "2" supplyoff = "1" modify = "0">
+<title>
+RBS Control Module Removal and Installation
+</title>
+<ptxt>
+<intxrefpoff refid = "AENLSB0AA126004">RBS Control Module Components:Adaptive Cruise Control</intxrefpoff>
+</ptxt>
+<attention4>
+<ptxt>
+Removal of RBS control module may weaken clips’ retaining force and cause looseness or dropping off of RBS control module after reinstallation.
+</ptxt>
+<ptxt>
+Replace the clips with new ones when reinstalling RBS control module.
+</ptxt>
+</attention4>
+<servinfosub id = "AENLSB0AA126001001">
+<title>
+Removal
+</title>
+<s1>
+<ptxt>
+Check that ignition is “OFF”.
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove front bumper. 
+<intxreftitleoff1 refid = "AENLSB0A9806001"><img src = "..\icon\intxreftitleoff.gif"/></intxreftitleoff1>
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Remove RBS control module inner cover (1).
+</ptxt>
+</s1>
+<s1>
+<ptxt>
+Disconnect connector and remove RBS control module (2).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12010.jpg" width = "88.000mm" height = "57.934mm" ver = "01" gw = "228" gh = "148"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove RBS control module bracket (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12011.jpg" width = "88.000mm" height = "57.054mm" ver = "01" gw = "227" gh = "145"/>
+</figure>
+</s1>
+<s1>
+<ptxt>
+Remove clips (1).
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12012.jpg" width = "88.000mm" height = "57.054mm" ver = "01" gw = "159" gh = "145"/>
+</figure>
+</s1>
+</servinfosub>
+<servinfosub id = "AENLSB0AA126001002">
+<title>
+Installation
+</title>
+<ptxt>
+Reverse removal procedure noting the following points.
+</ptxt>
+<list1 type = "unordered">
+<item>
+<ptxt>
+Use new clips (1).
+</ptxt>
+</item>
+<item>
+<ptxt>
+Insert new clip to RBS control module bracket (2) at each hole and turn it clockwise until it stops.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12013.jpg" width = "88.000mm" height = "57.054mm" ver = "01" gw = "159" gh = "145"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Tighten RBS control module bracket nuts to specified torque.
+</ptxt>
+<torque>
+<torqueitem id = "T10A201">
+<t-part>
+RBS control module bracket nut
+</t-part>
+<t-part1>
+a
+</t-part1>
+<t-value1>
+12
+</t-value1>
+<t-value2>
+1.2
+</t-value2>
+<t-value3>
+9.0
+</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname = "IHSB0AAA1009.jpg" width = "88.000mm" height = "57.054mm" ver = "01" gw = "227" gh = "145"/>
+</figure>
+</item>
+<item>
+<ptxt>
+Install RBS control module (1) inserting aiming bolts (2) to clips (3) until tightness is felt.
+</ptxt>
+<figure>
+<graphic graphicname = "ILSB0AA12014.jpg" width = "88.000mm" height = "57.054mm" ver = "01" gw = "228" gh = "145"/>
+</figure>
+</item>
+<item>
+<ptxt>
+When RBS control module is replaced with new one, perform 
+<intxref refid = "AENLSB0AA126005">Millimeter Wave Radar Variant Registration:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+After installation, perform 
+<intxref refid = "AENLSB0AA126002">Millimeter Wave Radar Aiming Adjustment:Adaptive Cruise Control</intxref>
+.
+</ptxt>
+</item>
+<item>
+<ptxt>
+Check that RBS control module inner cover surface (1) is flush with the top surface (3) of the RBS control module (2).
+</ptxt>
+<figure>
+<graphic graphicname = "IHSB0AAA1013.jpg" width = "88.000mm" height = "70.008mm" ver = "01" gw = "227" gh = "182"/>
+</figure>
+</item>
+</list1>
+</servinfosub>
+</servinfo>
+</servinfotype>
+</configtype>
+</servcat>
+</section></manual></suzuki>
