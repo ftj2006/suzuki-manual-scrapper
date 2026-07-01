@@ -53,8 +53,9 @@ function setSidebarCollapsed(collapsed) {
     els.layout.classList.toggle("sidebar-collapsed", collapsed);
   }
   if (els.sidebarToggle) {
-    els.sidebarToggle.textContent = collapsed ? "Expand" : "Collapse";
+    els.sidebarToggle.textContent = collapsed ? ">>" : "<<";
     els.sidebarToggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    els.sidebarToggle.setAttribute("aria-label", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
     els.sidebarToggle.setAttribute("title", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
   }
   localStorage.setItem(sidebarCollapsedStorageKey, collapsed ? "1" : "0");

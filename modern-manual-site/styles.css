@@ -160,6 +160,8 @@ body {
   padding: 5px 8px;
   border-radius: 8px;
   font-size: 0.82rem;
+  min-width: 42px;
+  font-family: var(--mono);
 }
 
 .sidebar.collapsed .sidebar-header input,
@@ -169,6 +171,15 @@ body {
 
 .sidebar.collapsed .sidebar-header {
   border-bottom: 0;
+}
+
+.sidebar.collapsed .sidebar-header-row {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.sidebar.collapsed .sidebar-header h2 {
+  display: none;
 }
 
 .sidebar-header input {
