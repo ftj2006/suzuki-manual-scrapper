@@ -64,8 +64,12 @@ jobs:
               while IFS= read -r -d '' src; do
                 rel="${src#$legacy_xml_root/}"
                 dest="_site/source-mirror/$rel"
+                parent_dir="$(dirname "$dest")"
                 if [ ! -e "$dest" ]; then
-                  mkdir -p "$(dirname "$dest")"
+                  if [ -e "$parent_dir" ] && [ ! -d "$parent_dir" ]; then
+                    continue
+                  fi
+                  mkdir -p "$parent_dir"
                   cp "$src" "$dest"
                 fi
               done < <(
