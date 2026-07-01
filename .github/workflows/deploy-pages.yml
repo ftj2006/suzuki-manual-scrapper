@@ -44,9 +44,14 @@ jobs:
           rm -rf _site
           mkdir -p _site
 
-          # Stage modern viewer plus shared static assets it references.
+          # Publish the modern viewer at repository root.
           # Keep the legacy frame-based suzuki-manual app excluded.
-          for path in index.html 404.html .nojekyll modern-manual-site manuals-index; do
+          if [ -d modern-manual-site ]; then
+            cp -R modern-manual-site/. _site/
+          fi
+
+          # Keep supplemental top-level routes/files that are still needed.
+          for path in 404.html .nojekyll manuals-index; do
             if [ -e "$path" ]; then
               cp -R "$path" _site/
             fi
