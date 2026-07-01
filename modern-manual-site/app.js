@@ -55,6 +55,11 @@ function submodelStorageKey(datasetId) {
 const datasetStorageKey = "manual-next-dataset";
 const sidebarCollapsedStorageKey = "manual-next-sidebar-collapsed";
 const sidebarWidthStorageKey = "manual-next-sidebar-width";
+const sidebarHeightStorageKey = "manual-next-sidebar-height";
+
+function isPortraitSidebarLayout() {
+  return window.matchMedia("(max-width: 980px) and (orientation: portrait)").matches;
+}
 
 function clampSidebarWidth(width) {
   const minWidth = 240;
@@ -74,18 +79,54 @@ function applySidebarWidth(width, persist = true) {
   }
 }
 
+function clampSidebarHeight(height) {
+  const minHeight = 170;
+  const maxHeight = Math.max(minHeight, window.innerHeight - 300);
+  return Math.min(maxHeight, Math.max(minHeight, height));
+}
+
+function applySidebarHeight(height, persist = true) {
+  if (!els.layout || !Number.isFinite(height)) {
+    return;
+  }
+
+  const clamped = clampSidebarHeight(height);
+  els.layout.style.setProperty("--sidebar-height", `${Math.round(clamped)}px`);
+  if (persist) {
+    localStorage.setItem(sidebarHeightStorageKey, String(Math.round(clamped)));
+  }
+}
+
+function updateSidebarTogglePresentation(collapsed) {
+  if (!els.sidebarToggle) {
+    return;
+  }
+
+  const portrait = isPortraitSidebarLayout();
+  const expandedSymbol = portrait ? "^^" : "<<";
+  const collapsedSymbol = portrait ? "vv" : ">>";
+
+  els.sidebarToggle.textContent = collapsed ? collapsedSymbol : expandedSymbol;
+  els.sidebarToggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+  els.sidebarToggle.setAttribute("aria-label", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
+  els.sidebarToggle.setAttribute("title", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
+}
+
 function setupSidebarResizer() {
   if (!els.sidebarResizer || !els.layout || !els.sidebar) {
     return;
   }
 
   let dragging = false;
-  let startX = 0;
-  let startWidth = 0;
+  let startPrimary = 0;
+  let startSize = 0;
+  let portraitMode = false;
 
   const endDrag = () => {
     dragging = false;
+    portraitMode = false;
     document.body.classList.remove("sidebar-resizing");
+    document.body.classList.remove("sidebar-resizing-vertical");
   };
 
   els.sidebarResizer.addEventListener("pointerdown", (event) => {
@@ -93,10 +134,16 @@ function setupSidebarResizer() {
       return;
     }
 
+    portraitMode = isPortraitSidebarLayout();
     dragging = true;
-    startX = event.clientX;
-    startWidth = els.sidebar.getBoundingClientRect().width;
+    startPrimary = portraitMode ? event.clientY : event.clientX;
+    startSize = portraitMode
+      ? els.sidebar.getBoundingClientRect().height
+      : els.sidebar.getBoundingClientRect().width;
     document.body.classList.add("sidebar-resizing");
+    if (portraitMode) {
+      document.body.classList.add("sidebar-resizing-vertical");
+    }
     els.sidebarResizer.setPointerCapture?.(event.pointerId);
     event.preventDefault();
   });
@@ -105,7 +152,12 @@ function setupSidebarResizer() {
     if (!dragging) {
       return;
     }
-    const next = startWidth + (event.clientX - startX);
+    if (portraitMode) {
+      const next = startSize + (event.clientY - startPrimary);
+      applySidebarHeight(next);
+      return;
+    }
+    const next = startSize + (event.clientX - startPrimary);
     applySidebarWidth(next);
   });
 
@@ -124,10 +176,20 @@ function setupSidebarResizer() {
   });
 
   window.addEventListener("resize", () => {
-    const current = Number.parseInt(getComputedStyle(els.layout).getPropertyValue("--sidebar-width"), 10);
-    if (Number.isFinite(current)) {
-      applySidebarWidth(current, false);
+    if (isPortraitSidebarLayout()) {
+      const currentHeight = Number.parseInt(getComputedStyle(els.layout).getPropertyValue("--sidebar-height"), 10);
+      if (Number.isFinite(currentHeight)) {
+        applySidebarHeight(currentHeight, false);
+      }
+    } else {
+      const currentWidth = Number.parseInt(getComputedStyle(els.layout).getPropertyValue("--sidebar-width"), 10);
+      if (Number.isFinite(currentWidth)) {
+        applySidebarWidth(currentWidth, false);
+      }
     }
+
+    const collapsed = els.sidebar?.classList.contains("collapsed") || false;
+    updateSidebarTogglePresentation(collapsed);
   });
 }
 
@@ -138,12 +200,7 @@ function setSidebarCollapsed(collapsed) {
   if (els.layout) {
     els.layout.classList.toggle("sidebar-collapsed", collapsed);
   }
-  if (els.sidebarToggle) {
-    els.sidebarToggle.textContent = collapsed ? ">>" : "<<";
-    els.sidebarToggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
-    els.sidebarToggle.setAttribute("aria-label", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
-    els.sidebarToggle.setAttribute("title", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
-  }
+  updateSidebarTogglePresentation(collapsed);
   localStorage.setItem(sidebarCollapsedStorageKey, collapsed ? "1" : "0");
 }
 
@@ -721,6 +778,20 @@ function imageUrlCandidates(rawUrl, sourceUrl) {
   }
 
   candidates.push(primary);
+
+  // Foreword and similar legacy HTML pages sometimes reference images that only
+  // exist under the old upload tree, not in source-mirror.
+  try {
+    const primaryUrl = new URL(primary);
+    const sourceMirrorMarker = "/modern-manual-site/source-mirror/";
+    const markerIndex = primaryUrl.pathname.indexOf(sourceMirrorMarker);
+    if (markerIndex >= 0) {
+      const relativeLegacyPath = primaryUrl.pathname.slice(markerIndex + sourceMirrorMarker.length);
+      candidates.push(`${root}suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/${relativeLegacyPath}`);
+    }
+  } catch {
+    // Ignore invalid candidate derivation and keep other candidates.
+  }
 
   return candidates.filter((value, index, list) => value && list.indexOf(value) === index);
 }
@@ -1373,8 +1444,12 @@ async function bootstrap() {
 
   const sidebarCollapsed = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
   const savedSidebarWidth = Number.parseInt(localStorage.getItem(sidebarWidthStorageKey) || "", 10);
+  const savedSidebarHeight = Number.parseInt(localStorage.getItem(sidebarHeightStorageKey) || "", 10);
   if (Number.isFinite(savedSidebarWidth)) {
     applySidebarWidth(savedSidebarWidth, false);
+  }
+  if (Number.isFinite(savedSidebarHeight)) {
+    applySidebarHeight(savedSidebarHeight, false);
   }
   setSidebarCollapsed(sidebarCollapsed);
   setupSidebarResizer();
