@@ -44,43 +44,12 @@ jobs:
           rm -rf _site
           mkdir -p _site
 
-          # Some mirrored legacy pages reference shared assets via */xml/{config8,icon,image,symbol}.
-          # Materialize these paths in the staged site when possible, but never fail if a source is absent.
-          if [ -d "modern-manual-site/source-mirror" ]; then
-            while IFS= read -r -d '' xml_dir; do
-              for shared in config8 icon image symbol; do
-                src="modern-manual-site/source-mirror/_shared-common/$shared"
-                dst="$xml_dir/$shared"
-                # Replace legacy symlinks with real directories/files so artifact upload does not trip on links.
-                if [ -L "$dst" ]; then
-                  rm -f "$dst"
-                fi
-                if [ -e "$src" ] && [ ! -e "$dst" ]; then
-                  mkdir -p "$(dirname "$dst")"
-                  cp -RL "$src" "$dst"
-                fi
-              done
-            done < <(find modern-manual-site/source-mirror -mindepth 2 -maxdepth 2 -type d -name xml -print0)
-          fi
-
-          # Use -L for individual shared assets, but preserve symlinks for large mirrored trees
-          # to avoid hard failures on broken legacy links during staging.
-          for path in index.html 404.html .nojekyll config8 icon image symbol suzuki-manual modern-manual-site manuals-index working-urls.html working-urls-grouped-report.html whatsapp-working-urls.html; do
+          # Stage only the modern viewer and minimal site entrypoints.
+          for path in index.html 404.html .nojekyll modern-manual-site manuals-index; do
             if [ -e "$path" ]; then
-              if [ "$path" = "modern-manual-site" ] || [ "$path" = "suzuki-manual" ]; then
-                cp -R "$path" _site/
-              else
-                cp -RL "$path" _site/
-              fi
+              cp -R "$path" _site/
             fi
           done
-
-          # Remove any remaining symlinks from staged output; artifact packaging is strict about links.
-          if [ -d "_site" ]; then
-            find _site -type l -print -delete || true
-          fi
-
-          python3 .github/scripts/inject_base_tags.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

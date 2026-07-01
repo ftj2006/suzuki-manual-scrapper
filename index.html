@@ -9,11 +9,6 @@
         var params = new URLSearchParams(window.location.search || "");
         var go = (params.get("go") || "").toLowerCase();
 
-        if (go === "manual") {
-          window.location.replace("./suzuki-manual/index.html");
-          return;
-        }
-
         if (go === "modern") {
           window.location.replace("./modern-manual-site/index.html");
           return;
@@ -186,10 +181,6 @@
           <a href="./modern-manual-site/index.html">
             Open Modern Manual Viewer
             <small>New baseline experience with improved rendering and navigation</small>
-          </a>
-          <a href="./suzuki-manual/index.html">
-            Open Manual Viewer
-            <small>Frame-based mirrored workshop manual</small>
           </a>
           <a href="./manuals-index/index.html">
             Open Manuals Index
