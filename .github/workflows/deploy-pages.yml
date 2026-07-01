@@ -46,14 +46,24 @@ jobs:
 
           # Stage modern viewer plus shared static assets it references.
           # Keep the legacy frame-based suzuki-manual app excluded.
-          for path in index.html 404.html .nojekyll modern-manual-site manuals-index image symbol icon config8; do
+          for path in index.html 404.html .nojekyll modern-manual-site manuals-index; do
             if [ -e "$path" ]; then
               cp -R "$path" _site/
             fi
           done
 
+          # Shared assets may be symlinks in the repo. Materialize them as real files in _site.
+          for path in image symbol icon config8; do
+            if [ -e "$path" ]; then
+              cp -RL "$path" _site/
+            fi
+          done
+
           # Remove accidental recursive mirror residue that can break artifact packing.
           rm -rf _site/modern-manual-site/source-mirror/_shared-common/suzuki-manual-scrapper || true
+
+          # Artifact upload is strict about symlinks; remove any that remain in staged output.
+          find _site -type l -print -delete || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
