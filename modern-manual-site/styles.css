@@ -57,6 +57,18 @@ body {
   margin-bottom: 14px;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .brand h1 {
   margin: 0;
   letter-spacing: 0.03em;
@@ -71,6 +83,100 @@ body {
   display: flex;
   gap: 8px;
   align-items: end;
+}
+
+.topbar-search {
+  position: relative;
+  flex: 1;
+  min-width: 260px;
+  max-width: 620px;
+  align-self: center;
+}
+
+#globalSearch {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 10px 14px;
+  font: inherit;
+  box-shadow: 0 8px 20px rgba(18, 40, 72, 0.08);
+}
+
+#globalSearch:focus {
+  outline: 2px solid color-mix(in oklab, var(--accent) 65%, transparent);
+  outline-offset: 2px;
+  border-color: var(--accent);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  max-height: min(48vh, 460px);
+  overflow: auto;
+}
+
+.search-result-item {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 70%, transparent);
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.search-result-item:last-child {
+  border-bottom: 0;
+}
+
+.search-result-item:hover,
+.search-result-item.active {
+  background: var(--accent-soft);
+}
+
+.search-result-title {
+  font-weight: 600;
+}
+
+.search-result-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.search-result-tab {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 8px;
+  line-height: 1.6;
+}
+
+.search-result-path {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-results-empty {
+  padding: 11px 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .field {
@@ -1071,6 +1177,17 @@ body.lightbox-open {
     gap: 10px;
   }
 
+  .topbar-search {
+    min-width: 0;
+    max-width: none;
+    width: 100%;
+    order: 2;
+  }
+
+  .topbar-actions {
+    order: 3;
+  }
+
   .topbar-actions {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1148,6 +1265,10 @@ body.lightbox-open {
 }
 
 @media (max-width: 640px) {
+  #globalSearch {
+    border-radius: 12px;
+  }
+
   .topbar-actions {
     grid-template-columns: 1fr;
   }

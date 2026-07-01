@@ -16,6 +16,8 @@ const els = {
   viewer: document.getElementById("viewer"),
   treeFilter: document.getElementById("treeFilter"),
   themeToggle: document.getElementById("themeToggle"),
+  globalSearch: document.getElementById("globalSearch"),
+  searchResults: document.getElementById("searchResults"),
 };
 
 const state = {
@@ -36,6 +38,10 @@ const state = {
   fileLoadToken: 0,
   activeTreeTab: "bookmarks",
   availableTreeTabs: [],
+  searchIndex: [],
+  searchResults: [],
+  searchQuery: "",
+  activeSearchResultIndex: -1,
 };
 
 const TREE_TABS = [
@@ -43,6 +49,8 @@ const TREE_TABS = [
   { id: "dtc", label: "DTC" },
   { id: "symptoms", label: "Symptoms" },
 ];
+
+const SEARCH_RESULT_LIMIT = 24;
 
 function modelStorageKey(datasetId) {
   return `manual-next-model:${datasetId}`;
@@ -270,6 +278,210 @@ function normalizedLabel(value) {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
+}
+
+function tabLabelForId(tabId) {
+  return TREE_TABS.find((tab) => tab.id === tabId)?.label || "Bookmarks";
+}
+
+function searchPathTabMap(indexData) {
+  const map = new Map();
+  const trees = indexData?.trees || {};
+
+  const walk = (nodes, tabId) => {
+    for (const node of nodes || []) {
+      if (node.type === "file") {
+        if (node.path && !map.has(node.path)) {
+          map.set(node.path, tabId);
+        }
+        continue;
+      }
+      walk(node.children || [], tabId);
+    }
+  };
+
+  for (const tab of TREE_TABS) {
+    walk(trees[tab.id] || [], tab.id);
+  }
+
+  return map;
+}
+
+function buildSearchIndex(indexData) {
+  const files = indexData?.files || {};
+  const pathTab = searchPathTabMap(indexData);
+  const entries = [];
+
+  for (const [path, meta] of Object.entries(files)) {
+    const title = String(meta?.title || "").trim();
+    const fileName = path.split("/").pop() || path;
+    const nameNoExt = fileName.replace(/\.[^.]+$/, "");
+    const tabId = pathTab.get(path) || "bookmarks";
+    const searchable = `${title} ${nameNoExt} ${path}`.toLowerCase();
+    entries.push({
+      path,
+      title: title || nameNoExt || path,
+      tabId,
+      searchable,
+    });
+  }
+
+  return entries;
+}
+
+function scoreSearchResult(entry, query) {
+  const q = query.toLowerCase();
+  const title = entry.title.toLowerCase();
+  const path = entry.path.toLowerCase();
+  if (title === q) {
+    return 200;
+  }
+  if (title.startsWith(q)) {
+    return 120;
+  }
+  if (title.includes(q)) {
+    return 90;
+  }
+  if (path.includes(q)) {
+    return 60;
+  }
+  return 20;
+}
+
+function computeSearchResults(query) {
+  const q = String(query || "").trim().toLowerCase();
+  if (!q) {
+    return [];
+  }
+
+  return state.searchIndex
+    .filter((entry) => entry.searchable.includes(q))
+    .map((entry) => ({ ...entry, score: scoreSearchResult(entry, q) }))
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      return a.title.localeCompare(b.title);
+    })
+    .slice(0, SEARCH_RESULT_LIMIT);
+}
+
+function hideSearchResults() {
+  if (!els.searchResults) {
+    return;
+  }
+  els.searchResults.hidden = true;
+  els.searchResults.innerHTML = "";
+}
+
+function renderSearchResults() {
+  if (!els.searchResults) {
+    return;
+  }
+
+  const hasQuery = !!state.searchQuery;
+  if (!hasQuery) {
+    hideSearchResults();
+    return;
+  }
+
+  if (!state.searchResults.length) {
+    els.searchResults.hidden = false;
+    els.searchResults.innerHTML = '<div class="search-results-empty">No matching documents.</div>';
+    return;
+  }
+
+  const html = state.searchResults
+    .map((result, index) => {
+      const activeClass = index === state.activeSearchResultIndex ? " active" : "";
+      return `
+        <button type="button" class="search-result-item${activeClass}" data-search-index="${index}">
+          <span class="search-result-title">${htmlEscape(result.title)}</span>
+          <span class="search-result-meta">
+            <span class="search-result-tab">${htmlEscape(tabLabelForId(result.tabId))}</span>
+            <span class="search-result-path">${htmlEscape(result.path)}</span>
+          </span>
+        </button>
+      `;
+    })
+    .join("");
+
+  els.searchResults.hidden = false;
+  els.searchResults.innerHTML = html;
+}
+
+function setActiveSearchResultIndex(nextIndex) {
+  if (!state.searchResults.length) {
+    state.activeSearchResultIndex = -1;
+    renderSearchResults();
+    return;
+  }
+
+  const last = state.searchResults.length - 1;
+  if (nextIndex < 0) {
+    state.activeSearchResultIndex = 0;
+  } else if (nextIndex > last) {
+    state.activeSearchResultIndex = last;
+  } else {
+    state.activeSearchResultIndex = nextIndex;
+  }
+
+  renderSearchResults();
+
+  const active = els.searchResults?.querySelector(".search-result-item.active");
+  active?.scrollIntoView({ block: "nearest" });
+}
+
+function openSearchResult(result) {
+  if (!result || !result.path || !state.activeDatasetIndex?.files?.[result.path]) {
+    return;
+  }
+
+  if (result.tabId && result.tabId !== state.activeTreeTab) {
+    switchTreeTab(result.tabId);
+  }
+
+  navigateToPath(result.path, { clearTreeFilter: true });
+  state.searchQuery = "";
+  state.searchResults = [];
+  state.activeSearchResultIndex = -1;
+  if (els.globalSearch) {
+    els.globalSearch.value = "";
+    els.globalSearch.blur();
+  }
+  hideSearchResults();
+}
+
+function updateSearch(query) {
+  state.searchQuery = String(query || "").trim();
+  state.searchResults = computeSearchResults(state.searchQuery);
+  state.activeSearchResultIndex = state.searchResults.length ? 0 : -1;
+  renderSearchResults();
+}
+
+function clearSearchUi() {
+  state.searchIndex = [];
+  state.searchQuery = "";
+  state.searchResults = [];
+  state.activeSearchResultIndex = -1;
+  if (els.globalSearch) {
+    els.globalSearch.value = "";
+  }
+  hideSearchResults();
+}
+
+function openCurrentSearchSelection() {
+  const selected =
+    (state.activeSearchResultIndex >= 0 && state.searchResults[state.activeSearchResultIndex])
+      ? state.searchResults[state.activeSearchResultIndex]
+      : state.searchResults[0];
+
+  if (!selected) {
+    return false;
+  }
+
+  openSearchResult(selected);
+  return true;
 }
 
 function applyTheme(theme) {
@@ -1448,6 +1660,7 @@ async function loadDatasetIndex(submodel) {
   state.activeModel = "";
   state.activeTreeTab = "bookmarks";
   state.availableTreeTabs = [];
+  clearSearchUi();
   renderViewerPlaceholder("Loading dataset index...");
   const datasetLoadToken = ++state.datasetLoadToken;
 
@@ -1476,6 +1689,7 @@ async function loadDatasetIndex(submodel) {
 
     state.modelVariants = datasetModelVariants();
     state.availableTreeTabs = datasetAvailableTreeTabs();
+    state.searchIndex = buildSearchIndex(state.activeDatasetIndex);
     if (!state.availableTreeTabs.some((tab) => tab.id === state.activeTreeTab)) {
       state.activeTreeTab = state.availableTreeTabs[0].id;
     }
@@ -1559,6 +1773,97 @@ async function bootstrap() {
       return;
     }
     switchTreeTab(button.dataset.treeTab || "");
+  });
+
+  els.globalSearch?.addEventListener("input", (evt) => {
+    updateSearch(evt.target.value);
+  });
+
+  els.globalSearch?.addEventListener("focus", () => {
+    if (state.searchQuery) {
+      renderSearchResults();
+    }
+  });
+
+  els.globalSearch?.addEventListener("keydown", (evt) => {
+    if (evt.key === "ArrowDown") {
+      evt.preventDefault();
+      setActiveSearchResultIndex(state.activeSearchResultIndex + 1);
+      return;
+    }
+
+    if (evt.key === "ArrowUp") {
+      evt.preventDefault();
+      setActiveSearchResultIndex(state.activeSearchResultIndex - 1);
+      return;
+    }
+
+    if (evt.key === "Enter") {
+      if (openCurrentSearchSelection()) {
+        evt.preventDefault();
+      }
+      return;
+    }
+
+    if (evt.key === "Escape") {
+      hideSearchResults();
+      return;
+    }
+  });
+
+  els.globalSearch?.addEventListener("keyup", (evt) => {
+    if (evt.key !== "Enter") {
+      return;
+    }
+
+    if (openCurrentSearchSelection()) {
+      evt.preventDefault();
+    }
+  });
+
+  els.globalSearch?.addEventListener("search", () => {
+    openCurrentSearchSelection();
+  });
+
+  document.addEventListener("keydown", (evt) => {
+    if (evt.key !== "Enter") {
+      return;
+    }
+    if (document.activeElement !== els.globalSearch) {
+      return;
+    }
+
+    if (openCurrentSearchSelection()) {
+      evt.preventDefault();
+      evt.stopPropagation();
+    }
+  }, true);
+
+  els.searchResults?.addEventListener("click", (evt) => {
+    const button = evt.target.closest("button[data-search-index]");
+    if (!button) {
+      return;
+    }
+
+    const index = Number.parseInt(button.dataset.searchIndex || "", 10);
+    if (!Number.isFinite(index) || !state.searchResults[index]) {
+      return;
+    }
+
+    openSearchResult(state.searchResults[index]);
+  });
+
+  document.addEventListener("pointerdown", (evt) => {
+    const target = evt.target;
+    if (!(target instanceof Element)) {
+      return;
+    }
+
+    if (target.closest(".topbar-search")) {
+      return;
+    }
+
+    hideSearchResults();
   });
 
   els.modelSelect.addEventListener("change", (evt) => {
