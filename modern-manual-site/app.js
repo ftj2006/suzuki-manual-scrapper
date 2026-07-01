@@ -53,7 +53,7 @@ function submodelStorageKey(datasetId) {
 }
 
 const datasetStorageKey = "manual-next-dataset";
-const sidebarCollapsedStorageKey = "manual-next-sidebar-collapsed";
+const sidebarCollapsedStorageKey = "manual-next-content-expanded";
 const sidebarWidthStorageKey = "manual-next-sidebar-width";
 const sidebarHeightStorageKey = "manual-next-sidebar-height";
 
@@ -97,19 +97,15 @@ function applySidebarHeight(height, persist = true) {
   }
 }
 
-function updateSidebarTogglePresentation(collapsed) {
+function updateSidebarTogglePresentation(expanded) {
   if (!els.sidebarToggle) {
     return;
   }
 
-  const portrait = isPortraitSidebarLayout();
-  const expandedSymbol = portrait ? "^^" : "<<";
-  const collapsedSymbol = portrait ? "vv" : ">>";
-
-  els.sidebarToggle.textContent = collapsed ? collapsedSymbol : expandedSymbol;
-  els.sidebarToggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
-  els.sidebarToggle.setAttribute("aria-label", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
-  els.sidebarToggle.setAttribute("title", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
+  els.sidebarToggle.textContent = expanded ? "Collapse" : "Expand";
+  els.sidebarToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+  els.sidebarToggle.setAttribute("aria-label", expanded ? "Collapse to show manual pages" : "Expand content to full view");
+  els.sidebarToggle.setAttribute("title", expanded ? "Collapse to show manual pages" : "Expand content to full view");
 }
 
 function setupSidebarResizer() {
@@ -130,7 +126,7 @@ function setupSidebarResizer() {
   };
 
   els.sidebarResizer.addEventListener("pointerdown", (event) => {
-    if (event.button !== 0 || els.sidebar.classList.contains("collapsed")) {
+    if (event.button !== 0 || els.layout.classList.contains("content-expanded")) {
       return;
     }
 
@@ -188,20 +184,17 @@ function setupSidebarResizer() {
       }
     }
 
-    const collapsed = els.sidebar?.classList.contains("collapsed") || false;
-    updateSidebarTogglePresentation(collapsed);
+    const expanded = els.layout?.classList.contains("content-expanded") || false;
+    updateSidebarTogglePresentation(expanded);
   });
 }
 
-function setSidebarCollapsed(collapsed) {
-  if (els.sidebar) {
-    els.sidebar.classList.toggle("collapsed", collapsed);
-  }
+function setContentExpanded(expanded) {
   if (els.layout) {
-    els.layout.classList.toggle("sidebar-collapsed", collapsed);
+    els.layout.classList.toggle("content-expanded", expanded);
   }
-  updateSidebarTogglePresentation(collapsed);
-  localStorage.setItem(sidebarCollapsedStorageKey, collapsed ? "1" : "0");
+  updateSidebarTogglePresentation(expanded);
+  localStorage.setItem(sidebarCollapsedStorageKey, expanded ? "1" : "0");
 }
 
 function treeStateStorageKey(datasetId, submodelId, model, tab) {
@@ -311,7 +304,59 @@ function setupTheme() {
 
 function renderViewerPlaceholder(message, isError = false) {
   els.viewer.className = isError ? "viewer error" : "viewer empty";
-  els.viewer.innerHTML = `<h2>${isError ? "Error" : "Select a file from the tree"}</h2><p>${htmlEscape(message)}</p>`;
+  els.viewer.innerHTML = `<p>${htmlEscape(message)}</p>`;
+  attachExpandButtonToViewer(isError ? "Error" : currentPageHeadingText());
+}
+
+function currentPageHeadingText() {
+  if (!state.selectedPath) {
+    return "Manual Section";
+  }
+
+  if (isManualLandingPath(state.selectedPath)) {
+    return "Landing Page";
+  }
+
+  const fileMeta = state.activeDatasetIndex?.files?.[state.selectedPath];
+  const title = String(fileMeta?.title || "").trim();
+  if (title) {
+    return title;
+  }
+
+  const fileName = String(state.selectedPath).split("/").pop() || "";
+  return fileName || "Manual Section";
+}
+
+function attachExpandButtonToViewer(defaultHeadingText = "Manual Section") {
+  if (!els.viewer || !els.sidebarToggle) {
+    return;
+  }
+
+  let heading = els.viewer.querySelector("h3");
+  if (!heading) {
+    heading = document.createElement("h3");
+    heading.className = "viewer-fallback-heading xml-title";
+    heading.textContent = defaultHeadingText;
+    els.viewer.prepend(heading);
+  }
+
+  if (!heading.querySelector(".viewer-heading-text")) {
+    const textWrap = document.createElement("span");
+    textWrap.className = "viewer-heading-text";
+
+    while (heading.firstChild && heading.firstChild !== els.sidebarToggle) {
+      textWrap.appendChild(heading.firstChild);
+    }
+
+    if (!textWrap.textContent?.trim()) {
+      textWrap.textContent = defaultHeadingText;
+    }
+
+    heading.prepend(textWrap);
+  }
+
+  heading.classList.add("viewer-heading-row");
+  heading.appendChild(els.sidebarToggle);
 }
 
 function manualLandingPath(datasetId, submodelId) {
@@ -1158,11 +1203,39 @@ function normalizeAllModelsTree(nodes, modelVariants) {
   return walk(nodes);
 }
 
+function removePlaceholderChapterFolders(nodes) {
+  const isPlaceholderChapter = (label) => /^\s*a\s*-\s*chapter\s*a\s*$/i.test(String(label || ""));
+
+  function walk(list) {
+    const result = [];
+
+    for (const node of list || []) {
+      if (node.type === "file") {
+        result.push(node);
+        continue;
+      }
+
+      const children = walk(node.children || []);
+      if (isPlaceholderChapter(node.label)) {
+        result.push(...children);
+        continue;
+      }
+
+      result.push({ ...node, children });
+    }
+
+    return result;
+  }
+
+  return walk(nodes);
+}
+
 function visibleTree() {
   const baseNodes = treeNodesByTab(state.activeTreeTab);
   const modelNodes = applyModelFilter(baseNodes, state.activeModel, state.modelVariants);
   const normalizedNodes = normalizeAllModelsTree(modelNodes, state.modelVariants);
-  return filterTree(normalizedNodes, state.treeFilter);
+  const cleanedNodes = removePlaceholderChapterFolders(normalizedNodes);
+  return filterTree(cleanedNodes, state.treeFilter);
 }
 
 function syncVisibleSelection() {
@@ -1307,6 +1380,7 @@ async function loadSelectedFile() {
     els.viewer.className = "viewer";
     els.viewer.innerHTML = "";
     els.viewer.appendChild(renderManualLanding());
+    attachExpandButtonToViewer(currentPageHeadingText());
     return;
   }
 
@@ -1349,6 +1423,8 @@ async function loadSelectedFile() {
       els.viewer.appendChild(rendered);
       addDiagramPopupButtons(els.viewer);
     }
+
+    attachExpandButtonToViewer(currentPageHeadingText());
   } catch (err) {
     if (fileLoadToken !== state.fileLoadToken) {
       return;
@@ -1442,7 +1518,7 @@ async function loadDataset(datasetId) {
 async function bootstrap() {
   setupTheme();
 
-  const sidebarCollapsed = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
+  const contentExpanded = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
   const savedSidebarWidth = Number.parseInt(localStorage.getItem(sidebarWidthStorageKey) || "", 10);
   const savedSidebarHeight = Number.parseInt(localStorage.getItem(sidebarHeightStorageKey) || "", 10);
   if (Number.isFinite(savedSidebarWidth)) {
@@ -1451,7 +1527,7 @@ async function bootstrap() {
   if (Number.isFinite(savedSidebarHeight)) {
     applySidebarHeight(savedSidebarHeight, false);
   }
-  setSidebarCollapsed(sidebarCollapsed);
+  setContentExpanded(contentExpanded);
   setupSidebarResizer();
 
   els.themeToggle.addEventListener("click", () => {
@@ -1460,8 +1536,8 @@ async function bootstrap() {
   });
 
   els.sidebarToggle?.addEventListener("click", () => {
-    const nextCollapsed = !els.sidebar?.classList.contains("collapsed");
-    setSidebarCollapsed(nextCollapsed);
+    const nextExpanded = !els.layout?.classList.contains("content-expanded");
+    setContentExpanded(nextExpanded);
   });
 
   els.tree.addEventListener("scroll", () => {

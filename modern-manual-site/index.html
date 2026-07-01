@@ -35,12 +35,6 @@
       <main class="layout">
         <aside class="sidebar">
           <div class="sidebar-header">
-            <div class="sidebar-header-row">
-              <h2>Manual Pages</h2>
-              <button id="sidebarToggle" class="button secondary sidebar-toggle" type="button" aria-expanded="true" aria-controls="tree" aria-label="Collapse Manual Pages" title="Collapse Manual Pages">
-                <<
-              </button>
-            </div>
             <div id="treeTabs" class="tree-tabs" role="tablist" aria-label="Tree categories"></div>
             <input id="treeFilter" type="search" placeholder="Filter..." />
           </div>
@@ -57,7 +51,12 @@
 
         <section class="content">
           <article id="viewer" class="viewer empty">
-            <h2>Select a file from the tree</h2>
+            <h3 class="viewer-heading-row">
+              <span class="viewer-heading-text">Manual Section</span>
+              <button id="sidebarToggle" class="button secondary content-expand-toggle" type="button" aria-expanded="false" aria-label="Expand content" title="Expand content">
+                Expand
+              </button>
+            </h3>
             <p>The selected XML file will render here as a modern document view.</p>
           </article>
         </section>
