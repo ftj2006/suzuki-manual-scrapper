@@ -45,35 +45,35 @@
     </script>
     <style>
       :root {
-        --bg: #f7f7f2;
+        --bg: #f4f7fb;
         --card: #ffffff;
-        --ink: #1d2a1f;
-        --muted: #5e6d61;
-        --line: #d7ded8;
-        --accent: #1f6f43;
-        --accent-soft: #e7f3eb;
-        --action-ink: #0e5e37;
-        --action-border: #b9d5c2;
-        --action-bg: #eef8f1;
-        --action-bg-hover: #dff2e6;
-        --action-border-hover: #94bfa1;
-        --shadow: 0 10px 30px rgba(16, 32, 20, 0.06);
+        --ink: #1a263b;
+        --muted: #5f6f88;
+        --line: #cfdbf0;
+        --accent: #2b6fdb;
+        --accent-soft: #e1ecff;
+        --action-ink: #1f5fbe;
+        --action-border: #bfd2f6;
+        --action-bg: #eef4ff;
+        --action-bg-hover: #e3eeff;
+        --action-border-hover: #9fbcf1;
+        --shadow: 0 18px 44px rgba(18, 40, 72, 0.08);
       }
 
       body[data-theme="dark"] {
-        --bg: #111714;
-        --card: #18201c;
-        --ink: #e5f0e8;
-        --muted: #9fb0a4;
-        --line: #2a3931;
-        --accent: #5cbc83;
-        --accent-soft: #1e2f26;
-        --action-ink: #8bd3a8;
-        --action-border: #3f6a52;
-        --action-bg: #1f3228;
-        --action-bg-hover: #274032;
-        --action-border-hover: #5c9875;
-        --shadow: 0 10px 30px rgba(0, 0, 0, 0.34);
+        --bg: #0d1422;
+        --card: #162235;
+        --ink: #dce8ff;
+        --muted: #9eb3d6;
+        --line: #304764;
+        --accent: #72b7ff;
+        --accent-soft: #1d3553;
+        --action-ink: #99cbff;
+        --action-border: #3f5e8a;
+        --action-bg: #1d2f4a;
+        --action-bg-hover: #253a5d;
+        --action-border-hover: #5d89c2;
+        --shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
       }
 
       * {
@@ -87,7 +87,7 @@
       body {
         margin: 0;
         font-family: "Source Sans 3", "Segoe UI", sans-serif;
-        background: var(--bg);
+        background: radial-gradient(circle at top right, var(--accent-soft) 0%, var(--bg) 42%);
         color: var(--ink);
       }
 
@@ -111,6 +111,31 @@
         margin: 0 0 10px;
         font-size: 1.9rem;
         letter-spacing: 0.02em;
+      }
+
+      .brand-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 2px;
+      }
+
+      .s-logo {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: linear-gradient(135deg, color-mix(in oklab, var(--accent-soft) 62%, var(--card) 38%) 0%, var(--card) 100%);
+        display: grid;
+        place-items: center;
+        color: var(--accent);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+      }
+
+      .s-logo svg {
+        width: 24px;
+        height: 24px;
+        display: block;
       }
 
       p {
@@ -175,7 +200,17 @@
   <body>
     <main>
       <div class="card">
-        <h1>Suzuki Manual Hub</h1>
+        <div class="brand-row">
+          <div class="s-logo" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" focusable="false">
+              <path
+                fill="currentColor"
+                d="M18 10h28a6 6 0 0 1 6 6v8h-8v-4a2 2 0 0 0-2-2H22a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h20a10 10 0 0 1 10 10v10a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6v-8h8v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H22a10 10 0 0 1-10-10V16a6 6 0 0 1 6-6z"
+              />
+            </svg>
+          </div>
+          <h1>Suzuki Manual Hub</h1>
+        </div>
         <p>Select where to start from the repository base.</p>
         <div class="actions">
           <a href="./modern-manual-site/index.html">

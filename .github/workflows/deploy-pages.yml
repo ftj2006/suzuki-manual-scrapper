@@ -44,8 +44,9 @@ jobs:
           rm -rf _site
           mkdir -p _site
 
-          # Stage only the modern viewer and minimal site entrypoints.
-          for path in index.html 404.html .nojekyll modern-manual-site manuals-index; do
+          # Stage modern viewer plus shared static assets it references.
+          # Keep the legacy frame-based suzuki-manual app excluded.
+          for path in index.html 404.html .nojekyll modern-manual-site manuals-index image symbol icon config8; do
             if [ -e "$path" ]; then
               cp -R "$path" _site/
             fi
