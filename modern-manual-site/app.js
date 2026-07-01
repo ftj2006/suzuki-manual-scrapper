@@ -540,26 +540,20 @@ function scrollToXmlAnchor(refId) {
 
 function imageUrlCandidates(rawUrl, sourceUrl) {
   const primary = rewriteAssetUrl(rawUrl, sourceUrl);
-  const candidates = [primary];
-  const origin = window.location.origin;
+  const candidates = [];
   const root = repoRootUrl();
 
-  if (primary.includes("/modern-manual-site/source-mirror/")) {
-    candidates.push(
-      primary.replace(
-        "/modern-manual-site/source-mirror/",
-        "/suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals/",
-      ),
-    );
-  }
-
-  const fileName = String(rawUrl || "")
+  const raw = String(rawUrl || "");
+  const fileName = raw
     .split(/[\\/]/)
     .pop();
-  if (fileName && /(^|\/)icon\//i.test(String(rawUrl || ""))) {
+
+  // Prefer shared icon root first to avoid noisy source-mirror and legacy fallbacks.
+  if (fileName && /(^|\/)icon\//i.test(raw)) {
     candidates.push(`${root}icon/${fileName}`);
-    candidates.push(`${origin}/suzuki-manual/icon/${fileName}`);
   }
+
+  candidates.push(primary);
 
   return candidates.filter((value, index, list) => value && list.indexOf(value) === index);
 }
@@ -661,9 +655,10 @@ function renderHtmlDocument(contentText, sourcePath) {
 function graphicPathCandidates(graphicName) {
   const fileName = String(graphicName || "").split(/[\\/]/).pop() || "";
   const stem = fileName.replace(/\.[^.]+$/, "");
-  const ext = fileName.includes(".") ? fileName.slice(fileName.lastIndexOf(".")) : ".jpg";
+  const ext = fileName.includes(".") ? fileName.slice(fileName.lastIndexOf(".")).toLowerCase() : ".jpg";
   const prefixes = [stem.slice(0, 6), stem.slice(0, 4)].filter(Boolean);
-  const extensions = [ext, ".jpg", ".jpeg", ".svg"].filter((value, index, arr) => arr.indexOf(value) === index);
+  const preferredExt = ext === ".swf" ? ".jpg" : ext;
+  const extensions = [preferredExt, ".jpg", ".jpeg", ".svg"].filter((value, index, arr) => arr.indexOf(value) === index);
   const candidates = [];
   const rootPrefix = repoRootUrl().replace(/\/$/, "");
   for (const prefix of prefixes) {
