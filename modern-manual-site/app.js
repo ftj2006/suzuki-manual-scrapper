@@ -145,7 +145,11 @@ function renderViewerPlaceholder(message, isError = false) {
 }
 
 function repoRootUrl() {
-  return new URL("../", window.location.href).toString();
+  const currentDir = new URL("./", window.location.href);
+  if (currentDir.pathname.endsWith("/modern-manual-site/")) {
+    return new URL("../", currentDir).toString();
+  }
+  return currentDir.toString();
 }
 
 function rewriteAssetUrl(rawUrl, sourceUrl) {
