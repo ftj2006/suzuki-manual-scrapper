@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "utf-8"?>
-<?xml-stylesheet type = "text/xsl" href = "/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/config8/navi-kousei.xsl"?>
+<?xml-stylesheet type = "text/xsl" href = "/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/config8/navi-kousei.xsl"?>
 <!DOCTYPE suzuki [
-<!ENTITY % sdatacharaents SYSTEM "/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/config8/sdatacharaents.txt">
+<!ENTITY % sdatacharaents SYSTEM "/suzuki-manual-scrapper/modern-manual-site/source-mirror/_shared-common/config8/sdatacharaents.txt">
 %sdatacharaents;
 ]>
 <suzuki>
