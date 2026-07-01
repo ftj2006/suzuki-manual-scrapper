@@ -27,6 +27,8 @@ const state = {
   refToTitle: new Map(),
   modelVariants: [],
   activeModel: "",
+  datasetLoadToken: 0,
+  fileLoadToken: 0,
 };
 
 function modelStorageKey(datasetId) {
@@ -992,6 +994,8 @@ function renderTree() {
 }
 
 async function loadSelectedFile() {
+  const fileLoadToken = ++state.fileLoadToken;
+
   if (!state.selectedPath) {
     renderViewerPlaceholder("Pick an XML node to render.");
     return;
@@ -1004,6 +1008,10 @@ async function loadSelectedFile() {
     }
 
     const contentText = await res.text();
+    if (fileLoadToken !== state.fileLoadToken) {
+      return;
+    }
+
     const lowerPath = String(state.selectedPath || "").toLowerCase();
 
     els.viewer.className = "viewer";
@@ -1033,6 +1041,9 @@ async function loadSelectedFile() {
       addDiagramPopupButtons(els.viewer);
     }
   } catch (err) {
+    if (fileLoadToken !== state.fileLoadToken) {
+      return;
+    }
     renderViewerPlaceholder(err.message, true);
   }
 }
@@ -1051,13 +1062,19 @@ async function loadDatasetIndex(submodel) {
   state.modelVariants = [];
   state.activeModel = "";
   renderViewerPlaceholder("Loading dataset index...");
+  const datasetLoadToken = ++state.datasetLoadToken;
 
   try {
     const res = await fetch(submodel.indexUrl);
     if (!res.ok) {
       throw new Error(`HTTP ${res.status} while loading ${submodel.indexUrl}`);
     }
-    state.activeDatasetIndex = await res.json();
+    const datasetIndex = await res.json();
+    if (datasetLoadToken !== state.datasetLoadToken) {
+      return;
+    }
+
+    state.activeDatasetIndex = datasetIndex;
     for (const filePath of Object.keys(state.activeDatasetIndex?.files || {})) {
       const fileName = filePath.split("/").pop() || "";
       if (!fileName.toLowerCase().endsWith(".xml")) {
@@ -1078,8 +1095,14 @@ async function loadDatasetIndex(submodel) {
     state.selectedPath = state.selectedPath || state.activeDatasetIndex?.firstFilePath || null;
     renderTree();
     await loadSelectedFile();
+    if (datasetLoadToken !== state.datasetLoadToken) {
+      return;
+    }
     saveTreeState();
   } catch (err) {
+    if (datasetLoadToken !== state.datasetLoadToken) {
+      return;
+    }
     renderViewerPlaceholder(err.message, true);
   }
 }
