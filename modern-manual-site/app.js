@@ -144,6 +144,10 @@ function renderViewerPlaceholder(message, isError = false) {
   els.viewer.innerHTML = `<h2>${isError ? "Error" : "Select a file from the tree"}</h2><p>${htmlEscape(message)}</p>`;
 }
 
+function repoRootUrl() {
+  return new URL("../", window.location.href).toString();
+}
+
 function rewriteAssetUrl(rawUrl, sourceUrl) {
   if (!rawUrl || rawUrl.startsWith("data:") || rawUrl.startsWith("#") || /^javascript:/i.test(rawUrl)) {
     return rawUrl;
@@ -534,6 +538,7 @@ function imageUrlCandidates(rawUrl, sourceUrl) {
   const primary = rewriteAssetUrl(rawUrl, sourceUrl);
   const candidates = [primary];
   const origin = window.location.origin;
+  const root = repoRootUrl();
 
   if (primary.includes("/modern-manual-site/source-mirror/")) {
     candidates.push(
@@ -548,6 +553,7 @@ function imageUrlCandidates(rawUrl, sourceUrl) {
     .split(/[\\/]/)
     .pop();
   if (fileName && /(^|\/)icon\//i.test(String(rawUrl || ""))) {
+    candidates.push(`${root}icon/${fileName}`);
     candidates.push(`${origin}/suzuki-manual/icon/${fileName}`);
   }
 
@@ -655,7 +661,7 @@ function graphicPathCandidates(graphicName) {
   const prefixes = [stem.slice(0, 6), stem.slice(0, 4)].filter(Boolean);
   const extensions = [ext, ".jpg", ".jpeg", ".svg"].filter((value, index, arr) => arr.indexOf(value) === index);
   const candidates = [];
-  const rootPrefix = `${window.location.origin}/suzuki-manual-scrapper`;
+  const rootPrefix = repoRootUrl().replace(/\/$/, "");
   for (const prefix of prefixes) {
     for (const extension of extensions) {
       candidates.push(`${rootPrefix}/image/${prefix}/${stem}${extension}`);
@@ -671,7 +677,7 @@ function symbolPathCandidates(symbolName) {
   }
 
   const stem = raw.split(/[\\/]/).pop() || raw;
-  const rootPrefix = `${window.location.origin}/suzuki-manual-scrapper`;
+  const rootPrefix = repoRootUrl().replace(/\/$/, "");
   const variants = [stem];
   if (!stem.toUpperCase().startsWith("MA")) {
     variants.push(`MA${stem}`);

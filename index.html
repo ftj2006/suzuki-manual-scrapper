@@ -9,6 +9,11 @@
         var params = new URLSearchParams(window.location.search || "");
         var go = (params.get("go") || "").toLowerCase();
 
+        if (!go) {
+          window.location.replace("./modern-manual-site/index.html");
+          return;
+        }
+
         if (go === "modern") {
           window.location.replace("./modern-manual-site/index.html");
           return;
