@@ -115,13 +115,14 @@ body {
 
 .layout {
   display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 14px;
+  --sidebar-width: 360px;
+  grid-template-columns: minmax(240px, var(--sidebar-width)) 10px minmax(0, 1fr);
+  gap: 12px;
   min-height: calc(100vh - 118px);
 }
 
 .layout.sidebar-collapsed {
-  grid-template-columns: 84px 1fr;
+  grid-template-columns: 84px 10px minmax(0, 1fr);
 }
 
 .sidebar,
@@ -131,6 +132,11 @@ body {
   border-radius: 16px;
   box-shadow: var(--shadow);
   overflow: hidden;
+}
+
+.sidebar,
+.content {
+  min-width: 0;
 }
 
 .sidebar {
@@ -154,6 +160,9 @@ body {
 .sidebar-header h2 {
   margin: 0;
   font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sidebar-toggle {
@@ -162,6 +171,39 @@ body {
   font-size: 0.82rem;
   min-width: 42px;
   font-family: var(--mono);
+}
+
+.sidebar-resizer {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: linear-gradient(180deg, color-mix(in oklab, var(--surface-soft) 60%, var(--surface) 40%), var(--surface));
+  box-shadow: var(--shadow);
+  cursor: col-resize;
+  align-self: stretch;
+  position: relative;
+}
+
+.sidebar-resizer::after {
+  content: "";
+  position: absolute;
+  inset: 6px 3px;
+  border-radius: 999px;
+  background: repeating-linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--line) 75%, var(--accent) 25%) 0 4px,
+    transparent 4px 8px
+  );
+}
+
+.layout.sidebar-collapsed .sidebar-resizer {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+body.sidebar-resizing,
+body.sidebar-resizing * {
+  cursor: col-resize !important;
+  user-select: none !important;
 }
 
 .sidebar.collapsed .sidebar-header input,
@@ -943,6 +985,10 @@ body.lightbox-open {
   .layout {
     grid-template-columns: 1fr;
     min-height: auto;
+  }
+
+  .sidebar-resizer {
+    display: none;
   }
 
   .sidebar {

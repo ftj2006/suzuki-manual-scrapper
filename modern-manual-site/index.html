@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suzuki Manual Viewer - v2.0</title>
-    <link rel="stylesheet" href="./styles.css?v=21" />
+    <link rel="stylesheet" href="./styles.css?v=22" />
   </head>
   <body>
     <div class="app-shell">
@@ -46,6 +46,14 @@
           <nav id="tree" class="tree" aria-label="Manual file tree"></nav>
         </aside>
 
+        <div
+          id="sidebarResizer"
+          class="sidebar-resizer"
+          role="separator"
+          aria-orientation="vertical"
+          aria-label="Resize Manual Pages pane"
+        ></div>
+
         <section class="content">
           <article id="viewer" class="viewer empty">
             <h2>Select a file from the tree</h2>
@@ -55,6 +63,6 @@
       </main>
     </div>
 
-    <script type="module" src="./app.js?v=26"></script>
+    <script type="module" src="./app.js?v=27"></script>
   </body>
 </html>
