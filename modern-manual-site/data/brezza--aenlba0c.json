@@ -1899,6 +1899,2033 @@
       ]
     }
   ],
+  "trees": {
+    "bookmarks": [
+      {
+        "type": "folder",
+        "label": "A - Foreword",
+        "children": [
+          {
+            "type": "file",
+            "label": "IMPORTANT",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword01/Foreword01.htm",
+            "title": "IMPORTANT"
+          },
+          {
+            "type": "file",
+            "label": "FOREWORD",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword02/Foreword02.htm",
+            "title": "FOREWORD"
+          },
+          {
+            "type": "file",
+            "label": "Applicable Model / VIN",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword03/Foreword03.htm",
+            "title": "Applicable Model / VIN"
+          },
+          {
+            "type": "file",
+            "label": "Table of Contents",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword04/Foreword04.htm",
+            "title": "Table of Contents"
+          },
+          {
+            "type": "file",
+            "label": "History of Modification",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword05/Foreword05.htm",
+            "title": "History of Modification"
+          },
+          {
+            "type": "file",
+            "label": "RECOMMENDATION OF GENUINE SUZUKI PARTS AND ACCESSORIES USE",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword06/Foreword06.htm",
+            "title": "RECOMMENDATION OF GENUINE SUZUKI PARTS AND ACCESSORIES USE"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "label": "00 - Precautions",
+        "children": [
+          {
+            "type": "folder",
+            "label": "00 - Precautions",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Precautions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "General Precautions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000001.xml",
+                    "title": "General Precautions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Precautions for Electrical Circuit Service",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000002.xml",
+                    "title": "Precautions for Electrical Circuit Service"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Caution for Fastener",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000003.xml",
+                    "title": "Caution for Fastener"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Precautions for Catalytic Converter",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000005.xml",
+                    "title": "Precautions for Catalytic Converter"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Caution for Suspension",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000006.xml",
+                    "title": "Caution for Suspension"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Caution for Wheel (with Tire) Removal",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000007.xml",
+                    "title": "Caution for Wheel (with Tire) Removal"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Warning for Wheel and Tire",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000008.xml",
+                    "title": "Warning for Wheel and Tire"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Warning for Brake",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000009.xml",
+                    "title": "Warning for Brake"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Warning for P/S System",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000010.xml",
+                    "title": "Warning for P/S System"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Warning for Air Bag",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000011.xml",
+                    "title": "Warning for Air Bag"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Warning for Vehicle Equipped with Supplemental Restraint (Air Bag) System",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000012.xml",
+                    "title": "Warning for Vehicle Equipped with Supplemental Restraint (Air Bag) System"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Precautions for Installing Mobile Communication Equipment",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000013.xml",
+                    "title": "Precautions for Installing Mobile Communication Equipment"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Electrical Circuit Inspection Procedure",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0006001.xml",
+                    "title": "Electrical Circuit Inspection Procedure"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Intermittent Connection and Poor Contact Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0006002.xml",
+                    "title": "Intermittent Connection and Poor Contact Inspection"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "0 - General Information",
+        "children": [
+          {
+            "type": "folder",
+            "label": "0A - General Information",
+            "children": [
+              {
+                "type": "folder",
+                "label": "General Description",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Abbreviations",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101001.xml",
+                    "title": "Abbreviations"
+                  },
+                  {
+                    "type": "file",
+                    "label": "ISO-to-SUZUKI Term",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101002.xml",
+                    "title": "ISO-to-SUZUKI Term"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Symbols",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101003.xml",
+                    "title": "Symbols"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Wire Color / Connector Color Symbols",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101004.xml",
+                    "title": "Wire Color / Connector Color Symbols"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Ignition Modes and Ignition Switch Positions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101005.xml",
+                    "title": "Ignition Modes and Ignition Switch Positions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fasteners Information",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101006.xml",
+                    "title": "Fasteners Information"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Vehicle Lifting Points",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101007.xml",
+                    "title": "Vehicle Lifting Points"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Vehicle Identification Number",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101008.xml",
+                    "title": "Vehicle Identification Number"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Identification Plate",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101009.xml",
+                    "title": "Identification Plate"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Engine Identification Number",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101010.xml",
+                    "title": "Engine Identification Number"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Transaxle Identification Number (A/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0101011.xml",
+                    "title": "Transaxle Identification Number (A/T Model)"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Component Location",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Warning, Caution and Information Label Location",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0103001.xml",
+                    "title": "Warning, Caution and Information Label Location"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "0B - Maintenance and Lubrication",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Scheduled Maintenance",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Maintenance Schedule under Normal Driving Conditions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0205001.xml",
+                    "title": "Maintenance Schedule under Normal Driving Conditions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Maintenance Recommended under Severe Driving conditions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0205002.xml",
+                    "title": "Maintenance Recommended under Severe Driving conditions"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Accessory Drive Belt Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206001.xml",
+                    "title": "Accessory Drive Belt Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Accessory Drive Belt Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206002.xml",
+                    "title": "Accessory Drive Belt Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Valve Lash (Clearance) Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206003.xml",
+                    "title": "Valve Lash (Clearance) Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Engine Oil and Filter Change",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206004.xml",
+                    "title": "Engine Oil and Filter Change"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Engine Coolant Change",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206005.xml",
+                    "title": "Engine Coolant Change"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Exhaust System Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206006.xml",
+                    "title": "Exhaust System Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Spark Plug Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206007.xml",
+                    "title": "Spark Plug Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Air Cleaner Filter Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206008.xml",
+                    "title": "Air Cleaner Filter Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Air Cleaner Filter Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206009.xml",
+                    "title": "Air Cleaner Filter Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fuel Tank, Cap Gasket and Fuel Line Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206010.xml",
+                    "title": "Fuel Tank, Cap Gasket and Fuel Line Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fuel Filter Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206011.xml",
+                    "title": "Fuel Filter Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "PCV Valve Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206012.xml",
+                    "title": "PCV Valve Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fuel Evaporative Emission Control System Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206013.xml",
+                    "title": "Fuel Evaporative Emission Control System Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Disc and Pad Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206014.xml",
+                    "title": "Brake Disc and Pad Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Drum and Shoe Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206015.xml",
+                    "title": "Brake Drum and Shoe Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Hose and Pipe Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206016.xml",
+                    "title": "Brake Hose and Pipe Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Fluid Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206017.xml",
+                    "title": "Brake Fluid Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Pedal Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206018.xml",
+                    "title": "Brake Pedal Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Fluid Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206019.xml",
+                    "title": "Brake Fluid Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Brake Lever and Cable Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206020.xml",
+                    "title": "Brake Lever and Cable Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Clutch Fluid Replacement (M/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206021.xml",
+                    "title": "Clutch Fluid Replacement (M/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Clutch Pedal Inspection (M/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206022.xml",
+                    "title": "Clutch Pedal Inspection (M/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Clutch Fluid Inspection (M/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206023.xml",
+                    "title": "Clutch Fluid Inspection (M/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Tire Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206024.xml",
+                    "title": "Tire Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Wheel Disc Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206025.xml",
+                    "title": "Wheel Disc Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Wheel Bearing Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206026.xml",
+                    "title": "Wheel Bearing Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Drive Shaft (Axle) Boot Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206027.xml",
+                    "title": "Drive Shaft (Axle) Boot Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Suspension System Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206028.xml",
+                    "title": "Suspension System Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Steering System Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206029.xml",
+                    "title": "Steering System Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Manual Transaxle Oil Inspection (M/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206030.xml",
+                    "title": "Manual Transaxle Oil Inspection (M/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Manual Transaxle Oil Replacement (M/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206031.xml",
+                    "title": "Manual Transaxle Oil Replacement (M/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "ATF Inspection (A/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206032.xml",
+                    "title": "ATF Inspection (A/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "ATF Change (A/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206033.xml",
+                    "title": "ATF Change (A/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "ATF Cooler Hose Inspection (A/T Model)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206034.xml",
+                    "title": "ATF Cooler Hose Inspection (A/T Model)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "All Latches, Hinges and Locks Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206035.xml",
+                    "title": "All Latches, Hinges and Locks Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "HVAC Air Filter Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206036.xml",
+                    "title": "HVAC Air Filter Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "HVAC Air Filter Replacement",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206037.xml",
+                    "title": "HVAC Air Filter Replacement"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Final Inspection for Maintenance Service",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0206038.xml",
+                    "title": "Final Inspection for Maintenance Service"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Special Tools and Equipment",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Recommended Fluids and Lubricants",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0208001.xml",
+                    "title": "Recommended Fluids and Lubricants"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "1 - Engine",
+        "children": [
+          {
+            "type": "folder",
+            "label": "1 - Precautions",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Precautions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Precautions for Engine",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1000001.xml",
+                    "title": "Precautions for Engine"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1A - Engine General Information and Diagnosis",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1B - Aux. Emission Control Devices",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1C - Engine Electrical Devices",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1D - Engine Mechanical",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1E - Engine Lubrication System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1F - Engine Cooling System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1G - Fuel System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1H - Ignition System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1I - Starting System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1J - Charging System",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Precautions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Precautions for Handling Battery",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A00001.xml",
+                    "title": "Precautions for Handling Battery"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "General Description",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Battery Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A01001.xml",
+                    "title": "Battery Description"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A01002.xml",
+                    "title": "Generator Description"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Diagnostic Information and Procedures",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Battery Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A04001.xml",
+                    "title": "Battery Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Symptom Diagnosis",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A04002.xml",
+                    "title": "Generator Symptom Diagnosis"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Test",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A04003.xml",
+                    "title": "Generator Test"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Jump-Starting in Case of Emergency",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06001.xml",
+                    "title": "Jump-Starting in Case of Emergency"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Battery Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06002.xml",
+                    "title": "Battery Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Water Pump / Generator Drive Belt Tension Inspection and Adjustment",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06003.xml",
+                    "title": "Water Pump / Generator Drive Belt Tension Inspection and Adjustment"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Water Pump / Generator Drive Belt Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06004.xml",
+                    "title": "Water Pump / Generator Drive Belt Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Belt Tensioner Arm and Belt Tensioner Pulley Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06005.xml",
+                    "title": "Belt Tensioner Arm and Belt Tensioner Pulley Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06006.xml",
+                    "title": "Generator Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Arm and Generator Bracket Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06007.xml",
+                    "title": "Generator Arm and Generator Bracket Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Belt Tensioner Pulley Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06008.xml",
+                    "title": "Belt Tensioner Pulley Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06009.xml",
+                    "title": "Generator Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Disassembly and Reassembly",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06010.xml",
+                    "title": "Generator Disassembly and Reassembly"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Generator Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A06011.xml",
+                    "title": "Generator Inspection"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Specifications",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Charging System Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A07001.xml",
+                    "title": "Charging System Specifications"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Tightening Torque Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A07002.xml",
+                    "title": "Tightening Torque Specifications"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Special Tools and Equipment",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Special Tool",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1A08001.xml",
+                    "title": "Special Tool"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "1K - Exhaust System",
+            "children": [
+              {
+                "type": "folder",
+                "label": "General Description",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Exhaust System Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B01001.xml",
+                    "title": "Exhaust System Description"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Diagnostic Information and Procedures",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Exhaust System Check",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B04001.xml",
+                    "title": "Exhaust System Check"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Exhaust System Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B06001.xml",
+                    "title": "Exhaust System Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Exhaust Manifold Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B06002.xml",
+                    "title": "Exhaust Manifold Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Exhaust Manifold Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B06003.xml",
+                    "title": "Exhaust Manifold Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Exhaust Pipe and Muffler Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B06004.xml",
+                    "title": "Exhaust Pipe and Muffler Removal and Installation"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Specifications",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Tightening Torque Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C1B07001.xml",
+                    "title": "Tightening Torque Specifications"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "2 - Suspension",
+        "children": [
+          {
+            "type": "folder",
+            "label": "2 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "2A - Suspension General Diagnosis",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "2B - Front Suspension",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "2C - Rear Suspension",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "2D - Wheels and Tires",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "3 - Driveline / Axle",
+        "children": [
+          {
+            "type": "folder",
+            "label": "3 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "3A - Drive Shaft / Axle",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "4 - Brakes",
+        "children": [
+          {
+            "type": "folder",
+            "label": "4 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "4A - Brake Control System and Diagnosis",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "4B - Front Brakes",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "4C - Rear Brakes",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "4D - Parking Brake",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "4E - ABS",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "5 - Transmission / Transaxle",
+        "children": [
+          {
+            "type": "folder",
+            "label": "5 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "5A - Automatic Transmission/Transaxle",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "5B - Manual Transmission/Transaxle",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "5C - Clutch",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "6 - Steering",
+        "children": [
+          {
+            "type": "folder",
+            "label": "6 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "6A - Steering General Diagnosis",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "6B - Steering Wheel and Column",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "6C - Power Assisted Steering System",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "7 - HVAC",
+        "children": [
+          {
+            "type": "folder",
+            "label": "7 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "7B - HVAC System",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "8 - Restraint",
+        "children": [
+          {
+            "type": "folder",
+            "label": "8 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "8A - Seat Belts",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "8B - Air Bag System",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "9 - Body, Cab and Accessories",
+        "children": [
+          {
+            "type": "folder",
+            "label": "9 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9A - Wiring Systems",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9B - Lighting Systems",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9C - Instrumentation / Driver Info. / Horn",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9D - Wipers / Washers",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9E - Glass / Windows / Mirrors",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9F - Security and Locks",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9G - Seats",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9H - Exterior Trim / Interior Trim",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9J - Hood / Fenders / Doors",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Hood Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06001.xml",
+                    "title": "Hood Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Hood Inspection and Adjustment",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06002.xml",
+                    "title": "Hood Inspection and Adjustment"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Hood Lock Release Cable Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06003.xml",
+                    "title": "Hood Lock Release Cable Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Fender Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06004.xml",
+                    "title": "Front Fender Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Fender Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06005.xml",
+                    "title": "Front Fender Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Door Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06006.xml",
+                    "title": "Front Door Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Door Assembly Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06007.xml",
+                    "title": "Front Door Assembly Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Door Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06008.xml",
+                    "title": "Rear Door Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Door Assembly Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06009.xml",
+                    "title": "Rear Door Assembly Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fuel Filler Lid Opener Cable Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06010.xml",
+                    "title": "Fuel Filler Lid Opener Cable Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear End Door Opener Cable Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06011.xml",
+                    "title": "Rear End Door Opener Cable Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear End Door Assembly Components",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06012.xml",
+                    "title": "Rear End Door Assembly Components"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear End Door Assembly Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06013.xml",
+                    "title": "Rear End Door Assembly Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "All Latches, Hinges and Locks Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A06014.xml",
+                    "title": "All Latches, Hinges and Locks Inspection"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Specifications",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Tightening Torque Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A07001.xml",
+                    "title": "Tightening Torque Specifications"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Special Tools and Equipment",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Recommended Service Material",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9A08001.xml",
+                    "title": "Recommended Service Material"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9K - Body Structure",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Precautions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Precautions for Body Structure",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B00001.xml",
+                    "title": "Precautions for Body Structure"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "General Description",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Body Repair Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B01001.xml",
+                    "title": "Body Repair Description"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Sheet Metal Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B01002.xml",
+                    "title": "Sheet Metal Description"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Body Structure Description",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B01003.xml",
+                    "title": "Body Structure Description"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Checking and Straightening Benches Instruction",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B01004.xml",
+                    "title": "Checking and Straightening Benches Instruction"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Component Location",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Silencer Sheet Installation Area",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B03001.xml",
+                    "title": "Silencer Sheet Installation Area"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Diagnostic Information and Procedures",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Inspection for Body Damage",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04001.xml",
+                    "title": "Inspection for Body Damage"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Transmission Routes of Impact",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04002.xml",
+                    "title": "Transmission Routes of Impact"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Panel Clearance",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04003.xml",
+                    "title": "Panel Clearance"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Body Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04004.xml",
+                    "title": "Front Body Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear End Door Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04005.xml",
+                    "title": "Rear End Door Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Side Body Outside Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04006.xml",
+                    "title": "Side Body Outside Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Side Body Inside Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04007.xml",
+                    "title": "Side Body Inside Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Windshield Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04008.xml",
+                    "title": "Windshield Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Underbody Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04009.xml",
+                    "title": "Underbody Dimensions"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Engine Compartment Dimensions with Mechanical Parts",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04010.xml",
+                    "title": "Engine Compartment Dimensions with Mechanical Parts"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Underbody Dimensions with Mechanical Parts",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04011.xml",
+                    "title": "Front Underbody Dimensions with Mechanical Parts"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Suspension Frame Dimensions",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B04012.xml",
+                    "title": "Front Suspension Frame Dimensions"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Hood Lock Member and Lamp Support Brace Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06001.xml",
+                    "title": "Hood Lock Member and Lamp Support Brace Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Fender Lower Bracket, Front Fender Bracket and Front Fender Rear Bracket Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06002.xml",
+                    "title": "Front Fender Lower Bracket, Front Fender Bracket and Front Fender Rear Bracket Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Apron Side Member Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06003.xml",
+                    "title": "Apron Side Member Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Apron Side Member (Partial) Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06004.xml",
+                    "title": "Apron Side Member (Partial) Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Cowl Side Outer Member Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06005.xml",
+                    "title": "Cowl Side Outer Member Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Dash Side Front Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06006.xml",
+                    "title": "Dash Side Front Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fender Apron Panel, Fender Apron Extension and Front Strut Support Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06007.xml",
+                    "title": "Fender Apron Panel, Fender Apron Extension and Front Strut Support Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Fender Apron Extension Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06008.xml",
+                    "title": "Fender Apron Extension Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "A-Pillar Outer Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06009.xml",
+                    "title": "A-Pillar Outer Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "A-Pillar Outer Panel, Front Door Hinge Reinforcement and Dash Side Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06010.xml",
+                    "title": "A-Pillar Outer Panel, Front Door Hinge Reinforcement and Dash Side Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel, Front Pillar Inner Panel and Front Pillar Upper Reinforcement Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06011.xml",
+                    "title": "A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel, Front Pillar Inner Panel and Front Pillar Upper Reinforcement Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "B-Pillar Outer Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06012.xml",
+                    "title": "B-Pillar Outer Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "B-Pillar Outer Panel, Rear Door Hinge Reinforcement and Center Pillar Inner Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06013.xml",
+                    "title": "B-Pillar Outer Panel, Rear Door Hinge Reinforcement and Center Pillar Inner Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Side Sill Outer Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06014.xml",
+                    "title": "Side Sill Outer Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Side Sill Outer Panel and Side Sill Strength Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06015.xml",
+                    "title": "Side Sill Outer Panel and Side Sill Strength Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Quarter-Pillar Outer Panel and Side Body Outer Lower Extension Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06016.xml",
+                    "title": "Quarter-Pillar Outer Panel and Side Body Outer Lower Extension Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Wheel House Outer Panel and Rear Wheel House Outer Extension (Partial) or Rear Wheel House Outer Extension Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06017.xml",
+                    "title": "Rear Wheel House Outer Panel and Rear Wheel House Outer Extension (Partial) or Rear Wheel House Outer Extension Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Floor Side Member Rear Reinforcement Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06018.xml",
+                    "title": "Rear Floor Side Member Rear Reinforcement Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Back Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06019.xml",
+                    "title": "Back Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Floor Rear Panel (Partial), Rear Floor Side Extension and Towing Rear Hook Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06020.xml",
+                    "title": "Rear Floor Rear Panel (Partial), Rear Floor Side Extension and Towing Rear Hook Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Floor Side Rear Member Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06021.xml",
+                    "title": "Rear Floor Side Rear Member Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear Lamp House Inner Panel and Rear Lamp House Outer Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06022.xml",
+                    "title": "Rear Lamp House Inner Panel and Rear Lamp House Outer Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Roof Panel Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06023.xml",
+                    "title": "Roof Panel Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Foamed Material Filling Area Repair",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B06024.xml",
+                    "title": "Foamed Material Filling Area Repair"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Specifications",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Tightening Torque Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B07001.xml",
+                    "title": "Tightening Torque Specifications"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Special Tools and Equipment",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Recommended Service Material",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9B08001.xml",
+                    "title": "Recommended Service Material"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9L - Paint / Coatings",
+            "children": [
+              {
+                "type": "folder",
+                "label": "General Description",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Anti-Corrosion Treatment",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9C01001.xml",
+                    "title": "Anti-Corrosion Treatment"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Sealant Application Areas",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9C06001.xml",
+                    "title": "Sealant Application Areas"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Undercoating Application Areas",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9C06002.xml",
+                    "title": "Undercoating Application Areas"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Anti-Corrosion Compound Application Area",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9C06003.xml",
+                    "title": "Anti-Corrosion Compound Application Area"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "9O - Audio Visual / Navigation",
+            "children": [
+              {
+                "type": "folder",
+                "label": "Precautions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Precautions for Audio Visual / Navigation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F00001.xml",
+                    "title": "Precautions for Audio Visual / Navigation"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Schematic and Routing Diagram",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Audio System Circuit Diagram",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F02001.xml",
+                    "title": "Audio System Circuit Diagram"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Component Location",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Audio System Component Location",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F03001.xml",
+                    "title": "Audio System Component Location"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Diagnostic Information and Procedures",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Audio System Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F04001.xml",
+                    "title": "Audio System Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Audio System Symptom Diagnosis",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F04002.xml",
+                    "title": "Audio System Symptom Diagnosis"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Repair Instructions",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Audio / Navigation Unit Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06001.xml",
+                    "title": "Audio / Navigation Unit Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Front Speaker and Rear Speaker Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06002.xml",
+                    "title": "Front Speaker and Rear Speaker Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Tweeter Removal and Installation (If Equipped)",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06003.xml",
+                    "title": "Tweeter Removal and Installation (If Equipped)"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Radio Antenna Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06004.xml",
+                    "title": "Radio Antenna Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Radio Antenna Feeder Cable Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06005.xml",
+                    "title": "Radio Antenna Feeder Cable Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Steering Switch (Audio Control Switch and Hands-Free Switch) Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06006.xml",
+                    "title": "Steering Switch (Audio Control Switch and Hands-Free Switch) Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06007.xml",
+                    "title": "Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "GPS Antenna Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06008.xml",
+                    "title": "GPS Antenna Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "USB and AUX Socket Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06009.xml",
+                    "title": "USB and AUX Socket Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "USB and AUX Harness Inspection",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06010.xml",
+                    "title": "USB and AUX Harness Inspection"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Microphone Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06011.xml",
+                    "title": "Microphone Removal and Installation"
+                  },
+                  {
+                    "type": "file",
+                    "label": "Rear-View Camera Removal and Installation",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F06012.xml",
+                    "title": "Rear-View Camera Removal and Installation"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "label": "Specifications",
+                "children": [
+                  {
+                    "type": "file",
+                    "label": "Tightening Torque Specifications",
+                    "path": "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C9F07001.xml",
+                    "title": "Tightening Torque Specifications"
+                  }
+                ]
+              }
+            ],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "10 - Control Systems",
+        "children": [
+          {
+            "type": "folder",
+            "label": "10 - Precautions",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "10A - Cruise Control System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "10B - Body Electrical Control System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "10C - Immobilizer Control System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "10E - Keyless Start System",
+            "children": [],
+            "preserveEmpty": true
+          },
+          {
+            "type": "folder",
+            "label": "10H - Communication System",
+            "children": [],
+            "preserveEmpty": true
+          }
+        ],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "Unlinked XML",
+        "children": [
+          {
+            "type": "file",
+            "label": "ctl.html",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/navi/ctl.html",
+            "title": "Ctl"
+          },
+          {
+            "type": "file",
+            "label": "main.html",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/navi/main.html",
+            "title": "Main"
+          },
+          {
+            "type": "file",
+            "label": "navi.html",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/navi/navi.html",
+            "title": "Vitara Brezza Service Manual"
+          },
+          {
+            "type": "file",
+            "label": "top.html",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/navi/top.html",
+            "title": "Top"
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure-dtc.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure-dtc.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure-sym.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure-sym.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_00.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_00.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_01.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_01.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_02.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_02.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_10.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_10.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_1A.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_1A.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_1B.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_1B.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_9A.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_9A.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_9B.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_9B.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_9C.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_9C.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_9F.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_9F.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_vars1.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_vars1.xml",
+            "title": ""
+          },
+          {
+            "type": "file",
+            "label": "webdocstructure_vars2.xml",
+            "path": "./source-mirror/BREZZA/xml/AENLBA0C/webdocstructure_vars2.xml",
+            "title": ""
+          }
+        ]
+      }
+    ],
+    "dtc": [
+      {
+        "type": "folder",
+        "label": "a - Chapter a",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "1 - Engine",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "4 - Brakes",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "5 - Transmission / Transaxle",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "6 - Steering",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "7 - HVAC",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "8 - Restraint",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "9 - Body, Cab and Accessories",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "10 - Control Systems",
+        "children": [],
+        "preserveEmpty": true
+      }
+    ],
+    "symptoms": [
+      {
+        "type": "folder",
+        "label": "a - Chapter a",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "1 - Engine",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "2 - Suspension",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "3 - Driveline / Axle",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "4 - Brakes",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "5 - Transmission / Transaxle",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "6 - Steering",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "7 - HVAC",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "8 - Restraint",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "9 - Body, Cab and Accessories",
+        "children": [],
+        "preserveEmpty": true
+      },
+      {
+        "type": "folder",
+        "label": "10 - Control Systems",
+        "children": [],
+        "preserveEmpty": true
+      }
+    ]
+  },
+  "firstFilePathByTab": {
+    "bookmarks": "./source-mirror/BREZZA/xml/AENLBA0C/Foreword01/Foreword01.htm",
+    "dtc": "",
+    "symptoms": ""
+  },
   "files": {
     "./source-mirror/BREZZA/xml/AENLBA0C/AENLBA0C0000001.xml": {
       "title": "General Precautions",
