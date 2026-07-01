@@ -39,12 +39,14 @@ body {
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   background: radial-gradient(circle at top right, var(--surface-soft) 0%, var(--bg) 42%);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 .app-shell {
   max-width: 1600px;
   margin: 0 auto;
   padding: 18px;
+  overflow-x: clip;
 }
 
 .topbar {
