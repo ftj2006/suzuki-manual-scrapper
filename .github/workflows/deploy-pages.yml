@@ -57,6 +57,21 @@ jobs:
             fi
           done
 
+          # Some FOREWORD/IMPORTANT assets are missing in modern source-mirror but
+          # still present in legacy ServiceManuals XML trees. Backfill only images.
+          legacy_xml_root="suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals"
+          if [ -d "$legacy_xml_root" ] && [ -d "_site/source-mirror" ]; then
+            rsync -a --ignore-existing --prune-empty-dirs \
+              --include='*/' \
+              --include='*.png' \
+              --include='*.jpg' \
+              --include='*.jpeg' \
+              --include='*.gif' \
+              --include='*.svg' \
+              --exclude='*' \
+              "$legacy_xml_root"/ "_site/source-mirror"/
+          fi
+
           # Shared assets may be symlinks in the repo. Materialize them as real files in _site.
           for path in image symbol icon config8; do
             if [ -e "$path" ]; then
