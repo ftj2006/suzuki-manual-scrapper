@@ -55,9 +55,13 @@ function renderInline(node, options) {
       const link = document.createElement("a");
       link.href = "#";
       link.className = "xml-link";
+      link.dataset.refId = refId;
       link.textContent = textContentOf(child) || options.resolveRefLabel?.(refId) || refId;
       link.addEventListener("click", (event) => {
         event.preventDefault();
+        if (options.onNavigateInternal?.(refId)) {
+          return;
+        }
         if (targetPath) {
           options.onNavigate?.(targetPath);
         }
@@ -67,10 +71,40 @@ function renderInline(node, options) {
     }
 
     if (tag === "symbol") {
-      const name = child.getAttribute("name");
+      const name = child.getAttribute("name") || "";
       const span = document.createElement("span");
       span.className = "xml-symbol";
-      span.textContent = name ? `[${name}]` : "[symbol]";
+      const candidates = options.resolveSymbol?.(name) || [];
+      if (candidates.length) {
+        const img = document.createElement("img");
+        img.className = "xml-symbol-icon";
+        img.alt = name || "symbol";
+        const widthMm = Number.parseFloat(child.getAttribute("width") || "");
+        const heightMm = Number.parseFloat(child.getAttribute("height") || "");
+        if (Number.isFinite(widthMm) && widthMm > 0) {
+          img.style.width = `${widthMm}mm`;
+        }
+        if (Number.isFinite(heightMm) && heightMm > 0) {
+          img.style.height = `${heightMm}mm`;
+        }
+
+        const setCandidate = (index) => {
+          if (index >= candidates.length) {
+            span.textContent = name ? `[${name}]` : "[symbol]";
+            return;
+          }
+          img.onerror = () => setCandidate(index + 1);
+          img.onload = () => {
+            img.onerror = null;
+          };
+          img.src = candidates[index];
+        };
+
+        setCandidate(0);
+        span.appendChild(img);
+      } else {
+        span.textContent = name ? `[${name}]` : "[symbol]";
+      }
       frag.appendChild(span);
       continue;
     }
@@ -90,6 +124,49 @@ function renderInline(node, options) {
   return frag;
 }
 
+function renderChildrenFlat(node, options, depth) {
+  const frag = document.createDocumentFragment();
+
+  const directText = [];
+  for (const child of node.childNodes || []) {
+    if (isMeaningfulText(child)) {
+      directText.push(child.textContent.trim());
+    }
+  }
+
+  if (directText.length) {
+    const p = document.createElement("p");
+    p.className = "xml-text";
+    p.textContent = directText.join(" ");
+    frag.appendChild(p);
+  }
+
+  for (const child of Array.from(node.children || [])) {
+    const rendered = renderNode(child, options, depth + 1);
+    if (rendered) {
+      frag.appendChild(rendered);
+    }
+  }
+
+  return frag.childNodes.length ? frag : null;
+}
+
+const FLATTEN_CONTAINER_TAGS = new Set([
+  "suzuki",
+  "manual",
+  "section",
+  "servcat",
+  "configtype",
+  "servinfotype",
+  "servinfo",
+  "servinfosub",
+  "topic",
+  "s1",
+  "s2",
+  "s3",
+  "deflist",
+]);
+
 function renderNode(node, options, depth = 0) {
   if (depth > 24) {
     return null;
@@ -104,7 +181,7 @@ function renderNode(node, options, depth = 0) {
     return h;
   }
 
-  if (tag === "ptxt" || tag === "def" || tag === "term") {
+  if (tag === "ptxt") {
     const p = document.createElement("p");
     p.className = "xml-text";
     const content = renderInline(node, options);
@@ -120,9 +197,133 @@ function renderNode(node, options, depth = 0) {
     return p;
   }
 
-  if (["servinfosub", "topic", "s1", "s2", "s3", "attention1", "attention2", "attention3"].includes(tag)) {
+  if (tag === "deflist") {
+    const wrap = document.createElement("section");
+    wrap.className = "xml-deflist";
+
+    let currentTerm = null;
+    const children = Array.from(node.children || []);
+    for (const child of children) {
+      const childTag = child.tagName?.toLowerCase();
+      if (childTag === "term") {
+        currentTerm = child;
+        continue;
+      }
+      if (childTag !== "def" || !currentTerm) {
+        continue;
+      }
+
+      const termText = textContentOf(currentTerm);
+      const defText = textContentOf(child);
+      const isLetterHeading = !defText && !!currentTerm.querySelector("emph");
+
+      if (isLetterHeading) {
+        const heading = document.createElement("h3");
+        heading.className = "xml-deflist-heading";
+        heading.textContent = termText;
+        wrap.appendChild(heading);
+        currentTerm = null;
+        continue;
+      }
+
+      const row = document.createElement("div");
+      row.className = "xml-deflist-row";
+
+      const dt = document.createElement("div");
+      dt.className = "xml-deflist-term";
+      const termInline = renderInline(currentTerm, options);
+      if (termInline.childNodes.length) {
+        dt.appendChild(termInline);
+      } else {
+        dt.textContent = termText;
+      }
+
+      const dd = document.createElement("div");
+      dd.className = "xml-deflist-def";
+      const defChildren = Array.from(child.children || []);
+      if (defChildren.length) {
+        for (const defChild of defChildren) {
+          const rendered = renderNode(defChild, options, depth + 1);
+          if (rendered) {
+            dd.appendChild(rendered);
+          }
+        }
+      }
+      if (!dd.childNodes.length) {
+        dd.textContent = defText;
+      }
+
+      row.append(dt, dd);
+      wrap.appendChild(row);
+      currentTerm = null;
+    }
+
+    return wrap.childNodes.length ? wrap : null;
+  }
+
+  if (tag === "term" || tag === "def") {
+    const p = document.createElement("p");
+    p.className = "xml-text";
+    const content = renderInline(node, options);
+    if (content.childNodes.length) {
+      p.appendChild(content);
+    } else {
+      p.textContent = textContentOf(node);
+    }
+    return p;
+  }
+
+  if (/^attention\d+$/.test(tag)) {
+    const level = Number.parseInt(tag.replace("attention", ""), 10);
     const section = document.createElement("section");
-    section.className = "xml-node";
+    section.className = "xml-node xml-attention";
+    if (Number.isFinite(level)) {
+      section.classList.add(`xml-attention-${level}`);
+    }
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        section.appendChild(rendered);
+      }
+    }
+    return section.childNodes.length ? section : null;
+  }
+
+  if (tag === "servinfosub") {
+    const section = document.createElement("section");
+    section.className = "xml-servinfosub";
+    const xmlId = (node.getAttribute("id") || "").trim();
+    if (xmlId) {
+      section.dataset.xmlId = xmlId;
+    }
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        section.appendChild(rendered);
+      }
+    }
+    return section.childNodes.length ? section : null;
+  }
+
+  if (FLATTEN_CONTAINER_TAGS.has(tag)) {
+    return renderChildrenFlat(node, options, depth);
+  }
+
+  if (tag === "spec") {
+    const section = document.createElement("section");
+    section.className = "xml-spec";
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        section.appendChild(rendered);
+      }
+    }
+    return section.childNodes.length ? section : null;
+  }
+
+  if (tag === "callout") {
+    const section = document.createElement("aside");
+    section.className = "xml-callout";
     for (const child of Array.from(node.children || [])) {
       const rendered = renderNode(child, options, depth + 1);
       if (rendered) {
@@ -159,11 +360,59 @@ function renderNode(node, options, depth = 0) {
     const table = document.createElement("table");
     table.className = "xml-table";
 
+    const colIndexByName = new Map();
+    const colgroup = document.createElement("colgroup");
+    let hasColWidth = false;
+    for (const colspec of Array.from(node.querySelectorAll("tgroup > colspec"))) {
+      const colName = (colspec.getAttribute("colname") || "").trim();
+      const colNum = Number.parseInt(colspec.getAttribute("colnum") || "", 10);
+      if (colName && Number.isFinite(colNum) && colNum > 0) {
+        colIndexByName.set(colName, colNum);
+      }
+
+      const col = document.createElement("col");
+      const colWidth = (colspec.getAttribute("colwidth") || "").trim();
+      if (colWidth) {
+        hasColWidth = true;
+        col.style.width = colWidth;
+      }
+      colgroup.appendChild(col);
+    }
+    if (hasColWidth) {
+      table.appendChild(colgroup);
+    }
+
     for (const row of node.querySelectorAll("row")) {
       const tr = document.createElement("tr");
       const isHeader = row.closest("thead") !== null;
-      for (const entry of row.querySelectorAll(":scope > entry")) {
+      for (const entry of Array.from(row.children || []).filter((child) => child.tagName?.toLowerCase() === "entry")) {
         const cell = document.createElement(isHeader ? "th" : "td");
+
+        const namest = (entry.getAttribute("namest") || "").trim();
+        const nameend = (entry.getAttribute("nameend") || "").trim();
+        if (namest && nameend) {
+          const start = colIndexByName.get(namest);
+          const end = colIndexByName.get(nameend);
+          if (Number.isFinite(start) && Number.isFinite(end) && end >= start) {
+            cell.colSpan = end - start + 1;
+          }
+        }
+
+        const morerows = Number.parseInt(entry.getAttribute("morerows") || "", 10);
+        if (Number.isFinite(morerows) && morerows > 0) {
+          cell.rowSpan = morerows + 1;
+        }
+
+        const align = (entry.getAttribute("align") || "").trim().toLowerCase();
+        if (align === "left" || align === "right" || align === "center") {
+          cell.style.textAlign = align;
+        }
+
+        const valign = (entry.getAttribute("valign") || "").trim().toLowerCase();
+        if (valign === "top" || valign === "middle" || valign === "bottom") {
+          cell.style.verticalAlign = valign;
+        }
+
         const childNodes = Array.from(entry.children || []);
         if (!childNodes.length) {
           cell.textContent = textContentOf(entry);
@@ -235,7 +484,7 @@ function renderNode(node, options, depth = 0) {
 
   const container = document.createElement("section");
   container.className = "xml-node";
-  if (!["suzuki", "manual", "section", "servcat", "configtype", "servinfotype", "servinfo", "deflist"].includes(tag)) {
+  if (!FLATTEN_CONTAINER_TAGS.has(tag)) {
     const tagLabel = document.createElement("div");
     tagLabel.className = "xml-tag";
     tagLabel.textContent = `<${tag}>`;

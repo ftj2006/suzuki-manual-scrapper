@@ -3,10 +3,53 @@
     {
       "id": "swift-a2l310-a2l412-a2l414",
       "name": "Swift A2L310/A2L412/A2L414",
-      "xml_root": "./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A",
-      "web_prefix": "./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A",
-      "flat_group_prefix": 10,
-      "structure_xml": "webdocstructure.xml"
+      "family_root": "./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml",
+      "submodels": [
+        {
+          "id": "AENKSB0A",
+          "name": "AENKSB0A",
+          "flat_group_prefix": 10,
+          "structure_xml": "webdocstructure.xml"
+        },
+        {
+          "id": "AENLSB0A",
+          "name": "AENLSB0A",
+          "flat_group_prefix": 10,
+          "structure_xml": "webdocstructure.xml"
+        },
+        {
+          "id": "AENLSB0C",
+          "name": "AENLSB0C",
+          "flat_group_prefix": 10,
+          "structure_xml": "webdocstructure.xml"
+        }
+      ]
+    },
+    {
+      "id": "brezza",
+      "name": "Brezza",
+      "family_root": "./source-mirror/BREZZA/xml",
+      "submodels": [
+        {
+          "id": "AENLBA0C",
+          "name": "AENLBA0C",
+          "flat_group_prefix": 10,
+          "structure_xml": "webdocstructure.xml"
+        }
+      ]
+    },
+    {
+      "id": "ignis",
+      "name": "Ignis",
+      "family_root": "./source-mirror/IGNIS/xml",
+      "submodels": [
+        {
+          "id": "AENLJA0A",
+          "name": "AENLJA0A",
+          "flat_group_prefix": 10,
+          "structure_xml": "webdocstructure.xml"
+        }
+      ]
     }
   ]
 }
