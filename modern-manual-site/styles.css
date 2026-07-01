@@ -120,6 +120,10 @@ body {
   min-height: calc(100vh - 118px);
 }
 
+.layout.sidebar-collapsed {
+  grid-template-columns: 84px 1fr;
+}
+
 .sidebar,
 .content {
   border: 1px solid var(--line);
@@ -139,9 +143,32 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.sidebar-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
 .sidebar-header h2 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: 1rem;
+}
+
+.sidebar-toggle {
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+}
+
+.sidebar.collapsed .sidebar-header input,
+.sidebar.collapsed .tree {
+  display: none;
+}
+
+.sidebar.collapsed .sidebar-header {
+  border-bottom: 0;
 }
 
 .sidebar-header input {
@@ -266,6 +293,7 @@ body {
 
 .manual-landing {
   min-height: min(72vh, 700px);
+  width: 100%;
   display: grid;
   align-content: center;
   justify-items: center;
@@ -275,6 +303,7 @@ body {
   border-radius: 14px;
   background: linear-gradient(180deg, color-mix(in oklab, var(--surface-soft) 55%, var(--surface) 45%) 0%, var(--surface) 100%);
   padding: 22px;
+  overflow: hidden;
 }
 
 .manual-landing-brand {
@@ -286,10 +315,12 @@ body {
 
 .manual-landing-headline {
   margin: 0;
-  font-size: clamp(2.4rem, 9vw, 7rem);
+  max-width: 100%;
+  font-size: clamp(1.6rem, 5.8vw, 4.4rem);
   font-style: italic;
   letter-spacing: 0.02em;
-  line-height: 1;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
 }
 
 .manual-landing-subtitle {

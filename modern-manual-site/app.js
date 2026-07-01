@@ -7,6 +7,9 @@ const els = {
   submodelSelect: document.getElementById("submodelSelect"),
   modelField: document.getElementById("modelField"),
   modelSelect: document.getElementById("modelSelect"),
+  layout: document.querySelector(".layout"),
+  sidebar: document.querySelector(".sidebar"),
+  sidebarToggle: document.getElementById("sidebarToggle"),
   tree: document.getElementById("tree"),
   viewer: document.getElementById("viewer"),
   treeFilter: document.getElementById("treeFilter"),
@@ -40,6 +43,22 @@ function submodelStorageKey(datasetId) {
 }
 
 const datasetStorageKey = "manual-next-dataset";
+const sidebarCollapsedStorageKey = "manual-next-sidebar-collapsed";
+
+function setSidebarCollapsed(collapsed) {
+  if (els.sidebar) {
+    els.sidebar.classList.toggle("collapsed", collapsed);
+  }
+  if (els.layout) {
+    els.layout.classList.toggle("sidebar-collapsed", collapsed);
+  }
+  if (els.sidebarToggle) {
+    els.sidebarToggle.textContent = collapsed ? "Expand" : "Collapse";
+    els.sidebarToggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    els.sidebarToggle.setAttribute("title", collapsed ? "Expand Manual Pages" : "Collapse Manual Pages");
+  }
+  localStorage.setItem(sidebarCollapsedStorageKey, collapsed ? "1" : "0");
+}
 
 function treeStateStorageKey(datasetId, submodelId, model) {
   return `manual-next-tree:${datasetId}:${submodelId}:${model || "default"}`;
@@ -167,8 +186,8 @@ function treeWithManualLanding(nodes) {
 
   const landingNode = {
     type: "file",
-    label: "Manual Landing Page",
-    title: "Manual Landing Page",
+    label: "Landing Page",
+    title: "Landing Page",
     path: landingPath,
     isLanding: true,
   };
@@ -1191,9 +1210,17 @@ async function loadDataset(datasetId) {
 async function bootstrap() {
   setupTheme();
 
+  const sidebarCollapsed = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
+  setSidebarCollapsed(sidebarCollapsed);
+
   els.themeToggle.addEventListener("click", () => {
     const current = document.body.getAttribute("data-theme");
     applyTheme(current === "dark" ? "light" : "dark");
+  });
+
+  els.sidebarToggle?.addEventListener("click", () => {
+    const nextCollapsed = !els.sidebar?.classList.contains("collapsed");
+    setSidebarCollapsed(nextCollapsed);
   });
 
   els.tree.addEventListener("scroll", () => {

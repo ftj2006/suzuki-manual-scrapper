@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suzuki Manual Viewer - v2.0</title>
-    <link rel="stylesheet" href="./styles.css?v=19" />
+    <link rel="stylesheet" href="./styles.css?v=20" />
   </head>
   <body>
     <div class="app-shell">
@@ -35,7 +35,12 @@
       <main class="layout">
         <aside class="sidebar">
           <div class="sidebar-header">
-            <h2>Manual Pages</h2>
+            <div class="sidebar-header-row">
+              <h2>Manual Pages</h2>
+              <button id="sidebarToggle" class="button secondary sidebar-toggle" type="button" aria-expanded="true" aria-controls="tree" title="Collapse Manual Pages">
+                Collapse
+              </button>
+            </div>
             <input id="treeFilter" type="search" placeholder="Filter..." />
           </div>
           <nav id="tree" class="tree" aria-label="Manual file tree"></nav>
@@ -50,6 +55,6 @@
       </main>
     </div>
 
-    <script type="module" src="./app.js?v=24"></script>
+    <script type="module" src="./app.js?v=25"></script>
   </body>
 </html>
