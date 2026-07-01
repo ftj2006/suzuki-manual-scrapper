@@ -59,10 +59,15 @@ jobs:
             done < <(find modern-manual-site/source-mirror -mindepth 2 -maxdepth 2 -type d -name xml -print0)
           fi
 
-          # Use -L so symlinks (config8/icon/image/symbol) are copied as real directories/files.
+          # Use -L for individual shared assets, but preserve symlinks for large mirrored trees
+          # to avoid hard failures on broken legacy links during staging.
           for path in index.html 404.html .nojekyll config8 icon image symbol suzuki-manual modern-manual-site manuals-index working-urls.html working-urls-grouped-report.html whatsapp-working-urls.html; do
             if [ -e "$path" ]; then
-              cp -RL "$path" _site/
+              if [ "$path" = "modern-manual-site" ] || [ "$path" = "suzuki-manual" ]; then
+                cp -R "$path" _site/
+              else
+                cp -RL "$path" _site/
+              fi
             fi
           done
           python3 .github/scripts/inject_base_tags.py
