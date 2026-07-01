@@ -3,8 +3,75 @@
     {
       "id": "swift-a2l310-a2l412-a2l414",
       "name": "Swift A2L310/A2L412/A2L414",
-      "indexUrl": "./data/swift-a2l310-a2l412-a2l414.json",
-      "fileCount": 2831
+      "submodels": [
+        {
+          "id": "AENKSB0A",
+          "name": "AENKSB0A",
+          "indexUrl": "./data/swift-a2l310-a2l412-a2l414--aenksb0a.json",
+          "fileCount": 722,
+          "modelVariants": [
+            "K10C",
+            "K12C",
+            "K12M",
+            "K14C"
+          ]
+        },
+        {
+          "id": "AENLSB0A",
+          "name": "AENLSB0A",
+          "indexUrl": "./data/swift-a2l310-a2l412-a2l414--aenlsb0a.json",
+          "fileCount": 2831,
+          "modelVariants": [
+            "K14C",
+            "K14D"
+          ]
+        },
+        {
+          "id": "AENLSB0C",
+          "name": "AENLSB0C",
+          "indexUrl": "./data/swift-a2l310-a2l412-a2l414--aenlsb0c.json",
+          "fileCount": 685,
+          "modelVariants": [
+            "K10C",
+            "K12C",
+            "K12D",
+            "K12M"
+          ]
+        }
+      ],
+      "fileCount": 4238
+    },
+    {
+      "id": "brezza",
+      "name": "Brezza",
+      "submodels": [
+        {
+          "id": "AENLBA0C",
+          "name": "AENLBA0C",
+          "indexUrl": "./data/brezza--aenlba0c.json",
+          "fileCount": 202,
+          "modelVariants": []
+        }
+      ],
+      "fileCount": 202
+    },
+    {
+      "id": "ignis",
+      "name": "Ignis",
+      "submodels": [
+        {
+          "id": "AENLJA0A",
+          "name": "AENLJA0A",
+          "indexUrl": "./data/ignis--aenlja0a.json",
+          "fileCount": 558,
+          "modelVariants": [
+            "K12C",
+            "K12D",
+            "K12M"
+          ]
+        }
+      ],
+      "fileCount": 558
     }
   ]
 }

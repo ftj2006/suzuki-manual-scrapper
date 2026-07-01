@@ -35,19 +35,40 @@ class DatasetConfig:
     structure_xml: str
 
 
-def load_config() -> List[DatasetConfig]:
+@dataclass
+class DatasetFamilyConfig:
+    dataset_id: str
+    name: str
+    family_root: Path
+    submodels: List[DatasetConfig]
+
+
+def load_config() -> List[DatasetFamilyConfig]:
     payload = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    datasets: List[DatasetConfig] = []
+    datasets: List[DatasetFamilyConfig] = []
     for item in payload.get("datasets", []):
+        family_root = (SITE_ROOT / item["family_root"]).resolve()
+        submodels: List[DatasetConfig] = []
+        for submodel in item.get("submodels", []):
+            submodel_id = submodel["id"]
+            xml_root = (family_root / submodel_id).resolve()
+            submodels.append(
+                DatasetConfig(
+                    dataset_id=f"{item['id']}--{submodel_id.lower()}",
+                    name=submodel.get("name", submodel_id),
+                    xml_root=xml_root,
+                    web_prefix=f"./{str((Path(item['family_root']) / submodel_id).as_posix()).removeprefix('./')}",
+                    flat_group_prefix=int(submodel.get("flat_group_prefix", 0)),
+                    navi_html=submodel.get("navi_html", "navi/navi.html"),
+                    structure_xml=submodel.get("structure_xml", "webdocstructure-sym.xml"),
+                )
+            )
         datasets.append(
-            DatasetConfig(
+            DatasetFamilyConfig(
                 dataset_id=item["id"],
                 name=item["name"],
-                xml_root=(SITE_ROOT / item["xml_root"]).resolve(),
-                web_prefix=item["web_prefix"].rstrip("/"),
-                flat_group_prefix=int(item.get("flat_group_prefix", 0)),
-                navi_html=item.get("navi_html", "navi/navi.html"),
-                structure_xml=item.get("structure_xml", "webdocstructure-sym.xml"),
+                family_root=family_root,
+                submodels=submodels,
             )
         )
     return datasets
@@ -69,6 +90,7 @@ def extract_title(xml_path: Path) -> str:
 
 
 CONTENT_MODEL_CACHE: Dict[Path, List[str]] = {}
+MODEL_TOKEN_RE = re.compile(r"\b[A-Z]{1,5}\d[A-Z0-9-]*\b")
 
 
 def detect_models(xml_path: Path, title: str = "") -> List[str]:
@@ -91,6 +113,37 @@ def detect_models(xml_path: Path, title: str = "") -> List[str]:
 
     CONTENT_MODEL_CACHE[xml_path] = markers
     return markers
+
+
+def extract_variant_tokens(text: str) -> List[str]:
+    tokens = []
+    for token in MODEL_TOKEN_RE.findall(text or ""):
+        if token not in tokens:
+            tokens.append(token)
+    return tokens
+
+
+def discover_dataset_model_variants(dataset: DatasetConfig) -> List[str]:
+    variant_counts: Dict[str, int] = {}
+
+    for structure_path in dataset.xml_root.glob("webdocstructure_*.xml"):
+        try:
+            root = ET.fromstring(structure_path.read_text(encoding="utf-8", errors="ignore"))
+        except ET.ParseError:
+            continue
+
+        for container in root.findall("c"):
+            label = (container.attrib.get("t", "") or "").strip()
+            for token in extract_variant_tokens(label):
+                variant_counts[token] = variant_counts.get(token, 0) + 1
+
+    for xml_path in dataset.xml_root.rglob("*.xml"):
+        models = detect_models(xml_path, extract_title(xml_path))
+        for model in models:
+            variant_counts[model] = variant_counts.get(model, 0) + 1
+
+    variants = [token for token, count in variant_counts.items() if count >= 2]
+    return sorted(variants)
 
 
 def insert_tree(root: Dict, parts: Tuple[str, ...], file_meta: Dict) -> None:
@@ -485,7 +538,12 @@ def webdocstructure_tree(dataset: DatasetConfig, file_index: Dict[str, Dict]) ->
     def ensure_chapter(chapter_code: str) -> Dict:
         if chapter_code not in chapter_nodes:
             chapter_title = CHAPTER_NAMES.get(chapter_code, f"Chapter {chapter_code}")
-            chapter_node = {"type": "folder", "label": f"{chapter_code} - {chapter_title}", "children": []}
+            chapter_node = {
+                "type": "folder",
+                "label": f"{chapter_code} - {chapter_title}",
+                "children": [],
+                "preserveEmpty": True,
+            }
             chapter_nodes[chapter_code] = chapter_node
             tree.append(chapter_node)
         return chapter_nodes[chapter_code]
@@ -536,7 +594,12 @@ def webdocstructure_tree(dataset: DatasetConfig, file_index: Dict[str, Dict]) ->
         chapter_node = ensure_chapter(chapter_code)
 
         section_label = f"{section_id} - {section_title}" if section_title else section_id
-        section_node = {"type": "folder", "label": section_label, "children": []}
+        section_node = {
+            "type": "folder",
+            "label": section_label,
+            "children": [],
+            "preserveEmpty": True,
+        }
         chapter_node["children"].append(section_node)
 
         file_prefix = (section.attrib.get("f", "") or "").strip()
@@ -552,7 +615,7 @@ def webdocstructure_tree(dataset: DatasetConfig, file_index: Dict[str, Dict]) ->
         for node in nodes:
             if node.get("type") == "folder":
                 node["children"] = prune(node.get("children", []))
-                if node["children"]:
+                if node["children"] or node.get("preserveEmpty"):
                     kept.append(node)
             else:
                 kept.append(node)
@@ -640,10 +703,13 @@ def build_dataset(dataset: DatasetConfig) -> Dict:
 
         sort_tree(root_node)
 
+    model_variants = discover_dataset_model_variants(dataset)
+
     return {
         "id": dataset.dataset_id,
         "name": dataset.name,
         "xmlRoot": str(dataset.xml_root),
+        "modelVariants": model_variants,
         "tree": root_node.get("children", []),
         "files": file_index,
         "firstFilePath": first_file_path,
@@ -658,19 +724,33 @@ def main() -> None:
 
     manifest = {"datasets": []}
 
-    for dataset in datasets:
-        built = build_dataset(dataset)
-        out_file = DATA_DIR / f"{dataset.dataset_id}.json"
-        out_file.write_text(json.dumps(built, indent=2), encoding="utf-8")
+    for family in datasets:
+        submodel_manifest = []
+        total_files = 0
+        for submodel in family.submodels:
+            built = build_dataset(submodel)
+            out_file = DATA_DIR / f"{submodel.dataset_id}.json"
+            out_file.write_text(json.dumps(built, indent=2), encoding="utf-8")
+            submodel_manifest.append(
+                {
+                    "id": submodel.name,
+                    "name": submodel.name,
+                    "indexUrl": f"./data/{submodel.dataset_id}.json",
+                    "fileCount": built["fileCount"],
+                    "modelVariants": built.get("modelVariants", []),
+                }
+            )
+            total_files += built["fileCount"]
+            print(f"Built {submodel.dataset_id}: {built['fileCount']} files")
+
         manifest["datasets"].append(
             {
-                "id": dataset.dataset_id,
-                "name": dataset.name,
-                "indexUrl": f"./data/{dataset.dataset_id}.json",
-                "fileCount": built["fileCount"],
+                "id": family.dataset_id,
+                "name": family.name,
+                "submodels": submodel_manifest,
+                "fileCount": total_files,
             }
         )
-        print(f"Built {dataset.dataset_id}: {built['fileCount']} files")
 
     (DATA_DIR / "datasets.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     print(f"Wrote manifest with {len(manifest['datasets'])} dataset(s)")

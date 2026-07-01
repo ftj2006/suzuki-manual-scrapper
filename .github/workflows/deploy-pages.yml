@@ -44,7 +44,7 @@ jobs:
           rm -rf _site
           mkdir -p _site
           # Use -L so symlinks (config8/icon/image/symbol) are copied as real directories/files.
-          for path in index.html 404.html .nojekyll config8 icon image symbol suzuki-manual manuals-index working-urls.html working-urls-grouped-report.html whatsapp-working-urls.html; do
+          for path in index.html 404.html .nojekyll config8 icon image symbol suzuki-manual modern-manual-site manuals-index working-urls.html working-urls-grouped-report.html whatsapp-working-urls.html; do
             if [ -e "$path" ]; then
               cp -RL "$path" _site/
             fi
