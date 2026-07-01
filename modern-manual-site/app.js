@@ -146,6 +146,60 @@ function renderViewerPlaceholder(message, isError = false) {
   els.viewer.innerHTML = `<h2>${isError ? "Error" : "Select a file from the tree"}</h2><p>${htmlEscape(message)}</p>`;
 }
 
+function manualLandingPath(datasetId, submodelId) {
+  if (!datasetId || !submodelId) {
+    return "";
+  }
+  return `manual-landing://${datasetId}/${submodelId}`;
+}
+
+function isManualLandingPath(path) {
+  return String(path || "").startsWith("manual-landing://");
+}
+
+function treeWithManualLanding(nodes) {
+  const datasetId = state.activeDataset?.id || "";
+  const submodelId = state.activeSubmodel?.id || "";
+  const landingPath = manualLandingPath(datasetId, submodelId);
+  if (!landingPath) {
+    return nodes || [];
+  }
+
+  const landingNode = {
+    type: "file",
+    label: "Manual Landing Page",
+    title: "Manual Landing Page",
+    path: landingPath,
+    isLanding: true,
+  };
+
+  return [landingNode, ...(nodes || [])];
+}
+
+function renderManualLanding() {
+  const wrap = document.createElement("section");
+  wrap.className = "manual-landing";
+
+  const datasetName = String(state.activeDataset?.name || "Suzuki").trim();
+  const submodelName = String(state.activeSubmodel?.name || "").trim();
+
+  const headline = datasetName
+    .replace(/^Suzuki\s+/i, "")
+    .replace(/\s+\/\s+/g, " / ")
+    .toUpperCase();
+
+  const modelText = submodelName || "SERVICE MANUAL";
+
+  wrap.innerHTML = `
+    <p class="manual-landing-brand">SUZUKI</p>
+    <h2 class="manual-landing-headline">${htmlEscape(headline)}</h2>
+    <p class="manual-landing-subtitle">SERVICE MANUAL</p>
+    <p class="manual-landing-code">${htmlEscape(modelText)}</p>
+  `;
+
+  return wrap;
+}
+
 function repoRootUrl() {
   const currentDir = new URL("./", window.location.href);
   if (currentDir.pathname.endsWith("/modern-manual-site/")) {
@@ -857,7 +911,7 @@ function normalizeAllModelsTree(nodes, modelVariants) {
 }
 
 function visibleTree() {
-  const baseNodes = state.activeDatasetIndex?.tree || [];
+  const baseNodes = treeWithManualLanding(state.activeDatasetIndex?.tree || []);
   const modelNodes = applyModelFilter(baseNodes, state.activeModel, state.modelVariants);
   const normalizedNodes = normalizeAllModelsTree(modelNodes, state.modelVariants);
   return filterTree(normalizedNodes, state.treeFilter);
@@ -957,7 +1011,7 @@ function buildTreeNodes(nodes, trail = "") {
     const icon = document.createElement("span");
     icon.className = "tree-leaf-icon";
     icon.setAttribute("aria-hidden", "true");
-    icon.textContent = "🗎";
+    icon.textContent = node.isLanding ? "⌂" : "🗎";
     const text = document.createElement("span");
     text.className = "tree-leaf-text";
     text.textContent = buttonText;
@@ -998,6 +1052,13 @@ async function loadSelectedFile() {
 
   if (!state.selectedPath) {
     renderViewerPlaceholder("Pick an XML node to render.");
+    return;
+  }
+
+  if (isManualLandingPath(state.selectedPath)) {
+    els.viewer.className = "viewer";
+    els.viewer.innerHTML = "";
+    els.viewer.appendChild(renderManualLanding());
     return;
   }
 
@@ -1092,7 +1153,11 @@ async function loadDatasetIndex(submodel) {
     state.activeModel = state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || "");
     renderModelSelect();
     restoreTreeState();
-    state.selectedPath = state.selectedPath || state.activeDatasetIndex?.firstFilePath || null;
+    state.selectedPath =
+      state.selectedPath
+      || manualLandingPath(state.activeDataset?.id || "", submodel.id)
+      || state.activeDatasetIndex?.firstFilePath
+      || null;
     renderTree();
     await loadSelectedFile();
     if (datasetLoadToken !== state.datasetLoadToken) {
