@@ -345,8 +345,125 @@ CHAPTER_NAMES = {
     "8": "Restraint",
     "9": "Body, Cab and Accessories",
     "10": "Control Systems",
-    "11": "Wiring",
+    "11": "Electric Power Train",
 }
+
+
+def resolve_service_path(dataset: DatasetConfig, file_index: Dict[str, Dict], service_id: str) -> str:
+    candidates = [
+        f"{dataset.web_prefix}/{service_id}.xml",
+        f"{dataset.web_prefix}/{service_id}/{service_id}.htm",
+        f"{dataset.web_prefix}/{service_id}/{service_id}.html",
+    ]
+    return next((candidate for candidate in candidates if candidate in file_index), "")
+
+
+def is_meaningful_label(value: str) -> bool:
+    text = (value or "").strip()
+    return bool(text) and "none" not in text.lower()
+
+
+def section_schema_tree(dataset: DatasetConfig, file_index: Dict[str, Dict], structure_xml: str) -> Tuple[List[Dict], List[str]]:
+    structure_path = (dataset.xml_root / structure_xml).resolve()
+    if not structure_path.exists():
+        return [], []
+
+    root = ET.fromstring(structure_path.read_text(encoding="utf-8", errors="ignore"))
+    tree: List[Dict] = []
+    seen: List[str] = []
+    chapter_nodes: Dict[str, Dict] = {}
+
+    def ensure_folder(parent_children: List[Dict], label: str) -> Dict:
+        existing = next((node for node in parent_children if node.get("type") == "folder" and node.get("label") == label), None)
+        if existing is not None:
+            return existing
+        created = {"type": "folder", "label": label, "children": []}
+        parent_children.append(created)
+        return created
+
+    def ensure_chapter(chapter_code: str) -> Dict:
+        if chapter_code not in chapter_nodes:
+            chapter_title = CHAPTER_NAMES.get(chapter_code, f"Chapter {chapter_code}")
+            chapter_node = {
+                "type": "folder",
+                "label": f"{chapter_code} - {chapter_title}",
+                "children": [],
+                "preserveEmpty": True,
+            }
+            chapter_nodes[chapter_code] = chapter_node
+            tree.append(chapter_node)
+        return chapter_nodes[chapter_code]
+
+    for section in root.findall("section"):
+        section_id = (section.attrib.get("id", "") or "").strip()
+        if not section_id:
+            continue
+
+        chapter_match = re.match(r"^(\d+)", section_id)
+        chapter_code = chapter_match.group(1) if chapter_match else section_id
+        chapter_node = ensure_chapter(chapter_code)
+
+        section_title = (section.attrib.get("title", "") or "").strip()
+        section_folder = chapter_node
+        if is_meaningful_label(section_title):
+            section_folder = ensure_folder(chapter_node["children"], f"{section_id} - {section_title}")
+
+        for servcat in section.findall("servcat"):
+            servcat_title = (servcat.attrib.get("title", "") or "").strip() or section_id
+            servcat_folder = ensure_folder(section_folder["children"], servcat_title)
+
+            for configtype in servcat.findall("configtype"):
+                config_title = (configtype.attrib.get("title", "") or "").strip()
+                config_parent_children = servcat_folder["children"]
+                if is_meaningful_label(config_title):
+                    config_parent = ensure_folder(servcat_folder["children"], config_title)
+                    config_parent_children = config_parent["children"]
+
+                for servinfotype in configtype.findall("servinfotype"):
+                    type_title = (servinfotype.attrib.get("title", "") or "").strip()
+                    type_parent_children = config_parent_children
+                    if is_meaningful_label(type_title):
+                        type_parent = ensure_folder(config_parent_children, type_title)
+                        type_parent_children = type_parent["children"]
+
+                    for servinfo in servinfotype.findall("servinfo"):
+                        service_id = (servinfo.attrib.get("id", "") or "").strip()
+                        if not service_id:
+                            continue
+
+                        web_path = resolve_service_path(dataset, file_index, service_id)
+                        if not web_path or web_path in seen:
+                            continue
+
+                        seen.append(web_path)
+                        meta = file_index.get(web_path, {})
+                        label = (
+                            (servinfo.attrib.get("dtccode", "") or "").strip()
+                            or (servinfo.attrib.get("symdesc", "") or "").strip()
+                            or (servinfo.attrib.get("title", "") or "").strip()
+                            or service_id
+                        )
+                        type_parent_children.append(
+                            {
+                                "type": "file",
+                                "label": label,
+                                "path": web_path,
+                                "title": meta.get("title", "") or (servinfo.attrib.get("title", "") or "").strip(),
+                            }
+                        )
+
+    def prune(nodes: List[Dict]) -> List[Dict]:
+        kept: List[Dict] = []
+        for node in nodes:
+            if node.get("type") == "folder":
+                node["children"] = prune(node.get("children", []))
+                if node["children"] or node.get("preserveEmpty"):
+                    kept.append(node)
+            else:
+                kept.append(node)
+        return kept
+
+    return prune(tree), seen
 
 
 def build_structure_file_lookup(dataset: DatasetConfig) -> Dict[str, Path]:
@@ -522,8 +639,9 @@ def structure_file_tree(
     return group_nodes
 
 
-def webdocstructure_tree(dataset: DatasetConfig, file_index: Dict[str, Dict]) -> Tuple[List[Dict], List[str]]:
-    structure_path = (dataset.xml_root / dataset.structure_xml).resolve()
+def webdocstructure_tree(dataset: DatasetConfig, file_index: Dict[str, Dict], structure_xml: str = "") -> Tuple[List[Dict], List[str]]:
+    structure_name = structure_xml or dataset.structure_xml
+    structure_path = (dataset.xml_root / structure_name).resolve()
     if not structure_path.exists():
         return [], []
 
@@ -667,15 +785,28 @@ def build_dataset(dataset: DatasetConfig) -> Dict:
         if not first_file_path:
             first_file_path = web_path
 
-    semantic_tree, linked_paths = webdocstructure_tree(dataset, file_index)
+    bookmarks_tree, bookmarks_linked_paths = webdocstructure_tree(dataset, file_index)
     semantic_source = "semantic-structure"
-    if not semantic_tree:
-        semantic_tree, linked_paths = navi_semantic_tree(dataset, file_index)
+    if not bookmarks_tree:
+        bookmarks_tree, bookmarks_linked_paths = navi_semantic_tree(dataset, file_index)
         semantic_source = "semantic-navi"
 
-    if semantic_tree:
-        root_node["children"] = semantic_tree
-        unlinked = [path for path in file_index.keys() if path not in set(linked_paths)]
+    dtc_tree, dtc_linked_paths = webdocstructure_tree(dataset, file_index, "webdocstructure-dtc.xml")
+    if not dtc_tree:
+        dtc_tree, dtc_linked_paths = section_schema_tree(dataset, file_index, "webdocstructure-dtc.xml")
+
+    symptoms_tree, symptoms_linked_paths = webdocstructure_tree(dataset, file_index, "webdocstructure-sym.xml")
+    if not symptoms_tree:
+        symptoms_tree, symptoms_linked_paths = section_schema_tree(dataset, file_index, "webdocstructure-sym.xml")
+
+    if bookmarks_tree:
+        root_node["children"] = bookmarks_tree
+
+        linked_union = set(bookmarks_linked_paths)
+        linked_union.update(dtc_linked_paths)
+        linked_union.update(symptoms_linked_paths)
+        unlinked = [path for path in file_index.keys() if path not in linked_union]
+
         if unlinked:
             unlinked_folder = {"type": "folder", "label": "Unlinked XML", "children": []}
             for path in sorted(unlinked):
@@ -689,6 +820,7 @@ def build_dataset(dataset: DatasetConfig) -> Dict:
                     }
                 )
             root_node["children"].append(unlinked_folder)
+
         first_file_path = first_file_in_tree(root_node["children"]) or first_file_path
     else:
         for path, meta in file_index.items():
@@ -705,16 +837,28 @@ def build_dataset(dataset: DatasetConfig) -> Dict:
 
     model_variants = discover_dataset_model_variants(dataset)
 
+    tree_tabs = {
+        "bookmarks": root_node.get("children", []),
+        "dtc": dtc_tree,
+        "symptoms": symptoms_tree,
+    }
+    first_file_path_by_tab = {
+        tab_id: first_file_in_tree(tab_nodes)
+        for tab_id, tab_nodes in tree_tabs.items()
+    }
+
     return {
         "id": dataset.dataset_id,
         "name": dataset.name,
         "xmlRoot": str(dataset.xml_root),
         "modelVariants": model_variants,
         "tree": root_node.get("children", []),
+        "trees": tree_tabs,
+        "firstFilePathByTab": first_file_path_by_tab,
         "files": file_index,
         "firstFilePath": first_file_path,
         "fileCount": len(file_index),
-        "source": semantic_source if semantic_tree else "filesystem",
+        "source": semantic_source if bookmarks_tree else "filesystem",
     }
 
 

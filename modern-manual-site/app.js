@@ -8,6 +8,7 @@ const els = {
   modelField: document.getElementById("modelField"),
   modelSelect: document.getElementById("modelSelect"),
   tree: document.getElementById("tree"),
+  treeTabs: document.getElementById("treeTabs"),
   viewer: document.getElementById("viewer"),
   treeFilter: document.getElementById("treeFilter"),
   themeToggle: document.getElementById("themeToggle"),
@@ -27,7 +28,15 @@ const state = {
   refToTitle: new Map(),
   modelVariants: [],
   activeModel: "",
+  activeTreeTab: "bookmarks",
+  availableTreeTabs: [],
 };
+
+const TREE_TABS = [
+  { id: "bookmarks", label: "Bookmarks" },
+  { id: "dtc", label: "DTC" },
+  { id: "symptoms", label: "Symptoms" },
+];
 
 function modelStorageKey(datasetId) {
   return `manual-next-model:${datasetId}`;
@@ -39,15 +48,20 @@ function submodelStorageKey(datasetId) {
 
 const datasetStorageKey = "manual-next-dataset";
 
-function treeStateStorageKey(datasetId, submodelId, model) {
-  return `manual-next-tree:${datasetId}:${submodelId}:${model || "default"}`;
+function treeStateStorageKey(datasetId, submodelId, model, tab) {
+  return `manual-next-tree:${datasetId}:${submodelId}:${model || "default"}:${tab || "bookmarks"}`;
 }
 
 function activeTreeStateKey() {
   if (!state.activeDataset?.id || !state.activeSubmodel?.id) {
     return "";
   }
-  return treeStateStorageKey(state.activeDataset.id, state.activeSubmodel.id, state.activeModel || "");
+  return treeStateStorageKey(
+    state.activeDataset.id,
+    state.activeSubmodel.id,
+    state.activeModel || "",
+    state.activeTreeTab || "bookmarks",
+  );
 }
 
 function saveTreeState() {
@@ -714,6 +728,69 @@ function firstFilePath(nodes) {
   return "";
 }
 
+function treeNodesByTab(tabId) {
+  const trees = state.activeDatasetIndex?.trees;
+  if (trees && Array.isArray(trees[tabId])) {
+    return trees[tabId];
+  }
+  return tabId === "bookmarks" ? (state.activeDatasetIndex?.tree || []) : [];
+}
+
+function firstFilePathForTab(tabId) {
+  const map = state.activeDatasetIndex?.firstFilePathByTab;
+  const fromMap = map?.[tabId];
+  if (fromMap) {
+    return fromMap;
+  }
+  return firstFilePath(treeNodesByTab(tabId));
+}
+
+function datasetAvailableTreeTabs() {
+  const available = TREE_TABS.filter((tab) => treeNodesByTab(tab.id).length > 0);
+  return available.length ? available : [TREE_TABS[0]];
+}
+
+function renderTreeTabs() {
+  const tabs = state.availableTreeTabs;
+  els.treeTabs.innerHTML = "";
+
+  for (const tab of tabs) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "tree-tab";
+    button.dataset.treeTab = tab.id;
+    button.setAttribute("role", "tab");
+    button.setAttribute("aria-selected", String(tab.id === state.activeTreeTab));
+    button.textContent = tab.label;
+    els.treeTabs.appendChild(button);
+  }
+
+  els.treeTabs.hidden = tabs.length < 2;
+}
+
+function switchTreeTab(tabId) {
+  if (!tabId || tabId === state.activeTreeTab) {
+    return;
+  }
+  if (!state.availableTreeTabs.some((tab) => tab.id === tabId)) {
+    return;
+  }
+
+  saveTreeState();
+  state.activeTreeTab = tabId;
+  restoreTreeState();
+
+  const nextPath = state.selectedPath && state.activeDatasetIndex?.files?.[state.selectedPath]
+    ? state.selectedPath
+    : firstFilePathForTab(tabId);
+  state.selectedPath = nextPath || null;
+
+  renderTreeTabs();
+  renderTree();
+  loadSelectedFile();
+  saveTreeState();
+}
+
 function isLikelyModelLabel(label) {
   return /^[A-Z0-9][A-Z0-9-]{1,15}$/.test(String(label || ""));
 }
@@ -850,7 +927,7 @@ function normalizeAllModelsTree(nodes, modelVariants) {
 }
 
 function visibleTree() {
-  const baseNodes = state.activeDatasetIndex?.tree || [];
+  const baseNodes = treeNodesByTab(state.activeTreeTab);
   const modelNodes = applyModelFilter(baseNodes, state.activeModel, state.modelVariants);
   const normalizedNodes = normalizeAllModelsTree(modelNodes, state.modelVariants);
   return filterTree(normalizedNodes, state.treeFilter);
@@ -1045,6 +1122,8 @@ async function loadDatasetIndex(submodel) {
   state.refToTitle = new Map();
   state.modelVariants = [];
   state.activeModel = "";
+  state.activeTreeTab = "bookmarks";
+  state.availableTreeTabs = [];
   renderViewerPlaceholder("Loading dataset index...");
 
   try {
@@ -1066,11 +1145,16 @@ async function loadDatasetIndex(submodel) {
     }
 
     state.modelVariants = datasetModelVariants();
+    state.availableTreeTabs = datasetAvailableTreeTabs();
+    if (!state.availableTreeTabs.some((tab) => tab.id === state.activeTreeTab)) {
+      state.activeTreeTab = state.availableTreeTabs[0].id;
+    }
     const savedModel = localStorage.getItem(modelStorageKey(`${state.activeDataset.id}:${submodel.id}`)) || "";
     state.activeModel = state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || "");
     renderModelSelect();
+    renderTreeTabs();
     restoreTreeState();
-    state.selectedPath = state.selectedPath || state.activeDatasetIndex?.firstFilePath || null;
+    state.selectedPath = state.selectedPath || firstFilePathForTab(state.activeTreeTab) || state.activeDatasetIndex?.firstFilePath || null;
     renderTree();
     await loadSelectedFile();
     saveTreeState();
@@ -1114,6 +1198,14 @@ async function bootstrap() {
   els.treeFilter.addEventListener("input", (evt) => {
     state.treeFilter = evt.target.value.trim();
     renderTree();
+  });
+
+  els.treeTabs.addEventListener("click", (evt) => {
+    const button = evt.target.closest("button[data-tree-tab]");
+    if (!button) {
+      return;
+    }
+    switchTreeTab(button.dataset.treeTab || "");
   });
 
   els.modelSelect.addEventListener("change", (evt) => {
