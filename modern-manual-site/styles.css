@@ -154,7 +154,15 @@ body {
 }
 
 .tree details {
-  margin-left: 6px;
+  margin-left: 12px;
+  padding-left: 10px;
+  border-left: 1px solid color-mix(in oklab, var(--line) 82%, transparent 18%);
+}
+
+.tree > details {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
 }
 
 .tree summary,
@@ -165,7 +173,31 @@ body {
 
 .tree summary {
   cursor: pointer;
-  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0 4px 2px;
+  list-style: none;
+}
+
+.tree summary::-webkit-details-marker {
+  display: none;
+}
+
+.tree summary::before {
+  content: "";
+  width: 0.46rem;
+  height: 0.46rem;
+  border-right: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  border-bottom: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  transform: rotate(-45deg);
+  transform-origin: 56% 56%;
+  transition: transform 120ms ease;
+  opacity: 0.88;
+}
+
+.tree details[open] > summary::before {
+  transform: rotate(45deg);
 }
 
 .tree button {
@@ -176,6 +208,7 @@ body {
   border: none;
   text-align: left;
   width: 100%;
+  margin-left: 4px;
   padding: 5px 8px;
   border-radius: 8px;
   cursor: pointer;
