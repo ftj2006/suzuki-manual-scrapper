@@ -58,7 +58,7 @@ jobs:
           done
 
           # Some IMPORTANT/FOREWORD assets are missing in modern source-mirror but
-          # still exist in legacy ServiceManuals XML trees. Backfill targeted files only.
+          # still exist in legacy ServiceManuals XML trees. Backfill Foreword images only.
           legacy_xml_root="suzuki-manual/dcs.suzukiauto.co.za/Upload/Downloads/Service/ServiceManuals"
             if [ -d "$legacy_xml_root" ] && [ -d "_site/source-mirror" ]; then
               while IFS= read -r -d '' src; do
@@ -74,7 +74,7 @@ jobs:
                 fi
               done < <(
                 find "$legacy_xml_root" -type f \
-                  \( -path '*/Foreword*/*' -o -path '*/xml/icon/*' \) \
+                  \( -path '*/Foreword*/*' \) \
                   \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.gif' -o -iname '*.svg' \) \
                   -print0
               )
