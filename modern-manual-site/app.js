@@ -12,7 +12,6 @@ const els = {
   vehicleCode: document.getElementById("vehicleCode"),
   vehicleDropdown: document.getElementById("vehicleDropdown"),
   vehicleList: document.getElementById("vehicleList"),
-  sidebarToggle: document.getElementById("sidebarToggle"),
   viewer: document.getElementById("viewer"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
@@ -107,17 +106,6 @@ function applySidebarHeight(height, persist = true) {
   }
 }
 
-function updateSidebarTogglePresentation(expanded) {
-  if (!els.sidebarToggle) {
-    return;
-  }
-
-  els.sidebarToggle.textContent = expanded ? "Collapse" : "Expand";
-  els.sidebarToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
-  els.sidebarToggle.setAttribute("aria-label", expanded ? "Collapse to show manual pages" : "Expand content to full view");
-  els.sidebarToggle.setAttribute("title", expanded ? "Collapse to show manual pages" : "Expand content to full view");
-}
-
 function setupSidebarResizer() {
   if (!els.sidebarResizer || !els.layout || !els.sidebar) {
     return;
@@ -194,8 +182,7 @@ function setupSidebarResizer() {
       }
     }
 
-    const expanded = els.layout?.classList.contains("content-expanded") || false;
-    updateSidebarTogglePresentation(expanded);
+
   });
 }
 
@@ -203,7 +190,6 @@ function setContentExpanded(expanded) {
   if (els.layout) {
     els.layout.classList.toggle("content-expanded", expanded);
   }
-  updateSidebarTogglePresentation(expanded);
   localStorage.setItem(sidebarCollapsedStorageKey, expanded ? "1" : "0");
 }
 
@@ -590,7 +576,7 @@ function setupTheme() {
 function renderViewerPlaceholder(message, isError = false) {
   els.viewer.className = isError ? "viewer error" : "viewer empty";
   els.viewer.innerHTML = `<p>${htmlEscape(message)}</p>`;
-  attachExpandButtonToViewer(isError ? "Error" : currentPageHeadingText());
+
 }
 
 function currentPageHeadingText() {
@@ -612,37 +598,7 @@ function currentPageHeadingText() {
   return fileName || "Manual Section";
 }
 
-function attachExpandButtonToViewer(defaultHeadingText = "Manual Section") {
-  if (!els.viewer || !els.sidebarToggle) {
-    return;
-  }
 
-  let heading = els.viewer.querySelector("h3");
-  if (!heading) {
-    heading = document.createElement("h3");
-    heading.className = "viewer-fallback-heading xml-title";
-    heading.textContent = defaultHeadingText;
-    els.viewer.prepend(heading);
-  }
-
-  if (!heading.querySelector(".viewer-heading-text")) {
-    const textWrap = document.createElement("span");
-    textWrap.className = "viewer-heading-text";
-
-    while (heading.firstChild && heading.firstChild !== els.sidebarToggle) {
-      textWrap.appendChild(heading.firstChild);
-    }
-
-    if (!textWrap.textContent?.trim()) {
-      textWrap.textContent = defaultHeadingText;
-    }
-
-    heading.prepend(textWrap);
-  }
-
-  heading.classList.add("viewer-heading-row");
-  heading.appendChild(els.sidebarToggle);
-}
 
 function manualLandingPath(datasetId, submodelId) {
   if (!datasetId || !submodelId) {
@@ -1773,7 +1729,6 @@ async function loadSelectedFile() {
     els.viewer.className = "viewer";
     els.viewer.innerHTML = "";
     els.viewer.appendChild(renderManualLanding());
-    attachExpandButtonToViewer(currentPageHeadingText());
     return;
   }
 
@@ -1817,7 +1772,6 @@ async function loadSelectedFile() {
       addDiagramPopupButtons(els.viewer);
     }
 
-    attachExpandButtonToViewer(currentPageHeadingText());
   } catch (err) {
     if (fileLoadToken !== state.fileLoadToken) {
       return;

@@ -471,11 +471,6 @@ body {
   flex-direction: column;
 }
 
-.content-expand-toggle {
-  min-width: 104px;
-  font-weight: 700;
-}
-
 .viewer-heading-row {
   display: flex;
   align-items: center;
@@ -1930,10 +1925,6 @@ th:hover .column-resize-handle {
 
   #themeToggle {
     justify-self: start;
-  }
-
-  .content-expand-toggle {
-    min-width: 96px;
   }
 
   /* Responsive sidebar menu for mobile */
