@@ -167,7 +167,7 @@ const FLATTEN_CONTAINER_TAGS = new Set([
   "deflist",
 ]);
 
-function renderTestGroup(node, options, depth = 0) {
+function renderTestGroup(node, options, depth = 0, stepNumber = 1) {
   // Render a testgroup as a table row with: step#, test procedure, yes action, no action
   const tr = document.createElement("tr");
   tr.className = "xml-testgroup-row";
@@ -179,8 +179,8 @@ function renderTestGroup(node, options, depth = 0) {
   if (idAttr) {
     stepCell.dataset.xmlId = idAttr;
   }
-  // Count position - would need context to get actual numbering
-  stepCell.textContent = "1";
+  // Display the step number
+  stepCell.textContent = String(stepNumber);
   tr.appendChild(stepCell);
 
   // Test action cell (title, test1, question, etc.)
@@ -572,11 +572,13 @@ function renderNode(node, options, depth = 0) {
     }
 
     const tbody = document.createElement("tbody");
+    let stepNumber = 1;
     for (const child of Array.from(node.children || [])) {
       if (child.tagName?.toLowerCase() === "testgroup") {
-        const row = renderTestGroup(child, options, depth + 1);
+        const row = renderTestGroup(child, options, depth + 1, stepNumber);
         if (row) {
           tbody.appendChild(row);
+          stepNumber++;
         }
       }
     }
@@ -586,7 +588,7 @@ function renderNode(node, options, depth = 0) {
 
   // Standalone testgroup (shouldn't happen in well-formed docs but handle it)
   if (tag === "testgroup") {
-    const row = renderTestGroup(node, options, depth + 1);
+    const row = renderTestGroup(node, options, depth + 1, 1);
     return row;
   }
 
@@ -621,34 +623,49 @@ function renderNode(node, options, depth = 0) {
     return div;
   }
 
-  // Test elements (test1, test2, test3)
+  // Test elements (test1, test2, test3) - render inline with numbered prefix
   if (/^test[123]$/.test(tag)) {
     const testNum = tag.charAt(4);
-    const div = document.createElement("div");
-    div.className = `xml-test xml-test${testNum}`;
-
-    // Add test number/label
-    const numSpan = document.createElement("span");
-    numSpan.className = `xml-test-num xml-test${testNum}-num`;
-    if (testNum === "1") {
-      // Count position among test1 elements
-      numSpan.textContent = "1) ";
-    } else if (testNum === "2") {
-      numSpan.textContent = "a) ";
-    } else {
-      numSpan.textContent = "i) ";
+    
+    // Count position among sibling elements with same tag
+    let position = 1;
+    const parent = node.parentNode;
+    if (parent) {
+      const siblings = Array.from(parent.children || []).filter(child => 
+        child.tagName?.toLowerCase() === tag
+      );
+      position = siblings.indexOf(node) + 1;
     }
-    div.appendChild(numSpan);
 
-    // Add test content
+    // Generate numbering text
+    let numberingText = "";
+    if (testNum === "1") {
+      numberingText = `${position}) `;
+    } else if (testNum === "2") {
+      numberingText = `${String.fromCharCode(96 + position)}) `;  // a), b), c), etc.
+    } else {
+      // For test3: i), ii), iii), etc.
+      const romanNumerals = ["", "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"];
+      numberingText = `${romanNumerals[position] || position}) `;
+    }
+
+    // Create inline span to hold numbering and content
+    const span = document.createElement("span");
+    span.className = `xml-test xml-test${testNum}`;
+    span.style.display = "inline";
+    
+    // Add numbering as text node
+    span.appendChild(document.createTextNode(numberingText));
+    
+    // Add all children using renderNode to preserve structure
     for (const child of Array.from(node.children || [])) {
       const rendered = renderNode(child, options, depth + 1);
       if (rendered) {
-        div.appendChild(rendered);
+        span.appendChild(rendered);
       }
     }
 
-    return div;
+    return span;
   }
 
   // Possible Symptom element
