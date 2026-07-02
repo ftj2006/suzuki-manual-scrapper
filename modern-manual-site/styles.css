@@ -501,6 +501,228 @@ body.sidebar-resizing-vertical * {
   font-style: italic;
 }
 
+/* New Sidebar Menu Styles */
+.sidebar-menu {
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-section {
+  border-bottom: 1px solid var(--line);
+}
+
+.menu-section:last-child {
+  border-bottom: none;
+}
+
+.menu-section summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  user-select: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.menu-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+}
+
+.menu-label {
+  flex: 1;
+}
+
+.menu-toggle {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  transition: transform 200ms ease;
+}
+
+.menu-section[open] .menu-toggle {
+  transform: rotate(180deg);
+}
+
+.menu-section-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  user-select: none;
+  background: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.menu-section-header:hover {
+  background: var(--accent-soft);
+}
+
+.menu-section-content {
+  padding: 8px 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 200ms ease;
+}
+
+.menu-section[open] .menu-section-content {
+  max-height: 100vh;
+}
+
+/* Vehicle menu items */
+.vehicle-menu-item {
+  margin-left: 16px;
+  padding-left: 10px;
+  border-left: 1px solid color-mix(in oklab, var(--line) 82%, transparent 18%);
+}
+
+.vehicle-menu-item summary {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 8px 0 8px 8px;
+  gap: 6px;
+}
+
+.vehicle-menu-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.vehicle-menu-item summary::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  border-bottom: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  transform: rotate(-45deg);
+  transform-origin: 56% 56%;
+  transition: transform 120ms ease;
+  opacity: 0.8;
+  margin-right: 4px;
+}
+
+.vehicle-menu-item[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.vehicle-submodel-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  margin: 2px 0;
+  margin-left: 4px;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.vehicle-submodel-button:hover,
+.vehicle-submodel-button.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* Tree content in menu sections */
+.tree-content {
+  padding: 8px 12px;
+}
+
+.tree-content details {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid color-mix(in oklab, var(--line) 82%, transparent 18%);
+}
+
+.tree-content > details {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+}
+
+.tree-content summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 0 6px 2px;
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tree-content summary::-webkit-details-marker {
+  display: none;
+}
+
+.tree-content summary::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  border-bottom: 2px solid color-mix(in oklab, var(--accent) 72%, var(--text) 28%);
+  transform: rotate(-45deg);
+  transform-origin: 56% 56%;
+  transition: transform 120ms ease;
+  opacity: 0.8;
+}
+
+.tree-content details[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.tree-content button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  width: 100%;
+  margin-left: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.tree-content button:hover,
+.tree-content button.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.tree-content .tree-leaf-icon {
+  width: 1rem;
+  flex: 0 0 1rem;
+  font-size: 0.85rem;
+}
+
 .viewer {
   padding: 20px;
   height: 100%;
@@ -1537,5 +1759,50 @@ th:hover .column-resize-handle {
 
   .content-expand-toggle {
     min-width: 96px;
+  }
+
+  /* Responsive sidebar menu for mobile */
+  .sidebar-menu {
+    padding: 0;
+  }
+
+  .menu-section-header {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .menu-icon {
+    font-size: 1.1rem;
+    width: 1.3rem;
+  }
+
+  .menu-toggle {
+    font-size: 0.75rem;
+  }
+
+  .vehicle-submodel-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    margin: 1px 0;
+  }
+
+  .menu-section-content {
+    padding: 6px 10px;
+  }
+
+  .tree-content summary {
+    font-size: 0.85rem;
+    padding: 5px 0 5px 2px;
+  }
+
+  .tree-content button {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+    margin-left: 2px;
+  }
+
+  .tree-content .tree-leaf-icon {
+    width: 0.9rem;
+    font-size: 0.8rem;
   }
 }

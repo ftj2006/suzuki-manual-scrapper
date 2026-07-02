@@ -39,11 +39,47 @@
 
       <main class="layout">
         <aside class="sidebar">
-          <div class="sidebar-header">
-            <div id="treeTabs" class="tree-tabs" role="tablist" aria-label="Tree categories"></div>
-            <input id="treeFilter" type="search" placeholder="Filter..." />
-          </div>
-          <nav id="tree" class="tree" aria-label="Manual file tree"></nav>
+          <nav class="sidebar-menu" aria-label="Navigation menu">
+            <!-- Vehicle selector section -->
+            <details class="menu-section vehicle-section">
+              <summary class="menu-section-header">
+                <span class="menu-icon">🚙</span>
+                <span class="menu-label">Vehicle</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div id="vehicleMenu" class="menu-section-content"></div>
+            </details>
+
+            <!-- Bookmarks section -->
+            <details class="menu-section tree-tab-section" data-tab="bookmarks">
+              <summary class="menu-section-header">
+                <span class="menu-icon">📑</span>
+                <span class="menu-label">Bookmarks</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+
+            <!-- DTC section -->
+            <details class="menu-section tree-tab-section" data-tab="dtc">
+              <summary class="menu-section-header">
+                <span class="menu-icon">🔧</span>
+                <span class="menu-label">DTC</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+
+            <!-- Symptoms section -->
+            <details class="menu-section tree-tab-section" data-tab="symptoms">
+              <summary class="menu-section-header">
+                <span class="menu-icon">⚠️</span>
+                <span class="menu-label">Symptoms</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+          </nav>
         </aside>
 
         <div

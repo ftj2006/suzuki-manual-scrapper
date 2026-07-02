@@ -11,10 +11,9 @@ const els = {
   sidebar: document.querySelector(".sidebar"),
   sidebarToggle: document.getElementById("sidebarToggle"),
   sidebarResizer: document.getElementById("sidebarResizer"),
-  tree: document.getElementById("tree"),
-  treeTabs: document.getElementById("treeTabs"),
+  sidebarMenu: document.querySelector(".sidebar-menu"),
+  vehicleMenu: document.getElementById("vehicleMenu"),
   viewer: document.getElementById("viewer"),
-  treeFilter: document.getElementById("treeFilter"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
@@ -231,7 +230,7 @@ function saveTreeState() {
   const payload = {
     selectedPath: state.selectedPath || "",
     expandedFolders: Array.from(state.expandedFolders),
-    treeScrollTop: els.tree.scrollTop || 0,
+    treeScrollTop: 0,  // No longer tracking scroll position with menu structure
   };
 
   localStorage.setItem(key, JSON.stringify(payload));
@@ -857,10 +856,10 @@ function navigateToPath(path, options = {}) {
     return false;
   }
 
-  if (options.clearTreeFilter) {
-    state.treeFilter = "";
-    els.treeFilter.value = "";
-  }
+  // Tree filter removed in favor of global search
+  // if (options.clearTreeFilter) {
+  //   state.treeFilter = "";
+  // }
 
   state.selectedPath = path;
   loadSelectedFile();
@@ -1312,21 +1311,82 @@ function datasetAvailableTreeTabs() {
 }
 
 function renderTreeTabs() {
-  const tabs = state.availableTreeTabs;
-  els.treeTabs.innerHTML = "";
+  // Deprecated: kept for compatibility but now calls renderMenuStructure
+  renderMenuStructure();
+}
 
-  for (const tab of tabs) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "tree-tab";
-    button.dataset.treeTab = tab.id;
-    button.setAttribute("role", "tab");
-    button.setAttribute("aria-selected", String(tab.id === state.activeTreeTab));
-    button.textContent = tab.label;
-    els.treeTabs.appendChild(button);
+function renderVehicleMenu() {
+  if (!els.vehicleMenu) return;
+  
+  els.vehicleMenu.innerHTML = "";
+  
+  for (const dataset of state.datasets) {
+    const details = document.createElement("details");
+    details.className = "vehicle-menu-item";
+    details.open = state.activeDataset?.id === dataset.id;
+    
+    const summary = document.createElement("summary");
+    summary.textContent = dataset.name;
+    details.appendChild(summary);
+    
+    const submodelsContainer = document.createElement("div");
+    submodelsContainer.style.paddingLeft = "8px";
+    
+    for (const submodel of dataset.submodels || []) {
+      const button = document.createElement("button");
+      button.className = "vehicle-submodel-button";
+      if (state.activeSubmodel?.id === submodel.id && state.activeDataset?.id === dataset.id) {
+        button.classList.add("active");
+      }
+      button.textContent = submodel.name;
+      button.addEventListener("click", async () => {
+        state.activeDataset = dataset;
+        state.selectedPath = null;
+        state.expandedFolders = new Set();
+        state.refToPath = new Map();
+        state.refToTitle = new Map();
+        state.modelVariants = [];
+        state.activeModel = "";
+        state.availableTreeTabs = [];
+        
+        await loadDatasetIndex(submodel);
+        renderMenuStructure();
+      });
+      submodelsContainer.appendChild(button);
+    }
+    
+    details.appendChild(submodelsContainer);
+    els.vehicleMenu.appendChild(details);
   }
+}
 
-  els.treeTabs.hidden = tabs.length < 2;
+function renderTreeMenuSection(tabId) {
+  const sections = document.querySelectorAll(".tree-tab-section");
+  const section = Array.from(sections).find(s => s.dataset.tab === tabId);
+  
+  if (!section) return;
+  
+  const content = section.querySelector(".menu-section-content");
+  if (!content) return;
+  
+  // Temporarily switch to this tab to get the tree nodes
+  const savedTab = state.activeTreeTab;
+  state.activeTreeTab = tabId;
+  const nodes = visibleTree();
+  state.activeTreeTab = savedTab;
+  
+  content.innerHTML = "";
+  content.appendChild(buildTreeNodes(nodes));
+}
+
+function renderMenuStructure() {
+  // Render all menu sections
+  renderVehicleMenu();
+  
+  // Render tree content for each available tab
+  for (const tab of state.availableTreeTabs) {
+    renderTreeMenuSection(tab.id);
+  }
 }
 
 function switchTreeTab(tabId) {
@@ -1347,8 +1407,7 @@ function switchTreeTab(tabId) {
     : firstFilePathForTab(tabId);
   state.selectedPath = nextPath || null;
 
-  renderTreeTabs();
-  renderTree();
+  renderMenuStructure();
   loadSelectedFile();
   saveTreeState();
 }
@@ -1641,16 +1700,9 @@ function buildTreeNodes(nodes, trail = "") {
 function renderTree() {
   const nodes = syncVisibleSelection();
   state.activeTreeNodes = nodes;
-  const previousScrollTop = els.tree.scrollTop;
-  els.tree.innerHTML = "";
-  els.tree.appendChild(buildTreeNodes(nodes));
-
-  const scrollTop = state.pendingTreeScrollTop;
-  state.pendingTreeScrollTop = null;
-  const targetScrollTop = Number.isFinite(scrollTop) ? scrollTop : previousScrollTop;
-  requestAnimationFrame(() => {
-    els.tree.scrollTop = targetScrollTop;
-  });
+  
+  // Re-render all menu sections to update active state
+  renderMenuStructure();
 }
 
 async function loadSelectedFile() {
@@ -1832,25 +1884,30 @@ async function bootstrap() {
     setContentExpanded(nextExpanded);
   });
 
-  els.tree.addEventListener("scroll", () => {
-    saveTreeState();
+  // Handle tree tab section clicks for menu-based structure
+  document.querySelectorAll(".tree-tab-section").forEach((section) => {
+    const tabId = section.dataset.tab;
+    if (!tabId) return;
+    
+    section.addEventListener("click", (evt) => {
+      // Switch tab when clicking on tree items in this section
+      if (evt.target.closest("button.tree-leaf")) {
+        if (state.activeTreeTab !== tabId) {
+          switchTreeTab(tabId);
+        }
+      }
+    });
+    
+    // Auto-switch tab when section is opened
+    section.addEventListener("toggle", () => {
+      if (section.open && state.activeTreeTab !== tabId) {
+        switchTreeTab(tabId);
+      }
+    });
   });
 
   window.addEventListener("beforeunload", () => {
     saveTreeState();
-  });
-
-  els.treeFilter.addEventListener("input", (evt) => {
-    state.treeFilter = evt.target.value.trim();
-    renderTree();
-  });
-
-  els.treeTabs.addEventListener("click", (evt) => {
-    const button = evt.target.closest("button[data-tree-tab]");
-    if (!button) {
-      return;
-    }
-    switchTreeTab(button.dataset.treeTab || "");
   });
 
   els.globalSearch?.addEventListener("input", (evt) => {
