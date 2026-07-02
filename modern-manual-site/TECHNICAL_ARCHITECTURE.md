@@ -185,6 +185,15 @@ flowchart TD
     - tries internal anchor scroll first (`servinfosub id=...`)
     - falls back to cross-file navigation via index `refToPath`
 
+### Inline Text Rendering (`renderInline` function)
+
+The `renderInline` function in `lib/xml-utils.js` handles mixed text nodes and inline elements (like anchor tags):
+
+- Normalizes consecutive whitespace to single spaces to prevent formatting issues
+- **Important**: Does NOT trim individual text nodes. Trimming would remove necessary spaces between text nodes and following inline elements (e.g., "Inspection: " followed by a link to "K14C" would become "Inspection:K14C" without the space).
+- Preserves semantic whitespace boundaries by allowing trailing/leading spaces on text nodes to carry through to adjacent inline elements
+- This ensures proper rendering of mixed content like "Inspection: [K14C Engine](link) and related items" with correct spacing.
+
 ### HTML Rendering Model (`app.js`)
 
 - Parses with `DOMParser` and strips executable/metadata tags (`script`, `link`, `meta`, `title`, `base`).
