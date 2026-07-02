@@ -9,6 +9,7 @@ const els = {
   sidebarPin: document.getElementById("sidebarPin"),
   sidebarOverlay: document.getElementById("sidebarOverlay"),
   vehicleToggle: document.getElementById("vehicleToggle"),
+  vehicleCode: document.getElementById("vehicleCode"),
   vehicleDropdown: document.getElementById("vehicleDropdown"),
   vehicleList: document.getElementById("vehicleList"),
   sidebarToggle: document.getElementById("sidebarToggle"),
@@ -1352,12 +1353,23 @@ function renderVehicleDropdown() {
         state.availableTreeTabs = [];
         
         await loadDatasetIndex(submodel);
+        updateVehicleToggleDisplay();
         renderMenuStructure();
         renderVehicleDropdown();
         closeSidebar();
       });
       els.vehicleList.appendChild(button);
     }
+  }
+}
+
+function updateVehicleToggleDisplay() {
+  if (!els.vehicleCode) return;
+  
+  if (state.activeSubmodel?.name) {
+    els.vehicleCode.textContent = state.activeSubmodel.name;
+  } else {
+    els.vehicleCode.textContent = "";
   }
 }
 
@@ -2098,6 +2110,7 @@ async function bootstrap() {
   
   // Populate vehicle dropdown for the first time
   renderVehicleDropdown();
+  updateVehicleToggleDisplay();
 }
 
 bootstrap().catch((err) => {

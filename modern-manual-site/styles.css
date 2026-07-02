@@ -257,19 +257,28 @@ body {
 }
 
 .vehicle-selector {
-  width: 40px;
+  width: auto;
   height: 40px;
-  padding: 0;
+  padding: 0 12px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   font-size: 1.1rem;
   line-height: 1;
 }
 
 .vehicle-icon {
   pointer-events: none;
+  font-size: 1.1rem;
+}
+
+.vehicle-code {
+  pointer-events: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: inherit;
 }
 
 .vehicle-dropdown {
