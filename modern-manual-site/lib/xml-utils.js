@@ -151,6 +151,19 @@ function renderChildrenFlat(node, options, depth) {
   return frag.childNodes.length ? frag : null;
 }
 
+function renderElementChildrenIntoCell(element, options, depth, cell) {
+  // Render the children of a condition/ps/action element directly into a cell
+  // without wrapping them in an extra div
+  if (!element) return;
+  
+  for (const child of Array.from(element.children || [])) {
+    const rendered = renderNode(child, options, depth + 1);
+    if (rendered) {
+      cell.appendChild(rendered);
+    }
+  }
+}
+
 const FLATTEN_CONTAINER_TAGS = new Set([
   "suzuki",
   "manual",
@@ -596,30 +609,21 @@ function renderNode(node, options, depth = 0) {
                 const condCell = document.createElement("td");
                 condCell.className = "xml-diagcond-condition";
                 condCell.rowSpan = possibleCauses.length;
-                const condRendered = renderNode(currentCondition, options, depth + 1);
-                if (condRendered) {
-                  condCell.appendChild(condRendered);
-                }
+                renderElementChildrenIntoCell(currentCondition, options, depth + 1, condCell);
                 tr.appendChild(condCell);
               }
               
               // Possible cause cell
               const psCell = document.createElement("td");
               psCell.className = "xml-diagcond-ps";
-              const psRendered = renderNode(cause.ps, options, depth + 1);
-              if (psRendered) {
-                psCell.appendChild(psRendered);
-              }
+              renderElementChildrenIntoCell(cause.ps, options, depth + 1, psCell);
               tr.appendChild(psCell);
               
               // Action cell
               const actionCell = document.createElement("td");
               actionCell.className = "xml-diagcond-action";
               if (cause.action) {
-                const actionRendered = renderNode(cause.action, options, depth + 1);
-                if (actionRendered) {
-                  actionCell.appendChild(actionRendered);
-                }
+                renderElementChildrenIntoCell(cause.action, options, depth + 1, actionCell);
               }
               tr.appendChild(actionCell);
               
@@ -647,30 +651,21 @@ function renderNode(node, options, depth = 0) {
             const condCell = document.createElement("td");
             condCell.className = "xml-diagcond-condition";
             condCell.rowSpan = possibleCauses.length;
-            const condRendered = renderNode(currentCondition, options, depth + 1);
-            if (condRendered) {
-              condCell.appendChild(condRendered);
-            }
+            renderElementChildrenIntoCell(currentCondition, options, depth + 1, condCell);
             tr.appendChild(condCell);
           }
           
           // Possible cause cell
           const psCell = document.createElement("td");
           psCell.className = "xml-diagcond-ps";
-          const psRendered = renderNode(cause.ps, options, depth + 1);
-          if (psRendered) {
-            psCell.appendChild(psRendered);
-          }
+          renderElementChildrenIntoCell(cause.ps, options, depth + 1, psCell);
           tr.appendChild(psCell);
           
           // Action cell
           const actionCell = document.createElement("td");
           actionCell.className = "xml-diagcond-action";
           if (cause.action) {
-            const actionRendered = renderNode(cause.action, options, depth + 1);
-            if (actionRendered) {
-              actionCell.appendChild(actionRendered);
-            }
+            renderElementChildrenIntoCell(cause.action, options, depth + 1, actionCell);
           }
           tr.appendChild(actionCell);
           

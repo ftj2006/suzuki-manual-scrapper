@@ -1334,16 +1334,6 @@ body.lightbox-open {
   width: 45%;
 }
 
-/* Normalize styling in table cells */
-.xml-diagcond-row td .xml-condition,
-.xml-diagcond-row td .xml-ps,
-.xml-diagcond-row td .xml-action {
-  margin: 0;
-  padding: 0 0 0 4px;
-  background-color: transparent;
-  border-radius: 0;
-}
-
 .xml-teststepnum {
   font-size: 18pt;
   font-weight: 700;
