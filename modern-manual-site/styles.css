@@ -1314,8 +1314,8 @@ body.lightbox-open {
 
 .xml-diagcond-row td {
   border: 1px solid var(--line);
-  padding: 4px;
-  vertical-align: middle;
+  padding: 12px;
+  vertical-align: top;
   background-color: var(--surface);
 }
 
@@ -1323,6 +1323,7 @@ body.lightbox-open {
   background-color: var(--surface-soft);
   font-weight: 600;
   width: 20%;
+  vertical-align: top;
 }
 
 .xml-diagcond-ps {

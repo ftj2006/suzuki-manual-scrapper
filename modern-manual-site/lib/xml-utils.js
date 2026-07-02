@@ -576,7 +576,7 @@ function renderNode(node, options, depth = 0) {
     
     if (node.getAttribute("type") === "condition") {
       // For condition-type diags, group condition, ps, action elements into rows
-      // Structure: condition, ps, action, ps, action, ps, action... (repeating pairs of ps/action after first condition)
+      // Use rowspan for condition cell to span multiple causes
       let currentCondition = null;
       let possibleCauses = [];
       
@@ -584,20 +584,24 @@ function renderNode(node, options, depth = 0) {
         const childTag = child.tagName?.toLowerCase();
         
         if (childTag === "condition") {
-          // If we have a previous condition with causes, create a row for each cause
-          if (currentCondition) {
-            for (const cause of possibleCauses) {
+          // If we have a previous condition with causes, create rows with rowspan
+          if (currentCondition && possibleCauses.length > 0) {
+            for (let i = 0; i < possibleCauses.length; i++) {
+              const cause = possibleCauses[i];
               const tr = document.createElement("tr");
               tr.className = "xml-diagcond-row";
               
-              // Condition cell
-              const condCell = document.createElement("td");
-              condCell.className = "xml-diagcond-condition";
-              const condRendered = renderNode(currentCondition, options, depth + 1);
-              if (condRendered) {
-                condCell.appendChild(condRendered);
+              // Add condition cell only for first row of this condition, with rowspan
+              if (i === 0) {
+                const condCell = document.createElement("td");
+                condCell.className = "xml-diagcond-condition";
+                condCell.rowSpan = possibleCauses.length;
+                const condRendered = renderNode(currentCondition, options, depth + 1);
+                if (condRendered) {
+                  condCell.appendChild(condRendered);
+                }
+                tr.appendChild(condCell);
               }
-              tr.appendChild(condCell);
               
               // Possible cause cell
               const psCell = document.createElement("td");
@@ -633,18 +637,22 @@ function renderNode(node, options, depth = 0) {
       
       // Handle final condition
       if (currentCondition && possibleCauses.length > 0) {
-        for (const cause of possibleCauses) {
+        for (let i = 0; i < possibleCauses.length; i++) {
+          const cause = possibleCauses[i];
           const tr = document.createElement("tr");
           tr.className = "xml-diagcond-row";
           
-          // Condition cell
-          const condCell = document.createElement("td");
-          condCell.className = "xml-diagcond-condition";
-          const condRendered = renderNode(currentCondition, options, depth + 1);
-          if (condRendered) {
-            condCell.appendChild(condRendered);
+          // Add condition cell only for first row of this condition, with rowspan
+          if (i === 0) {
+            const condCell = document.createElement("td");
+            condCell.className = "xml-diagcond-condition";
+            condCell.rowSpan = possibleCauses.length;
+            const condRendered = renderNode(currentCondition, options, depth + 1);
+            if (condRendered) {
+              condCell.appendChild(condRendered);
+            }
+            tr.appendChild(condCell);
           }
-          tr.appendChild(condCell);
           
           // Possible cause cell
           const psCell = document.createElement("td");
