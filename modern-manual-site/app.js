@@ -6,6 +6,7 @@ const els = {
   sidebar: document.querySelector(".sidebar"),
   sidebarMenu: document.querySelector(".sidebar-menu"),
   menuToggle: document.getElementById("menuToggle"),
+  sidebarPin: document.getElementById("sidebarPin"),
   sidebarOverlay: document.getElementById("sidebarOverlay"),
   vehicleToggle: document.getElementById("vehicleToggle"),
   vehicleDropdown: document.getElementById("vehicleDropdown"),
@@ -39,6 +40,7 @@ const state = {
   searchResults: [],
   searchQuery: "",
   activeSearchResultIndex: -1,
+  sidebarPinned: false,
 };
 
 const TREE_TABS = [
@@ -62,6 +64,7 @@ const sidebarCollapsedStorageKey = "manual-next-content-expanded";
 const sidebarWidthStorageKey = "manual-next-sidebar-width";
 const sidebarHeightStorageKey = "manual-next-sidebar-height";
 const activeTreeTabStorageKey = "manual-next-active-tree-tab";
+const sidebarPinnedStorageKey = "manual-next-sidebar-pinned";
 
 function isPortraitSidebarLayout() {
   return window.matchMedia("(max-width: 980px) and (orientation: portrait)").matches;
@@ -1397,6 +1400,10 @@ function openSidebar() {
 }
 
 function closeSidebar() {
+  // Don't close sidebar if it's pinned
+  if (state.sidebarPinned) {
+    return;
+  }
   if (!els.sidebar) return;
   els.sidebar.hidden = true;
   els.sidebar.setAttribute("aria-hidden", "true");
@@ -1405,6 +1412,25 @@ function closeSidebar() {
   }
   if (els.menuToggle) {
     els.menuToggle.setAttribute("aria-expanded", "false");
+  }
+}
+
+function togglePin() {
+  if (!els.sidebarPin) return;
+  
+  state.sidebarPinned = !state.sidebarPinned;
+  localStorage.setItem(sidebarPinnedStorageKey, state.sidebarPinned ? "1" : "");
+  
+  if (state.sidebarPinned) {
+    els.sidebarPin.setAttribute("aria-pressed", "true");
+    els.sidebar?.classList.add("pinned");
+    els.layout?.classList.add("sidebar-pinned");
+    // Show sidebar when pinned
+    openSidebar();
+  } else {
+    els.sidebarPin.setAttribute("aria-pressed", "false");
+    els.sidebar?.classList.remove("pinned");
+    els.layout?.classList.remove("sidebar-pinned");
   }
 }
 
@@ -1866,6 +1892,17 @@ async function loadDataset(datasetId) {
 async function bootstrap() {
   setupTheme();
 
+  // Restore pinned state from localStorage
+  const isPinned = localStorage.getItem(sidebarPinnedStorageKey) === "1";
+  state.sidebarPinned = isPinned;
+  if (els.sidebarPin) {
+    els.sidebarPin.setAttribute("aria-pressed", isPinned ? "true" : "false");
+  }
+  if (isPinned) {
+    els.sidebar?.classList.add("pinned");
+    els.layout?.classList.add("sidebar-pinned");
+  }
+
   els.themeToggle.addEventListener("click", () => {
     const current = document.body.getAttribute("data-theme");
     applyTheme(current === "dark" ? "light" : "dark");
@@ -1884,6 +1921,11 @@ async function bootstrap() {
   // Vehicle selector toggle
   els.vehicleToggle?.addEventListener("click", () => {
     toggleVehicleDropdown();
+  });
+
+  // Sidebar pin button
+  els.sidebarPin?.addEventListener("click", () => {
+    togglePin();
   });
 
   // Close vehicle dropdown when clicking outside

@@ -51,10 +51,27 @@ body {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
   gap: 16px;
   align-items: end;
   margin-bottom: 14px;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-left + .brand {
+  flex: 1;
+  min-width: 0;
+}
+
+.topbar-search {
+  flex: 1;
+}
+
+.topbar-actions {
+  margin-left: auto;
 }
 
 .sr-only {
@@ -346,6 +363,29 @@ body {
   min-height: calc(100vh - 118px);
 }
 
+/* When sidebar is pinned on desktop, show it as a fixed column */
+.layout.sidebar-pinned {
+  grid-template-columns: 360px minmax(0, 1fr);
+}
+
+.layout.sidebar-pinned .sidebar {
+  position: static;
+  transform: translateX(0) !important;
+  left: auto;
+  top: auto;
+  bottom: auto;
+  width: auto;
+  z-index: 10;
+  box-shadow: none;
+  border-radius: 0;
+  border-right: 1px solid var(--line);
+  hidden: visible !important;
+}
+
+.layout.sidebar-pinned .sidebar-overlay {
+  display: none !important;
+}
+
 .layout.sidebar-collapsed {
   grid-template-columns: minmax(0, 1fr);
 }
@@ -386,6 +426,32 @@ body {
 
 .sidebar[aria-hidden="false"] {
   transform: translateX(0);
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-soft);
+}
+
+.sidebar-pin-button {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.sidebar-pin-button[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 .sidebar-menu {

@@ -9,6 +9,11 @@
   <body>
     <div class="app-shell">
       <header class="topbar">
+        <div class="topbar-left">
+          <button id="menuToggle" class="button secondary menu-button" type="button" aria-label="Open menu" title="Open menu" aria-expanded="false" aria-controls="sidebarMenu">
+            <span aria-hidden="true">☰</span>
+          </button>
+        </div>
         <div class="brand">
           <h1>Suzuki Manual Viewer - v2.0</h1>
           <p>Modern Suzuki Manual Viewer</p>
@@ -19,9 +24,6 @@
           <div id="searchResults" class="search-results" hidden></div>
         </div>
         <div class="topbar-actions">
-          <button id="menuToggle" class="button secondary menu-button" type="button" aria-label="Open menu" title="Open menu" aria-expanded="false" aria-controls="sidebarMenu">
-            <span aria-hidden="true">☰</span>
-          </button>
           <div class="vehicle-selector-wrapper">
             <button id="vehicleToggle" class="button secondary vehicle-selector" type="button" aria-label="Select vehicle" title="Select vehicle" aria-expanded="false" aria-controls="vehicleDropdown">
               <span class="vehicle-icon" aria-hidden="true">🚗</span>
@@ -38,6 +40,11 @@
 
       <main class="layout">
         <aside class="sidebar" id="sidebarMenu" hidden>
+          <div class="sidebar-header">
+            <button id="sidebarPin" class="button secondary sidebar-pin-button" type="button" aria-label="Pin menu" title="Pin menu" aria-pressed="false">
+              <span aria-hidden="true">📌</span>
+            </button>
+          </div>
           <nav class="sidebar-menu" aria-label="Navigation menu">
             <!-- Bookmarks section -->
             <details class="menu-section tree-tab-section" data-tab="bookmarks" open>
