@@ -167,6 +167,65 @@ const FLATTEN_CONTAINER_TAGS = new Set([
   "deflist",
 ]);
 
+function renderTestGroup(node, options, depth = 0) {
+  // Render a testgroup as a table row with: step#, test procedure, yes action, no action
+  const tr = document.createElement("tr");
+  tr.className = "xml-testgroup-row";
+
+  // Step number cell
+  const stepCell = document.createElement("td");
+  stepCell.className = "xml-teststepnum";
+  const idAttr = node.getAttribute("id") || "";
+  if (idAttr) {
+    stepCell.dataset.xmlId = idAttr;
+  }
+  // Count position - would need context to get actual numbering
+  stepCell.textContent = "1";
+  tr.appendChild(stepCell);
+
+  // Test action cell (title, test1, question, etc.)
+  const actionCell = document.createElement("td");
+  actionCell.className = "xml-testaction";
+  for (const child of Array.from(node.children || [])) {
+    const childTag = child.tagName?.toLowerCase();
+    if (childTag === "title" || childTag === "test1" || childTag === "question" || 
+        childTag === "ptxt" || childTag === "paragroup" || childTag === "figure" ||
+        childTag === "list1" || childTag === "torque" || childTag === "spec" ||
+        childTag === "materials" || childTag === "servicetool") {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        actionCell.appendChild(rendered);
+      }
+    }
+  }
+  tr.appendChild(actionCell);
+
+  // Yes action cell (first action)
+  const yesCell = document.createElement("td");
+  yesCell.className = "xml-testyes";
+  const actions = Array.from(node.querySelectorAll(":scope > action"));
+  if (actions.length > 0) {
+    const rendered = renderNode(actions[0], options, depth + 1);
+    if (rendered) {
+      yesCell.appendChild(rendered);
+    }
+  }
+  tr.appendChild(yesCell);
+
+  // No action cell (second action)
+  const noCell = document.createElement("td");
+  noCell.className = "xml-testno";
+  if (actions.length > 1) {
+    const rendered = renderNode(actions[1], options, depth + 1);
+    if (rendered) {
+      noCell.appendChild(rendered);
+    }
+  }
+  tr.appendChild(noCell);
+
+  return tr;
+}
+
 function renderNode(node, options, depth = 0) {
   if (depth > 24) {
     return null;
@@ -481,7 +540,147 @@ function renderNode(node, options, depth = 0) {
     wrap.appendChild(note);
     return wrap;
   }
+  // DTC Diagnosis table (testgroup rows)
+  if (tag === "diag") {
+    const table = document.createElement("table");
+    table.className = node.getAttribute("type") === "condition" ? "xml-diagcond" : "xml-diagtest";
 
+    // Add header row for condition-type diags
+    if (node.getAttribute("type") === "condition") {
+      const thead = document.createElement("thead");
+      const tr = document.createElement("tr");
+      const headers = ["Condition", "Possible Cause", "Condition Action"];
+      for (const header of headers) {
+        const th = document.createElement("th");
+        th.textContent = header;
+        tr.appendChild(th);
+      }
+      thead.appendChild(tr);
+      table.appendChild(thead);
+    } else {
+      // For test-type diags, add header row
+      const thead = document.createElement("thead");
+      const tr = document.createElement("tr");
+      const headers = ["Step", "Test Procedure", "Yes", "No"];
+      for (const header of headers) {
+        const th = document.createElement("th");
+        th.textContent = header;
+        tr.appendChild(th);
+      }
+      thead.appendChild(tr);
+      table.appendChild(thead);
+    }
+
+    const tbody = document.createElement("tbody");
+    for (const child of Array.from(node.children || [])) {
+      if (child.tagName?.toLowerCase() === "testgroup") {
+        const row = renderTestGroup(child, options, depth + 1);
+        if (row) {
+          tbody.appendChild(row);
+        }
+      }
+    }
+    table.appendChild(tbody);
+    return table;
+  }
+
+  // Standalone testgroup (shouldn't happen in well-formed docs but handle it)
+  if (tag === "testgroup") {
+    const row = renderTestGroup(node, options, depth + 1);
+    return row;
+  }
+
+  // Question element
+  if (tag === "question") {
+    const div = document.createElement("div");
+    div.className = "xml-question";
+    const content = renderInline(node, options);
+    if (content.childNodes.length) {
+      div.appendChild(content);
+    } else {
+      div.textContent = textContentOf(node);
+    }
+    return div;
+  }
+
+  // Result element (usually paired with action, just flatten)
+  if (tag === "result") {
+    return renderChildrenFlat(node, options, depth);
+  }
+
+  // Condition element (for diagnosis tables)
+  if (tag === "condition") {
+    const div = document.createElement("div");
+    div.className = "xml-condition";
+    const content = renderInline(node, options);
+    if (content.childNodes.length) {
+      div.appendChild(content);
+    } else {
+      div.textContent = textContentOf(node);
+    }
+    return div;
+  }
+
+  // Test elements (test1, test2, test3)
+  if (/^test[123]$/.test(tag)) {
+    const testNum = tag.charAt(4);
+    const div = document.createElement("div");
+    div.className = `xml-test xml-test${testNum}`;
+
+    // Add test number/label
+    const numSpan = document.createElement("span");
+    numSpan.className = `xml-test-num xml-test${testNum}-num`;
+    if (testNum === "1") {
+      // Count position among test1 elements
+      numSpan.textContent = "1) ";
+    } else if (testNum === "2") {
+      numSpan.textContent = "a) ";
+    } else {
+      numSpan.textContent = "i) ";
+    }
+    div.appendChild(numSpan);
+
+    // Add test content
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        div.appendChild(rendered);
+      }
+    }
+
+    return div;
+  }
+
+  // Possible Symptom element
+  if (tag === "ps") {
+    const div = document.createElement("div");
+    div.className = "xml-ps";
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        div.appendChild(rendered);
+      }
+    }
+    return div.childNodes.length ? div : null;
+  }
+
+  // Action element (for diagnosis procedures)
+  if (tag === "action") {
+    const div = document.createElement("div");
+    div.className = "xml-action";
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        div.appendChild(rendered);
+      }
+    }
+    return div.childNodes.length ? div : null;
+  }
+
+  // Paragroup - flatten container for grouping paragraphs
+  if (tag === "paragroup") {
+    return renderChildrenFlat(node, options, depth);
+  }
   const container = document.createElement("section");
   container.className = "xml-node";
   if (!FLATTEN_CONTAINER_TAGS.has(tag)) {
