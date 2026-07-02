@@ -1268,7 +1268,6 @@ body.lightbox-open {
 
 .xml-diagcond {
   border-collapse: collapse;
-  table-layout: fixed;
   width: 100%;
   margin: 16px 0 20px;
   border-bottom: 3px solid var(--accent);
@@ -1280,7 +1279,6 @@ body.lightbox-open {
 
 .xml-diagtest {
   border-collapse: collapse;
-  table-layout: fixed;
   width: 100%;
   margin: 16px 0 20px;
   border: 1px solid var(--line);
@@ -1306,30 +1304,13 @@ body.lightbox-open {
 
 /* Test-type table column headers */
 .xml-diagtest thead tr th:nth-child(1) {
-  width: 8%;
-}
-
-.xml-diagtest thead tr th:nth-child(2) {
-  width: 54%;
-}
-
-.xml-diagtest thead tr th:nth-child(3),
-.xml-diagtest thead tr th:nth-child(4) {
-  width: 19%;
+  width: auto;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 /* Condition-type table column headers */
-.xml-diagcond thead tr th:nth-child(1) {
-  width: 20%;
-}
-
-.xml-diagcond thead tr th:nth-child(2) {
-  width: 35%;
-}
-
-.xml-diagcond thead tr th:nth-child(3) {
-  width: 45%;
-}
+/* All columns auto-size equally */
 
 .column-resize-handle {
   position: absolute;
@@ -1364,20 +1345,19 @@ th:hover .column-resize-handle {
 }
 
 .xml-teststepnum {
-  width: 8% !important;
+  width: auto;
   text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .xml-testaction {
-  width: 54% !important;
 }
 
 .xml-testyes {
-  width: 19% !important;
 }
 
 .xml-testno {
-  width: 19% !important;
 }
 
 .xml-diagcond-row td {
@@ -1390,16 +1370,13 @@ th:hover .column-resize-handle {
 .xml-diagcond-condition {
   background-color: var(--surface-soft);
   font-weight: 600;
-  width: 20% !important;
   vertical-align: top;
 }
 
 .xml-diagcond-ps {
-  width: 35% !important;
 }
 
 .xml-diagcond-action {
-  width: 45% !important;
 }
 
 .xml-testgroup-row td p {
