@@ -1334,6 +1334,16 @@ body.lightbox-open {
   width: 45%;
 }
 
+.xml-testgroup-row td p {
+  margin: 0;
+  padding: 0;
+}
+
+.xml-diagcond-row td p {
+  margin: 0;
+  padding: 0;
+}
+
 .xml-teststepnum {
   font-size: 18pt;
   font-weight: 700;
