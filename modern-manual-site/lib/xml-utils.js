@@ -40,7 +40,9 @@ function renderInline(node, options) {
     if (child.nodeType === Node.TEXT_NODE) {
       const value = child.textContent || "";
       if (value.trim()) {
-        frag.appendChild(document.createTextNode(value.replace(/\s+/g, " ").trim()));
+        // Normalize whitespace but preserve spaces between elements
+        const normalized = value.replace(/\s+/g, " ");
+        frag.appendChild(document.createTextNode(normalized));
       }
       continue;
     }
