@@ -42,6 +42,7 @@ const state = {
   searchQuery: "",
   activeSearchResultIndex: -1,
   sidebarPinned: false,
+  breadcrumbTrail: [], // Array of {label, path} objects
 };
 
 const TREE_TABS = [
@@ -1244,6 +1245,35 @@ function firstFilePath(nodes) {
   return "";
 }
 
+function buildBreadcrumbTrailForNode(nodes, path, trail = []) {
+  for (const node of nodes || []) {
+    if (node.type === "file" && node.path === path) {
+      // Found the file - return the complete trail with this file
+      return [...trail, { label: node.label || node.title || node.path, path: node.path }];
+    }
+    if (node.type === "folder") {
+      const nodeTrail = [...trail, { label: node.label, path: null }];
+      const result = buildBreadcrumbTrailForNode(node.children || [], path, nodeTrail);
+      if (result) {
+        return result;
+      }
+    }
+  }
+  return null;
+}
+
+function updateBreadcrumbTrail() {
+  if (!state.selectedPath || isManualLandingPath(state.selectedPath)) {
+    state.breadcrumbTrail = [];
+    return;
+  }
+  
+  const nodes = visibleTree();
+  const trail = buildBreadcrumbTrailForNode(nodes, state.selectedPath) || [];
+  state.breadcrumbTrail = trail;
+}
+
+
 function treeNodesByTab(tabId) {
   const trees = state.activeDatasetIndex?.trees;
   if (trees && Array.isArray(trees[tabId])) {
@@ -1347,35 +1377,33 @@ function updateBreadcrumb() {
   homeLi.appendChild(homeLink);
   els.breadcrumb.appendChild(homeLi);
   
-  if (!state.selectedPath || isManualLandingPath(state.selectedPath)) {
+  if (!state.breadcrumbTrail || state.breadcrumbTrail.length === 0) {
     return;
   }
   
-  // Parse the path to get folder hierarchy
-  // Path format: "folder1/folder2/file.xml"
-  const pathParts = state.selectedPath.split("/").filter(p => p);
-  
-  if (pathParts.length === 0) return;
-  
-  // Add folder breadcrumbs
-  for (let i = 0; i < pathParts.length - 1; i++) {
-    const folderName = pathParts[i];
+  // Add breadcrumb items from the trail
+  for (let i = 0; i < state.breadcrumbTrail.length; i++) {
+    const item = state.breadcrumbTrail[i];
     const li = document.createElement("li");
-    const span = document.createElement("span");
-    span.className = "breadcrumb-item";
-    span.textContent = folderName;
-    li.appendChild(span);
+    
+    const isLast = i === state.breadcrumbTrail.length - 1;
+    
+    if (isLast) {
+      // Last item (current file) - show as text
+      const span = document.createElement("span");
+      span.className = "breadcrumb-item current";
+      span.textContent = item.label;
+      li.appendChild(span);
+    } else {
+      // Folder item - could be clickable
+      const span = document.createElement("span");
+      span.className = "breadcrumb-item";
+      span.textContent = item.label;
+      li.appendChild(span);
+    }
+    
     els.breadcrumb.appendChild(li);
   }
-  
-  // Add current file
-  const fileName = pathParts[pathParts.length - 1];
-  const fileLi = document.createElement("li");
-  const fileSpan = document.createElement("span");
-  fileSpan.className = "breadcrumb-item current";
-  fileSpan.textContent = fileName.replace(".xml", "");
-  fileLi.appendChild(fileSpan);
-  els.breadcrumb.appendChild(fileLi);
 }
 
 function renderTreeMenuSection(tabId) {
@@ -1771,10 +1799,12 @@ async function loadSelectedFile() {
 
   if (!state.selectedPath) {
     renderViewerPlaceholder("Pick an XML node to render.");
+    updateBreadcrumbTrail();
     updateBreadcrumb();
     return;
   }
 
+  updateBreadcrumbTrail();
   updateBreadcrumb();
 
   if (isManualLandingPath(state.selectedPath)) {
