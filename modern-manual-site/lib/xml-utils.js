@@ -573,12 +573,111 @@ function renderNode(node, options, depth = 0) {
 
     const tbody = document.createElement("tbody");
     let stepNumber = 1;
-    for (const child of Array.from(node.children || [])) {
-      if (child.tagName?.toLowerCase() === "testgroup") {
-        const row = renderTestGroup(child, options, depth + 1, stepNumber);
-        if (row) {
-          tbody.appendChild(row);
-          stepNumber++;
+    
+    if (node.getAttribute("type") === "condition") {
+      // For condition-type diags, group condition, ps, action elements into rows
+      // Structure: condition, ps, action, ps, action, ps, action... (repeating pairs of ps/action after first condition)
+      let currentCondition = null;
+      let possibleCauses = [];
+      
+      for (const child of Array.from(node.children || [])) {
+        const childTag = child.tagName?.toLowerCase();
+        
+        if (childTag === "condition") {
+          // If we have a previous condition with causes, create a row for each cause
+          if (currentCondition) {
+            for (const cause of possibleCauses) {
+              const tr = document.createElement("tr");
+              tr.className = "xml-diagcond-row";
+              
+              // Condition cell
+              const condCell = document.createElement("td");
+              condCell.className = "xml-diagcond-condition";
+              const condRendered = renderNode(currentCondition, options, depth + 1);
+              if (condRendered) {
+                condCell.appendChild(condRendered);
+              }
+              tr.appendChild(condCell);
+              
+              // Possible cause cell
+              const psCell = document.createElement("td");
+              psCell.className = "xml-diagcond-ps";
+              const psRendered = renderNode(cause.ps, options, depth + 1);
+              if (psRendered) {
+                psCell.appendChild(psRendered);
+              }
+              tr.appendChild(psCell);
+              
+              // Action cell
+              const actionCell = document.createElement("td");
+              actionCell.className = "xml-diagcond-action";
+              if (cause.action) {
+                const actionRendered = renderNode(cause.action, options, depth + 1);
+                if (actionRendered) {
+                  actionCell.appendChild(actionRendered);
+                }
+              }
+              tr.appendChild(actionCell);
+              
+              tbody.appendChild(tr);
+            }
+          }
+          currentCondition = child;
+          possibleCauses = [];
+        } else if (childTag === "ps") {
+          possibleCauses.push({ ps: child, action: null });
+        } else if (childTag === "action" && possibleCauses.length > 0) {
+          possibleCauses[possibleCauses.length - 1].action = child;
+        }
+      }
+      
+      // Handle final condition
+      if (currentCondition && possibleCauses.length > 0) {
+        for (const cause of possibleCauses) {
+          const tr = document.createElement("tr");
+          tr.className = "xml-diagcond-row";
+          
+          // Condition cell
+          const condCell = document.createElement("td");
+          condCell.className = "xml-diagcond-condition";
+          const condRendered = renderNode(currentCondition, options, depth + 1);
+          if (condRendered) {
+            condCell.appendChild(condRendered);
+          }
+          tr.appendChild(condCell);
+          
+          // Possible cause cell
+          const psCell = document.createElement("td");
+          psCell.className = "xml-diagcond-ps";
+          const psRendered = renderNode(cause.ps, options, depth + 1);
+          if (psRendered) {
+            psCell.appendChild(psRendered);
+          }
+          tr.appendChild(psCell);
+          
+          // Action cell
+          const actionCell = document.createElement("td");
+          actionCell.className = "xml-diagcond-action";
+          if (cause.action) {
+            const actionRendered = renderNode(cause.action, options, depth + 1);
+            if (actionRendered) {
+              actionCell.appendChild(actionRendered);
+            }
+          }
+          tr.appendChild(actionCell);
+          
+          tbody.appendChild(tr);
+        }
+      }
+    } else {
+      // For test-type diags, process testgroup children
+      for (const child of Array.from(node.children || [])) {
+        if (child.tagName?.toLowerCase() === "testgroup") {
+          const row = renderTestGroup(child, options, depth + 1, stepNumber);
+          if (row) {
+            tbody.appendChild(row);
+            stepNumber++;
+          }
         }
       }
     }
