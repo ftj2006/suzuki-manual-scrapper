@@ -1302,7 +1302,7 @@ body.lightbox-open {
 
 .xml-testgroup-row td {
   border: 1px solid var(--line);
-  padding: 12px;
+  padding: 8px;
   vertical-align: top;
   background-color: var(--surface);
 }
@@ -1314,7 +1314,7 @@ body.lightbox-open {
 
 .xml-diagcond-row td {
   border: 1px solid var(--line);
-  padding: 12px;
+  padding: 8px;
   vertical-align: top;
   background-color: var(--surface);
 }
