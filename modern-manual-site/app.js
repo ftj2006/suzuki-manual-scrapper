@@ -64,6 +64,7 @@ const datasetStorageKey = "manual-next-dataset";
 const sidebarCollapsedStorageKey = "manual-next-content-expanded";
 const sidebarWidthStorageKey = "manual-next-sidebar-width";
 const sidebarHeightStorageKey = "manual-next-sidebar-height";
+const activeTreeTabStorageKey = "manual-next-active-tree-tab";
 
 function isPortraitSidebarLayout() {
   return window.matchMedia("(max-width: 980px) and (orientation: portrait)").matches;
@@ -1266,6 +1267,7 @@ function switchTreeTab(tabId) {
 
   saveTreeState();
   state.activeTreeTab = tabId;
+  localStorage.setItem(activeTreeTabStorageKey, tabId);
   restoreTreeState();
 
   const nextPath = state.selectedPath && state.activeDatasetIndex?.files?.[state.selectedPath]
@@ -1657,7 +1659,6 @@ async function loadDatasetIndex(submodel) {
   state.refToTitle = new Map();
   state.modelVariants = [];
   state.activeModel = "";
-  state.activeTreeTab = "bookmarks";
   state.availableTreeTabs = [];
   clearSearchUi();
   renderViewerPlaceholder("Loading dataset index...");
@@ -1689,9 +1690,14 @@ async function loadDatasetIndex(submodel) {
     state.modelVariants = datasetModelVariants();
     state.availableTreeTabs = datasetAvailableTreeTabs();
     state.searchIndex = buildSearchIndex(state.activeDatasetIndex);
-    if (!state.availableTreeTabs.some((tab) => tab.id === state.activeTreeTab)) {
-      state.activeTreeTab = state.availableTreeTabs[0].id;
-    }
+    
+    // Restore the previously active tab, or default to the first available tab
+    const savedTreeTab = localStorage.getItem(activeTreeTabStorageKey);
+    const defaultTab = state.availableTreeTabs[0]?.id || "bookmarks";
+    state.activeTreeTab = (savedTreeTab && state.availableTreeTabs.some((tab) => tab.id === savedTreeTab)) 
+      ? savedTreeTab 
+      : defaultTab;
+    
     const savedModel = localStorage.getItem(modelStorageKey(`${state.activeDataset.id}:${submodel.id}`)) || "";
     state.activeModel = state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || "");
     renderModelSelect();
