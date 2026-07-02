@@ -1333,12 +1333,14 @@ body.lightbox-open {
   width: 45%;
 }
 
-/* Remove internal margins and padding in table cells */
+/* Normalize styling in table cells */
 .xml-diagcond-row td .xml-condition,
 .xml-diagcond-row td .xml-ps,
 .xml-diagcond-row td .xml-action {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 8px;
+  background-color: transparent;
+  border-radius: 0;
 }
 
 .xml-teststepnum {
