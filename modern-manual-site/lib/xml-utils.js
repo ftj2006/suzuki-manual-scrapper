@@ -713,13 +713,22 @@ function renderNode(node, options, depth = 0) {
   if (tag === "condition") {
     const div = document.createElement("div");
     div.className = "xml-condition";
-    const content = renderInline(node, options);
-    if (content.childNodes.length) {
-      div.appendChild(content);
-    } else {
-      div.textContent = textContentOf(node);
+    for (const child of Array.from(node.children || [])) {
+      const rendered = renderNode(child, options, depth + 1);
+      if (rendered) {
+        div.appendChild(rendered);
+      }
     }
-    return div;
+    // If no child elements, try inline rendering
+    if (!div.childNodes.length) {
+      const content = renderInline(node, options);
+      if (content.childNodes.length) {
+        div.appendChild(content);
+      } else {
+        div.textContent = textContentOf(node);
+      }
+    }
+    return div.childNodes.length ? div : null;
   }
 
   // Test elements (test1, test2, test3) - render inline with numbered prefix

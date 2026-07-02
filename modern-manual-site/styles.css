@@ -1314,8 +1314,8 @@ body.lightbox-open {
 
 .xml-diagcond-row td {
   border: 1px solid var(--line);
-  padding: 12px;
-  vertical-align: top;
+  padding: 4px;
+  vertical-align: middle;
   background-color: var(--surface);
 }
 
@@ -1338,7 +1338,7 @@ body.lightbox-open {
 .xml-diagcond-row td .xml-ps,
 .xml-diagcond-row td .xml-action {
   margin: 0;
-  padding: 0 0 0 8px;
+  padding: 0 0 0 4px;
   background-color: transparent;
   border-radius: 0;
 }
@@ -1450,12 +1450,19 @@ body.lightbox-open {
   border-radius: 2px;
 }
 
+.xml-condition > p,
+.xml-ps > p,
+.xml-action > p {
+  margin: 0;
+  padding: 0;
+}
+
 .xml-ps {
   border-left: 3px solid var(--accent);
-  padding: 8px 12px;
+  padding: 10px 12px;
   background-color: var(--surface-soft);
   color: var(--text);
-  margin: 6px 0;
+  margin: 8px 0;
   border-radius: 2px;
 }
 
@@ -1467,11 +1474,6 @@ body.lightbox-open {
   background-color: var(--surface-soft);
   margin: 8px 0;
   border-radius: 2px;
-}
-
-.xml-action .xml-text {
-  margin: 0;
-  line-height: 1.4;
 }
 
 @media (max-width: 640px) {
