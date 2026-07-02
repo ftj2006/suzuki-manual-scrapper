@@ -1312,6 +1312,27 @@ body.lightbox-open {
   font-weight: 600;
 }
 
+.xml-diagcond-row td {
+  border: 1px solid var(--line);
+  padding: 12px;
+  vertical-align: top;
+  background-color: var(--surface);
+}
+
+.xml-diagcond-condition {
+  background-color: var(--surface-soft);
+  font-weight: 600;
+  width: 20%;
+}
+
+.xml-diagcond-ps {
+  width: 35%;
+}
+
+.xml-diagcond-action {
+  width: 45%;
+}
+
 .xml-teststepnum {
   font-size: 18pt;
   font-weight: 700;
