@@ -399,7 +399,6 @@ function renderSearchResults() {
           <span class="search-result-title">${htmlEscape(result.title)}</span>
           <span class="search-result-meta">
             <span class="search-result-tab">${htmlEscape(tabLabelForId(result.tabId))}</span>
-            <span class="search-result-path">${htmlEscape(result.path)}</span>
           </span>
         </button>
       `;
