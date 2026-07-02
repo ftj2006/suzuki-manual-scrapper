@@ -1336,6 +1336,23 @@ th:hover .column-resize-handle {
   font-weight: 600;
 }
 
+.xml-teststepnum {
+  width: 8%;
+  text-align: center;
+}
+
+.xml-testaction {
+  width: 54%;
+}
+
+.xml-testyes {
+  width: 19%;
+}
+
+.xml-testno {
+  width: 19%;
+}
+
 .xml-diagcond-row td {
   border: 1px solid var(--line);
   padding: 8px;
