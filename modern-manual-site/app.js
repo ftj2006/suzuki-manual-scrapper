@@ -1952,10 +1952,19 @@ async function bootstrap() {
       }
     });
     
-    // Auto-switch tab when section is opened
+    // Auto-switch tab when section is opened, and close other sections (accordion behavior)
     section.addEventListener("toggle", () => {
-      if (section.open && state.activeTreeTab !== tabId) {
-        switchTreeTab(tabId);
+      if (section.open) {
+        // Close all other tree-tab-section elements
+        document.querySelectorAll(".tree-tab-section").forEach((otherSection) => {
+          if (otherSection !== section) {
+            otherSection.open = false;
+          }
+        });
+        // Switch to this tab
+        if (state.activeTreeTab !== tabId) {
+          switchTreeTab(tabId);
+        }
       }
     });
   });
