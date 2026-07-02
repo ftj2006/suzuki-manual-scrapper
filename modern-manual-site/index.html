@@ -19,18 +19,17 @@
           <div id="searchResults" class="search-results" hidden></div>
         </div>
         <div class="topbar-actions">
-          <label class="field">
-            <span>Model</span>
-            <select id="datasetSelect"></select>
-          </label>
-          <label id="submodelField" class="field" hidden>
-            <span>Code</span>
-            <select id="submodelSelect"></select>
-          </label>
-          <label id="modelField" class="field" hidden>
-            <span>Engine Code</span>
-            <select id="modelSelect"></select>
-          </label>
+          <button id="menuToggle" class="button secondary menu-button" type="button" aria-label="Open menu" title="Open menu" aria-expanded="false" aria-controls="sidebarMenu">
+            <span aria-hidden="true">☰</span>
+          </button>
+          <div class="vehicle-selector-wrapper">
+            <button id="vehicleToggle" class="button secondary vehicle-selector" type="button" aria-label="Select vehicle" title="Select vehicle" aria-expanded="false" aria-controls="vehicleDropdown">
+              <span class="vehicle-icon" aria-hidden="true">🚗</span>
+            </button>
+            <div id="vehicleDropdown" class="vehicle-dropdown" hidden>
+              <div id="vehicleList" class="vehicle-list"></div>
+            </div>
+          </div>
           <button id="themeToggle" class="button secondary" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
             <span class="theme-icon" aria-hidden="true">&#9788;</span>
           </button>
@@ -38,20 +37,10 @@
       </header>
 
       <main class="layout">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebarMenu" hidden>
           <nav class="sidebar-menu" aria-label="Navigation menu">
-            <!-- Vehicle selector section -->
-            <details class="menu-section vehicle-section">
-              <summary class="menu-section-header">
-                <span class="menu-icon">🚙</span>
-                <span class="menu-label">Vehicle</span>
-                <span class="menu-toggle" aria-hidden="true">▾</span>
-              </summary>
-              <div id="vehicleMenu" class="menu-section-content"></div>
-            </details>
-
             <!-- Bookmarks section -->
-            <details class="menu-section tree-tab-section" data-tab="bookmarks">
+            <details class="menu-section tree-tab-section" data-tab="bookmarks" open>
               <summary class="menu-section-header">
                 <span class="menu-icon">📑</span>
                 <span class="menu-label">Bookmarks</span>
@@ -82,13 +71,7 @@
           </nav>
         </aside>
 
-        <div
-          id="sidebarResizer"
-          class="sidebar-resizer"
-          role="separator"
-          aria-orientation="vertical"
-          aria-label="Resize Manual Pages pane"
-        ></div>
+        <div class="sidebar-overlay" id="sidebarOverlay" hidden></div>
 
         <section class="content">
           <article id="viewer" class="viewer empty">

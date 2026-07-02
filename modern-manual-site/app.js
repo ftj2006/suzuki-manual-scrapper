@@ -2,17 +2,15 @@ import { filterTree } from "./lib/tree.js?v=3";
 import { parseXml, renderXmlDocument } from "./lib/xml-utils.js?v=6";
 
 const els = {
-  datasetSelect: document.getElementById("datasetSelect"),
-  submodelField: document.getElementById("submodelField"),
-  submodelSelect: document.getElementById("submodelSelect"),
-  modelField: document.getElementById("modelField"),
-  modelSelect: document.getElementById("modelSelect"),
   layout: document.querySelector(".layout"),
   sidebar: document.querySelector(".sidebar"),
-  sidebarToggle: document.getElementById("sidebarToggle"),
-  sidebarResizer: document.getElementById("sidebarResizer"),
   sidebarMenu: document.querySelector(".sidebar-menu"),
-  vehicleMenu: document.getElementById("vehicleMenu"),
+  menuToggle: document.getElementById("menuToggle"),
+  sidebarOverlay: document.getElementById("sidebarOverlay"),
+  vehicleToggle: document.getElementById("vehicleToggle"),
+  vehicleDropdown: document.getElementById("vehicleDropdown"),
+  vehicleList: document.getElementById("vehicleList"),
+  sidebarToggle: document.getElementById("sidebarToggle"),
   viewer: document.getElementById("viewer"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
@@ -1315,30 +1313,31 @@ function renderTreeTabs() {
   renderMenuStructure();
 }
 
-function renderVehicleMenu() {
-  if (!els.vehicleMenu) return;
+function renderVehicleDropdown() {
+  if (!els.vehicleList) return;
   
-  els.vehicleMenu.innerHTML = "";
+  els.vehicleList.innerHTML = "";
   
   for (const dataset of state.datasets) {
-    const details = document.createElement("details");
-    details.className = "vehicle-menu-item";
-    details.open = state.activeDataset?.id === dataset.id;
-    
-    const summary = document.createElement("summary");
-    summary.textContent = dataset.name;
-    details.appendChild(summary);
-    
-    const submodelsContainer = document.createElement("div");
-    submodelsContainer.style.paddingLeft = "8px";
-    
-    for (const submodel of dataset.submodels || []) {
+    const submodels = dataset.submodels || [];
+    for (const submodel of submodels) {
       const button = document.createElement("button");
-      button.className = "vehicle-submodel-button";
+      button.className = "vehicle-option";
       if (state.activeSubmodel?.id === submodel.id && state.activeDataset?.id === dataset.id) {
         button.classList.add("active");
       }
-      button.textContent = submodel.name;
+      
+      const nameEl = document.createElement("span");
+      nameEl.className = "vehicle-option-name";
+      nameEl.textContent = dataset.name;
+      
+      const codeEl = document.createElement("span");
+      codeEl.className = "vehicle-option-code";
+      codeEl.textContent = submodel.name;
+      
+      button.appendChild(nameEl);
+      button.appendChild(codeEl);
+      
       button.addEventListener("click", async () => {
         state.activeDataset = dataset;
         state.selectedPath = null;
@@ -1351,12 +1350,11 @@ function renderVehicleMenu() {
         
         await loadDatasetIndex(submodel);
         renderMenuStructure();
+        renderVehicleDropdown();
+        closeSidebar();
       });
-      submodelsContainer.appendChild(button);
+      els.vehicleList.appendChild(button);
     }
-    
-    details.appendChild(submodelsContainer);
-    els.vehicleMenu.appendChild(details);
   }
 }
 
@@ -1380,12 +1378,56 @@ function renderTreeMenuSection(tabId) {
 }
 
 function renderMenuStructure() {
-  // Render all menu sections
-  renderVehicleMenu();
-  
   // Render tree content for each available tab
   for (const tab of state.availableTreeTabs) {
     renderTreeMenuSection(tab.id);
+  }
+}
+
+function openSidebar() {
+  if (!els.sidebar) return;
+  els.sidebar.hidden = false;
+  els.sidebar.setAttribute("aria-hidden", "false");
+  if (els.sidebarOverlay) {
+    els.sidebarOverlay.hidden = false;
+  }
+  if (els.menuToggle) {
+    els.menuToggle.setAttribute("aria-expanded", "true");
+  }
+}
+
+function closeSidebar() {
+  if (!els.sidebar) return;
+  els.sidebar.hidden = true;
+  els.sidebar.setAttribute("aria-hidden", "true");
+  if (els.sidebarOverlay) {
+    els.sidebarOverlay.hidden = true;
+  }
+  if (els.menuToggle) {
+    els.menuToggle.setAttribute("aria-expanded", "false");
+  }
+}
+
+function toggleSidebar() {
+  if (els.sidebar?.hidden) {
+    openSidebar();
+  } else {
+    closeSidebar();
+  }
+}
+
+function toggleVehicleDropdown() {
+  if (!els.vehicleDropdown) return;
+  if (els.vehicleDropdown.hidden) {
+    els.vehicleDropdown.hidden = false;
+    if (els.vehicleToggle) {
+      els.vehicleToggle.setAttribute("aria-expanded", "true");
+    }
+  } else {
+    els.vehicleDropdown.hidden = true;
+    if (els.vehicleToggle) {
+      els.vehicleToggle.setAttribute("aria-expanded", "false");
+    }
   }
 }
 
@@ -1591,46 +1633,11 @@ function syncVisibleSelection() {
 }
 
 function renderModelSelect() {
-  const variants = state.modelVariants;
-  els.modelSelect.innerHTML = "";
-
-  if (variants.length < 2) {
-    els.modelField.hidden = true;
-    state.activeModel = "";
-    return;
-  }
-
-  for (const variant of variants) {
-    const option = document.createElement("option");
-    option.value = variant;
-    option.textContent = variant;
-    els.modelSelect.appendChild(option);
-  }
-
-  els.modelSelect.value = state.activeModel;
-  els.modelField.hidden = false;
+  // Model select no longer exists in the UI - this function is kept for compatibility
 }
 
 function renderSubmodelSelect() {
-  const submodels = state.activeDataset?.submodels || [];
-  els.submodelSelect.innerHTML = "";
-
-  if (!submodels.length) {
-    els.submodelField.hidden = true;
-    els.submodelSelect.disabled = true;
-    return;
-  }
-
-  for (const submodel of submodels) {
-    const option = document.createElement("option");
-    option.value = submodel.id;
-    option.textContent = submodel.name;
-    els.submodelSelect.appendChild(option);
-  }
-
-  els.submodelSelect.value = state.activeSubmodel?.id || submodels[0].id;
-  els.submodelField.hidden = false;
-  els.submodelSelect.disabled = submodels.length < 2;
+  // Submodel select no longer exists in the UI - this function is kept for compatibility
 }
 
 function buildTreeNodes(nodes, trail = "") {
@@ -1824,7 +1831,6 @@ async function loadDatasetIndex(submodel) {
     
     const savedModel = localStorage.getItem(modelStorageKey(`${state.activeDataset.id}:${submodel.id}`)) || "";
     state.activeModel = state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || "");
-    renderModelSelect();
     renderTreeTabs();
     restoreTreeState();
     state.selectedPath = state.selectedPath || firstFilePathForTab(state.activeTreeTab) || state.activeDatasetIndex?.firstFilePath || null;
@@ -1854,34 +1860,40 @@ async function loadDataset(datasetId) {
   const savedSubmodelId = localStorage.getItem(submodelStorageKey(dataset.id)) || "";
   const selectedSubmodel = submodels.find((item) => item.id === savedSubmodelId) || submodels[0] || null;
   state.activeSubmodel = selectedSubmodel;
-  renderSubmodelSelect();
   await loadDatasetIndex(selectedSubmodel);
 }
 
 async function bootstrap() {
   setupTheme();
-  initializeColumnResizing();
-
-  const contentExpanded = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
-  const savedSidebarWidth = Number.parseInt(localStorage.getItem(sidebarWidthStorageKey) || "", 10);
-  const savedSidebarHeight = Number.parseInt(localStorage.getItem(sidebarHeightStorageKey) || "", 10);
-  if (Number.isFinite(savedSidebarWidth)) {
-    applySidebarWidth(savedSidebarWidth, false);
-  }
-  if (Number.isFinite(savedSidebarHeight)) {
-    applySidebarHeight(savedSidebarHeight, false);
-  }
-  setContentExpanded(contentExpanded);
-  setupSidebarResizer();
 
   els.themeToggle.addEventListener("click", () => {
     const current = document.body.getAttribute("data-theme");
     applyTheme(current === "dark" ? "light" : "dark");
   });
 
-  els.sidebarToggle?.addEventListener("click", () => {
-    const nextExpanded = !els.layout?.classList.contains("content-expanded");
-    setContentExpanded(nextExpanded);
+  // Hamburger menu toggle
+  els.menuToggle?.addEventListener("click", () => {
+    toggleSidebar();
+  });
+
+  // Sidebar overlay close
+  els.sidebarOverlay?.addEventListener("click", () => {
+    closeSidebar();
+  });
+
+  // Vehicle selector toggle
+  els.vehicleToggle?.addEventListener("click", () => {
+    toggleVehicleDropdown();
+  });
+
+  // Close vehicle dropdown when clicking outside
+  document.addEventListener("click", (evt) => {
+    if (!evt.target.closest(".vehicle-selector-wrapper")) {
+      if (!els.vehicleDropdown?.hidden) {
+        els.vehicleDropdown.hidden = true;
+        els.vehicleToggle?.setAttribute("aria-expanded", "false");
+      }
+    }
   });
 
   // Handle tree tab section clicks for menu-based structure
@@ -2001,25 +2013,7 @@ async function bootstrap() {
     hideSearchResults();
   });
 
-  els.modelSelect.addEventListener("change", (evt) => {
-    saveTreeState();
-    state.activeModel = evt.target.value;
-    if (state.activeDataset?.id && state.activeSubmodel?.id) {
-      localStorage.setItem(modelStorageKey(`${state.activeDataset.id}:${state.activeSubmodel.id}`), state.activeModel);
-    }
-    restoreTreeState();
-    renderTree();
-    loadSelectedFile();
-    saveTreeState();
-  });
 
-  els.submodelSelect.addEventListener("change", (evt) => {
-    const submodel = (state.activeDataset?.submodels || []).find((item) => item.id === evt.target.value) || null;
-    if (state.activeDataset?.id && submodel?.id) {
-      localStorage.setItem(submodelStorageKey(state.activeDataset.id), submodel.id);
-    }
-    loadDatasetIndex(submodel);
-  });
 
   const datasetsRes = await fetch("./data/datasets.json");
   if (!datasetsRes.ok) {
@@ -2035,22 +2029,13 @@ async function bootstrap() {
     return;
   }
 
-  els.datasetSelect.innerHTML = "";
-  for (const dataset of state.datasets) {
-    const option = document.createElement("option");
-    option.value = dataset.id;
-    option.textContent = dataset.name;
-    els.datasetSelect.appendChild(option);
-  }
-
-  els.datasetSelect.addEventListener("change", (evt) => {
-    loadDataset(evt.target.value);
-  });
-
+  // Load the initial dataset and populate vehicle dropdown
   const savedDatasetId = localStorage.getItem(datasetStorageKey) || "";
   const initialDataset = state.datasets.find((item) => item.id === savedDatasetId) || state.datasets[0];
-  els.datasetSelect.value = initialDataset.id;
   await loadDataset(initialDataset.id);
+  
+  // Populate vehicle dropdown for the first time
+  renderVehicleDropdown();
 }
 
 bootstrap().catch((err) => {
