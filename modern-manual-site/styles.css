@@ -1268,6 +1268,7 @@ body.lightbox-open {
 
 .xml-diagcond {
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
   margin: 16px 0 20px;
   border-bottom: 3px solid var(--accent);
@@ -1279,6 +1280,7 @@ body.lightbox-open {
 
 .xml-diagtest {
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
   margin: 16px 0 20px;
   border: 1px solid var(--line);
@@ -1298,6 +1300,28 @@ body.lightbox-open {
   border: none;
   font-size: 0.95em;
   letter-spacing: 0.3px;
+  position: relative;
+  user-select: none;
+}
+
+.column-resize-handle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  cursor: col-resize;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+th:hover .column-resize-handle {
+  opacity: 1;
+}
+
+.column-resize-handle:hover {
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.8) 50%, transparent 100%);
 }
 
 .xml-testgroup-row td {

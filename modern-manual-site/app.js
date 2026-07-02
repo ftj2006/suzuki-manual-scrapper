@@ -499,6 +499,78 @@ function updateThemeToggle(theme) {
   els.themeToggle.setAttribute("title", label);
 }
 
+function initializeColumnResizing() {
+  // Observe for new tables and add resize handles
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "childList") {
+        const tables = mutation.target.querySelectorAll?.("table.xml-diagtest, table.xml-diagcond");
+        for (const table of tables || []) {
+          if (!table.dataset.resizeInitialized) {
+            setupTableColumnResizing(table);
+            table.dataset.resizeInitialized = "true";
+          }
+        }
+      }
+    }
+  });
+  
+  observer.observe(els.viewer, { childList: true, subtree: true });
+}
+
+function setupTableColumnResizing(table) {
+  const thead = table.querySelector("thead");
+  if (!thead) return;
+  
+  const headerRow = thead.querySelector("tr");
+  if (!headerRow) return;
+  
+  const headers = headerRow.querySelectorAll("th");
+  const tableId = `table-${Math.random().toString(36).slice(2, 9)}`;
+  const storageKey = `column-widths-${tableId}`;
+  
+  // Load saved widths
+  const savedWidths = localStorage.getItem(storageKey);
+  const widths = savedWidths ? JSON.parse(savedWidths) : null;
+  
+  headers.forEach((header, index) => {
+    // Create resize handle
+    const handle = document.createElement("div");
+    handle.className = "column-resize-handle";
+    header.appendChild(handle);
+    
+    // Restore saved width if available
+    if (widths && widths[index]) {
+      header.style.width = widths[index];
+    }
+    
+    // Handle dragging
+    handle.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      const startX = e.clientX;
+      const startWidth = header.offsetWidth;
+      
+      const handleMouseMove = (moveEvent) => {
+        const diff = moveEvent.clientX - startX;
+        const newWidth = Math.max(60, startWidth + diff);
+        header.style.width = newWidth + "px";
+      };
+      
+      const handleMouseUp = () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+        document.removeEventListener("mouseup", handleMouseUp);
+        
+        // Save widths to localStorage
+        const colWidths = Array.from(headers).map(h => h.style.width || "");
+        localStorage.setItem(storageKey, JSON.stringify(colWidths));
+      };
+      
+      document.addEventListener("mousemove", handleMouseMove);
+      document.addEventListener("mouseup", handleMouseUp);
+    });
+  });
+}
+
 function setupTheme() {
   const saved = localStorage.getItem("manual-next-theme");
   if (saved) {
@@ -1736,6 +1808,7 @@ async function loadDataset(datasetId) {
 
 async function bootstrap() {
   setupTheme();
+  initializeColumnResizing();
 
   const contentExpanded = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
   const savedSidebarWidth = Number.parseInt(localStorage.getItem(sidebarWidthStorageKey) || "", 10);
