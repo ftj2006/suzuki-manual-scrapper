@@ -13,6 +13,7 @@ const els = {
   vehicleDropdown: document.getElementById("vehicleDropdown"),
   vehicleList: document.getElementById("vehicleList"),
   viewer: document.getElementById("viewer"),
+  breadcrumb: document.getElementById("breadcrumb"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
@@ -1329,6 +1330,54 @@ function updateVehicleToggleDisplay() {
   }
 }
 
+function updateBreadcrumb() {
+  if (!els.breadcrumb) return;
+  
+  els.breadcrumb.innerHTML = "";
+  
+  // Home/root item
+  const homeLi = document.createElement("li");
+  const homeLink = document.createElement("button");
+  homeLink.className = "breadcrumb-link";
+  homeLink.textContent = "Manual";
+  homeLink.addEventListener("click", () => {
+    state.selectedPath = null;
+    loadSelectedFile();
+  });
+  homeLi.appendChild(homeLink);
+  els.breadcrumb.appendChild(homeLi);
+  
+  if (!state.selectedPath || isManualLandingPath(state.selectedPath)) {
+    return;
+  }
+  
+  // Parse the path to get folder hierarchy
+  // Path format: "folder1/folder2/file.xml"
+  const pathParts = state.selectedPath.split("/").filter(p => p);
+  
+  if (pathParts.length === 0) return;
+  
+  // Add folder breadcrumbs
+  for (let i = 0; i < pathParts.length - 1; i++) {
+    const folderName = pathParts[i];
+    const li = document.createElement("li");
+    const span = document.createElement("span");
+    span.className = "breadcrumb-item";
+    span.textContent = folderName;
+    li.appendChild(span);
+    els.breadcrumb.appendChild(li);
+  }
+  
+  // Add current file
+  const fileName = pathParts[pathParts.length - 1];
+  const fileLi = document.createElement("li");
+  const fileSpan = document.createElement("span");
+  fileSpan.className = "breadcrumb-item current";
+  fileSpan.textContent = fileName.replace(".xml", "");
+  fileLi.appendChild(fileSpan);
+  els.breadcrumb.appendChild(fileLi);
+}
+
 function renderTreeMenuSection(tabId) {
   const sections = document.querySelectorAll(".tree-tab-section");
   const section = Array.from(sections).find(s => s.dataset.tab === tabId);
@@ -1722,8 +1771,11 @@ async function loadSelectedFile() {
 
   if (!state.selectedPath) {
     renderViewerPlaceholder("Pick an XML node to render.");
+    updateBreadcrumb();
     return;
   }
+
+  updateBreadcrumb();
 
   if (isManualLandingPath(state.selectedPath)) {
     els.viewer.className = "viewer";
