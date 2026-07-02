@@ -1678,6 +1678,17 @@ function buildTreeNodes(nodes, trail = "") {
       details.dataset.folderKey = folderKey;
       details.addEventListener("toggle", () => {
         if (details.open) {
+          // Close all sibling details elements at the same level (accordion behavior)
+          const parent = details.parentElement;
+          if (parent) {
+            const siblingDetails = parent.querySelectorAll(':scope > details[open]');
+            siblingDetails.forEach(sibling => {
+              if (sibling !== details && sibling.open) {
+                sibling.open = false;
+              }
+            });
+          }
+          
           state.expandedFolders.add(folderKey);
         } else {
           state.expandedFolders.delete(folderKey);
