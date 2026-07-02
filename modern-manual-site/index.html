@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suzuki Manual Viewer - v2.0</title>
-    <link rel="stylesheet" href="./styles.css?v=24" />
+    <title>Suzuki Manual Viewer</title>
+    <link rel="stylesheet" href="./styles.css?v=31" />
   </head>
   <body>
     <div class="app-shell">
@@ -15,11 +15,11 @@
           </button>
         </div>
         <div class="brand">
-          <h1>Suzuki Manual Viewer - v2.0</h1>
+          <h1>Suzuki Manual Viewer</h1>
         </div>
         <div class="topbar-search">
           <label class="sr-only" for="globalSearch">Search manuals</label>
-          <input id="globalSearch" type="search" placeholder="Search chapters, titles, or file paths..." autocomplete="off" spellcheck="false" />
+          <input id="globalSearch" type="search" placeholder="Search chapters, titles or components..." autocomplete="off" spellcheck="false" />
           <div id="searchResults" class="search-results" hidden></div>
         </div>
         <div class="topbar-actions">
@@ -30,11 +30,18 @@
             </button>
             <div id="vehicleDropdown" class="vehicle-dropdown" hidden>
               <div id="vehicleList" class="vehicle-list"></div>
+              <div class="vehicle-dropdown-footer">
+                <div id="modelField" class="vehicle-model-field" hidden>
+                  <label for="modelSelect">Model Variant</label>
+                  <select id="modelSelect" aria-label="Filter by model variant"></select>
+                </div>
+                <button id="themeToggle" class="vehicle-dropdown-action" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+                  <span class="theme-icon" aria-hidden="true">&#9788;</span>
+                  <span class="theme-label">Theme</span>
+                </button>
+              </div>
             </div>
           </div>
-          <button id="themeToggle" class="button secondary" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
-            <span class="theme-icon" aria-hidden="true">&#9788;</span>
-          </button>
         </div>
       </header>
 
@@ -75,6 +82,16 @@
               </summary>
               <div class="menu-section-content tree-content"></div>
             </details>
+
+            <!-- Tightening Torque section -->
+            <details class="menu-section tree-tab-section" data-tab="torque">
+              <summary class="menu-section-header">
+                <span class="menu-icon">🔩</span>
+                <span class="menu-label">Tightening Torque</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
           </nav>
         </aside>
 
@@ -94,6 +111,6 @@
       </main>
     </div>
 
-    <script type="module" src="./app.js?v=28"></script>
+    <script type="module" src="./app.js?v=34"></script>
   </body>
 </html>

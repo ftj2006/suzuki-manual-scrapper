@@ -123,6 +123,19 @@ function renderInline(node, options) {
       frag.appendChild(document.createTextNode(text));
     }
   }
+
+  // Normalize boundary whitespace for the whole inline fragment so we do not
+  // leak leading/trailing spaces into rendered paragraphs.
+  const first = frag.firstChild;
+  if (first && first.nodeType === Node.TEXT_NODE) {
+    first.textContent = (first.textContent || "").replace(/^\s+/, "");
+  }
+
+  const last = frag.lastChild;
+  if (last && last.nodeType === Node.TEXT_NODE) {
+    last.textContent = (last.textContent || "").replace(/\s+$/, "");
+  }
+
   return frag;
 }
 
@@ -164,6 +177,224 @@ function renderElementChildrenIntoCell(element, options, depth, cell) {
       cell.appendChild(rendered);
     }
   }
+}
+
+function hideNonNmTorqueColumns(table) {
+  const rows = Array.from(table.querySelectorAll("tr"));
+  if (!rows.length) {
+    return;
+  }
+
+  const cellRanges = new Map();
+  const rowSpanCarry = [];
+
+  for (const row of rows) {
+    for (let i = 0; i < rowSpanCarry.length; i += 1) {
+      if (rowSpanCarry[i] > 0) {
+        rowSpanCarry[i] -= 1;
+      }
+    }
+
+    let col = 0;
+    for (const cell of Array.from(row.children || [])) {
+      while (rowSpanCarry[col] > 0) {
+        col += 1;
+      }
+
+      const span = Math.max(1, Number(cell.colSpan || 1));
+      const rowSpan = Math.max(1, Number(cell.rowSpan || 1));
+      const start = col;
+      const end = col + span - 1;
+      cellRanges.set(cell, { start, end });
+
+      if (rowSpan > 1) {
+        for (let i = start; i <= end; i += 1) {
+          rowSpanCarry[i] = Math.max(rowSpanCarry[i] || 0, rowSpan - 1);
+        }
+      }
+
+      col += span;
+    }
+  }
+
+  let unitRow = null;
+  for (const row of rows) {
+    const cells = Array.from(row.children || []);
+    const texts = cells.map((cell) => textContentOf(cell).toLowerCase());
+    if (texts.includes("n·m") && texts.includes("kgf-m") && texts.includes("lbf-ft")) {
+      unitRow = row;
+      break;
+    }
+  }
+
+  if (!unitRow) {
+    return;
+  }
+
+  const targetColumns = new Set();
+  const unitCells = Array.from(unitRow.children || []);
+  for (const cell of unitCells) {
+    const label = textContentOf(cell).toLowerCase();
+    if (label === "kgf-m" || label === "lbf-ft") {
+      const range = cellRanges.get(cell);
+      if (!range) {
+        continue;
+      }
+      for (let i = range.start; i <= range.end; i += 1) {
+        targetColumns.add(i);
+      }
+    }
+  }
+
+  if (!targetColumns.size) {
+    return;
+  }
+
+  for (const row of rows) {
+    const cells = Array.from(row.children || []);
+    const cellsToRemove = [];
+
+    for (const cell of cells) {
+      const range = cellRanges.get(cell);
+      if (!range) {
+        continue;
+      }
+
+      let overlap = 0;
+      for (let i = range.start; i <= range.end; i += 1) {
+        if (targetColumns.has(i)) {
+          overlap += 1;
+        }
+      }
+
+      if (!overlap) {
+        continue;
+      }
+
+      const span = range.end - range.start + 1;
+      if (overlap >= span) {
+        cellsToRemove.push(cell);
+      } else {
+        cell.colSpan = span - overlap;
+      }
+    }
+
+    for (const cell of cellsToRemove) {
+      cell.remove();
+    }
+  }
+}
+
+function firstMatchingChildText(item, tagNames) {
+  for (const tagName of tagNames) {
+    const child = Array.from(item.children || []).find(
+      (node) => node.tagName?.toLowerCase() === tagName,
+    );
+    if (!child) {
+      continue;
+    }
+    const text = textContentOf(child);
+    if (text) {
+      return text;
+    }
+  }
+  return "";
+}
+
+function renderStructuredItemText(node, options, depth, config) {
+  const section = document.createElement("section");
+  section.className = `xml-${config.blockTag}`;
+
+  const titleNode = Array.from(node.children || []).find((child) => child.tagName?.toLowerCase() === "title");
+  if (titleNode) {
+    const title = renderNode(titleNode, options, depth + 1);
+    if (title) {
+      section.appendChild(title);
+    }
+  }
+
+  const itemNodes = Array.from(node.children || []).filter(
+    (child) => child.tagName?.toLowerCase() === config.itemTag,
+  );
+
+  if (!itemNodes.length) {
+    return section.childNodes.length ? section : null;
+  }
+
+  for (const item of itemNodes) {
+    const values = config.columns.map((col) => firstMatchingChildText(item, col.tags));
+    const line = document.createElement("p");
+    line.className = "xml-text";
+
+    if (config.blockTag === "torque") {
+      const [part, nm] = values;
+      if (!part && !nm) {
+        continue;
+      }
+      if (part) {
+        line.appendChild(document.createTextNode(`${part}: `));
+      }
+      const strong = document.createElement("strong");
+      strong.textContent = nm || "";
+      line.appendChild(strong);
+      line.appendChild(document.createTextNode(" N·m"));
+      section.appendChild(line);
+      continue;
+    }
+
+    const lineText = typeof config.lineText === "function"
+      ? config.lineText(values)
+      : values.filter(Boolean).join(" ");
+    if (!lineText) {
+      continue;
+    }
+
+    line.textContent = lineText;
+    section.appendChild(line);
+  }
+
+  return section.childNodes.length ? section : null;
+}
+
+function renderSpecSdm(node, options, depth) {
+  const section = document.createElement("section");
+  section.className = "xml-spec";
+
+  const titleNode = Array.from(node.children || []).find((child) => child.tagName?.toLowerCase() === "sdm-title");
+  const titleText = textContentOf(titleNode);
+  if (titleText) {
+    const heading = document.createElement(depth < 4 ? "h2" : "h3");
+    heading.className = "xml-title";
+    heading.textContent = titleText;
+    section.appendChild(heading);
+  }
+
+  const itemNodes = Array.from(node.children || []).filter((child) => /^sdm\d+$/i.test(child.tagName || ""));
+  for (const item of itemNodes) {
+    const part = firstMatchingChildText(item, ["sdm-part", "part"]);
+    const condition = firstMatchingChildText(item, ["sdm-condition", "condition"]);
+    const value = firstMatchingChildText(item, ["sdm-value", "value"]);
+
+    const detail = value || condition;
+    if (!part && !condition && !value) {
+      continue;
+    }
+
+    const line = document.createElement("p");
+    line.className = "xml-text";
+    if (part && detail) {
+      line.textContent = `${part}: ${detail}`;
+    } else if (part) {
+      line.textContent = part;
+    } else if (condition && value) {
+      line.textContent = `${condition}: ${value}`;
+    } else {
+      line.textContent = detail;
+    }
+    section.appendChild(line);
+  }
+
+  return section.childNodes.length ? section : null;
 }
 
 const FLATTEN_CONTAINER_TAGS = new Set([
@@ -395,6 +626,86 @@ function renderNode(node, options, depth = 0) {
     return section.childNodes.length ? section : null;
   }
 
+  if (tag === "spec-sdm") {
+    return renderSpecSdm(node, options, depth);
+  }
+
+  if (tag === "servicetool") {
+    return renderStructuredItemText(node, options, depth, {
+      blockTag: "servicetool",
+      itemTag: "servicetoolitem",
+      columns: [
+        { label: "Part", tags: ["s-part", "part"] },
+        { label: "Number", tags: ["s-number", "number"] },
+        { label: "Description", tags: ["s-desc", "desc"] },
+        { label: "Name", tags: ["s-name", "name"] },
+      ],
+      lineText: ([part, number, description, name]) => {
+        const suffix = [number, description, name].filter(Boolean).join(" ");
+        if (part && suffix) {
+          return `${part}: ${suffix}`;
+        }
+        return [part, suffix].filter(Boolean).join(" ");
+      },
+    });
+  }
+
+  if (tag === "materials") {
+    return renderStructuredItemText(node, options, depth, {
+      blockTag: "materials",
+      itemTag: "materialitem",
+      columns: [
+        { label: "Part", tags: ["m-part", "part"] },
+        { label: "Description", tags: ["m-desc", "desc"] },
+        { label: "Number", tags: ["m-number", "number"] },
+        { label: "Name", tags: ["m-name", "name"] },
+      ],
+      lineText: ([part, description, number, name]) => {
+        const suffix = [description, number, name].filter(Boolean).join(" ");
+        if (part && suffix) {
+          return `${part}: ${suffix}`;
+        }
+        return [part, suffix].filter(Boolean).join(" ");
+      },
+    });
+  }
+
+  if (tag === "torque") {
+    return renderStructuredItemText(node, options, depth, {
+      blockTag: "torque",
+      itemTag: "torqueitem",
+      columns: [
+        { label: "Part", tags: ["t-part", "part"] },
+        { label: "N·m", tags: ["t-value1", "value1"] },
+        { label: "kgf-m", tags: ["t-value2", "value2"] },
+        { label: "lbf-ft", tags: ["t-value3", "value3"] },
+      ],
+      lineText: ([part, nm]) => {
+        if (part && nm) {
+          return `${part}: ${nm} N·m`;
+        }
+        if (nm) {
+          return `${nm} N·m`;
+        }
+        return part || "";
+      },
+    });
+  }
+
+  if (
+    tag === "servicetoolitem" ||
+    tag === "materialitem" ||
+    tag === "torqueitem" ||
+    tag === "sdm-title" ||
+    /^sdm\d+$/i.test(tag) ||
+    /^sdm-/.test(tag) ||
+    /^s-/.test(tag) ||
+    /^m-/.test(tag) ||
+    /^t-/.test(tag)
+  ) {
+    return null;
+  }
+
   if (tag === "callout") {
     const section = document.createElement("aside");
     section.className = "xml-callout";
@@ -503,6 +814,7 @@ function renderNode(node, options, depth = 0) {
       table.appendChild(tr);
     }
 
+    hideNonNmTorqueColumns(table);
     wrap.appendChild(table);
     return wrap;
   }
