@@ -1249,10 +1249,10 @@ function buildBreadcrumbTrailForNode(nodes, path, trail = []) {
   for (const node of nodes || []) {
     if (node.type === "file" && node.path === path) {
       // Found the file - return the complete trail with this file
-      return [...trail, { label: node.label || node.title || node.path, path: node.path }];
+      return [...trail, { label: node.label || node.title || node.path, path: node.path, node: node }];
     }
     if (node.type === "folder") {
-      const nodeTrail = [...trail, { label: node.label, path: null }];
+      const nodeTrail = [...trail, { label: node.label, path: null, node: node }];
       const result = buildBreadcrumbTrailForNode(node.children || [], path, nodeTrail);
       if (result) {
         return result;
@@ -1395,11 +1395,29 @@ function updateBreadcrumb() {
       span.textContent = item.label;
       li.appendChild(span);
     } else {
-      // Folder item - could be clickable
-      const span = document.createElement("span");
-      span.className = "breadcrumb-item";
-      span.textContent = item.label;
-      li.appendChild(span);
+      // Non-last item - make it clickable
+      const button = document.createElement("button");
+      button.className = "breadcrumb-link breadcrumb-item";
+      button.textContent = item.label;
+      
+      button.addEventListener("click", () => {
+        let targetPath;
+        
+        if (item.path) {
+          // This is a file - navigate to it directly
+          targetPath = item.path;
+        } else if (item.node) {
+          // This is a folder - navigate to its first file
+          targetPath = firstFilePath(item.node.children || []);
+        }
+        
+        if (targetPath) {
+          state.selectedPath = targetPath;
+          loadSelectedFile();
+        }
+      });
+      
+      li.appendChild(button);
     }
     
     els.breadcrumb.appendChild(li);
