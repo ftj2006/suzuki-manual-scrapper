@@ -1,20 +1,21 @@
 import { filterTree } from "./lib/tree.js?v=3";
-import { parseXml, renderXmlDocument } from "./lib/xml-utils.js?v=6";
+import { parseXml, renderXmlDocument } from "./lib/xml-utils.js?v=14";
 
 const els = {
-  datasetSelect: document.getElementById("datasetSelect"),
-  submodelField: document.getElementById("submodelField"),
-  submodelSelect: document.getElementById("submodelSelect"),
-  modelField: document.getElementById("modelField"),
-  modelSelect: document.getElementById("modelSelect"),
   layout: document.querySelector(".layout"),
   sidebar: document.querySelector(".sidebar"),
-  sidebarToggle: document.getElementById("sidebarToggle"),
-  sidebarResizer: document.getElementById("sidebarResizer"),
-  tree: document.getElementById("tree"),
-  treeTabs: document.getElementById("treeTabs"),
+  sidebarMenu: document.querySelector(".sidebar-menu"),
+  menuToggle: document.getElementById("menuToggle"),
+  sidebarPin: document.getElementById("sidebarPin"),
+  sidebarOverlay: document.getElementById("sidebarOverlay"),
+  vehicleToggle: document.getElementById("vehicleToggle"),
+  vehicleCode: document.getElementById("vehicleCode"),
+  vehicleDropdown: document.getElementById("vehicleDropdown"),
+  vehicleList: document.getElementById("vehicleList"),
+  modelField: document.getElementById("modelField"),
+  modelSelect: document.getElementById("modelSelect"),
   viewer: document.getElementById("viewer"),
-  treeFilter: document.getElementById("treeFilter"),
+  breadcrumb: document.getElementById("breadcrumb"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
@@ -42,15 +43,23 @@ const state = {
   searchResults: [],
   searchQuery: "",
   activeSearchResultIndex: -1,
+  sidebarPinned: false,
+  breadcrumbTrail: [], // Array of {label, path} objects
+  pendingUrlState: null,
 };
 
 const TREE_TABS = [
   { id: "bookmarks", label: "Bookmarks" },
   { id: "dtc", label: "DTC" },
   { id: "symptoms", label: "Symptoms" },
+  { id: "torque", label: "Tightening Torque" },
 ];
 
 const SEARCH_RESULT_LIMIT = 24;
+const SHARE_ICON_SVG = `
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a2.98 2.98 0 0 0 0-1.39l7.02-4.11A2.99 2.99 0 1 0 15 5a3 3 0 0 0 .04.49L8.02 9.6a3 3 0 1 0 0 4.8l7.02 4.11c-.03.16-.04.32-.04.49a3 3 0 1 0 3-2.92Z" fill="currentColor"/>
+  </svg>`;
 
 function modelStorageKey(datasetId) {
   return `manual-next-model:${datasetId}`;
@@ -65,6 +74,60 @@ const sidebarCollapsedStorageKey = "manual-next-content-expanded";
 const sidebarWidthStorageKey = "manual-next-sidebar-width";
 const sidebarHeightStorageKey = "manual-next-sidebar-height";
 const activeTreeTabStorageKey = "manual-next-active-tree-tab";
+const sidebarPinnedStorageKey = "manual-next-sidebar-pinned";
+
+function activeTreeTabScopedStorageKey(datasetId, submodelId, model) {
+  return `manual-next-active-tree-tab:${datasetId}:${submodelId}:${model || "default"}`;
+}
+
+function activeTreeTabScopedKey() {
+  if (!state.activeDataset?.id || !state.activeSubmodel?.id) {
+    return "";
+  }
+  return activeTreeTabScopedStorageKey(
+    state.activeDataset.id,
+    state.activeSubmodel.id,
+    state.activeModel || "",
+  );
+}
+
+function saveActiveTreeTab(tabId) {
+  if (!tabId) {
+    return;
+  }
+
+  localStorage.setItem(activeTreeTabStorageKey, tabId);
+  const scopedKey = activeTreeTabScopedKey();
+  if (scopedKey) {
+    localStorage.setItem(scopedKey, tabId);
+  }
+}
+
+function restoreActiveTreeTab(availableTabs, fallbackTab) {
+  const scopedKey = activeTreeTabScopedKey();
+  const scopedTab = scopedKey ? (localStorage.getItem(scopedKey) || "") : "";
+  const globalTab = localStorage.getItem(activeTreeTabStorageKey) || "";
+  const candidate = scopedTab || globalTab;
+  if (candidate && availableTabs.some((tab) => tab.id === candidate)) {
+    return candidate;
+  }
+  return fallbackTab;
+}
+
+function lastVisitedPathStorageKey(datasetId, submodelId, model) {
+  return `manual-next-last-path:${datasetId}:${submodelId}:${model || "default"}`;
+}
+
+function activeLastVisitedPathKey() {
+  if (!state.activeDataset?.id || !state.activeSubmodel?.id) {
+    return "";
+  }
+  return lastVisitedPathStorageKey(
+    state.activeDataset.id,
+    state.activeSubmodel.id,
+    state.activeModel || "",
+  );
+}
 
 function isPortraitSidebarLayout() {
   return window.matchMedia("(max-width: 980px) and (orientation: portrait)").matches;
@@ -106,15 +169,17 @@ function applySidebarHeight(height, persist = true) {
   }
 }
 
-function updateSidebarTogglePresentation(expanded) {
-  if (!els.sidebarToggle) {
+function syncTopbarOffset() {
+  const topbar = document.querySelector(".topbar");
+  if (!(topbar instanceof HTMLElement)) {
+    document.documentElement.style.setProperty("--topbar-offset", "0px");
     return;
   }
 
-  els.sidebarToggle.textContent = expanded ? "Collapse" : "Expand";
-  els.sidebarToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
-  els.sidebarToggle.setAttribute("aria-label", expanded ? "Collapse to show manual pages" : "Expand content to full view");
-  els.sidebarToggle.setAttribute("title", expanded ? "Collapse to show manual pages" : "Expand content to full view");
+  const styles = getComputedStyle(topbar);
+  const marginBottom = Number.parseFloat(styles.marginBottom || "0") || 0;
+  const offset = Math.ceil(topbar.getBoundingClientRect().height + marginBottom);
+  document.documentElement.style.setProperty("--topbar-offset", `${offset}px`);
 }
 
 function setupSidebarResizer() {
@@ -181,6 +246,7 @@ function setupSidebarResizer() {
   });
 
   window.addEventListener("resize", () => {
+    syncTopbarOffset();
     if (isPortraitSidebarLayout()) {
       const currentHeight = Number.parseInt(getComputedStyle(els.layout).getPropertyValue("--sidebar-height"), 10);
       if (Number.isFinite(currentHeight)) {
@@ -193,8 +259,7 @@ function setupSidebarResizer() {
       }
     }
 
-    const expanded = els.layout?.classList.contains("content-expanded") || false;
-    updateSidebarTogglePresentation(expanded);
+
   });
 }
 
@@ -202,7 +267,6 @@ function setContentExpanded(expanded) {
   if (els.layout) {
     els.layout.classList.toggle("content-expanded", expanded);
   }
-  updateSidebarTogglePresentation(expanded);
   localStorage.setItem(sidebarCollapsedStorageKey, expanded ? "1" : "0");
 }
 
@@ -231,23 +295,36 @@ function saveTreeState() {
   const payload = {
     selectedPath: state.selectedPath || "",
     expandedFolders: Array.from(state.expandedFolders),
-    treeScrollTop: els.tree.scrollTop || 0,
+    treeScrollTop: 0,  // No longer tracking scroll position with menu structure
   };
 
   localStorage.setItem(key, JSON.stringify(payload));
+
+  const lastPathKey = activeLastVisitedPathKey();
+  if (lastPathKey && payload.selectedPath) {
+    localStorage.setItem(lastPathKey, payload.selectedPath);
+  }
 }
 
 function restoreTreeState() {
   state.expandedFolders = new Set();
   state.pendingTreeScrollTop = null;
+  const lastPathKey = activeLastVisitedPathKey();
+  const fallbackSelectedPath = lastPathKey ? (localStorage.getItem(lastPathKey) || "") : "";
 
   const key = activeTreeStateKey();
   if (!key) {
+    if (fallbackSelectedPath) {
+      state.selectedPath = fallbackSelectedPath;
+    }
     return;
   }
 
   const raw = localStorage.getItem(key);
   if (!raw) {
+    if (fallbackSelectedPath) {
+      state.selectedPath = fallbackSelectedPath;
+    }
     return;
   }
 
@@ -264,6 +341,13 @@ function restoreTreeState() {
     }
   } catch {
     // Ignore malformed saved tree state and continue with defaults.
+    if (fallbackSelectedPath) {
+      state.selectedPath = fallbackSelectedPath;
+    }
+  }
+
+  if (!state.selectedPath && fallbackSelectedPath) {
+    state.selectedPath = fallbackSelectedPath;
   }
 }
 
@@ -283,6 +367,241 @@ function normalizedLabel(value) {
 
 function tabLabelForId(tabId) {
   return TREE_TABS.find((tab) => tab.id === tabId)?.label || "Bookmarks";
+}
+
+function isTorqueFile(path, meta) {
+  const title = String(meta?.title || "");
+  const fileName = String(path || "").split("/").pop() || "";
+  const haystack = `${title} ${fileName} ${path || ""}`.toLowerCase();
+  return /tightening[\s_-]*torque/.test(haystack);
+}
+
+function collectTorquePaths(indexData) {
+  const files = indexData?.files || {};
+  const paths = new Set();
+  for (const [path, meta] of Object.entries(files)) {
+    if (isTorqueFile(path, meta)) {
+      paths.add(path);
+    }
+  }
+  return paths;
+}
+
+function buildFileAncestorMap(nodes, trail = [], map = new Map()) {
+  for (const node of nodes || []) {
+    if (node.type === "file") {
+      if (node.path && !map.has(node.path)) {
+        map.set(node.path, trail.slice());
+      }
+      continue;
+    }
+    buildFileAncestorMap(node.children || [], [...trail, String(node.label || "")], map);
+  }
+  return map;
+}
+
+function normalizeSectionLabel(label) {
+  return String(label || "")
+    .replace(/^\s*\d+[A-Z]?\s*-\s*/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function torqueLabelParts(ancestors) {
+  const generic = new Set([
+    "specification",
+    "specifications",
+    "tightening torque",
+    "tightening torque specifications",
+  ]);
+
+  return (ancestors || [])
+    .map(normalizeSectionLabel)
+    .filter((label) => label && !generic.has(label.toLowerCase()));
+}
+
+function buildTorqueReferenceLabel(parts, depth, fallbackTitle) {
+  if (!parts.length) {
+    return normalizeSectionLabel(fallbackTitle) || "Tightening Torque";
+  }
+
+  const clampedDepth = Math.max(1, Math.min(depth, parts.length));
+  return parts.slice(0, clampedDepth).join(" - ");
+}
+
+function disambiguateTorqueLabels(entries) {
+  const depthByPath = new Map();
+  for (const entry of entries) {
+    const initialDepth = entry.parts.length ? Math.min(2, entry.parts.length) : 1;
+    depthByPath.set(entry.path, initialDepth);
+  }
+
+  for (let i = 0; i < 10; i += 1) {
+    const groups = new Map();
+
+    for (const entry of entries) {
+      const depth = depthByPath.get(entry.path) || 1;
+      const label = buildTorqueReferenceLabel(entry.parts, depth, entry.fallbackTitle);
+      if (!groups.has(label)) {
+        groups.set(label, []);
+      }
+      groups.get(label).push(entry);
+    }
+
+    const duplicateGroups = Array.from(groups.values()).filter((group) => group.length > 1);
+    if (!duplicateGroups.length) {
+      break;
+    }
+
+    let expanded = false;
+    for (const group of duplicateGroups) {
+      for (const entry of group) {
+        const currentDepth = depthByPath.get(entry.path) || 1;
+        if (currentDepth < entry.parts.length) {
+          depthByPath.set(entry.path, currentDepth + 1);
+          expanded = true;
+        }
+      }
+    }
+
+    if (!expanded) {
+      break;
+    }
+  }
+
+  const labelsByPath = new Map();
+  const groups = new Map();
+  for (const entry of entries) {
+    const depth = depthByPath.get(entry.path) || 1;
+    const label = buildTorqueReferenceLabel(entry.parts, depth, entry.fallbackTitle);
+    labelsByPath.set(entry.path, label);
+    if (!groups.has(label)) {
+      groups.set(label, []);
+    }
+    groups.get(label).push(entry);
+  }
+
+  for (const [label, group] of groups.entries()) {
+    if (group.length <= 1) {
+      continue;
+    }
+
+    for (const entry of group) {
+      const fileName = String(entry.path || "").split("/").pop() || "";
+      const slug = fileName.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ").trim();
+      const suffix = normalizeSectionLabel(slug) || fileName || entry.path;
+      labelsByPath.set(entry.path, `${label} (${suffix})`);
+    }
+  }
+
+  return labelsByPath;
+}
+
+function torqueEntryModels(parts, fallbackTitle, modelVariants) {
+  const variantSet = new Set((modelVariants || []).map((value) => String(value || "").toUpperCase()));
+  if (!variantSet.size) {
+    return new Set();
+  }
+
+  const matches = new Set();
+  const tokenPattern = /\b[A-Z][A-Z0-9]{2,}\b/g;
+  const tokenSources = [...(parts || []), String(fallbackTitle || "")];
+
+  for (const source of tokenSources) {
+    const tokens = String(source || "").toUpperCase().match(tokenPattern) || [];
+    for (const token of tokens) {
+      if (variantSet.has(token)) {
+        matches.add(token);
+      }
+    }
+  }
+
+  return matches;
+}
+
+function filterTreeByPaths(nodes, allowedPaths) {
+  const filtered = [];
+
+  for (const node of nodes || []) {
+    if (node.type === "file") {
+      if (allowedPaths.has(node.path)) {
+        filtered.push({ ...node });
+      }
+      continue;
+    }
+
+    const children = filterTreeByPaths(node.children || [], allowedPaths);
+    if (children.length) {
+      filtered.push({ ...node, children });
+    }
+  }
+
+  return filtered;
+}
+
+function buildTorqueTree(indexData, activeModel = "", modelVariants = []) {
+  const torquePaths = collectTorquePaths(indexData);
+  if (!torquePaths.size) {
+    return [];
+  }
+
+  const sourceTree = indexData?.trees?.bookmarks || indexData?.tree || [];
+  const ancestorMap = buildFileAncestorMap(sourceTree);
+  const files = indexData?.files || {};
+  const torqueEntries = [];
+
+  for (const path of torquePaths) {
+    const meta = files[path] || {};
+    const ancestors = ancestorMap.get(path) || [];
+    const parts = torqueLabelParts(ancestors);
+    torqueEntries.push({
+      path,
+      parts,
+      fallbackTitle: meta.title || path,
+      models: torqueEntryModels(parts, meta.title || path, modelVariants),
+    });
+  }
+
+  const filteredEntries = activeModel
+    ? torqueEntries.filter((entry) => !entry.models.size || entry.models.has(activeModel))
+    : torqueEntries;
+
+  const labelsByPath = disambiguateTorqueLabels(filteredEntries);
+
+  const groupMap = new Map();
+  for (const entry of filteredEntries) {
+    const path = entry.path;
+    const fullLabel = labelsByPath.get(path) || "Tightening Torque";
+    const groupLabel = entry.parts[0] || "Other";
+    const groupPrefix = `${groupLabel} - `;
+    const leafLabel = fullLabel.startsWith(groupPrefix)
+      ? fullLabel.slice(groupPrefix.length)
+      : fullLabel;
+
+    if (!groupMap.has(groupLabel)) {
+      groupMap.set(groupLabel, []);
+    }
+
+    groupMap.get(groupLabel).push({
+      type: "file",
+      path,
+      label: leafLabel,
+      title: leafLabel,
+    });
+  }
+
+  const groups = [];
+  for (const [groupLabel, children] of groupMap.entries()) {
+    children.sort((a, b) => a.label.localeCompare(b.label));
+    groups.push({
+      type: "folder",
+      label: groupLabel,
+      children,
+    });
+  }
+
+  groups.sort((a, b) => a.label.localeCompare(b.label));
+  return groups;
 }
 
 function searchPathTabMap(indexData) {
@@ -308,21 +627,32 @@ function searchPathTabMap(indexData) {
   return map;
 }
 
-function buildSearchIndex(indexData) {
+function buildSearchIndex(indexData, modelVariants = []) {
   const files = indexData?.files || {};
   const pathTab = searchPathTabMap(indexData);
+  const sourceTree = indexData?.trees?.bookmarks || indexData?.tree || [];
+  const ancestorMap = buildFileAncestorMap(sourceTree);
+  const variantSet = new Set((modelVariants || []).map((value) => String(value || "").toUpperCase()));
   const entries = [];
 
   for (const [path, meta] of Object.entries(files)) {
     const title = String(meta?.title || "").trim();
     const fileName = path.split("/").pop() || path;
     const nameNoExt = fileName.replace(/\.[^.]+$/, "");
-    const tabId = pathTab.get(path) || "bookmarks";
-    const searchable = `${title} ${nameNoExt} ${path}`.toLowerCase();
+    const isTorque = isTorqueFile(path, meta);
+    const tabId = isTorque ? "torque" : (pathTab.get(path) || "bookmarks");
+    const ancestors = ancestorMap.get(path) || [];
+    const models = new Set(
+      ancestors
+        .map((label) => String(label || "").toUpperCase())
+        .filter((label) => variantSet.has(label)),
+    );
+    const searchable = `${title} ${nameNoExt} ${path} ${isTorque ? "tightening torque torque specifications" : ""}`.toLowerCase();
     entries.push({
       path,
       title: title || nameNoExt || path,
       tabId,
+      models,
       searchable,
     });
   }
@@ -356,7 +686,15 @@ function computeSearchResults(query) {
   }
 
   return state.searchIndex
-    .filter((entry) => entry.searchable.includes(q))
+    .filter((entry) => {
+      if (!entry.searchable.includes(q)) {
+        return false;
+      }
+      if (!state.activeModel) {
+        return true;
+      }
+      return !entry.models?.size || entry.models.has(state.activeModel);
+    })
     .map((entry) => ({ ...entry, score: scoreSearchResult(entry, q) }))
     .sort((a, b) => {
       if (b.score !== a.score) {
@@ -388,7 +726,14 @@ function renderSearchResults() {
 
   if (!state.searchResults.length) {
     els.searchResults.hidden = false;
-    els.searchResults.innerHTML = '<div class="search-results-empty">No matching documents.</div>';
+    const escapedQuery = htmlEscape(state.searchQuery);
+    const modelHint = state.activeModel ? ` for ${htmlEscape(state.activeModel)}` : "";
+    els.searchResults.innerHTML = `
+      <div class="search-results-empty">
+        <strong>No matches for "${escapedQuery}".</strong>
+        <span>Try a broader term or switch the model variant${modelHint ? `${modelHint}` : ""}.</span>
+      </div>
+    `;
     return;
   }
 
@@ -494,7 +839,7 @@ function updateThemeToggle(theme) {
   const nextMode = theme === "dark" ? "light" : "dark";
   const icon = theme === "dark" ? "&#9788;" : "&#9790;";
   const label = `Switch to ${nextMode} theme`;
-  els.themeToggle.innerHTML = `<span class="theme-icon" aria-hidden="true">${icon}</span>`;
+  els.themeToggle.innerHTML = `<span class="theme-icon" aria-hidden="true">${icon}</span><span class="theme-label">${label}</span>`;
   els.themeToggle.setAttribute("aria-label", label);
   els.themeToggle.setAttribute("title", label);
 }
@@ -586,10 +931,36 @@ function setupTheme() {
   applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 }
 
-function renderViewerPlaceholder(message, isError = false) {
-  els.viewer.className = isError ? "viewer error" : "viewer empty";
-  els.viewer.innerHTML = `<p>${htmlEscape(message)}</p>`;
-  attachExpandButtonToViewer(isError ? "Error" : currentPageHeadingText());
+function renderViewerPlaceholder(message, config = {}) {
+  const options = typeof config === "boolean" ? { isError: config } : config;
+  const isError = !!options.isError;
+  const normalizedMessage = String(message || "").trim();
+  let title = String(options.title || "").trim();
+
+  if (!title) {
+    if (isError) {
+      title = "Unable to load content";
+    } else if (/loading/i.test(normalizedMessage)) {
+      title = "Loading manuals";
+    } else if (/pick an xml node/i.test(normalizedMessage)) {
+      title = "Choose a document";
+    } else if (/no datasets configured/i.test(normalizedMessage)) {
+      title = "No manual datasets found";
+    } else {
+      title = "Manual viewer";
+    }
+  }
+
+  const detail = String(options.detail || "").trim();
+
+  els.viewer.className = isError ? "viewer error viewer-placeholder" : "viewer empty viewer-placeholder";
+  els.viewer.innerHTML = `
+    <section class="viewer-placeholder-card">
+      <h3 class="viewer-placeholder-title">${htmlEscape(title)}</h3>
+      <p class="viewer-placeholder-message">${htmlEscape(normalizedMessage)}</p>
+      ${detail ? `<p class="viewer-placeholder-detail">${htmlEscape(detail)}</p>` : ""}
+    </section>
+  `;
 }
 
 function currentPageHeadingText() {
@@ -611,37 +982,242 @@ function currentPageHeadingText() {
   return fileName || "Manual Section";
 }
 
-function attachExpandButtonToViewer(defaultHeadingText = "Manual Section") {
-  if (!els.viewer || !els.sidebarToggle) {
+function isTorqueSelection() {
+  if (!state.selectedPath) {
+    return false;
+  }
+
+  const fileMeta = state.activeDatasetIndex?.files?.[state.selectedPath];
+  return state.activeTreeTab === "torque" && isTorqueFile(state.selectedPath, fileMeta);
+}
+
+function currentTorqueSectionHeadingText() {
+  if (!isTorqueSelection()) {
+    return "";
+  }
+
+  const trail = state.breadcrumbTrail || [];
+  const currentLabel = String(trail[trail.length - 1]?.label || "").trim();
+  return currentLabel ? `🔩 ${currentLabel}` : "🔩 Tightening Torque";
+}
+
+function currentViewerHeadingText() {
+  return currentTorqueSectionHeadingText() || currentPageHeadingText();
+}
+
+function currentViewerTrailText() {
+  if (!state.selectedPath || isManualLandingPath(state.selectedPath)) {
+    return "";
+  }
+
+  return (state.breadcrumbTrail || [])
+    .map((item) => String(item.label || "").trim())
+    .filter(Boolean)
+    .join(" › ");
+}
+
+function parseSharedViewFromUrl() {
+  const params = new URLSearchParams(window.location.search || "");
+  const datasetId = (params.get("dataset") || "").trim();
+  const submodelId = (params.get("submodel") || "").trim();
+  const model = (params.get("model") || "").trim();
+  const tabId = (params.get("tab") || "").trim();
+  const path = (params.get("path") || "").trim();
+
+  if (!datasetId && !submodelId && !model && !tabId && !path) {
+    return null;
+  }
+
+  return { datasetId, submodelId, model, tabId, path };
+}
+
+function currentViewerShareUrl() {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+
+  if (state.activeDataset?.id) {
+    url.searchParams.set("dataset", state.activeDataset.id);
+  }
+  if (state.activeSubmodel?.id) {
+    url.searchParams.set("submodel", state.activeSubmodel.id);
+  }
+  if (state.activeModel) {
+    url.searchParams.set("model", state.activeModel);
+  }
+  if (state.activeTreeTab) {
+    url.searchParams.set("tab", state.activeTreeTab);
+  }
+  if (state.selectedPath && !isManualLandingPath(state.selectedPath)) {
+    url.searchParams.set("path", state.selectedPath);
+  }
+
+  return url.toString();
+}
+
+function sidebarPreviewText(trail, label, renderTabId = "") {
+  const parts = String(trail || "")
+    .split("/")
+    .map((part) => String(part || "").trim())
+    .filter(Boolean);
+  const currentLabel = String(label || "").trim();
+  if (currentLabel) {
+    parts.push(currentLabel);
+  }
+
+  const preview = parts.join(" > ");
+  if (!preview) {
+    return "";
+  }
+
+  return renderTabId && renderTabId !== "bookmarks"
+    ? `${tabLabelForId(renderTabId)} > ${preview}`
+    : preview;
+}
+
+async function copyTextToClipboard(text) {
+  const value = String(text || "").trim();
+  if (!value) {
+    return false;
+  }
+
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(value);
+    return true;
+  }
+
+  const input = document.createElement("textarea");
+  input.value = value;
+  input.setAttribute("readonly", "readonly");
+  input.style.position = "absolute";
+  input.style.left = "-9999px";
+  document.body.appendChild(input);
+  input.select();
+  const succeeded = document.execCommand("copy");
+  document.body.removeChild(input);
+  return succeeded;
+}
+
+function setCopyButtonFeedback(button, copied) {
+  if (!button) {
     return;
   }
 
-  let heading = els.viewer.querySelector("h3");
-  if (!heading) {
-    heading = document.createElement("h3");
-    heading.className = "viewer-fallback-heading xml-title";
-    heading.textContent = defaultHeadingText;
-    els.viewer.prepend(heading);
-  }
-
-  if (!heading.querySelector(".viewer-heading-text")) {
-    const textWrap = document.createElement("span");
-    textWrap.className = "viewer-heading-text";
-
-    while (heading.firstChild && heading.firstChild !== els.sidebarToggle) {
-      textWrap.appendChild(heading.firstChild);
-    }
-
-    if (!textWrap.textContent?.trim()) {
-      textWrap.textContent = defaultHeadingText;
-    }
-
-    heading.prepend(textWrap);
-  }
-
-  heading.classList.add("viewer-heading-row");
-  heading.appendChild(els.sidebarToggle);
+  const originalLabel = button.dataset.label || button.textContent || "Share";
+  button.dataset.label = originalLabel;
+  button.textContent = copied ? "Copied" : "Failed";
+  button.disabled = true;
+  window.setTimeout(() => {
+    button.innerHTML = SHARE_ICON_SVG;
+    button.disabled = false;
+  }, copied ? 1200 : 1600);
 }
+
+function currentViewerShareText() {
+  const title = currentViewerHeadingText();
+  const trail = currentViewerTrailText();
+  const sourcePath = String(state.selectedPath || "").trim();
+  return [title, trail, sourcePath].filter(Boolean).join("\n");
+}
+
+async function shareCurrentViewerPage() {
+  const title = currentViewerHeadingText();
+  const text = currentViewerShareText();
+  const url = currentViewerShareUrl();
+
+  if (navigator.share) {
+    await navigator.share({ title, text, url });
+    return true;
+  }
+
+  return copyTextToClipboard(text || url);
+}
+
+function createViewerStickyHeader() {
+  const title = currentViewerHeadingText();
+  if (!title) {
+    return null;
+  }
+
+  const wrap = document.createElement("details");
+  wrap.className = "viewer-sticky-header";
+
+  const summary = document.createElement("summary");
+  summary.className = "viewer-sticky-summary";
+  const heading = document.createElement("h2");
+  heading.className = "viewer-sticky-title";
+  heading.textContent = title;
+  summary.appendChild(heading);
+
+  const copyButton = document.createElement("button");
+  copyButton.type = "button";
+  copyButton.className = "viewer-context-copy";
+  copyButton.innerHTML = SHARE_ICON_SVG;
+  copyButton.dataset.label = "Share";
+  copyButton.setAttribute("aria-label", "Share current page");
+  copyButton.setAttribute("title", "Share current page");
+  copyButton.addEventListener("click", async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    try {
+      const shared = await shareCurrentViewerPage();
+      setCopyButtonFeedback(copyButton, shared);
+    } catch {
+      setCopyButtonFeedback(copyButton, false);
+    }
+  });
+  summary.appendChild(copyButton);
+  wrap.appendChild(summary);
+
+  const trailText = currentViewerTrailText();
+  if (trailText) {
+    const meta = document.createElement("div");
+    meta.className = "viewer-sticky-meta";
+    meta.textContent = trailText;
+    wrap.appendChild(meta);
+  }
+  return wrap;
+}
+
+function hideDuplicatePrimaryTitle(renderedContent) {
+  if (!renderedContent) {
+    return;
+  }
+
+  const title = currentViewerHeadingText();
+  const primaryTitle = renderedContent.querySelector(":scope > .xml-title");
+  if (!primaryTitle || normalizedLabel(primaryTitle.textContent) !== normalizedLabel(title)) {
+    return;
+  }
+
+  primaryTitle.classList.add("viewer-inline-title-hidden");
+}
+
+function applyViewerContext(renderedContent = null) {
+  const classes = ["viewer"];
+  if (isTorqueSelection()) {
+    classes.push("viewer-torque");
+  }
+  els.viewer.className = classes.join(" ");
+
+  if (!renderedContent) {
+    return;
+  }
+
+  const headingText = currentViewerHeadingText();
+  if (!headingText) {
+    return;
+  }
+
+  const heading = renderedContent.querySelector(".xml-title");
+  if (heading) {
+    heading.textContent = headingText;
+  }
+
+  hideDuplicatePrimaryTitle(renderedContent);
+}
+
+
 
 function manualLandingPath(datasetId, submodelId) {
   if (!datasetId || !submodelId) {
@@ -857,10 +1433,10 @@ function navigateToPath(path, options = {}) {
     return false;
   }
 
-  if (options.clearTreeFilter) {
-    state.treeFilter = "";
-    els.treeFilter.value = "";
-  }
+  // Tree filter removed in favor of global search
+  // if (options.clearTreeFilter) {
+  //   state.treeFilter = "";
+  // }
 
   state.selectedPath = path;
   loadSelectedFile();
@@ -1071,6 +1647,62 @@ function addDiagramPopupButtons(root) {
     img.style.cursor = "zoom-in";
     img.addEventListener("click", () => openDiagramLightbox(img.currentSrc || img.src, img.alt));
   }
+}
+
+function updateScrollableTableHints() {
+  const wrappers = Array.from(document.querySelectorAll(".xml-table-wrap"));
+  for (const wrap of wrappers) {
+    if (!(wrap instanceof HTMLElement)) {
+      continue;
+    }
+
+    const maxScroll = wrap.scrollWidth - wrap.clientWidth;
+    const canScroll = maxScroll > 6;
+    const atStart = wrap.scrollLeft <= 2;
+    const atEnd = wrap.scrollLeft >= maxScroll - 2;
+
+    wrap.classList.toggle("table-scrollable", canScroll);
+    wrap.classList.toggle("table-at-start", canScroll && atStart);
+    wrap.classList.toggle("table-at-end", canScroll && atEnd);
+  }
+}
+
+function wireScrollableTableHints(root = document) {
+  const wrappers = Array.from(root.querySelectorAll?.(".xml-table-wrap") || []);
+  for (const wrap of wrappers) {
+    if (!(wrap instanceof HTMLElement) || wrap.dataset.scrollHintBound === "1") {
+      continue;
+    }
+
+    wrap.dataset.scrollHintBound = "1";
+    wrap.addEventListener("scroll", () => updateScrollableTableHints(), { passive: true });
+  }
+
+  updateScrollableTableHints();
+}
+
+function ensureMobileQuickActions() {
+  let wrap = document.querySelector(".mobile-quick-actions");
+  if (!(wrap instanceof HTMLElement)) {
+    wrap = document.createElement("div");
+    wrap.className = "mobile-quick-actions";
+
+    const topButton = document.createElement("button");
+    topButton.type = "button";
+    topButton.className = "mobile-quick-action";
+    topButton.setAttribute("aria-label", "Scroll to top");
+    topButton.setAttribute("title", "Top");
+    topButton.textContent = "↑";
+    topButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    wrap.append(topButton);
+    document.body.appendChild(wrap);
+  }
+
+  const isMobile = window.matchMedia("(max-width: 980px)").matches;
+  wrap.hidden = !isMobile;
 }
 
 function scrollToXmlAnchor(refId) {
@@ -1286,8 +1918,40 @@ function firstFilePath(nodes) {
   return "";
 }
 
+function buildBreadcrumbTrailForNode(nodes, path, trail = []) {
+  for (const node of nodes || []) {
+    if (node.type === "file" && node.path === path) {
+      // Found the file - return the complete trail with this file
+      return [...trail, { label: node.label || node.title || node.path, path: node.path }];
+    }
+    if (node.type === "folder") {
+      const nodeTrail = [...trail, { label: node.label, path: null }];
+      const result = buildBreadcrumbTrailForNode(node.children || [], path, nodeTrail);
+      if (result) {
+        return result;
+      }
+    }
+  }
+  return null;
+}
+
+function updateBreadcrumbTrail() {
+  if (!state.selectedPath || isManualLandingPath(state.selectedPath)) {
+    state.breadcrumbTrail = [];
+    return;
+  }
+  
+  const nodes = visibleTree();
+  const trail = buildBreadcrumbTrailForNode(nodes, state.selectedPath) || [];
+  state.breadcrumbTrail = trail;
+}
+
+
 function treeNodesByTab(tabId) {
   const trees = state.activeDatasetIndex?.trees;
+  if (tabId === "torque") {
+    return buildTorqueTree(state.activeDatasetIndex, state.activeModel, state.modelVariants);
+  }
   if (trees && Array.isArray(trees[tabId])) {
     return tabId === "bookmarks" ? treeWithManualLanding(trees[tabId]) : trees[tabId];
   }
@@ -1312,21 +1976,319 @@ function datasetAvailableTreeTabs() {
 }
 
 function renderTreeTabs() {
-  const tabs = state.availableTreeTabs;
-  els.treeTabs.innerHTML = "";
+  // Deprecated: kept for compatibility but now calls renderMenuStructure
+  renderMenuStructure();
+}
 
-  for (const tab of tabs) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "tree-tab";
-    button.dataset.treeTab = tab.id;
-    button.setAttribute("role", "tab");
-    button.setAttribute("aria-selected", String(tab.id === state.activeTreeTab));
-    button.textContent = tab.label;
-    els.treeTabs.appendChild(button);
+function renderVehicleDropdown() {
+  if (!els.vehicleList) return;
+  
+  els.vehicleList.innerHTML = "";
+  
+  for (const dataset of state.datasets) {
+    const submodels = dataset.submodels || [];
+    for (const submodel of submodels) {
+      const button = document.createElement("button");
+      button.className = "vehicle-option";
+      if (state.activeSubmodel?.id === submodel.id && state.activeDataset?.id === dataset.id) {
+        button.classList.add("active");
+      }
+      
+      const nameEl = document.createElement("span");
+      nameEl.className = "vehicle-option-name";
+      nameEl.textContent = dataset.name;
+      
+      const codeEl = document.createElement("span");
+      codeEl.className = "vehicle-option-code";
+      codeEl.textContent = submodel.name;
+      
+      button.appendChild(nameEl);
+      button.appendChild(codeEl);
+      
+      button.addEventListener("click", async () => {
+        localStorage.setItem(datasetStorageKey, dataset.id);
+        localStorage.setItem(submodelStorageKey(dataset.id), submodel.id);
+        state.activeDataset = dataset;
+        state.selectedPath = null;
+        state.expandedFolders = new Set();
+        state.refToPath = new Map();
+        state.refToTitle = new Map();
+        state.modelVariants = [];
+        state.activeModel = "";
+        state.availableTreeTabs = [];
+        
+        await loadDatasetIndex(submodel);
+        updateVehicleToggleDisplay();
+        renderMenuStructure();
+        renderVehicleDropdown();
+        closeSidebar();
+      });
+      els.vehicleList.appendChild(button);
+    }
+  }
+}
+
+function updateVehicleToggleDisplay() {
+  if (!els.vehicleCode) return;
+  
+  if (state.activeSubmodel?.name) {
+    els.vehicleCode.textContent = state.activeSubmodel.name;
+  } else {
+    els.vehicleCode.textContent = "";
   }
 
-  els.treeTabs.hidden = tabs.length < 2;
+  syncTopbarOffset();
+}
+
+function updateBreadcrumb() {
+  if (!els.breadcrumb) return;
+  
+  els.breadcrumb.innerHTML = "";
+  
+  if (!state.breadcrumbTrail || state.breadcrumbTrail.length === 0) {
+    return;
+  }
+  
+  // Add breadcrumb items from the trail
+  for (let i = 0; i < state.breadcrumbTrail.length; i++) {
+    const item = state.breadcrumbTrail[i];
+    const li = document.createElement("li");
+    
+    const isLast = i === state.breadcrumbTrail.length - 1;
+    
+    if (isLast) {
+      // Last item (current file) - show as text
+      const span = document.createElement("span");
+      span.className = "breadcrumb-item current";
+      span.textContent = item.label;
+      li.appendChild(span);
+    } else {
+      const span = document.createElement("span");
+      span.className = "breadcrumb-item";
+      span.textContent = item.label;
+      li.appendChild(span);
+    }
+    
+    els.breadcrumb.appendChild(li);
+  }
+}
+
+function renderTreeMenuSection(tabId) {
+  const sections = document.querySelectorAll(".tree-tab-section");
+  const section = Array.from(sections).find(s => s.dataset.tab === tabId);
+  
+  if (!section) return;
+  
+  const content = section.querySelector(".menu-section-content");
+  if (!content) return;
+  
+  // Temporarily switch to this tab to get the tree nodes
+  const savedTab = state.activeTreeTab;
+  state.activeTreeTab = tabId;
+  const nodes = visibleTree();
+  state.activeTreeTab = savedTab;
+  
+  content.innerHTML = "";
+  content.appendChild(buildTreeNodes(nodes, "", tabId));
+}
+
+function sidebarFocusableItems() {
+  if (!els.sidebarMenu) {
+    return [];
+  }
+
+  return Array.from(
+    els.sidebarMenu.querySelectorAll(
+      '.tree-tab-section:not([hidden]) > summary.menu-section-header, .tree-tab-section:not([hidden]) .menu-section-content summary, .tree-tab-section:not([hidden]) .menu-section-content button.tree-leaf'
+    ),
+  ).filter((el) => el instanceof HTMLElement && el.offsetParent !== null);
+}
+
+function focusSidebarRelative(current, delta) {
+  const items = sidebarFocusableItems();
+  if (!items.length) {
+    return;
+  }
+
+  const index = Math.max(0, items.indexOf(current));
+  const nextIndex = Math.min(items.length - 1, Math.max(0, index + delta));
+  items[nextIndex]?.focus();
+}
+
+function firstSidebarChildItem(details) {
+  if (!(details instanceof HTMLElement)) {
+    return null;
+  }
+
+  return details.querySelector('.menu-section-content summary, .menu-section-content button.tree-leaf, :scope > details > summary');
+}
+
+function parentSidebarSummary(element) {
+  const parentDetails = element?.closest('details')?.parentElement?.closest?.('details');
+  return parentDetails?.querySelector?.(':scope > summary') || null;
+}
+
+function handleSidebarKeyboardNavigation(evt) {
+  const target = evt.target instanceof Element
+    ? evt.target.closest('summary, button.tree-leaf')
+    : null;
+  if (!(target instanceof HTMLElement) || !els.sidebarMenu?.contains(target)) {
+    return;
+  }
+
+  if (evt.key === 'ArrowDown') {
+    evt.preventDefault();
+    focusSidebarRelative(target, 1);
+    return;
+  }
+
+  if (evt.key === 'ArrowUp') {
+    evt.preventDefault();
+    focusSidebarRelative(target, -1);
+    return;
+  }
+
+  if (evt.key === 'Home') {
+    evt.preventDefault();
+    sidebarFocusableItems()[0]?.focus();
+    return;
+  }
+
+  if (evt.key === 'End') {
+    evt.preventDefault();
+    const items = sidebarFocusableItems();
+    items[items.length - 1]?.focus();
+    return;
+  }
+
+  if (evt.key === 'ArrowRight' && target.tagName === 'SUMMARY') {
+    const details = target.parentElement;
+    if (details instanceof HTMLDetailsElement && !details.open) {
+      evt.preventDefault();
+      details.open = true;
+      return;
+    }
+    const child = firstSidebarChildItem(details);
+    if (child instanceof HTMLElement) {
+      evt.preventDefault();
+      child.focus();
+    }
+    return;
+  }
+
+  if (evt.key === 'ArrowLeft') {
+    if (target.tagName === 'SUMMARY') {
+      const details = target.parentElement;
+      if (details instanceof HTMLDetailsElement && details.open) {
+        evt.preventDefault();
+        details.open = false;
+        return;
+      }
+    }
+
+    const parentSummary = parentSidebarSummary(target);
+    if (parentSummary instanceof HTMLElement) {
+      evt.preventDefault();
+      parentSummary.focus();
+    }
+  }
+}
+
+function renderMenuStructure() {
+  const availableTabIds = new Set((state.availableTreeTabs || []).map((tab) => tab.id));
+  document.querySelectorAll(".tree-tab-section").forEach((section) => {
+    const tabId = section.dataset.tab;
+    const isAvailable = availableTabIds.has(tabId);
+    section.hidden = !isAvailable;
+    section.open = isAvailable && tabId === state.activeTreeTab;
+  });
+
+  // Render tree content for each available tab
+  for (const tab of state.availableTreeTabs) {
+    renderTreeMenuSection(tab.id);
+  }
+}
+
+function openSidebar() {
+  if (!els.sidebar) return;
+  els.sidebar.hidden = false;
+  els.sidebar.setAttribute("aria-hidden", "false");
+  if (els.sidebarOverlay) {
+    els.sidebarOverlay.hidden = false;
+  }
+  if (els.menuToggle) {
+    els.menuToggle.setAttribute("aria-expanded", "true");
+  }
+}
+
+function closeSidebar() {
+  // Don't close sidebar if it's pinned
+  if (state.sidebarPinned) {
+    return;
+  }
+  if (!els.sidebar) return;
+  els.sidebar.hidden = true;
+  els.sidebar.setAttribute("aria-hidden", "true");
+  if (els.sidebarOverlay) {
+    els.sidebarOverlay.hidden = true;
+  }
+  if (els.menuToggle) {
+    els.menuToggle.setAttribute("aria-expanded", "false");
+  }
+}
+
+function closeSidebarForNavigation() {
+  if (!els.sidebar) return;
+  els.sidebar.hidden = true;
+  els.sidebar.setAttribute("aria-hidden", "true");
+  if (els.sidebarOverlay) {
+    els.sidebarOverlay.hidden = true;
+  }
+  if (els.menuToggle) {
+    els.menuToggle.setAttribute("aria-expanded", "false");
+  }
+}
+
+function togglePin() {
+  if (!els.sidebarPin) return;
+  
+  state.sidebarPinned = !state.sidebarPinned;
+  localStorage.setItem(sidebarPinnedStorageKey, state.sidebarPinned ? "1" : "");
+  
+  if (state.sidebarPinned) {
+    els.sidebarPin.setAttribute("aria-pressed", "true");
+    els.sidebar?.classList.add("pinned");
+    els.layout?.classList.add("sidebar-pinned");
+    // Show sidebar when pinned
+    openSidebar();
+  } else {
+    els.sidebarPin.setAttribute("aria-pressed", "false");
+    els.sidebar?.classList.remove("pinned");
+    els.layout?.classList.remove("sidebar-pinned");
+  }
+}
+
+function toggleSidebar() {
+  if (els.sidebar?.hidden) {
+    openSidebar();
+  } else {
+    closeSidebar();
+  }
+}
+
+function toggleVehicleDropdown() {
+  if (!els.vehicleDropdown) return;
+  if (els.vehicleDropdown.hidden) {
+    els.vehicleDropdown.hidden = false;
+    if (els.vehicleToggle) {
+      els.vehicleToggle.setAttribute("aria-expanded", "true");
+    }
+  } else {
+    els.vehicleDropdown.hidden = true;
+    if (els.vehicleToggle) {
+      els.vehicleToggle.setAttribute("aria-expanded", "false");
+    }
+  }
 }
 
 function switchTreeTab(tabId) {
@@ -1339,7 +2301,7 @@ function switchTreeTab(tabId) {
 
   saveTreeState();
   state.activeTreeTab = tabId;
-  localStorage.setItem(activeTreeTabStorageKey, tabId);
+  saveActiveTreeTab(tabId);
   restoreTreeState();
 
   const nextPath = state.selectedPath && state.activeDatasetIndex?.files?.[state.selectedPath]
@@ -1347,8 +2309,7 @@ function switchTreeTab(tabId) {
     : firstFilePathForTab(tabId);
   state.selectedPath = nextPath || null;
 
-  renderTreeTabs();
-  renderTree();
+  renderMenuStructure();
   loadSelectedFile();
   saveTreeState();
 }
@@ -1532,12 +2493,16 @@ function syncVisibleSelection() {
 }
 
 function renderModelSelect() {
-  const variants = state.modelVariants;
+  // Model select no longer exists in the UI - this function is kept for compatibility
+  if (!els.modelSelect || !els.modelField) {
+    return;
+  }
+
+  const variants = state.modelVariants || [];
   els.modelSelect.innerHTML = "";
 
   if (variants.length < 2) {
     els.modelField.hidden = true;
-    state.activeModel = "";
     return;
   }
 
@@ -1548,33 +2513,15 @@ function renderModelSelect() {
     els.modelSelect.appendChild(option);
   }
 
-  els.modelSelect.value = state.activeModel;
+  els.modelSelect.value = variants.includes(state.activeModel) ? state.activeModel : variants[0];
   els.modelField.hidden = false;
 }
 
 function renderSubmodelSelect() {
-  const submodels = state.activeDataset?.submodels || [];
-  els.submodelSelect.innerHTML = "";
-
-  if (!submodels.length) {
-    els.submodelField.hidden = true;
-    els.submodelSelect.disabled = true;
-    return;
-  }
-
-  for (const submodel of submodels) {
-    const option = document.createElement("option");
-    option.value = submodel.id;
-    option.textContent = submodel.name;
-    els.submodelSelect.appendChild(option);
-  }
-
-  els.submodelSelect.value = state.activeSubmodel?.id || submodels[0].id;
-  els.submodelField.hidden = false;
-  els.submodelSelect.disabled = submodels.length < 2;
+  // Submodel select no longer exists in the UI - this function is kept for compatibility
 }
 
-function buildTreeNodes(nodes, trail = "") {
+function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
   const frag = document.createDocumentFragment();
 
   for (const node of nodes || []) {
@@ -1586,6 +2533,17 @@ function buildTreeNodes(nodes, trail = "") {
       details.dataset.folderKey = folderKey;
       details.addEventListener("toggle", () => {
         if (details.open) {
+          // Close all sibling details elements at the same level (accordion behavior)
+          const parent = details.parentElement;
+          if (parent) {
+            const siblingDetails = parent.querySelectorAll(':scope > details[open]');
+            siblingDetails.forEach(sibling => {
+              if (sibling !== details && sibling.open) {
+                sibling.open = false;
+              }
+            });
+          }
+          
           state.expandedFolders.add(folderKey);
         } else {
           state.expandedFolders.delete(folderKey);
@@ -1594,12 +2552,16 @@ function buildTreeNodes(nodes, trail = "") {
       });
       const summary = document.createElement("summary");
       summary.textContent = node.label;
+      summary.title = sidebarPreviewText(trail, node.label, renderTabId);
+      summary.addEventListener("keydown", handleSidebarKeyboardNavigation);
       details.appendChild(summary);
-      details.appendChild(buildTreeNodes(childNodes, folderKey));
+      details.appendChild(buildTreeNodes(childNodes, folderKey, renderTabId));
       if (!childNodes.length) {
         const emptyHint = document.createElement("div");
         emptyHint.className = "tree-empty-hint";
-        emptyHint.textContent = "No documents in this submodel.";
+        emptyHint.textContent = state.activeModel
+          ? `No documents available for ${state.activeModel} in this section.`
+          : "No documents available in this section.";
         details.appendChild(emptyHint);
       }
       frag.appendChild(details);
@@ -1623,7 +2585,8 @@ function buildTreeNodes(nodes, trail = "") {
     text.textContent = buttonText;
     button.append(icon, text);
     button.dataset.path = node.path;
-    if (node.path === state.selectedPath) {
+    button.title = sidebarPreviewText(trail, buttonText, renderTabId);
+    if (renderTabId === state.activeTreeTab && node.path === state.selectedPath) {
       button.classList.add("active");
     }
     button.addEventListener("click", () => {
@@ -1631,7 +2594,9 @@ function buildTreeNodes(nodes, trail = "") {
       loadSelectedFile();
       renderTree();
       saveTreeState();
+      closeSidebarForNavigation();
     });
+    button.addEventListener("keydown", handleSidebarKeyboardNavigation);
     frag.appendChild(button);
   }
 
@@ -1641,31 +2606,31 @@ function buildTreeNodes(nodes, trail = "") {
 function renderTree() {
   const nodes = syncVisibleSelection();
   state.activeTreeNodes = nodes;
-  const previousScrollTop = els.tree.scrollTop;
-  els.tree.innerHTML = "";
-  els.tree.appendChild(buildTreeNodes(nodes));
-
-  const scrollTop = state.pendingTreeScrollTop;
-  state.pendingTreeScrollTop = null;
-  const targetScrollTop = Number.isFinite(scrollTop) ? scrollTop : previousScrollTop;
-  requestAnimationFrame(() => {
-    els.tree.scrollTop = targetScrollTop;
-  });
+  
+  // Re-render all menu sections to update active state
+  renderMenuStructure();
 }
 
 async function loadSelectedFile() {
   const fileLoadToken = ++state.fileLoadToken;
 
   if (!state.selectedPath) {
-    renderViewerPlaceholder("Pick an XML node to render.");
+    renderViewerPlaceholder("Choose a page from the sidebar to start reading.", {
+      title: "Choose a document",
+      detail: "Bookmarks, DTC, Symptoms, and Tightening Torque keep their own navigation context.",
+    });
+    updateBreadcrumbTrail();
+    updateBreadcrumb();
     return;
   }
 
+  updateBreadcrumbTrail();
+  updateBreadcrumb();
+
   if (isManualLandingPath(state.selectedPath)) {
-    els.viewer.className = "viewer";
+    applyViewerContext();
     els.viewer.innerHTML = "";
     els.viewer.appendChild(renderManualLanding());
-    attachExpandButtonToViewer(currentPageHeadingText());
     return;
   }
 
@@ -1682,11 +2647,17 @@ async function loadSelectedFile() {
 
     const lowerPath = String(state.selectedPath || "").toLowerCase();
 
-    els.viewer.className = "viewer";
     els.viewer.innerHTML = "";
 
     if (lowerPath.endsWith(".htm") || lowerPath.endsWith(".html")) {
-      els.viewer.appendChild(renderHtmlDocument(contentText, state.selectedPath));
+      applyViewerContext();
+      const stickyHeader = createViewerStickyHeader();
+      const rendered = renderHtmlDocument(contentText, state.selectedPath);
+      if (stickyHeader) {
+        els.viewer.appendChild(stickyHeader);
+      }
+      els.viewer.appendChild(rendered);
+      wireScrollableTableHints(els.viewer);
     } else {
       const doc = parseXml(contentText);
       const selectedDir = state.selectedPath.slice(0, state.selectedPath.lastIndexOf("/") + 1);
@@ -1705,11 +2676,16 @@ async function loadSelectedFile() {
           renderTree();
         },
       });
+      applyViewerContext(rendered);
+      const stickyHeader = createViewerStickyHeader();
+      if (stickyHeader) {
+        els.viewer.appendChild(stickyHeader);
+      }
       els.viewer.appendChild(rendered);
       addDiagramPopupButtons(els.viewer);
+      wireScrollableTableHints(els.viewer);
     }
 
-    attachExpandButtonToViewer(currentPageHeadingText());
   } catch (err) {
     if (fileLoadToken !== state.fileLoadToken) {
       return;
@@ -1724,6 +2700,10 @@ async function loadDatasetIndex(submodel) {
   }
 
   state.activeSubmodel = submodel;
+  if (state.activeDataset?.id && submodel.id) {
+    localStorage.setItem(datasetStorageKey, state.activeDataset.id);
+    localStorage.setItem(submodelStorageKey(state.activeDataset.id), submodel.id);
+  }
   state.activeDatasetIndex = null;
   state.selectedPath = null;
   state.expandedFolders = new Set();
@@ -1733,7 +2713,10 @@ async function loadDatasetIndex(submodel) {
   state.activeModel = "";
   state.availableTreeTabs = [];
   clearSearchUi();
-  renderViewerPlaceholder("Loading dataset index...");
+  renderViewerPlaceholder("Loading dataset index...", {
+    title: "Loading manuals",
+    detail: "Preparing navigation and search for the selected vehicle.",
+  });
   const datasetLoadToken = ++state.datasetLoadToken;
 
   try {
@@ -1760,21 +2743,29 @@ async function loadDatasetIndex(submodel) {
     }
 
     state.modelVariants = datasetModelVariants();
-    state.availableTreeTabs = datasetAvailableTreeTabs();
-    state.searchIndex = buildSearchIndex(state.activeDatasetIndex);
-    
-    // Restore the previously active tab, or default to the first available tab
-    const savedTreeTab = localStorage.getItem(activeTreeTabStorageKey);
-    const defaultTab = state.availableTreeTabs[0]?.id || "bookmarks";
-    state.activeTreeTab = (savedTreeTab && state.availableTreeTabs.some((tab) => tab.id === savedTreeTab)) 
-      ? savedTreeTab 
-      : defaultTab;
-    
+    const pendingUrlState = state.pendingUrlState;
     const savedModel = localStorage.getItem(modelStorageKey(`${state.activeDataset.id}:${submodel.id}`)) || "";
-    state.activeModel = state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || "");
+    const pendingModel = pendingUrlState?.model || "";
+    state.activeModel = state.modelVariants.includes(pendingModel)
+      ? pendingModel
+      : (state.modelVariants.includes(savedModel) ? savedModel : (state.modelVariants[0] || ""));
+    state.availableTreeTabs = datasetAvailableTreeTabs();
+    state.searchIndex = buildSearchIndex(state.activeDatasetIndex, state.modelVariants);
+
+    // Restore the previously active tab, preferring the model-scoped tab when available.
+    const defaultTab = state.availableTreeTabs[0]?.id || "bookmarks";
+    const pendingTab = pendingUrlState?.tabId || "";
+    state.activeTreeTab = state.availableTreeTabs.some((tab) => tab.id === pendingTab)
+      ? pendingTab
+      : restoreActiveTreeTab(state.availableTreeTabs, defaultTab);
+    saveActiveTreeTab(state.activeTreeTab);
+
     renderModelSelect();
     renderTreeTabs();
     restoreTreeState();
+    if (pendingUrlState?.path && state.activeDatasetIndex?.files?.[pendingUrlState.path]) {
+      state.selectedPath = pendingUrlState.path;
+    }
     state.selectedPath = state.selectedPath || firstFilePathForTab(state.activeTreeTab) || state.activeDatasetIndex?.firstFilePath || null;
     renderTree();
     await loadSelectedFile();
@@ -1799,58 +2790,102 @@ async function loadDataset(datasetId) {
   state.activeDataset = dataset;
   localStorage.setItem(datasetStorageKey, dataset.id);
   const submodels = dataset.submodels || [];
+  const pendingUrlState = state.pendingUrlState;
   const savedSubmodelId = localStorage.getItem(submodelStorageKey(dataset.id)) || "";
-  const selectedSubmodel = submodels.find((item) => item.id === savedSubmodelId) || submodels[0] || null;
+  const selectedSubmodel = submodels.find((item) => item.id === pendingUrlState?.submodelId)
+    || submodels.find((item) => item.id === savedSubmodelId)
+    || submodels[0]
+    || null;
   state.activeSubmodel = selectedSubmodel;
-  renderSubmodelSelect();
   await loadDatasetIndex(selectedSubmodel);
 }
 
 async function bootstrap() {
   setupTheme();
-  initializeColumnResizing();
+  state.pendingUrlState = parseSharedViewFromUrl();
+  ensureMobileQuickActions();
+  window.addEventListener("resize", ensureMobileQuickActions);
 
-  const contentExpanded = localStorage.getItem(sidebarCollapsedStorageKey) === "1";
-  const savedSidebarWidth = Number.parseInt(localStorage.getItem(sidebarWidthStorageKey) || "", 10);
-  const savedSidebarHeight = Number.parseInt(localStorage.getItem(sidebarHeightStorageKey) || "", 10);
-  if (Number.isFinite(savedSidebarWidth)) {
-    applySidebarWidth(savedSidebarWidth, false);
+  // Restore pinned state from localStorage
+  const isPinned = localStorage.getItem(sidebarPinnedStorageKey) === "1";
+  state.sidebarPinned = isPinned;
+  if (els.sidebarPin) {
+    els.sidebarPin.setAttribute("aria-pressed", isPinned ? "true" : "false");
   }
-  if (Number.isFinite(savedSidebarHeight)) {
-    applySidebarHeight(savedSidebarHeight, false);
+  if (isPinned) {
+    els.sidebar?.classList.add("pinned");
+    els.layout?.classList.add("sidebar-pinned");
   }
-  setContentExpanded(contentExpanded);
-  setupSidebarResizer();
 
   els.themeToggle.addEventListener("click", () => {
     const current = document.body.getAttribute("data-theme");
     applyTheme(current === "dark" ? "light" : "dark");
   });
 
-  els.sidebarToggle?.addEventListener("click", () => {
-    const nextExpanded = !els.layout?.classList.contains("content-expanded");
-    setContentExpanded(nextExpanded);
+  // Hamburger menu toggle
+  els.menuToggle?.addEventListener("click", () => {
+    toggleSidebar();
   });
 
-  els.tree.addEventListener("scroll", () => {
-    saveTreeState();
+  // Sidebar overlay close
+  els.sidebarOverlay?.addEventListener("click", () => {
+    closeSidebar();
+  });
+
+  // Vehicle selector toggle
+  els.vehicleToggle?.addEventListener("click", () => {
+    toggleVehicleDropdown();
+  });
+
+  // Sidebar pin button
+  els.sidebarPin?.addEventListener("click", () => {
+    togglePin();
+  });
+
+  // Close vehicle dropdown when clicking outside
+  document.addEventListener("click", (evt) => {
+    if (!evt.target.closest(".vehicle-selector-wrapper")) {
+      if (!els.vehicleDropdown?.hidden) {
+        els.vehicleDropdown.hidden = true;
+        els.vehicleToggle?.setAttribute("aria-expanded", "false");
+      }
+    }
+  });
+
+  // Handle tree tab section clicks for menu-based structure
+  document.querySelectorAll(".tree-tab-section").forEach((section) => {
+    const tabId = section.dataset.tab;
+    if (!tabId) return;
+    section.querySelector(':scope > summary')?.addEventListener("keydown", handleSidebarKeyboardNavigation);
+    
+    section.addEventListener("click", (evt) => {
+      // Switch tab when clicking on tree items in this section
+      if (evt.target.closest("button.tree-leaf")) {
+        if (state.activeTreeTab !== tabId) {
+          switchTreeTab(tabId);
+        }
+      }
+    });
+    
+    // Auto-switch tab when section is opened, and close other sections (accordion behavior)
+    section.addEventListener("toggle", () => {
+      if (section.open) {
+        // Close all other tree-tab-section elements
+        document.querySelectorAll(".tree-tab-section").forEach((otherSection) => {
+          if (otherSection !== section) {
+            otherSection.open = false;
+          }
+        });
+        // Switch to this tab
+        if (state.activeTreeTab !== tabId) {
+          switchTreeTab(tabId);
+        }
+      }
+    });
   });
 
   window.addEventListener("beforeunload", () => {
     saveTreeState();
-  });
-
-  els.treeFilter.addEventListener("input", (evt) => {
-    state.treeFilter = evt.target.value.trim();
-    renderTree();
-  });
-
-  els.treeTabs.addEventListener("click", (evt) => {
-    const button = evt.target.closest("button[data-tree-tab]");
-    if (!button) {
-      return;
-    }
-    switchTreeTab(button.dataset.treeTab || "");
   });
 
   els.globalSearch?.addEventListener("input", (evt) => {
@@ -1903,6 +2938,28 @@ async function bootstrap() {
     openCurrentSearchSelection();
   });
 
+  els.modelSelect?.addEventListener("change", (evt) => {
+    const nextModel = String(evt.target.value || "");
+    if (!nextModel || nextModel === state.activeModel) {
+      return;
+    }
+
+    saveTreeState();
+    state.activeModel = nextModel;
+
+    if (state.activeDataset?.id && state.activeSubmodel?.id) {
+      localStorage.setItem(modelStorageKey(`${state.activeDataset.id}:${state.activeSubmodel.id}`), state.activeModel);
+    }
+
+    saveActiveTreeTab(state.activeTreeTab);
+
+    restoreTreeState();
+    updateSearch(state.searchQuery);
+    renderTree();
+    loadSelectedFile();
+    saveTreeState();
+  });
+
   document.addEventListener("keydown", (evt) => {
     if (evt.key !== "Enter") {
       return;
@@ -1944,25 +3001,8 @@ async function bootstrap() {
     hideSearchResults();
   });
 
-  els.modelSelect.addEventListener("change", (evt) => {
-    saveTreeState();
-    state.activeModel = evt.target.value;
-    if (state.activeDataset?.id && state.activeSubmodel?.id) {
-      localStorage.setItem(modelStorageKey(`${state.activeDataset.id}:${state.activeSubmodel.id}`), state.activeModel);
-    }
-    restoreTreeState();
-    renderTree();
-    loadSelectedFile();
-    saveTreeState();
-  });
 
-  els.submodelSelect.addEventListener("change", (evt) => {
-    const submodel = (state.activeDataset?.submodels || []).find((item) => item.id === evt.target.value) || null;
-    if (state.activeDataset?.id && submodel?.id) {
-      localStorage.setItem(submodelStorageKey(state.activeDataset.id), submodel.id);
-    }
-    loadDatasetIndex(submodel);
-  });
+
 
   const datasetsRes = await fetch("./data/datasets.json");
   if (!datasetsRes.ok) {
@@ -1978,22 +3018,18 @@ async function bootstrap() {
     return;
   }
 
-  els.datasetSelect.innerHTML = "";
-  for (const dataset of state.datasets) {
-    const option = document.createElement("option");
-    option.value = dataset.id;
-    option.textContent = dataset.name;
-    els.datasetSelect.appendChild(option);
-  }
-
-  els.datasetSelect.addEventListener("change", (evt) => {
-    loadDataset(evt.target.value);
-  });
-
+  // Load the initial dataset and populate vehicle dropdown
   const savedDatasetId = localStorage.getItem(datasetStorageKey) || "";
-  const initialDataset = state.datasets.find((item) => item.id === savedDatasetId) || state.datasets[0];
-  els.datasetSelect.value = initialDataset.id;
+  const initialDataset = state.datasets.find((item) => item.id === state.pendingUrlState?.datasetId)
+    || state.datasets.find((item) => item.id === savedDatasetId)
+    || state.datasets[0];
   await loadDataset(initialDataset.id);
+  state.pendingUrlState = null;
+  
+  // Populate vehicle dropdown for the first time
+  renderVehicleDropdown();
+  updateVehicleToggleDisplay();
+  syncTopbarOffset();
 }
 
 bootstrap().catch((err) => {

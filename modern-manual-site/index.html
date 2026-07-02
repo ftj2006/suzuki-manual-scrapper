@@ -3,64 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suzuki Manual Viewer - v2.0</title>
-    <link rel="stylesheet" href="./styles.css?v=24" />
+    <title>Suzuki Manual Viewer</title>
+    <link rel="stylesheet" href="./styles.css?v=31" />
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
+        <div class="topbar-left">
+          <button id="menuToggle" class="button secondary menu-button" type="button" aria-label="Open menu" title="Open menu" aria-expanded="false" aria-controls="sidebarMenu">
+            <span aria-hidden="true">☰</span>
+          </button>
+        </div>
         <div class="brand">
-          <h1>Suzuki Manual Viewer - v2.0</h1>
-          <p>Modern Suzuki Manual Viewer</p>
+          <h1>Suzuki Manual Viewer</h1>
         </div>
         <div class="topbar-search">
           <label class="sr-only" for="globalSearch">Search manuals</label>
-          <input id="globalSearch" type="search" placeholder="Search chapters, titles, or file paths..." autocomplete="off" spellcheck="false" />
+          <input id="globalSearch" type="search" placeholder="Search chapters, titles or components..." autocomplete="off" spellcheck="false" />
           <div id="searchResults" class="search-results" hidden></div>
         </div>
         <div class="topbar-actions">
-          <label class="field">
-            <span>Model</span>
-            <select id="datasetSelect"></select>
-          </label>
-          <label id="submodelField" class="field" hidden>
-            <span>Code</span>
-            <select id="submodelSelect"></select>
-          </label>
-          <label id="modelField" class="field" hidden>
-            <span>Engine Code</span>
-            <select id="modelSelect"></select>
-          </label>
-          <button id="themeToggle" class="button secondary" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
-            <span class="theme-icon" aria-hidden="true">&#9788;</span>
-          </button>
+          <div class="vehicle-selector-wrapper">
+            <button id="vehicleToggle" class="button secondary vehicle-selector" type="button" aria-label="Select vehicle" title="Select vehicle" aria-expanded="false" aria-controls="vehicleDropdown">
+              <span class="vehicle-icon" aria-hidden="true">🚗</span>
+              <span id="vehicleCode" class="vehicle-code"></span>
+            </button>
+            <div id="vehicleDropdown" class="vehicle-dropdown" hidden>
+              <div id="vehicleList" class="vehicle-list"></div>
+              <div class="vehicle-dropdown-footer">
+                <div id="modelField" class="vehicle-model-field" hidden>
+                  <label for="modelSelect">Model Variant</label>
+                  <select id="modelSelect" aria-label="Filter by model variant"></select>
+                </div>
+                <button id="themeToggle" class="vehicle-dropdown-action" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+                  <span class="theme-icon" aria-hidden="true">&#9788;</span>
+                  <span class="theme-label">Theme</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
 
       <main class="layout">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebarMenu" hidden>
           <div class="sidebar-header">
-            <div id="treeTabs" class="tree-tabs" role="tablist" aria-label="Tree categories"></div>
-            <input id="treeFilter" type="search" placeholder="Filter..." />
+            <button id="sidebarPin" class="button secondary sidebar-pin-button" type="button" aria-label="Pin menu" title="Pin menu" aria-pressed="false">
+              <span aria-hidden="true">📌</span>
+            </button>
           </div>
-          <nav id="tree" class="tree" aria-label="Manual file tree"></nav>
+          <nav class="sidebar-menu" aria-label="Navigation menu">
+            <!-- Bookmarks section -->
+            <details class="menu-section tree-tab-section" data-tab="bookmarks" open>
+              <summary class="menu-section-header">
+                <span class="menu-icon">📑</span>
+                <span class="menu-label">Bookmarks</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+
+            <!-- DTC section -->
+            <details class="menu-section tree-tab-section" data-tab="dtc">
+              <summary class="menu-section-header">
+                <span class="menu-icon">🔧</span>
+                <span class="menu-label">DTC</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+
+            <!-- Symptoms section -->
+            <details class="menu-section tree-tab-section" data-tab="symptoms">
+              <summary class="menu-section-header">
+                <span class="menu-icon">⚠️</span>
+                <span class="menu-label">Symptoms</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+
+            <!-- Tightening Torque section -->
+            <details class="menu-section tree-tab-section" data-tab="torque">
+              <summary class="menu-section-header">
+                <span class="menu-icon">🔩</span>
+                <span class="menu-label">Tightening Torque</span>
+                <span class="menu-toggle" aria-hidden="true">▾</span>
+              </summary>
+              <div class="menu-section-content tree-content"></div>
+            </details>
+          </nav>
         </aside>
 
-        <div
-          id="sidebarResizer"
-          class="sidebar-resizer"
-          role="separator"
-          aria-orientation="vertical"
-          aria-label="Resize Manual Pages pane"
-        ></div>
+        <div class="sidebar-overlay" id="sidebarOverlay" hidden></div>
 
         <section class="content">
+          <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Breadcrumb">
+            <ol id="breadcrumb" class="breadcrumb"></ol>
+          </nav>
           <article id="viewer" class="viewer empty">
             <h3 class="viewer-heading-row">
               <span class="viewer-heading-text">Manual Section</span>
-              <button id="sidebarToggle" class="button secondary content-expand-toggle" type="button" aria-expanded="false" aria-label="Expand content" title="Expand content">
-                Expand
-              </button>
             </h3>
             <p>The selected XML file will render here as a modern document view.</p>
           </article>
@@ -68,6 +111,6 @@
       </main>
     </div>
 
-    <script type="module" src="./app.js?v=28"></script>
+    <script type="module" src="./app.js?v=34"></script>
   </body>
 </html>
