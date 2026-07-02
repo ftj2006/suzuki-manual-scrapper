@@ -62,12 +62,13 @@ body {
 }
 
 .topbar-left + .brand {
-  flex: 1;
+  flex: 0 0 auto;
   min-width: 0;
 }
 
 .topbar-search {
   flex: 1;
+  min-width: 0;
 }
 
 .topbar-actions {
@@ -105,8 +106,7 @@ body {
 .topbar-search {
   position: relative;
   flex: 1;
-  min-width: 260px;
-  max-width: 620px;
+  min-width: 0;
   align-self: center;
 }
 
