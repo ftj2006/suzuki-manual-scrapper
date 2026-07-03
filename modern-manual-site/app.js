@@ -2835,8 +2835,8 @@ function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab, is
       details.dataset.folderKey = folderKey;
       details.dataset.renderTabId = renderTabId;
       
-      // Store node data for lazy loading (for non-lazy folders that are closed)
-      if (!isLazyLoad && childNodes.length > 0 && !shouldBeOpen) {
+      // Store node data for lazy loading for all closed folders with children
+      if (childNodes.length > 0 && !shouldBeOpen) {
         details.dataset.lazyNodes = JSON.stringify(childNodes);
         details.dataset.lazyTrail = folderKey;
         details.dataset.lazyLoaded = "false";
