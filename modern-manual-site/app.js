@@ -2313,6 +2313,9 @@ function logFailedAsset(url, type = "unknown") {
   console.warn(`[Asset Failed] ${type}: ${url}`);
 }
 
+// Expose function to global scope for ES6 module access
+window.logFailedAsset = logFailedAsset;
+
 function showReleaseNotesModal() {
   const modal = document.createElement("dialog");
   modal.className = "release-notes-modal";
@@ -2369,6 +2372,8 @@ function showReleaseNotesModal() {
   modal.showModal();
 }
 
+// Expose function to global scope for ES6 module access
+window.showReleaseNotesModal = showReleaseNotesModal;
 
 function toggleVehicleDropdown() {
   if (!els.vehicleDropdown) return;

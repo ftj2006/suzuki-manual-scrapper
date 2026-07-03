@@ -372,22 +372,36 @@ body {
   font-weight: 600;
 }
 
-.vehicle-dropdown-action .release-icon {
-  font-size: 1rem;
-}
-
-.vehicle-dropdown-action .release-label {
-  font-size: 0.9rem;
-  font-weight: 600;
+.version-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  margin-top: 6px;
+  border-top: 1px solid var(--line);
 }
 
 .release-version {
-  padding: 6px 12px;
   font-size: 0.75rem;
   color: var(--muted);
-  text-align: center;
-  margin-top: 6px;
-  border-top: 1px solid var(--line);
+  flex: 1;
+}
+
+.release-notes-link {
+  background: none;
+  border: none;
+  padding: 2px 4px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: color 150ms ease, transform 150ms ease;
+  flex-shrink: 0;
+}
+
+.release-notes-link:hover {
+  color: var(--accent);
+  transform: scale(1.1);
 }
 
 .vehicle-option {
