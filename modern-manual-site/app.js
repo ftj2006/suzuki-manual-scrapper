@@ -269,7 +269,7 @@ window.showKeyboardHelp = showKeyboardHelp;
 function validateDataset(dataset) {
   if (!dataset || typeof dataset !== "object") return false;
   if (!dataset.id || typeof dataset.id !== "string") return false;
-  if (!Array.isArray(dataset.manuals)) return false;
+  if (!Array.isArray(dataset.submodels)) return false;
   return true;
 }
 

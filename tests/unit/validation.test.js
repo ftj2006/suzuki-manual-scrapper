@@ -3,12 +3,12 @@
 
 describe('Data Validation Functions', () => {
   describe('validateDataset', () => {
-    it('should return true for valid dataset with id and manuals array', () => {
+    it('should return true for valid dataset with id and submodels array', () => {
       const validDataset = {
         id: 'test-dataset',
-        manuals: [
-          { id: 'manual1', name: 'Manual 1' },
-          { id: 'manual2', name: 'Manual 2' },
+        submodels: [
+          { id: 'submodel1', name: 'Submodel 1' },
+          { id: 'submodel2', name: 'Submodel 2' },
         ],
       };
 
@@ -18,14 +18,14 @@ describe('Data Validation Functions', () => {
 
     it('should return false for dataset missing id', () => {
       const invalidDataset = {
-        manuals: [{ id: 'manual1', name: 'Manual 1' }],
+        submodels: [{ id: 'submodel1', name: 'Submodel 1' }],
       };
 
       const result = validateDataset(invalidDataset);
       expect(result).toBe(false);
     });
 
-    it('should return false for dataset missing manuals array', () => {
+    it('should return false for dataset missing submodels array', () => {
       const invalidDataset = {
         id: 'test-dataset',
       };
@@ -34,10 +34,10 @@ describe('Data Validation Functions', () => {
       expect(result).toBe(false);
     });
 
-    it('should return false for non-array manuals', () => {
+    it('should return false for non-array submodels', () => {
       const invalidDataset = {
         id: 'test-dataset',
-        manuals: 'not-an-array',
+        submodels: 'not-an-array',
       };
 
       const result = validateDataset(invalidDataset);
@@ -133,7 +133,7 @@ function validateDataset(dataset) {
   if (typeof dataset.id !== 'string') {
     return false;
   }
-  if (!Array.isArray(dataset.manuals)) {
+  if (!Array.isArray(dataset.submodels)) {
     return false;
   }
   return true;
