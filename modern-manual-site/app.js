@@ -21,6 +21,7 @@ const els = {
   breadcrumbNav: document.getElementById("breadcrumbNav"),
   breadcrumbToggle: document.getElementById("breadcrumbToggle"),
   themeToggle: document.getElementById("themeToggle"),
+  releaseNotesButton: document.getElementById("releaseNotesButton"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
   releaseVersion: document.getElementById("releaseVersion"),
@@ -53,6 +54,7 @@ const state = {
   pendingUrlState: null,
   pendingScrollAnchor: "",
   failedAssets: [], // Array of failed image URLs
+};
 
 const TREE_TABS = [
   { id: "bookmarks", label: "Bookmarks" },
@@ -2311,6 +2313,63 @@ function logFailedAsset(url, type = "unknown") {
   console.warn(`[Asset Failed] ${type}: ${url}`);
 }
 
+function showReleaseNotesModal() {
+  const modal = document.createElement("dialog");
+  modal.className = "release-notes-modal";
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.close();
+      modal.remove();
+    }
+  });
+
+  const content = document.createElement("div");
+  content.className = "release-notes-content";
+
+  const header = document.createElement("div");
+  header.className = "release-notes-header";
+
+  const title = document.createElement("h2");
+  title.textContent = "Release Notes";
+
+  const closeBtn = document.createElement("button");
+  closeBtn.className = "release-notes-close";
+  closeBtn.type = "button";
+  closeBtn.textContent = "✕";
+  closeBtn.addEventListener("click", () => {
+    modal.close();
+    modal.remove();
+  });
+
+  header.appendChild(title);
+  header.appendChild(closeBtn);
+
+  const body = document.createElement("div");
+  body.className = "release-notes-body";
+  body.innerHTML = `
+    <h3>Version ${APP_VERSION}</h3>
+    <p><strong>New Features:</strong></p>
+    <ul>
+      <li><strong>Collapsible Breadcrumbs:</strong> Toggle breadcrumb navigation visibility with the › button</li>
+      <li><strong>Asset Failure Logging:</strong> Missing images are logged to console for debugging</li>
+      <li><strong>Release Notes:</strong> Quick access to version information</li>
+    </ul>
+    <p><strong>Bug Fixes:</strong></p>
+    <ul>
+      <li>Fixed Note links with anchor fragments</li>
+      <li>Fixed browser back button navigation</li>
+    </ul>
+    <p><small>For full release notes, see the project repository.</small></p>
+  `;
+
+  content.appendChild(header);
+  content.appendChild(body);
+  modal.appendChild(content);
+  document.body.appendChild(modal);
+  modal.showModal();
+}
+
+
 function toggleVehicleDropdown() {
   if (!els.vehicleDropdown) return;
   if (els.vehicleDropdown.hidden) {
@@ -2874,6 +2933,11 @@ async function bootstrap() {
   els.themeToggle.addEventListener("click", () => {
     const current = document.body.getAttribute("data-theme");
     applyTheme(current === "dark" ? "light" : "dark");
+  });
+
+  // Release notes button
+  els.releaseNotesButton?.addEventListener("click", () => {
+    showReleaseNotesModal();
   });
 
   // Hamburger menu toggle
