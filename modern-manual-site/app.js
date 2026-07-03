@@ -46,6 +46,7 @@ const state = {
   sidebarPinned: false,
   breadcrumbTrail: [], // Array of {label, path} objects
   pendingUrlState: null,
+  pendingScrollAnchor: "",
 };
 
 const TREE_TABS = [
@@ -1439,6 +1440,9 @@ function navigateToPath(path, options = {}) {
   // }
 
   state.selectedPath = path;
+  if (options.pushHistory !== false) {
+    history.pushState({ path }, "", currentViewerShareUrl());
+  }
   loadSelectedFile();
   renderTree();
   saveTreeState();
@@ -2590,10 +2594,7 @@ function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
       button.classList.add("active");
     }
     button.addEventListener("click", () => {
-      state.selectedPath = node.path;
-      loadSelectedFile();
-      renderTree();
-      saveTreeState();
+      navigateToPath(node.path);
       closeSidebarForNavigation();
     });
     button.addEventListener("keydown", handleSidebarKeyboardNavigation);
@@ -2662,16 +2663,32 @@ async function loadSelectedFile() {
       const doc = parseXml(contentText);
       const selectedDir = state.selectedPath.slice(0, state.selectedPath.lastIndexOf("/") + 1);
       const rendered = renderXmlDocument(doc, {
-        resolveRef: (refId) => state.refToPath.get(refId) || `${selectedDir}${refId}.xml`,
-        resolveRefLabel: (refId) => state.refToTitle.get(refId) || refId,
+        resolveRef: (refId) => {
+          const hashIdx = refId.indexOf("#");
+          const fileRef = hashIdx >= 0 ? refId.slice(0, hashIdx) : refId;
+          const anchor = hashIdx >= 0 ? refId.slice(hashIdx + 1) : "";
+          const filePath = state.refToPath.get(fileRef) || `${selectedDir}${fileRef}.xml`;
+          return anchor ? `${filePath}#${anchor}` : filePath;
+        },
+        resolveRefLabel: (refId) => {
+          const fileRef = refId.includes("#") ? refId.slice(0, refId.indexOf("#")) : refId;
+          return state.refToTitle.get(fileRef) || fileRef;
+        },
         resolveGraphic: (graphicName) => graphicPathCandidates(graphicName),
         resolveSymbol: (symbolName) => symbolPathCandidates(symbolName),
         onNavigateInternal: (refId) => scrollToXmlAnchor(refId),
         onNavigate: (targetPath) => {
-          if (!state.activeDatasetIndex?.files?.[targetPath]) {
+          const hashIdx = targetPath.indexOf("#");
+          const filePath = hashIdx >= 0 ? targetPath.slice(0, hashIdx) : targetPath;
+          const anchor = hashIdx >= 0 ? targetPath.slice(hashIdx + 1) : "";
+          if (!state.activeDatasetIndex?.files?.[filePath]) {
             return;
           }
-          state.selectedPath = targetPath;
+          if (anchor) {
+            state.pendingScrollAnchor = anchor;
+          }
+          state.selectedPath = filePath;
+          history.pushState({ path: filePath }, "", currentViewerShareUrl());
           loadSelectedFile();
           renderTree();
         },
@@ -2684,6 +2701,11 @@ async function loadSelectedFile() {
       els.viewer.appendChild(rendered);
       addDiagramPopupButtons(els.viewer);
       wireScrollableTableHints(els.viewer);
+      if (state.pendingScrollAnchor) {
+        const anchor = state.pendingScrollAnchor;
+        state.pendingScrollAnchor = "";
+        setTimeout(() => scrollToXmlAnchor(anchor), 80);
+      }
     }
 
   } catch (err) {
@@ -3030,9 +3052,18 @@ async function bootstrap() {
   renderVehicleDropdown();
   updateVehicleToggleDisplay();
   syncTopbarOffset();
+  // Seed history so the browser back button can return to this initial view
+  history.replaceState({ path: state.selectedPath || "" }, "", currentViewerShareUrl());
 }
 
 bootstrap().catch((err) => {
   renderViewerPlaceholder(err.message, true);
+});
+
+window.addEventListener("popstate", (event) => {
+  const path = event.state?.path;
+  if (path && state.activeDatasetIndex?.files?.[path]) {
+    navigateToPath(path, { pushHistory: false });
+  }
 });
 // trigger redeploy
