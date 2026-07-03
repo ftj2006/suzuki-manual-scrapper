@@ -95,7 +95,10 @@ function renderInline(node, options) {
             span.textContent = name ? `[${name}]` : "[symbol]";
             return;
           }
-          img.onerror = () => setCandidate(index + 1);
+          img.onerror = () => {
+            options.onAssetFailed?.(candidates[index], "symbol");
+            setCandidate(index + 1);
+          };
           img.onload = () => {
             img.onerror = null;
           };
@@ -848,7 +851,10 @@ function renderNode(node, options, depth = 0) {
         wrap.replaceChildren(note);
         return;
       }
-      img.onerror = () => nextCandidate(index + 1);
+      img.onerror = () => {
+        options.onAssetFailed?.(candidates[index], "graphic");
+        nextCandidate(index + 1);
+      };
       img.onload = () => {
         img.onerror = null;
       };

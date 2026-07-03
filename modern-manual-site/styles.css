@@ -595,7 +595,37 @@ body {
 }
 
 .breadcrumb-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  min-height: 36px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  transition: all 200ms ease;
+}
+
+.breadcrumb-nav.collapsed .breadcrumb {
   display: none;
+}
+
+.breadcrumb-toggle {
+  background: none;
+  border: none;
+  padding: 6px 8px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 150ms ease, transform 200ms ease;
+  flex-shrink: 0;
+}
+
+.breadcrumb-toggle:hover {
+  color: var(--accent);
+}
+
+.breadcrumb-nav.collapsed .breadcrumb-toggle {
+  transform: rotate(180deg);
 }
 
 .breadcrumb {

@@ -18,6 +18,8 @@ const els = {
   modelSelect: document.getElementById("modelSelect"),
   viewer: document.getElementById("viewer"),
   breadcrumb: document.getElementById("breadcrumb"),
+  breadcrumbNav: document.getElementById("breadcrumbNav"),
+  breadcrumbToggle: document.getElementById("breadcrumbToggle"),
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
@@ -50,7 +52,7 @@ const state = {
   breadcrumbTrail: [], // Array of {label, path} objects
   pendingUrlState: null,
   pendingScrollAnchor: "",
-};
+  failedAssets: [], // Array of failed image URLs
 
 const TREE_TABS = [
   { id: "bookmarks", label: "Bookmarks" },
@@ -79,6 +81,7 @@ const sidebarWidthStorageKey = "manual-next-sidebar-width";
 const sidebarHeightStorageKey = "manual-next-sidebar-height";
 const activeTreeTabStorageKey = "manual-next-active-tree-tab";
 const sidebarPinnedStorageKey = "manual-next-sidebar-pinned";
+const breadcrumbCollapsedStorageKey = "manual-next-breadcrumb-collapsed";
 
 function activeTreeTabScopedStorageKey(datasetId, submodelId, model) {
   return `manual-next-active-tree-tab:${datasetId}:${submodelId}:${model || "default"}`;
@@ -2288,6 +2291,26 @@ function updateReleaseVersion() {
   els.releaseVersion.textContent = `v${APP_VERSION}`;
 }
 
+function restoreBreadcrumbCollapsedState() {
+  const isCollapsed = localStorage.getItem(breadcrumbCollapsedStorageKey) === "true";
+  if (isCollapsed && els.breadcrumbNav) {
+    els.breadcrumbNav.classList.add("collapsed");
+  }
+}
+
+function toggleBreadcrumb() {
+  if (!els.breadcrumbNav) return;
+  els.breadcrumbNav.classList.toggle("collapsed");
+  const isCollapsed = els.breadcrumbNav.classList.contains("collapsed");
+  localStorage.setItem(breadcrumbCollapsedStorageKey, isCollapsed ? "true" : "false");
+}
+
+function logFailedAsset(url, type = "unknown") {
+  if (!url || state.failedAssets.includes(url)) return;
+  state.failedAssets.push(url);
+  console.warn(`[Asset Failed] ${type}: ${url}`);
+}
+
 function toggleVehicleDropdown() {
   if (!els.vehicleDropdown) return;
   if (els.vehicleDropdown.hidden) {
@@ -2700,6 +2723,7 @@ async function loadSelectedFile() {
           loadSelectedFile();
           renderTree();
         },
+        onAssetFailed: logFailedAsset,
       });
       applyViewerContext(rendered);
       const stickyHeader = createViewerStickyHeader();
@@ -2870,6 +2894,11 @@ async function bootstrap() {
   // Sidebar pin button
   els.sidebarPin?.addEventListener("click", () => {
     togglePin();
+  });
+
+  // Breadcrumb toggle
+  els.breadcrumbToggle?.addEventListener("click", () => {
+    toggleBreadcrumb();
   });
 
   // Close vehicle dropdown when clicking outside
@@ -3060,6 +3089,7 @@ async function bootstrap() {
   renderVehicleDropdown();
   updateVehicleToggleDisplay();
   updateReleaseVersion();
+  restoreBreadcrumbCollapsedState();
   syncTopbarOffset();
   // Seed history so the browser back button can return to this initial view
   history.replaceState({ path: state.selectedPath || "" }, "", currentViewerShareUrl());
