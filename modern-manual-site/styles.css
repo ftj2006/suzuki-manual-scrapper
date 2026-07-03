@@ -2418,33 +2418,196 @@ th:hover .column-resize-handle {
 }
 
 @media (max-width: 640px) {
+  /* Enhanced touch-friendly base styles for mobile */
+  :root {
+    --touch-target-min: 48px;
+  }
+
+  /* Optimize topbar for small screens */
   .topbar {
     gap: 6px;
     padding: 8px 10px 8px;
     margin: -10px -10px 10px;
+    flex-wrap: wrap;
   }
 
   .brand h1 {
     font-size: clamp(0.96rem, 5vw, 1.1rem);
   }
 
+  /* Enhanced button sizing for touch */
   .menu-button,
   .vehicle-selector {
-    height: 34px;
+    height: 48px;
+    min-height: 48px;
   }
 
   .menu-button {
-    width: 34px;
-    font-size: 1rem;
+    width: 48px;
+    min-width: 48px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .vehicle-selector {
-    padding: 0 9px;
+    padding: 0 12px;
+    font-size: 0.95rem;
+    border-radius: 8px;
   }
 
-  .viewer {
-    padding: 12px;
+  /* Search box mobile optimization */
+  .search-container {
+    flex: 1;
+    min-width: 0;
   }
+
+  .search-container input {
+    height: 44px;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 16px; /* Prevents auto-zoom on iOS */
+  }
+
+  /* Sidebar header optimization */
+  .sidebar-header {
+    padding: 12px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sidebar-pin-button {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+  }
+
+  /* Breadcrumb mobile optimization */
+  .breadcrumb-nav {
+    padding: 8px 10px;
+    min-height: 44px;
+    gap: 4px;
+  }
+
+  .breadcrumb-toggle {
+    padding: 8px;
+    font-size: 1.3rem;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .breadcrumb {
+    font-size: 0.85rem;
+    gap: 4px;
+  }
+
+  /* Version footer mobile optimization */
+  .version-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 10px 12px;
+  }
+
+  .release-version {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .release-notes-link {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Tree menu mobile optimization */
+  .menu-section-header {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-icon {
+    font-size: 1.2rem;
+    width: 1.4rem;
+    min-width: 1.4rem;
+  }
+
+  .menu-toggle {
+    font-size: 0.8rem;
+    margin-left: auto;
+  }
+
+  .vehicle-submodel-button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    margin: 2px 0;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-section-content {
+    padding: 8px 12px;
+  }
+
+  /* Tree items touch optimization */
+  .tree-content summary {
+    font-size: 0.9rem;
+    padding: 8px 4px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .tree-content button {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+    margin-left: 4px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    transition: background-color 150ms ease;
+  }
+
+  .tree-content button:active {
+    background-color: var(--accent-soft);
+  }
+
+  .tree-content .tree-leaf-icon {
+    width: 1rem;
+    min-width: 1rem;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .tree-content .tree-leaf-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+  }
+
+  /* Viewer mobile optimization */
 
   .xml-view {
     gap: 6px;
@@ -2727,59 +2890,23 @@ th:hover .column-resize-handle {
     border-radius: 12px;
     padding: 8px 11px;
     font-size: 0.92rem;
+    height: 44px;
+    display: flex;
+    align-items: center;
   }
 
   .topbar-actions {
     grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   #themeToggle {
     justify-self: start;
-  }
-
-  /* Responsive sidebar menu for mobile */
-  .sidebar-menu {
-    padding: 0;
-  }
-
-  .menu-section-header {
-    padding: 10px 14px;
-    font-size: 0.9rem;
-  }
-
-  .menu-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
     font-size: 1.1rem;
-    width: 1.3rem;
-  }
-
-  .menu-toggle {
-    font-size: 0.75rem;
-  }
-
-  .vehicle-submodel-button {
-    padding: 6px 10px;
-    font-size: 0.8rem;
-    margin: 1px 0;
-  }
-
-  .menu-section-content {
-    padding: 6px 10px;
-  }
-
-  .tree-content summary {
-    font-size: 0.85rem;
-    padding: 5px 0 5px 2px;
-  }
-
-  .tree-content button {
-    padding: 3px 6px;
-    font-size: 0.8rem;
-    margin-left: 2px;
-  }
-
-  .tree-content .tree-leaf-icon {
-    width: 0.9rem;
-    font-size: 0.8rem;
   }
 }
 
