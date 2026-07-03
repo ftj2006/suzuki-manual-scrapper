@@ -85,6 +85,205 @@ const activeTreeTabStorageKey = "manual-next-active-tree-tab";
 const sidebarPinnedStorageKey = "manual-next-sidebar-pinned";
 const breadcrumbCollapsedStorageKey = "manual-next-breadcrumb-collapsed";
 
+// Phase 3: Robustness - Session Recovery and Error Handling
+const sessionRecoveryStorageKey = "manual-next-session-recovery";
+const performanceMetricsStorageKey = "manual-next-perf-metrics";
+
+// Save successful state for recovery
+function saveSessionRecovery(datasetId, submodelId, model, path) {
+  try {
+    const recovery = {
+      timestamp: Date.now(),
+      datasetId,
+      submodelId,
+      model: model || "",
+      path: path || "",
+      version: APP_VERSION,
+    };
+    localStorage.setItem(sessionRecoveryStorageKey, JSON.stringify(recovery));
+  } catch (e) {
+    // Ignore storage errors
+  }
+}
+
+// Retrieve recovery state
+function getSessionRecovery() {
+  try {
+    const raw = localStorage.getItem(sessionRecoveryStorageKey);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    // Only use recovery state if it's recent (within 24 hours)
+    if (Date.now() - data.timestamp > 24 * 60 * 60 * 1000) {
+      return null;
+    }
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+// Clear recovery state (call after successful recovery)
+function clearSessionRecovery() {
+  try {
+    localStorage.removeItem(sessionRecoveryStorageKey);
+  } catch (e) {
+    // Ignore
+  }
+}
+
+// Performance monitoring
+function recordPerformanceMetric(name, duration) {
+  try {
+    const metrics = JSON.parse(localStorage.getItem(performanceMetricsStorageKey) || "{}");
+    if (!metrics[name]) {
+      metrics[name] = { count: 0, total: 0, min: Infinity, max: -Infinity };
+    }
+    metrics[name].count++;
+    metrics[name].total += duration;
+    metrics[name].min = Math.min(metrics[name].min, duration);
+    metrics[name].max = Math.max(metrics[name].max, duration);
+    // Keep only last 100 samples per metric
+    if (metrics[name].count > 100) {
+      metrics[name] = { count: 0, total: 0, min: Infinity, max: -Infinity };
+    }
+    localStorage.setItem(performanceMetricsStorageKey, JSON.stringify(metrics));
+  } catch (e) {
+    // Ignore storage errors
+  }
+}
+
+// Get performance metrics
+function getPerformanceMetrics() {
+  try {
+    const metrics = JSON.parse(localStorage.getItem(performanceMetricsStorageKey) || "{}");
+    const result = {};
+    for (const [name, data] of Object.entries(metrics)) {
+      if (data.count > 0) {
+        result[name] = {
+          average: data.total / data.count,
+          min: data.min,
+          max: data.max,
+          samples: data.count,
+        };
+      }
+    }
+    return result;
+  } catch {
+    return {};
+  }
+}
+
+// Expose performance metrics to window for debugging
+window.getPerformanceMetrics = getPerformanceMetrics;
+
+// Keyboard help overlay
+function showKeyboardHelp() {
+  const helpDialog = document.createElement("dialog");
+  helpDialog.className = "keyboard-help-modal";
+  helpDialog.innerHTML = `
+    <div class="keyboard-help-content">
+      <div class="keyboard-help-header">
+        <h2>⌨️ Keyboard Shortcuts</h2>
+        <button class="keyboard-help-close" aria-label="Close" type="button">✕</button>
+      </div>
+      <div class="keyboard-help-body">
+        <section>
+          <h3>Navigation</h3>
+          <dl class="keyboard-shortcuts">
+            <dt><kbd>?</kbd></dt>
+            <dd>Show this help</dd>
+            <dt><kbd>Ctrl/⌘</kbd> + <kbd>K</kbd></dt>
+            <dd>Focus search</dd>
+            <dt><kbd>/</kbd></dt>
+            <dd>Quick search</dd>
+            <dt><kbd>↑ ↓</kbd></dt>
+            <dd>Navigate tree items</dd>
+            <dt><kbd>← →</kbd></dt>
+            <dd>Expand/collapse folders</dd>
+          </dl>
+        </section>
+        <section>
+          <h3>Document</h3>
+          <dl class="keyboard-shortcuts">
+            <dt><kbd>Home</kbd> / <kbd>End</kbd></dt>
+            <dd>Jump to page start/end</dd>
+            <dt><kbd>Page Up</kbd> / <kbd>Page Down</kbd></dt>
+            <dd>Scroll page by page</dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+  `;
+  
+  const closeButton = helpDialog.querySelector(".keyboard-help-close");
+  closeButton.addEventListener("click", () => {
+    helpDialog.close();
+    helpDialog.remove();
+  });
+  
+  helpDialog.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      helpDialog.close();
+      helpDialog.remove();
+    }
+  });
+  
+  document.body.appendChild(helpDialog);
+  helpDialog.showModal();
+}
+
+// Global keyboard shortcuts
+document.addEventListener("keydown", (evt) => {
+  // Don't trigger shortcuts when typing in an input
+  if (evt.target.tagName === "INPUT" || evt.target.tagName === "TEXTAREA") {
+    return;
+  }
+  
+  // ? to show help
+  if (evt.key === "?" && !evt.ctrlKey && !evt.metaKey && !evt.shiftKey) {
+    evt.preventDefault();
+    showKeyboardHelp();
+    return;
+  }
+  
+  // Ctrl/Cmd+K to focus search
+  if ((evt.ctrlKey || evt.metaKey) && evt.key === "k") {
+    evt.preventDefault();
+    els.globalSearch?.focus();
+    return;
+  }
+  
+  // / for quick search (only if not already searching)
+  if (evt.key === "/" && evt.target === document.body) {
+    evt.preventDefault();
+    els.globalSearch?.focus();
+    els.globalSearch?.select();
+    return;
+  }
+});
+
+window.showKeyboardHelp = showKeyboardHelp;
+
+
+// Validate data structures
+function validateDataset(dataset) {
+  if (!dataset || typeof dataset !== "object") return false;
+  if (!dataset.id || typeof dataset.id !== "string") return false;
+  if (!Array.isArray(dataset.manuals)) return false;
+  return true;
+}
+
+function validateTreeNode(node) {
+  if (!node || typeof node !== "object") return false;
+  if (node.type === "folder") {
+    return Array.isArray(node.children) && typeof node.label === "string";
+  }
+  if (node.type === "file") {
+    return typeof node.path === "string" && typeof node.label === "string";
+  }
+  return false;
+}
+
 function activeTreeTabScopedStorageKey(datasetId, submodelId, model) {
   return `manual-next-active-tree-tab:${datasetId}:${submodelId}:${model || "default"}`;
 }
@@ -2853,8 +3052,50 @@ async function loadSelectedFile() {
     if (fileLoadToken !== state.fileLoadToken) {
       return;
     }
-    renderViewerPlaceholder(err.message, true);
+    
+    // Provide helpful error messages with recovery suggestions
+    let errorMessage = err.message || "Unknown error loading file";
+    let isRecoverable = false;
+    
+    if (err.message?.includes("HTTP")) {
+      if (err.message.includes("404")) {
+        errorMessage = "File not found. It may have been moved or deleted.";
+      } else if (err.message.includes("5")) {
+        errorMessage = "Server error. Please try again in a moment.";
+        isRecoverable = true;
+      } else {
+        errorMessage = `Unable to load file: ${err.message}`;
+        isRecoverable = true;
+      }
+    }
+    
+    // Create error placeholder with recovery options
+    const placeholder = document.createElement("div");
+    placeholder.className = "viewer-error";
+    placeholder.innerHTML = `
+      <div class="viewer-error-content">
+        <h3>⚠️ Unable to Load Document</h3>
+        <p>${escapeHtml(errorMessage)}</p>
+        <div class="viewer-error-actions">
+          ${isRecoverable ? '<button class="button primary" onclick="window.location.reload()">Reload Page</button>' : ''}
+          <button class="button secondary" onclick="document.querySelector(\'#menuToggle\').click()">Go to Menu</button>
+        </div>
+      </div>
+    `;
+    
+    els.viewer.innerHTML = "";
+    els.viewer.appendChild(placeholder);
+    
+    // Log error for debugging
+    console.error(`[Load Error] ${state.selectedPath}:`, err);
   }
+}
+
+// Helper function to escape HTML
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
 }
 
 async function loadDatasetIndex(submodel) {
@@ -3179,25 +3420,90 @@ async function bootstrap() {
 
   const datasetsRes = await fetch("./data/datasets.json");
   if (!datasetsRes.ok) {
-    renderViewerPlaceholder(`HTTP ${datasetsRes.status} while loading dataset manifest.`, true);
+    // Try to recover from saved session
+    const recovery = getSessionRecovery();
+    if (recovery) {
+      renderViewerPlaceholder(
+        `Failed to load datasets (HTTP ${datasetsRes.status}). Attempting to recover from last session...`,
+        false
+      );
+      // Try to load from recovery state after a short delay
+      setTimeout(() => {
+        window.location.reload();
+      }, 2000);
+    } else {
+      renderViewerPlaceholder(
+        `HTTP ${datasetsRes.status} while loading dataset manifest. Please try refreshing the page.`,
+        true
+      );
+    }
     return;
   }
 
   const payload = await datasetsRes.json();
-  state.datasets = payload.datasets || [];
+  
+  // Validate payload structure
+  if (!payload || !Array.isArray(payload.datasets)) {
+    renderViewerPlaceholder("Invalid dataset manifest format. Please try refreshing.", true);
+    return;
+  }
+  
+  state.datasets = payload.datasets.filter(validateDataset);
 
   if (!state.datasets.length) {
-    renderViewerPlaceholder("No datasets configured. Run scripts/build_dataset_index.py first.", true);
+    renderViewerPlaceholder("No valid datasets found. Run scripts/build_dataset_index.py first.", true);
     return;
   }
 
-  // Load the initial dataset and populate vehicle dropdown
+  // Attempt recovery from last session
+  const recovery = getSessionRecovery();
+  const urlDataset = state.pendingUrlState?.datasetId;
   const savedDatasetId = localStorage.getItem(datasetStorageKey) || "";
-  const initialDataset = state.datasets.find((item) => item.id === state.pendingUrlState?.datasetId)
-    || state.datasets.find((item) => item.id === savedDatasetId)
-    || state.datasets[0];
-  await loadDataset(initialDataset.id);
+  
+  let initialDataset = null;
+  
+  if (urlDataset) {
+    initialDataset = state.datasets.find((item) => item.id === urlDataset);
+  }
+  
+  if (!initialDataset) {
+    initialDataset = state.datasets.find((item) => item.id === savedDatasetId);
+  }
+  
+  if (!initialDataset && recovery) {
+    initialDataset = state.datasets.find((item) => item.id === recovery.datasetId);
+  }
+  
+  if (!initialDataset) {
+    initialDataset = state.datasets[0];
+  }
+  
+  // Measure dataset load time for performance monitoring
+  const loadStart = performance.now();
+  
+  try {
+    await loadDataset(initialDataset.id);
+    recordPerformanceMetric("dataset_load", performance.now() - loadStart);
+    
+    // Save successful state for recovery
+    saveSessionRecovery(
+      initialDataset.id,
+      state.activeSubmodel?.id || "",
+      state.activeModel || "",
+      state.selectedPath || ""
+    );
+    clearSessionRecovery(); // Clear recovery since we succeeded
+  } catch (err) {
+    recordPerformanceMetric("dataset_load_error", performance.now() - loadStart);
+    renderViewerPlaceholder(
+      `Failed to load dataset: ${err.message || "Unknown error"}. Please try refreshing.`,
+      true
+    );
+    return;
+  }
+  
   state.pendingUrlState = null;
+  
   
   // Populate vehicle dropdown for the first time
   renderVehicleDropdown();
