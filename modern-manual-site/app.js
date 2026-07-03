@@ -1,7 +1,7 @@
 import { filterTree } from "./lib/tree.js?v=3";
 import { parseXml, renderXmlDocument } from "./lib/xml-utils.js?v=14";
 
-const APP_VERSION = "1.0.0";
+const APP_VERSION = "2.1.0";
 
 const els = {
   layout: document.querySelector(".layout"),
