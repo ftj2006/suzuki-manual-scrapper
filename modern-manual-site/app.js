@@ -1,6 +1,8 @@
 import { filterTree } from "./lib/tree.js?v=3";
 import { parseXml, renderXmlDocument } from "./lib/xml-utils.js?v=14";
 
+const APP_VERSION = "1.0.0";
+
 const els = {
   layout: document.querySelector(".layout"),
   sidebar: document.querySelector(".sidebar"),
@@ -19,6 +21,7 @@ const els = {
   themeToggle: document.getElementById("themeToggle"),
   globalSearch: document.getElementById("globalSearch"),
   searchResults: document.getElementById("searchResults"),
+  releaseVersion: document.getElementById("releaseVersion"),
 };
 
 const state = {
@@ -2280,6 +2283,11 @@ function toggleSidebar() {
   }
 }
 
+function updateReleaseVersion() {
+  if (!els.releaseVersion) return;
+  els.releaseVersion.textContent = `v${APP_VERSION}`;
+}
+
 function toggleVehicleDropdown() {
   if (!els.vehicleDropdown) return;
   if (els.vehicleDropdown.hidden) {
@@ -3051,6 +3059,7 @@ async function bootstrap() {
   // Populate vehicle dropdown for the first time
   renderVehicleDropdown();
   updateVehicleToggleDisplay();
+  updateReleaseVersion();
   syncTopbarOffset();
   // Seed history so the browser back button can return to this initial view
   history.replaceState({ path: state.selectedPath || "" }, "", currentViewerShareUrl());
