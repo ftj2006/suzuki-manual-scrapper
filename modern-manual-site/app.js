@@ -2620,7 +2620,8 @@ function renderSubmodelSelect() {
   // Submodel select no longer exists in the UI - this function is kept for compatibility
 }
 
-function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
+// Build tree nodes with lazy-loading for performance
+function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab, isLazyLoad = false) {
   const frag = document.createDocumentFragment();
 
   for (const node of nodes || []) {
@@ -2628,9 +2629,22 @@ function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
       const folderKey = `${trail}/${node.label}`;
       const details = document.createElement("details");
       const childNodes = node.children || [];
-      details.open = !!state.treeFilter || state.expandedFolders.has(folderKey) || subtreeContainsPath(node, state.selectedPath);
+      
+      // Determine if folder should be open (matches original logic)
+      const shouldBeOpen = !!state.treeFilter || state.expandedFolders.has(folderKey) || subtreeContainsPath(node, state.selectedPath);
+      details.open = shouldBeOpen;
       details.dataset.folderKey = folderKey;
-      details.addEventListener("toggle", () => {
+      details.dataset.renderTabId = renderTabId;
+      
+      // Store node data for lazy loading (for non-lazy folders that are closed)
+      if (!isLazyLoad && childNodes.length > 0 && !shouldBeOpen) {
+        details.dataset.lazyNodes = JSON.stringify(childNodes);
+        details.dataset.lazyTrail = folderKey;
+        details.dataset.lazyLoaded = "false";
+      }
+      
+      // Create toggle handler that supports lazy-loading
+      const toggleHandler = () => {
         if (details.open) {
           // Close all sibling details elements at the same level (accordion behavior)
           const parent = details.parentElement;
@@ -2643,19 +2657,48 @@ function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
             });
           }
           
+          // Lazy-load children on first open
+          if (details.dataset.lazyLoaded === "false" && details.dataset.lazyNodes) {
+            const childNodesData = JSON.parse(details.dataset.lazyNodes);
+            const lazyTrail = details.dataset.lazyTrail;
+            const lazyRenderTabId = details.dataset.renderTabId || renderTabId;
+            
+            // Find and remove empty hint if it exists
+            const emptyHint = details.querySelector('.tree-empty-hint');
+            if (emptyHint) {
+              emptyHint.remove();
+            }
+            
+            // Build and insert child nodes
+            const childFragment = buildTreeNodes(childNodesData, lazyTrail, lazyRenderTabId, true);
+            details.appendChild(childFragment);
+            
+            details.dataset.lazyLoaded = "true";
+          }
+          
           state.expandedFolders.add(folderKey);
         } else {
           state.expandedFolders.delete(folderKey);
         }
         saveTreeState();
-      });
+      };
+      
+      details.addEventListener("toggle", toggleHandler);
+      
       const summary = document.createElement("summary");
       summary.textContent = node.label;
       summary.title = sidebarPreviewText(trail, node.label, renderTabId);
       summary.addEventListener("keydown", handleSidebarKeyboardNavigation);
       details.appendChild(summary);
-      details.appendChild(buildTreeNodes(childNodes, folderKey, renderTabId));
-      if (!childNodes.length) {
+      
+      // Handle children based on whether folder is initially open
+      if (shouldBeOpen) {
+        // Initially open: build children immediately
+        if (childNodes.length > 0) {
+          details.appendChild(buildTreeNodes(childNodes, folderKey, renderTabId, true));
+        }
+      } else if (childNodes.length === 0) {
+        // No children: show empty hint
         const emptyHint = document.createElement("div");
         emptyHint.className = "tree-empty-hint";
         emptyHint.textContent = state.activeModel
@@ -2663,6 +2706,8 @@ function buildTreeNodes(nodes, trail = "", renderTabId = state.activeTreeTab) {
           : "No documents available in this section.";
         details.appendChild(emptyHint);
       }
+      // If has children but not open: don't append anything - will be lazy-loaded on toggle
+      
       frag.appendChild(details);
       continue;
     }
