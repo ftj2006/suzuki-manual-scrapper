@@ -1,0 +1,7 @@
+.eslintignore
+node_modules/
+tests/
+_site/
+dist/
+.next/
+out/

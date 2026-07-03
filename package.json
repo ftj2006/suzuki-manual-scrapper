@@ -1,0 +1,33 @@
+{
+  "name": "suzuki-manual-viewer",
+  "version": "2.1.0",
+  "description": "Suzuki Manual Viewer - Interactive online Suzuki service manuals",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test",
+    "test:all": "npm run test && npm run test:e2e",
+    "test:py": "pytest tests/ -v",
+    "test:py:coverage": "pytest tests/ --cov=. --cov-report=html",
+    "lint": "eslint modern-manual-site/lib/ modern-manual-site/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@playwright/test": "^1.40.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "keywords": [
+    "suzuki",
+    "manual",
+    "viewer",
+    "service",
+    "documentation"
+  ],
+  "author": "Paul",
+  "license": "MIT"
+}
