@@ -2047,6 +2047,10 @@ body.lightbox-open {
 }
 
 @media (max-width: 980px) {
+  .sidebar-pin-button {
+    display: none;
+  }
+
   .app-shell {
     padding: 10px;
   }
