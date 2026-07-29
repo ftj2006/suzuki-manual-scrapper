@@ -25,7 +25,7 @@ Purpose: provide a model-specific, relationship-preserving markdown corpus for N
 - 04_file_catalog.md: complete file catalogue with tree memberships and reference counts
 - 05_cross_reference_graph.md: source-to-target cross-file references (intxref/intxrefpoff)
 - 06_torque_spec_lookup.md: extracted torque values and lookup anchors
-- content/content_XXXX.md: full text chunks of XML/HTML content with metadata
+- content_XXXX.md: full text chunks of XML/HTML content with metadata
 
 ## Notes on K14D Exclusion
 - Any file whose indexed title includes K14D is excluded from content and graph export.
