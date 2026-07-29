@@ -1,0 +1,2777 @@
+# Navigation Tree: Bookmarks
+
+This tree is filtered to remove explicit K14D-labelled nodes only.
+
+- Folder: A - Foreword
+  - File: IMPORTANT | Title: IMPORTANT | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword01/Foreword01.htm
+  - File: FOREWORD | Title: FOREWORD | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword02/Foreword02.htm
+  - File: Applicable Model / VIN | Title: Applicable Model / VIN | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword03/Foreword03.htm
+  - File: Table of Contents | Title: Table of Contents | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword04/Foreword04.htm
+  - File: History of Modification | Title: History of Modification | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword05/Foreword05.htm
+  - File: Recommendation of Genuine SUZUKI Parts and Accessories Use | Title: Recommendation of Genuine SUZUKI Parts and Accessories Use | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword06/Foreword06.htm
+- Folder: 00 - Precautions
+  - Folder: 00 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Electrical Circuit Service | Title: Precautions for Electrical Circuit Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000002.xml
+      - File: Caution for Fastener | Title: Caution for Fastener | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000003.xml
+      - File: Warning for ENG A-STOP System | Title: Warning for ENG A-STOP System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000004.xml
+      - File: Caution for Servicing SHVS System (48V) | Title: Caution for Servicing SHVS System (48V) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000023.xml
+      - File: Precautions for Catalytic Converter | Title: Precautions for Catalytic Converter | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000005.xml
+      - File: Caution for Suspension | Title: Caution for Suspension | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000006.xml
+      - File: Caution for Wheel (with Tire) Removal | Title: Caution for Wheel (with Tire) Removal | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000007.xml
+      - File: Warning for Handling Emergency Flat Tire Repair Kit | Title: Warning for Handling Emergency Flat Tire Repair Kit | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000008.xml
+      - File: Warning for Wheel and Tire | Title: Warning for Wheel and Tire | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000009.xml
+      - File: Warning for Brake | Title: Warning for Brake | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000011.xml
+      - File: Warning for P/S System | Title: Warning for P/S System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000013.xml
+      - File: Precautions for Vehicle Equipped with ESP® System | Title: Precautions for Vehicle Equipped with ESP&#174; System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000014.xml
+      - File: Warning for Air Bag | Title: Warning for Air Bag | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000015.xml
+      - File: Warning for Vehicle Equipped with Supplemental Restraint (Air Bag) System | Title: Warning for Vehicle Equipped with Supplemental Restraint (Air Bag) System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000016.xml
+      - File: Precautions for Installing Mobile Communication Equipment | Title: Precautions for Installing Mobile Communication Equipment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000017.xml
+      - File: Precautions for Adaptive Cruise Control System | Title: Precautions for Adaptive Cruise Control System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000021.xml
+      - File: Warning for Dual Sensor Brake Support System | Title: Warning for Dual Sensor Brake Support System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000019.xml
+      - File: Warning for Servicing Dual Sensor Brake Support System | Title: Warning for Servicing Dual Sensor Brake Support System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000020.xml
+      - File: Warning for Blind Spot Monitor System | Title: Warning for Blind Spot Monitor System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0000022.xml
+    - Folder: Repair Instructions
+      - File: Electrical Circuit Inspection Procedure | Title: Electrical Circuit Inspection Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0006001.xml
+      - File: Intermittent Connection and Poor Contact Inspection | Title: Intermittent Connection and Poor Contact Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0006002.xml
+- Folder: 0 - General Information
+  - Folder: 0A - General Information
+    - Folder: General Description
+      - File: Abbreviations | Title: Abbreviations | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101001.xml
+      - File: ISO-to-SUZUKI Term | Title: ISO-to-SUZUKI Term | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101002.xml
+      - File: Symbols | Title: Symbols | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101003.xml
+      - File: Wire Color / Connector Color Symbols | Title: Wire Color / Connector Color Symbols | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101004.xml
+      - File: Ignition Modes and Ignition Switch Positions | Title: Ignition Modes and Ignition Switch Positions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101005.xml
+      - File: Fasteners Information | Title: Fasteners Information | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101006.xml
+      - File: Vehicle Lifting Points | Title: Vehicle Lifting Points | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101007.xml
+      - File: Vehicle Identification Number | Title: Vehicle Identification Number | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101008.xml
+      - File: Identification Plate | Title: Identification Plate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101009.xml
+      - File: Engine Identification Number | Title: Engine Identification Number | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101010.xml
+      - File: Transaxle Identification Number | Title: Transaxle Identification Number | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0101011.xml
+    - Folder: Component Location
+      - Folder: Models
+        - Folder: K14C
+          - File: Warning, Caution and Information Location | Title: Warning, Caution and Information Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0103001.xml
+  - Folder: 0B - Maintenance and Lubrication
+    - Folder: Scheduled Maintenance
+      - File: Maintenance Schedule under Normal Driving Conditions (for Europe) | Title: Maintenance Schedule under Normal Driving Conditions (for Europe) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0205001.xml
+      - Folder: K14C
+        - File: Maintenance Schedule under Normal Driving Conditions (Except for Europe) | Title: Maintenance Schedule under Normal Driving Conditions (Except for Europe) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0205002.xml
+        - File: Maintenance Recommended under Severe Driving Conditions (Except for Europe) | Title: Maintenance Recommended under Severe Driving Conditions (Except for Europe) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0205004.xml
+      - File: Maintenance Recommended under Severe Driving Conditions (for Europe) | Title: Maintenance Recommended under Severe Driving Conditions (for Europe) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0205003.xml
+    - Folder: Repair Instructions
+      - Folder: Models
+        - Folder: K14C
+          - File: Accessory Drive Belt Inspection | Title: Accessory Drive Belt Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206001.xml
+          - File: Accessory Drive Belt Replacement | Title: Accessory Drive Belt Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206002.xml
+          - File: Engine Oil and Filter Change | Title: Engine Oil and Filter Change | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206004.xml
+          - File: Engine Coolant Change | Title: Engine Coolant Change | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206006.xml
+          - File: Exhaust System Inspection | Title: Exhaust System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206007.xml
+          - File: Spark Plug Replacement | Title: Spark Plug Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206008.xml
+          - File: Air Cleaner Filter Inspection | Title: Air Cleaner Filter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206009.xml
+          - File: Air Cleaner Filter Replacement | Title: Air Cleaner Filter Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206010.xml
+          - File: Fuel Tank, Cap Gasket and Fuel Line Inspection | Title: Fuel Tank, Cap Gasket and Fuel Line Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206011.xml
+          - File: PCV Valve Inspection | Title: PCV Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206013.xml
+          - File: Fuel Evaporative Emission Control System Inspection | Title: Fuel Evaporative Emission Control System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206014.xml
+      - Folder: K14C
+        - File: Fuel Injection Inspection (K14C Model) | Title: Fuel Injection Inspection (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206005.xml
+        - File: Fuel Filter Replacement (K14C Model) | Title: Fuel Filter Replacement (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206012.xml
+      - File: Brake Disc and Pad Inspection | Title: Brake Disc and Pad Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206015.xml
+      - File: Brake Hose and Pipe Inspection | Title: Brake Hose and Pipe Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206017.xml
+      - File: Brake Fluid Inspection | Title: Brake Fluid Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206018.xml
+      - File: Brake Pedal Inspection | Title: Brake Pedal Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206019.xml
+      - File: Brake Fluid Replacement | Title: Brake Fluid Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206020.xml
+      - File: Brake Lever and Cable Inspection | Title: Brake Lever and Cable Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206021.xml
+      - File: Clutch Pedal Inspection (M/T Model) | Title: Clutch Pedal Inspection (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206022.xml
+      - File: Clutch Fluid Inspection (M/T Model) | Title: Clutch Fluid Inspection (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206023.xml
+      - File: Clutch Fluid Replacement (M/T Model) | Title: Clutch Fluid Replacement (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206024.xml
+      - File: Tire Inspection | Title: Tire Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206025.xml
+      - File: Wheel Disc Inspection | Title: Wheel Disc Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206026.xml
+      - File: Wheel Bearing Inspection | Title: Wheel Bearing Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206027.xml
+      - File: Drive Shaft (Axle) Boot Inspection | Title: Drive Shaft (Axle) Boot Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206028.xml
+      - File: Suspension System Inspection | Title: Suspension System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206029.xml
+      - File: Steering System Inspection | Title: Steering System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206030.xml
+      - File: Manual Transaxle Oil Inspection (M/T Model) | Title: Manual Transaxle Oil Inspection (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206032.xml
+      - File: Manual Transaxle Oil Replacement (M/T Model) | Title: Manual Transaxle Oil Replacement (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206033.xml
+      - File: ATF Leakage Inspection (A/T Model) | Title: ATF Leakage Inspection (A/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206037.xml
+      - File: ATF Change (A/T Model) | Title: ATF Change (A/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206038.xml
+      - File: All Latches, Hinges and Locks Inspection | Title: All Latches, Hinges and Locks Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206043.xml
+      - File: HVAC Air Filter Inspection | Title: HVAC Air Filter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206044.xml
+      - File: HVAC Air Filter Replacement | Title: HVAC Air Filter Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206045.xml
+      - File: Final Inspection for Maintenance Service | Title: Final Inspection for Maintenance Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0206046.xml
+    - Folder: Special Tools and Equipment
+      - Folder: Models
+        - Folder: K14C
+          - File: Recommended Fluids and Lubricants | Title: Recommended Fluids and Lubricants | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A0208001.xml
+- Folder: 1 - Engine
+  - Folder: 1 - Precautions
+    - Folder: Precautions
+      - Folder: K14C
+        - File: Precautions for Engine (K14C) | Title: Precautions for Engine (K14C) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1000004.xml
+  - Folder: 1A - Engine General Information and Diagnosis
+    - Folder: General Description
+      - Folder: K14C
+        - File: Engine Diagnosis General Description | Title: Engine Diagnosis General Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111002.xml
+        - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111003.xml
+        - File: DLC Description | Title: DLC Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111004.xml
+        - File: Engine and Emission Control System Description | Title: Engine and Emission Control System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111005.xml
+        - File: Air Intake System Description | Title: Air Intake System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111006.xml
+        - File: Electric Throttle Control System Description | Title: Electric Throttle Control System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111007.xml
+        - File: Generator Control System Description | Title: Generator Control System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111008.xml
+        - File: Electronic Control System Description | Title: Electronic Control System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111009.xml
+        - File: Engine and Emission Control Input / Output Table | Title: Engine and Emission Control Input / Output Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1111010.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: K14C
+        - File: Engine and Emission Control System Diagram | Title: Engine and Emission Control System Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1112001.xml
+        - File: Engine and Emission Control System Flow Diagram | Title: Engine and Emission Control System Flow Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1112002.xml
+        - File: Electronic Control System Circuit Diagram | Title: Electronic Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1112003.xml
+    - Folder: Component Location
+      - Folder: K14C
+        - File: Electronic Control System Component Location | Title: Electronic Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1113001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Engine and Emission Control System Check | Title: Engine and Emission Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114001.xml
+        - File: MIL Check | Title: MIL Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114005.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114007.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114008.xml
+        - File: Engine Basic Inspection | Title: Engine Basic Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114009.xml
+        - File: Engine Symptom Diagnosis | Title: Engine Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114010.xml
+        - File: MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114011.xml
+        - File: MIL Remains ON after Engine Starts | Title: MIL Remains ON after Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114012.xml
+        - File: DTC P0010 / P2088 / P2089 | Title: DTC P0010 / P2088 / P2089 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114013.xml
+        - File: DTC P0011 | Title: DTC P0011 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114014.xml
+        - File: DTC P0016 | Title: DTC P0016 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114015.xml
+        - File: DTC P0030 / P0031 / P0032 | Title: DTC P0030 / P0031 / P0032 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114016.xml
+        - File: DTC P0033 / P0034 / P0035 | Title: DTC P0033 / P0034 / P0035 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114017.xml
+        - File: DTC P0036 / P0037 / P0038 | Title: DTC P0036 / P0037 / P0038 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114018.xml
+        - File: DTC P0039 | Title: DTC P0039 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114019.xml
+        - File: DTC P0087 / P0088 | Title: DTC P0087 / P0088 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114020.xml
+        - File: DTC P0090 / P0091 / P0092 | Title: DTC P0090 / P0091 / P0092 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114021.xml
+        - File: DTC P0097 / P0098 | Title: DTC P0097 / P0098 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114022.xml
+        - File: DTC P0102 / P0103 | Title: DTC P0102 / P0103 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114023.xml
+        - File: DTC P0107 / P0108 | Title: DTC P0107 / P0108 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114024.xml
+        - File: DTC P0112 / P0113 | Title: DTC P0112 / P0113 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114025.xml
+        - File: DTC P0116 | Title: DTC P0116 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114026.xml
+        - File: DTC P0117 / P0118 | Title: DTC P0117 / P0118 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114027.xml
+        - File: DTC P0122 / P0123 | Title: DTC P0122 / P0123 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114028.xml
+        - File: DTC P0131 / P0132 | Title: DTC P0131 / P0132 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114029.xml
+        - File: DTC P0133 | Title: DTC P0133 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114030.xml
+        - File: DTC P0134 | Title: DTC P0134 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114031.xml
+        - File: DTC P0137 / P0138 / P0140 | Title: DTC P0137 / P0138 / P0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114032.xml
+        - File: DTC P0171 / P0172 | Title: DTC P0171 / P0172 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114033.xml
+        - File: DTC P0192 / P0193 | Title: DTC P0192 / P0193 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114034.xml
+        - File: DTC P0197 / P0198 | Title: DTC P0197 / P0198 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114035.xml
+        - File: DTC P0201 / P0202 / P0203 / P0204 | Title: DTC P0201 / P0202 / P0203 / P0204 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114036.xml
+        - File: DTC P0222 / P0223 | Title: DTC P0222 / P0223 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114037.xml
+        - File: DTC P0237 / P0238 | Title: DTC P0237 / P0238 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114038.xml
+        - File: DTC P0244 / P0245 / P0246 | Title: DTC P0244 / P0245 / P0246 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114039.xml
+        - File: DTC P0300 / P0301 / P0302 / P0303 / P0304 | Title: DTC P0300 / P0301 / P0302 / P0303 / P0304 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114040.xml
+        - File: DTC P0327 / P0328 | Title: DTC P0327 / P0328 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114041.xml
+        - File: DTC P0335 / P0336 | Title: DTC P0335 / P0336 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114042.xml
+        - File: DTC P0340 | Title: DTC P0340 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114043.xml
+        - File: DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310 | Title: DTC P0351 / P0352 / P0353 / P0354 / P2300 / P2301 / P2303 / P2304 / P2306 / P2307 / P2309 / P2310 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114044.xml
+        - File: DTC P0420 | Title: DTC P0420 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114045.xml
+        - File: DTC P0443 / P0458 / P0459 | Title: DTC P0443 / P0458 / P0459 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114046.xml
+        - File: DTC P0480 / P0692 | Title: DTC P0480 / P0692 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114047.xml
+        - File: DTC P0481 / P0694 | Title: DTC P0481 / P0694 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114048.xml
+        - File: DTC P0482 / P0696 | Title: DTC P0482 / P0696 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114049.xml
+        - File: DTC P0500 | Title: DTC P0500 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114050.xml
+        - File: DTC P0504 | Title: DTC P0504 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114051.xml
+        - File: DTC P0515 | Title: DTC P0515 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114052.xml
+        - File: DTC P0530 | Title: DTC P0530 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114053.xml
+        - File: DTC P0560 / P0562 / P0563 | Title: DTC P0560 / P0562 / P0563 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114054.xml
+        - File: DTC P0602 | Title: DTC P0602 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114055.xml
+        - File: DTC P0606 | Title: DTC P0606 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114056.xml
+        - File: DTC P0607 | Title: DTC P0607 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114057.xml
+        - File: DTC P0645 / P0646 / P0647 | Title: DTC P0645 / P0646 / P0647 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114058.xml
+        - File: DTC P0A5A | Title: DTC P0A5A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114059.xml
+        - File: DTC P2100 | Title: DTC P2100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114060.xml
+        - File: DTC P2101 / P2119 | Title: DTC P2101 / P2119 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114061.xml
+        - File: DTC P2122 / P2123 | Title: DTC P2122 / P2123 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114062.xml
+        - File: DTC P2127 / P2128 | Title: DTC P2127 / P2128 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114063.xml
+        - File: DTC P2135 | Title: DTC P2135 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114064.xml
+        - File: DTC P2138 | Title: DTC P2138 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114065.xml
+        - File: DTC P2176 | Title: DTC P2176 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114066.xml
+        - File: DTC P2195 / P2196 | Title: DTC P2195 / P2196 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114067.xml
+        - File: DTC P2226 / P2227 | Title: DTC P2226 / P2227 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114068.xml
+        - File: DTC P2263 | Title: DTC P2263 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114069.xml
+        - File: DTC P2271 | Title: DTC P2271 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114070.xml
+        - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114071.xml
+        - File: DTC U0101 | Title: DTC U0101 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114072.xml
+        - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114073.xml
+        - File: DTC U0131 | Title: DTC U0131 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114074.xml
+        - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114075.xml
+        - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114076.xml
+        - File: DTC U108A | Title: DTC U108A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114078.xml
+        - File: DTC U1093 | Title: DTC U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114079.xml
+        - File: DTC U2001 | Title: DTC U2001 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114080.xml
+        - File: DTC U2021 | Title: DTC U2021 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114081.xml
+        - File: Inspection of ECM and Its Circuits | Title: Inspection of ECM and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114082.xml
+        - File: ECM Power Supply and Ground Circuit Check | Title: ECM Power Supply and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114083.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Idle Speed Inspection | Title: Idle Speed Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1116001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1118001.xml
+  - Folder: 1B - Aux. Emission Control Devices
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: EVAP Canister Purge System Inspection | Title: EVAP Canister Purge System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1214001.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: EVAP System Components | Title: EVAP System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216001.xml
+        - File: EVAP Canister Purge Valve Inspection | Title: EVAP Canister Purge Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216002.xml
+        - File: EVAP Canister Removal and Installation | Title: EVAP Canister Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216003.xml
+        - File: EVAP Canister Inspection | Title: EVAP Canister Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216004.xml
+        - File: EVAP Connection Hose Inspection | Title: EVAP Connection Hose Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216005.xml
+        - File: PCV Hose Inspection | Title: PCV Hose Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216006.xml
+        - File: PCV Valve On-Vehicle Inspection | Title: PCV Valve On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216007.xml
+        - File: PCV Valve Inspection | Title: PCV Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216008.xml
+        - File: Fuel Cut Valve Inspection | Title: Fuel Cut Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1216009.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1218001.xml
+    - Folder: General Description
+    - Folder: Specifications
+  - Folder: 1C - Engine Electrical Devices
+    - Folder: General Description
+      - Folder: K14C
+        - File: Engine Electrical Devices Description | Title: Engine Electrical Devices Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1311001.xml
+    - Folder: Component Location
+      - Folder: K14C
+        - File: Electric Control System Component Location | Title: Electric Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1313001.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: ECM Removal and Installation | Title: ECM Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316001.xml
+        - File: Procedure after ECM Replacement | Title: Procedure after ECM Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316002.xml
+        - File: Electric Throttle Body Assembly On-Vehicle Inspection | Title: Electric Throttle Body Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316003.xml
+        - File: Electric Throttle Control System Calibration | Title: Electric Throttle Control System Calibration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316004.xml
+        - File: ECM Learning Procedure of Engine Torque | Title: ECM Learning Procedure of Engine Torque | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316005.xml
+        - File: APP Sensor On-Vehicle Inspection | Title: APP Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316006.xml
+        - File: Accelerator Pedal Assembly (Incorporating APP Sensor) Removal and Installation | Title: Accelerator Pedal Assembly (Incorporating APP Sensor) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316007.xml
+        - File: APP Sensor Inspection | Title: APP Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316008.xml
+        - File: MAP Sensor Removal and Installation | Title: MAP Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316009.xml
+        - File: MAP Sensor Inspection | Title: MAP Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316010.xml
+        - File: Oil Temperature Sensor On-Vehicle Inspection | Title: Oil Temperature Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316011.xml
+        - File: Oil Temperature Sensor Removal and Installation | Title: Oil Temperature Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316012.xml
+        - File: Oil Temperature Sensor Inspection | Title: Oil Temperature Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316013.xml
+        - File: ECT Sensor On-Vehicle Inspection | Title: ECT Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316014.xml
+        - File: ECT Sensor Removal and Installation | Title: ECT Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316015.xml
+        - File: ECT Sensor Inspection | Title: ECT Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316016.xml
+        - File: HO2S-1 and HO2S-2 On-Vehicle Inspection | Title: HO2S-1 and HO2S-2 On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316017.xml
+        - File: HO2S-1 and HO2S-2 Removal and Installation | Title: HO2S-1 and HO2S-2 Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316018.xml
+        - File: CMP Sensor Inspection | Title: CMP Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316019.xml
+        - File: CMP Sensor Removal and Installation | Title: CMP Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316020.xml
+        - File: CKP Sensor Removal and Installation | Title: CKP Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316021.xml
+        - File: CKP Sensor Inspection | Title: CKP Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316022.xml
+        - File: Knock Sensor On-Vehicle Inspection | Title: Knock Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316023.xml
+        - File: Knock Sensor Removal and Installation | Title: Knock Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316024.xml
+        - File: Engine and Emission Control System Relay Inspection | Title: Engine and Emission Control System Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316025.xml
+        - File: MAF Sensor with IAT Sensor-1 Removal and Installation | Title: MAF Sensor with IAT Sensor-1 Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316026.xml
+        - File: MAF Sensor with IAT Sensor-1 Inspection | Title: MAF Sensor with IAT Sensor-1 Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316027.xml
+        - File: Boost Pressure Sensor with IAT Sensor-2 Removal and Installation | Title: Boost Pressure Sensor with IAT Sensor-2 Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316028.xml
+        - File: Boost Pressure Sensor with IAT Sensor-2 Inspection | Title: Boost Pressure Sensor with IAT Sensor-2 Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316029.xml
+        - File: ABV-VSV On-Vehicle Inspection | Title: ABV-VSV On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316030.xml
+        - File: ABV-VSV Removal and Installation | Title: ABV-VSV Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316031.xml
+        - File: ABV-VSV Inspection | Title: ABV-VSV Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316032.xml
+        - File: WGV-VSV On-Vehicle Inspection | Title: WGV-VSV On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316033.xml
+        - File: WGV-VSV Removal and Installation | Title: WGV-VSV Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316034.xml
+        - File: WGV-VSV Inspection | Title: WGV-VSV Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316035.xml
+        - File: OCV Inspection | Title: OCV Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316036.xml
+        - File: Electric Load Current Sensor On-Vehicle Inspection | Title: Electric Load Current Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1316037.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1317001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1318001.xml
+  - Folder: 1D - Engine Mechanical
+    - Folder: General Description
+      - Folder: K14C
+        - File: Engine Construction Description | Title: Engine Construction Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1411001.xml
+        - File: VVT System Description | Title: VVT System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1411002.xml
+        - File: Turbocharger Description | Title: Turbocharger Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1411003.xml
+        - File: Vacuum Pump Description | Title: Vacuum Pump Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1411004.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Compression Check | Title: Compression Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1414001.xml
+        - File: Intake Manifold Vacuum Check | Title: Intake Manifold Vacuum Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1414002.xml
+        - File: Turbocharger On-Vehicle Inspection | Title: Turbocharger On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1414003.xml
+        - File: Waste Gate Valve On-Vehicle Inspection | Title: Waste Gate Valve On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1414004.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Air Cleaner Components | Title: Air Cleaner Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416001.xml
+        - File: Air Cleaner Filter Removal and Installation | Title: Air Cleaner Filter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416002.xml
+        - File: Air Cleaner Filter Inspection and Cleaning | Title: Air Cleaner Filter Inspection and Cleaning | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416003.xml
+        - File: Air Cleaner Assembly Removal and Installation | Title: Air Cleaner Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416004.xml
+        - File: Intercooler Components | Title: Intercooler Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416005.xml
+        - File: Intercooler On-Vehicle Inspection and Cleaning | Title: Intercooler On-Vehicle Inspection and Cleaning | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416006.xml
+        - File: Intercooler Removal and Installation | Title: Intercooler Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416007.xml
+        - File: Vacuum Pump Removal and Installation | Title: Vacuum Pump Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416008.xml
+        - File: Vacuum Pump Inspection | Title: Vacuum Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416009.xml
+        - File: Turbocharger Components | Title: Turbocharger Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416010.xml
+        - File: Air Bypass Valve Removal and Installation | Title: Air Bypass Valve Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416011.xml
+        - File: Air Bypass Valve Inspection | Title: Air Bypass Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416012.xml
+        - File: Check Valve Removal and Installation | Title: Check Valve Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416013.xml
+        - File: Check Valve Inspection | Title: Check Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416014.xml
+        - File: Turbocharger Removal and Installation | Title: Turbocharger Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416015.xml
+        - File: Turbocharger Inspection | Title: Turbocharger Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416016.xml
+        - File: Electric Throttle Body and Intake Manifold Components | Title: Electric Throttle Body and Intake Manifold Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416017.xml
+        - File: Electric Throttle Body On-Vehicle Inspection | Title: Electric Throttle Body On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416018.xml
+        - File: Electric Throttle Body Assembly Removal and Installation | Title: Electric Throttle Body Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416019.xml
+        - File: Electric Throttle Body Cleaning | Title: Electric Throttle Body Cleaning | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416020.xml
+        - File: Intake Manifold Removal and Installation | Title: Intake Manifold Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416021.xml
+        - File: Cylinder Head Cover Components | Title: Cylinder Head Cover Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416022.xml
+        - File: Cylinder Head Cover Removal and Installation | Title: Cylinder Head Cover Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416023.xml
+        - File: Engine Mounting Components | Title: Engine Mounting Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416024.xml
+        - File: Engine Assembly Removal and Installation | Title: Engine Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416025.xml
+        - File: Timing Chain Cover Components | Title: Timing Chain Cover Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416026.xml
+        - File: Timing Chain Cover Removal and Installation | Title: Timing Chain Cover Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416027.xml
+        - File: Timing Chain Cover Inspection | Title: Timing Chain Cover Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416028.xml
+        - File: OCV Removal and Installation | Title: OCV Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416029.xml
+        - File: Flywheel / Drive Plate Removal and Installation | Title: Flywheel / Drive Plate Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416030.xml
+        - File: Flywheel / Drive Plate Inspection | Title: Flywheel / Drive Plate Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416031.xml
+        - File: Timing Chain and Chain Tensioner Components | Title: Timing Chain and Chain Tensioner Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416032.xml
+        - File: Timing Chain and Chain Tensioner Removal and Installation | Title: Timing Chain and Chain Tensioner Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416033.xml
+        - File: Timing Chain and Chain Tensioner Inspection | Title: Timing Chain and Chain Tensioner Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416034.xml
+        - File: Camshaft Components | Title: Camshaft Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416035.xml
+        - File: Camshaft Removal and Installation | Title: Camshaft Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416036.xml
+        - File: Camshaft and VVT Actuator Inspection | Title: Camshaft and VVT Actuator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416037.xml
+        - File: Valve and Cylinder Head Components | Title: Valve and Cylinder Head Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416038.xml
+        - File: Valve and Cylinder Head Removal and Installation | Title: Valve and Cylinder Head Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416039.xml
+        - File: Valve Rocker Arm Inspection | Title: Valve Rocker Arm Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416040.xml
+        - File: Valve and Cylinder Head Disassembly and Reassembly | Title: Valve and Cylinder Head Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416041.xml
+        - File: Valve and Valve Guide Inspection | Title: Valve and Valve Guide Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416042.xml
+        - File: Cylinder Head Inspection | Title: Cylinder Head Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416043.xml
+        - File: Cylinder Head Bolt Inspection | Title: Cylinder Head Bolt Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416044.xml
+        - File: Valve Spring Inspection | Title: Valve Spring Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416045.xml
+        - File: Piston, Piston Ring, Connecting Rod and Cylinder Components | Title: Piston, Piston Ring, Connecting Rod and Cylinder Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416046.xml
+        - File: Piston, Piston Ring, Connecting Rod and Cylinder Removal and Installation | Title: Piston, Piston Ring, Connecting Rod and Cylinder Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416047.xml
+        - File: Piston, Piston Ring, Connecting Rod and Cylinder Disassembly and Reassembly | Title: Piston, Piston Ring, Connecting Rod and Cylinder Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416048.xml
+        - File: Cylinder, Piston and Piston Ring Inspection | Title: Cylinder, Piston and Piston Ring Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416049.xml
+        - File: Piston Pin and Connecting Rod Inspection | Title: Piston Pin and Connecting Rod Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416050.xml
+        - File: Crankshaft Pin and Connecting Rod Bearing Inspection | Title: Crankshaft Pin and Connecting Rod Bearing Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416051.xml
+        - File: Main Bearing, Crankshaft and Cylinder Block Components | Title: Main Bearing, Crankshaft and Cylinder Block Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416052.xml
+        - File: Main Bearing, Crankshaft and Cylinder Block Removal and Installation | Title: Main Bearing, Crankshaft and Cylinder Block Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416053.xml
+        - File: Crankshaft Inspection | Title: Crankshaft Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416054.xml
+        - File: Main Bearing Inspection | Title: Main Bearing Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416055.xml
+        - File: Sensor Plate Inspection | Title: Sensor Plate Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416056.xml
+        - File: Piston Cooling Jet Inspection | Title: Piston Cooling Jet Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416057.xml
+        - File: Cylinder Block Inspection | Title: Cylinder Block Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1416058.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1417001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1418001.xml
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1418002.xml
+  - Folder: 1E - Engine Lubrication System
+    - Folder: General Description
+      - Folder: K14C
+        - File: Engine Lubrication Description | Title: Engine Lubrication Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1511001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Oil Pressure Check | Title: Oil Pressure Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1514001.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Engine Oil and Filter Change | Title: Engine Oil and Filter Change | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516001.xml
+        - File: Oil Pressure Switch On-Vehicle Inspection | Title: Oil Pressure Switch On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516002.xml
+        - File: Oil Pressure Switch Removal and Installation | Title: Oil Pressure Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516003.xml
+        - File: Oil Cooler Components | Title: Oil Cooler Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516004.xml
+        - File: Oil Cooler Removal and Installation | Title: Oil Cooler Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516005.xml
+        - File: Oil Pan and Oil Pump Strainer Components | Title: Oil Pan and Oil Pump Strainer Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516006.xml
+        - File: Oil Pan and Oil Pump Strainer Removal and Installation | Title: Oil Pan and Oil Pump Strainer Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516007.xml
+        - File: Oil Pump Assembly Components | Title: Oil Pump Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516008.xml
+        - File: Oil Pump Assembly Removal and Installation | Title: Oil Pump Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516009.xml
+        - File: Oil Pump Assembly Disassembly and Reassembly | Title: Oil Pump Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516010.xml
+        - File: Oil Pump Inspection | Title: Oil Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1516011.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1517001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1518001.xml
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1518002.xml
+    - Folder: Precautions
+  - Folder: 1F - Engine Cooling System
+    - Folder: Precautions
+      - Folder: K14C
+        - File: Precautions for Cooling System | Title: Precautions for Cooling System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1610001.xml
+    - Folder: General Description
+      - Folder: K14C
+        - File: Cooling System Description | Title: Cooling System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1611001.xml
+        - File: Coolant Description | Title: Coolant Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1611002.xml
+        - File: Cooling Fan Operation Description | Title: Cooling Fan Operation Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1611003.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: K14C
+        - File: Coolant Circulation | Title: Coolant Circulation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1612001.xml
+        - File: Radiator Cooling Fan Control System Circuit Diagram | Title: Radiator Cooling Fan Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1612002.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Engine Cooling Symptom Diagnosis | Title: Engine Cooling Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1614001.xml
+        - File: Radiator Cooling Fan System Check | Title: Radiator Cooling Fan System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1614002.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Cooling System Components | Title: Cooling System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616001.xml
+        - File: Coolant Level Check | Title: Coolant Level Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616002.xml
+        - File: Engine Cooling System Inspection | Title: Engine Cooling System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616003.xml
+        - File: Cooling System Draining | Title: Cooling System Draining | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616004.xml
+        - File: Cooling System Refilling | Title: Cooling System Refilling | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616005.xml
+        - File: Cooling Water Pipe or Hose Removal and Installation | Title: Cooling Water Pipe or Hose Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616006.xml
+        - File: Thermostat Removal and Installation | Title: Thermostat Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616007.xml
+        - File: Thermostat Inspection | Title: Thermostat Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616008.xml
+        - File: Radiator Cooling Fan Assembly On-Vehicle Inspection | Title: Radiator Cooling Fan Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616009.xml
+        - File: Radiator Cooling Fan Relay Inspection | Title: Radiator Cooling Fan Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616010.xml
+        - File: Radiator Cooling Fan Assembly Removal and Installation | Title: Radiator Cooling Fan Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616011.xml
+        - File: Radiator Cooling Fan Disassembly and Reassembly | Title: Radiator Cooling Fan Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616012.xml
+        - File: Radiator On-Vehicle Inspection and Cleaning | Title: Radiator On-Vehicle Inspection and Cleaning | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616013.xml
+        - File: Radiator Removal and Installation | Title: Radiator Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616014.xml
+        - File: Water Pump Removal and Installation | Title: Water Pump Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616015.xml
+        - File: Water Pump Inspection | Title: Water Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1616016.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1617001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1618001.xml
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1618002.xml
+  - Folder: 1G - Fuel System
+    - Folder: Precautions
+      - Folder: K14C
+        - File: Precautions for Fuel System Service | Title: Precautions for Fuel System Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1710001.xml
+    - Folder: General Description
+      - Folder: K14C
+        - File: Fuel System Description | Title: Fuel System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1711001.xml
+        - File: Fuel Pump Description | Title: Fuel Pump Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1711002.xml
+        - File: Fuel Injector Cleaning Description | Title: Fuel Injector Cleaning Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1711003.xml
+        - File: High Pressure Fuel Pump Description | Title: High Pressure Fuel Pump Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1711004.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: K14C
+        - File: Fuel Delivery System Diagram | Title: Fuel Delivery System Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1712001.xml
+        - File: Fuel Injector Control System Circuit Diagram | Title: Fuel Injector Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1712002.xml
+        - File: Fuel Pump Control System Circuit Diagram | Title: Fuel Pump Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1712003.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Fuel System Inspection | Title: Fuel System Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714001.xml
+        - File: Power Balance Test | Title: Power Balance Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714002.xml
+        - File: Fuel Injector Circuit Check | Title: Fuel Injector Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714003.xml
+        - File: Fuel Pump and Its Circuit Check | Title: Fuel Pump and Its Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714004.xml
+        - File: High Pressure Fuel Pump and Its Circuit Check | Title: High Pressure Fuel Pump and Its Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714005.xml
+        - File: Fuel Pressure Sensor and Its Circuit Check | Title: Fuel Pressure Sensor and Its Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714006.xml
+        - File: Low-Pressure Fuel Supply Circuit Check | Title: Low-Pressure Fuel Supply Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714007.xml
+        - File: High-Pressure Fuel Supply Circuit Check | Title: High-Pressure Fuel Supply Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714008.xml
+        - File: Fuel Low-Pressure Basic Check | Title: Fuel Low-Pressure Basic Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714009.xml
+        - File: Fuel High-Pressure Basic Check | Title: Fuel High-Pressure Basic Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1714010.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Fuel System Components | Title: Fuel System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716001.xml
+        - File: Fuel Hose Disconnection and Reconnection | Title: Fuel Hose Disconnection and Reconnection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716002.xml
+        - File: Fuel Pressure Relief Procedure | Title: Fuel Pressure Relief Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716003.xml
+        - File: Fuel Leakage Check Procedure | Title: Fuel Leakage Check Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716004.xml
+        - File: Fuel Line On-Vehicle Inspection | Title: Fuel Line On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716005.xml
+        - File: Fuel Pipe Removal and Installation | Title: Fuel Pipe Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716006.xml
+        - File: Fuel Pressure Sensor On-Vehicle Inspection | Title: Fuel Pressure Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716007.xml
+        - File: High Pressure Pipe Removal and Installation | Title: High Pressure Pipe Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716008.xml
+        - File: High Pressure Fuel Pump On-Vehicle Inspection | Title: High Pressure Fuel Pump On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716009.xml
+        - File: High Pressure Fuel Pump Removal and Installation | Title: High Pressure Fuel Pump Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716010.xml
+        - File: High Pressure Fuel Pump Inspection | Title: High Pressure Fuel Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716011.xml
+        - File: Fuel Injector On-Vehicle Inspection | Title: Fuel Injector On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716012.xml
+        - File: Fuel Injector Removal and Installation | Title: Fuel Injector Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716013.xml
+        - File: Fuel Injector Inspection | Title: Fuel Injector Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716014.xml
+        - File: Fuel Injector Carbon Deposit Inspection | Title: Fuel Injector Carbon Deposit Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716015.xml
+        - File: Fuel Injector Cleaning Procedure | Title: Fuel Injector Cleaning Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716016.xml
+        - File: Fuel Filler Cap Inspection | Title: Fuel Filler Cap Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716017.xml
+        - File: Fuel Tank Removal and Installation | Title: Fuel Tank Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716018.xml
+        - File: Fuel Tank Inspection | Title: Fuel Tank Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716019.xml
+        - File: Fuel Tank Flushing Procedure | Title: Fuel Tank Flushing Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716020.xml
+        - File: Fuel Pump On-Vehicle Inspection | Title: Fuel Pump On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716021.xml
+        - File: Fuel Pump Assembly Removal and Installation | Title: Fuel Pump Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716022.xml
+        - File: Fuel Pump Inspection | Title: Fuel Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716023.xml
+        - File: Fuel Level Sensor Removal and Installation | Title: Fuel Level Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716024.xml
+        - File: Fuel Level Sensor Inspection | Title: Fuel Level Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1716025.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1717001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1718001.xml
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1718002.xml
+  - Folder: 1H - Ignition System
+    - Folder: General Description
+      - Folder: K14C
+        - File: Ignition System Construction | Title: Ignition System Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1811001.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: K14C
+        - File: Ignition System Circuit Diagram | Title: Ignition System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1812001.xml
+    - Folder: Component Location
+      - Folder: K14C
+        - File: Ignition System Component Location | Title: Ignition System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1813001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Ignition System Check | Title: Ignition System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1814001.xml
+        - File: Ignition Spark Test | Title: Ignition Spark Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1814002.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Spark Plug Removal and Installation | Title: Spark Plug Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1816001.xml
+        - File: Spark Plug Inspection | Title: Spark Plug Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1816002.xml
+        - File: Ignition Coil Assembly Removal and Installation | Title: Ignition Coil Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1816003.xml
+        - File: Ignition Coil Assembly Inspection | Title: Ignition Coil Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1816004.xml
+        - File: Ignition Timing Inspection | Title: Ignition Timing Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1816005.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1817001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1818001.xml
+  - Folder: 1I - Starting System
+    - Folder: General Description
+      - Folder: K14C
+        - File: Cranking System Description | Title: Cranking System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1911001.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: K14C
+        - File: Cranking System Circuit Diagram | Title: Cranking System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1912001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Cranking System Symptom Diagnosis | Title: Cranking System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914001.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Starting Motor Control Relay Inspection | Title: Starting Motor Control Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1916001.xml
+        - File: Starting Motor Removal and Installation | Title: Starting Motor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1916002.xml
+        - File: Starting Motor Components | Title: Starting Motor Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1916003.xml
+        - File: Starting Motor Disassembly and Reassembly | Title: Starting Motor Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1916005.xml
+        - File: Starting Motor Inspection | Title: Starting Motor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1916007.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Cranking System Specifications | Title: Cranking System Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1917001.xml
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1917002.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1918001.xml
+  - Folder: 1J - Charging System
+    - Folder: Precautions
+      - Folder: K14C
+        - File: Precautions for Handling Battery | Title: Precautions for Handling Battery | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A10001.xml
+    - Folder: General Description
+      - Folder: K14C
+        - File: Battery Description | Title: Battery Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A11001.xml
+        - File: Generator Description | Title: Generator Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A11002.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Battery Inspection | Title: Battery Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14001.xml
+        - File: Generator Symptom Diagnosis | Title: Generator Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14002.xml
+        - File: Generator Test | Title: Generator Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14003.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Jump-Starting in Case of Emergency | Title: Jump-Starting in Case of Emergency | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16001.xml
+        - File: Battery Removal and Installation | Title: Battery Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16002.xml
+        - File: Water Pump / Generator Drive Belt Tension Inspection and Adjustment | Title: Water Pump / Generator Drive Belt Tension Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16003.xml
+        - File: Water Pump / Generator Drive Belt Removal and Installation | Title: Water Pump / Generator Drive Belt Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16004.xml
+        - File: Generator Removal and Installation | Title: Generator Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16005.xml
+        - File: Water Pump / Generator Drive Belt Idler Pulley Removal and Installation | Title: Water Pump / Generator Drive Belt Idler Pulley Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16006.xml
+        - File: Generator Components | Title: Generator Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16007.xml
+        - File: Generator Disassembly and Reassembly | Title: Generator Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16008.xml
+        - File: Generator Inspection | Title: Generator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A16009.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Charging System Specifications | Title: Charging System Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A17001.xml
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A17002.xml
+    - Folder: Special Tools and Equipment
+      - Folder: K14C
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A18001.xml
+  - Folder: 1K - Exhaust System
+    - Folder: General Description
+      - Folder: K14C
+        - File: Exhaust System Description | Title: Exhaust System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B11001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: K14C
+        - File: Exhaust System Check | Title: Exhaust System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B14001.xml
+    - Folder: Repair Instructions
+      - Folder: K14C
+        - File: Exhaust System Components | Title: Exhaust System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B16001.xml
+        - File: Catalytic Converter Removal and Installation | Title: Catalytic Converter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B16002.xml
+        - File: Catalytic Converter Inspection | Title: Catalytic Converter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B16003.xml
+        - File: Exhaust Pipe and Muffler Removal and Installation | Title: Exhaust Pipe and Muffler Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B16004.xml
+    - Folder: Specifications
+      - Folder: K14C
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1B17001.xml
+- Folder: 2 - Suspension
+  - Folder: 2 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Suspension | Title: Precautions for Suspension | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2000001.xml
+  - Folder: 2A - Suspension General Diagnosis
+    - Folder: Diagnostic Information and Procedures
+      - File: Suspension, Wheel and Tire Symptom Diagnosis | Title: Suspension, Wheel and Tire Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104001.xml
+    - Folder: Repair Instructions
+      - File: Suspension System Check | Title: Suspension System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2106001.xml
+  - Folder: 2B - Front Suspension
+    - Folder: Precautions
+      - File: Precautions for Handling of Front Strut | Title: Precautions for Handling of Front Strut | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2200001.xml
+    - Folder: General Description
+      - File: Front Suspension Description | Title: Front Suspension Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2201001.xml
+      - File: Front Wheel Alignment Description | Title: Front Wheel Alignment Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2201002.xml
+    - Folder: Repair Instructions
+      - File: Front Wheel Alignment Inspection and Adjustment | Title: Front Wheel Alignment Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206001.xml
+      - File: Front Strut Assembly Components | Title: Front Strut Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206002.xml
+      - File: Front Strut Assembly Removal and Installation | Title: Front Strut Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206003.xml
+      - File: Front Strut Assembly Disassembly and Reassembly | Title: Front Strut Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206004.xml
+      - File: Front Strut Inspection | Title: Front Strut Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206005.xml
+      - File: Coil Spring, Strut Bearing and Strut Support Check | Title: Coil Spring, Strut Bearing and Strut Support Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206006.xml
+      - File: Suspension Arm Components | Title: Suspension Arm Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206007.xml
+      - File: Suspension Arm Removal and Installation | Title: Suspension Arm Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206008.xml
+      - File: Suspension Arm Check | Title: Suspension Arm Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206009.xml
+      - File: Suspension Arm Front Bushing Removal and Installation | Title: Suspension Arm Front Bushing Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206010.xml
+      - File: Suspension Arm Joint Dust Cover Removal and Installation | Title: Suspension Arm Joint Dust Cover Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206011.xml
+      - File: Front Suspension Frame and Stabilizer Bar Components | Title: Front Suspension Frame and Stabilizer Bar Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206012.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Front Suspension Frame, Stabilizer Bar and Bushing Removal and Installation | Title: Front Suspension Frame, Stabilizer Bar and Bushing Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206013.xml
+      - File: Front Suspension Frame Check | Title: Front Suspension Frame Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206014.xml
+      - File: Front Stabilizer Bar, Bushing and Joint Check | Title: Front Stabilizer Bar, Bushing and Joint Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206015.xml
+      - File: Front Suspension Fastener Check | Title: Front Suspension Fastener Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2206016.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2208001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2208002.xml
+  - Folder: 2C - Rear Suspension
+    - Folder: Precautions
+      - File: Precautions for Handling of Rear Vehicle Height Sensor (Headlight Auto Leveling Model) | Title: Precautions for Handling of Rear Vehicle Height Sensor (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2300001.xml
+      - File: Precautions for Handling of Rear Shock Absorber | Title: Precautions for Handling of Rear Shock Absorber | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2300002.xml
+    - Folder: General Description
+      - File: Rear Suspension Description | Title: Rear Suspension Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2301001.xml
+    - Folder: Repair Instructions
+      - File: Rear Wheel Alignment Inspection | Title: Rear Wheel Alignment Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306001.xml
+      - File: Rear Suspension Components | Title: Rear Suspension Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306002.xml
+      - File: Rear Shock Absorber Removal and Installation | Title: Rear Shock Absorber Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306003.xml
+      - File: Rear Shock Absorber Inspection | Title: Rear Shock Absorber Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306004.xml
+      - File: Rear Coil Spring and Spring Seat Removal and Installation | Title: Rear Coil Spring and Spring Seat Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306005.xml
+      - File: Rear Coil Spring and Spring Seat Check | Title: Rear Coil Spring and Spring Seat Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306006.xml
+      - File: Rear Axle Removal and Installation | Title: Rear Axle Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306007.xml
+      - File: Rear Axle Check | Title: Rear Axle Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306008.xml
+      - File: Rear Suspension Fastener Check | Title: Rear Suspension Fastener Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2306009.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2307001.xml
+  - Folder: 2D - Wheels and Tires
+    - Folder: Precautions
+      - File: Precautions for Emergency Flat Tire Repair Kit (If Equipped) | Title: Precautions for Emergency Flat Tire Repair Kit (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2400001.xml
+      - File: Precautions for Wheel and Tire Servicing | Title: Precautions for Wheel and Tire Servicing | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2400002.xml
+    - Folder: General Description
+      - File: Tire Description | Title: Tire Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401001.xml
+      - File: Replacement Tire Description | Title: Replacement Tire Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401002.xml
+      - File: Wheel Description | Title: Wheel Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401003.xml
+      - File: Replacement Wheel Description | Title: Replacement Wheel Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401004.xml
+      - File: Wheel-Tire Assembly Description | Title: Wheel-Tire Assembly Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401006.xml
+      - File: Tire Placard Description | Title: Tire Placard Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401007.xml
+      - File: Identification of Vehicle with TPMS | Title: Identification of Vehicle with TPMS | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2401008.xml
+    - Folder: Repair Instructions
+      - File: Wheel (with Tire) Removal and Installation | Title: Wheel (with Tire) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406001.xml
+      - File: Tire Inspection | Title: Tire Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406002.xml
+      - File: Wheel Inspection | Title: Wheel Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406003.xml
+      - File: Tire and/or Tire Pressure Sensor (If Equipped) Mounting and Dismounting | Title: Tire and/or Tire Pressure Sensor (If Equipped) Mounting and Dismounting | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406004.xml
+      - File: Treatment of Flat Tire Repaired with Sealant | Title: Treatment of Flat Tire Repaired with Sealant | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406005.xml
+      - File: Tire Rotation | Title: Tire Rotation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2406006.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2407001.xml
+- Folder: 3 - Driveline / Axle
+  - Folder: 3 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Driveline / Axle | Title: Precautions for Driveline / Axle | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3000001.xml
+  - Folder: 3A - Drive Shaft / Axle
+    - Folder: General Description
+      - Folder: Front
+        - File: Front Drive Shaft Construction | Title: Front Drive Shaft Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3111001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: Front
+        - File: Front Drive Shaft Symptom Diagnosis | Title: Front Drive Shaft Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3114001.xml
+    - Folder: Repair Instructions
+      - Folder: Front
+        - File: Front Drive Shaft Components | Title: Front Drive Shaft Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116001.xml
+        - File: Front Drive Shaft Assembly On-Vehicle Inspection | Title: Front Drive Shaft Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116002.xml
+        - File: Front Drive Shaft Assembly Removal and Installation | Title: Front Drive Shaft Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116003.xml
+        - File: Front Drive Shaft Assembly Disassembly and Reassembly | Title: Front Drive Shaft Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116004.xml
+        - File: Front Wheel Hub Assembly and Steering Knuckle Components | Title: Front Wheel Hub Assembly and Steering Knuckle Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116005.xml
+        - File: Front Wheel Bearing Check | Title: Front Wheel Bearing Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116006.xml
+        - File: Front Wheel Hub Assembly and Steering Knuckle Removal and Installation | Title: Front Wheel Hub Assembly and Steering Knuckle Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3116007.xml
+      - Folder: Rear
+        - File: Rear Axle Components | Title: Rear Axle Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3126001.xml
+        - File: Rear Wheel Bearing Check | Title: Rear Wheel Bearing Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3126002.xml
+        - File: Rear Wheel Hub Assembly Removal and Installation | Title: Rear Wheel Hub Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3126003.xml
+    - Folder: Specifications
+      - Folder: Front
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3117001.xml
+      - Folder: Rear
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3127001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: Front
+        - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3118001.xml
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3118002.xml
+- Folder: 4 - Brakes
+  - Folder: 4 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Brakes | Title: Precautions for Brakes | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4000001.xml
+  - Folder: 4A - Brake Control System and Diagnosis
+    - Folder: Precautions
+      - File: Precautions for Brake Service | Title: Precautions for Brake Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4100001.xml
+    - Folder: General Description
+      - File: Brake System Description | Title: Brake System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4101001.xml
+      - File: Brake Pedal Foot Protection Mechanism Construction | Title: Brake Pedal Foot Protection Mechanism Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4101002.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Brake Symptom Diagnosis | Title: Brake Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104001.xml
+    - Folder: Repair Instructions
+      - File: Brake Fluid Level Inspection | Title: Brake Fluid Level Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106001.xml
+      - File: Brake Fluid Level Switch Inspection | Title: Brake Fluid Level Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106002.xml
+      - Folder: K14C
+        - File: Brake Fluid Replacement | Title: Brake Fluid Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106003.xml
+      - File: Air Bleeding of Brake System | Title: Air Bleeding of Brake System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106004.xml
+      - File: Brake Pedal Components | Title: Brake Pedal Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106005.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Brake Pedal Assembly Removal and Installation | Title: Brake Pedal Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106006.xml
+          - File: Brake Flexible Hose and Pipe Removal and Installation | Title: Brake Flexible Hose and Pipe Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106014.xml
+          - File: Brake Booster Components | Title: Brake Booster Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106021.xml
+          - File: Brake Booster Removal and Installation | Title: Brake Booster Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106023.xml
+      - File: Brake Pedal Free Height Inspection | Title: Brake Pedal Free Height Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106007.xml
+      - File: Brake Pedal Play Inspection | Title: Brake Pedal Play Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106008.xml
+      - File: Excessive Pedal Travel Inspection | Title: Excessive Pedal Travel Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106009.xml
+      - File: Brake Light Switch On-Vehicle Inspection | Title: Brake Light Switch On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106010.xml
+      - File: Brake Light Switch Removal and Installation | Title: Brake Light Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106011.xml
+      - File: Brake Light Switch Inspection | Title: Brake Light Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106012.xml
+      - File: Brake Flexible Hose and Pipe Components | Title: Brake Flexible Hose and Pipe Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106013.xml
+      - File: Brake Flexible Hose and Pipe Inspection | Title: Brake Flexible Hose and Pipe Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106015.xml
+      - File: Brake Master Cylinder Components | Title: Brake Master Cylinder Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106016.xml
+      - File: Brake Master Cylinder Assembly On-Vehicle Inspection | Title: Brake Master Cylinder Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106017.xml
+      - File: Brake Master Cylinder Assembly Removal and Installation | Title: Brake Master Cylinder Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106018.xml
+      - File: Brake Master Cylinder Reservoir Removal and Installation | Title: Brake Master Cylinder Reservoir Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106019.xml
+      - File: Brake Master Cylinder Assembly Inspection | Title: Brake Master Cylinder Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106020.xml
+      - File: Brake Booster Function Check | Title: Brake Booster Function Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106022.xml
+      - File: Brake Booster Inspection | Title: Brake Booster Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106024.xml
+      - File: Brake Booster Pressure Sensor Inspection (If Equipped) | Title: Brake Booster Pressure Sensor Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4106026.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4107001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4108001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4108002.xml
+  - Folder: 4B - Front Brakes
+    - Folder: General Description
+      - File: Front Brake Description | Title: Front Brake Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4201001.xml
+    - Folder: Repair Instructions
+      - File: Front Brake Components | Title: Front Brake Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206001.xml
+      - File: Front Brake Pad On-Vehicle Inspection | Title: Front Brake Pad On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206002.xml
+      - File: Front Brake Pad Removal and Installation | Title: Front Brake Pad Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206003.xml
+      - File: Front Brake Pad Inspection | Title: Front Brake Pad Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206004.xml
+      - File: Front Brake Disc Removal and Installation | Title: Front Brake Disc Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206005.xml
+      - File: Front Brake Disc Inspection | Title: Front Brake Disc Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206006.xml
+      - File: Front Brake Caliper Removal and Installation | Title: Front Brake Caliper Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206007.xml
+      - File: Front Brake Caliper Disassembly and Reassembly | Title: Front Brake Caliper Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206008.xml
+      - File: Front Brake Caliper Inspection | Title: Front Brake Caliper Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4206009.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4208001.xml
+  - Folder: 4C - Rear Brakes
+    - Folder: General Description
+      - File: Rear Disc Brake Description | Title: Rear Disc Brake Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4301001.xml
+    - Folder: Repair Instructions
+      - File: Rear Disc Brake Components | Title: Rear Disc Brake Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306001.xml
+      - File: Rear Brake Pad On-Vehicle Inspection | Title: Rear Brake Pad On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306002.xml
+      - File: Rear Brake Pad Removal and Installation | Title: Rear Brake Pad Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306003.xml
+      - File: Rear Brake Pad Inspection | Title: Rear Brake Pad Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306004.xml
+      - File: Rear Brake Disc Removal and Installation | Title: Rear Brake Disc Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306005.xml
+      - File: Rear Brake Disc Inspection | Title: Rear Brake Disc Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306006.xml
+      - File: Rear Brake Caliper Removal and Installation | Title: Rear Brake Caliper Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306007.xml
+      - File: Rear Brake Caliper Disassembly and Reassembly | Title: Rear Brake Caliper Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306008.xml
+      - File: Rear Brake Caliper Inspection | Title: Rear Brake Caliper Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306009.xml
+      - File: Rear Brake Disc Dust Cover Removal and Installation | Title: Rear Brake Disc Dust Cover Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4306010.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4307001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4308001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4308002.xml
+  - Folder: 4D - Parking Brake
+    - Folder: General Description
+      - File: Parking Brake Description | Title: Parking Brake Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4401001.xml
+    - Folder: Repair Instructions
+      - File: Parking Brake Components | Title: Parking Brake Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406001.xml
+      - File: Parking Brake Inspection | Title: Parking Brake Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406002.xml
+      - File: Parking Brake Adjustment | Title: Parking Brake Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406003.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Parking Brake Cable Removal and Installation | Title: Parking Brake Cable Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406004.xml
+      - File: Parking Brake Cable Inspection | Title: Parking Brake Cable Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406005.xml
+      - File: Parking Brake Lever Removal and Installation | Title: Parking Brake Lever Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406006.xml
+      - File: Parking Brake Switch Removal and Installation | Title: Parking Brake Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406007.xml
+      - File: Parking Brake Switch Inspection | Title: Parking Brake Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4406008.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4407001.xml
+  - Folder: 4F - Electronic Stability Program
+    - Folder: Precautions
+      - File: Precautions for ESP® | Title: Precautions for ESP&#174; | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4600001.xml
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4600002.xml
+      - File: Test with Speedometer Tester or Other Equipment | Title: Test with Speedometer Tester or Other Equipment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4600003.xml
+    - Folder: General Description
+      - File: ABS Description | Title: ABS Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601001.xml
+      - File: ESP® Description | Title: ESP&#174; Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601002.xml
+      - File: ESP® Component Description | Title: ESP&#174; Component Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601003.xml
+      - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601004.xml
+      - File: Warning / Indicator Light Description | Title: Warning / Indicator Light Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601005.xml
+      - File: Description of Sensor Calibrating Condition | Title: Description of Sensor Calibrating Condition | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601006.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: DLC Description | Title: DLC Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601007.xml
+          - File: CAN Communication System Description | Title: CAN Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4601008.xml
+    - Folder: Schematic and Routing Diagram
+      - File: ESP® System Diagram | Title: ESP&#174; System Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4602001.xml
+      - File: ESP® Input / Output Diagram | Title: ESP&#174; Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4602002.xml
+      - File: ESP® Circuit Diagram | Title: ESP&#174; Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4602003.xml
+    - Folder: Component Location
+      - File: ESP® Component Location | Title: ESP&#174; Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4603001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: ESP® System Check | Title: ESP&#174; System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604002.xml
+          - File: ESP® Symptom Diagnosis | Title: ESP&#174; Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604003.xml
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604005.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604006.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604009.xml
+          - File: ESP® Warning Light Does Not Come ON after Setting Ignition “ON” | Title: ESP&#174; Warning Light Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604011.xml
+          - File: ABS Warning Light Does Not Come ON after Setting Ignition “ON” | Title: ABS Warning Light Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604013.xml
+          - File: EBD Warning Light (Brake Warning Light) Comes ON Steady | Title: EBD Warning Light (Brake Warning Light) Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604016.xml
+          - File: DTC C1016 | Title: DTC C1016 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604018.xml
+          - File: DTC C102B | Title: DTC C102B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604024.xml
+          - File: DTC C1038 | Title: DTC C1038 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604026.xml
+          - File: DTC C1057 | Title: DTC C1057 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604030.xml
+          - File: DTC C1090 | Title: DTC C1090 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604037.xml
+          - File: DTC C1091 / C1094 | Title: DTC C1091 / C1094 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604038.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604043.xml
+          - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604044.xml
+          - File: DTC U0126 | Title: DTC U0126 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604046.xml
+          - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604047.xml
+          - File: DTC U108A | Title: DTC U108A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604049.xml
+          - File: DTC U1093 | Title: DTC U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604050.xml
+      - File: Warning Light Check | Title: Warning Light Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604004.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604007.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604008.xml
+      - File: Scan Tool Active Test Table | Title: Scan Tool Active Test Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604010.xml
+      - File: ESP® Warning Light Comes ON Steady | Title: ESP&#174; Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604012.xml
+      - File: ABS Warning Light Comes ON Steady | Title: ABS Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604014.xml
+      - File: EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON” | Title: EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604015.xml
+      - File: DTC C1015 / C1017 / C1023 | Title: DTC C1015 / C1017 / C1023 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604017.xml
+      - File: DTC C1020 | Title: DTC C1020 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604019.xml
+      - File: DTC C1021 / C1022 / C1025 / C1026 / C1031 / C1032 / C1035 / C1036 | Title: DTC C1021 / C1022 / C1025 / C1026 / C1031 / C1032 / C1035 / C1036 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604020.xml
+      - File: DTC C1024 | Title: DTC C1024 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604021.xml
+      - File: DTC C1027 | Title: DTC C1027 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604022.xml
+      - File: DTC C1028 | Title: DTC C1028 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604023.xml
+      - File: DTC C1037 | Title: DTC C1037 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604025.xml
+      - File: DTC C1040 | Title: DTC C1040 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604027.xml
+      - File: DTC C1041 / C1042 / C1043 / C1044 / C1045 / C1046 / C1051 / C1052 / C1053 / C1054 / C1055 / C1056 | Title: DTC C1041 / C1042 / C1043 / C1044 / C1045 / C1046 / C1051 / C1052 / C1053 / C1054 / C1055 / C1056 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604028.xml
+      - File: DTC C104B | Title: DTC C104B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604029.xml
+      - File: DTC C1061 | Title: DTC C1061 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604031.xml
+      - File: DTC C1063 | Title: DTC C1063 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604032.xml
+      - File: DTC C1065 | Title: DTC C1065 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604033.xml
+      - File: DTC C1069 | Title: DTC C1069 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604034.xml
+      - File: DTC C1071 | Title: DTC C1071 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604035.xml
+      - File: DTC C1074 / C1075 / C1076 / C1078 | Title: DTC C1074 / C1075 / C1076 / C1078 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604036.xml
+      - Folder: K14C
+        - File: DTC C1092 | Title: DTC C1092 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604039.xml
+        - File: DTC U0101 | Title: DTC U0101 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604045.xml
+      - File: DTC C10A0 / C10A1 / C10A3 | Title: DTC C10A0 / C10A1 / C10A3 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604041.xml
+      - File: DTC C10A7 / C10A8 / C10A9 | Title: DTC C10A7 / C10A8 / C10A9 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604042.xml
+      - File: ESP® Control Module Power Supply and Ground Circuit Check | Title: ESP&#174; Control Module Power Supply and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604051.xml
+    - Folder: Repair Instructions
+      - File: ESP® Hydraulic Unit Operation Check | Title: ESP&#174; Hydraulic Unit Operation Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606001.xml
+      - File: Sensor Calibration | Title: Sensor Calibration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606002.xml
+      - File: ESP® Hydraulic Unit / Control Module Assembly Components | Title: ESP&#174; Hydraulic Unit / Control Module Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606003.xml
+      - File: ESP® Hydraulic Unit / Control Module Assembly On-Vehicle Inspection | Title: ESP&#174; Hydraulic Unit / Control Module Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606004.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: ESP® Hydraulic Unit / Control Module Assembly Removal and Installation | Title: ESP&#174; Hydraulic Unit / Control Module Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606005.xml
+      - File: Front and Rear Wheel Speed Sensor On-Vehicle Inspection | Title: Front and Rear Wheel Speed Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606006.xml
+      - File: Front Wheel Speed Sensor Removal and Installation | Title: Front Wheel Speed Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606007.xml
+      - File: Rear Wheel Speed Sensor Removal and Installation | Title: Rear Wheel Speed Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606008.xml
+      - File: Front and Rear Wheel Speed Sensor Inspection | Title: Front and Rear Wheel Speed Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606009.xml
+      - File: Front Wheel Speed Sensor Encoder Removal and Installation | Title: Front Wheel Speed Sensor Encoder Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606010.xml
+      - File: Rear Wheel Speed Sensor Encoder Removal and Installation | Title: Rear Wheel Speed Sensor Encoder Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606011.xml
+      - File: Front and Rear Wheel Speed Sensor Encoder Inspection | Title: Front and Rear Wheel Speed Sensor Encoder Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606012.xml
+      - File: Brake Master Cylinder Pressure Sensor On-Vehicle Inspection | Title: Brake Master Cylinder Pressure Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606013.xml
+      - File: Steering Angle Sensor On-Vehicle Inspection | Title: Steering Angle Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606014.xml
+      - File: Steering Angle Sensor Removal and Installation | Title: Steering Angle Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606015.xml
+      - File: Steering Angle Sensor Inspection | Title: Steering Angle Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606016.xml
+      - File: ESP® OFF Switch Removal and Installation | Title: ESP&#174; OFF Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606017.xml
+      - File: ESP® OFF Switch Inspection | Title: ESP&#174; OFF Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4606018.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4607001.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4608001.xml
+- Folder: 5 - Transmission / Transaxle
+  - Folder: 5 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Transmission / Transaxle | Title: Precautions for Transmission / Transaxle | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5000001.xml
+  - Folder: 5A - Automatic Transmission/Transaxle
+    - Folder: Precautions
+      - Folder: K14C
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5100001.xml
+      - File: Precautions for Disassembly and Reassembly | Title: Precautions for Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5100002.xml
+    - Folder: General Description
+      - File: A/T Description | Title: A/T Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5101001.xml
+      - File: A/T Diagnosis General Description | Title: A/T Diagnosis General Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5101002.xml
+      - Folder: K14C
+        - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5101003.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Electronic Shift Control System Input / Output Diagram | Title: Electronic Shift Control System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5102001.xml
+      - File: Electronic Shift Control System Circuit Diagram | Title: Electronic Shift Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5102002.xml
+    - Folder: Component Location
+      - File: Electronic Shift Control System Component Location | Title: Electronic Shift Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5103001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: A/T Control System Check | Title: A/T Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104001.xml
+      - File: Transmission Warning Light Check | Title: Transmission Warning Light Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104003.xml
+      - Folder: K14C
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104004.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104005.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104008.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104009.xml
+        - File: Road Test | Title: Road Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104011.xml
+        - File: Stall Test | Title: Stall Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104013.xml
+        - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104047.xml
+        - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104048.xml
+        - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104049.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104007.xml
+      - File: A/T Basic Check | Title: A/T Basic Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104010.xml
+      - File: Engine Brake Test | Title: Engine Brake Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104012.xml
+      - File: Time-Lag Test | Title: Time-Lag Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104014.xml
+      - File: Line Pressure Test | Title: Line Pressure Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104015.xml
+      - File: P Range Test | Title: P Range Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104016.xml
+      - File: A/T Symptom Diagnosis | Title: A/T Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104017.xml
+      - File: Transmission Warning Light Does Not Come ON with Ignition ON | Title: Transmission Warning Light Does Not Come ON with Ignition ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104020.xml
+      - File: Transmission Warning Light Remains ON with Ignition ON | Title: Transmission Warning Light Remains ON with Ignition ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104021.xml
+      - File: DTC P0562 / P0563 | Title: DTC P0562 / P0563 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104022.xml
+      - File: DTC P0602 | Title: DTC P0602 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104023.xml
+      - File: DTC P0604 / P062F / P1702 / P184C | Title: DTC P0604 / P062F / P1702 / P184C | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104024.xml
+      - File: DTC P0706 / P0707 / P0708 | Title: DTC P0706 / P0707 / P0708 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104025.xml
+      - File: DTC P0711 / P0712 / P0713 | Title: DTC P0711 / P0712 / P0713 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104026.xml
+      - File: DTC P0717 / P1738 / P1739 | Title: DTC P0717 / P1738 / P1739 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104027.xml
+      - File: DTC P0722 / P1736 / P1737 | Title: DTC P0722 / P1736 / P1737 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104028.xml
+      - File: DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E | Title: DTC P0729 / P0731 / P0732 / P0733 / P0734 / P0735 / P074A / P074B / P074C / P074D / P074E | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104029.xml
+      - File: DTC P072A / P073E / P073F | Title: DTC P072A / P073E / P073F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104030.xml
+      - File: DTC P0741 | Title: DTC P0741 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104031.xml
+      - File: DTC P0742 | Title: DTC P0742 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104032.xml
+      - File: DTC P0747 / P0777 / P0797 | Title: DTC P0747 / P0777 / P0797 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104033.xml
+      - File: DTC P0961 / P0962 / P0963 | Title: DTC P0961 / P0962 / P0963 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104034.xml
+      - File: DTC P0965 / P0966 / P0967 | Title: DTC P0965 / P0966 / P0967 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104035.xml
+      - File: DTC P0969 / P0970 / P0971 | Title: DTC P0969 / P0970 / P0971 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104036.xml
+      - File: DTC P0973 / P0974 | Title: DTC P0973 / P0974 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104037.xml
+      - File: DTC P0976 / P0977 | Title: DTC P0976 / P0977 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104038.xml
+      - File: DTC P1706 | Title: DTC P1706 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104039.xml
+      - File: DTC P1718 / P1719 | Title: DTC P1718 / P1719 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104040.xml
+      - File: DTC P1727 / P1728 | Title: DTC P1727 / P1728 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104041.xml
+      - File: DTC P2715 | Title: DTC P2715 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104042.xml
+      - File: DTC P2719 / P2720 / P2721 | Title: DTC P2719 / P2720 / P2721 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104043.xml
+      - File: DTC P2728 / P2729 / P2730 | Title: DTC P2728 / P2729 / P2730 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104044.xml
+      - File: DTC P2762 / P2763 / P2764 | Title: DTC P2762 / P2763 / P2764 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104045.xml
+      - File: DTC P2806 | Title: DTC P2806 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104046.xml
+      - File: Inspection of TCM and Its Circuits | Title: Inspection of TCM and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104050.xml
+      - File: TCM Power and Ground Circuit Check | Title: TCM Power and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104051.xml
+    - Folder: Repair Instructions
+      - File: TCM Learning Value Clearance | Title: TCM Learning Value Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106001.xml
+      - File: TCM Learning Value Initialization | Title: TCM Learning Value Initialization | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106002.xml
+      - File: Neutral Position Calibration | Title: Neutral Position Calibration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106003.xml
+      - File: ATF Level Check | Title: ATF Level Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106004.xml
+      - File: ATF Change | Title: ATF Change | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106005.xml
+      - File: Shift Paddle Switch Inspection | Title: Shift Paddle Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106006.xml
+      - File: Select Lever Assembly Components | Title: Select Lever Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106007.xml
+      - File: Select Lever Assembly Removal and Installation | Title: Select Lever Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106008.xml
+      - File: Select Lever Assembly Disassembly and Reassembly | Title: Select Lever Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106009.xml
+      - File: Select Lever Assembly Inspection | Title: Select Lever Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106010.xml
+      - File: P Position Switch Inspection | Title: P Position Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106011.xml
+      - File: Shift Lock Solenoid Inspection | Title: Shift Lock Solenoid Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106012.xml
+      - File: Manual Release of Shift Lock | Title: Manual Release of Shift Lock | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106013.xml
+      - File: Select Cable Components | Title: Select Cable Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106014.xml
+      - File: Select Cable Removal and Installation | Title: Select Cable Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106015.xml
+      - File: Select Cable Adjustment | Title: Select Cable Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106016.xml
+      - File: Solenoid Valve On-Vehicle Inspection | Title: Solenoid Valve On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106017.xml
+      - File: Valve Body Assembly Removal and Installation | Title: Valve Body Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106018.xml
+      - File: Solenoid Valve Inspection | Title: Solenoid Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106019.xml
+      - File: TCM Removal and Installation | Title: TCM Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106020.xml
+      - File: Back Up Light Control Relay Inspection | Title: Back Up Light Control Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106021.xml
+      - File: Differential Side Oil Seal Replacement | Title: Differential Side Oil Seal Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106022.xml
+      - File: ATF Cooler Hose Components | Title: ATF Cooler Hose Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106023.xml
+      - File: ATF Cooler Hose Inspection | Title: ATF Cooler Hose Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106024.xml
+      - File: ATF Cooler Hose Replacement | Title: ATF Cooler Hose Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106025.xml
+      - File: ATF Cooler Removal and Installation | Title: ATF Cooler Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106026.xml
+      - File: A/T Assembly Components | Title: A/T Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106027.xml
+      - Folder: K14C
+        - File: A/T Assembly Dismounting and Remounting | Title: A/T Assembly Dismounting and Remounting | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106029.xml
+      - File: A/T Assembly Disassembly | Title: A/T Assembly Disassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106030.xml
+      - File: Oil Pump Assembly Components | Title: Oil Pump Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106031.xml
+      - File: Oil Pump Assembly Disassembly and Reassembly | Title: Oil Pump Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106032.xml
+      - File: Oil Pump Assembly Inspection | Title: Oil Pump Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106033.xml
+      - File: A/T Oil Strainer Assembly Removal and Installation | Title: A/T Oil Strainer Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106034.xml
+      - File: A/T Oil Strainer Assembly Inspection | Title: A/T Oil Strainer Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106035.xml
+      - File: Output Shaft Speed Sensor Removal and Installation | Title: Output Shaft Speed Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106036.xml
+      - File: Output Shaft Speed Sensor Inspection | Title: Output Shaft Speed Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106037.xml
+      - File: Input Shaft Speed Sensor Removal and Installation | Title: Input Shaft Speed Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106038.xml
+      - File: Input Shaft Speed Sensor Inspection | Title: Input Shaft Speed Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106039.xml
+      - File: Solenoid Harness with ATF Temperature Sensor Removal and Installation | Title: Solenoid Harness with ATF Temperature Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106040.xml
+      - File: ATF Temperature Sensor Inspection | Title: ATF Temperature Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106041.xml
+      - File: Reverse Clutch Assembly Inspection | Title: Reverse Clutch Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106042.xml
+      - File: Direct Clutch Assembly Inspection | Title: Direct Clutch Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106043.xml
+      - File: Forward Clutch Assembly Inspection | Title: Forward Clutch Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106044.xml
+      - File: B1 Brake Components | Title: B1 Brake Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106045.xml
+      - File: B1 Brake Piston Removal and Installation | Title: B1 Brake Piston Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106046.xml
+      - File: B1 Brake Piston Rod Adjustment | Title: B1 Brake Piston Rod Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106047.xml
+      - File: 1st and Reverse Brake Components | Title: 1st and Reverse Brake Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106048.xml
+      - File: 1st and Reverse Brake Disassembly and Reassembly | Title: 1st and Reverse Brake Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106049.xml
+      - File: 1st and Reverse Brake Inspection | Title: 1st and Reverse Brake Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106050.xml
+      - File: 1st and Reverse Brake Piston Stroke Inspection and Adjustment | Title: 1st and Reverse Brake Piston Stroke Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106051.xml
+      - File: Front Planetary Gear Assembly and Input Shaft Components | Title: Front Planetary Gear Assembly and Input Shaft Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106052.xml
+      - File: Front Planetary Gear Assembly and Input Shaft Disassembly and Reassembly | Title: Front Planetary Gear Assembly and Input Shaft Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106053.xml
+      - File: Rear Planetary Gear Assembly and One-Way Clutch Assembly Components | Title: Rear Planetary Gear Assembly and One-Way Clutch Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106054.xml
+      - File: Rear Planetary Gear Assembly and One-Way Clutch Assembly Disassembly and Reassembly | Title: Rear Planetary Gear Assembly and One-Way Clutch Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106055.xml
+      - File: Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection | Title: Rear Planetary Gear Assembly and One-Way Clutch Assembly Related Parts Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106056.xml
+      - File: Differential and Pinion and Counter Driven Gear Assembly Components | Title: Differential and Pinion and Counter Driven Gear Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106057.xml
+      - File: Differential Assembly Inspection | Title: Differential Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106058.xml
+      - File: Torque Converter Housing Disassembly and Reassembly | Title: Torque Converter Housing Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106059.xml
+      - File: Transaxle Case Disassembly and Reassembly | Title: Transaxle Case Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106060.xml
+      - File: A/T Assembly Inspection and Adjustment | Title: A/T Assembly Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106061.xml
+      - File: A/T Assembly Reassembly | Title: A/T Assembly Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5106062.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5107001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5108001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5108002.xml
+  - Folder: 5B - Manual Transmission/Transaxle
+    - Folder: General Description
+      - File: Manual Transaxle Construction | Title: Manual Transaxle Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5201001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Manual Transaxle Symptom Diagnosis | Title: Manual Transaxle Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5204001.xml
+    - Folder: Repair Instructions
+      - File: Manual Transaxle Oil Level Check | Title: Manual Transaxle Oil Level Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206001.xml
+      - File: Manual Transaxle Oil Change | Title: Manual Transaxle Oil Change | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206002.xml
+      - File: Differential Side Oil Seal Replacement | Title: Differential Side Oil Seal Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206003.xml
+      - File: Gear Shift Control Lever and Cable Components | Title: Gear Shift Control Lever and Cable Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206004.xml
+      - File: Gear Shift Control Lever and Cable Removal and Installation | Title: Gear Shift Control Lever and Cable Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206005.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Gear Select Control Cable Adjustment | Title: Gear Select Control Cable Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206006.xml
+          - File: Manual Transaxle Unit Dismounting and Remounting | Title: Manual Transaxle Unit Dismounting and Remounting | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206012.xml
+          - File: Gear Shift and Select Shaft Assembly Removal and Installation | Title: Gear Shift and Select Shaft Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206014.xml
+      - File: Back Up Light Switch Removal and Installation | Title: Back Up Light Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206007.xml
+      - File: Back Up Light Switch Inspection | Title: Back Up Light Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206008.xml
+      - File: Neutral Position Switch On-Vehicle Inspection (If Equipped) | Title: Neutral Position Switch On-Vehicle Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206010.xml
+      - File: Neutral Position Switch Removal and Installation (If Equipped) | Title: Neutral Position Switch Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206009.xml
+      - File: Manual Transaxle Unit Components | Title: Manual Transaxle Unit Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206011.xml
+      - File: Gear Shift and Select Shaft Assembly Components | Title: Gear Shift and Select Shaft Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206013.xml
+      - File: Gear Shift and Select Shaft Assembly Disassembly and Reassembly | Title: Gear Shift and Select Shaft Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206015.xml
+      - File: Manual Transaxle Assembly Components | Title: Manual Transaxle Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206016.xml
+      - File: Manual Transaxle Assembly Disassembly and Reassembly | Title: Manual Transaxle Assembly Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206017.xml
+      - File: Transaxle Right Case Disassembly and Reassembly | Title: Transaxle Right Case Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206018.xml
+      - File: Transaxle Left Case Disassembly and Reassembly | Title: Transaxle Left Case Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206019.xml
+      - File: Input Shaft Components | Title: Input Shaft Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206020.xml
+      - File: Input Shaft Disassembly and Reassembly | Title: Input Shaft Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206021.xml
+      - File: Input Shaft Inspection | Title: Input Shaft Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206022.xml
+      - File: Countershaft Components | Title: Countershaft Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206023.xml
+      - File: Countershaft Disassembly and Reassembly | Title: Countershaft Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206024.xml
+      - File: Countershaft Inspection | Title: Countershaft Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206025.xml
+      - File: Reverse Idler Gear Assembly Components | Title: Reverse Idler Gear Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206026.xml
+      - File: Gear and Synchronizer Ring Inspection | Title: Gear and Synchronizer Ring Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206027.xml
+      - File: Gear Shift Shaft and Fork Components | Title: Gear Shift Shaft and Fork Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206028.xml
+      - File: Gear Shift Shaft and Fork Inspection | Title: Gear Shift Shaft and Fork Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206029.xml
+      - File: Differential Components | Title: Differential Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206030.xml
+      - File: Differential Disassembly and Reassembly | Title: Differential Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5206031.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5208001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5208002.xml
+  - Folder: 5C - Clutch
+    - Folder: General Description
+      - File: Clutch Construction | Title: Clutch Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5301001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: Models
+        - Folder: K14C
+          - File: Clutch System Symptom Diagnosis | Title: Clutch System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304001.xml
+    - Folder: Repair Instructions
+      - File: CPP No.1 Switch Removal and Installation | Title: CPP No.1 Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306001.xml
+      - File: CPP No.1 Switch Inspection and Adjustment | Title: CPP No.1 Switch Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306002.xml
+      - File: CPP No.2 Switch Removal and Installation | Title: CPP No.2 Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306003.xml
+      - File: CPP No.2 Switch Inspection and Adjustment | Title: CPP No.2 Switch Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306004.xml
+      - File: Clutch Pedal Inspection | Title: Clutch Pedal Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306005.xml
+      - File: Clutch Fluid Level Inspection | Title: Clutch Fluid Level Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306006.xml
+      - File: Air Bleeding of Clutch System | Title: Air Bleeding of Clutch System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306007.xml
+      - File: Clutch Fluid Pipe and Hose Components | Title: Clutch Fluid Pipe and Hose Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306008.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Clutch Fluid Pipe Removal and Installation | Title: Clutch Fluid Pipe Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306009.xml
+      - File: Clutch Fluid Pipe and Hose Inspection | Title: Clutch Fluid Pipe and Hose Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306010.xml
+      - File: Clutch Master Cylinder Removal and Installation | Title: Clutch Master Cylinder Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306011.xml
+      - File: Clutch Master Cylinder Inspection | Title: Clutch Master Cylinder Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306012.xml
+      - File: Clutch Operating Cylinder Assembly Removal and Installation | Title: Clutch Operating Cylinder Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306013.xml
+      - File: Clutch Operating Cylinder Assembly Inspection | Title: Clutch Operating Cylinder Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306014.xml
+      - File: Clutch Pedal Assembly Components | Title: Clutch Pedal Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306015.xml
+      - File: Clutch Pedal Assembly Removal and Installation | Title: Clutch Pedal Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306016.xml
+      - File: Clutch Cover and Clutch Disc Components | Title: Clutch Cover and Clutch Disc Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306017.xml
+      - File: Clutch Cover and Clutch Disc Removal and Installation | Title: Clutch Cover and Clutch Disc Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306018.xml
+      - File: Clutch Cover and Clutch Disc Inspection | Title: Clutch Cover and Clutch Disc Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5306019.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5307001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5308001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5308002.xml
+- Folder: 6 - Steering
+  - Folder: 6 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Steering | Title: Precautions for Steering | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6000001.xml
+  - Folder: 6A - Steering General Diagnosis
+    - Folder: Precautions
+      - File: Precautions for Steering General Diagnosis | Title: Precautions for Steering General Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6100001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Steering Symptom Diagnosis | Title: Steering Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104001.xml
+  - Folder: 6B - Steering Wheel and Column
+    - Folder: Precautions
+      - File: Precautions for Steering Wheel and Column | Title: Precautions for Steering Wheel and Column | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6200001.xml
+    - Folder: General Description
+      - File: Steering Wheel and Column Construction | Title: Steering Wheel and Column Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6201001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Checking Steering Column for Accident Damage | Title: Checking Steering Column for Accident Damage | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6204001.xml
+    - Folder: Repair Instructions
+      - File: Steering Wheel and Column Components | Title: Steering Wheel and Column Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206001.xml
+      - File: Steering Wheel Removal and Installation | Title: Steering Wheel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206002.xml
+      - File: Contact Coil Assembly Removal and Installation | Title: Contact Coil Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206003.xml
+      - File: Centering of Contact Coil Assembly | Title: Centering of Contact Coil Assembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206004.xml
+      - File: Contact Coil Assembly Inspection | Title: Contact Coil Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206005.xml
+      - File: Steering Angle Sensor On-Vehicle Inspection | Title: Steering Angle Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206006.xml
+      - File: Steering Angle Sensor Removal and Installation | Title: Steering Angle Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206007.xml
+      - File: Steering Angle Sensor Inspection | Title: Steering Angle Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206008.xml
+      - File: Steering Column Removal and Installation | Title: Steering Column Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206009.xml
+      - File: Steering Shaft Joint On-Vehicle Inspection | Title: Steering Shaft Joint On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206010.xml
+      - File: Steering Column Inspection | Title: Steering Column Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206011.xml
+      - File: Steering Lower Shaft Inspection | Title: Steering Lower Shaft Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206012.xml
+      - File: Steering Lock Removal and Installation | Title: Steering Lock Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206013.xml
+      - File: Auto Steering Lock Inspection | Title: Auto Steering Lock Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206016.xml
+      - File: Steering Lower Shaft Removal and Installation | Title: Steering Lower Shaft Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206019.xml
+      - File: Steering Gear Case Assembly Components | Title: Steering Gear Case Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206020.xml
+      - File: Tie-Rod End Boot On-Vehicle Inspection | Title: Tie-Rod End Boot On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206021.xml
+      - File: Tie-Rod End Removal and Installation | Title: Tie-Rod End Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206022.xml
+      - File: Tie-Rod End Inspection | Title: Tie-Rod End Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206023.xml
+      - File: Steering Gear Case Assembly Removal and Installation | Title: Steering Gear Case Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206024.xml
+      - File: Steering Gear Case Bushing Removal and Installation | Title: Steering Gear Case Bushing Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206025.xml
+      - File: Steering Rack Boot Inspection | Title: Steering Rack Boot Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206026.xml
+      - File: Tie-Rod / Rack Boot Removal and Installation | Title: Tie-Rod / Rack Boot Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206027.xml
+      - File: Steering Rack Plunger Removal and Installation | Title: Steering Rack Plunger Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206028.xml
+      - File: Pinion Shaft Rotation Torque Inspection | Title: Pinion Shaft Rotation Torque Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206029.xml
+      - File: Pinion Shaft Rotation Torque Adjustment | Title: Pinion Shaft Rotation Torque Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6206030.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6208001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6208002.xml
+  - Folder: 6C - Power Assisted Steering System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6300001.xml
+    - Folder: General Description
+      - File: P/S System Description | Title: P/S System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6301001.xml
+      - File: Description of EPS System Component Function | Title: Description of EPS System Component Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6301002.xml
+      - File: Description of Lane Departure Prevention Function | Title: Description of Lane Departure Prevention Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6301003.xml
+      - File: P/S Control Module Input / Output Diagram | Title: P/S Control Module Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6301004.xml
+      - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6301005.xml
+    - Folder: Schematic and Routing Diagram
+      - File: P/S System Diagram | Title: P/S System Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6302001.xml
+    - Folder: Component Location
+      - File: Power Steering Control System Component Location | Title: Power Steering Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6303001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: P/S System Check | Title: P/S System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304001.xml
+      - File: P/S Warning Light Check | Title: P/S Warning Light Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304002.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304003.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304004.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304007.xml
+          - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304008.xml
+          - File: P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts | Title: P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304010.xml
+          - File: DTC C1153 / C1155 | Title: DTC C1153 / C1155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304016.xml
+          - File: DTC C1161 / C1162 / C1166 | Title: DTC C1161 / C1162 / C1166 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304018.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304024.xml
+          - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304025.xml
+          - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304026.xml
+          - File: DTC U0126 | Title: DTC U0126 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304027.xml
+          - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304028.xml
+          - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304029.xml
+          - File: DTC U1093 | Title: DTC U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304031.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304005.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304006.xml
+      - File: P/S System Symptom Diagnosis | Title: P/S System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304009.xml
+      - File: P/S Warning Light Remains ON Steady after Engine Starts | Title: P/S Warning Light Remains ON Steady after Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304011.xml
+      - File: DTC C1111 / C1113 / C1114 / C1115 | Title: DTC C1111 / C1113 / C1114 / C1115 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304012.xml
+      - File: DTC C1131 | Title: DTC C1131 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304013.xml
+      - File: DTC C1141 / C1142 / C1143 / C1145 / C1146 | Title: DTC C1141 / C1142 / C1143 / C1145 / C1146 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304014.xml
+      - File: DTC C1152 / C1154 | Title: DTC C1152 / C1154 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304015.xml
+      - File: DTC C1160 | Title: DTC C1160 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304017.xml
+      - File: DTC C1163 | Title: DTC C1163 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304019.xml
+      - File: DTC C116A | Title: DTC C116A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304020.xml
+      - File: DTC C1170 | Title: DTC C1170 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304021.xml
+      - File: P/S Control Module Power Supply and Ground Circuit Check | Title: P/S Control Module Power Supply and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304032.xml
+      - File: Inspection of P/S Control Module and Its Circuits | Title: Inspection of P/S Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304033.xml
+      - File: Steering Wheel Play Check | Title: Steering Wheel Play Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304034.xml
+      - File: Steering Force Check | Title: Steering Force Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304035.xml
+    - Folder: Repair Instructions
+      - File: Torque Sensor and Its Circuit Inspection | Title: Torque Sensor and Its Circuit Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6306001.xml
+      - File: Lane Departure Prevention Switch Inspection (If Equipped) | Title: Lane Departure Prevention Switch Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6306002.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6308001.xml
+- Folder: 7 - HVAC
+  - Folder: 7 - Precautions
+    - Folder: Precautions
+      - File: Precautions for HVAC | Title: Precautions for HVAC | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7000001.xml
+      - File: A/C System Caution | Title: A/C System Caution | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7000002.xml
+      - File: Precautions for Servicing A/C System (HFC-134a Refrigerant) | Title: Precautions for Servicing A/C System (HFC-134a Refrigerant) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7000003.xml
+      - File: Precautions for Servicing A/C System (HFO-1234yf Refrigerant) | Title: Precautions for Servicing A/C System (HFO-1234yf Refrigerant) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7000004.xml
+  - Folder: 7B - HVAC System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7200001.xml
+    - Folder: General Description
+      - File: Auto A/C System Description | Title: Auto A/C System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: HVAC Control Description | Title: HVAC Control Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201002.xml
+          - File: A/C Operation Description | Title: A/C Operation Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201006.xml
+          - File: CAN Communication System Description | Title: CAN Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201008.xml
+      - File: A/C Refrigerant Identification | Title: A/C Refrigerant Identification | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201003.xml
+      - File: Sub-Cool A/C System Description | Title: Sub-Cool A/C System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201004.xml
+      - Folder: K14C
+        - File: Compressor Drive Belt Description (K14C Model) | Title: Compressor Drive Belt Description (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201005.xml
+      - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7201007.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Auto A/C Electronic Control Input / Output Block Diagram | Title: Auto A/C Electronic Control Input / Output Block Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7202001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Auto A/C System Circuit Diagram | Title: Auto A/C System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7202002.xml
+    - Folder: Component Location
+      - Folder: Models
+        - Folder: K14C
+          - File: Auto A/C Control System Component Location | Title: Auto A/C Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7203001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: A/C System Performance Inspection | Title: A/C System Performance Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204001.xml
+      - File: Trouble Diagnosis for Abnormal Pressure | Title: Trouble Diagnosis for Abnormal Pressure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204002.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: A/C System Symptom Diagnosis | Title: A/C System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204003.xml
+          - File: Abnormal Noise Symptom Diagnosis of A/C System | Title: Abnormal Noise Symptom Diagnosis of A/C System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204004.xml
+          - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204006.xml
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204007.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204011.xml
+          - File: DTC B1563 | Title: DTC B1563 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204021.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204022.xml
+          - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204023.xml
+          - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204024.xml
+          - File: Inspection of A/C System Circuits at ECM | Title: Inspection of A/C System Circuits at ECM | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204027.xml
+      - File: Air Conditioning System Check | Title: Air Conditioning System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204005.xml
+      - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204008.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204009.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204010.xml
+      - File: DTC B1508 | Title: DTC B1508 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204012.xml
+      - File: DTC B1509 | Title: DTC B1509 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204013.xml
+      - File: DTC B150A | Title: DTC B150A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204014.xml
+      - File: DTC B150B | Title: DTC B150B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204015.xml
+      - File: DTC B150C / B1519 / B151B | Title: DTC B150C / B1519 / B151B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204016.xml
+      - File: DTC B150D / B151A / B151C | Title: DTC B150D / B151A / B151C | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204017.xml
+      - File: DTC B1513 / B1514 / B1531 | Title: DTC B1513 / B1514 / B1531 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204018.xml
+      - File: DTC B1546 | Title: DTC B1546 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204019.xml
+      - File: DTC B1549 / U2005 | Title: DTC B1549 / U2005 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204020.xml
+      - File: Inspection of Auto A/C Panel and Its Circuit | Title: Inspection of Auto A/C Panel and Its Circuit | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204025.xml
+      - File: Inspection of A/C System Circuits at BCM | Title: Inspection of A/C System Circuits at BCM | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204026.xml
+    - Folder: Repair Instructions
+      - File: Operation Procedure for Refrigerant Charge | Title: Operation Procedure for Refrigerant Charge | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: A/C System Major Components | Title: A/C System Major Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206002.xml
+          - File: Radiator Cooling Fan Removal and Installation | Title: Radiator Cooling Fan Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206003.xml
+          - File: Radiator Cooling Fan Inspection | Title: Radiator Cooling Fan Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206004.xml
+          - File: HVAC Unit Removal and Installation | Title: HVAC Unit Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206009.xml
+          - File: Expansion Valve Removal and Installation | Title: Expansion Valve Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206018.xml
+          - File: A/C Refrigerant Pressure Sensor and Its Circuit Inspection | Title: A/C Refrigerant Pressure Sensor and Its Circuit Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206020.xml
+          - File: A/C Refrigerant Pressure Sensor Removal and Installation | Title: A/C Refrigerant Pressure Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206021.xml
+          - File: Compressor Drive Belt Inspection | Title: Compressor Drive Belt Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206041.xml
+          - File: Compressor Drive Belt Removal and Installation | Title: Compressor Drive Belt Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206042.xml
+          - File: Compressor Assembly Removal and Installation | Title: Compressor Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206043.xml
+          - File: Compressor Assembly Components | Title: Compressor Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206044.xml
+          - File: Magnet Clutch Inspection | Title: Magnet Clutch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206045.xml
+          - File: Relief Valve Inspection | Title: Relief Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206047.xml
+      - File: Condenser Assembly On-Vehicle Inspection | Title: Condenser Assembly On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206005.xml
+      - File: Condenser Assembly Removal and Installation | Title: Condenser Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206006.xml
+      - File: Desiccant Removal and Installation | Title: Desiccant Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206007.xml
+      - File: HVAC Unit Components | Title: HVAC Unit Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206008.xml
+      - File: Auto A/C Panel Removal and Installation | Title: Auto A/C Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206010.xml
+      - File: Blower Motor Removal and Installation | Title: Blower Motor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206011.xml
+      - File: Blower Motor Inspection | Title: Blower Motor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206012.xml
+      - File: Blower Motor Controller Removal and Installation | Title: Blower Motor Controller Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206013.xml
+      - File: Blower Motor Controller Inspection | Title: Blower Motor Controller Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206014.xml
+      - File: Evaporator Inspection | Title: Evaporator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206015.xml
+      - File: Evaporator Temperature Sensor Removal and Installation | Title: Evaporator Temperature Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206016.xml
+      - File: Evaporator Temperature Sensor Inspection | Title: Evaporator Temperature Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206017.xml
+      - File: Expansion Valve Inspection | Title: Expansion Valve Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206019.xml
+      - File: Temperature Control Actuator Removal and Installation | Title: Temperature Control Actuator Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206022.xml
+      - File: Temperature Control Actuator Inspection | Title: Temperature Control Actuator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206023.xml
+      - File: Air Flow Control Actuator Removal and Installation | Title: Air Flow Control Actuator Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206024.xml
+      - File: Air Flow Control Actuator Inspection | Title: Air Flow Control Actuator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206025.xml
+      - File: Air Intake Control Actuator Removal and Installation | Title: Air Intake Control Actuator Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206026.xml
+      - File: Air Intake Control Actuator Inspection | Title: Air Intake Control Actuator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206027.xml
+      - File: Actuator Linkage Inspection | Title: Actuator Linkage Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206028.xml
+      - File: Sunload Sensor Removal and Installation | Title: Sunload Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206029.xml
+      - File: Sunload Sensor Inspection | Title: Sunload Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206030.xml
+      - File: Outside Air Temperature Sensor Removal and Installation | Title: Outside Air Temperature Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206031.xml
+      - File: Outside Air Temperature Sensor Inspection | Title: Outside Air Temperature Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206032.xml
+      - File: Inside Air Temperature Sensor Removal and Installation | Title: Inside Air Temperature Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206033.xml
+      - File: Inside Air Temperature Sensor Inspection | Title: Inside Air Temperature Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206034.xml
+      - File: Center Ventilation Louver Removal and Installation | Title: Center Ventilation Louver Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206035.xml
+      - File: Side Ventilation Louver Removal and Installation | Title: Side Ventilation Louver Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206036.xml
+      - File: HVAC Air Filter Removal and Installation | Title: HVAC Air Filter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206038.xml
+      - File: HVAC Air Filter Inspection | Title: HVAC Air Filter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206039.xml
+      - File: HVAC System Relay Inspection | Title: HVAC System Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206040.xml
+      - File: Magnet Clutch Removal and Installation | Title: Magnet Clutch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206046.xml
+      - File: Relief Valve Removal and Installation | Title: Relief Valve Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7206048.xml
+    - Folder: Specifications
+      - Folder: Models
+        - Folder: K14C
+          - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7208001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7208002.xml
+- Folder: 8 - Restraint
+  - Folder: 8 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Restraint | Title: Precautions for Restraint | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8000001.xml
+  - Folder: 8A - Seat Belts
+    - Folder: Precautions
+      - File: Precautions for Service and Diagnosis of Seat Belt | Title: Precautions for Service and Diagnosis of Seat Belt | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8100001.xml
+    - Folder: General Description
+      - File: Seat Belt Construction | Title: Seat Belt Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8101001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Repair and Inspection Required after Accident | Title: Repair and Inspection Required after Accident | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8104001.xml
+    - Folder: Repair Instructions
+      - File: Front Seat Belt Components | Title: Front Seat Belt Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106001.xml
+      - File: Front Seat Belt Assembly Removal and Installation | Title: Front Seat Belt Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106002.xml
+      - File: Front Seat Belt Assembly Inspection | Title: Front Seat Belt Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106003.xml
+      - File: Front Seat Belt Buckle Inspection | Title: Front Seat Belt Buckle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106004.xml
+      - File: Passenger Seat Belt Reminder Sensor Inspection | Title: Passenger Seat Belt Reminder Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106005.xml
+      - File: Rear Seat Belt Components | Title: Rear Seat Belt Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106006.xml
+      - File: Side Rear Seat Belt Assembly Removal and Installation | Title: Side Rear Seat Belt Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106007.xml
+      - File: Center Rear Seat Belt Removal and Installation | Title: Center Rear Seat Belt Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106008.xml
+      - File: Rear Seat Belt Assembly Inspection | Title: Rear Seat Belt Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106009.xml
+      - File: Rear Seat Belt Buckle Inspection | Title: Rear Seat Belt Buckle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8106010.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8107001.xml
+  - Folder: 8B - Air Bag System
+    - Folder: Precautions
+      - File: Precautions for Air Bag System Service | Title: Precautions for Air Bag System Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8200001.xml
+      - File: Precautions for Handling and Storage of Air Bag System Components | Title: Precautions for Handling and Storage of Air Bag System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8200002.xml
+      - File: Precautions for Disposal of Air Bag and Seat Belt Pretensioner | Title: Precautions for Disposal of Air Bag and Seat Belt Pretensioner | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8200003.xml
+    - Folder: General Description
+      - File: Air Bag System Construction | Title: Air Bag System Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8201001.xml
+      - File: Passenger Air Bag Deactivation Switch Description (If Equipped) | Title: Passenger Air Bag Deactivation Switch Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8201002.xml
+      - File: Air Bag System Input / Output Table | Title: Air Bag System Input / Output Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8201003.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Air Bag System Input / Output Diagram | Title: Air Bag System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8202001.xml
+      - File: Air Bag System Circuit Diagram | Title: Air Bag System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8202002.xml
+    - Folder: Component Location
+      - File: Air Bag System Component, Wiring and Connector Location | Title: Air Bag System Component, Wiring and Connector Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8203001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Air Bag Diagnostic System Check | Title: Air Bag Diagnostic System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204002.xml
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204005.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204006.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204008.xml
+          - File: “AIR BAG” Warning Light Does Not Come ON | Title: “AIR BAG” Warning Light Does Not Come ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204010.xml
+          - File: DTC B1004-17 | Title: DTC B1004-17 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204014.xml
+          - File: DTC U0073-88 | Title: DTC U0073-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204052.xml
+          - File: SDM Power Supply and Ground Circuit Check | Title: SDM Power Supply and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204053.xml
+      - File: “AIR BAG” Warning Light Check | Title: “AIR BAG” Warning Light Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204003.xml
+      - File: Self-Diagnosis Function | Title: Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204004.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204007.xml
+      - File: “AIR BAG” Warning Light Comes ON Steady | Title: “AIR BAG” Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204009.xml
+      - File: DTC B1001-00 | Title: DTC B1001-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204011.xml
+      - File: DTC B1002-00 | Title: DTC B1002-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204012.xml
+      - File: DTC B1003-04 | Title: DTC B1003-04 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204013.xml
+      - File: DTC B1004-18 | Title: DTC B1004-18 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204015.xml
+      - File: DTC B1007-01 / B1008-01 | Title: DTC B1007-01 / B1008-01 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204016.xml
+      - File: DTC B1009-1A | Title: DTC B1009-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204017.xml
+      - File: DTC B1009-1B | Title: DTC B1009-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204018.xml
+      - File: DTC B1009-1E | Title: DTC B1009-1E | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204019.xml
+      - File: DTC B1009-95 | Title: DTC B1009-95 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204020.xml
+      - File: DTC B1032-00 / B1033-00 / B1034-00 / B1035-00 / B1036-00 / B1037-00 / B1039-00 | Title: DTC B1032-00 / B1033-00 / B1034-00 / B1035-00 / B1036-00 / B1037-00 / B1039-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204021.xml
+      - File: DTC B1060-14 | Title: DTC B1060-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204022.xml
+      - File: DTC B1060-15 | Title: DTC B1060-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204023.xml
+      - File: DTC B1060-1A | Title: DTC B1060-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204024.xml
+      - File: DTC B1060-1B | Title: DTC B1060-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204025.xml
+      - File: DTC B1062-14 | Title: DTC B1062-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204026.xml
+      - File: DTC B1062-15 | Title: DTC B1062-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204027.xml
+      - File: DTC B1062-1A | Title: DTC B1062-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204028.xml
+      - File: DTC B1062-1B | Title: DTC B1062-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204029.xml
+      - File: DTC B1064-14 / B1065-14 | Title: DTC B1064-14 / B1065-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204030.xml
+      - File: DTC B1064-15 / B1065-15 | Title: DTC B1064-15 / B1065-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204031.xml
+      - File: DTC B1064-1A / B1065-1A | Title: DTC B1064-1A / B1065-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204032.xml
+      - File: DTC B1064-1B / B1065-1B | Title: DTC B1064-1B / B1065-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204033.xml
+      - File: DTC B1068-14 / B1069-14 | Title: DTC B1068-14 / B1069-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204034.xml
+      - File: DTC B1068-15 / B1069-15 | Title: DTC B1068-15 / B1069-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204035.xml
+      - File: DTC B1068-1A / B1069-1A | Title: DTC B1068-1A / B1069-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204036.xml
+      - File: DTC B1068-1B / B1069-1B | Title: DTC B1068-1B / B1069-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204037.xml
+      - File: DTC B106C-14 / B106D-14 | Title: DTC B106C-14 / B106D-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204038.xml
+      - File: DTC B106C-15 / B106D-15 | Title: DTC B106C-15 / B106D-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204039.xml
+      - File: DTC B106C-1A / B106D-1A | Title: DTC B106C-1A / B106D-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204040.xml
+      - File: DTC B106C-1B / B106D-1B | Title: DTC B106C-1B / B106D-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204041.xml
+      - File: DTC B1071-14 / B1072-14 | Title: DTC B1071-14 / B1072-14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204042.xml
+      - File: DTC B1071-15 / B1072-15 | Title: DTC B1071-15 / B1072-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204043.xml
+      - File: DTC B1071-1A / B1072-1A | Title: DTC B1071-1A / B1072-1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204044.xml
+      - File: DTC B1071-1B / B1072-1B | Title: DTC B1071-1B / B1072-1B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204045.xml
+      - File: DTC B1090-01 / B1090-95 | Title: DTC B1090-01 / B1090-95 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204046.xml
+      - File: DTC B1090-14 / B1090-15 / B1090-87 | Title: DTC B1090-14 / B1090-15 / B1090-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204047.xml
+      - File: DTC B1093-01 / B1093-95 / B1094-01 / B1094-95 | Title: DTC B1093-01 / B1093-95 / B1094-01 / B1094-95 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204048.xml
+      - File: DTC B1093-14 / B1093-15 / B1093-87 / B1094-14 / B1094-15 / B1094-87 | Title: DTC B1093-14 / B1093-15 / B1093-87 / B1094-14 / B1094-15 / B1094-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204049.xml
+      - File: DTC B1095-01 / B1095-95 / B1096-01 / B1096-95 | Title: DTC B1095-01 / B1095-95 / B1096-01 / B1096-95 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204050.xml
+      - File: DTC B1095-14 / B1095-15 / B1095-87 / B1096-14 / B1096-15 / B1096-87 | Title: DTC B1095-14 / B1095-15 / B1095-87 / B1096-14 / B1096-15 / B1096-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204051.xml
+      - File: Contact Coil and Its Circuit Check | Title: Contact Coil and Its Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204054.xml
+      - File: Repair and Inspection Required after Accident | Title: Repair and Inspection Required after Accident | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204055.xml
+    - Folder: Repair Instructions
+      - File: Disabling Air Bag System | Title: Disabling Air Bag System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206001.xml
+      - File: Enabling Air Bag System | Title: Enabling Air Bag System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206002.xml
+      - File: Release of Shorting Bar | Title: Release of Shorting Bar | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206003.xml
+      - File: SDM Removal and Installation | Title: SDM Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206004.xml
+      - File: SDM Inspection | Title: SDM Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206005.xml
+      - File: Driver Air Bag (Inflator) Module Removal and Installation | Title: Driver Air Bag (Inflator) Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206006.xml
+      - File: Driver Air Bag (Inflator) Module Inspection | Title: Driver Air Bag (Inflator) Module Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206007.xml
+      - File: Passenger Air Bag (Inflator) Module Removal and Installation | Title: Passenger Air Bag (Inflator) Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206008.xml
+      - File: Passenger Air Bag (Inflator) Module Inspection | Title: Passenger Air Bag (Inflator) Module Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206009.xml
+      - File: Front Seat Belt Pretensioner Components | Title: Front Seat Belt Pretensioner Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206010.xml
+      - File: Front Seat Belt Pretensioner Removal and Installation | Title: Front Seat Belt Pretensioner Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206011.xml
+      - File: Front Seat Belt Pretensioner Inspection | Title: Front Seat Belt Pretensioner Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206012.xml
+      - File: Rear Seat Belt Pretensioner Components (10-Channel Air Bag System) | Title: Rear Seat Belt Pretensioner Components (10-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206013.xml
+      - File: Rear Seat Belt Pretensioner Removal and Installation (10-Channel Air Bag System) | Title: Rear Seat Belt Pretensioner Removal and Installation (10-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206014.xml
+      - File: Rear Seat Belt Pretensioner Inspection (10-Channel Air Bag System) | Title: Rear Seat Belt Pretensioner Inspection (10-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206015.xml
+      - File: Side-Air Bag (Inflator) Module Components | Title: Side-Air Bag (Inflator) Module Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206016.xml
+      - File: Side-Air Bag (Inflator) Module Removal and Installation | Title: Side-Air Bag (Inflator) Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206017.xml
+      - File: Side-Air Bag (Inflator) Module Inspection | Title: Side-Air Bag (Inflator) Module Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206018.xml
+      - File: Curtain Air Bag (Inflator) Module Components | Title: Curtain Air Bag (Inflator) Module Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206019.xml
+      - File: Curtain Air Bag (Inflator) Module Removal and Installation | Title: Curtain Air Bag (Inflator) Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206020.xml
+      - File: Curtain Air Bag (Inflator) Module Inspection | Title: Curtain Air Bag (Inflator) Module Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206021.xml
+      - File: Forward Impact Sensor Removal and Installation | Title: Forward Impact Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206022.xml
+      - File: Forward Impact Sensor Inspection | Title: Forward Impact Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206023.xml
+      - File: Front Side-Impact G Sensor Removal and Installation (8-Channel Air Bag System) | Title: Front Side-Impact G Sensor Removal and Installation (8-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206024.xml
+      - File: Front Side-Impact G Sensor Inspection (8-Channel Air Bag System) | Title: Front Side-Impact G Sensor Inspection (8-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206025.xml
+      - File: Front Side-Impact Pressure Sensor Removal and Installation (10-Channel Air Bag System) | Title: Front Side-Impact Pressure Sensor Removal and Installation (10-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206026.xml
+      - File: Front Side-Impact Pressure Sensor Inspection (10-Channel Air Bag System) | Title: Front Side-Impact Pressure Sensor Inspection (10-Channel Air Bag System) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206027.xml
+      - File: Rear Side-Impact G Sensor Removal and Installation | Title: Rear Side-Impact G Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206028.xml
+      - File: Rear Side-Impact G Sensor Inspection | Title: Rear Side-Impact G Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206029.xml
+      - File: Passenger Air Bag Deactivation Switch Removal and Installation (If Equipped) | Title: Passenger Air Bag Deactivation Switch Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206030.xml
+      - File: Passenger Air Bag Deactivation Switch Inspection (If Equipped) | Title: Passenger Air Bag Deactivation Switch Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206031.xml
+      - File: Passenger Air Bag Deactivation Indicator Removal and Installation (If Equipped) | Title: Passenger Air Bag Deactivation Indicator Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206032.xml
+      - File: Passenger Air Bag Deactivation Indicator Inspection (If Equipped) | Title: Passenger Air Bag Deactivation Indicator Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206033.xml
+      - File: Passenger Air Bag (Inflator) Module Repair Harness Installation | Title: Passenger Air Bag (Inflator) Module Repair Harness Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206034.xml
+      - File: Air Bag (Inflator) Module and Seat Belt Pretensioner Disposal | Title: Air Bag (Inflator) Module and Seat Belt Pretensioner Disposal | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206035.xml
+      - File: Deployed Air Bag (Inflator) Module and Activated Seat Belt Pretensioner Disposal | Title: Deployed Air Bag (Inflator) Module and Activated Seat Belt Pretensioner Disposal | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8206036.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8207001.xml
+    - Folder: Special Tools and Equipment
+      - File: Use of Special Tools | Title: Use of Special Tools | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8208001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8208002.xml
+- Folder: 9 - Body, Cab and Accessories
+  - Folder: 9 - Precautions
+    - Folder: Precautions
+      - File: Precautions for Body, Cab and Accessories | Title: Precautions for Body, Cab and Accessories | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9000001.xml
+  - Folder: 9A - Wiring Systems
+    - Folder: Precautions
+      - File: Cautions for Body Electrical System Servicing | Title: Cautions for Body Electrical System Servicing | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9100001.xml
+    - Folder: General Description
+      - File: Abbreviations | Title: Abbreviations | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101001.xml
+      - File: Wire / Connector Color Symbols | Title: Wire / Connector Color Symbols | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101002.xml
+      - File: Symbols and Marks | Title: Symbols and Marks | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101003.xml
+      - File: How to Read Connector Layout Diagram | Title: How to Read Connector Layout Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101004.xml
+      - File: How to Read Connector Codes and Terminal Nos. | Title: How to Read Connector Codes and Terminal Nos. | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101005.xml
+      - File: How to Read Ground Point | Title: How to Read Ground Point | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101006.xml
+      - File: How to Read Power Supply Diagram | Title: How to Read Power Supply Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101007.xml
+      - File: How to Read System Circuit Diagram | Title: How to Read System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101008.xml
+      - File: Glossary | Title: Glossary | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9101009.xml
+    - Folder: Connector Layout Diagram
+      - File: Connector Layout Diagram | Title: Connector Layout Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910A001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Engine Compartment | Title: Engine Compartment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910A002.xml
+      - File: Door, Roof | Title: Door, Roof | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910A004.xml
+      - File: Rear | Title: Rear | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910A006.xml
+    - Folder: Ground Point
+      - File: Ground Point | Title: Ground Point | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910C001.xml
+    - Folder: Power Supply Diagram
+      - Folder: Models
+        - Folder: K14C
+          - File: Power Supply Diagram | Title: Power Supply Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910D001.xml
+          - File: Fuses and the Protected Parts | Title: Fuses and the Protected Parts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910D002.xml
+      - File: J/B Connector Layout | Title: J/B Connector Layout | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910D003.xml
+      - File: J/B Inner Circuit (Detail) | Title: J/B Inner Circuit (Detail) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910D004.xml
+    - Folder: System Circuit Diagram
+      - Folder: Models
+        - Folder: K14C
+          - File: System Circuit Diagram | Title: System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E001.xml
+      - File: A-1 Cranking System Circuit Diagram | Title: A-1 Cranking System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E002.xml
+      - File: A-2 Charging System Circuit Diagram (With ISG) | Title: A-2 Charging System Circuit Diagram (With ISG) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E003.xml
+      - File: A-2 Charging System Circuit Diagram (Without ISG) | Title: A-2 Charging System Circuit Diagram (Without ISG) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E004.xml
+      - Folder: K14C
+        - File: A-4 Cooling System Circuit Diagram (K14C Model) | Title: A-4 Cooling System Circuit Diagram (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E005.xml
+        - File: A-5 Engine and A/C Control System Circuit Diagram (K14C Model) | Title: A-5 Engine and A/C Control System Circuit Diagram (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E007.xml
+        - File: D-1 Headlight System Circuit Diagram (K14C Model) | Title: D-1 Headlight System Circuit Diagram (K14C Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E033.xml
+      - File: A-6 Shift Selector Switch (A/T) | Title: A-6 Shift Selector Switch (A/T) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E009.xml
+      - File: A-6 A/T Control System Circuit Diagram | Title: A-6 A/T Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E010.xml
+      - File: A-7 Body Electrical Control System Circuit Diagram | Title: A-7 Body Electrical Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E011.xml
+      - File: A-8 CAN Circuit Diagram | Title: A-8 CAN Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E012.xml
+      - File: A-8 Central Gateway Control & DLC System Circuit Diagram | Title: A-8 Central Gateway Control &#38; DLC System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E013.xml
+      - File: A-13 TPMS Control System Circuit Diagram (If Equipped) | Title: A-13 TPMS Control System Circuit Diagram (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E015.xml
+      - File: B-1 Windshield Wiper and Washer Circuit Diagram (LHD) | Title: B-1 Windshield Wiper and Washer Circuit Diagram (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E016.xml
+      - File: B-1 Windshield Wiper and Washer Circuit Diagram (RHD - Left Side Wiper & Washer Switch) | Title: B-1 Windshield Wiper and Washer Circuit Diagram (RHD - Left Side Wiper &#38; Washer Switch) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E017.xml
+      - File: B-1 Windshield Wiper and Washer Circuit Diagram (RHD - Right Side Wiper & Washer Switch) | Title: B-1 Windshield Wiper and Washer Circuit Diagram (RHD - Right Side Wiper &#38; Washer Switch) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E018.xml
+      - File: B-2 Rear Wiper and Washer Circuit Diagram (LHD) | Title: B-2 Rear Wiper and Washer Circuit Diagram (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E019.xml
+      - File: B-2 Rear Wiper and Washer Circuit Diagram (RHD - Left Side Wiper & Washer Switch) | Title: B-2 Rear Wiper and Washer Circuit Diagram (RHD - Left Side Wiper &#38; Washer Switch) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E020.xml
+      - File: B-2 Rear Wiper and Washer Circuit Diagram (RHD - Right Side Wiper & Washer Switch) | Title: B-2 Rear Wiper and Washer Circuit Diagram (RHD - Right Side Wiper &#38; Washer Switch) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E021.xml
+      - File: B-3 Rear Defogger Circuit Diagram | Title: B-3 Rear Defogger Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E022.xml
+      - File: B-4 Power Window Circuit Diagram (LHD) | Title: B-4 Power Window Circuit Diagram (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E023.xml
+      - File: B-4 Power Window Circuit Diagram (RHD) | Title: B-4 Power Window Circuit Diagram (RHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E024.xml
+      - File: B-5 Keyless Start System | Title: B-5 Keyless Start System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E025.xml
+      - File: B-5 Power Door Lock Circuit Diagram (LHD) | Title: B-5 Power Door Lock Circuit Diagram (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E026.xml
+      - File: B-5 Power Door Lock Circuit Diagram (RHD without Deadlock) | Title: B-5 Power Door Lock Circuit Diagram (RHD without Deadlock) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E027.xml
+      - File: B-5 Power Door Lock Circuit Diagram (RHD with Deadlock) | Title: B-5 Power Door Lock Circuit Diagram (RHD with Deadlock) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E028.xml
+      - File: B-6 Power Door Mirror & Mirror Heater (LHD) | Title: B-6 Power Door Mirror &#38; Mirror Heater (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E029.xml
+      - File: B-6 Power Door Mirror & Mirror Heater (RHD) | Title: B-6 Power Door Mirror &#38; Mirror Heater (RHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E030.xml
+      - File: B-7 Horn Circuit Diagram | Title: B-7 Horn Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E031.xml
+      - File: C-1 Combination Meter Circuit Diagram | Title: C-1 Combination Meter Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E032.xml
+      - File: D-2 Position, Tail and License Plate Light System Circuit Diagram | Title: D-2 Position, Tail and License Plate Light System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E035.xml
+      - File: D-3 Front Fog Light System Circuit Diagram | Title: D-3 Front Fog Light System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E036.xml
+      - File: D-4 Illumination Light System Circuit Diagram | Title: D-4 Illumination Light System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E037.xml
+      - File: D-5 Interior Light System Circuit Diagram | Title: D-5 Interior Light System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E038.xml
+      - File: D-6 Turn Signal and Hazard Warning Light System Circuit Diagram (LHD) | Title: D-6 Turn Signal and Hazard Warning Light System Circuit Diagram (LHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E039.xml
+      - File: D-6 Turn Signal and Hazard Warning Light System Circuit Diagram (RHD) | Title: D-6 Turn Signal and Hazard Warning Light System Circuit Diagram (RHD) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E040.xml
+      - File: D-7 Brake Light System Circuit Diagram (without Brake Support) | Title: D-7 Brake Light System Circuit Diagram (without Brake Support) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E041.xml
+      - File: D-7 Brake Light System Circuit Diagram (with DSBS Model) | Title: D-7 Brake Light System Circuit Diagram (with DSBS Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E042.xml
+      - File: D-8 Back-Up Light System Circuit Diagram | Title: D-8 Back-Up Light System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E043.xml
+      - File: D-9 Headlight Auto Leveling System Circuit Diagram | Title: D-9 Headlight Auto Leveling System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E044.xml
+      - File: D-9 Headlight Manual Leveling System Circuit Diagram | Title: D-9 Headlight Manual Leveling System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E045.xml
+      - File: D-10 Rear Fog Light Circuit Diagram | Title: D-10 Rear Fog Light Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E046.xml
+      - File: E-2 Auto A/C System Circuit Diagram | Title: E-2 Auto A/C System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E047.xml
+      - File: E-3 Seat Heater Circuit Diagram | Title: E-3 Seat Heater Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E048.xml
+      - File: F-1 Air Bag System Circuit Diagram | Title: F-1 Air Bag System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E049.xml
+      - File: F-3 ESP® Circuit Diagram | Title: F-3 ESP&#174; Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E050.xml
+      - File: F-4 Power Steering System Circuit Diagram | Title: F-4 Power Steering System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E051.xml
+      - File: F-5 Driving Assist System Circuit Diagram (DSBS) | Title: F-5 Driving Assist System Circuit Diagram (DSBS) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E052.xml
+      - File: F-6 Blind Spot Monitor System Circuit Diagram | Title: F-6 Blind Spot Monitor System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E053.xml
+      - File: F-7 Parking Sensor System Circuit Diagram | Title: F-7 Parking Sensor System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E054.xml
+      - File: G-1 Audio/Navigation System Circuit Diagram | Title: G-1 Audio/Navigation System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E055.xml
+      - File: G-2 Accessory Socket | Title: G-2 Accessory Socket | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910E056.xml
+    - Folder: List of Connector
+      - File: List of Connectors | Title: List of Connectors | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F001.xml
+      - File: A Connector | Title: A Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F002.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: C Connector | Title: C Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F003.xml
+          - File: E Connector | Title: E Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F005.xml
+      - File: D Connector | Title: D Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F004.xml
+      - File: G Connector | Title: G Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F006.xml
+      - File: J Connector | Title: J Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F007.xml
+      - File: K Connector | Title: K Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F008.xml
+      - File: L Connector | Title: L Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F009.xml
+      - File: M Connector | Title: M Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F010.xml
+      - File: O Connector | Title: O Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F011.xml
+      - File: Q Connector | Title: Q Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F012.xml
+      - File: S Connector | Title: S Connector | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910F013.xml
+    - Folder: Reassembling Note for Wiring Harness
+      - File: Reassembling Note for Wiring Harness | Title: Reassembling Note for Wiring Harness | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Around Engine | Title: Around Engine | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H002.xml
+          - File: Around Battery | Title: Around Battery | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H003.xml
+      - File: Around Strut | Title: Around Strut | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H004.xml
+      - File: Around Instrument Panel | Title: Around Instrument Panel | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H005.xml
+      - File: Around Main Floor | Title: Around Main Floor | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H006.xml
+      - File: Around Rearend Door | Title: Around Rearend Door | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910H007.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A910S001.xml
+  - Folder: 9B - Lighting Systems
+    - Folder: Precautions
+      - File: Precautions for Headlight Auto Leveling System Service | Title: Precautions for Headlight Auto Leveling System Service | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9200001.xml
+    - Folder: General Description
+      - File: Lighting System Description | Title: Lighting System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201001.xml
+      - File: Auto-On Headlight System Description | Title: Auto-On Headlight System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201002.xml
+      - File: LED Headlight Description | Title: LED Headlight Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201003.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Headlight Auto Leveling System Description (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling System Description (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201004.xml
+      - File: DRL System Description | Title: DRL System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201005.xml
+      - File: Guide Me Light System Description (If Equipped) | Title: Guide Me Light System Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9201006.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Headlight Auto Leveling Control Module Input / Output Diagram (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling Control Module Input / Output Diagram (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9202001.xml
+      - File: Headlight Auto Leveling Control Module Circuit Diagram (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling Control Module Circuit Diagram (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9202002.xml
+    - Folder: Component Location
+      - Folder: Models
+        - Folder: K14C
+          - File: Lighting System Component Location | Title: Lighting System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9203001.xml
+          - File: Auto-On Headlight System Component Location | Title: Auto-On Headlight System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9203002.xml
+      - File: Headlight Auto Leveling System Component Location (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling System Component Location (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9203003.xml
+      - File: Headlight Manual Leveling System Component Location (Headlight Manual Leveling Model) | Title: Headlight Manual Leveling System Component Location (Headlight Manual Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9203004.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Lighting System Self-Diagnosis Function | Title: Lighting System Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204002.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204003.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204006.xml
+          - File: DTC B1951 | Title: DTC B1951 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204010.xml
+          - File: DTC B1970 | Title: DTC B1970 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204014.xml
+          - File: DTC B1A81 / B1A82 | Title: DTC B1A81 / B1A82 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204016.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204020.xml
+          - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204021.xml
+          - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204022.xml
+          - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204023.xml
+          - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204024.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204004.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204005.xml
+      - File: Scan Tool Active Test Table (Headlight Auto Leveling Model) | Title: Scan Tool Active Test Table (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204007.xml
+      - File: Lighting System Symptom Diagnosis | Title: Lighting System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204008.xml
+      - File: DTC B1950 | Title: DTC B1950 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204009.xml
+      - File: DTC B1956 | Title: DTC B1956 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204011.xml
+      - File: DTC B1957 / B1958 | Title: DTC B1957 / B1958 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204012.xml
+      - File: DTC B1967 | Title: DTC B1967 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204013.xml
+      - File: DTC B1A80 | Title: DTC B1A80 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204015.xml
+      - File: DTC B1AA0 / B1AA1 / B1AA2 / B1AA3 / B1AA4 | Title: DTC B1AA0 / B1AA1 / B1AA2 / B1AA3 / B1AA4 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204017.xml
+      - File: DTC B1AB0 | Title: DTC B1AB0 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204018.xml
+      - File: DTC B1AB1 | Title: DTC B1AB1 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204019.xml
+      - File: Inspection of Headlight Auto Leveling Control Module and Its Circuits (Headlight Auto Leveling Model) | Title: Inspection of Headlight Auto Leveling Control Module and Its Circuits (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204025.xml
+      - File: Inspection of Lighting and Turn Signal Switch and Its Circuits | Title: Inspection of Lighting and Turn Signal Switch and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204026.xml
+    - Folder: Repair Instructions
+      - File: Headlight Unit Removal and Installation | Title: Headlight Unit Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206001.xml
+      - File: Headlight Aiming and Light Intensity Check | Title: Headlight Aiming and Light Intensity Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206002.xml
+      - File: Front Fog Light Removal and Installation | Title: Front Fog Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206003.xml
+      - File: Front Fog Light Aiming Adjustment (If Equipped) | Title: Front Fog Light Aiming Adjustment (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206004.xml
+      - File: Rear Fog Light Removal and Installation (If Equipped) | Title: Rear Fog Light Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206006.xml
+      - File: Door Mirror Turn Signal Light Removal and Installation | Title: Door Mirror Turn Signal Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206008.xml
+      - File: License Plate Light Removal and Installation | Title: License Plate Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206009.xml
+      - File: Rear Combination Light Removal and Installation | Title: Rear Combination Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206010.xml
+      - File: High Mount Stop Light Removal and Installation | Title: High Mount Stop Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206011.xml
+      - File: Dome Light Removal and Installation | Title: Dome Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206012.xml
+      - File: Luggage Compartment Light Removal and Installation | Title: Luggage Compartment Light Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206013.xml
+      - File: Headlight Leveling Actuator Inspection | Title: Headlight Leveling Actuator Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206014.xml
+      - File: Headlight Auto Leveling Control Module Removal and Installation (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling Control Module Removal and Installation (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206015.xml
+      - File: Rear Vehicle Height Sensor Removal and Installation (Headlight Auto Leveling Model) | Title: Rear Vehicle Height Sensor Removal and Installation (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206016.xml
+      - File: Vehicle Height Sensor Inspection (Headlight Auto Leveling Model) | Title: Vehicle Height Sensor Inspection (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206017.xml
+      - File: Headlight Auto Leveling System Initialization (Headlight Auto Leveling Model) | Title: Headlight Auto Leveling System Initialization (Headlight Auto Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206018.xml
+      - File: Lighting and Turn Signal Switch Removal and Installation | Title: Lighting and Turn Signal Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206019.xml
+      - File: Lighting and Turn Signal Switch Inspection | Title: Lighting and Turn Signal Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206020.xml
+      - File: Hazard Warning Switch Removal and Installation | Title: Hazard Warning Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206021.xml
+      - File: Hazard Warning Switch Inspection | Title: Hazard Warning Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206022.xml
+      - File: Headlight Leveling Switch Removal and Installation (Headlight Manual Leveling Model) | Title: Headlight Leveling Switch Removal and Installation (Headlight Manual Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206023.xml
+      - File: Headlight Leveling Switch Inspection (Headlight Manual Leveling Model) | Title: Headlight Leveling Switch Inspection (Headlight Manual Leveling Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206024.xml
+      - File: Auto-On Headlight Sensor Removal and Installation | Title: Auto-On Headlight Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206025.xml
+      - File: Auto-On Headlight Sensor Inspection | Title: Auto-On Headlight Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206026.xml
+      - File: Lighting System Relay Inspection | Title: Lighting System Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9206027.xml
+    - Folder: Specifications
+      - File: Electric Bulb Capacity | Title: Electric Bulb Capacity | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9207001.xml
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9207002.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9208001.xml
+  - Folder: 9C - Instrumentation / Driver Info. / Horn
+    - Folder: General Description
+      - Folder: Models
+        - Folder: K14C
+          - File: Combination Meter Description | Title: Combination Meter Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9301001.xml
+      - File: Oil Life Monitoring System Description | Title: Oil Life Monitoring System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9301002.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Combination Meter Circuit Diagram | Title: Combination Meter Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9302001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Combination Meter Diagnosis Function Description | Title: Combination Meter Diagnosis Function Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304002.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304003.xml
+          - File: DTC B1802 | Title: DTC B1802 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304007.xml
+          - File: DTC B1810 / B1811 | Title: DTC B1810 / B1811 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304008.xml
+          - File: DTC B1840 | Title: DTC B1840 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304010.xml
+          - File: DTC B1842 | Title: DTC B1842 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304012.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304013.xml
+          - File: DTC U0100 / U0101 / U0121 / U0127 / U0131 / U0140 / U0151 / U108A / U1093 | Title: DTC U0100 / U0101 / U0121 / U0127 / U0131 / U0140 / U0151 / U108A / U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304014.xml
+      - File: Scan Tool Active Test | Title: Scan Tool Active Test | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304004.xml
+      - File: Scan Tool Utility Table | Title: Scan Tool Utility Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304005.xml
+      - File: Combination Meter Diagnosis | Title: Combination Meter Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304006.xml
+      - File: DTC B1820 | Title: DTC B1820 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304009.xml
+      - File: DTC B1841 | Title: DTC B1841 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304011.xml
+      - File: Inspection of Combination Meter and Its Circuit | Title: Inspection of Combination Meter and Its Circuit | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9304015.xml
+    - Folder: Repair Instructions
+      - File: Combination Meter Removal and Installation | Title: Combination Meter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306001.xml
+      - File: Instrument Panel Removal and Installation | Title: Instrument Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306002.xml
+      - File: Instrument Panel Disassembly and Reassembly | Title: Instrument Panel Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306003.xml
+      - File: Horn On-Vehicle Inspection | Title: Horn On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306005.xml
+      - File: Horn Removal and Installation | Title: Horn Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306004.xml
+      - File: Oil Life Monitoring System Reset (If Equipped) | Title: Oil Life Monitoring System Reset (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306006.xml
+      - File: Oil Life Monitoring System Function Setting (If Equipped) | Title: Oil Life Monitoring System Function Setting (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9306007.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9307001.xml
+  - Folder: 9D - Wipers / Washers
+    - Folder: Component Location
+      - File: Wiper and Washer Component Location | Title: Wiper and Washer Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9403001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Wiper and Washer Symptom Diagnosis | Title: Wiper and Washer Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9404001.xml
+    - Folder: Repair Instructions
+      - File: Washer Tank and Washer Pump Removal and Installation | Title: Washer Tank and Washer Pump Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406001.xml
+      - File: Washer Pump Inspection | Title: Washer Pump Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406002.xml
+      - File: Windshield Wiper Motor Removal and Installation | Title: Windshield Wiper Motor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406003.xml
+      - File: Windshield Wiper Motor Operation Inspection | Title: Windshield Wiper Motor Operation Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406004.xml
+      - File: Rear Wiper Removal and Installation | Title: Rear Wiper Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406005.xml
+      - File: Rear Wiper Motor Inspection | Title: Rear Wiper Motor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406006.xml
+      - File: Washer Nozzle Removal and Installation | Title: Washer Nozzle Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406007.xml
+      - File: Wiper and Washer Switch Removal and Installation | Title: Wiper and Washer Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406008.xml
+      - File: Wiper and Washer Switch Inspection | Title: Wiper and Washer Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9406009.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9407001.xml
+  - Folder: 9E - Glass / Windows / Mirrors
+    - Folder: Precautions
+      - File: Precautions for Working on Glass | Title: Precautions for Working on Glass | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9500001.xml
+      - File: Precautions for Working on Power Window | Title: Precautions for Working on Power Window | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9500002.xml
+    - Folder: General Description
+      - File: Power Window System Description | Title: Power Window System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9501001.xml
+      - File: Anti-Pinching Function Description | Title: Anti-Pinching Function Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9501002.xml
+      - File: Rear Defogger and Door Mirror Heater System Description (If Equipped) | Title: Rear Defogger and Door Mirror Heater System Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9501003.xml
+    - Folder: Component Location
+      - File: Power Window Component Location | Title: Power Window Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9503001.xml
+      - File: Power Door Mirror Component Location (If Equipped) | Title: Power Door Mirror Component Location (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9503002.xml
+      - File: Rear Defogger Component Location (If Equipped) | Title: Rear Defogger Component Location (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9503003.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Power Window System Symptom Diagnosis | Title: Power Window System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504001.xml
+      - File: Power Door Mirror Control System Symptom Diagnosis | Title: Power Door Mirror Control System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504002.xml
+      - File: Rear Defogger and Mirror Heater System Symptom Diagnosis (If Equipped) | Title: Rear Defogger and Mirror Heater System Symptom Diagnosis (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504003.xml
+      - File: Inspection of Power Window Anti-Pinching Function | Title: Inspection of Power Window Anti-Pinching Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504004.xml
+      - File: Inspection of Power Window Main Switch and Its Circuits | Title: Inspection of Power Window Main Switch and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504005.xml
+    - Folder: Repair Instructions
+      - File: Windshield Components | Title: Windshield Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506001.xml
+      - File: Windshield Removal and Installation | Title: Windshield Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506002.xml
+      - File: Rearend Door Window Glass Components | Title: Rearend Door Window Glass Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506003.xml
+      - File: Rearend Door Window Glass Removal and Installation | Title: Rearend Door Window Glass Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506004.xml
+      - File: Rear Defogger Inspection | Title: Rear Defogger Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506005.xml
+      - File: Rear Defogger Switch Inspection | Title: Rear Defogger Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506006.xml
+      - File: Inner Rear View Mirror Removal and Installation | Title: Inner Rear View Mirror Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506007.xml
+      - File: Front Door Window Glass Components | Title: Front Door Window Glass Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506008.xml
+      - File: Front Door Glass Removal and Installation | Title: Front Door Glass Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506009.xml
+      - File: Front Window Regulator Assembly Removal and Installation | Title: Front Window Regulator Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506010.xml
+      - File: Front Window Regulator Assembly Inspection | Title: Front Window Regulator Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506011.xml
+      - File: Rear Door Window Glass Components | Title: Rear Door Window Glass Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506012.xml
+      - File: Rear Door Glass Removal and Installation | Title: Rear Door Glass Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506013.xml
+      - File: Rear Window Regulator Assembly Removal and Installation | Title: Rear Window Regulator Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506014.xml
+      - File: Rear Window Regulator Assembly Inspection | Title: Rear Window Regulator Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506015.xml
+      - File: Power Window Main Switch Inspection | Title: Power Window Main Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506016.xml
+      - File: Power Window Sub Switch Inspection | Title: Power Window Sub Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506017.xml
+      - File: Power Window System Initialization / Reset | Title: Power Window System Initialization / Reset | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506018.xml
+      - File: Power Door Mirror and Mirror Heater On-Vehicle Inspection (If Equipped) | Title: Power Door Mirror and Mirror Heater On-Vehicle Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506019.xml
+      - File: Door Mirror Removal and Installation | Title: Door Mirror Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506020.xml
+      - File: Power Door Mirror Switch Inspection | Title: Power Door Mirror Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506021.xml
+      - File: Rear Defogger Relay Inspection (If Equipped) | Title: Rear Defogger Relay Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9506022.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9507001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9508001.xml
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9508002.xml
+  - Folder: 9F - Security and Locks
+    - Folder: General Description
+      - File: Power Door Lock System Description | Title: Power Door Lock System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9601001.xml
+      - File: Deadlock System Description (If Equipped) | Title: Deadlock System Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9601002.xml
+      - File: Emergency Lever of Rearend Door Description (If Equipped) | Title: Emergency Lever of Rearend Door Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9601003.xml
+      - File: Power Door Lock Operation Description | Title: Power Door Lock Operation Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9601004.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Power Door Lock System Circuit Diagram | Title: Power Door Lock System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9602001.xml
+    - Folder: Component Location
+      - File: Power Door Lock System Component Location | Title: Power Door Lock System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9603001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Power Door Lock System Symptom Diagnosis | Title: Power Door Lock System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604001.xml
+    - Folder: Repair Instructions
+      - File: Front Door Lock Components | Title: Front Door Lock Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606001.xml
+      - File: Front Door Lock Assembly Removal and Installation | Title: Front Door Lock Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606002.xml
+      - File: Front Door Lock Assembly Inspection | Title: Front Door Lock Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606003.xml
+      - File: Rear Door Lock Components | Title: Rear Door Lock Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606004.xml
+      - File: Rear Door Lock Assembly Removal and Installation | Title: Rear Door Lock Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606005.xml
+      - File: Rear Door Lock Assembly Inspection | Title: Rear Door Lock Assembly Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606006.xml
+      - File: Door Lock Switch and Actuator On-Vehicle Inspection | Title: Door Lock Switch and Actuator On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606007.xml
+      - File: Front and Rear Door Switch Inspection | Title: Front and Rear Door Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606008.xml
+      - File: Power Door Lock Switch Inspection | Title: Power Door Lock Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606009.xml
+      - File: Rearend Door Lock Components | Title: Rearend Door Lock Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606010.xml
+      - File: Rearend Door Latch On-Vehicle Inspection | Title: Rearend Door Latch On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606011.xml
+      - File: Rearend Door Lock Removal and Installation | Title: Rearend Door Lock Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606012.xml
+      - File: Rearend Door Opener Switch On-Vehicle Inspection | Title: Rearend Door Opener Switch On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606013.xml
+      - File: Rearend Door Opener Switch Removal and Installation | Title: Rearend Door Opener Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9606014.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9607001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9608001.xml
+  - Folder: 9G - Seats
+    - Folder: General Description
+      - File: Seat Heater System Description (If Equipped) | Title: Seat Heater System Description (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9701001.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Seat Heater System Circuit Diagram | Title: Seat Heater System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9702001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Seat Heater Symptom Diagnosis (If Equipped) | Title: Seat Heater Symptom Diagnosis (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9704001.xml
+    - Folder: Repair Instructions
+      - File: Front Seat Components | Title: Front Seat Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706001.xml
+      - File: Front Seat Removal and Installation | Title: Front Seat Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706002.xml
+      - File: Front Seatback and Front Seat Cushion Disassembly and Reassembly | Title: Front Seatback and Front Seat Cushion Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706003.xml
+      - File: Seat Heater Wire Inspection (If Equipped) | Title: Seat Heater Wire Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706004.xml
+      - File: Seat Heater Switch Removal and Installation (If Equipped) | Title: Seat Heater Switch Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706005.xml
+      - File: Seat Heater Switch Inspection (If Equipped) | Title: Seat Heater Switch Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706006.xml
+      - File: Rear Seat Components | Title: Rear Seat Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706007.xml
+      - File: Rear Seat Removal and Installation | Title: Rear Seat Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706008.xml
+      - File: Rear Seatback and Rear Seat Cushion Disassembly and Reassembly | Title: Rear Seatback and Rear Seat Cushion Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9706009.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9707001.xml
+  - Folder: 9H - Exterior Trim / Interior Trim
+    - Folder: Repair Instructions
+      - File: Front Bumper Removal and Installation | Title: Front Bumper Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806001.xml
+      - File: Front Bumper Disassembly and Reassembly | Title: Front Bumper Disassembly and Reassembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806002.xml
+      - File: Front Bumper Member Removal and Installation | Title: Front Bumper Member Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806003.xml
+      - File: Rear Bumper Components | Title: Rear Bumper Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806004.xml
+      - File: Rear Bumper Removal and Installation | Title: Rear Bumper Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806005.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Cowl Top Garnish Removal and Installation | Title: Cowl Top Garnish Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806006.xml
+      - File: Hood Silencer Removal and Installation | Title: Hood Silencer Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806007.xml
+      - File: Main Floor Undercover Removal and Installation (If Equipped) | Title: Main Floor Undercover Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806008.xml
+      - File: Side Sill Splash Guard Removal and Installation | Title: Side Sill Splash Guard Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806010.xml
+      - File: Quarter Garnish Removal and Installation | Title: Quarter Garnish Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806011.xml
+      - File: Rear Spoiler Removal and Installation | Title: Rear Spoiler Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806012.xml
+      - File: Roof Molding Removal and Installation | Title: Roof Molding Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806013.xml
+      - File: Front Pillar Upper Tape Removal and Installation | Title: Front Pillar Upper Tape Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806014.xml
+      - File: Door Sash Tape Removal and Installation | Title: Door Sash Tape Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806015.xml
+      - File: Trim Removal and Installation | Title: Trim Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806016.xml
+      - File: Floor Carpet Removal and Installation | Title: Floor Carpet Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806017.xml
+      - File: Head Lining Removal and Installation | Title: Head Lining Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806018.xml
+      - File: Center Console Box Removal and Installation | Title: Center Console Box Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806020.xml
+      - File: Accessory Socket Removal and Installation | Title: Accessory Socket Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9806021.xml
+    - Folder: Specifications
+      - File: Plastic Part Specifications | Title: Plastic Part Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9807001.xml
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9807002.xml
+  - Folder: 9J - Hood / Fenders / Doors
+    - Folder: Repair Instructions
+      - File: Hood Removal and Installation | Title: Hood Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06001.xml
+      - File: Hood Inspection and Adjustment | Title: Hood Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06002.xml
+      - File: Hood Lock Release Cable Components | Title: Hood Lock Release Cable Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06003.xml
+      - File: Front Fender Components | Title: Front Fender Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06004.xml
+      - File: Front Fender Removal and Installation | Title: Front Fender Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06005.xml
+      - File: Front Door Components | Title: Front Door Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06006.xml
+      - File: Front Door Assembly Removal and Installation | Title: Front Door Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06007.xml
+      - File: Rear Door Components | Title: Rear Door Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06008.xml
+      - File: Rear Door Assembly Removal and Installation | Title: Rear Door Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06009.xml
+      - File: Fuel Filler Door Removal and Installation | Title: Fuel Filler Door Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06010.xml
+      - File: Fuel Filler Door Opener Cable Removal and Installation | Title: Fuel Filler Door Opener Cable Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06011.xml
+      - File: Rearend Door Assembly Components | Title: Rearend Door Assembly Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06012.xml
+      - File: Rearend Door Assembly Removal and Installation | Title: Rearend Door Assembly Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06013.xml
+      - File: All Latches, Hinges and Locks Inspection | Title: All Latches, Hinges and Locks Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A06014.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A07001.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9A08001.xml
+  - Folder: 9K - Body Structure
+    - Folder: Precautions
+      - Folder: Models
+        - Folder: K14C
+          - File: Precautions for Body Structure | Title: Precautions for Body Structure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B00001.xml
+    - Folder: General Description
+      - File: Body Repair Description | Title: Body Repair Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B01001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Sheet Metal Description | Title: Sheet Metal Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B01002.xml
+      - File: Body Structure Description | Title: Body Structure Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B01003.xml
+      - File: Checking and Straightening Benches Instruction | Title: Checking and Straightening Benches Instruction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B01004.xml
+    - Folder: Component Location
+      - Folder: Models
+        - Folder: K14C
+          - File: Silencer Sheet Installation Area | Title: Silencer Sheet Installation Area | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B03001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Inspection for Body Damage | Title: Inspection for Body Damage | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04001.xml
+      - File: Transmission Routes of Impact | Title: Transmission Routes of Impact | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04002.xml
+      - File: Panel Clearance | Title: Panel Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04003.xml
+      - File: Front Body Dimensions | Title: Front Body Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04004.xml
+      - File: Rearend Door Dimensions | Title: Rearend Door Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04005.xml
+      - File: Side Body Outside Dimensions | Title: Side Body Outside Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04006.xml
+      - File: Side Body Inside Dimensions | Title: Side Body Inside Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04007.xml
+      - File: Underbody Dimensions | Title: Underbody Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04008.xml
+      - File: Engine Compartment Dimensions with Mechanical Parts | Title: Engine Compartment Dimensions with Mechanical Parts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04009.xml
+      - File: Front Underbody Dimensions with Mechanical Parts | Title: Front Underbody Dimensions with Mechanical Parts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04010.xml
+      - File: Front Suspension Frame Dimensions | Title: Front Suspension Frame Dimensions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B04011.xml
+    - Folder: Repair Instructions
+      - File: Hood Lock Member, Lamp Support Brace and Lamp Support Outer Brace Removal and Installation | Title: Hood Lock Member, Lamp Support Brace and Lamp Support Outer Brace Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06001.xml
+      - File: Front Fender Bracket, Front Fender Upper Front Bracket, Front Fender Lower Bracket and Front Fender Lower Bracket Extension Removal and Installation | Title: Front Fender Bracket, Front Fender Upper Front Bracket, Front Fender Lower Bracket and Front Fender Lower Bracket Extension Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06002.xml
+      - File: Cowl Side Outer Member Removal and Installation | Title: Cowl Side Outer Member Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06003.xml
+      - File: Dash Side Front Panel Removal and Installation | Title: Dash Side Front Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06004.xml
+      - File: Fender Apron Extension Removal and Installation (Right Side) | Title: Fender Apron Extension Removal and Installation (Right Side) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06026.xml
+      - File: Fender Apron Extension Removal and Installation (Left Side) | Title: Fender Apron Extension Removal and Installation (Left Side) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06005.xml
+      - File: Front Side Member (Partial) Removal and Installation | Title: Front Side Member (Partial) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06006.xml
+      - File: Fender Apron Panel Removal and Installation (Right Side) | Title: Fender Apron Panel Removal and Installation (Right Side) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06025.xml
+      - File: Fender Apron Panel Removal and Installation (Left Side) | Title: Fender Apron Panel Removal and Installation (Left Side) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06007.xml
+      - File: Apron Side Member and Apron Side Outer Member Removal and Installation | Title: Apron Side Member and Apron Side Outer Member Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06008.xml
+      - File: A-Pillar Outer Panel Removal and Installation | Title: A-Pillar Outer Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06009.xml
+      - File: A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel and Dash Side Lower Panel Removal and Installation | Title: A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel and Dash Side Lower Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06010.xml
+      - File: A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel, Dash Side Lower Panel, Front Pillar Upper Extension, Front Pillar Inner Panel and Front Pillar Upper Reinforcement Removal and Installation | Title: A-Pillar Outer Panel, Front Door Hinge Reinforcement, Dash Side Panel, Dash Side Lower Panel, Front Pillar Upper Extension, Front Pillar Inner Panel and Front Pillar Upper Reinforc | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06011.xml
+      - File: B-Pillar Outer Panel Removal and Installation | Title: B-Pillar Outer Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06012.xml
+      - File: B-Pillar Outer Panel, Rear Door Hinge Reinforcement and Center Pillar Inner Panel Removal and Installation | Title: B-Pillar Outer Panel, Rear Door Hinge Reinforcement and Center Pillar Inner Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06013.xml
+      - File: Side Sill Outer Panel Removal and Installation | Title: Side Sill Outer Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06014.xml
+      - File: Side Sill Outer Panel and Side Sill Strength Removal and Installation | Title: Side Sill Outer Panel and Side Sill Strength Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06015.xml
+      - File: Quarter-Pillar Outer Panel Removal and Installation | Title: Quarter-Pillar Outer Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06016.xml
+      - File: Wheel House Outer Panel, Rear Wheel House Front Reinforcement and Blind Spot Sensor Bracket Removal and Installation | Title: Wheel House Outer Panel, Rear Wheel House Front Reinforcement and Blind Spot Sensor Bracket Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06017.xml
+      - File: Back Panel Removal and Installation | Title: Back Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06018.xml
+      - File: Rear Floor Rear Panel and Towing Rear Hook Removal and Installation | Title: Rear Floor Rear Panel and Towing Rear Hook Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06019.xml
+      - File: Rear Floor Side Member Rear Extension, Wheel House Inner Rear Panel and Rear Floor Rear Panel (Partial) Removal and Installation | Title: Rear Floor Side Member Rear Extension, Wheel House Inner Rear Panel and Rear Floor Rear Panel (Partial) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06021.xml
+      - File: Rear Lamp House Inner Panel, Rear Lamp House Outer Panel and Side Body Outer Extension (Partial) Removal and Installation | Title: Rear Lamp House Inner Panel, Rear Lamp House Outer Panel and Side Body Outer Extension (Partial) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06022.xml
+      - File: Roof Panel Removal and Installation | Title: Roof Panel Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06023.xml
+      - File: Foamed Material Filling Area Repair | Title: Foamed Material Filling Area Repair | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B06024.xml
+    - Folder: Special Tools and Equipment
+      - File: Recommended Service Material | Title: Recommended Service Material | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9B08001.xml
+  - Folder: 9L - Paint / Coatings
+    - Folder: General Description
+      - File: Anti-Corrosion Treatment | Title: Anti-Corrosion Treatment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9C01001.xml
+    - Folder: Repair Instructions
+      - File: Sealant Application Areas | Title: Sealant Application Areas | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9C06001.xml
+      - File: Undercoating Application Areas | Title: Undercoating Application Areas | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9C06002.xml
+      - File: Anti-Corrosion Compound Application Area | Title: Anti-Corrosion Compound Application Area | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9C06003.xml
+  - Folder: 9O - Audio Visual / Navigation
+    - Folder: Precautions
+      - File: Precautions for Rearview Camera | Title: Precautions for Rearview Camera | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F00001.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Audio System Circuit Diagram | Title: Audio System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F02001.xml
+    - Folder: Component Location
+      - File: Audio System Component Location | Title: Audio System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F03001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Audio System Symptom Diagnosis | Title: Audio System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04001.xml
+      - File: Inspection of Audio System and Its Circuit | Title: Inspection of Audio System and Its Circuit | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04002.xml
+    - Folder: Repair Instructions
+      - File: Audio / Navigation Unit Removal and Installation (If Equipped) | Title: Audio / Navigation Unit Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06001.xml
+      - File: Front Speaker and Rear Speaker Removal and Installation | Title: Front Speaker and Rear Speaker Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06002.xml
+      - File: Tweeter Removal and Installation | Title: Tweeter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06003.xml
+      - File: Radio Antenna Removal and Installation | Title: Radio Antenna Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06004.xml
+      - File: Radio Antenna Feeder Cable Inspection | Title: Radio Antenna Feeder Cable Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06005.xml
+      - File: Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped) | Title: Steering Switch (Audio Control Switch and Hands-Free Switch) Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06006.xml
+      - File: GPS Antenna Removal and Installation (If Equipped) | Title: GPS Antenna Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06007.xml
+      - File: USB and AUX Socket Removal and Installation (If Equipped) | Title: USB and AUX Socket Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06008.xml
+      - File: USB and AUX Socket Inspection (If Equipped) | Title: USB and AUX Socket Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06009.xml
+      - File: USB and AUX Harness Inspection (If Equipped) | Title: USB and AUX Harness Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06010.xml
+      - File: Microphone Removal and Installation (If Equipped) | Title: Microphone Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06011.xml
+      - File: Rearview Camera Removal and Installation (If Equipped) | Title: Rearview Camera Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F06012.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F07001.xml
+- Folder: 10 - Control Systems
+  - Folder: 10 - Precautions
+    - Folder: Precautions
+      - Folder: Models
+        - Folder: K14C
+          - File: Precautions for Control Systems | Title: Precautions for Control Systems | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA000001.xml
+  - Folder: 10A - Cruise Control System
+    - Folder: Precautions
+      - Folder: Cruise Control
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA110001.xml
+      - Folder: Adaptive Cruise Control
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA120001.xml
+        - File: Precautions for Adaptive Cruise Control System | Title: Precautions for Adaptive Cruise Control System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA120002.xml
+        - File: Precautions for Removing / Installing and Replacing RBS Control Module | Title: Precautions for Removing / Installing and Replacing RBS Control Module | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA120003.xml
+    - Folder: General Description
+      - Folder: Cruise Control
+        - File: Cruise Control System Construction | Title: Cruise Control System Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA111001.xml
+        - File: Description of Cruise Control System Components and Functions | Title: Description of Cruise Control System Components and Functions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA111002.xml
+        - File: Description of Cruise Control System Cancel Conditions | Title: Description of Cruise Control System Cancel Conditions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA111003.xml
+        - File: OBD System Description | Title: OBD System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA111007.xml
+      - Folder: Adaptive Cruise Control
+        - File: Adaptive Cruise Control System Construction | Title: Adaptive Cruise Control System Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121001.xml
+        - File: Description of Adaptive Cruise Control System Components | Title: Description of Adaptive Cruise Control System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121002.xml
+        - File: Description of Adaptive Cruise Control System Function | Title: Description of Adaptive Cruise Control System Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121003.xml
+        - File: Information Display Message Table | Title: Information Display Message Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121004.xml
+        - File: Speed Limiter System Construction | Title: Speed Limiter System Construction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121005.xml
+        - File: Description of Speed Limiter System Components and Functions | Title: Description of Speed Limiter System Components and Functions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121006.xml
+        - File: Description of Speed Limiter System Cancel Conditions | Title: Description of Speed Limiter System Cancel Conditions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA121007.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: Cruise Control
+        - File: Cruise Control System Input / Output Diagram | Title: Cruise Control System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA112001.xml
+        - File: Cruise Control System Circuit Diagram | Title: Cruise Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA112003.xml
+      - Folder: Adaptive Cruise Control
+        - File: Adaptive Cruise Control System Input / Output Diagram | Title: Adaptive Cruise Control System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA122001.xml
+        - File: Speed Limiter System Input / Output Diagram | Title: Speed Limiter System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA122002.xml
+        - File: Adaptive Cruise Control System Electric Circuit Diagram | Title: Adaptive Cruise Control System Electric Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA122003.xml
+    - Folder: Component Location
+      - Folder: Cruise Control
+        - File: Cruise Control System Component Location | Title: Cruise Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA113001.xml
+      - Folder: Adaptive Cruise Control
+        - File: Adaptive Cruise Control System Component Location | Title: Adaptive Cruise Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA123001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: Cruise Control
+        - File: Cruise Control System Check | Title: Cruise Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114001.xml
+        - File: Customer Complaint Analysis Form | Title: Customer Complaint Analysis Form | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114005.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114007.xml
+        - File: Cruise Control System Symptom Diagnosis | Title: Cruise Control System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114008.xml
+        - File: DTC P0575 | Title: DTC P0575 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114009.xml
+        - File: DTC P0649 | Title: DTC P0649 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114010.xml
+        - File: Inspection of Cruise Control System and Its Circuits | Title: Inspection of Cruise Control System and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114011.xml
+      - Folder: Adaptive Cruise Control
+        - File: Adaptive Cruise Control System Check | Title: Adaptive Cruise Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124001.xml
+        - File: Speed Limiter System Check | Title: Speed Limiter System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124002.xml
+        - File: Adaptive Cruise Control System Self-Diagnosis Function | Title: Adaptive Cruise Control System Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124003.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124004.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124005.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124006.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124007.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124008.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124009.xml
+        - File: Adaptive Cruise Control System Symptom Diagnosis | Title: Adaptive Cruise Control System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124010.xml
+        - File: Speed Limiter System Symptom Diagnosis | Title: Speed Limiter System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124011.xml
+        - File: DTC C1600 | Title: DTC C1600 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124012.xml
+        - File: DTC C1603 | Title: DTC C1603 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124037.xml
+        - File: DTC C1604 | Title: DTC C1604 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124038.xml
+        - File: DTC C1606 | Title: DTC C1606 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124039.xml
+        - File: DTC C1610 / C1618 | Title: DTC C1610 / C1618 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124013.xml
+        - File: DTC C1620 / C1659 | Title: DTC C1620 / C1659 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124014.xml
+        - File: DTC C1621 / C1658 | Title: DTC C1621 / C1658 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124015.xml
+        - File: DTC C1630 | Title: DTC C1630 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124016.xml
+        - File: DTC C1631 | Title: DTC C1631 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124017.xml
+        - File: DTC C1633 | Title: DTC C1633 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124018.xml
+        - File: DTC C1639 | Title: DTC C1639 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124019.xml
+        - File: DTC C1640 | Title: DTC C1640 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124020.xml
+        - File: DTC C1650 | Title: DTC C1650 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124021.xml
+        - File: DTC C1651 / C1654 | Title: DTC C1651 / C1654 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124022.xml
+        - File: DTC C1652 / C1653 | Title: DTC C1652 / C1653 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124023.xml
+        - File: DTC C1655 | Title: DTC C1655 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124024.xml
+        - File: DTC P0575 | Title: DTC P0575 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124025.xml
+        - File: DTC P081D | Title: DTC P081D | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124036.xml
+        - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124026.xml
+        - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124027.xml
+        - File: DTC U0101 | Title: DTC U0101 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124028.xml
+        - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124029.xml
+        - File: DTC U0126 | Title: DTC U0126 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124030.xml
+        - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124031.xml
+        - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124032.xml
+        - File: DTC U1082 | Title: DTC U1082 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124033.xml
+        - File: DTC U1093 | Title: DTC U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124034.xml
+        - File: Inspection of RBS Control Module and Its Circuits | Title: Inspection of RBS Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124035.xml
+    - Folder: Repair Instructions
+      - Folder: Cruise Control
+        - File: Cruise Control Switch Inspection | Title: Cruise Control Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA116001.xml
+        - File: CPP No.2 Switch Removal and Installation (M/T Model) | Title: CPP No.2 Switch Removal and Installation (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA116002.xml
+        - File: CPP No.2 Switch Inspection (M/T Model) | Title: CPP No.2 Switch Inspection (M/T Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA116003.xml
+        - File: Brake Light Switch Removal and Installation | Title: Brake Light Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA116004.xml
+        - File: Brake Light Switch Inspection | Title: Brake Light Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA116005.xml
+      - Folder: Adaptive Cruise Control
+        - File: RBS Control Module Components | Title: RBS Control Module Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA126004.xml
+        - File: RBS Control Module Removal and Installation | Title: RBS Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA126001.xml
+        - File: Millimeter Wave Radar Variant Registration | Title: Millimeter Wave Radar Variant Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA126005.xml
+        - File: Millimeter Wave Radar Aiming Adjustment | Title: Millimeter Wave Radar Aiming Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA126002.xml
+        - File: Cruise Control Switch Inspection | Title: Cruise Control Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA126003.xml
+    - Folder: Specifications
+      - Folder: Adaptive Cruise Control
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA127001.xml
+    - Folder: Special Tools and Equipment
+      - Folder: Adaptive Cruise Control
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA128001.xml
+  - Folder: 10B - Body Electrical Control System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA200001.xml
+      - File: Precautions for Replacing Remote Controller | Title: Precautions for Replacing Remote Controller | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA200002.xml
+      - File: Precautions for Remote Controller Disposal | Title: Precautions for Remote Controller Disposal | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA200003.xml
+    - Folder: General Description
+      - File: BCM General Description | Title: BCM General Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA201001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: CAN Communication System Description | Title: CAN Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA201002.xml
+    - Folder: Schematic and Routing Diagram
+      - File: BCM Input / Output Diagram | Title: BCM Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA202001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Body Electrical Control System Circuit Diagram | Title: Body Electrical Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA202002.xml
+    - Folder: Component Location
+      - Folder: K14C
+        - File: BCM and Related System Component Location | Title: BCM and Related System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA203001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Control Relay Component Location | Title: Control Relay Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA203002.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Body Electrical Control System Check | Title: Body Electrical Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204001.xml
+      - File: BCM Self-Diagnosis Function | Title: BCM Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204002.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204003.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204004.xml
+          - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204005.xml
+          - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204007.xml
+          - File: DTC B1133 | Title: DTC B1133 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204012.xml
+          - File: DTC B1461 | Title: DTC B1461 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204018.xml
+          - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204019.xml
+          - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204020.xml
+          - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204022.xml
+          - File: DTC U0151 | Title: DTC U0151 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204023.xml
+          - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204024.xml
+          - File: DTC U108B | Title: DTC U108B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204026.xml
+          - File: DTC U1093 | Title: DTC U1093 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204027.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204006.xml
+      - File: Scan Tool Active Test Table | Title: Scan Tool Active Test Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204008.xml
+      - File: Scan Tool Utility Table | Title: Scan Tool Utility Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204009.xml
+      - File: DTC B1120 / B1170 | Title: DTC B1120 / B1170 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204010.xml
+      - File: DTC B1123 | Title: DTC B1123 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204011.xml
+      - File: DTC B1141 / B1142 | Title: DTC B1141 / B1142 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204013.xml
+      - File: DTC B1145 / B1146 | Title: DTC B1145 / B1146 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204014.xml
+      - File: DTC B1148 | Title: DTC B1148 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204015.xml
+      - File: DTC B1150 | Title: DTC B1150 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204016.xml
+      - File: DTC B1157 | Title: DTC B1157 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204017.xml
+      - Folder: K14C
+        - File: DTC U0101 | Title: DTC U0101 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204021.xml
+        - File: Inspection of BCM and Its Circuits | Title: Inspection of BCM and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204029.xml
+      - File: DTC U2005 | Title: DTC U2005 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204028.xml
+      - File: BCM Power Supply and Ground Circuit Check | Title: BCM Power Supply and Ground Circuit Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA204030.xml
+    - Folder: Repair Instructions
+      - File: Remote Controller Registration | Title: Remote Controller Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206001.xml
+      - File: BCM Removal and Installation | Title: BCM Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206003.xml
+      - File: Outside Air Temperature Sensor Removal and Installation (If Equipped) | Title: Outside Air Temperature Sensor Removal and Installation (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206004.xml
+      - File: Outside Air Temperature Sensor Inspection (If Equipped) | Title: Outside Air Temperature Sensor Inspection (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206005.xml
+      - File: Security Alarm Mode Selection Procedure (If Equipped) | Title: Security Alarm Mode Selection Procedure (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206006.xml
+      - File: Remote Controller Battery Replacement | Title: Remote Controller Battery Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206008.xml
+      - File: Control Relay Inspection | Title: Control Relay Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA206009.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA208001.xml
+  - Folder: 10C - Immobilizer Control System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA300001.xml
+    - Folder: General Description
+      - File: Immobilizer Control System Introduction | Title: Immobilizer Control System Introduction | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA301001.xml
+      - File: Description of Ignition Mode Switching Procedure | Title: Description of Ignition Mode Switching Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA301002.xml
+      - File: Description of Engine Starting Procedure | Title: Description of Engine Starting Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA301003.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: CAN Communication System Description | Title: CAN Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA301004.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Immobilizer Control System Circuit Diagram | Title: Immobilizer Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA302001.xml
+    - Folder: Component Location
+    - Folder: Diagnostic Information and Procedures
+      - Folder: Models
+        - Folder: K14C
+          - File: Immobilizer Control System Check | Title: Immobilizer Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304001.xml
+          - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304003.xml
+          - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304004.xml
+          - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304005.xml
+          - File: DTC P1610 / B1320 | Title: DTC P1610 / B1320 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304006.xml
+          - File: DTC P1611 / B1321 | Title: DTC P1611 / B1321 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304007.xml
+          - File: DTC P1622 / B132F | Title: DTC P1622 / B132F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304008.xml
+          - File: DTC P1642 / B1328 | Title: DTC P1642 / B1328 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304009.xml
+          - File: DTC P1644 / B1329 | Title: DTC P1644 / B1329 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304010.xml
+          - File: DTC P1645 / P1646 / B132A / B132B | Title: DTC P1645 / P1646 / B132A / B132B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304011.xml
+          - File: DTC B1169 | Title: DTC B1169 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304013.xml
+      - File: Immobilizer Control System Self-Diagnosis Function | Title: Immobilizer Control System Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304002.xml
+      - File: DTC B1168 | Title: DTC B1168 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304012.xml
+      - File: DTC B1173 | Title: DTC B1173 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304014.xml
+      - File: DTC B1175 | Title: DTC B1175 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304015.xml
+      - File: DTC B1176 | Title: DTC B1176 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304016.xml
+      - File: DTC B1189 | Title: DTC B1189 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304017.xml
+      - File: DTC B1342 | Title: DTC B1342 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304020.xml
+      - File: DTC B134F | Title: DTC B134F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304022.xml
+      - File: Inspection of ID Controller and Its Circuits (If Equipped) | Title: Inspection of ID Controller and Its Circuits (If Equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA304018.xml
+    - Folder: Repair Instructions
+      - File: Engine Switch Removal and Installation | Title: Engine Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA306001.xml
+      - File: Remote Controller Registration | Title: Remote Controller Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA306002.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: ECM / ISG Registration | Title: ECM / ISG Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA306003.xml
+      - File: BCM Registration | Title: BCM Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA306004.xml
+  - Folder: 10D - Tire Pressure Monitoring System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA400001.xml
+    - Folder: General Description
+      - File: Tire Pressure Monitoring System Description | Title: Tire Pressure Monitoring System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA401001.xml
+    - Folder: Schematic and Routing Diagram
+      - File: TPMS Input / Output Diagram | Title: TPMS Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA402001.xml
+    - Folder: Component Location
+      - Folder: Models
+        - Folder: K14C
+          - File: TPMS Component Location | Title: TPMS Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA403001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: TPMS Check | Title: TPMS Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: TPMS Self-Diagnosis Function | Title: TPMS Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404002.xml
+      - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404003.xml
+      - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404004.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404005.xml
+      - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404006.xml
+      - File: DTC B1A00 | Title: DTC B1A00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404007.xml
+      - File: DTC B1A01 | Title: DTC B1A01 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404008.xml
+      - File: DTC B1A02 | Title: DTC B1A02 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404009.xml
+      - File: DTC B1A03 | Title: DTC B1A03 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404010.xml
+      - File: DTC B1A10 | Title: DTC B1A10 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404011.xml
+      - File: DTC B1A11 | Title: DTC B1A11 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404012.xml
+      - File: DTC B1A20 / B1A21 / B1A22 / B1A23 | Title: DTC B1A20 / B1A21 / B1A22 / B1A23 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404013.xml
+      - File: DTC B1A24 / B1A25 / B1A26 / B1A27 | Title: DTC B1A24 / B1A25 / B1A26 / B1A27 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404014.xml
+      - File: DTC B1A28 / B1A29 / B1A2A / B1A2B | Title: DTC B1A28 / B1A29 / B1A2A / B1A2B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404015.xml
+      - File: DTC B1A2C / B1A2D / B1A2E / B1A2F | Title: DTC B1A2C / B1A2D / B1A2E / B1A2F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404016.xml
+      - File: DTC B1A30 / B1A31 / B1A32 / B1A33 | Title: DTC B1A30 / B1A31 / B1A32 / B1A33 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404017.xml
+      - File: DTC B1A40 | Title: DTC B1A40 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404018.xml
+      - File: DTC B1A41 | Title: DTC B1A41 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404019.xml
+      - File: DTC B1A42 | Title: DTC B1A42 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404020.xml
+      - File: DTC B1A48 | Title: DTC B1A48 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404021.xml
+      - File: DTC B1A49 | Title: DTC B1A49 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404022.xml
+      - File: Inspection of TPMS Control Module and Its Circuits | Title: Inspection of TPMS Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA404028.xml
+    - Folder: Repair Instructions
+      - File: Tire Pressure Sensor Removal and Installation | Title: Tire Pressure Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA406001.xml
+      - File: Tire Pressure Sensor Inspection | Title: Tire Pressure Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA406002.xml
+      - File: TPMS Control Module Removal and Installation | Title: TPMS Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA406003.xml
+      - File: Registration Procedure for Tire Pressure Sensor ID Code | Title: Registration Procedure for Tire Pressure Sensor ID Code | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA406004.xml
+      - File: TPMS Setting Procedure | Title: TPMS Setting Procedure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA406005.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA407001.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA408001.xml
+  - Folder: 10E - Keyless Start System
+    - Folder: Precautions
+      - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA500001.xml
+      - File: Precautions for Replacing Remote Controller | Title: Precautions for Replacing Remote Controller | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA500002.xml
+      - File: Precautions for Remote Controller Disposal | Title: Precautions for Remote Controller Disposal | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA500003.xml
+      - File: Precautions for Replacing BCM | Title: Precautions for Replacing BCM | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA500004.xml
+    - Folder: General Description
+      - File: Keyless Start System (Keyless Push Start System) Description | Title: Keyless Start System (Keyless Push Start System) Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501001.xml
+      - File: Description of Keyless Start System Parts and Functions | Title: Description of Keyless Start System Parts and Functions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501002.xml
+      - File: Description of Keyless Start System Door Lock Function | Title: Description of Keyless Start System Door Lock Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501003.xml
+      - File: Description of Keyless Engine Start Function | Title: Description of Keyless Engine Start Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501004.xml
+      - File: Description of Keyless Start System Alarm Function | Title: Description of Keyless Start System Alarm Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501005.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: CAN Communication System Description | Title: CAN Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA501006.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Keyless Start System Input / Output Diagram | Title: Keyless Start System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA502001.xml
+      - File: Keyless Start System Electric Circuit Diagram | Title: Keyless Start System Electric Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA502002.xml
+    - Folder: Component Location
+      - File: Keyless Start System Component Location | Title: Keyless Start System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA503001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Keyless Start System Check | Title: Keyless Start System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504001.xml
+      - Folder: Models
+        - Folder: K14C
+          - File: Keyless Start System Symptom Diagnosis | Title: Keyless Start System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504002.xml
+          - File: DTC B115C | Title: DTC B115C | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504017.xml
+          - File: DTC B115D | Title: DTC B115D | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504018.xml
+          - File: DTC B115E | Title: DTC B115E | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504019.xml
+          - File: DTC B115F | Title: DTC B115F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504020.xml
+          - File: DTC B1162 | Title: DTC B1162 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504023.xml
+      - File: BCM Self-Diagnosis Function | Title: BCM Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504003.xml
+      - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504004.xml
+      - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504005.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504006.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504007.xml
+      - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504008.xml
+      - File: Scan Tool Active Test Table | Title: Scan Tool Active Test Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504009.xml
+      - File: Scan Tool Utility Table | Title: Scan Tool Utility Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504010.xml
+      - File: DTC B1103 / B1104 / B1105 / B1106 / B1107 | Title: DTC B1103 / B1104 / B1105 / B1106 / B1107 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504011.xml
+      - File: DTC B1108 | Title: DTC B1108 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504012.xml
+      - File: DTC B1125 | Title: DTC B1125 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504013.xml
+      - File: DTC B1126 | Title: DTC B1126 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504014.xml
+      - File: DTC B1134 | Title: DTC B1134 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504015.xml
+      - File: DTC B1137 | Title: DTC B1137 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504016.xml
+      - File: DTC B1160 | Title: DTC B1160 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504021.xml
+      - File: DTC B1161 / B1163 | Title: DTC B1161 / B1163 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504022.xml
+      - File: DTC B116A | Title: DTC B116A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504024.xml
+      - File: DTC B1180 / B1181 / B1182 | Title: DTC B1180 / B1181 / B1182 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504025.xml
+      - File: DTC B1186 | Title: DTC B1186 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504026.xml
+      - File: DTC B1190 | Title: DTC B1190 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504027.xml
+      - File: DTC B1191 | Title: DTC B1191 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504028.xml
+      - File: DTC B1192 | Title: DTC B1192 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504029.xml
+      - File: DTC B1193 | Title: DTC B1193 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504030.xml
+      - File: DTC B1194 | Title: DTC B1194 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504031.xml
+      - File: Inspection of BCM and Its Circuits | Title: Inspection of BCM and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA504032.xml
+    - Folder: Repair Instructions
+      - File: Remote Controller Registration | Title: Remote Controller Registration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506001.xml
+      - File: Switching Procedure for Disabling / Enabling Keyless Start System | Title: Switching Procedure for Disabling / Enabling Keyless Start System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506002.xml
+      - File: Driver Side / Passenger Side Outside Antenna and Door Request Switch Removal and Installation | Title: Driver Side / Passenger Side Outside Antenna and Door Request Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506003.xml
+      - File: Rearend Door Opener and Request Switch Removal and Installation | Title: Rearend Door Opener and Request Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506004.xml
+      - File: Rear Outside Antenna Removal and Installation | Title: Rear Outside Antenna Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506005.xml
+      - File: Mid Inside Antenna Removal and Installation | Title: Mid Inside Antenna Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506006.xml
+      - File: Rear Inside Antenna Removal and Installation | Title: Rear Inside Antenna Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506007.xml
+      - File: Request Switch Inspection | Title: Request Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506008.xml
+      - File: Antenna Inspection | Title: Antenna Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506009.xml
+      - File: Driver / Passenger Door Lock Switch Removal and Installation | Title: Driver / Passenger Door Lock Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506010.xml
+      - File: Driver / Passenger Door Lock Switch Inspection | Title: Driver / Passenger Door Lock Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506011.xml
+      - File: Engine Switch Removal and Installation | Title: Engine Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506012.xml
+      - File: Engine Switch Inspection | Title: Engine Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506013.xml
+      - File: Outside Warning Buzzer Removal and Installation | Title: Outside Warning Buzzer Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506014.xml
+      - File: Outside Warning Buzzer Inspection | Title: Outside Warning Buzzer Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506015.xml
+      - File: Remote Controller Battery Replacement | Title: Remote Controller Battery Replacement | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA506016.xml
+  - Folder: 10H - Communication System
+    - Folder: Precautions
+      - Folder: CAN (K14C Model)
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA810001.xml
+      - Folder: CAN (Central Gateway)
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA830001.xml
+        - File: Precautions for Replacing Central Gateway Control Module | Title: Precautions for Replacing Central Gateway Control Module | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA830002.xml
+    - Folder: General Description
+      - Folder: CAN (K14C Model)
+        - File: Communication System Description | Title: Communication System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA811001.xml
+        - File: CAN Communication System Diagnosis General Description | Title: CAN Communication System Diagnosis General Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA811002.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: CAN (K14C Model)
+        - File: CAN Communication System Circuit Diagram | Title: CAN Communication System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA812001.xml
+      - Folder: CAN (Central Gateway)
+        - File: Central Gateway Control System Circuit Diagram | Title: Central Gateway Control System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA832001.xml
+    - Folder: Component Location
+      - Folder: CAN (K14C Model)
+        - File: CAN Communication System Component Location | Title: CAN Communication System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA813001.xml
+      - Folder: CAN (Central Gateway)
+        - File: CAN Communication System Component Location | Title: CAN Communication System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA833001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: CAN (K14C Model)
+        - File: CAN Communication Check | Title: CAN Communication Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814001.xml
+        - File: CAN DTC (Lost Communication and Communication Bus Off) Table | Title: CAN DTC (Lost Communication and Communication Bus Off) Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814002.xml
+        - File: Troubleshooting for Lost Communication | Title: Troubleshooting for Lost Communication | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814003.xml
+        - File: Troubleshooting for Communication Bus Off | Title: Troubleshooting for Communication Bus Off | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814004.xml
+        - File: Communication Check | Title: Communication Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814005.xml
+        - File: Judgement of Communication Bus Check | Title: Judgement of Communication Bus Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA814006.xml
+      - Folder: CAN (Central Gateway)
+        - File: Central Gateway Control System Check | Title: Central Gateway Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834001.xml
+        - File: Central Gateway Control Module Self-Diagnosis Function | Title: Central Gateway Control Module Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834005.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834006.xml
+        - File: DTC B1140-04 / B1141-04 / B1142-04 | Title: DTC B1140-04 / B1141-04 / B1142-04 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834007.xml
+        - File: DTC B1150-16 / B1150-17 | Title: DTC B1150-16 / B1150-17 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834008.xml
+        - File: DTC U0073-88 | Title: DTC U0073-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834009.xml
+        - File: DTC U0075-88 | Title: DTC U0075-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834010.xml
+        - File: DTC U0077-88 | Title: DTC U0077-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834021.xml
+        - File: DTC U0100-87 | Title: DTC U0100-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834011.xml
+        - File: DTC U0101-87 | Title: DTC U0101-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834012.xml
+        - File: DTC U0121-87 | Title: DTC U0121-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834013.xml
+        - File: DTC U0126-87 | Title: DTC U0126-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834014.xml
+        - File: DTC U0140-87 | Title: DTC U0140-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834015.xml
+        - File: DTC U0151-87 | Title: DTC U0151-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834016.xml
+        - File: DTC U0155-87 | Title: DTC U0155-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834017.xml
+        - File: DTC U1096-87 | Title: DTC U1096-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834018.xml
+        - File: Inspection of Central Gateway Control Module and Its Circuits | Title: Inspection of Central Gateway Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA834020.xml
+    - Folder: Special Tools and Equipment
+      - Folder: CAN (K14C Model)
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA818001.xml
+      - Folder: CAN (Central Gateway)
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA838001.xml
+    - Folder: Repair Instructions
+      - Folder: CAN (Central Gateway)
+        - File: Central Gateway Control Module Removal and Installation | Title: Central Gateway Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA836001.xml
+    - Folder: Specifications
+      - Folder: CAN (Central Gateway)
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA837001.xml
+  - Folder: 10I - Engine Auto Stop Start System
+    - Folder: Precautions
+      - File: Precautions for Replacing ISG | Title: Precautions for Replacing ISG | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA900005.xml
+      - File: Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery) | Title: Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA900004.xml
+    - Folder: General Description
+      - File: Description of ENG A-STOP System | Title: Description of ENG A-STOP System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA901001.xml
+      - File: Description of SHVS System Control | Title: Description of SHVS System Control | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA901005.xml
+      - File: Description of ENG A-STOP System Components | Title: Description of ENG A-STOP System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA901002.xml
+      - File: Description of ENG A-STOP System Alarm Function | Title: Description of ENG A-STOP System Alarm Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA901003.xml
+    - Folder: Schematic and Routing Diagram
+      - File: ENG A-STOP System Input / Output Diagram | Title: ENG A-STOP System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA902001.xml
+    - Folder: Component Location
+      - File: ENG A-STOP System Component Location | Title: ENG A-STOP System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA903001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: ENG A-STOP System Check | Title: ENG A-STOP System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904001.xml
+      - File: ENG A-STOP System Self-Diagnosis Function | Title: ENG A-STOP System Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904002.xml
+      - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904005.xml
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904009.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904010.xml
+      - File: DTC P081D | Title: DTC P081D | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904012.xml
+      - File: DTC P083F | Title: DTC P083F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904013.xml
+      - File: DTC P1320 / P1321 / P1322 | Title: DTC P1320 / P1321 / P1322 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904014.xml
+      - File: DTC P1326 / P1327 | Title: DTC P1326 / P1327 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904016.xml
+      - File: DTC P13A0 | Title: DTC P13A0 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904019.xml
+      - File: DTC P254F | Title: DTC P254F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904020.xml
+    - Folder: Repair Instructions
+      - File: Sensor Calibration for ENG A-STOP System | Title: Sensor Calibration for ENG A-STOP System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906002.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Title: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906003.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Title: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906004.xml
+      - File: DC/DC Converter Removal and Installation | Title: DC/DC Converter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906019.xml
+      - File: DC/DC Converter Inspection | Title: DC/DC Converter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906020.xml
+      - File: Neutral Position Switch Removal and Installation | Title: Neutral Position Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906007.xml
+      - File: Neutral Position Switch Inspection | Title: Neutral Position Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906008.xml
+      - File: CPP No.1 Switch Removal and Installation | Title: CPP No.1 Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906009.xml
+      - File: CPP No.1 Switch Inspection | Title: CPP No.1 Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906010.xml
+      - File: CPP No.2 Switch Removal and Installation | Title: CPP No.2 Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906011.xml
+      - File: CPP No.2 Switch Inspection | Title: CPP No.2 Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906012.xml
+      - File: Brake Booster Pressure Sensor Inspection | Title: Brake Booster Pressure Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906013.xml
+      - File: Hood Latch Switch Removal and Installation | Title: Hood Latch Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906014.xml
+      - File: Hood Latch Switch Inspection | Title: Hood Latch Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906015.xml
+      - File: ENG A-STOP OFF Switch Removal and Installation | Title: ENG A-STOP OFF Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906017.xml
+      - File: ENG A-STOP OFF Switch Inspection | Title: ENG A-STOP OFF Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA906018.xml
+  - Folder: 10J - Driving Assist System
+    - Folder: Precautions
+      - Folder: Dual Sensor Brake Support
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA10001.xml
+        - File: Precautions for Dual Sensor Brake Support System | Title: Precautions for Dual Sensor Brake Support System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA10002.xml
+        - File: Precautions for Servicing Dual Sensor Brake Support System | Title: Precautions for Servicing Dual Sensor Brake Support System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA10003.xml
+        - File: Precautions for Removing / Installing and Replacing Dual Sensor Brake Support Control Module | Title: Precautions for Removing / Installing and Replacing Dual Sensor Brake Support Control Module | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA10004.xml
+      - Folder: Blind Spot Monitor
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA20001.xml
+        - File: Precautions for Blind Spot Monitor System | Title: Precautions for Blind Spot Monitor System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA20002.xml
+        - File: Precautions for Servicing Blind Spot Monitor System | Title: Precautions for Servicing Blind Spot Monitor System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA20003.xml
+        - File: Precautions for Removing / Installing and Replacing Blind Spot Monitor Control Module | Title: Precautions for Removing / Installing and Replacing Blind Spot Monitor Control Module | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA20004.xml
+      - Folder: Parking Sensor
+        - File: Precautions for Diagnosing Trouble | Title: Precautions for Diagnosing Trouble | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA30001.xml
+        - File: Precautions for Servicing Parking Sensor System | Title: Precautions for Servicing Parking Sensor System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA30002.xml
+    - Folder: General Description
+      - Folder: Dual Sensor Brake Support
+        - File: Dual Sensor Brake Support System Description | Title: Dual Sensor Brake Support System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA11001.xml
+        - File: Description of Dual Sensor Brake Support System Components | Title: Description of Dual Sensor Brake Support System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA11002.xml
+        - File: Description of Dual Sensor Brake Support Function | Title: Description of Dual Sensor Brake Support Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA11003.xml
+        - File: Operation Table of Indicator Light / Information Display / Buzzer | Title: Operation Table of Indicator Light / Information Display / Buzzer | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA11004.xml
+      - Folder: Blind Spot Monitor
+        - File: Blind Spot Monitor System Description | Title: Blind Spot Monitor System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA21001.xml
+        - File: Description of Blind Spot Monitor System Components | Title: Description of Blind Spot Monitor System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA21002.xml
+        - File: Description of Blind Spot Monitor System Function | Title: Description of Blind Spot Monitor System Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA21003.xml
+        - File: Operation Table of Indicator Light / Information Display / Buzzer | Title: Operation Table of Indicator Light / Information Display / Buzzer | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA21004.xml
+      - Folder: Parking Sensor
+        - File: Parking Sensor System Description | Title: Parking Sensor System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA31001.xml
+        - File: Description of Parking Sensor System Components | Title: Description of Parking Sensor System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA31002.xml
+        - File: Description of Parking Sensor System Function | Title: Description of Parking Sensor System Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA31003.xml
+    - Folder: Schematic and Routing Diagram
+      - Folder: Dual Sensor Brake Support
+        - File: Dual Sensor Brake Support System Input / Output Diagram | Title: Dual Sensor Brake Support System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA12001.xml
+        - File: Dual Sensor Brake Support System Circuit Diagram | Title: Dual Sensor Brake Support System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA12002.xml
+      - Folder: Blind Spot Monitor
+        - File: Blind Spot Monitor System Input / Output Diagram | Title: Blind Spot Monitor System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA22001.xml
+        - File: Blind Spot Monitor System Circuit Diagram | Title: Blind Spot Monitor System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA22002.xml
+      - Folder: Parking Sensor
+        - File: Parking Sensor System Input / Output Diagram | Title: Parking Sensor System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA32001.xml
+        - File: Parking Sensor System Circuit Diagram | Title: Parking Sensor System Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA32002.xml
+    - Folder: Component Location
+      - Folder: Dual Sensor Brake Support
+        - File: Dual Sensor Brake Support System Component Location | Title: Dual Sensor Brake Support System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA13001.xml
+      - Folder: Blind Spot Monitor
+        - File: Blind Spot Monitor System Component Location | Title: Blind Spot Monitor System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA23001.xml
+      - Folder: Parking Sensor
+        - File: Parking Sensor System Component Location | Title: Parking Sensor System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA33001.xml
+    - Folder: Diagnostic Information and Procedures
+      - Folder: Dual Sensor Brake Support
+        - File: Dual Sensor Brake Support System Check | Title: Dual Sensor Brake Support System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14001.xml
+        - File: Dual Sensor Brake Support Control Module Self-Diagnosis Function | Title: Dual Sensor Brake Support Control Module Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14005.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14007.xml
+        - File: Scan Tool Active Test Table | Title: Scan Tool Active Test Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14008.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14009.xml
+        - File: Dual Sensor Brake Support System Symptom Diagnosis | Title: Dual Sensor Brake Support System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14010.xml
+        - File: DTC C1680 / C1685 / C1686 / C1688 / C1689 | Title: DTC C1680 / C1685 / C1686 / C1688 / C1689 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14011.xml
+        - File: DTC C1681 | Title: DTC C1681 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14012.xml
+        - File: DTC C1687 / C16A0 | Title: DTC C1687 / C16A0 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14013.xml
+        - File: DTC C1690 / C16C1 | Title: DTC C1690 / C16C1 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14014.xml
+        - File: DTC C16A1 | Title: DTC C16A1 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14015.xml
+        - File: DTC C16A2 | Title: DTC C16A2 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14016.xml
+        - File: DTC C16A3 | Title: DTC C16A3 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14017.xml
+        - File: DTC C16A8 | Title: DTC C16A8 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14018.xml
+        - File: DTC C16A9 | Title: DTC C16A9 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14031.xml
+        - File: DTC C16C0 | Title: DTC C16C0 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14019.xml
+        - File: DTC C16C8 | Title: DTC C16C8 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14020.xml
+        - File: DTC C16C9 | Title: DTC C16C9 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14021.xml
+        - File: DTC U0073 | Title: DTC U0073 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14022.xml
+        - File: DTC U0100 | Title: DTC U0100 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14023.xml
+        - File: DTC U0101 | Title: DTC U0101 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14024.xml
+        - File: DTC U0121 | Title: DTC U0121 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14025.xml
+        - File: DTC U0126 | Title: DTC U0126 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14026.xml
+        - File: DTC U0131 | Title: DTC U0131 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14027.xml
+        - File: DTC U0140 | Title: DTC U0140 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14028.xml
+        - File: DTC U0155 | Title: DTC U0155 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14029.xml
+        - File: Inspection of Dual Sensor Brake Support Control Module and Its Circuits | Title: Inspection of Dual Sensor Brake Support Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14030.xml
+      - Folder: Blind Spot Monitor
+        - File: Blind Spot Monitor System Check | Title: Blind Spot Monitor System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24001.xml
+        - File: Blind Spot Monitor Control Module Self-Diagnosis Function | Title: Blind Spot Monitor Control Module Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24005.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24007.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24008.xml
+        - File: Blind Spot Monitor System Symptom Diagnosis | Title: Blind Spot Monitor System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24009.xml
+        - File: DTC B11C0-42 / B11C0-49 / B11C1-42 / B11C1-49 | Title: DTC B11C0-42 / B11C0-49 / B11C1-42 / B11C1-49 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24010.xml
+        - File: DTC B11C2-05 | Title: DTC B11C2-05 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24011.xml
+        - File: DTC B11C2-4B | Title: DTC B11C2-4B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24012.xml
+        - File: DTC B11C3-16 / B11C3-17 | Title: DTC B11C3-16 / B11C3-17 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24013.xml
+        - File: DTC B11D0-11 / B11D0-15 / B11D1-11 / B11D1-15 | Title: DTC B11D0-11 / B11D0-15 / B11D1-11 / B11D1-15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24014.xml
+        - File: DTC B11D6-97 | Title: DTC B11D6-97 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24015.xml
+        - File: DTC B11E1-56 | Title: DTC B11E1-56 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24016.xml
+        - File: DTC B11E2-54 | Title: DTC B11E2-54 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24017.xml
+        - File: DTC B11E4-76 | Title: DTC B11E4-76 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24018.xml
+        - File: DTC B11F0-88 | Title: DTC B11F0-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24019.xml
+        - File: DTC B11F1-81 | Title: DTC B11F1-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24020.xml
+        - File: DTC B11F2-81 | Title: DTC B11F2-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24021.xml
+        - File: DTC B11F3-81 | Title: DTC B11F3-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24022.xml
+        - File: DTC B11F4-81 | Title: DTC B11F4-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24023.xml
+        - File: DTC B11F6-00 | Title: DTC B11F6-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24024.xml
+        - File: DTC B11F8-81 | Title: DTC B11F8-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24025.xml
+        - File: DTC B11F9-54 | Title: DTC B11F9-54 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24034.xml
+        - File: DTC U0073-88 | Title: DTC U0073-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24026.xml
+        - File: DTC U0100-87 | Title: DTC U0100-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24027.xml
+        - File: DTC U0101-87 | Title: DTC U0101-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24028.xml
+        - File: DTC U0121-87 | Title: DTC U0121-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24029.xml
+        - File: DTC U0126-87 | Title: DTC U0126-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24030.xml
+        - File: DTC U0140-87 | Title: DTC U0140-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24031.xml
+        - File: DTC U0155-87 | Title: DTC U0155-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24032.xml
+        - File: Inspection of Blind Spot Monitor Control Module and Its Circuits | Title: Inspection of Blind Spot Monitor Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24033.xml
+      - Folder: Parking Sensor
+        - File: Parking Sensor System Check | Title: Parking Sensor System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34001.xml
+        - File: Sonar Control Module Self-Diagnosis Function | Title: Sonar Control Module Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34002.xml
+        - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34003.xml
+        - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34004.xml
+        - File: DTC Table | Title: DTC Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34005.xml
+        - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34006.xml
+        - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34007.xml
+        - File: Visual Inspection | Title: Visual Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34008.xml
+        - File: Parking Sensor System Symptom Diagnosis | Title: Parking Sensor System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34009.xml
+        - File: DTC C1001-04 | Title: DTC C1001-04 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34034.xml
+        - File: DTC C1002-00 | Title: DTC C1002-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34035.xml
+        - File: DTC C1003-01 | Title: DTC C1003-01 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34036.xml
+        - File: DTC C1004-01 | Title: DTC C1004-01 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34037.xml
+        - File: DTC C1004-07 | Title: DTC C1004-07 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34038.xml
+        - File: DTC C1006-1C | Title: DTC C1006-1C | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34039.xml
+        - File: DTC C1006-81 | Title: DTC C1006-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34040.xml
+        - File: DTC C1007-81 | Title: DTC C1007-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34041.xml
+        - File: DTC C100C-81 | Title: DTC C100C-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34042.xml
+        - File: DTC C100F-12 / C1010-11 / C1010-13 / C1011-11 / C1011-13 / C1012-11 / C1012-13 / C1013-11 / C1013-13 | Title: DTC C100F-12 / C1010-11 / C1010-13 / C1011-11 / C1011-13 / C1012-11 / C1012-13 / C1013-11 / C1013-13 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34043.xml
+        - File: DTC C1014-11 / C1014-13 / C1015-11 / C1015-13 / C1016-11 / C1016-13 / C1017-11 / C1017-13 / C101C-13 | Title: DTC C1014-11 / C1014-13 / C1015-11 / C1015-13 / C1016-11 / C1016-13 / C1017-11 / C1017-13 / C101C-13 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34044.xml
+        - File: DTC C1018-86 / C1018-96 / C1018-97 / C1019-86 / C1019-96 / C1019-97 / C101A-86 / C101A-96 / C101A-97 / C101B-86 / C101B-96 / C101B-97 | Title: DTC C1018-86 / C1018-96 / C1018-97 / C1019-86 / C1019-96 / C1019-97 / C101A-86 / C101A-96 / C101A-97 / C101B-86 / C101B-96 / C101B-97 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34045.xml
+        - File: DTC C1018-91 / C1019-91 / C101A-91 / C101B-91 | Title: DTC C1018-91 / C1019-91 / C101A-91 / C101B-91 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34046.xml
+        - File: DTC C1021-81 | Title: DTC C1021-81 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34047.xml
+        - File: DTC C102A-00 | Title: DTC C102A-00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34048.xml
+        - File: DTC U0073-88 | Title: DTC U0073-88 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34024.xml
+        - File: DTC U0101-87 | Title: DTC U0101-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34026.xml
+        - File: DTC U0121-87 | Title: DTC U0121-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34027.xml
+        - File: DTC U0126-87 | Title: DTC U0126-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34028.xml
+        - File: DTC U0155-87 | Title: DTC U0155-87 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34030.xml
+        - File: Inspection of Sonar Control Module and Its Circuits | Title: Inspection of Sonar Control Module and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34033.xml
+    - Folder: Repair Instructions
+      - Folder: Dual Sensor Brake Support
+        - File: Dual Sensor Brake Support Control Module Removal and Installation | Title: Dual Sensor Brake Support Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16001.xml
+        - File: Dual Sensor Brake Support Control Module Aiming Adjustment | Title: Dual Sensor Brake Support Control Module Aiming Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16002.xml
+        - File: Print of Aiming Target | Title: Print of Aiming Target | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16003.xml
+        - File: Dual Sensor Brake Support OFF Switch and Lane Departure Warning OFF Switch Removal and Installation | Title: Dual Sensor Brake Support OFF Switch and Lane Departure Warning OFF Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16004.xml
+        - File: Dual Sensor Brake Support OFF Switch and Lane Departure Warning OFF Switch Inspection | Title: Dual Sensor Brake Support OFF Switch and Lane Departure Warning OFF Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16005.xml
+        - File: Lane Departure Prevention Switch Inspection (Lane Departure Prevention Model) | Title: Lane Departure Prevention Switch Inspection (Lane Departure Prevention Model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16008.xml
+        - File: Inspection of Laser Radar | Title: Inspection of Laser Radar | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16009.xml
+        - File: Inspection of High Beam Assist Function | Title: Inspection of High Beam Assist Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA16010.xml
+      - Folder: Blind Spot Monitor
+        - File: Blind Spot Monitor Control Module Removal and Installation | Title: Blind Spot Monitor Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA26001.xml
+        - File: Millimeter Wave Radar Aiming Adjustment | Title: Millimeter Wave Radar Aiming Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA26002.xml
+        - File: Blind Spot Monitor Indicator Light On-Vehicle Inspection | Title: Blind Spot Monitor Indicator Light On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA26003.xml
+      - Folder: Parking Sensor
+        - File: Sonar Control Module Removal and Installation | Title: Sonar Control Module Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36002.xml
+        - File: Parking Sensor Removal and Installation | Title: Parking Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36006.xml
+        - File: Parking Sensor Inspection | Title: Parking Sensor Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36007.xml
+        - File: Parking Sensor Buzzer Removal and Installation | Title: Parking Sensor Buzzer Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36008.xml
+        - File: Parking Sensor Buzzer Inspection | Title: Parking Sensor Buzzer Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36009.xml
+        - File: Parking Sensor OFF Switch Removal and Installation | Title: Parking Sensor OFF Switch Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36004.xml
+        - File: Parking Sensor OFF Switch Inspection | Title: Parking Sensor OFF Switch Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA36005.xml
+    - Folder: Special Tools and Equipment
+      - Folder: Dual Sensor Brake Support
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA18001.xml
+      - Folder: Blind Spot Monitor
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA28001.xml
+      - Folder: Parking Sensor
+        - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA38001.xml
+    - Folder: Specifications
+      - Folder: Blind Spot Monitor
+        - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA27001.xml
+  - Folder: 10K - Auxiliary Power Module System
+    - Folder: Precautions
+      - File: Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery) | Title: Precautions for Handling Auxiliary Power Module (Lithium-Ion Battery) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB00002.xml
+    - Folder: General Description
+      - File: Description for Auxiliary Power Module (Lithium-Ion Battery) Control System | Title: Description for Auxiliary Power Module (Lithium-Ion Battery) Control System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB01001.xml
+      - File: Description of Auxiliary Power Module (Lithium-Ion Battery) Control System Components | Title: Description of Auxiliary Power Module (Lithium-Ion Battery) Control System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB01002.xml
+      - File: Description of SHVS System Control | Title: Description of SHVS System Control | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB01004.xml
+    - Folder: Schematic and Routing Diagram
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Control System Electric Circuit Diagram | Title: Auxiliary Power Module (Lithium-Ion Battery) Control System Electric Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB02001.xml
+    - Folder: Component Location
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Control System Component Location | Title: Auxiliary Power Module (Lithium-Ion Battery) Control System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB03001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Control System Check | Title: Auxiliary Power Module (Lithium-Ion Battery) Control System Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04001.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Self-Diagnosis Function | Title: Auxiliary Power Module (Lithium-Ion Battery) Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04002.xml
+      - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04003.xml
+      - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04004.xml
+      - File: Fail-Safe Table | Title: Fail-Safe Table | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04006.xml
+      - File: Scan Tool Data | Title: Scan Tool Data | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04007.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Control System Symptom Diagnosis | Title: Auxiliary Power Module (Lithium-Ion Battery) Control System Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04008.xml
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04009.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04010.xml
+      - File: DTC P0A7D / P0C30 | Title: DTC P0A7D / P0C30 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04020.xml
+      - File: DTC P0A7E / P1B04 / P1B0C / P1B0D / P1B17 / P1B1E / P1B1F | Title: DTC P0A7E / P1B04 / P1B0C / P1B0D / P1B17 / P1B1E / P1B1F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04021.xml
+      - File: DTC P0A7F /P1B20 | Title: DTC P0A7F /P1B20 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04036.xml
+      - File: DTC P0A8D / P0A8E / P1B02 / P1B18 | Title: DTC P0A8D / P0A8E / P1B02 / P1B18 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04023.xml
+      - File: DTC P0AA1 | Title: DTC P0AA1 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04024.xml
+      - File: DTC P0AA2 / P1B03 | Title: DTC P0AA2 / P1B03 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04025.xml
+      - File: DTC P0AC0 / P1B0E | Title: DTC P0AC0 / P1B0E | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04026.xml
+      - File: DTC P0C6E / P0ECB / P1B00 / P1B01 / P1B10 / P1B11 / P1B12 / P1B13 / P1B14 / P1B15 / P1B21 / P1B22 | Title: DTC P0C6E / P0ECB / P1B00 / P1B01 / P1B10 / P1B11 / P1B12 / P1B13 / P1B14 / P1B15 / P1B21 / P1B22 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04022.xml
+      - File: DTC P0AFD / P1B0B | Title: DTC P0AFD / P1B0B | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04027.xml
+      - File: DTC P1B05 | Title: DTC P1B05 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04029.xml
+      - File: DTC P1B06 | Title: DTC P1B06 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04028.xml
+      - File: DTC P1B07 | Title: DTC P1B07 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04037.xml
+      - File: DTC P1B09 | Title: DTC P1B09 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04030.xml
+      - File: DTC P1B0F | Title: DTC P1B0F | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04031.xml
+      - File: DTC P1B19 / P1B1A | Title: DTC P1B19 / P1B1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04033.xml
+      - File: DTC P1B1B / P1B1C / P1B1D | Title: DTC P1B1B / P1B1C / P1B1D | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04034.xml
+      - File: DTC U1401 / U1402 | Title: DTC U1401 / U1402 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04035.xml
+      - File: Inspection of Auxiliary Power Module (Lithium-Ion Battery) and Its Circuits | Title: Inspection of Auxiliary Power Module (Lithium-Ion Battery) and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04019.xml
+    - Folder: Repair Instructions
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Title: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB06001.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Title: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB06002.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB07001.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB08001.xml
+- Folder: 11 - Electric Power Train
+  - Folder: 11 - Precautions
+    - Folder: Precautions
+  - Folder: 11A - Hybrid / EV Controls
+    - Folder: Precautions
+      - File: Precautions for Replacing ISG | Title: Precautions for Replacing ISG | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB100005.xml
+      - File: Precaution for Handling Auxiliary Power Module (Lithium-Ion Battery) | Title: Precaution for Handling Auxiliary Power Module (Lithium-Ion Battery) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB100004.xml
+    - Folder: General Description
+      - File: Description of SHVS System | Title: Description of SHVS System | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101001.xml
+      - File: Description of SHVS System Function | Title: Description of SHVS System Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101006.xml
+      - File: Description of SHVS System Control | Title: Description of SHVS System Control | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101003.xml
+      - File: Description of SHVS System Component Operation | Title: Description of SHVS System Component Operation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101007.xml
+      - File: Description of SHVS System Components | Title: Description of SHVS System Components | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101002.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Control System Description | Title: Auxiliary Power Module (Lithium-Ion Battery) Control System Description | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB101005.xml
+    - Folder: Schematic and Routing Diagram
+      - File: SHVS System Input / Output Diagram | Title: SHVS System Input / Output Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB102001.xml
+      - File: SHVS System Electric Circuit Diagram | Title: SHVS System Electric Circuit Diagram | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB102002.xml
+    - Folder: Component Location
+      - File: SHVS System Component Location | Title: SHVS System Component Location | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB103001.xml
+    - Folder: Diagnostic Information and Procedures
+      - File: SHVS System Self-Diagnosis Function | Title: SHVS System Self-Diagnosis Function | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104002.xml
+      - File: ENG A-STOP Warning Light Check | Title: ENG A-STOP Warning Light Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104003.xml
+      - File: DTC Check | Title: DTC Check | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104004.xml
+      - File: DTC Clearance | Title: DTC Clearance | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104005.xml
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104010.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104011.xml
+      - File: DTC P0600 / P060C / P1A17 / P1A18 | Title: DTC P0600 / P060C / P1A17 / P1A18 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104026.xml
+      - File: DTC P063B / P1A14 / P1A15 | Title: DTC P063B / P1A14 / P1A15 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104027.xml
+      - File: DTC P0A37 / P0A3A / P0BCD / P0BD0 / P0DF1 / P0DF3 / P0DF4 / P0DF7 | Title: DTC P0A37 / P0A3A / P0BCD / P0BD0 / P0DF1 / P0DF3 / P0DF4 / P0DF7 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104028.xml
+      - File: DTC P0A4C / P0A4F / P0DFB / P0DFC | Title: DTC P0A4C / P0A4F / P0DFB / P0DFC | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104029.xml
+      - File: DTC P0A94 / P0CA2 / P1C05 / P1C0B / P1C1B / P1C1C / P1C1D / P1C1E / P1C1F / P1C20 / P1C21 / P1C23 | Title: DTC P0A94 / P0CA2 / P1C05 / P1C0B / P1C1B / P1C1C / P1C1D / P1C1E / P1C1F / P1C20 / P1C21 / P1C23 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104030.xml
+      - File: DTC P0C3A / P0C3B / P0C3F / P0C40 / P0E5A / P0E5B / P1C0D / P1C0E / P1C0F / P1C10 / P1C11 / P1C12 / P1C13 / P1C14 | Title: DTC P0C3A / P0C3B / P0C3F / P0C40 / P0E5A / P0E5B / P1C0D / P1C0E / P1C0F / P1C10 / P1C11 / P1C12 / P1C13 / P1C14 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104031.xml
+      - File: DTC P0D32 / P1C1A | Title: DTC P0D32 / P1C1A | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104032.xml
+      - File: DTC P0D33 / P0E33 / P0E34 / P0E38 / P0E39 / P0E53 / P0E54 / P0E98 / P0E99 | Title: DTC P0D33 / P0E33 / P0E34 / P0E38 / P0E39 / P0E53 / P0E54 / P0E98 / P0E99 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104033.xml
+      - File: DTC P0E56 / P0E57 / P0E9D / P0E9E / P1C02 / P1C03 / P1C06 | Title: DTC P0E56 / P0E57 / P0E9D / P0E9E / P1C02 / P1C03 / P1C06 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104034.xml
+      - File: DTC P1A0E / P1A0F / P1A10 / P1A11 / P1A13 | Title: DTC P1A0E / P1A0F / P1A10 / P1A11 / P1A13 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104035.xml
+      - File: DTC P1C00 / P1C01 / P1C08 / P1C09 / P1C0A / P1C15 / P1C16 / P1C17 / P1C18 / P1C19 | Title: DTC P1C00 / P1C01 / P1C08 / P1C09 / P1C0A / P1C15 / P1C16 / P1C17 / P1C18 / P1C19 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104036.xml
+      - File: DTC P1C04 | Title: DTC P1C04 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104037.xml
+      - File: DTC P1C07 | Title: DTC P1C07 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104038.xml
+      - File: DTC P1C22 | Title: DTC P1C22 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104039.xml
+      - File: DTC P1C24 | Title: DTC P1C24 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104040.xml
+      - File: DTC P13B0 | Title: DTC P13B0 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104013.xml
+      - File: DTC P1D00 | Title: DTC P1D00 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104042.xml
+      - File: DTC P1D01 | Title: DTC P1D01 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104043.xml
+      - File: DTC U1401 / U1402 | Title: DTC U1401 / U1402 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104041.xml
+      - File: DTC U1460 | Title: DTC U1460 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104044.xml
+      - File: DTC U1468 / U1469 | Title: DTC U1468 / U1469 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104045.xml
+      - File: DTC U1471 / U1472 | Title: DTC U1471 / U1472 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104046.xml
+      - File: DTC U1478 / U1479 | Title: DTC U1478 / U1479 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104047.xml
+      - File: Inspection of ISG and Its Circuits | Title: Inspection of ISG and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104023.xml
+      - File: Inspection of DC/DC Converter and Its Circuits | Title: Inspection of DC/DC Converter and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104024.xml
+      - File: Inspection of Auxiliary Power Module (Lithium-Ion Battery) and Its Circuits | Title: Inspection of Auxiliary Power Module (Lithium-Ion Battery) and Its Circuits | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104025.xml
+    - Folder: Repair Instructions
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Title: Auxiliary Power Module (Lithium-Ion Battery) Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106010.xml
+      - File: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Title: Auxiliary Power Module (Lithium-Ion Battery) Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106011.xml
+      - File: DC/DC Converter Removal and Installation | Title: DC/DC Converter Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106012.xml
+      - File: DC/DC Converter Inspection | Title: DC/DC Converter Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106013.xml
+      - File: Brake Stroke Sensor On-Vehicle Inspection | Title: Brake Stroke Sensor On-Vehicle Inspection | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106006.xml
+      - File: Brake Stroke Sensor Removal and Installation | Title: Brake Stroke Sensor Removal and Installation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106007.xml
+      - File: Brake Stroke Sensor Inspection and Adjustment | Title: Brake Stroke Sensor Inspection and Adjustment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106008.xml
+      - File: Brake Stroke Sensor Zero Point Reset | Title: Brake Stroke Sensor Zero Point Reset | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB106009.xml
+    - Folder: Specifications
+      - File: Tightening Torque Specifications | Title: Tightening Torque Specifications | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB107001.xml
+    - Folder: Special Tools and Equipment
+      - File: Special Tool | Title: Special Tool | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB108001.xml
+- Folder: Unlinked XML
+  - File: Foreword01.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword01.xml
+  - File: Foreword02.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword02.xml
+  - File: Foreword03.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword03.xml
+  - File: Foreword04.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword04.xml
+  - File: Foreword05.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword05.xml
+  - File: Foreword06.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/Foreword06.xml
+  - File: ctl.html | Title: Ctl | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/ctl.html
+  - File: main.html | Title: Main | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/main.html
+  - File: navi.html | Title: SWIFT Sport Service Manual Type 4,5 | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/navi.html
+  - File: top.html | Title: Top | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/navi/top.html
+  - File: webdocstructure-dtc.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure-dtc.xml
+  - File: webdocstructure-sym.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure-sym.xml
+  - File: webdocstructure.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure.xml
+  - File: webdocstructure_00.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_00.xml
+  - File: webdocstructure_01.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_01.xml
+  - File: webdocstructure_02.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_02.xml
+  - File: webdocstructure_10.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_10.xml
+  - File: webdocstructure_11.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_11.xml
+  - File: webdocstructure_12.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_12.xml
+  - File: webdocstructure_13.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_13.xml
+  - File: webdocstructure_14.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_14.xml
+  - File: webdocstructure_15.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_15.xml
+  - File: webdocstructure_16.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_16.xml
+  - File: webdocstructure_17.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_17.xml
+  - File: webdocstructure_18.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_18.xml
+  - File: webdocstructure_19.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_19.xml
+  - File: webdocstructure_1A.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_1A.xml
+  - File: webdocstructure_1B.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_1B.xml
+  - File: webdocstructure_20.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_20.xml
+  - File: webdocstructure_21.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_21.xml
+  - File: webdocstructure_22.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_22.xml
+  - File: webdocstructure_23.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_23.xml
+  - File: webdocstructure_24.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_24.xml
+  - File: webdocstructure_30.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_30.xml
+  - File: webdocstructure_31.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_31.xml
+  - File: webdocstructure_40.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_40.xml
+  - File: webdocstructure_41.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_41.xml
+  - File: webdocstructure_42.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_42.xml
+  - File: webdocstructure_43.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_43.xml
+  - File: webdocstructure_44.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_44.xml
+  - File: webdocstructure_46.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_46.xml
+  - File: webdocstructure_50.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_50.xml
+  - File: webdocstructure_51.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_51.xml
+  - File: webdocstructure_52.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_52.xml
+  - File: webdocstructure_53.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_53.xml
+  - File: webdocstructure_60.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_60.xml
+  - File: webdocstructure_61.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_61.xml
+  - File: webdocstructure_62.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_62.xml
+  - File: webdocstructure_63.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_63.xml
+  - File: webdocstructure_70.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_70.xml
+  - File: webdocstructure_72.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_72.xml
+  - File: webdocstructure_80.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_80.xml
+  - File: webdocstructure_81.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_81.xml
+  - File: webdocstructure_82.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_82.xml
+  - File: webdocstructure_90.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_90.xml
+  - File: webdocstructure_91.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_91.xml
+  - File: webdocstructure_92.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_92.xml
+  - File: webdocstructure_93.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_93.xml
+  - File: webdocstructure_94.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_94.xml
+  - File: webdocstructure_95.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_95.xml
+  - File: webdocstructure_96.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_96.xml
+  - File: webdocstructure_97.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_97.xml
+  - File: webdocstructure_98.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_98.xml
+  - File: webdocstructure_9A.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_9A.xml
+  - File: webdocstructure_9B.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_9B.xml
+  - File: webdocstructure_9C.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_9C.xml
+  - File: webdocstructure_9F.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_9F.xml
+  - File: webdocstructure_A0.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A0.xml
+  - File: webdocstructure_A1.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A1.xml
+  - File: webdocstructure_A2.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A2.xml
+  - File: webdocstructure_A3.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A3.xml
+  - File: webdocstructure_A4.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A4.xml
+  - File: webdocstructure_A5.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A5.xml
+  - File: webdocstructure_A8.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A8.xml
+  - File: webdocstructure_A9.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_A9.xml
+  - File: webdocstructure_AA.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_AA.xml
+  - File: webdocstructure_AB.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_AB.xml
+  - File: webdocstructure_B0.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_B0.xml
+  - File: webdocstructure_B1.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_B1.xml
+  - File: webdocstructure_vars1.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_vars1.xml
+  - File: webdocstructure_vars2.xml | Title:  | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/webdocstructure_vars2.xml

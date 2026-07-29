@@ -1,0 +1,284 @@
+# Navigation Tree: Symptoms
+
+This tree is filtered to remove explicit K14D-labelled nodes only.
+
+- Folder: a - Chapter a
+- Folder: 1 - Engine
+  - Folder: Engine General Information and Diagnosis
+    - Folder: K14C
+      - Folder: Diagnostic Information and Procedures
+        - File: MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: MIL Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114011.xml
+        - File: MIL Remains ON after Engine Starts | Title: MIL Remains ON after Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114012.xml
+        - File: Hard starting (Engine can be cranked) | Title: Hard starting (Engine can be cranked) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A01.xml
+        - File: Low oil pressure | Title: Low oil pressure | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A02.xml
+        - File: Engine noise – Valve noise | Title: Engine noise – Valve noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A03.xml
+        - File: Engine noise – Piston, piston ring and cylinder noise | Title: Engine noise – Piston, piston ring and cylinder noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A04.xml
+        - File: Engine noise – Connecting rod noise | Title: Engine noise – Connecting rod noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A05.xml
+        - File: Engine noise – Crankshaft noise | Title: Engine noise – Crankshaft noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A06.xml
+        - File: Engine overheating | Title: Engine overheating | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A07.xml
+        - File: Poor fuel mileage | Title: Poor fuel mileage | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A08.xml
+        - File: Excessive engine oil consumption – Oil leakage | Title: Excessive engine oil consumption – Oil leakage | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A09.xml
+        - File: Excessive engine oil consumption – Oil entering combustion chamber | Title: Excessive engine oil consumption – Oil entering combustion chamber | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A10.xml
+        - File: Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal, etc. | Title: Engine hesitates – Momentary lack of response as accelerator is depressed. Can occur at all vehicle speeds. Usually severest when moving out from a stop at stop signal, etc. | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A11.xml
+        - File: Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position. | Title: Surge – Engine power variation under steady throttle or cruise. Vehicle speed changes up and down with no change in accelerator pedal position. | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A12.xml
+        - File: Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening. | Title: Excessive detonation – Engine continuously generates sharp, metallic knocking sound that changes with throttle opening. | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A13.xml
+        - File: Poor engine power | Title: Poor engine power | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A14.xml
+        - File: Improper engine idling or engine fails to idle | Title: Improper engine idling or engine fails to idle | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A15.xml
+        - File: Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission | Title: Excessive hydrocarbon (HC) emission or carbon monoxide (CO) emission | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A16.xml
+        - File: Excessive nitrogen oxides (NOx) emission | Title: Excessive nitrogen oxides (NOx) emission | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1114A17.xml
+  - Folder: Engine Cooling System
+    - Folder: K14C
+      - Folder: Diagnostic Information and Procedures
+        - File: Engine overheats (Radiator fan operates) | Title: Engine overheats (Radiator fan operates) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1614A01.xml
+        - File: Engine overheats (Radiator fan does not operate) | Title: Engine overheats (Radiator fan does not operate) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1614A02.xml
+  - Folder: Starting System
+    - Folder: K14C
+      - Folder: Diagnostic Information and Procedures
+        - File: Starting motor not running (No operating sound of magnetic switch) | Title: Starting motor not running (No operating sound of magnetic switch) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914A01.xml
+        - File: Starting motor not running (Operating sound of magnetic switch heard) | Title: Starting motor not running (Operating sound of magnetic switch heard) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914A02.xml
+        - File: Starting motor running but too slow (small torque) | Title: Starting motor running but too slow (small torque) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914A03.xml
+        - File: Starting motor running, but not cranking engine | Title: Starting motor running, but not cranking engine | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914A04.xml
+        - File: Noise | Title: Noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1914A05.xml
+  - Folder: Charging System
+    - Folder: K14C
+      - Folder: Diagnostic Information and Procedures
+        - File: Charge warning light does not light with ignition “ON” and engine off | Title: Charge warning light does not light with ignition “ON” and engine off | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14A01.xml
+        - File: Charge warning light does not go out with engine running (Battery requires frequent recharging) | Title: Charge warning light does not go out with engine running (Battery requires frequent recharging) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14A02.xml
+        - File: Undercharged battery | Title: Undercharged battery | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14A03.xml
+        - File: Overcharged battery | Title: Overcharged battery | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14A04.xml
+        - File: Noisy generator | Title: Noisy generator | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A1A14A05.xml
+- Folder: 2 - Suspension
+  - Folder: Suspension General Diagnosis
+    - Folder: Diagnostic Information and Procedures
+      - File: Vehicle pulls to one side (leads) | Title: Vehicle pulls to one side (leads) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A01.xml
+      - File: Excessive tire wear | Title: Excessive tire wear | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A02.xml
+      - File: Wheel tramp | Title: Wheel tramp | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A03.xml
+      - File: Shimmy, shake or vibration | Title: Shimmy, shake or vibration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A04.xml
+      - File: Abnormal noise | Title: Abnormal noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A05.xml
+      - File: Too low or uneven trim heights | Title: Too low or uneven trim heights | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A06.xml
+      - File: Too soft ride | Title: Too soft ride | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A07.xml
+      - File: Suspension bottoms | Title: Suspension bottoms | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A08.xml
+      - File: Body leans or sways in corners | Title: Body leans or sways in corners | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A09.xml
+      - File: Cupped tires | Title: Cupped tires | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A2104A10.xml
+- Folder: 3 - Driveline / Axle
+  - Folder: Drive Shaft / Axle
+    - Folder: Front
+      - Folder: Diagnostic Information and Procedures
+        - File: Abnormal noise | Title: Abnormal noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A3114A01.xml
+- Folder: 4 - Brakes
+  - Folder: Brake Control System and Diagnosis
+    - Folder: Diagnostic Information and Procedures
+      - File: Not enough braking force | Title: Not enough braking force | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A01.xml
+      - File: Vehicle pulls to one side (Brakes not working uniformly) | Title: Vehicle pulls to one side (Brakes not working uniformly) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A02.xml
+      - File: Noise (High pitched squeak without brake applied) | Title: Noise (High pitched squeak without brake applied) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A03.xml
+      - File: Excessive pedal travel (Pedal stroke too large) | Title: Excessive pedal travel (Pedal stroke too large) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A04.xml
+      - File: Brake locked | Title: Brake locked | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A05.xml
+      - File: Dragging brakes (A very light drag is present in all brakes immediately after pedal is released) | Title: Dragging brakes (A very light drag is present in all brakes immediately after pedal is released) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A06.xml
+      - File: Pedal pulsation (Pedal pulsates when depressed for braking) | Title: Pedal pulsation (Pedal pulsates when depressed for braking) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A07.xml
+      - File: Braking noise | Title: Braking noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4104A08.xml
+  - Folder: Electronic Stability Program
+    - Folder: Diagnostic Information and Procedures
+      - File: ESP® Warning Light Does Not Come ON after Setting Ignition “ON” | Title: ESP&#174; Warning Light Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604011.xml
+      - File: ESP® Warning Light Comes ON Steady | Title: ESP&#174; Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604012.xml
+      - File: ABS Warning Light Does Not Come ON after Setting Ignition “ON” | Title: ABS Warning Light Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604013.xml
+      - File: ABS Warning Light Comes ON Steady | Title: ABS Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604014.xml
+      - File: EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON” | Title: EBD Warning Light (Brake Warning Light) Does Not Come ON after Setting Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604015.xml
+      - File: EBD Warning Light (Brake Warning Light) Comes ON Steady | Title: EBD Warning Light (Brake Warning Light) Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604016.xml
+      - File: ESP® warning light remains lit for more than 2 seconds after setting ignition “ON” | Title: ESP&#174; warning light remains lit for more than 2 seconds after setting ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A01.xml
+      - File: ABS warning light remains lit for more than 2 seconds after setting ignition “ON” | Title: ABS warning light remains lit for more than 2 seconds after setting ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A02.xml
+      - File: ABS and/or ESP® warning light does not turn ON after setting ignition “ON” | Title: ABS and/or ESP&#174; warning light does not turn ON after setting ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A03.xml
+      - File: ABS warning light blinks | Title: ABS warning light blinks | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A04.xml
+      - File: EBD warning light (Brake warning light) remains lit for more than 2 seconds after setting ignition “ON” | Title: EBD warning light (Brake warning light) remains lit for more than 2 seconds after setting ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A05.xml
+      - File: EBD warning light (Brake warning light) does not turn ON after setting ignition “ON” | Title: EBD warning light (Brake warning light) does not turn ON after setting ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A4604A06.xml
+- Folder: 5 - Transmission / Transaxle
+  - Folder: Automatic Transmission/Transaxle
+    - Folder: Diagnostic Information and Procedures
+      - File: A/T Symptom Diagnosis | Title: A/T Symptom Diagnosis | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104017.xml
+      - File: Transmission Warning Light Does Not Come ON with Ignition ON | Title: Transmission Warning Light Does Not Come ON with Ignition ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104020.xml
+      - File: Transmission Warning Light Remains ON with Ignition ON | Title: Transmission Warning Light Remains ON with Ignition ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5104021.xml
+  - Folder: Manual Transmission/Transaxle
+    - Folder: Diagnostic Information and Procedures
+      - File: Gears slipping out of mesh | Title: Gears slipping out of mesh | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5204A01.xml
+      - File: Hard shifting | Title: Hard shifting | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5204A02.xml
+      - File: Noise | Title: Noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5204A03.xml
+  - Folder: Clutch
+    - Folder: Diagnostic Information and Procedures
+      - File: Slipping | Title: Slipping | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304A01.xml
+      - File: Dragging clutch | Title: Dragging clutch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304A02.xml
+      - File: Clutch vibration | Title: Clutch vibration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304A03.xml
+      - File: Noisy clutch | Title: Noisy clutch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304A04.xml
+      - File: Grabbing clutch | Title: Grabbing clutch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A5304A05.xml
+- Folder: 6 - Steering
+  - Folder: Steering General Diagnosis
+    - Folder: Diagnostic Information and Procedures
+      - File: Hard steering | Title: Hard steering | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A01.xml
+      - File: Too much play in steering | Title: Too much play in steering | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A02.xml
+      - File: Poor return ability | Title: Poor return ability | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A03.xml
+      - File: Steering noise (Rattle or chuckle) | Title: Steering noise (Rattle or chuckle) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A04.xml
+      - File: Wander or poor steering stability | Title: Wander or poor steering stability | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A05.xml
+      - File: Erratic steering when braking | Title: Erratic steering when braking | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A06.xml
+      - File: Steering lock does not operate (not locked or released) | Title: Steering lock does not operate (not locked or released) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6104A07.xml
+  - Folder: Power Assisted Steering System
+    - Folder: Diagnostic Information and Procedures
+      - File: P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts | Title: P/S Warning Light Does Not Come ON with Ignition “ON” before Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304010.xml
+      - File: P/S Warning Light Remains ON Steady after Engine Starts | Title: P/S Warning Light Remains ON Steady after Engine Starts | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304011.xml
+      - File: Steering wheel feels heavy | Title: Steering wheel feels heavy | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304A01.xml
+      - File: Steering wheel feels heavy momentarily when turning it to left or right | Title: Steering wheel feels heavy momentarily when turning it to left or right | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304A02.xml
+      - File: Poor recovery from turns | Title: Poor recovery from turns | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304A03.xml
+      - File: Vehicle pulls to one side during straight driving | Title: Vehicle pulls to one side during straight driving | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304A04.xml
+      - File: Abnormal noise | Title: Abnormal noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A6304A05.xml
+- Folder: 7 - HVAC
+  - Folder: HVAC System
+    - Folder: Diagnostic Information and Procedures
+      - File: Blower motor does not operate | Title: Blower motor does not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A01.xml
+      - File: No cool air comes out (A/C system does not operate) | Title: No cool air comes out (A/C system does not operate) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A02.xml
+      - File: No cool air comes out (Radiator cooling fan motor does not operate) | Title: No cool air comes out (Radiator cooling fan motor does not operate) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A03.xml
+      - File: Cool air does not come out or insufficient cooling (Compressor in normal operation) | Title: Cool air does not come out or insufficient cooling (Compressor in normal operation) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A04.xml
+      - File: Cool air does not come out intermittently | Title: Cool air does not come out intermittently | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A05.xml
+      - File: Cool air comes out only at high speed | Title: Cool air comes out only at high speed | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A06.xml
+      - File: Cool air does not come out only at high speed | Title: Cool air does not come out only at high speed | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A07.xml
+      - File: Insufficient cool air flow | Title: Insufficient cool air flow | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A08.xml
+      - File: During compressor operation, a rumbling noise is heard as to engine speed increases | Title: During compressor operation, a rumbling noise is heard as to engine speed increases | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A09.xml
+      - File: Loud noise is heard at certain rpm, irrespective of greatness of speed | Title: Loud noise is heard at certain rpm, irrespective of greatness of speed | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A10.xml
+      - File: Loud rattle is heard at low engine rpm | Title: Loud rattle is heard at low engine rpm | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A11.xml
+      - File: Rumbling noise is heard when compressor is not in operation | Title: Rumbling noise is heard when compressor is not in operation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A12.xml
+      - File: Chattering noise is heard when compressor is in operation | Title: Chattering noise is heard when compressor is in operation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A13.xml
+      - File: Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment | Title: Droning noise is heard from inside of the vehicle, but not particularly noticeable in engine compartment | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A14.xml
+      - File: Considerable vibration in condenser assembly | Title: Considerable vibration in condenser assembly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A15.xml
+      - File: Large rattling noise is heard at idle or sudden acceleration | Title: Large rattling noise is heard at idle or sudden acceleration | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A16.xml
+      - File: Clattering noise is heard from pulley | Title: Clattering noise is heard from pulley | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A17.xml
+      - File: Pulley cranks upon contact | Title: Pulley cranks upon contact | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A18.xml
+      - File: Whistling sound is heard from evaporator | Title: Whistling sound is heard from evaporator | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A19.xml
+      - File: Blower motor emits a chirping sound in proportion to its speed of rotation | Title: Blower motor emits a chirping sound in proportion to its speed of rotation | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A20.xml
+      - File: Fluttering noise or large droning noise is heard from blower motor | Title: Fluttering noise or large droning noise is heard from blower motor | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A7204A21.xml
+- Folder: 8 - Restraint
+  - Folder: Air Bag System
+    - Folder: Diagnostic Information and Procedures
+      - File: “AIR BAG” Warning Light Comes ON Steady | Title: “AIR BAG” Warning Light Comes ON Steady | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204009.xml
+      - File: “AIR BAG” Warning Light Does Not Come ON | Title: “AIR BAG” Warning Light Does Not Come ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A8204010.xml
+- Folder: 9 - Body, Cab and Accessories
+  - Folder: Lighting Systems
+    - Folder: Diagnostic Information and Procedures
+      - File: Low-beam or high-beam headlight(s) does not light up | Title: Low-beam or high-beam headlight(s) does not light up | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A01.xml
+      - File: Headlight manual leveling system does not operate (Headlight manual leveling model) | Title: Headlight manual leveling system does not operate (Headlight manual leveling model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A02.xml
+      - File: Headlight auto leveling system does not operate (Headlight auto leveling model) | Title: Headlight auto leveling system does not operate (Headlight auto leveling model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A03.xml
+      - File: Auto-on headlight system malfunctions | Title: Auto-on headlight system malfunctions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A04.xml
+      - File: Front or rear fog light(s) does not light up (If equipped) | Title: Front or rear fog light(s) does not light up (If equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A05.xml
+      - File: Dome light or luggage compartment light does not light up | Title: Dome light or luggage compartment light does not light up | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A06.xml
+      - File: Clearance light(s), tail light(s) or license plate light(s) does not light up | Title: Clearance light(s), tail light(s) or license plate light(s) does not light up | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A07.xml
+      - File: Intensity of LED in headlight unit is not changed | Title: Intensity of LED in headlight unit is not changed | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A08.xml
+      - File: Back up light(s) does not light up | Title: Back up light(s) does not light up | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A09.xml
+      - File: Brake light(s) does not light up | Title: Brake light(s) does not light up | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A10.xml
+      - File: Turn signal / hazard warning light(s) does not flash | Title: Turn signal / hazard warning light(s) does not flash | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9204A11.xml
+  - Folder: Wipers / Washers
+    - Folder: Diagnostic Information and Procedures
+      - File: Wiper malfunctions | Title: Wiper malfunctions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9404A01.xml
+      - File: Washer malfunctions | Title: Washer malfunctions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9404A02.xml
+      - File: Wiper malfunctions | Title: Wiper malfunctions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9404A03.xml
+      - File: Washer malfunctions | Title: Washer malfunctions | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9404A04.xml
+  - Folder: Glass / Windows / Mirrors
+    - Folder: Diagnostic Information and Procedures
+      - File: All power windows cannot operate | Title: All power windows cannot operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A01.xml
+      - File: One of the power window cannot operate | Title: One of the power window cannot operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A02.xml
+      - File: Auto-up / auto-down function does not operate | Title: Auto-up / auto-down function does not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A03.xml
+      - File: Abnormal noise | Title: Abnormal noise | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A04.xml
+      - File: All power door mirrors do not operate | Title: All power door mirrors do not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A05.xml
+      - File: One of the power door mirrors cannot operate | Title: One of the power door mirrors cannot operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A06.xml
+      - File: Power door mirrors cannot move smoothly | Title: Power door mirrors cannot move smoothly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A07.xml
+      - File: Rear defogger cannot operate | Title: Rear defogger cannot operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A08.xml
+      - File: All mirror heaters do not operate | Title: All mirror heaters do not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A09.xml
+      - File: One of the door mirror heaters does not operate | Title: One of the door mirror heaters does not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9504A10.xml
+  - Folder: Security and Locks
+    - Folder: Diagnostic Information and Procedures
+      - File: Only one door cannot be locked / unlocked | Title: Only one door cannot be locked / unlocked | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604A01.xml
+      - File: All doors cannot be locked / unlocked | Title: All doors cannot be locked / unlocked | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604A02.xml
+      - File: Malfunctioning request switches | Title: Malfunctioning request switches | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604A03.xml
+      - File: Faulty answer-back function of interior light | Title: Faulty answer-back function of interior light | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604A04.xml
+      - File: Faulty answer-back function of hazard warning light | Title: Faulty answer-back function of hazard warning light | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9604A05.xml
+  - Folder: Seats
+    - Folder: Diagnostic Information and Procedures
+      - File: Both seatback and cushion do not become hot although seat heater switch is ON | Title: Both seatback and cushion do not become hot although seat heater switch is ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9704A01.xml
+      - File: Only seatback does not become hot although seat heater switch is ON | Title: Only seatback does not become hot although seat heater switch is ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9704A02.xml
+      - File: Only seat cushion does not become hot although seat heater switch is ON | Title: Only seat cushion does not become hot although seat heater switch is ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9704A03.xml
+  - Folder: Audio Visual / Navigation
+    - Folder: Diagnostic Information and Procedures
+      - File: Audio unit cannot turn ON | Title: Audio unit cannot turn ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A01.xml
+      - File: Poor radio reception | Title: Poor radio reception | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A02.xml
+      - File: No sound from speaker | Title: No sound from speaker | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A03.xml
+      - File: Light mode does not change when lighting switch is turned on | Title: Light mode does not change when lighting switch is turned on | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A04.xml
+      - File: Audio system is operative, but audio control switch does not control audio system | Title: Audio system is operative, but audio control switch does not control audio system | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A05.xml
+      - File: Impossible to call using hands-free system (if equipped) | Title: Impossible to call using hands-free system (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A06.xml
+      - File: Rearview image does not come out even when shift lever is shifted to reverse position (if equipped) | Title: Rearview image does not come out even when shift lever is shifted to reverse position (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A07.xml
+      - File: Rearview image is unclear (if equipped) | Title: Rearview image is unclear (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A08.xml
+      - File: Rearview image vibrates too much, or looks different from usual cases (if equipped) | Title: Rearview image vibrates too much, or looks different from usual cases (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A09.xml
+      - File: USB device connected to USB socket is not recognized by audio unit (if equipped) | Title: USB device connected to USB socket is not recognized by audio unit (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A10.xml
+      - File: AUX device connected to AUX socket is not recognized by audio unit (if equipped) | Title: AUX device connected to AUX socket is not recognized by audio unit (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0A9F04A11.xml
+- Folder: 10 - Control Systems
+  - Folder: Cruise Control System
+    - Folder: Cruise Control
+      - Folder: Diagnostic Information and Procedures
+        - File: “CRUISE” or “SET” indicator does not turn ON or OFF | Title: “CRUISE” or “SET” indicator does not turn ON or OFF | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114A01.xml
+        - File: Vehicle speed cannot be set | Title: Vehicle speed cannot be set | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114A02.xml
+        - File: Acceleration or deceleration is not available by operating RES/+ or SET/– switch | Title: Acceleration or deceleration is not available by operating RES/+ or SET/– switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114A03.xml
+        - File: Cruise control system cannot be canceled | Title: Cruise control system cannot be canceled | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114A04.xml
+        - File: Cruise control at vehicle speed stored in memory cannot be resumed after cruise control was canceled by means other than CRUISE (main) switch | Title: Cruise control at vehicle speed stored in memory cannot be resumed after cruise control was canceled by means other than CRUISE (main) switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA114A05.xml
+    - Folder: Adaptive Cruise Control
+      - Folder: Diagnostic Information and Procedures
+        - File: Adaptive cruise control system cannot be ON | Title: Adaptive cruise control system cannot be ON | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A01.xml
+        - File: Vehicle speed cannot be set | Title: Vehicle speed cannot be set | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A02.xml
+        - File: Acceleration or deceleration is not available by operating RES/+ or SET/– switch | Title: Acceleration or deceleration is not available by operating RES/+ or SET/– switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A03.xml
+        - File: Vehicle distance cannot be changed | Title: Vehicle distance cannot be changed | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A04.xml
+        - File: Adaptive cruise control cannot be canceled | Title: Adaptive cruise control cannot be canceled | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A05.xml
+        - File: Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch | Title: Adaptive cruise control at vehicle speed stored in memory cannot be resumed after adaptive cruise control was canceled by means other than CRUISE (main) switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A06.xml
+        - File: “LIMIT” or “SET” indicator light does not turn ON or OFF | Title: “LIMIT” or “SET” indicator light does not turn ON or OFF | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A07.xml
+        - File: Maximum speed cannot be set | Title: Maximum speed cannot be set | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A08.xml
+        - File: Maximum speed cannot be changed by operating RES/+ or SET/– switch | Title: Maximum speed cannot be changed by operating RES/+ or SET/– switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A09.xml
+        - File: Speed limiter system cannot be canceled | Title: Speed limiter system cannot be canceled | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A10.xml
+        - File: Speed limiter system cannot resume maximum speed stored in memory after the system was canceled by CANCEL switch | Title: Speed limiter system cannot resume maximum speed stored in memory after the system was canceled by CANCEL switch | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA124A11.xml
+  - Folder: Engine Auto Stop Start System
+    - Folder: Diagnostic Information and Procedures
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904009.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904010.xml
+      - File: Engine auto stop control does not operate | Title: Engine auto stop control does not operate | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904A01.xml
+      - File: Engine auto start control does not operate after engine auto stop | Title: Engine auto start control does not operate after engine auto stop | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904A02.xml
+      - File: Engine auto stop control operates under conditions other than those specified | Title: Engine auto stop control operates under conditions other than those specified | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AA904A03.xml
+  - Folder: Driving Assist System
+    - Folder: Dual Sensor Brake Support
+      - Folder: Diagnostic Information and Procedures
+        - File: Dual sensor brake support does not work normally | Title: Dual sensor brake support does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A01.xml
+        - File: Dual sensor brake support works unexpectedly | Title: Dual sensor brake support works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A02.xml
+        - File: Lane departure warning function does not work normally | Title: Lane departure warning function does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A03.xml
+        - File: Lane departure warning function works unexpectedly | Title: Lane departure warning function works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A04.xml
+        - File: Vehicle swaying warning function does not work normally | Title: Vehicle swaying warning function does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A05.xml
+        - File: Vehicle swaying warning function work unexpectedly | Title: Vehicle swaying warning function work unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A06.xml
+        - File: High beam assist function does not work normally | Title: High beam assist function does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A07.xml
+        - File: High beam assist function works unexpectedly | Title: High beam assist function works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A08.xml
+        - File: Lane departure prevention function does not work normally (lane departure prevention model) | Title: Lane departure prevention function does not work normally (lane departure prevention model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A09.xml
+        - File: Lane departure prevention function works unexpectedly (lane departure prevention model) | Title: Lane departure prevention function works unexpectedly (lane departure prevention model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A10.xml
+        - File: Dual sensor brake support cannot be switched ON or OFF | Title: Dual sensor brake support cannot be switched ON or OFF | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A11.xml
+        - File: Lane departure warning and vehicle swaying warning cannot be switched ON or OFF | Title: Lane departure warning and vehicle swaying warning cannot be switched ON or OFF | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A12.xml
+        - File: Lane departure prevention function cannot be switched ON or OFF (lane departure prevention model) | Title: Lane departure prevention function cannot be switched ON or OFF (lane departure prevention model) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A13.xml
+        - File: Traffic sign recognition function does not work normally (if equipped) | Title: Traffic sign recognition function does not work normally (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A14.xml
+        - File: Traffic sign recognition function works unexpectedly (if equipped) | Title: Traffic sign recognition function works unexpectedly (if equipped) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA14A15.xml
+    - Folder: Blind Spot Monitor
+      - Folder: Diagnostic Information and Procedures
+        - File: Blind spot monitor function does not work normally | Title: Blind spot monitor function does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24A01.xml
+        - File: Blind spot monitor function works unexpectedly | Title: Blind spot monitor function works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24A02.xml
+        - File: Blind spot monitor indicator light (left / right) do not come ON with ignition “ON” | Title: Blind spot monitor indicator light (left / right) do not come ON with ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24A03.xml
+        - File: Rear cross traffic alert function does not work normally | Title: Rear cross traffic alert function does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24A04.xml
+        - File: Rear cross traffic alert function works unexpectedly | Title: Rear cross traffic alert function works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA24A05.xml
+    - Folder: Parking Sensor
+      - Folder: Diagnostic Information and Procedures
+        - File: Parking sensor system does not work normally | Title: Parking sensor system does not work normally | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34A01.xml
+        - File: Parking sensor system works unexpectedly | Title: Parking sensor system works unexpectedly | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34A02.xml
+        - File: Parking sensor system cannot be switched ON or OFF | Title: Parking sensor system cannot be switched ON or OFF | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAA34A03.xml
+  - Folder: Auxiliary Power Module System
+    - Folder: Diagnostic Information and Procedures
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04009.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04010.xml
+      - File: Energy flow indication is not indicated | Title: Energy flow indication is not indicated | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AAB04A01.xml
+- Folder: 11 - Electric Power Train
+  - Folder: Hybrid / EV Controls
+    - Folder: Diagnostic Information and Procedures
+      - File: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Title: ENG A-STOP Warning Light Does Not Come ON with Ignition “ON” and Engine Stopped (but Engine Can Be Started) | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104010.xml
+      - File: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Title: ENG A-STOP Warning Light Remains ON or Blinking with Ignition “ON” | Path: ./source-mirror/SWIFT_A2L310_A2L412_A2L414/xml/AENLSB0A/AENLSB0AB104011.xml
